@@ -227,7 +227,9 @@ test("mobile hero keeps the decorative SVG flourishes visible", async () => {
       display: computed.display,
       backgroundImage: computed.backgroundImage,
       opacity: Number.parseFloat(computed.opacity),
-      width: Number.parseFloat(computed.width)
+      width: Number.parseFloat(computed.width),
+      left: Number.parseFloat(computed.left),
+      right: Number.parseFloat(computed.right)
     };
   }));
 
@@ -235,7 +237,8 @@ test("mobile hero keeps the decorative SVG flourishes visible", async () => {
     assert.notEqual(flourish.display, "none", "decorative SVG flourish should render on mobile");
     assert.match(flourish.backgroundImage, /svg\+xml/, "mobile flourish should retain the SVG artwork");
     assert.ok(flourish.opacity >= 0.75, `mobile flourish should have clear contrast; received opacity ${flourish.opacity}`);
-    assert.ok(flourish.width >= 130, `mobile flourish should expose enough artwork; received width ${flourish.width}px`);
+    assert.ok(flourish.width >= 96 && flourish.width <= 110, `mobile flourish should be compact enough to fit wholly on screen; received width ${flourish.width}px`);
+    assert.ok(Math.min(flourish.left, flourish.right) >= 0, `mobile flourish should not be clipped by the viewport; received left ${flourish.left}px and right ${flourish.right}px`);
   }
 
   await context.close();
@@ -252,13 +255,20 @@ test("mobile search results retain the decorative SVG flourishes", async () => {
 
   const flourishes = await page.locator(".home-hero").evaluate((element) => ["::before", "::after"].map((pseudo) => {
     const computed = getComputedStyle(element, pseudo);
-    return { display: computed.display, opacity: Number.parseFloat(computed.opacity), width: Number.parseFloat(computed.width) };
+    return {
+      display: computed.display,
+      opacity: Number.parseFloat(computed.opacity),
+      width: Number.parseFloat(computed.width),
+      left: Number.parseFloat(computed.left),
+      right: Number.parseFloat(computed.right)
+    };
   }));
 
   for (const flourish of flourishes) {
     assert.notEqual(flourish.display, "none", "decorative SVG flourish should remain visible with search results");
     assert.ok(flourish.opacity >= 0.6, `active-search flourish should have clear contrast; received opacity ${flourish.opacity}`);
-    assert.ok(flourish.width >= 100, `active-search flourish should expose enough artwork; received width ${flourish.width}px`);
+    assert.ok(flourish.width >= 78 && flourish.width <= 90, `active-search flourish should be compact enough to fit wholly on screen; received width ${flourish.width}px`);
+    assert.ok(Math.min(flourish.left, flourish.right) >= 0, `active-search flourish should not be clipped; received left ${flourish.left}px and right ${flourish.right}px`);
   }
 
   await context.close();

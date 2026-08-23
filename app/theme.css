@@ -254,12 +254,12 @@ mark { background: var(--sun-soft); }
   .home-hero::after {
     display: block;
     top: 48px;
-    width: 142px;
-    height: 66px;
-    opacity: .8;
+    width: 104px;
+    height: 49px;
+    opacity: .85;
   }
-  .home-hero::before { left: -28px; }
-  .home-hero::after { right: -28px; }
+  .home-hero::before { left: 4px; }
+  .home-hero::after { right: 4px; }
   .home-hero h1 { max-width: 320px; font-size: clamp(32px, 9.5vw, 38px); line-height: 1.08; }
   .home-sub { margin-top: 14px; font-size: 15px; }
   .home-hero .searchwrap { margin-top: 26px; }
@@ -273,9 +273,9 @@ mark { background: var(--sun-soft); }
   .home-hero.compact .search input { height: 58px; padding-left: 50px; font-size: 16px; }
   .home-hero.compact .search > svg { left: 17px; width: 22px; height: 22px; }
   .home-hero.compact::before,
-  .home-hero.compact::after { display: block; top: 24px; width: 112px; height: 52px; opacity: .66; }
-  .home-hero.compact::before { left: -22px; }
-  .home-hero.compact::after { right: -22px; }
+  .home-hero.compact::after { display: block; top: 24px; width: 84px; height: 40px; opacity: .72; }
+  .home-hero.compact::before { left: 4px; }
+  .home-hero.compact::after { right: 4px; }
   .home-main { padding: 0 18px 52px; }
   .start-here > h2 { margin-bottom: 14px; text-align: left; font-size: 23px; }
   .start-list { gap: 10px; }
