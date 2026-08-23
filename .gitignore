@@ -1,0 +1,6 @@
+# Source workbook stays local — the app ships the generated app/data.json instead.
+*.xlsx
+~$*
+
+# Local tooling
+.claude/
