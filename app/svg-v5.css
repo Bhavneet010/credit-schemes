@@ -1,0 +1,26 @@
+/* Versioned mobile artwork override so older service workers cannot reuse a clipped theme rule. */
+@media (max-width: 680px) {
+  .home-hero::before,
+  .home-hero::after {
+    display: block;
+    top: 48px;
+    width: 104px;
+    height: 49px;
+    opacity: .85;
+  }
+
+  .home-hero::before { left: 4px; }
+  .home-hero::after { right: 4px; }
+
+  .home-hero.compact::before,
+  .home-hero.compact::after {
+    display: block;
+    top: 24px;
+    width: 84px;
+    height: 40px;
+    opacity: .72;
+  }
+
+  .home-hero.compact::before { left: 4px; }
+  .home-hero.compact::after { right: 4px; }
+}

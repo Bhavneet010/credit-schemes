@@ -38,6 +38,7 @@ test("install precaches the redesigned light theme for offline use", async () =>
   await installWork;
 
   assert.ok(cachedShell.includes("./theme.css"), "offline shell should include the active theme stylesheet");
+  assert.ok(cachedShell.includes("./svg-v5.css"), "offline shell should include the versioned mobile SVG override");
 });
 
 test("activation removes v1 through v4 shells so cached clients receive the latest release", async () => {

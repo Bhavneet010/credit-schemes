@@ -5,6 +5,7 @@ var SHELL = [
   "./index.html",
   "./styles.css",
   "./theme.css",
+  "./svg-v5.css",
   "./sw-refresh.js",
   "./app.js",
   "./data.json",
