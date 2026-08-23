@@ -1,5 +1,7 @@
 # HP Scheme Finder
 
+**Live: https://bhavneet010.github.io/credit-schemes/**
+
 A minimalist, installable PWA for searching Himachal Pradesh and central government
 schemes by business activity. All content comes from
 `Himachal_Pradesh_MSME_Agri_Scheme_Guide_2026_verified.xlsx` (research cutoff 2026-08-23).
