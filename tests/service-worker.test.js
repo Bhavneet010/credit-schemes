@@ -40,10 +40,10 @@ test("install precaches the redesigned light theme for offline use", async () =>
   assert.ok(cachedShell.includes("./theme.css"), "offline shell should include the active theme stylesheet");
 });
 
-test("activation removes the previous v1 shell so installed users receive the redesign", async () => {
+test("activation removes v1 and v2 shells so cached clients receive the latest release", async () => {
   const deleted = [];
   const caches = {
-    keys: async () => ["hpsf-v1"],
+    keys: async () => ["hpsf-v1", "hpsf-v2"],
     delete: async (key) => { deleted.push(key); }
   };
   const listeners = loadServiceWorker(caches);
@@ -52,5 +52,5 @@ test("activation removes the previous v1 shell so installed users receive the re
   listeners.activate({ waitUntil(promise) { activationWork = promise; } });
   await activationWork;
 
-  assert.deepEqual(deleted, ["hpsf-v1"]);
+  assert.deepEqual(deleted, ["hpsf-v1", "hpsf-v2"]);
 });
