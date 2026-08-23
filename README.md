@@ -47,9 +47,10 @@ pick up the new data instead of serving the cached version.
 
 ```
 app/
-  index.html            shell + bottom tab bar
-  styles.css            light/dark theme, mobile-first
-  app.js                hash router, search index, all views
+  index.html            app shell
+  styles.css            shared mobile-first components
+  theme.css             bright light theme + redesigned home
+  app.js                hash router, search index, settings menu, all views
   data.json             generated — do not edit by hand
   manifest.webmanifest  install metadata
   sw.js                 offline cache
@@ -63,13 +64,14 @@ tools/
 
 | Screen | What it does |
 | --- | --- |
+| Home | Use the centered activity search, or start with all schemes and official departments/portals |
 | Search | Type an activity ("apple orchard", "bakery", "loan") and get matching activities and schemes |
-| Sectors | Browse 15 macro sectors → subsectors → activities |
 | Activity | Udyam treatment, who applies, first contact, approvals, HP gate, plus every mapped scheme grouped by match strength |
 | Scheme | Benefit and ceiling, your margin, eligibility, how to apply, agency, official page, cautions, stacking rules, and every activity it reaches |
 | Schemes | All 182 routes, filterable by scheme family |
+| Settings | The top-right menu opens Saved and More without a bottom tab bar |
 | Saved | Bookmarked activities and schemes, kept in local storage |
-| More | Departments and portals, cost norms and caps, closed/legacy schemes, about and disclaimer |
+| More | Cost norms and caps, closed/legacy schemes, about and disclaimer |
 
 Status labels are carried through from the workbook unchanged — "Open now",
 "Bank / continuous route", "Annual target / sanction", "Cluster or project area" and

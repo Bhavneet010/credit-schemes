@@ -6,7 +6,6 @@
   var D = null;                 // dataset
   var idx = { sectors: [], schemes: [] };  // search haystacks
   var app = document.getElementById("app");
-  var tabbar = document.getElementById("tabbar");
   var scrollMemory = {};
   var query = "";               // live search text
 
@@ -120,13 +119,41 @@
   }
 
   // ------------------------------------------------------------ components
+  function settingsMenu() {
+    return '<div class="settings">' +
+      '<button class="iconbtn settings-toggle" data-settings aria-label="Open settings" ' +
+      'aria-haspopup="menu" aria-expanded="false">' +
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/>' +
+      '<path d="M19.4 15a1.8 1.8 0 0 0 .4 2l.1.1-2.8 2.8-.1-.1a1.8 1.8 0 0 0-2-.4 1.8 1.8 0 0 0-1.1 1.7v.2h-4v-.2A1.8 1.8 0 0 0 8.8 19a1.8 1.8 0 0 0-2 .4l-.1.1-2.8-2.8.1-.1a1.8 1.8 0 0 0 .4-2A1.8 1.8 0 0 0 2.7 13h-.2V9h.2a1.8 1.8 0 0 0 1.7-1.1 1.8 1.8 0 0 0-.4-2l-.1-.1L6.7 3l.1.1a1.8 1.8 0 0 0 2 .4 1.8 1.8 0 0 0 1.1-1.7v-.2h4v.2A1.8 1.8 0 0 0 15 3.5a1.8 1.8 0 0 0 2-.4l.1-.1 2.8 2.8-.1.1a1.8 1.8 0 0 0-.4 2A1.8 1.8 0 0 0 21.1 9h.2v4h-.2a1.8 1.8 0 0 0-1.7 2z"/></svg></button>' +
+      '<div class="settings-menu" role="menu" aria-label="Settings" hidden>' +
+      '<a href="#/saved" role="menuitem"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11a1 1 0 0 1 1 1v16l-6.5-4-6.5 4v-16a1 1 0 0 1 1-1z"/></svg>Saved</a>' +
+      '<a href="#/more" role="menuitem"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg>More</a>' +
+      "</div></div>";
+  }
+
+  function brandMark() {
+    return '<a class="brand" href="#/" aria-label="HP Scheme Finder home">' +
+      '<svg class="brand-mark" viewBox="0 0 56 48" aria-hidden="true">' +
+      '<circle class="sun" cx="28" cy="15" r="9"/><path class="ray" d="M28 1v5M12 7l4 4M44 7l-4 4M6 19h6M44 19h6"/>' +
+      '<path class="hill hill-back" d="M3 36c9-10 17-13 25-6 8-7 16-4 25 6-17-4-33-4-50 0z"/>' +
+      '<path class="hill hill-front" d="M3 40c10-7 20-8 28-3 7-4 14-3 22 3-17 5-33 5-50 0z"/></svg>' +
+      '<span>HP Scheme Finder</span></a>';
+  }
+
   function header(opts) {
     var back = opts.back
       ? '<button class="back" data-back><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>' + esc(opts.back) + "</button>"
       : "";
-    var action = opts.action || "";
+    var actions = '<div class="head-actions">' + (opts.action || "") + settingsMenu() + "</div>";
+    if (opts.home) {
+      return '<header class="head home-head"><div class="head-row">' + brandMark() + actions +
+        '</div></header><section class="home-hero' + (opts.compact ? " compact" : "") + '">' +
+        '<h1>' + esc(opts.title) + "</h1>" +
+        (opts.sub ? '<p class="home-sub">' + esc(opts.sub) + "</p>" : "") +
+        (opts.extra || "") + "</section>";
+    }
     return '<div class="head">' + back +
-      '<div class="head-row"><h1>' + esc(opts.title) + "</h1>" + action + "</div>" +
+      '<div class="head-row"><h1>' + esc(opts.title) + "</h1>" + actions + "</div>" +
       (opts.sub ? '<p class="sub">' + esc(opts.sub) + "</p>" : "") +
       (opts.extra || "") + "</div>";
   }
@@ -203,23 +230,23 @@
       }
       body = parts || emptyState("Nothing matched “" + query.trim() + "”. Try a simpler word such as apple, dairy, bakery or loan.");
     } else {
-      body = '<div class="section"><h2>Browse by sector</h2><div class="grid">' +
-        D.macros.map(function (m, i) {
-          var n = D.sectors.filter(function (s) { return s.m === i; }).length;
-          return '<a class="tile" href="#/m/' + i + '"><span>' + esc(m) + "</span><em>" +
-            n + " activities</em></a>";
-        }).join("") + "</div></div>" +
-        '<div class="section"><h2>Start here</h2><div class="list">' +
-        '<a class="row" href="#/schemes"><div class="t"><strong>All schemes and routes</strong>' +
-        "<small>" + D.meta.counts.schemes + " central and state routes</small></div><i class=\"chev\"></i></a>" +
-        '<a class="row" href="#/contacts"><div class="t"><strong>Departments and portals</strong>' +
-        "<small>Where to apply and who to ask</small></div><i class=\"chev\"></i></a>" +
-        '<a class="row" href="#/about"><div class="t"><strong>How to use this app</strong>' +
-        "<small>Reading status, stacking and cautions</small></div><i class=\"chev\"></i></a></div></div>";
+      body = '<section class="start-here"><h2>Start here</h2><div class="start-list">' +
+        '<a class="start-route route-schemes" href="#/schemes"><span class="route-icon">' +
+        '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18V8l5-3 6 3 5-3v10l-5 4-6-3-5 2zM9 5v11M15 8v11"/></svg></span>' +
+        '<span class="route-copy"><strong>All schemes and routes</strong><small>' +
+        D.meta.counts.schemes + ' central and state routes</small></span>' +
+        '<svg class="route-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></a>' +
+        '<a class="start-route route-contacts" href="#/contacts"><span class="route-icon">' +
+        '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9h18M5 9v9M9 9v9M15 9v9M19 9v9M3 19h18M2 21h20M12 3l9 4H3l9-4z"/></svg></span>' +
+        '<span class="route-copy"><strong>Departments and portals</strong><small>Where to apply and who to ask</small></span>' +
+        '<svg class="route-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></a>' +
+        "</div></section>";
     }
 
     return header({
-      title: "Find a scheme",
+      home: true,
+      compact: !!query.trim(),
+      title: "Find the right scheme",
       sub: D.meta.counts.sectors + " business activities · " + D.meta.counts.schemes + " schemes",
       extra: '<div class="searchwrap"><div class="search">' +
         '<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5" fill="none"/><path d="M16 16l4.5 4.5"/></svg>' +
@@ -227,7 +254,7 @@
         'placeholder="Your activity, e.g. apple orchard" value="' + esc(query) + '">' +
         (query ? '<button class="clear" data-clear aria-label="Clear">×</button>' : "") +
         "</div></div>"
-    }) + "<main>" + body + "</main>";
+    }) + '<main class="home-main' + (query.trim() ? " search-results" : "") + '">' + body + "</main>";
   };
 
   views.sectors = function () {
@@ -503,10 +530,6 @@
   };
 
   // ---------------------------------------------------------------- router
-  var TAB_FOR = { "": "search", sectors: "sectors", m: "sectors", s: "sectors",
-    schemes: "schemes", k: "schemes", saved: "saved", more: "more",
-    contacts: "more", norms: "more", legacy: "more", about: "more" };
-
   function route() {
     if (!D) return;
     var hash = location.hash.replace(/^#\/?/, "");
@@ -532,12 +555,6 @@
 
     app.innerHTML = html;
 
-    var tab = TAB_FOR[head] || "";
-    Array.prototype.forEach.call(tabbar.querySelectorAll("a"), function (a) {
-      a.classList.toggle("on", a.dataset.tab === tab);
-    });
-    tabbar.hidden = false;
-
     var q = document.getElementById("q");
     if (q) {
       q.addEventListener("input", onQuery);
@@ -561,6 +578,22 @@
 
   // -------------------------------------------------------------- listeners
   document.addEventListener("click", function (e) {
+    var settings = e.target.closest("[data-settings]");
+    if (settings) {
+      var menu = settings.parentNode.querySelector(".settings-menu");
+      var open = menu.hidden;
+      menu.hidden = !open;
+      settings.setAttribute("aria-expanded", String(open));
+      return;
+    }
+
+    var openMenu = document.querySelector('.settings-menu:not([hidden])');
+    if (openMenu && !e.target.closest(".settings-menu")) {
+      openMenu.hidden = true;
+      var openToggle = document.querySelector('[data-settings][aria-expanded="true"]');
+      if (openToggle) openToggle.setAttribute("aria-expanded", "false");
+    }
+
     var back = e.target.closest("[data-back]");
     if (back) { history.back(); return; }
 
@@ -579,6 +612,18 @@
       save.classList.toggle("on", on);
       save.setAttribute("aria-label", on ? "Remove from saved" : "Save");
       return;
+    }
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "Escape") return;
+    var menu = document.querySelector('.settings-menu:not([hidden])');
+    if (!menu) return;
+    menu.hidden = true;
+    var toggle = document.querySelector('[data-settings][aria-expanded="true"]');
+    if (toggle) {
+      toggle.setAttribute("aria-expanded", "false");
+      toggle.focus();
     }
   });
 

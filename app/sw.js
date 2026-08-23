@@ -1,9 +1,10 @@
 /* Offline-first service worker. Bump CACHE when the data or shell changes. */
-var CACHE = "hpsf-v1";
+var CACHE = "hpsf-v2";
 var SHELL = [
   "./",
   "./index.html",
   "./styles.css",
+  "./theme.css",
   "./app.js",
   "./data.json",
   "./manifest.webmanifest",
