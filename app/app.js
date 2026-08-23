@@ -64,43 +64,72 @@
   };
 
   // ------------------------------------------------------------ search idx
+  // Each entry keeps a padded haystack (" word word ") so a leading space marks
+  // a word boundary, plus the padded title, so scoring never re-normalises text
+  // while the user is typing.
+  function entry(title, rest) {
+    return { title: " " + norm(title) + " ", hay: " " + norm(title + " " + rest) + " " };
+  }
+
   function buildIndex() {
     idx.sectors = D.sectors.map(function (s) {
-      return norm([s.a, s.sub, D.macros[s.m], D.stages[s.st], D.classes[s.ec]].join(" "));
+      return entry(s.a, [s.sub, D.macros[s.m], D.stages[s.st], D.classes[s.ec]].join(" "));
     });
     idx.schemes = D.schemes.map(function (k) {
-      return norm([k.name, k.parent, k.label, k.family, k.gov, k.support, k.bestFor].join(" "));
+      return entry(k.name, [k.parent, k.label, k.family, k.gov, k.support, k.bestFor].join(" "));
     });
+  }
+
+  // Every word the user types is its own keyword. A record is a hit as soon as
+  // one keyword matches; records that match more keywords rank above the rest,
+  // so adding a word sharpens the order instead of emptying the screen.
+  var W_TITLE_START = 120;   // keyword opens the title
+  var W_TITLE_WORD = 80;     // keyword opens a word in the title
+  var W_TITLE_PART = 45;     // keyword sits inside a title word
+  var W_HAY_WORD = 25;       // keyword opens a word elsewhere
+  var W_HAY_PART = 10;       // keyword sits inside a word elsewhere
+  var W_PHRASE_TITLE = 90;   // the whole query appears in the title
+  var W_PHRASE_HAY = 30;     // the whole query appears elsewhere
+
+  function scoreEntry(e, toks, phrase) {
+    var matched = 0, score = 0;
+    for (var t = 0; t < toks.length; t++) {
+      var tok = toks[t];
+      var titleWord = e.title.indexOf(" " + tok);
+      var hayWord = e.hay.indexOf(" " + tok);
+      if (titleWord === 0) score += W_TITLE_START;
+      else if (titleWord > 0) score += W_TITLE_WORD;
+      else if (e.title.indexOf(tok) >= 0) score += W_TITLE_PART;
+      else if (hayWord >= 0) score += W_HAY_WORD;
+      else if (e.hay.indexOf(tok) >= 0) score += W_HAY_PART;
+      else continue;
+      matched++;
+    }
+    if (!matched) return null;
+    if (phrase) {
+      if (e.title.indexOf(phrase) >= 0) score += W_PHRASE_TITLE;
+      else if (e.hay.indexOf(phrase) >= 0) score += W_PHRASE_HAY;
+    }
+    return [matched, score];
   }
 
   function search(q) {
     var toks = tokens(q);
     if (!toks.length) return { sectors: [], schemes: [], toks: toks };
+    var phrase = toks.length > 1 ? toks.join(" ") : "";
 
-    function scan(hays, titleOf) {
+    function scan(entries) {
       var hits = [];
-      for (var i = 0; i < hays.length; i++) {
-        var h = hays[i], ok = true, score = 0;
-        for (var t = 0; t < toks.length; t++) {
-          var p = h.indexOf(toks[t]);
-          if (p < 0) { ok = false; break; }
-          score += p === 0 ? 0 : (h.indexOf(" " + toks[t]) >= 0 ? 4 : 12);
-        }
-        if (!ok) continue;
-        var title = norm(titleOf(i));
-        if (title.indexOf(toks[0]) === 0) score -= 30;
-        else if (title.indexOf(toks[0]) > 0) score -= 12;
-        hits.push([score, i]);
+      for (var i = 0; i < entries.length; i++) {
+        var s = scoreEntry(entries[i], toks, phrase);
+        if (s) hits.push([s[0], s[1], i]);
       }
-      hits.sort(function (a, b) { return a[0] - b[0] || a[1] - b[1]; });
-      return hits.map(function (h) { return h[1]; });
+      // Most keywords matched first, then the strongest score, then input order.
+      hits.sort(function (a, b) { return b[0] - a[0] || b[1] - a[1] || a[2] - b[2]; });
+      return hits.map(function (h) { return h[2]; });
     }
 
-    return {
-      toks: toks,
-      sectors: scan(idx.sectors, function (i) { return D.sectors[i].a; }),
-      schemes: scan(idx.schemes, function (i) { return D.schemes[i].name; })
-    };
+    return { toks: toks, sectors: scan(idx.sectors), schemes: scan(idx.schemes) };
   }
 
   // ------------------------------------------------------------ saved list
@@ -206,32 +235,12 @@
   // ----------------------------------------------------------------- views
   var views = {};
 
-  views.home = function () {
-    var r = search(query);
-    var body;
-
-    if (query.trim()) {
-      var parts = "";
-      var CAP = 40;
-      var more = function (n) {
-        return n > CAP ? '<p class="hint">Showing the closest ' +
-          CAP + " of " + n + ". Add a word to narrow it down.</p>" : "";
-      };
-      if (r.sectors.length) {
-        parts += '<div class="section"><h2>Business activities · ' + r.sectors.length + "</h2>" +
-          '<div class="list">' + r.sectors.slice(0, CAP).map(function (si) {
-            return sectorRow(si, r.toks);
-          }).join("") + "</div>" + more(r.sectors.length) + "</div>";
-      }
-      if (r.schemes.length) {
-        parts += '<div class="section"><h2>Schemes · ' + r.schemes.length + "</h2>" +
-          '<div class="list">' + r.schemes.slice(0, CAP).map(function (ki) {
-            return schemeRow(ki, r.toks);
-          }).join("") + "</div>" + more(r.schemes.length) + "</div>";
-      }
-      body = parts || emptyState("Nothing matched “" + query.trim() + "”. Try a simpler word such as apple, dairy, bakery or loan.");
-    } else {
-      body = '<section class="start-here"><h2>Start here</h2><div class="start-list">' +
+  // The results body is rendered on its own so typing can repaint it without
+  // rebuilding the search field — recreating a focused input is what made the
+  // mobile keyboard flicker and swallow keystrokes.
+  function homeBody() {
+    if (!query.trim()) {
+      return '<section class="start-here"><h2>Start here</h2><div class="start-list">' +
         '<a class="start-route route-schemes" href="#/schemes"><span class="route-icon">' +
         '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18V8l5-3 6 3 5-3v10l-5 4-6-3-5 2zM9 5v11M15 8v11"/></svg></span>' +
         '<span class="route-copy"><strong>All schemes and routes</strong><small>' +
@@ -244,6 +253,33 @@
         "</div></section>";
     }
 
+    var r = search(query);
+    var CAP = 40;
+    var more = function (n) {
+      return n > CAP ? '<p class="hint">Showing the closest ' + CAP + " of " + n +
+        ". Add a more specific word to sharpen the ranking.</p>" : "";
+    };
+
+    // Schemes lead the results; matching activities follow.
+    var parts = "";
+    if (r.schemes.length) {
+      parts += '<div class="section"><h2>Schemes · ' + r.schemes.length + "</h2>" +
+        '<div class="list">' + r.schemes.slice(0, CAP).map(function (ki) {
+          return schemeRow(ki, r.toks);
+        }).join("") + "</div>" + more(r.schemes.length) + "</div>";
+    }
+    if (r.sectors.length) {
+      parts += '<div class="section"><h2>Business activities · ' + r.sectors.length + "</h2>" +
+        '<div class="list">' + r.sectors.slice(0, CAP).map(function (si) {
+          return sectorRow(si, r.toks);
+        }).join("") + "</div>" + more(r.sectors.length) + "</div>";
+    }
+
+    return parts || emptyState("Nothing matched \u201C" + query.trim() +
+      "\u201D. Try a simpler word such as apple, dairy, bakery or loan.");
+  }
+
+  views.home = function () {
     return header({
       home: true,
       compact: !!query.trim(),
@@ -252,11 +288,25 @@
       extra: '<div class="searchwrap"><div class="search">' +
         '<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5" fill="none"/><path d="M16 16l4.5 4.5"/></svg>' +
         '<input id="q" type="search" inputmode="search" autocomplete="off" ' +
+        'autocorrect="off" autocapitalize="none" spellcheck="false" ' +
         'placeholder="Your activity, e.g. apple orchard" value="' + esc(query) + '">' +
-        (query ? '<button class="clear" data-clear aria-label="Clear">×</button>' : "") +
+        '<button class="clear" data-clear aria-label="Clear"' + (query ? "" : " hidden") + ">\u00d7</button>" +
         "</div></div>"
-    }) + '<main class="home-main' + (query.trim() ? " search-results" : "") + '">' + body + "</main>";
+    }) + '<main class="home-main' + (query.trim() ? " search-results" : "") + '">' + homeBody() + "</main>";
   };
+
+  // Repaints results in place, leaving the focused input untouched.
+  function renderHomeResults() {
+    var main = document.querySelector(".home-main");
+    if (!main) return;
+    var active = !!query.trim();
+    main.className = "home-main" + (active ? " search-results" : "");
+    main.innerHTML = homeBody();
+    var hero = document.querySelector(".home-hero");
+    if (hero) hero.classList.toggle("compact", active);
+    var clear = document.querySelector("[data-clear]");
+    if (clear) clear.hidden = !query;
+  }
 
   views.sectors = function () {
     return header({ title: "Sectors", sub: "Pick the group your work belongs to" }) +
@@ -565,16 +615,17 @@
     window.scrollTo(0, scrollMemory[hash] || 0);
   }
 
-  var queryTimer = null;
+  // Coalesce bursts of keystrokes into one repaint per frame. The input itself
+  // is never re-rendered, so there is no focus or caret to restore and the
+  // on-screen keyboard stays up.
+  var queryFrame = 0;
   function onQuery(e) {
     query = e.target.value;
-    clearTimeout(queryTimer);
-    queryTimer = setTimeout(function () {
-      var pos = document.getElementById("q").selectionStart;
-      route();
-      var q = document.getElementById("q");
-      if (q) { q.focus(); q.setSelectionRange(pos, pos); }
-    }, 120);
+    if (queryFrame) return;
+    queryFrame = requestAnimationFrame(function () {
+      queryFrame = 0;
+      renderHomeResults();
+    });
   }
 
   // -------------------------------------------------------------- listeners
@@ -599,7 +650,13 @@
     if (back) { history.back(); return; }
 
     var clear = e.target.closest("[data-clear]");
-    if (clear) { query = ""; route(); document.getElementById("q").focus(); return; }
+    if (clear) {
+      query = "";
+      var input = document.getElementById("q");
+      if (input) { input.value = ""; input.focus(); }
+      renderHomeResults();
+      return;
+    }
 
     var fam = e.target.closest("[data-fam]");
     if (fam) {

@@ -390,3 +390,85 @@ test("a newly activated service worker refreshes the open app once", async () =>
 
   await context.close();
 });
+
+test("typing never rebuilds the search input, so the mobile keyboard keeps focus", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 390, height: 844 } });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+
+  await page.goto(baseUrl);
+  const search = page.locator("#q");
+  await search.waitFor();
+
+  // Tag the live node; a full re-render would replace it and drop the keyboard.
+  await page.evaluate(() => { document.getElementById("q").dataset.probe = "original"; });
+
+  await search.click();
+  await search.pressSequentially("apple orchard loan", { delay: 20 });
+  await page.waitForTimeout(120);
+
+  const state = await page.evaluate(() => {
+    const input = document.getElementById("q");
+    return {
+      probe: input.dataset.probe,
+      focused: document.activeElement === input,
+      value: input.value,
+      caret: input.selectionStart
+    };
+  });
+
+  assert.equal(state.probe, "original", "the search input should survive typing instead of being re-created");
+  assert.ok(state.focused, "the search input should keep focus while typing");
+  assert.equal(state.value, "apple orchard loan", "no keystroke should be dropped");
+  assert.equal(state.caret, "apple orchard loan".length, "the caret should stay at the end of the typed text");
+
+  await context.close();
+});
+
+test("schemes are listed above business activities in search results", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 390, height: 844 } });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+
+  await page.goto(baseUrl);
+  await page.locator("#q").fill("apple orchard");
+  await page.locator(".home-main .section").first().waitFor();
+
+  const headings = await page.locator(".home-main .section > h2").allTextContents();
+  assert.ok(headings.length >= 2, `expected both result groups; received ${JSON.stringify(headings)}`);
+  assert.match(headings[0], /^Schemes/, "schemes should be the first result group");
+  assert.match(headings[1], /^Business activities/, "activities should follow the schemes");
+
+  await context.close();
+});
+
+test("each typed word counts as its own keyword instead of narrowing to nothing", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 390, height: 844 } });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+
+  await page.goto(baseUrl);
+  const search = page.locator("#q");
+
+  const countFor = async (text) => {
+    await search.fill(text);
+    await page.waitForTimeout(120);
+    const heading = await page.locator(".home-main .section > h2").first().textContent();
+    return Number(heading.split("·").pop().trim());
+  };
+
+  const single = await countFor("apple");
+  const multi = await countFor("apple orchard loan");
+
+  assert.ok(single > 0, "a single keyword should match schemes");
+  assert.ok(multi >= single, "extra keywords should widen the pool, not empty it");
+  assert.equal(await page.locator(".empty").count(), 0, "a multi-word query should not fall through to the empty state");
+
+  // The record matching every keyword still ranks first.
+  await search.fill("apple");
+  await page.waitForTimeout(120);
+  const topForApple = await page.locator(".home-main .list .row strong").first().textContent();
+  assert.match(topForApple, /apple/i, "the closest match should stay at the top of the ranking");
+
+  await context.close();
+});
