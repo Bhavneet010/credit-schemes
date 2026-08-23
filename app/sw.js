@@ -1,5 +1,5 @@
 /* Offline-first service worker. Bump CACHE when the data or shell changes. */
-var CACHE = "hpsf-v8";
+var CACHE = "hpsf-v9";
 var SHELL = [
   "./",
   "./index.html",
@@ -7,8 +7,10 @@ var SHELL = [
   "./theme.css",
   "./svg-v5.css",
   "./visual-v7.css",
+  "./install.css",
   "./sw-refresh.js",
   "./app.js",
+  "./install.js",
   "./data.json",
   "./manifest.webmanifest",
   "./assets/hero-alpine-crest.png",

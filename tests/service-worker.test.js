@@ -41,12 +41,14 @@ test("install precaches the approved v7 visual shell and alpine crest for offlin
   assert.ok(cachedShell.includes("./svg-v5.css"), "offline shell should include the versioned mobile SVG override");
   assert.ok(cachedShell.includes("./visual-v7.css"), "offline shell should include the approved versioned visual treatment");
   assert.ok(cachedShell.includes("./assets/hero-alpine-crest.png"), "offline shell should include the selected alpine crest asset");
+  assert.ok(cachedShell.includes("./install.css"), "offline shell should include the install banner stylesheet");
+  assert.ok(cachedShell.includes("./install.js"), "offline shell should include the install prompt script");
 });
 
-test("activation removes v1 through v7 shells so cached clients receive the v8 release", async () => {
+test("activation removes v1 through v8 shells so cached clients receive the v9 release", async () => {
   const deleted = [];
   const caches = {
-    keys: async () => ["hpsf-v1", "other-app-cache", "hpsf-v2", "hpsf-v3", "hpsf-v4", "hpsf-v5", "hpsf-v6", "hpsf-v7", "hpsf-v8"],
+    keys: async () => ["hpsf-v1", "other-app-cache", "hpsf-v2", "hpsf-v3", "hpsf-v4", "hpsf-v5", "hpsf-v6", "hpsf-v7", "hpsf-v8", "hpsf-v9"],
     delete: async (key) => { deleted.push(key); }
   };
   const listeners = loadServiceWorker(caches);
@@ -55,5 +57,5 @@ test("activation removes v1 through v7 shells so cached clients receive the v8 r
   listeners.activate({ waitUntil(promise) { activationWork = promise; } });
   await activationWork;
 
-  assert.deepEqual(deleted, ["hpsf-v1", "hpsf-v2", "hpsf-v3", "hpsf-v4", "hpsf-v5", "hpsf-v6", "hpsf-v7"]);
+  assert.deepEqual(deleted, ["hpsf-v1", "hpsf-v2", "hpsf-v3", "hpsf-v4", "hpsf-v5", "hpsf-v6", "hpsf-v7", "hpsf-v8"]);
 });

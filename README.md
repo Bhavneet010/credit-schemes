@@ -51,6 +51,8 @@ app/
   styles.css            shared mobile-first components
   theme.css             bright light theme + redesigned home
   app.js                hash router, search index, settings menu, all views
+  install.js            install banner shown on every uninstalled visit
+  install.css           install banner styles
   data.json             generated — do not edit by hand
   manifest.webmanifest  install metadata
   sw.js                 offline cache
@@ -70,6 +72,7 @@ tools/
 | Scheme | Benefit and ceiling, your margin, eligibility, how to apply, agency, official page, cautions, stacking rules, and every activity it reaches |
 | Schemes | All 182 routes, filterable by scheme family |
 | Settings | The top-right menu opens Saved and More without a bottom tab bar |
+| Install | Every visit that is not already installed opens with a banner offering the app — the browser's own install prompt where one is available, otherwise the "add to home screen" steps for that platform. "Not now" hides it for that visit; installing hides it for good |
 | Saved | Bookmarked activities and schemes, kept in local storage |
 | More | Cost norms and caps, closed/legacy schemes, about and disclaimer |
 
