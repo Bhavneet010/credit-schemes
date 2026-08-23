@@ -6,8 +6,8 @@
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#f6f5f1",
-  "theme_color": "#0f4c3a",
+  "background_color": "#fef7e8",
+  "theme_color": "#ffffff",
   "lang": "en-IN",
   "categories": ["business", "government", "finance"],
   "icons": [

@@ -45,10 +45,10 @@ test("install precaches the approved v7 visual shell and alpine crest for offlin
   assert.ok(cachedShell.includes("./install.js"), "offline shell should include the install prompt script");
 });
 
-test("activation removes v1 through v8 shells so cached clients receive the v9 release", async () => {
+test("activation removes v1 through v10 shells so cached clients receive the v11 release", async () => {
   const deleted = [];
   const caches = {
-    keys: async () => ["hpsf-v1", "other-app-cache", "hpsf-v2", "hpsf-v3", "hpsf-v4", "hpsf-v5", "hpsf-v6", "hpsf-v7", "hpsf-v8", "hpsf-v9"],
+    keys: async () => ["hpsf-v1", "other-app-cache", "hpsf-v2", "hpsf-v3", "hpsf-v4", "hpsf-v5", "hpsf-v6", "hpsf-v7", "hpsf-v8", "hpsf-v9", "hpsf-v10", "hpsf-v11"],
     delete: async (key) => { deleted.push(key); }
   };
   const listeners = loadServiceWorker(caches);
@@ -57,5 +57,5 @@ test("activation removes v1 through v8 shells so cached clients receive the v9 r
   listeners.activate({ waitUntil(promise) { activationWork = promise; } });
   await activationWork;
 
-  assert.deepEqual(deleted, ["hpsf-v1", "hpsf-v2", "hpsf-v3", "hpsf-v4", "hpsf-v5", "hpsf-v6", "hpsf-v7", "hpsf-v8"]);
+  assert.deepEqual(deleted, ["hpsf-v1", "hpsf-v2", "hpsf-v3", "hpsf-v4", "hpsf-v5", "hpsf-v6", "hpsf-v7", "hpsf-v8", "hpsf-v9", "hpsf-v10"]);
 });

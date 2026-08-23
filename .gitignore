@@ -4,3 +4,7 @@
 
 # Local tooling
 .claude/
+
+# Python bytecode from tools/
+__pycache__/
+*.pyc

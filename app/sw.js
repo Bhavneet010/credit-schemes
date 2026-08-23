@@ -1,5 +1,5 @@
 /* Offline-first service worker. Bump CACHE when the data or shell changes. */
-var CACHE = "hpsf-v9";
+var CACHE = "hpsf-v11";
 var SHELL = [
   "./",
   "./index.html",
@@ -18,6 +18,10 @@ var SHELL = [
   "./icons/icon-512.png",
   "./icons/maskable-512.png"
 ];
+
+// The iOS launch images are deliberately not precached: only iOS reads them, a
+// device uses exactly one, and together they outweigh the scheme data several
+// times over. They still land in the runtime cache once fetched.
 
 self.addEventListener("install", function (e) {
   e.waitUntil(

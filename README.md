@@ -41,7 +41,24 @@ Sector–Scheme Map, Component Norms, Key Contacts and Legacy & Closed sheets.
 Then bump `CACHE` in `app/sw.js` (e.g. `hpsf-v1` → `hpsf-v2`) so installed copies
 pick up the new data instead of serving the cached version.
 
-`python tools/make_icons.py` regenerates the app icons (no image library needed).
+## Rebuild the icon and launch screen
+
+Both are derived from the source art in `tools/artwork/`, so edit the art and
+re-run — there is nothing to hand-tune in `app/`:
+
+```bash
+python tools/make_icons.py     # app/icons/
+python tools/make_splash.py    # app/splash/ — a few minutes, it is pure Python
+```
+
+`tools/pngkit.py` does the decoding, resampling and palette encoding, so neither
+script needs an image library. The icon source paints its rounded corners black;
+`make_icons.py` floods that back out to transparency and builds the full-bleed
+maskable variant with the artwork held inside Android's inner-80% safe circle.
+
+Bump `CACHE` in `app/sw.js` after regenerating the icons — they are precached,
+so installed copies keep the old ones otherwise. The launch images are not
+precached: only iOS reads them and a device uses exactly one.
 
 ## Layout
 
@@ -54,12 +71,17 @@ app/
   install.js            install banner shown on every uninstalled visit
   install.css           install banner styles
   data.json             generated — do not edit by hand
+  icons/                generated — app icons
+  splash/               generated — iOS launch images
   manifest.webmanifest  install metadata
   sw.js                 offline cache
   icons/
 tools/
   build_data.py         workbook  ->  data.json
-  make_icons.py         PNG icon generator
+  make_icons.py         artwork  ->  app/icons/
+  make_splash.py        artwork  ->  app/splash/
+  pngkit.py             PNG read/write, resampling and palette encoding
+  artwork/              source art for the icon and the launch screen
 ```
 
 ## How the app is organised
@@ -73,6 +95,7 @@ tools/
 | Schemes | All 182 routes, filterable by scheme family |
 | Settings | The top-right menu opens Saved and More without a bottom tab bar |
 | Install | Every visit that is not already installed opens with a banner offering the app — the browser's own install prompt where one is available, otherwise the "add to home screen" steps for that platform. "Not now" hides it for that visit; installing hides it for good |
+| Launch | Android builds its splash from the manifest's `background_color` and icon; iOS uses the matching image in `app/splash/` |
 | Saved | Bookmarked activities and schemes, kept in local storage |
 | More | Cost norms and caps, closed/legacy schemes, about and disclaimer |
 
