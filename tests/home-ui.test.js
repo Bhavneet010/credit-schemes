@@ -166,6 +166,35 @@ test("mobile home uses a compact type scale and tighter route cards", async () =
   await context.close();
 });
 
+test("mobile hero keeps the selected single-line headline and two-line brand lockup", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 390, height: 844 } });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+
+  await page.goto(baseUrl);
+  await page.locator("#q").waitFor();
+
+  const headlineMetrics = await page.locator(".home-hero h1").evaluate((heading) => {
+    const computed = getComputedStyle(heading);
+    return {
+      height: heading.getBoundingClientRect().height,
+      lineHeight: Number.parseFloat(computed.lineHeight)
+    };
+  });
+  const brandMetrics = await page.locator(".brand span").evaluate((label) => {
+    const computed = getComputedStyle(label);
+    return {
+      height: label.getBoundingClientRect().height,
+      lineHeight: Number.parseFloat(computed.lineHeight)
+    };
+  });
+
+  assert.ok(headlineMetrics.height <= headlineMetrics.lineHeight * 1.15, "mobile hero headline should remain on one line");
+  assert.ok(brandMetrics.height >= brandMetrics.lineHeight * 1.8, "mobile brand label should wrap to two compact lines");
+
+  await context.close();
+});
+
 test("mobile search is visually distinct with a light gradient", async () => {
   const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 390, height: 844 } });
   const page = await context.newPage();
@@ -191,6 +220,83 @@ test("mobile search is visually distinct with a light gradient", async () => {
   await context.close();
 });
 
+test("mobile home shows the selected alpine crest above the headline", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 390, height: 844 } });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+
+  await page.goto(baseUrl);
+  await page.locator("#q").waitFor();
+
+  const crest = page.locator(".hero-crest");
+  assert.equal(await crest.count(), 1, "the selected alpine crest should be rendered once");
+
+  const crestBox = await crest.boundingBox();
+  const headingBox = await page.locator(".home-hero h1").boundingBox();
+  assert.ok(crestBox && headingBox, "the crest and hero headline should be visible");
+  assert.ok(crestBox.width >= 96 && crestBox.width <= 128, `crest should stay compact on mobile; received ${crestBox.width}px`);
+  assert.ok(Math.abs((crestBox.x + crestBox.width / 2) - 195) < 2, "crest should be centered above the headline");
+  assert.ok(crestBox.y + crestBox.height < headingBox.y, "crest should not overlap the headline");
+
+  const edgeFlourishes = await page.locator(".home-hero").evaluate((element) => ["::before", "::after"].map((pseudo) => {
+    return getComputedStyle(element, pseudo).display;
+  }));
+  assert.deepEqual(edgeFlourishes, ["none", "none"], "the old edge wave decorations should be removed");
+
+  await context.close();
+});
+
+test("mobile home carries the crest palette through a soft page background", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 390, height: 844 } });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+
+  await page.goto(baseUrl);
+  await page.locator("#q").waitFor();
+
+  const background = await page.locator(".app").evaluate((element) => getComputedStyle(element).backgroundImage);
+  assert.match(background, /radial-gradient/, "the page should use soft colored background washes");
+  assert.match(background, /rgba?\(255, 180, 37/, "the background should echo the crest's sunlight yellow");
+  assert.match(background, /rgba?\(39, 108, 245/, "the background should echo the crest's blue");
+  assert.match(background, /rgba?\(22, 167, 125/, "the background should echo the crest's mint");
+
+  const cardBackgrounds = await page.locator(".start-route").evaluateAll((cards) => {
+    return cards.map((card) => getComputedStyle(card).backgroundColor);
+  });
+  assert.deepEqual(cardBackgrounds, ["rgb(255, 255, 255)", "rgb(255, 255, 255)"], "route cards should remain white over the tinted canvas");
+
+  await context.close();
+});
+
+test("mobile search has a stronger edge and layered elevation than the page", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 390, height: 844 } });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+
+  await page.goto(baseUrl);
+  const search = page.locator("#q");
+  await search.waitFor();
+
+  const styles = await search.evaluate((input) => {
+    const computed = getComputedStyle(input);
+    return {
+      borderColor: computed.borderTopColor,
+      boxShadow: computed.boxShadow,
+      backgroundImage: computed.backgroundImage
+    };
+  });
+  const pageBackground = await page.locator(".app").evaluate((element) => getComputedStyle(element).backgroundImage);
+  const borderChannels = styles.borderColor.match(/\d+/g).map(Number).slice(0, 3);
+  const distanceFromWhite = borderChannels.reduce((total, channel) => total + Math.abs(255 - channel), 0);
+  const shadowLayers = styles.boxShadow.split(/,\s*(?=rgba?\()/).length;
+
+  assert.ok(distanceFromWhite >= 240, `search border should visibly separate from the pale page; received ${styles.borderColor}`);
+  assert.ok(shadowLayers >= 2, `search should combine a soft halo and elevation shadow; received ${styles.boxShadow}`);
+  assert.notEqual(styles.backgroundImage, pageBackground, "search gradient should remain distinct from the page washes");
+
+  await context.close();
+});
+
 test("mobile search keeps the compact 16px scale when results appear", async () => {
   const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 360, height: 800 } });
   const page = await context.newPage();
@@ -212,39 +318,7 @@ test("mobile search keeps the compact 16px scale when results appear", async () 
   await context.close();
 });
 
-test("mobile hero keeps the decorative SVG flourishes visible", async () => {
-  const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 390, height: 844 } });
-  const page = await context.newPage();
-  page.setDefaultTimeout(3000);
-
-  await page.goto(baseUrl);
-  const hero = page.locator(".home-hero");
-  await hero.waitFor();
-
-  const flourishes = await hero.evaluate((element) => ["::before", "::after"].map((pseudo) => {
-    const computed = getComputedStyle(element, pseudo);
-    return {
-      display: computed.display,
-      backgroundImage: computed.backgroundImage,
-      opacity: Number.parseFloat(computed.opacity),
-      width: Number.parseFloat(computed.width),
-      left: Number.parseFloat(computed.left),
-      right: Number.parseFloat(computed.right)
-    };
-  }));
-
-  for (const flourish of flourishes) {
-    assert.notEqual(flourish.display, "none", "decorative SVG flourish should render on mobile");
-    assert.match(flourish.backgroundImage, /svg\+xml/, "mobile flourish should retain the SVG artwork");
-    assert.ok(flourish.opacity >= 0.75, `mobile flourish should have clear contrast; received opacity ${flourish.opacity}`);
-    assert.ok(flourish.width >= 96 && flourish.width <= 110, `mobile flourish should be compact enough to fit wholly on screen; received width ${flourish.width}px`);
-    assert.ok(Math.min(flourish.left, flourish.right) >= 0, `mobile flourish should not be clipped by the viewport; received left ${flourish.left}px and right ${flourish.right}px`);
-  }
-
-  await context.close();
-});
-
-test("mobile search results retain the decorative SVG flourishes", async () => {
+test("mobile search results retain the selected alpine crest", async () => {
   const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 360, height: 800 } });
   const page = await context.newPage();
   page.setDefaultTimeout(3000);
@@ -253,23 +327,11 @@ test("mobile search results retain the decorative SVG flourishes", async () => {
   await page.locator("#q").fill("apple orchard");
   await page.waitForTimeout(200);
 
-  const flourishes = await page.locator(".home-hero").evaluate((element) => ["::before", "::after"].map((pseudo) => {
-    const computed = getComputedStyle(element, pseudo);
-    return {
-      display: computed.display,
-      opacity: Number.parseFloat(computed.opacity),
-      width: Number.parseFloat(computed.width),
-      left: Number.parseFloat(computed.left),
-      right: Number.parseFloat(computed.right)
-    };
-  }));
-
-  for (const flourish of flourishes) {
-    assert.notEqual(flourish.display, "none", "decorative SVG flourish should remain visible with search results");
-    assert.ok(flourish.opacity >= 0.6, `active-search flourish should have clear contrast; received opacity ${flourish.opacity}`);
-    assert.ok(flourish.width >= 78 && flourish.width <= 90, `active-search flourish should be compact enough to fit wholly on screen; received width ${flourish.width}px`);
-    assert.ok(Math.min(flourish.left, flourish.right) >= 0, `active-search flourish should not be clipped; received left ${flourish.left}px and right ${flourish.right}px`);
-  }
+  const crest = page.locator(".hero-crest");
+  const crestBox = await crest.boundingBox();
+  assert.ok(await crest.isVisible(), "selected crest should remain visible when search results appear");
+  assert.ok(crestBox && crestBox.width >= 78 && crestBox.width <= 90, `active-search crest should remain compact; received ${crestBox && crestBox.width}px`);
+  assert.ok(Math.abs((crestBox.x + crestBox.width / 2) - 180) < 2, "active-search crest should remain centered");
 
   await context.close();
 });

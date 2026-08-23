@@ -1,15 +1,17 @@
 /* Offline-first service worker. Bump CACHE when the data or shell changes. */
-var CACHE = "hpsf-v5";
+var CACHE = "hpsf-v7";
 var SHELL = [
   "./",
   "./index.html",
   "./styles.css",
   "./theme.css",
   "./svg-v5.css",
+  "./visual-v7.css",
   "./sw-refresh.js",
   "./app.js",
   "./data.json",
   "./manifest.webmanifest",
+  "./assets/hero-alpine-crest.png",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
   "./icons/maskable-512.png"

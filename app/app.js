@@ -148,6 +148,7 @@
     if (opts.home) {
       return '<header class="head home-head"><div class="head-row">' + brandMark() + actions +
         '</div></header><section class="home-hero' + (opts.compact ? " compact" : "") + '">' +
+        '<img class="hero-crest" src="assets/hero-alpine-crest.png" alt="" aria-hidden="true" width="126" height="63">' +
         '<h1>' + esc(opts.title) + "</h1>" +
         (opts.sub ? '<p class="home-sub">' + esc(opts.sub) + "</p>" : "") +
         (opts.extra || "") + "</section>";
