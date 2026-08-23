@@ -1,10 +1,11 @@
 /* Offline-first service worker. Bump CACHE when the data or shell changes. */
-var CACHE = "hpsf-v3";
+var CACHE = "hpsf-v4";
 var SHELL = [
   "./",
   "./index.html",
   "./styles.css",
   "./theme.css",
+  "./sw-refresh.js",
   "./app.js",
   "./data.json",
   "./manifest.webmanifest",
@@ -23,8 +24,10 @@ self.addEventListener("install", function (e) {
 self.addEventListener("activate", function (e) {
   e.waitUntil(
     caches.keys().then(function (keys) {
-      return Promise.all(keys.map(function (k) {
-        return k === CACHE ? null : caches.delete(k);
+      return Promise.all(keys.filter(function (k) {
+        return k.indexOf("hpsf-") === 0 && k !== CACHE;
+      }).map(function (k) {
+        return caches.delete(k);
       }));
     }).then(function () { return self.clients.claim(); })
   );

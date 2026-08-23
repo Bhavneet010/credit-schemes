@@ -144,3 +144,177 @@ test("search uses only the app clear control instead of the browser cancel butto
 
   await context.close();
 });
+
+test("mobile home uses a compact type scale and tighter route cards", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 390, height: 844 } });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+
+  await page.goto(baseUrl);
+  await page.locator("#q").waitFor();
+
+  const heroSize = Number.parseFloat(await page.locator(".home-hero h1").evaluate((element) => getComputedStyle(element).fontSize));
+  const sectionSize = Number.parseFloat(await page.locator(".start-here > h2").evaluate((element) => getComputedStyle(element).fontSize));
+  const routeTitleSize = Number.parseFloat(await page.locator(".route-copy strong").first().evaluate((element) => getComputedStyle(element).fontSize));
+  const routeBox = await page.locator(".start-route").first().boundingBox();
+
+  assert.ok(heroSize <= 38, `mobile hero title should be at most 38px; received ${heroSize}px`);
+  assert.ok(sectionSize <= 24, `mobile section title should be at most 24px; received ${sectionSize}px`);
+  assert.ok(routeTitleSize <= 17, `mobile route title should be at most 17px; received ${routeTitleSize}px`);
+  assert.ok(routeBox && routeBox.height <= 104, `mobile route card should be at most 104px tall; received ${routeBox && routeBox.height}px`);
+
+  await context.close();
+});
+
+test("mobile search is visually distinct with a light gradient", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 390, height: 844 } });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+
+  await page.goto(baseUrl);
+  const search = page.locator("#q");
+  await search.waitFor();
+
+  const styles = await search.evaluate((input) => {
+    const computed = getComputedStyle(input);
+    return {
+      backgroundImage: computed.backgroundImage,
+      fontSize: Number.parseFloat(computed.fontSize),
+      height: Number.parseFloat(computed.height)
+    };
+  });
+
+  assert.match(styles.backgroundImage, /linear-gradient/, "search should use a light gradient surface");
+  assert.ok(styles.fontSize >= 16, `search text should stay at least 16px to avoid mobile auto-zoom; received ${styles.fontSize}px`);
+  assert.ok(styles.height <= 62, `mobile search should be no taller than 62px; received ${styles.height}px`);
+
+  await context.close();
+});
+
+test("mobile search keeps the compact 16px scale when results appear", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 360, height: 800 } });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+
+  await page.goto(baseUrl);
+  const search = page.locator("#q");
+  await search.fill("apple orchard");
+  await page.waitForTimeout(200);
+
+  const styles = await search.evaluate((input) => {
+    const computed = getComputedStyle(input);
+    return { fontSize: Number.parseFloat(computed.fontSize), height: Number.parseFloat(computed.height) };
+  });
+
+  assert.equal(styles.fontSize, 16, `active mobile search should remain 16px; received ${styles.fontSize}px`);
+  assert.ok(styles.height <= 60, `active mobile search should remain no taller than 60px; received ${styles.height}px`);
+
+  await context.close();
+});
+
+test("mobile hero keeps the decorative SVG flourishes visible", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 390, height: 844 } });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+
+  await page.goto(baseUrl);
+  const hero = page.locator(".home-hero");
+  await hero.waitFor();
+
+  const flourishes = await hero.evaluate((element) => ["::before", "::after"].map((pseudo) => {
+    const computed = getComputedStyle(element, pseudo);
+    return {
+      display: computed.display,
+      backgroundImage: computed.backgroundImage,
+      opacity: Number.parseFloat(computed.opacity),
+      width: Number.parseFloat(computed.width)
+    };
+  }));
+
+  for (const flourish of flourishes) {
+    assert.notEqual(flourish.display, "none", "decorative SVG flourish should render on mobile");
+    assert.match(flourish.backgroundImage, /svg\+xml/, "mobile flourish should retain the SVG artwork");
+    assert.ok(flourish.opacity >= 0.75, `mobile flourish should have clear contrast; received opacity ${flourish.opacity}`);
+    assert.ok(flourish.width >= 130, `mobile flourish should expose enough artwork; received width ${flourish.width}px`);
+  }
+
+  await context.close();
+});
+
+test("mobile search results retain the decorative SVG flourishes", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 360, height: 800 } });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+
+  await page.goto(baseUrl);
+  await page.locator("#q").fill("apple orchard");
+  await page.waitForTimeout(200);
+
+  const flourishes = await page.locator(".home-hero").evaluate((element) => ["::before", "::after"].map((pseudo) => {
+    const computed = getComputedStyle(element, pseudo);
+    return { display: computed.display, opacity: Number.parseFloat(computed.opacity), width: Number.parseFloat(computed.width) };
+  }));
+
+  for (const flourish of flourishes) {
+    assert.notEqual(flourish.display, "none", "decorative SVG flourish should remain visible with search results");
+    assert.ok(flourish.opacity >= 0.6, `active-search flourish should have clear contrast; received opacity ${flourish.opacity}`);
+    assert.ok(flourish.width >= 100, `active-search flourish should expose enough artwork; received width ${flourish.width}px`);
+  }
+
+  await context.close();
+});
+
+test("all starting routes stay compact without overflow at 320px", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 320, height: 800 } });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+
+  await page.goto(baseUrl);
+  await page.locator("#q").waitFor();
+
+  const routeHeights = await page.locator(".start-route").evaluateAll((routes) => routes.map((route) => route.getBoundingClientRect().height));
+  const viewport = await page.evaluate(() => ({ width: window.innerWidth, scrollWidth: document.documentElement.scrollWidth }));
+
+  assert.ok(routeHeights.length > 0, "starting routes should render");
+  for (const height of routeHeights) {
+    assert.ok(height <= 104, `every route card should be at most 104px tall at 320px; received ${height}px`);
+  }
+  assert.equal(viewport.scrollWidth, viewport.width, "mobile home should not overflow horizontally at 320px");
+
+  await context.close();
+});
+
+test("a newly activated service worker refreshes the open app once", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block" });
+  await context.addInitScript(() => {
+    let controllerChange;
+    Object.defineProperty(navigator, "serviceWorker", {
+      configurable: true,
+      value: {
+        addEventListener(type, listener) {
+          if (type === "controllerchange") controllerChange = listener;
+        },
+        register() { return Promise.resolve(); }
+      }
+    });
+    Object.defineProperty(window, "__emitControllerChange", {
+      configurable: true,
+      value: () => { if (controllerChange) controllerChange(); }
+    });
+    const loads = Number(sessionStorage.getItem("sw-refresh-loads") || 0) + 1;
+    sessionStorage.setItem("sw-refresh-loads", String(loads));
+  });
+
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+  await page.goto(baseUrl);
+  const initialLoads = Number(await page.evaluate(() => sessionStorage.getItem("sw-refresh-loads")));
+
+  await page.evaluate(() => window.__emitControllerChange());
+  await page.waitForTimeout(500);
+  const refreshedLoads = Number(await page.evaluate(() => sessionStorage.getItem("sw-refresh-loads")));
+
+  assert.equal(refreshedLoads, initialLoads + 1, "controller change should reload the page exactly once");
+
+  await context.close();
+});
