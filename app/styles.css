@@ -228,6 +228,16 @@ details.acc .body p { margin: 0 0 8px; }
 details.acc .body p:last-child { margin-bottom: 0; }
 details.acc .body a { color: var(--brand); text-decoration: underline; word-break: break-word; }
 details.acc .body b { color: var(--ink); font-weight: 600; }
+details.acc .body > p + p { margin-top: 0; }
+/* A row list inside a panel sits on the panel's own surface, so it drops the
+   card borders it would otherwise draw against it. */
+details.acc .body .list { margin: 2px -14px 8px; }
+details.acc .body .list .row {
+  border-left: 0; border-right: 0; border-radius: 0; background: none;
+  color: var(--ink); text-decoration: none;
+}
+details.acc .body .list .row:last-child { border-bottom: 0; }
+details.acc .body .list .row:active { background: var(--surface-2); }
 
 /* ---------------------------------------------------------------- tabbar */
 .tabbar {

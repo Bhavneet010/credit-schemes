@@ -1,5 +1,5 @@
 /* Offline-first service worker. Bump CACHE when the data or shell changes. */
-var CACHE = "hpsf-v11";
+var CACHE = "hpsf-v12";
 var SHELL = [
   "./",
   "./index.html",

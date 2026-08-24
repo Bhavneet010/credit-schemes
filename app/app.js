@@ -42,6 +42,151 @@
     return D.links[String(si)] || [];
   }
 
+  // Every mapped row also carries why it was mapped, the application sequence
+  // and any row-specific condition. Find the row that joins one activity to one
+  // scheme so the scheme page can say what it means *for that activity*.
+  function linkContext(si, ki) {
+    var ls = linksFor(si);
+    for (var i = 0; i < ls.length; i++) if (ls[i][0] === ki) return ls[i];
+    return null;
+  }
+
+  // ------------------------------------------------------- cross-references
+  // The workbook's reference sheets (Key Contacts, Component Norms, Legacy &
+  // Closed) were only reachable as flat lists under More. These joins pull the
+  // rows belonging to one scheme onto that scheme's own page, so a reader who
+  // wants more than the summary never has to go hunting for it.
+
+  // Structural words carry no institutional identity, so scoring on them pairs
+  // any "... Fund" with any other "... Fund". They are dropped before scoring.
+  var XSTOP = {};
+  (" hp himachal pradesh department dept the and for to in on scheme schemes portal" +
+   " state national india indian ministry route current guidelines index wing yojana" +
+   " bank lender agency nodal fund development board mission corporation programme" +
+   " program council authority centre center office commissioner directorate general" +
+   " division cell unit support assistance promotion services service company limited" +
+   " ltd society federation nigam samiti new ").split(" ").forEach(function (w) {
+    if (w) XSTOP[w] = 1;
+  });
+
+  function idTokens(s) {
+    var out = [];
+    tokens(s).forEach(function (t) {
+      if (t.length > 2 && !XSTOP[t] && out.indexOf(t) < 0) out.push(t);
+    });
+    return out;
+  }
+
+  // Horticulture component themes, keyed by the words a scheme uses when it
+  // actually funds that component.
+  var NORM_KEYS = {
+    "Beekeeping": ["beekeep", "honey", "apicult"],
+    "Floriculture": ["floricult", "flower"],
+    "Protected floriculture": ["floricult", "flower"],
+    "Mushroom": ["mushroom"],
+    "Spices": ["spice", "ginger", "turmeric", "garlic"],
+    "Medicinal & aromatic plants": ["medicinal", "aromatic"],
+    "Protected cultivation": ["polyhouse", "protected cultivation", "greenhouse", "net house"],
+    "Nursery & planting material": ["nursery", "planting material"],
+    "New gardens / area expansion": ["orchard", "area expansion", "plantation", "new garden"],
+    "Orchard rehabilitation": ["orchard", "rejuven"],
+    "Orchard protection": ["orchard", "anti hail", "hail net", "fencing"],
+    "Post-harvest": ["post harvest", "cold stor", "pack house", "grading", "ripening"],
+    "Processing": ["processing"],
+    "Market infrastructure": ["market infrastructure", "mandi", "retail outlet"],
+    "Water management": ["irrigation", "sprinkler", "drip", "water harvest"],
+    "Quality infrastructure": ["testing lab", "quality", "certif"],
+    "Good practices & organic inputs": ["organic", "natural farming", "vermicompost"]
+  };
+
+  // The cost tables are horticulture and farm norms, so only routes on that
+  // side of the catalogue can be sized against them.
+  var NORM_ROUTE = /horticult|midh|nhb |agricultur|food process|orchard|garden|krishi|farm/;
+
+  var xref = null;
+
+  function buildXref() {
+    var byName = {};
+    D.schemes.forEach(function (k, i) {
+      var key = norm(k.name);
+      if (byName[key] === undefined) byName[key] = i;
+    });
+
+    // A Key Contacts row whose "Use it for" names a scheme *is* that scheme's
+    // own official page; the rest are department- or portal-level front doors.
+    var own = {}, generic = [], gtok = {}, df = {};
+    D.contacts.forEach(function (c, j) {
+      var i = byName[norm(c.use)];
+      if (i !== undefined) { (own[i] = own[i] || []).push(j); return; }
+      generic.push(j);
+      var t = idTokens(c.name);
+      gtok[j] = t;
+      t.forEach(function (w) { df[w] = (df[w] || 0) + 1; });
+    });
+
+    var legacyByName = {};
+    D.legacy.forEach(function (l, j) { legacyByName[norm(l.name)] = j; });
+
+    var byParent = {}, byFamily = {};
+    D.schemes.forEach(function (k, i) {
+      if (k.parent) (byParent[k.parent] = byParent[k.parent] || []).push(i);
+      (byFamily[k.family] = byFamily[k.family] || []).push(i);
+    });
+
+    xref = {
+      own: own, generic: generic, gtok: gtok, df: df,
+      legacy: legacyByName, byName: byName, byParent: byParent, byFamily: byFamily
+    };
+  }
+
+  // Up to three department or portal contacts, closest institutional match
+  // first. A shared rare word ("sericulture") outweighs a shared common one
+  // ("agriculture"), which is what inverse document frequency buys here.
+  function deptContacts(k) {
+    var hay = {};
+    idTokens(k.agency + " " + k.name + " " + k.parent).forEach(function (t) { hay[t] = 1; });
+    var out = [];
+    xref.generic.forEach(function (j) {
+      var score = 0;
+      xref.gtok[j].forEach(function (t) { if (hay[t]) score += 1 / xref.df[t]; });
+      if (score > 0) out.push([score, -D.contacts[j].name.length, j]);
+    });
+    out.sort(function (a, b) { return b[0] - a[0] || b[1] - a[1]; });
+    return out.slice(0, 3).map(function (e) { return e[2]; });
+  }
+
+  function schemeNorms(k) {
+    var text = norm([k.name, k.parent, k.family, k.label, k.bestFor, k.support,
+      k.benefit, k.agency].join(" "));
+    if (!NORM_ROUTE.test(text)) return [];
+    var themes = {};
+    Object.keys(NORM_KEYS).forEach(function (t) {
+      var hit = NORM_KEYS[t].some(function (w) { return text.indexOf(w) >= 0; });
+      if (hit) themes[t] = 1;
+    });
+    var out = [];
+    D.norms.forEach(function (n, j) { if (themes[n.theme]) out.push(j); });
+    return out;
+  }
+
+  // Siblings under the same parent programme first, then the rest of the family.
+  function relatedSchemes(ki) {
+    var k = D.schemes[ki], seen = {}, close = [], family = [];
+    function push(bucket, i) {
+      if (i === ki || seen[i]) return;
+      seen[i] = 1;
+      bucket.push(i);
+    }
+    if (k.parent) {
+      (xref.byParent[k.parent] || []).forEach(function (i) { push(close, i); });
+      var p = xref.byName[norm(k.parent)];
+      if (p !== undefined) push(close, p);
+    }
+    (xref.byParent[k.name] || []).forEach(function (i) { push(close, i); });
+    (xref.byFamily[k.family] || []).forEach(function (i) { push(family, i); });
+    return { close: close, family: family };
+  }
+
   // Short, mobile-friendly status label + severity.
   var STATUS = {
     "Open now": ["Open now", "good"],
@@ -75,8 +220,12 @@
     idx.sectors = D.sectors.map(function (s) {
       return entry(s.a, [s.sub, D.macros[s.m], D.stages[s.st], D.classes[s.ec]].join(" "));
     });
+    // The whole scheme record is searchable, not just its headline fields, so
+    // "collateral free", "interest subvention" or "DIC" reach the scheme that
+    // says so. Title weighting is unchanged, so existing queries rank as before.
     idx.schemes = D.schemes.map(function (k) {
-      return entry(k.name, [k.parent, k.label, k.family, k.gov, k.support, k.bestFor].join(" "));
+      return entry(k.name, [k.parent, k.label, k.family, k.gov, k.support, k.bestFor,
+        k.benefit, k.eligible, k.margin, k.stage, k.access, k.agency, k.caution].join(" "));
     });
   }
 
@@ -204,10 +353,11 @@
       '</div><span class="n">' + s.n + '</span><i class="chev"></i></a>';
   }
 
-  function schemeRow(ki, toks) {
+  function schemeRow(ki, toks, si) {
     var k = D.schemes[ki];
     var st = STATUS[k.status] || [k.status, ""];
-    return '<a class="row" href="#/k/' + ki + '"><div class="t"><strong>' +
+    var href = "#/k/" + ki + (si == null ? "" : "/from/" + si);
+    return '<a class="row" href="' + href + '"><div class="t"><strong>' +
       highlight(k.name, toks || []) + "</strong><small>" +
       esc(k.gov) + " · " + esc(st[0]) + "</small></div><i class=\"chev\"></i></a>";
   }
@@ -361,7 +511,7 @@
       if (!g.length) return;
       body += '<div class="section"><h2>' + kind + " · " + g.length + "</h2>" +
         '<p class="hint">' + esc(APP_HINT[kind]) + "</p><div class=\"list\">" +
-        g.map(function (e) { return schemeRow(e[0]); }).join("") + "</div></div>";
+        g.map(function (e) { return schemeRow(e[0], null, si); }).join("") + "</div></div>";
     });
 
     if (!ls.length) body += emptyState("No routes mapped for this activity.");
@@ -374,10 +524,115 @@
     }) + "<main>" + body + "</main>";
   };
 
-  views.scheme = function (ki) {
+  // A collapsed panel. The summary layer above stays exactly as short as it is
+  // now; everything a reader might want next sits behind one tap.
+  function panel(title, count, body, open) {
+    if (!body) return "";
+    return '<details class="acc"' + (open ? " open" : "") + "><summary>" +
+      esc(title) + (count ? " \u00b7 " + count : "") +
+      '</summary><div class="body">' + body + "</div></details>";
+  }
+
+  function contactBlock(j) {
+    var c = D.contacts[j];
+    return "<p><b>" + esc(c.name) + "</b><br>" + esc(c.use) +
+      (c.note ? "<br>" + esc(c.note) : "") +
+      (c.url ? "<br>" + link(c.url) : "") + "</p>";
+  }
+
+  function normBlock(j) {
+    var n = D.norms[j];
+    return "<p><b>" + esc(n.item) + "</b> \u00b7 " + esc(n.theme) + "<br>" +
+      esc(n.norm) + " \u2014 " + esc(n.pattern) +
+      (n.cap ? "<br><b>Ceiling:</b> " + esc(n.cap) : "") +
+      (n.cond ? "<br>" + esc(n.cond) : "") + "</p>";
+  }
+
+  // What the workbook recorded about this scheme *for the activity the reader
+  // arrived from*: the grade, why it was mapped, the order to do things in and
+  // any condition that differs from the scheme's own caution.
+  function contextPanel(si, ki) {
+    var s = D.sectors[si];
+    var e = s && linkContext(si, ki);
+    if (!e) return "";
+    var kind = D.applicability[e[1]];
+    return '<div class="section"><h2>For ' + esc(s.a) + "</h2>" +
+      '<div class="tags"><span class="tag' + (e[1] < 2 ? " good" : "") + '">' +
+      esc(kind) + " match</span></div>" +
+      facts([
+        ["Why mapped", pool("why", e[2])],
+        ["Do this first", pool("seq", e[3])],
+        ["Condition", e.length > 4 ? pool("cond", e[4]) : ""]
+      ]) +
+      '<a class="row" href="#/s/' + si + '"><div class="t"><strong>' + esc(s.a) +
+      "</strong><small>Back to the activity and its other " + (s.n - 1) +
+      " routes</small></div><i class=\"chev\"></i></a></div>";
+  }
+
+  // Everything below the summary, each part rendered only when the workbook
+  // actually has rows for this scheme.
+  function schemePanels(ki) {
+    var k = D.schemes[ki];
+    var out = "";
+
+    var own = xref.own[ki] || [];
+    var dept = deptContacts(k);
+    if (own.length || dept.length) {
+      out += panel("Official pages and who to ask", own.length + dept.length,
+        (own.length ? "<p><b>This scheme's own page</b></p>" +
+          own.map(contactBlock).join("") : "") +
+        (dept.length ? "<p><b>Department or portal to ask</b></p>" +
+          dept.map(contactBlock).join("") : "") +
+        '<p><a href="#/contacts">All ' + D.contacts.length + " departments and portals</a></p>");
+    }
+
+    var norms = schemeNorms(k);
+    if (norms.length) {
+      var shown = norms.slice(0, 8);
+      out += panel("Benchmark cost norms", norms.length,
+        "<p>Indicative norms the department uses to size assistance. Confirm the " +
+        "component is admissible on this route before costing a project.</p>" +
+        shown.map(normBlock).join("") +
+        (norms.length > shown.length
+          ? '<p><a href="#/norms">' + (norms.length - shown.length) +
+            " more, and the full cost tables</a></p>"
+          : '<p><a href="#/norms">All ' + D.norms.length + " cost norms and caps</a></p>"));
+    }
+
+    var lg = xref.legacy[norm(k.name)];
+    if (lg !== undefined) {
+      var l = D.legacy[lg];
+      out += panel("Why this route is flagged", 0,
+        "<p><b>Position:</b> " + esc(l.position) + "</p><p>" + esc(l.why) + "</p>" +
+        (l.alt ? "<p><b>Instead:</b> " + esc(l.alt) + "</p>" : "") +
+        (l.src ? "<p>" + link(l.src) + "</p>" : ""), true);
+    }
+
+    var rel = relatedSchemes(ki);
+    var fam = rel.family.slice(0, 6);
+    if (rel.close.length || fam.length) {
+      out += panel("Related routes", rel.close.length + fam.length,
+        (rel.close.length
+          ? "<p><b>Same programme</b></p><div class=\"list\">" +
+            rel.close.map(function (i) { return schemeRow(i); }).join("") + "</div>"
+          : "") +
+        (fam.length
+          ? "<p><b>Same family</b></p><div class=\"list\">" +
+            fam.map(function (i) { return schemeRow(i); }).join("") + "</div>"
+          : "") +
+        '<p><a href="#/schemes/' + esc(encodeURIComponent(k.family)) + '">All ' +
+        rel.family.length + " in " + esc(k.family) + "</a></p>");
+    }
+
+    return out ? '<div class="section"><h2>Go deeper</h2>' + out + "</div>" : "";
+  }
+
+  views.scheme = function (ki, si) {
     ki = +ki;
     var k = D.schemes[ki];
     if (!k) return views.notfound();
+    si = si == null ? null : +si;
+    var from = si != null && D.sectors[si] ? D.sectors[si] : null;
     var st = STATUS[k.status] || [k.status, ""];
 
     var body = '<div class="tags">' + statusTag(k) +
@@ -406,6 +661,10 @@
     if (k.caution) {
       body += '<div class="note"><strong>Before you spend money</strong>' + esc(k.caution) + "</div>";
     }
+
+    if (from) body += contextPanel(si, ki);
+    body += schemePanels(ki);
+
     body += '<div class="note plain"><strong>Stacking</strong>' + esc(D.stacking) + "</div>";
 
     if (k.src) {
@@ -413,13 +672,13 @@
         "Open official page" +
         '<svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></a>';
     }
-    body += '<a class="btn ghost" href="#/k/' + ki + '/where">Where it applies · ' + k.reach + " activities</a>";
+    body += '<a class="btn ghost" href="#/k/' + ki + '/where">Where it applies \u00b7 ' + k.reach + " activities</a>";
 
     return header({
-      back: "Back",
+      back: from ? from.a : "Back",
       title: k.name,
       action: saveButton("k" + ki),
-      sub: k.family + (k.label ? " · " + k.label : "")
+      sub: k.family + (k.label ? " \u00b7 " + k.label : "")
     }) + "<main>" + body + "</main>";
   };
 
@@ -593,7 +852,10 @@
       case "sectors": html = views.sectors(); break;
       case "m": html = views.macro(parts[1]); break;
       case "s": html = views.sector(parts[1]); break;
-      case "k": html = parts[2] === "where" ? views.schemeWhere(parts[1]) : views.scheme(parts[1]); break;
+      case "k":
+        html = parts[2] === "where" ? views.schemeWhere(parts[1])
+          : views.scheme(parts[1], parts[2] === "from" ? parts[3] : null);
+        break;
       case "schemes": html = views.schemes(parts[1]); break;
       case "saved": html = views.saved(); break;
       case "more": html = views.more(); break;
@@ -699,6 +961,7 @@
     .then(function (json) {
       D = json;
       buildIndex();
+      buildXref();
       route();
     })
     .catch(function () {

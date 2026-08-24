@@ -89,9 +89,9 @@ tools/
 | Screen | What it does |
 | --- | --- |
 | Home | Use the centered activity search, or start with all schemes and official departments/portals |
-| Search | Type an activity ("apple orchard", "bakery", "loan") and get matching activities and schemes |
-| Activity | Udyam treatment, who applies, first contact, approvals, HP gate, plus every mapped scheme grouped by match strength |
-| Scheme | Benefit and ceiling, your margin, eligibility, how to apply, agency, official page, cautions, stacking rules, and every activity it reaches |
+| Search | Type an activity ("apple orchard", "bakery", "loan") and get matching activities and schemes. The whole scheme record is indexed, not just its headline, so "collateral free", "interest subvention" or "DIC" reach the schemes that say so |
+| Activity | Udyam treatment, who applies, first contact, approvals, HP gate, plus every mapped scheme grouped by match strength. Opening a scheme from here carries the activity with it, so the scheme screen also shows why that match was made, what to do first, and any condition specific to that pairing |
+| Scheme | Benefit and ceiling, your margin, eligibility, how to apply, agency, official page, cautions, stacking rules, and every activity it reaches. Below that, "Go deeper" panels — collapsed until tapped — carry the scheme's own official pages and the department to ask, the benchmark cost norms that size the assistance, why a closed route is flagged, and related routes under the same programme or family |
 | Schemes | All 182 routes, filterable by scheme family |
 | Settings | The top-right menu opens Saved and More without a bottom tab bar |
 | Install | Every visit that is not already installed opens with a banner offering the app — the browser's own install prompt where one is available, otherwise the "add to home screen" steps for that platform. "Not now" hides it for that visit; installing hides it for good |
