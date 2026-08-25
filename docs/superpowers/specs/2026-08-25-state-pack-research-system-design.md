@@ -1,7 +1,7 @@
 # State Pack Research System Design
 
 **Date:** 2026-08-25  
-**Status:** Pending written-spec review  
+**Status:** Approved for implementation planning (HP v2 included)
 **Reference implementation:** Himachal Pradesh Scheme Finder and `Himachal_Pradesh_MSME_Agri_Scheme_Guide_2026_verified.xlsx`
 
 ## 1. Purpose
