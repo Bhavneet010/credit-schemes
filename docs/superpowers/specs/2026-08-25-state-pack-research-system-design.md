@@ -282,21 +282,25 @@ Mappings connect a sector activity to a scheme or component and contain:
 
 QA flags horizontal schemes mapped indiscriminately to all activities, unexplained mapping-count spikes, orphan schemes, orphan sectors, and state implementations inconsistent with the common scheme's rules.
 
-## 9. HP v2 Migration
+## 9. HP v2 Method Pilot and State Pack Migration
 
-Migration is lossless before it is corrective:
+HP v2 validates the research method before that method is generalized for other states. A small version-controlled research workbench records evidence safely during the pilot, but the generalized State Pack schema, scope engine, and reusable skill are built only after the HP v2 corpus exposes the method's real edge cases.
 
-1. Import every current HP sector, scheme, component norm, contact, mapping, source, legacy record, audit result, and correction entry into canonical records.
-2. Preserve current IDs as aliases and generate permanent IDs where necessary.
-3. Split central facts from HP implementation details without changing displayed content.
-4. Convert row-level sources into initial evidence records and mark multi-claim rows that still need claim-level anchoring.
-5. Reconcile the six unmapped HPIIP records as mapped active/legacy routes, components, or legacy-only entries.
-6. Reverify the seven `Open now` routes, all expiring windows, and the 135 allocation-dependent routes using the status model.
-7. Replace broad summary-only support for hard claims with operative evidence or downgrade the claim explicitly.
-8. Run the expanded official-agency discovery sweep and retain all candidates, including exclusions.
-9. Compare generated outputs with the current workbook and app. Every removal or changed value must appear in the change report with evidence.
+The sequence is:
 
-HP v2 becomes the acceptance fixture for adding other states.
+1. Freeze the current HP workbook and application data as the v1 baseline.
+2. Create an HP-specific research workbench containing run scope, source inventory, claim evidence, multidimensional status, candidates, coverage outcomes, mapping review, and change entries. This is a research ledger, not the generalized State Pack.
+3. Import every current HP sector, scheme, component norm, contact, mapping, source, legacy record, audit result, and correction entry into the workbench without changing displayed content.
+4. Reconcile the six unmapped HPIIP records as mapped active/legacy routes, components, or legacy-only entries.
+5. Reverify the seven `Open now` routes, all expiring windows, and the 135 allocation-dependent routes using the status model.
+6. Replace broad summary-only support for hard claims with operative evidence or downgrade the claim explicitly.
+7. Run the expanded official-agency discovery sweep and retain all candidates, including exclusions and verified-none outcomes.
+8. Generate and verify the HP v2 workbook, app data, QA report, and change report directly from the workbench.
+9. Record every schema, evidence, status, discovery, mapping, and workflow edge case encountered during the HP pilot.
+10. Generalize the proven workbench model into the canonical State Pack schemas and scoped-update engine.
+11. Migrate the accepted HP v2 workbench and workbook into the canonical State Pack, preserving v1 IDs as aliases and the complete research trail.
+
+HP v2—not the current HP v1 workbook—becomes the acceptance fixture and research baseline for adding other states.
 
 ## 10. Validation and Publication Gates
 

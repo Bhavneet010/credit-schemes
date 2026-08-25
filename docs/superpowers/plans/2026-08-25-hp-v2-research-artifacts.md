@@ -1,26 +1,27 @@
-# HP v2 Research and Artifact Generation Implementation Plan
+# HP v2 Research Method Pilot and Artifacts Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Upgrade the migrated HP State Pack to claim-level evidence, current multidimensional status, expanded official-source coverage, stronger mappings, and verified v2 workbook/app artifacts.
+**Goal:** Validate the complete research method on Himachal Pradesh first, produce a more reliable and broader HP v2 workbook/app dataset, and capture the real edge cases that the later generalized State Pack must support.
 
-**Architecture:** Research proceeds through explicit HP scopes and a persistent candidate/source ledger. QA tests are made red by the migration debt, research resolves or explicitly downgrades each failure, and generated artifacts replace prior outputs only after structural, evidence, coverage, mapping, and visual gates pass.
+**Architecture:** A small HP-specific, version-controlled research workbench sits beside the existing workbook. It records baseline rows, claim evidence, status, sources, candidates, coverage, mapping review, and changes without prematurely generalizing schemas for all states. HP v2 artifacts are generated from this workbench; its accepted data and method findings then become the input to the State Pack plan.
 
-**Tech Stack:** State Pack CLI, official web/PDF research, canonical JSON, Node tests, `@oai/artifact-tool` workbook generation and rendering.
+**Tech Stack:** Official web/PDF research, Node.js ESM, Node test runner, JSON research ledgers, `@oai/artifact-tool` workbook import/export/rendering, existing vanilla PWA compatibility data.
 
 **Spec:** `docs/superpowers/specs/2026-08-25-state-pack-research-system-design.md`
 
 ## Global Constraints
 
-- Research cutoff uses the actual completion date and Asia/Calcutta timezone.
+- HP v2 research precedes generalized State Pack design and migration.
+- The workbench is only the minimum durable structure needed to avoid losing evidence; do not build multi-state overlays, generic scope propagation, or the reusable skill in this phase.
+- Import every current HP workbook record before correcting or expanding it.
 - Search snippets, news, aggregators, and secondary pages may create candidates but may not support published hard claims.
 - Scheme existence, intake, and budget status are separate claims.
 - Hard numbers, eligibility thresholds, deadlines, and application routes require primary-operative evidence.
 - Every official source checked is recorded even when it yields no applicable scheme.
-- New candidates, exclusions, duplicates, institutional routes, supersessions, and unresolved leads remain in the candidate ledger.
-- No target number of schemes is imposed; completeness is proved by coverage and source sweeps.
-- Existing data is not removed or changed without an evidence-backed change entry.
-- Generated workbook and app output remain unchanged until all publication gates pass.
+- Do not target an arbitrary scheme count; prove breadth with agency and coverage sweeps.
+- Existing v1 workbook/app artifacts remain untouched until every HP v2 publication gate passes.
+- Use the actual completion date and Asia/Calcutta timezone for the final cutoff.
 
 ---
 
@@ -28,374 +29,372 @@
 
 **Create:**
 
-- `scheme-data/states/himachal-pradesh/research-source-inventory.json`
-- `scheme-data/states/himachal-pradesh/research-runs/2026-08-hp-v2.json`
-- `tools/state-pack/export-workbook.mjs`
-- `tools/state-pack/lib/workbook-export.mjs`
-- `tests/state-pack-hp-v2-qa.test.mjs`
-- `tests/state-pack-workbook.test.mjs`
-- `outputs/himachal-pradesh/*` — generated and ignored.
+- `research/hp-v2/run.json` — frozen pilot scope and checkpoints.
+- `research/hp-v2/baseline.json` — lossless normalized snapshot of all 13 v1 sheets.
+- `research/hp-v2/claims.json` — claim-level values, status, evidence links, and confidence.
+- `research/hp-v2/sources.json` — source inventory and retrieval metadata.
+- `research/hp-v2/candidates.json` — all discovered, rejected, duplicate, closed, and pending candidates.
+- `research/hp-v2/coverage.json` — existing family audit plus expanded coverage outcomes.
+- `research/hp-v2/mapping-review.json` — reviewed applicability and orphan resolution.
+- `research/hp-v2/changes.json` — evidence-backed semantic changes from v1.
+- `research/hp-v2/method-findings.json` — real schema/workflow edge cases for later generalization.
+- `tools/hp-v2/{import,validate,build-data,export-workbook}.mjs` — HP-only pilot commands.
+- `tools/hp-v2/lib/*.mjs` — focused workbook, evidence, QA, and generation helpers.
+- `tests/hp-v2-*.test.mjs` — workbench and artifact behavior tests.
+- `outputs/himachal-pradesh/*` — generated, ignored HP v2 artifacts.
 
-**Modify through research:**
+**Modify only after all gates pass:**
 
-- `scheme-data/common/{schemes,components,sources,changes}.json`
-- `scheme-data/states/himachal-pradesh/{manifest,sectors,schemes,implementations,components,mappings,component-norms,contacts,legacy,sources,evidence,candidates,coverage,changes}.json`
-- `app/data.json` only after final QA.
+- `app/data.json`
+- `README.md`
 
-## Task 1: Make HP v2 publication gates fail for the known migration debt
+## Task 1: Freeze and import the complete HP v1 baseline into the workbench
 
 **Files:**
 
-- Create: `tests/state-pack-hp-v2-qa.test.mjs`
-- Create: `scheme-data/states/himachal-pradesh/research-runs/2026-08-hp-v2.json`
+- Create: `package.json`
+- Modify: `.gitignore`
+- Create: `research/hp-v2/run.json`
+- Create: `research/hp-v2/baseline.json`
+- Create: `tools/hp-v2/import.mjs`
+- Create: `tools/hp-v2/lib/workbook.mjs`
+- Create: `tests/hp-v2-import.test.mjs`
 
 **Interfaces:**
 
-- Consumes: migrated HP State Pack.
-- Produces: a deterministic queue of stale status, hard-claim evidence, orphan mapping, coverage, and source-quality failures.
+- Consumes: `Himachal_Pradesh_MSME_Agri_Scheme_Guide_2026_verified.xlsx` and `app/data.json`.
+- Produces: a deterministic baseline containing every used row from all 13 workbook sheets plus current app counts and hashes.
 
-- [ ] **Step 1: Write the failing HP v2 QA tests**
+- [ ] **Step 1: Write the failing lossless-import test**
 
 ```js
-test("every published HP scheme has current existence and intake evidence", async () => {
-  const qa = await runPublicationQa(await loadStatePack("himachal-pradesh"), { asOf: "2026-08-25" });
-  assert.deepEqual(qa.failures.filter((item) => ["MISSING_EXISTENCE", "MISSING_INTAKE", "STALE_OPEN_STATUS"].includes(item.code)), []);
+test("HP v1 workbench import retains all authoritative workbook rows", async () => {
+  const result = await importHpWorkbook({ workbookPath, outputPath: tempBaseline });
+  assert.deepEqual(result.counts, {
+    sectors: 382,
+    schemes: 182,
+    mappings: 6767,
+    componentNorms: 71,
+    contacts: 79,
+    legacy: 35,
+    sources: 214,
+    coverageRows: 4584,
+    originalAuditRows: 62,
+    correctionEntries: 108
+  });
+  assert.deepEqual(result.sheetNames, [
+    "Start Here", "Business Navigator", "Sector Catalogue", "Sector-Scheme Map",
+    "Scheme Master", "Corrections Log", "Verification Notes", "Coverage Audit",
+    "Component Norms", "Legacy & Closed", "Key Contacts", "Original Audit", "Source Register"
+  ]);
 });
 
-test("every HP hard claim is anchored to acceptable evidence", async () => {
-  const qa = await runPublicationQa(await loadStatePack("himachal-pradesh"), { asOf: "2026-08-25" });
-  assert.deepEqual(qa.failures.filter((item) => item.code === "EVIDENCE_HARD_CLAIM"), []);
-});
-
-test("HP has no orphan published schemes or mappings", async () => {
-  const qa = await runPublicationQa(await loadStatePack("himachal-pradesh"), { asOf: "2026-08-25" });
-  assert.deepEqual(qa.failures.filter((item) => ["ORPHAN_SCHEME", "ORPHAN_MAPPING"].includes(item.code)), []);
-});
-
-test("the required HP coverage cube has no unexamined cells", async () => {
-  const qa = await runPublicationQa(await loadStatePack("himachal-pradesh"), { asOf: "2026-08-25" });
-  assert.deepEqual(qa.failures.filter((item) => item.code === "COVERAGE_UNEXAMINED"), []);
+test("every imported table row retains sheet and one-based row provenance", async () => {
+  const result = await importHpWorkbook({ workbookPath, outputPath: tempBaseline });
+  assert.ok(result.tableRows.every((row) => row.provenance.sheet && row.provenance.row >= 2));
 });
 ```
 
 - [ ] **Step 2: Run and verify RED**
 
-Run: `node --test tests/state-pack-hp-v2-qa.test.mjs`  
-Expected: FAIL with explicit lists corresponding to the seven open routes, broad allocation-dependent records, summary-only hard claims, six unmapped HPIIP routes, and incomplete v2 coverage dimensions.
+Run with bundled `@oai/artifact-tool`: `node --test tests/hp-v2-import.test.mjs`
+Expected: FAIL because the importer/workbench is absent.
 
-- [ ] **Step 3: Freeze the research run declaration**
+- [ ] **Step 3: Implement the HP-only importer**
 
-Write the run file with:
+Use `SpreadsheetFile.importXlsx` to read the workbook. Preserve displayed text and current IDs exactly. Store each sheet as `{name, headers, rows}` with provenance and a workbook hash. Do not split common/state schemes or invent generalized IDs in this phase.
+
+Create `package.json` scripts:
 
 ```json
 {
-  "id": "RESEARCH-RUN-HP-V2-2026-08",
-  "mode": "refresh-state",
-  "stateId": "STATE-IN-HP",
+  "private": true,
+  "scripts": {
+    "test:hp-v2": "node --test tests/hp-v2-*.test.mjs",
+    "hp-v2:import": "node tools/hp-v2/import.mjs",
+    "hp-v2:validate": "node tools/hp-v2/validate.mjs",
+    "hp-v2:build": "node tools/hp-v2/build-data.mjs"
+  }
+}
+```
+
+Ignore `outputs/` and `.hp-v2-staging/`, not the `research/hp-v2` ledgers.
+
+- [ ] **Step 4: Generate and verify the frozen run declaration**
+
+`run.json` must contain:
+
+```json
+{
+  "id": "HP-V2-PILOT-2026-08",
+  "mode": "full-state-method-pilot",
+  "state": "Himachal Pradesh",
   "previousCutoff": "2026-08-23",
-  "purpose": "HP v2 evidence migration and expanded official-source discovery",
-  "included": ["all HP sectors", "all HP implementations", "referenced central schemes", "all HP coverage dimensions"],
-  "excluded": ["unreferenced central schemes", "other states"],
+  "included": ["all 13 workbook sheets", "all current HP routes", "referenced central routes", "expanded discovery coverage"],
+  "excluded": ["other states", "generalized State Pack implementation", "multi-state PWA"],
   "publicationBlockedUntilQaPasses": true
 }
 ```
 
-Capture pre-run canonical hashes and current app/workbook reconciliation.
+Run the importer and confirm baseline/app hashes are stable across two runs.
 
-- [ ] **Step 4: Commit the failing gates and frozen scope**
+- [ ] **Step 5: Commit the frozen baseline**
 
 ```powershell
-git add tests/state-pack-hp-v2-qa.test.mjs scheme-data/states/himachal-pradesh/research-runs/2026-08-hp-v2.json
-git commit -m "test: define HP v2 publication gates"
+git add package.json .gitignore research/hp-v2 tools/hp-v2 tests/hp-v2-import.test.mjs
+git commit -m "research: freeze HP v1 baseline for v2 pilot"
 ```
 
-## Task 2: Build and complete the official HP source inventory
+## Task 2: Define HP v2 claims, status, candidates, coverage, and QA gates
 
 **Files:**
 
-- Create: `scheme-data/states/himachal-pradesh/research-source-inventory.json`
-- Modify: `scheme-data/states/himachal-pradesh/sources.json`
-- Modify: `scheme-data/states/himachal-pradesh/candidates.json`
+- Create: `research/hp-v2/{claims,sources,candidates,coverage,mapping-review,changes,method-findings}.json`
+- Create: `tools/hp-v2/validate.mjs`
+- Create: `tools/hp-v2/lib/qa.mjs`
+- Create: `tests/hp-v2-qa.test.mjs`
 
 **Interfaces:**
 
-- Produces one inventory row per issuing department, directorate, corporation, board, mission, SPV, portal, budget/economic-survey source, and relevant central implementation channel.
-- Each row has `agencyId`, `officialIndexUrls`, `sectors`, `beneficiaries`, `supportTypes`, `lastCheckedAt`, `outcome`, `sourceIds`, and `nextCheckAt`.
+- Produces deterministic failures with codes and baseline row references.
+- Permits migration debt during work but blocks final publication.
 
-- [ ] **Step 1: Write the failing source-inventory coverage test**
+- [ ] **Step 1: Write failing HP v2 QA tests**
 
 ```js
-test("every HP agency referenced by a scheme or contact has an inventory outcome", async () => {
-  const pack = await loadStatePack("himachal-pradesh");
-  const referenced = referencedAgencyIds(pack);
-  const inventoried = new Set(pack.researchSourceInventory.map((item) => item.agencyId));
-  assert.deepEqual(referenced.filter((id) => !inventoried.has(id)), []);
+test("every publishable route has current existence and intake evidence", async () => {
+  const qa = await runHpV2Qa(workbench, { asOf: "2026-08-25" });
+  assert.deepEqual(qa.byCodes("MISSING_EXISTENCE", "MISSING_INTAKE", "STALE_OPEN_STATUS"), []);
+});
+
+test("hard claims require primary-operative evidence", async () => {
+  const qa = await runHpV2Qa(workbench, { asOf: "2026-08-25" });
+  assert.deepEqual(qa.byCodes("EVIDENCE_HARD_CLAIM"), []);
+});
+
+test("required coverage cells and mapping reviews are complete", async () => {
+  const qa = await runHpV2Qa(workbench, { asOf: "2026-08-25" });
+  assert.deepEqual(qa.byCodes("COVERAGE_UNEXAMINED", "MAPPING_UNREVIEWED", "ORPHAN_SCHEME"), []);
 });
 ```
 
-- [ ] **Step 2: Verify RED**
+- [ ] **Step 2: Verify RED against the imported baseline**
 
-Run: `node --test --test-name-pattern="agency" tests/state-pack-hp-v2-qa.test.mjs`  
-Expected: FAIL because the inventory does not yet exist.
+Run: `node --test tests/hp-v2-qa.test.mjs`
+Expected: FAIL with explicit queues for v1 row-level evidence, seven `Open now` routes, broad allocation statuses, hard claims, incomplete expanded coverage, and six unmapped HPIIP routes.
 
-- [ ] **Step 3: Seed the inventory from current official records**
+- [ ] **Step 3: Implement only the HP pilot record contracts**
 
-Generate initial agency rows from Scheme Master, Key Contacts, and Source Register. Ensure explicit coverage for Industries/Single Window, Agriculture, Horticulture, Animal Husbandry, Fisheries, Rural Development/NRLM, Urban Development, Tourism, Energy/HIMURJA, Forest, Handloom/Handicrafts, Labour/Employment/Skill, Cooperatives, Startup/Incubation, Food Processing, Pharma/Medical Devices, AYUSH, SC/ST development finance, OBC/minority development finance, women development, transport/logistics, and relevant district/cluster channels.
+Use stable workbench IDs tied to v1 row provenance. Claim records include subject row/ID, field, value, source IDs, locator, verified/effective dates, evidence grade, and confidence. Status separates existence, intake, and budget. Candidates and coverage use the approved dispositions/outcomes. Do not add central/state overlay or general scope resolution yet.
 
-- [ ] **Step 4: Browse each official index and record outcomes**
+- [ ] **Step 4: Seed ledgers without making QA artificially green**
 
-For every inventory row:
+Convert current row URLs/dates to initial source and claim links, marking multi-claim rows and summary-only hard claims as unresolved migration debt. Seed existing Coverage Audit outcomes and the six orphan scheme IDs. `method-findings.json` starts with an empty `findings` array and an explicit schema version.
 
-1. Open official scheme, guideline, notification, circular, annual-report, portal, and current-call indexes.
-2. Record every plausible beneficiary-facing candidate.
-3. Record `verified-none` when an official sweep finds no additional route.
-4. Retain institutional/intermediary routes with their classification.
-5. Record broken or inaccessible official pages and a next-check date.
+- [ ] **Step 5: Commit failing gates and seeded workbench**
 
-Do not publish candidates during this breadth pass.
+```powershell
+git add research/hp-v2 tools/hp-v2 tests/hp-v2-qa.test.mjs
+git commit -m "test: define HP v2 research gates"
+```
 
-- [ ] **Step 5: Verify GREEN and commit inventory evidence**
+## Task 3: Complete the official HP source inventory and candidate breadth pass
 
-Run: `node --test --test-name-pattern="agency" tests/state-pack-hp-v2-qa.test.mjs`  
+**Files:**
+
+- Modify: `research/hp-v2/sources.json`
+- Modify: `research/hp-v2/candidates.json`
+- Modify: `research/hp-v2/coverage.json`
+- Modify: `research/hp-v2/method-findings.json`
+
+- [ ] **Step 1: Add the failing agency-inventory test**
+
+Every agency named in Scheme Master, Key Contacts, Source Register, and the approved discovery list must have official index URLs, sectors, beneficiary/support tags, checked date, outcome, and next-check date.
+
+- [ ] **Step 2: Seed and then browse the complete agency inventory**
+
+Cover Industries/Single Window, Agriculture, Horticulture, Animal Husbandry, Fisheries, Rural Development/NRLM, Urban Development, Tourism, Energy/HIMURJA, Forest, Handloom/Handicrafts, Labour/Employment/Skill, Cooperatives, Startup/Incubation, Food Processing, Pharma/Medical Devices, AYUSH, SC/ST development finance, OBC/minority development finance, women development, transport/logistics, district/cluster channels, and relevant central implementing bodies.
+
+- [ ] **Step 3: Record every plausible candidate before depth verification**
+
+Search official scheme/guideline/notification/circular indexes, budgets, Economic Survey, demands for grants, outcome documents, annual reports, application portals, and successor/closure notices. Secondary material may add a lead only. Record `verified-none` when an official sweep finds nothing additional.
+
+- [ ] **Step 4: Capture method edge cases immediately**
+
+For each discovery ambiguity—renamed schemes, components presented as schemes, institutional finance, seasonal calls, broken portals, district-only notices, conflicting titles—add a finding with the concrete HP example, required record behavior, and later generalization requirement.
+
+- [ ] **Step 5: Verify agency coverage and commit**
+
+Run: `node --test --test-name-pattern="agency|inventory" tests/hp-v2-qa.test.mjs`
 Expected: PASS.
 
 ```powershell
-git add scheme-data/states/himachal-pradesh/research-source-inventory.json scheme-data/states/himachal-pradesh/sources.json scheme-data/states/himachal-pradesh/candidates.json
-git commit -m "research: inventory HP official scheme sources"
+git add research/hp-v2
+git commit -m "research: complete HP v2 source breadth pass"
 ```
 
-## Task 3: Reverify multidimensional status for all current routes
+## Task 4: Reverify all current route status and hard claims
 
 **Files:**
 
-- Modify: HP/common schemes, implementations, evidence, sources, legacy, candidates, and changes ledgers.
+- Modify: `research/hp-v2/{claims,sources,candidates,changes,method-findings}.json`
 
-**Interfaces:**
+- [ ] **Step 1: Reverify the seven `Open now` routes**
 
-- Produces status claims: `existence`, `intake`, `budget`, `verifiedAt`, `validFrom`, `validTo`, `nextCheckAt`, `sourceIds`, `confidence`.
-- Removes the ambiguous v1 status only after equivalent v2 status evidence exists.
+Use a current official call, portal state, notification, or issuing-agency update. Set `intake: open` only when evidence remains valid on the research date; otherwise use scheduled, closed, unknown, or allocation-dependent. Apply the seven-day open-status recheck rule.
 
-- [ ] **Step 1: Export the failing status queue**
+- [ ] **Step 2: Reverify the 135 allocation/sanction routes by issuing agency**
 
-Run: `node tools/state-pack/cli.mjs validate --state himachal-pradesh --gate status --format json`  
-Expected: a deterministic queue beginning with expired `Open now`, allocation-dependent, closed-window, and migration-only status claims.
+Separate continuing programme existence from live intake and current allocation. Record evidence-backed status changes and retain previous wording in `changes.json`.
 
-- [ ] **Step 2: Reverify the seven v1 `Open now` routes first**
+- [ ] **Step 3: Reverify continuous, cluster, and closed-window routes**
 
-For each route, find a current official call, portal state, notification, or issuing-agency update. Set `intake: open` only when evidence is still valid on the research date; otherwise use `scheduled`, `closed`, `unknown`, or `allocation-dependent`. Set the seven-day recheck rule for open deadlines.
+Check all 23 bank/continuous routes, 11 cluster/project-area routes, and six fresh-window-closed routes. Preserve predecessor/successor and existing-beneficiary distinctions.
 
-- [ ] **Step 3: Reverify the 135 v1 allocation/sanction routes by issuing agency**
+- [ ] **Step 4: Upgrade every queued hard claim**
 
-Separate programme existence from live intake and current allocation. A continuing scheme with no verified application window remains publishable with `intake: allocation-dependent` or `unknown`, not `open`. Record one change entry per semantic status correction; evidence-only refreshes use `evidence-upgraded`.
+Locate issuing notifications, operative guidelines, rules, current portal instructions, or official circulars. Record page/section/table locator and effective dates. If operative evidence is unavailable, narrow/downgrade the claim or candidate status rather than repeat a precise unsupported entitlement.
 
-- [ ] **Step 4: Reverify continuous, cluster, and closed-window routes**
+- [ ] **Step 5: Spot-check high-impact claim families**
 
-Check the 23 bank/continuous routes, 11 cluster/project-area routes, and six fresh-window-closed routes against current official evidence. Preserve predecessor/successor relations in legacy records.
+Manually reconcile MMSY, State Mission on Food Processing, Startup Himachal, PMEGP, MUDRA, CGTMSE, horticulture component norms, fisheries, livestock infrastructure, industrial-policy incentives, and category-targeted finance.
 
-- [ ] **Step 5: Run status QA and commit**
-
-Run:
+- [ ] **Step 6: Run status/evidence QA and commit**
 
 ```powershell
-node tools/state-pack/cli.mjs validate --state himachal-pradesh --gate status
-node --test --test-name-pattern="existence and intake" tests/state-pack-hp-v2-qa.test.mjs
+node tools/hp-v2/validate.mjs --gate status
+node tools/hp-v2/validate.mjs --gate evidence
+node --test --test-name-pattern="existence|hard claims" tests/hp-v2-qa.test.mjs
 ```
 
-Expected: PASS; no expired evidence yields `intake: open`.
+Expected: PASS with no expired open label and no unsupported published hard claim.
 
 ```powershell
-git add scheme-data/common scheme-data/states/himachal-pradesh
-git commit -m "research: reverify HP scheme status"
+git add research/hp-v2
+git commit -m "research: reverify HP v2 claims and status"
 ```
 
-## Task 4: Upgrade hard claims to claim-level operative evidence
+## Task 5: Verify candidates, expand coverage, and review every mapping
 
 **Files:**
 
-- Modify: common and HP schemes/components/evidence/sources/changes.
+- Modify: `research/hp-v2/{claims,sources,candidates,coverage,mapping-review,changes,method-findings}.json`
 
-**Interfaces:**
+- [ ] **Step 1: Deduplicate and classify every candidate**
 
-- Every hard claim has an evidence locator and an accepted evidence grade.
+Use title, acronym, issuer, parent, legal authority, aliases, and predecessor/successor. Dispositions are publishable, component, no-current-intake, institutional, superseded, duplicate, out-of-scope, or unverified-lead.
 
-- [ ] **Step 1: Export the hard-claim evidence queue**
+- [ ] **Step 2: Depth-verify every viable candidate**
 
-Run: `node tools/state-pack/cli.mjs validate --state himachal-pradesh --gate evidence --format json`  
-Expected: a non-empty queue, including precise claims currently supported only by broad official summaries such as the Economic Survey.
+Verify existence, intake, beneficiary scope, benefit, access, dates, and HP implementation. Retain all rejected/deferred candidates with checked sources and next-check dates.
 
-- [ ] **Step 2: Verify financial and eligibility claims against operative sources**
+- [ ] **Step 3: Complete the expanded HP coverage cube**
 
-For each queued claim, locate the issuing notification, guideline, rule, current portal instruction, or official circular. Record exact page/section/table locator, issuer, publication/effective dates, retrieval date, and source fingerprint when obtainable.
+For required Agency × Sector × Beneficiary × Enterprise-stage × Support-type intersections, record verified-applicable, verified-none, candidate-pending, or not-relevant with evidence. Link existing 382-by-12 family audit rows rather than discarding them.
 
-- [ ] **Step 3: Resolve unavailable or conflicting evidence**
+- [ ] **Step 4: Review mappings and resolve six HPIIP orphans**
 
-If no primary-operative evidence is reachable, replace precise entitlement language with the strongest supportable wording, set confidence and limitation explicitly, or move the record to candidate/legacy as appropriate. When official sources conflict, record both and resolve by legal authority, effective date, and scope.
+Confirm Direct only from explicit official activity/component evidence; justify Strong; name the missing condition for Conditional; reserve Horizontal for genuinely cross-sector support. Classify each orphan as active mapped route, component, existing-beneficiary/legacy route, or duplicate.
 
-- [ ] **Step 4: Verify representative high-impact claims manually**
+- [ ] **Step 5: Record mapping/discovery method findings**
 
-Spot-check MMSY capital/interest support, State Mission on Food Processing, Startup Himachal, PMEGP, MUDRA, CGTMSE, horticulture component norms, fisheries, livestock infrastructure, industrial-policy incentives, and category-targeted finance. Reconcile displayed value, underlying claim, source locator, and current applicability.
+Capture cases where one programme has multiple components, one central scheme has HP-specific implementation, eligibility changes mapping reach, or horizontal expansion causes noise. These findings directly constrain the later generic model.
 
-- [ ] **Step 5: Run evidence QA and commit**
-
-Run:
+- [ ] **Step 6: Run coverage/mapping QA and commit**
 
 ```powershell
-node tools/state-pack/cli.mjs validate --state himachal-pradesh --gate evidence
-node --test --test-name-pattern="hard claim" tests/state-pack-hp-v2-qa.test.mjs
+node tools/hp-v2/validate.mjs --gate coverage
+node tools/hp-v2/validate.mjs --gate mappings
+node --test --test-name-pattern="coverage|mapping|orphan" tests/hp-v2-qa.test.mjs
 ```
 
-Expected: PASS with no unsupported published hard claims.
+Expected: PASS; every viable candidate has a disposition and every published mapping is reviewed.
 
 ```powershell
-git add scheme-data/common scheme-data/states/himachal-pradesh
-git commit -m "research: anchor HP claims to operative evidence"
+git add research/hp-v2
+git commit -m "research: expand HP v2 coverage and mappings"
 ```
 
-## Task 5: Verify new candidates and expand HP scheme coverage
+## Task 6: Generate and visually verify HP v2 workbook and compatibility app data
 
 **Files:**
 
-- Modify: HP/common candidate, scheme, implementation, component, evidence, source, contact, legacy, mapping, coverage, and change files.
-
-**Interfaces:**
-
-- Candidate dispositions: `publishable`, `component`, `no-current-intake`, `institutional`, `superseded`, `duplicate`, `out-of-scope`, `unverified-lead`.
-- Coverage outcomes: `verified-applicable`, `verified-none`, `candidate-pending`, `not-relevant`.
-
-- [ ] **Step 1: Deduplicate the breadth-pass candidate ledger**
-
-Match official title, acronym, issuer, parent programme, legal authority, aliases, and predecessor/successor IDs. Do not count a component as a distinct programme, but preserve it as a searchable route when it has distinct eligibility or benefit rules.
-
-- [ ] **Step 2: Perform the depth pass for every viable candidate**
-
-Verify existence, intake, beneficiary scope, benefit, access route, dates, and HP implementation. Publish only candidates passing evidence gates. Retain every rejection/deferment with sources checked and next-check date.
-
-- [ ] **Step 3: Complete the expanded coverage cube**
-
-For each required intersection of agency, sector, beneficiary, enterprise stage, and support type, record an evidence-backed outcome. Retain the existing 382-by-12 family audit and link its rows to the richer cube.
-
-- [ ] **Step 4: Reconcile mappings and the six orphan HPIIP records**
-
-Classify each orphan as an active mapped route, a component, an existing-beneficiary/legacy route, or a duplicate. For new and changed schemes, create only evidence-justified Direct/Strong/Conditional/Horizontal mappings. Flag indiscriminate horizontal expansion and explain large mapping-count changes.
-
-- [ ] **Step 5: Run coverage/mapping QA and commit**
-
-Run:
-
-```powershell
-node tools/state-pack/cli.mjs validate --state himachal-pradesh --gate coverage
-node tools/state-pack/cli.mjs validate --state himachal-pradesh --gate mappings
-node --test --test-name-pattern="coverage|orphan" tests/state-pack-hp-v2-qa.test.mjs
-```
-
-Expected: PASS; candidate ledger has no viable candidate lacking a disposition; required coverage cells are complete.
-
-```powershell
-git add scheme-data/common scheme-data/states/himachal-pradesh
-git commit -m "research: expand verified HP scheme coverage"
-```
-
-## Task 6: Generate and visually verify the HP v2 workbook
-
-**Files:**
-
-- Create: `tools/state-pack/export-workbook.mjs`
-- Create: `tools/state-pack/lib/workbook-export.mjs`
-- Create: `tests/state-pack-workbook.test.mjs`
+- Create: `tools/hp-v2/export-workbook.mjs`
+- Create: `tools/hp-v2/build-data.mjs`
+- Create: `tools/hp-v2/lib/{workbook-export,app-data}.mjs`
+- Create: `tests/hp-v2-artifacts.test.mjs`
 - Generate: `outputs/himachal-pradesh/Himachal_Pradesh_Scheme_Guide_2026-08-25_verified.xlsx`
 
-**Interfaces:**
+- [ ] **Step 1: Read spreadsheet API/style instructions and mark the artifact operation**
 
-- Produces the 13 retained sheets plus `Claim Evidence` and `Candidate Ledger`.
-- Preserves state-pack stable IDs, evidence URLs, verification dates, filters, and readable formatting.
+Load workspace dependencies, read the complete spreadsheet API quick start and style guidelines, and run the create-operation marker exactly once before authoring.
 
-- [ ] **Step 1: Read the spreadsheet skill API and style references before authoring**
+- [ ] **Step 2: Write failing artifact reconciliation tests**
 
-Load the workspace dependencies, read the complete spreadsheet API quick start and style guidelines, and run the artifact-operation marker exactly once for an XLSX create operation.
+The workbook must retain the 13 current sheets and add `Claim Evidence` and `Candidate Ledger`. Row counts in Scheme Master, mapping, claims, candidates, sources, coverage, and app JSON must equal accepted workbench counts. Every v1 removal/change must have a change entry.
 
-- [ ] **Step 2: Write failing workbook reconciliation tests**
+- [ ] **Step 3: Implement HP-only artifact generation**
 
-```js
-test("HP v2 workbook reconciles canonical row counts and sheets", async () => {
-  const summary = await inspectGeneratedWorkbook(outputPath);
-  assert.deepEqual(summary.sheetNames, [
-    "Start Here", "Business Navigator", "Sector Catalogue", "Sector-Scheme Map",
-    "Scheme Master", "Corrections Log", "Verification Notes", "Coverage Audit",
-    "Component Norms", "Legacy & Closed", "Key Contacts", "Migration Audit",
-    "Source Register", "Claim Evidence", "Candidate Ledger"
-  ]);
-  assert.equal(summary.schemeRows, canonical.schemeCount);
-  assert.equal(summary.mappingRows, canonical.mappingCount);
-  assert.equal(summary.claimRows, canonical.claimCount);
-});
-```
+Generate corrected Scheme Master, component rows, mappings, contacts, norms, legacy, source register, coverage, corrections, verification notes, Claim Evidence, and Candidate Ledger from workbench data. Build current `app/data.json` shape so the existing PWA can consume HP v2 before multi-state work.
 
-- [ ] **Step 3: Verify RED**
+- [ ] **Step 4: Render every workbook sheet and repair severe defects**
 
-Run: `node --test tests/state-pack-workbook.test.mjs`  
-Expected: FAIL because the exporter/output is absent.
+Inspect all used ranges for clipped headers, unreadable URLs, broken tables, blank sheets, and awkward row heights. Run formula/error scans. Export one final workbook only.
 
-- [ ] **Step 4: Implement the workbook exporter**
+- [ ] **Step 5: Run artifact tests without publishing**
 
-Use `@oai/artifact-tool` block writes, explicit header formatting, bounded widths, wrapped narrative columns, filters/tables, frozen headers, and visible official URLs. Generate Business Navigator from canonical sectors/mappings/schemes. Generate Coverage Audit, Claim Evidence, Candidate Ledger, and changes from their ledgers. Export only after data reconciliation passes.
+Run: `node --test tests/hp-v2-artifacts.test.mjs`
+Expected: PASS; generated app data and workbook reconcile with the workbench.
 
-- [ ] **Step 5: Render every sheet and repair severe visual defects**
-
-Render used ranges at readable scale. Inspect all previews for clipped headers, unreadable URLs, broken tables, blank sheets, and awkward row heights. Run formula/error scans even if formulas are minimal. Save only the final workbook.
-
-- [ ] **Step 6: Verify GREEN and commit exporter code**
-
-Run: `node --test tests/state-pack-workbook.test.mjs`  
-Expected: PASS. Do not commit the ignored workbook.
+- [ ] **Step 6: Commit generator code**
 
 ```powershell
-git add tools/state-pack tests/state-pack-workbook.test.mjs
-git commit -m "feat: export verified state workbooks"
+git add tools/hp-v2 tests/hp-v2-artifacts.test.mjs
+git commit -m "feat: generate verified HP v2 artifacts"
 ```
 
-## Task 7: Publish HP v2 app data and acceptance evidence
+## Task 7: Publish HP v2 and close the method pilot
 
 **Files:**
 
 - Modify: `app/data.json`
-- Generate: `outputs/himachal-pradesh/{qa-report,change-report}.json`
-- Modify: `scheme-data/states/himachal-pradesh/manifest.json`
 - Modify: `README.md`
+- Modify: `research/hp-v2/{run,method-findings}.json`
+- Create: `research/hp-v2/acceptance.json`
+- Generate: `outputs/himachal-pradesh/{qa-report,change-report,hp-v2-acceptance}.json`
 
-- [ ] **Step 1: Run all publication gates without replacing outputs**
+- [ ] **Step 1: Run every HP v2 publication gate**
 
 ```powershell
-node tools/state-pack/cli.mjs validate --state himachal-pradesh --all-gates
-node --test tests/state-pack-*.test.mjs tests/service-worker.test.js
+npm run test:hp-v2
+node tools/hp-v2/validate.mjs --all-gates
+node --test tests/service-worker.test.js
 ```
 
-Expected: PASS.
+Expected: PASS. Run the existing Playwright suite against staged HP v2 data and require no regressions.
 
-- [ ] **Step 2: Generate the HP v2 QA and change reports**
+- [ ] **Step 2: Generate QA, change, and acceptance reports**
 
-The change report must categorize every change from the migration baseline and list added, corrected, status-updated, retired, merged, split, evidence-upgraded, and unchanged counts. The QA report must list cutoff, source-inventory completion, candidate dispositions, coverage outcomes, mapping distribution, and all gate results.
+The acceptance report contains final counts, all input/output hashes, cutoff, source-inventory completion, candidate dispositions, coverage outcomes, mapping distribution, unresolved limitations, and gate results. Write the same hand-reviewed acceptance content to version-controlled `research/hp-v2/acceptance.json`; the later State Pack migration treats that file as its independent reconciliation contract. The change report categorizes added, corrected, status-updated, retired, merged, split, evidence-upgraded, and unchanged records.
 
-- [ ] **Step 3: Build and atomically replace `app/data.json`**
+- [ ] **Step 3: Publish app data atomically and update README**
 
-Run: `node tools/state-pack/cli.mjs build-app --state himachal-pradesh --output app/data.json --require-all-gates`  
-Expected: output counts exactly match the canonical HP pack; the prior file is replaced only after validation.
+Replace `app/data.json` only after staged outputs pass. README must distinguish programmes from components/routes and describe the validated research method without claiming absolute completeness.
 
-- [ ] **Step 4: Update manifest and README**
+- [ ] **Step 4: Finalize method findings for State Pack generalization**
 
-Record the actual HP v2 cutoff, full-audit date, per-slice verification dates, counts, source inventory completion, and generated artifact path. README must distinguish distinct programmes from components/routes and describe the evidence/status improvements without making unsupported completeness claims.
+For each finding, record whether the generic system needs a schema field, status rule, dependency rule, candidate disposition, mapping rule, source behavior, or workflow checkpoint. Mark `run.json` complete only when every finding has a decided generalization requirement.
 
-- [ ] **Step 5: Run full regression and commit**
+- [ ] **Step 5: Run regression and commit HP v2**
 
 ```powershell
-npm run test:unit
-npm run data:validate
+npm run test:hp-v2
+node tools/hp-v2/validate.mjs --all-gates
 git diff --check
 git status --short
 ```
 
-Run the existing Playwright suite with the bundled Playwright path and Chrome. Expected: all unit, data, and UI tests PASS.
-
 ```powershell
-git add scheme-data app/data.json README.md
-git commit -m "feat: publish verified HP v2 state pack"
+git add research/hp-v2 app/data.json README.md
+git commit -m "feat: publish HP v2 research baseline"
 ```

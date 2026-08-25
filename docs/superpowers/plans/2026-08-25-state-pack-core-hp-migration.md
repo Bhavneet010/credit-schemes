@@ -2,11 +2,11 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Build the canonical State Pack toolchain and migrate every current HP workbook record losslessly into version-controlled data.
+**Goal:** Generalize the research method proven by HP v2 into the canonical State Pack toolchain and migrate the accepted HP v2 corpus losslessly.
 
-**Architecture:** Node-based schemas, validators, scope guards, overlay logic, and application-data generation operate on canonical JSON. A one-time workbook importer reads the existing 13-sheet HP workbook, produces canonical records plus a reconciliation report, and preserves the current app output until later HP v2 research changes it.
+**Architecture:** Node-based schemas, validators, scope guards, overlay logic, and application-data generation are derived from the accepted HP v2 workbench and its method findings. A one-time converter migrates that validated HP v2 corpus into common and state records, then proves parity against the independently reviewed HP v2 acceptance report and current HP v2 app data.
 
-**Tech Stack:** Node.js ESM, Node built-in test runner, JSON Schema documents, `@oai/artifact-tool` for workbook import, existing vanilla PWA data contract.
+**Tech Stack:** Node.js ESM, Node built-in test runner, JSON Schema documents, accepted HP v2 JSON research ledgers, existing vanilla PWA data contract.
 
 **Spec:** `docs/superpowers/specs/2026-08-25-state-pack-research-system-design.md`
 
@@ -18,27 +18,28 @@
 - Records outside a declared focused scope remain byte-identical except declared dependencies.
 - Hard financial, eligibility, deadline, and application-route claims require acceptable claim-level evidence.
 - Failed validation must leave the current `app/data.json` and workbook untouched.
-- The initial migration is lossless before any corrective HP v2 research begins.
+- Do not freeze generalized schemas until every accepted HP v2 method finding has a mapped schema field, rule, or workflow behavior.
+- The State Pack migration is lossless against accepted HP v2, not the superseded HP v1 workbook.
 - Do not commit `.xlsx` artifacts; they remain ignored by the repository.
 
 ## Cross-Plan Execution and Acceptance Traceability
 
 Execute the plans in this order:
 
-1. This core/migration plan.
-2. `docs/superpowers/plans/2026-08-25-credit-scheme-research-skill.md`.
-3. `docs/superpowers/plans/2026-08-25-hp-v2-research-artifacts.md`.
+1. `docs/superpowers/plans/2026-08-25-hp-v2-research-artifacts.md`.
+2. This core/migration plan.
+3. `docs/superpowers/plans/2026-08-25-credit-scheme-research-skill.md`.
 4. `docs/superpowers/plans/2026-08-25-multi-state-pwa.md`.
 
 | Spec acceptance criterion | Owning plan evidence |
 |---|---|
-| Lossless canonical HP State Pack | Core Tasks 5–7 reconciliation and parity tests |
-| HP v2 structural, evidence, coverage, mapping, workbook, and app gates | HP v2 Tasks 1–7 |
+| Lossless canonical HP State Pack | HP v2 acceptance report plus Core Tasks 5–7 reconciliation and parity tests |
+| HP v2 structural, evidence, coverage, mapping, workbook, and app gates | First-phase HP v2 Tasks 1–7 |
 | Short `add-state` prompt | Skill Tasks 1–7 plus PWA Task 7 second-state fixture |
 | Sector refresh preserves unrelated records | Core Task 4 scope/hash tests and skill focused-update tests |
 | Named-scheme refresh updates dependencies only | Core Task 4 dependency tests and installed-skill scenario |
 | Shared central schemes researched once | Core Task 3 overlay tests and PWA Task 7 shared-ID test |
-| Candidate and verified-none memory | HP v2 Tasks 2 and 5 plus skill QA contract |
+| Candidate and verified-none memory | HP v2 Tasks 3 and 5 plus skill QA contract |
 | Reproducible workbook, app data, QA, and change report | Core Tasks 6–7 and HP v2 Tasks 6–7 |
 | Behavior-tested reusable skill | Skill RED/GREEN/REFACTOR campaign and installation checks |
 
@@ -48,12 +49,11 @@ Execute the plans in this order:
 
 **Create:**
 
-- `package.json` — local commands for unit tests, validation, migration, and data builds.
 - `scheme-data/schema/*.schema.json` — public record contracts.
 - `scheme-data/common/*.json` — shared central records and shared source/change ledgers.
 - `scheme-data/states/himachal-pradesh/*.json` — canonical HP records.
 - `tools/state-pack/lib/*.mjs` — focused I/O, identity, overlay, scope, validation, and diff modules.
-- `tools/state-pack/import-hp-v1.mjs` — lossless workbook importer.
+- `tools/state-pack/import-hp-v2.mjs` — lossless accepted-workbench converter.
 - `tools/state-pack/build-app-data.mjs` — canonical-to-PWA compiler.
 - `tools/state-pack/cli.mjs` — stable command interface consumed by the future skill.
 - `tests/fixtures/state-pack/**` — small hand-checked fixtures.
@@ -61,7 +61,8 @@ Execute the plans in this order:
 
 **Modify:**
 
-- `.gitignore` — ignore generated `outputs/` and temporary State Pack staging directories.
+- `package.json` — retain HP v2 pilot commands and add generalized State Pack commands.
+- `.gitignore` — retain HP v2 ignores and add temporary State Pack staging.
 - `tools/build_data.py` — retain as a compatibility wrapper that explains and invokes the canonical builder after migration.
 - `README.md` — document the canonical build commands without yet changing the HP-only UI.
 
@@ -69,7 +70,7 @@ Execute the plans in this order:
 
 **Files:**
 
-- Create: `package.json`
+- Modify: `package.json`
 - Create: `tests/state-pack-cli.test.mjs`
 - Create: `tools/state-pack/cli.mjs`
 - Modify: `.gitignore`
@@ -111,7 +112,7 @@ const command = process.argv[2];
 const modules = {
   validate: "./validate-command.mjs",
   scope: "./scope-command.mjs",
-  "import-hp": "./import-hp-v1.mjs",
+  "import-hp": "./import-hp-v2.mjs",
   "build-app": "./build-app-data.mjs",
   diff: "./diff-command.mjs"
 };
@@ -131,6 +132,10 @@ Create stub command modules whose `run()` prints `not implemented` and returns `
 {
   "private": true,
   "scripts": {
+    "test:hp-v2": "node --test tests/hp-v2-*.test.mjs",
+    "hp-v2:import": "node tools/hp-v2/import.mjs",
+    "hp-v2:validate": "node tools/hp-v2/validate.mjs",
+    "hp-v2:build": "node tools/hp-v2/build-data.mjs",
     "test:unit": "node --test tests/state-pack-*.test.mjs tests/service-worker.test.js",
     "data:validate": "node tools/state-pack/cli.mjs validate --all",
     "data:import-hp": "node tools/state-pack/cli.mjs import-hp",
@@ -142,8 +147,7 @@ Create stub command modules whose `run()` prints `not implemented` and returns `
 Append to `.gitignore`:
 
 ```gitignore
-# Generated State Pack artifacts and transactional staging
-outputs/
+# Generalized State Pack transactional staging
 .state-pack-staging/
 ```
 
@@ -159,7 +163,7 @@ git add package.json .gitignore tools/state-pack tests/state-pack-cli.test.mjs
 git commit -m "build: add state pack command surface"
 ```
 
-## Task 2: Define schemas and enforce canonical record invariants
+## Task 2: Generalize the proven HP v2 findings into schemas and invariants
 
 **Files:**
 
@@ -177,6 +181,7 @@ git commit -m "build: add state pack command surface"
 - Produces: `validateStatePack(packRoot): {ok:boolean, errors:Array<{code,path,message}>}`
 - Produces: CLI `validate --state himachal-pradesh` and `validate --all`
 - Consumes: canonical JSON files defined in the spec.
+- Consumes: every entry in `research/hp-v2/method-findings.json` and maps it to a schema field, validation rule, dependency rule, or documented workflow checkpoint.
 
 - [ ] **Step 1: Write failing validation tests**
 
@@ -227,7 +232,7 @@ The scheme schema requires:
 }
 ```
 
-Implement `validation.mjs` with explicit validators for required fields, enum values, unique IDs, resolved references, status freshness, hard-claim evidence grades, orphan mappings, and coverage outcomes. Return all errors in deterministic path/code order. Do not rely on generated expected values in tests.
+Implement `validation.mjs` with explicit validators for required fields, enum values, unique IDs, resolved references, status freshness, hard-claim evidence grades, orphan mappings, and coverage outcomes. Add a traceability map from each HP v2 method-finding ID to the enforcing schema/rule and fail validation when an accepted finding has no mapping. Return all errors in deterministic path/code order. Do not rely on generated expected values in tests.
 
 - [ ] **Step 4: Run targeted and regression tests**
 
@@ -357,12 +362,12 @@ git add tools/state-pack tests/state-pack-scope.test.mjs tests/fixtures/state-pa
 git commit -m "feat: guard focused state pack updates"
 ```
 
-## Task 5: Import the complete HP workbook losslessly
+## Task 5: Migrate the accepted HP v2 workbench losslessly
 
 **Files:**
 
-- Create: `tools/state-pack/import-hp-v1.mjs`
-- Create: `tools/state-pack/lib/workbook-import.mjs`
+- Create: `tools/state-pack/import-hp-v2.mjs`
+- Create: `tools/state-pack/lib/hp-v2-conversion.mjs`
 - Create: `tests/state-pack-import.test.mjs`
 - Create: `scheme-data/states/himachal-pradesh/*.json`
 - Create: `scheme-data/common/*.json`
@@ -370,68 +375,53 @@ git commit -m "feat: guard focused state pack updates"
 
 **Interfaces:**
 
-- Consumes workbook: `Himachal_Pradesh_MSME_Agri_Scheme_Guide_2026_verified.xlsx`
+- Consumes: `research/hp-v2/*.json`, especially `acceptance.json` and `method-findings.json`.
 - Produces canonical HP files listed in the spec.
-- Produces reconciliation counts and deterministic source-row provenance.
+- Produces reconciliation against independently reviewed HP v2 counts/hashes and preserves original workbook-row provenance carried through the workbench.
 
 - [ ] **Step 1: Write failing importer reconciliation tests**
 
 ```js
-test("HP v1 import reconciles all authoritative workbook sheets", async () => {
-  const result = await importHpV1({ workbookPath, outputRoot: tempRoot });
-  assert.deepEqual(result.counts, {
-    sectors: 382,
-    schemes: 182,
-    mappings: 6767,
-    componentNorms: 71,
-    contacts: 79,
-    legacy: 35,
-    sources: 214,
-    coverageRows: 4584,
-    originalAuditRows: 62
-  });
+test("HP v2 conversion reconciles the independently accepted corpus", async () => {
+  const acceptance = JSON.parse(await readFile("research/hp-v2/acceptance.json", "utf8"));
+  const result = await importHpV2({ workbenchRoot: "research/hp-v2", outputRoot: tempRoot });
+  assert.deepEqual(result.counts, acceptance.publishedCounts);
+  assert.equal(result.workbenchHash, acceptance.workbenchHash);
 });
 
-test("every imported row retains workbook sheet and row provenance", async () => {
-  const result = await importHpV1({ workbookPath, outputRoot: tempRoot });
+test("every migrated record retains HP workbench and workbook provenance", async () => {
+  const result = await importHpV2({ workbenchRoot: "research/hp-v2", outputRoot: tempRoot });
   assert.ok(result.records.every((record) => record.migrationSource?.sheet && Number.isInteger(record.migrationSource.row)));
 });
 ```
 
-The test derives counts from the verified baseline already inspected: workbook counts exclude header rows.
+The acceptance file is reviewed and committed at the close of the HP v2 pilot; it is not generated by this converter.
 
 - [ ] **Step 2: Verify RED**
 
 Run with the bundled dependency runtime linked for `@oai/artifact-tool`: `node --test tests/state-pack-import.test.mjs`  
-Expected: FAIL because importer modules do not exist.
+Expected: FAIL because converter modules do not exist.
 
-- [ ] **Step 3: Implement workbook reading and canonical conversion**
+- [ ] **Step 3: Implement HP v2 workbench conversion**
 
-Use:
-
-```js
-import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
-const workbook = await SpreadsheetFile.importXlsx(await FileBlob.load(workbookPath));
-```
-
-Read all 13 sheets. Preserve exact source text in migration fields. Convert the six app-consumed sheets into normalized records, retain Corrections Log and Verification Notes as change/note entries, retain Coverage Audit outcomes, retain Original Audit, and import Source Register records. Generate aliases from current IDs; do not discard them.
+Convert accepted workbench claims, sources, candidates, coverage, mapping review, and changes into the generalized schemas. Split common central definitions from HP implementations only now, after the pilot has established the required edge-case behavior. Preserve v1 IDs as aliases and retain baseline sheet/row provenance on every migrated record.
 
 - [ ] **Step 4: Run import, validate, and reconcile**
 
 Run:
 
 ```powershell
-node tools/state-pack/cli.mjs import-hp --workbook "Himachal_Pradesh_MSME_Agri_Scheme_Guide_2026_verified.xlsx"
-node tools/state-pack/cli.mjs validate --state himachal-pradesh --migration-mode
+node tools/state-pack/cli.mjs import-hp --workbench research/hp-v2
+node tools/state-pack/cli.mjs validate --state himachal-pradesh
 ```
 
-Expected: exact counts above; zero missing imported rows; migration-mode permits explicitly tagged claim-level evidence debt but reports it.
+Expected: exact acceptance counts/hashes, zero missing records or evidence links, and no HP v2 publication debt reintroduced.
 
 - [ ] **Step 5: Commit canonical migration**
 
 ```powershell
 git add scheme-data tools/state-pack tests/state-pack-import.test.mjs
-git commit -m "feat: migrate HP workbook into state pack"
+git commit -m "feat: migrate accepted HP v2 into state pack"
 ```
 
 ## Task 6: Compile canonical HP data back to the existing PWA contract
@@ -448,7 +438,7 @@ git commit -m "feat: migrate HP workbook into state pack"
 
 - Produces: `compileStateForLegacyApp(pack): LegacyAppData`
 - Produces CLI: `build-app --state himachal-pradesh --output app/data.json`
-- Preserves current `app/data.json` keys and counts before HP v2 corrections.
+- Preserves the accepted HP v2 `app/data.json` keys, values, stable display order, and counts during generalization.
 
 - [ ] **Step 1: Write failing parity tests**
 
@@ -456,7 +446,7 @@ git commit -m "feat: migrate HP workbook into state pack"
 test("canonical HP compilation preserves the current visible dataset", async () => {
   const current = JSON.parse(await readFile("app/data.json", "utf8"));
   const compiled = await compileStateForLegacyApp(await loadStatePack("himachal-pradesh"));
-  assert.deepEqual(compiled.meta.counts, { sectors: 382, schemes: 182, links: 6767 });
+  assert.deepEqual(compiled.meta.counts, current.meta.counts);
   assert.deepEqual(compiled.sectors.map((item) => item.id), current.sectors.map((item) => item.id));
   assert.deepEqual(compiled.schemes.map((item) => item.name), current.schemes.map((item) => item.name));
 });
@@ -483,7 +473,7 @@ node tools/state-pack/cli.mjs build-app --state himachal-pradesh --output app/da
 git diff --exit-code -- app/data.json
 ```
 
-Expected: tests PASS and pre-HP-v2 `app/data.json` has no semantic or byte diff.
+Expected: tests PASS and accepted HP v2 `app/data.json` has no semantic or byte diff.
 
 - [ ] **Step 5: Commit**
 
