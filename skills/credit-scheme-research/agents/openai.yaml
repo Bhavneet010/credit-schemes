@@ -1,0 +1,6 @@
+interface:
+  display_name: "Credit Scheme Research"
+  short_description: "Research and update Indian state schemes"
+  default_prompt: "Use $credit-scheme-research to update only horticulture schemes for Himachal Pradesh."
+policy:
+  allow_implicit_invocation: true
