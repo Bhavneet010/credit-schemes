@@ -4,3 +4,8 @@
 
 # Local tooling
 .claude/
+
+# HP v2 generated outputs and local workspace runtime link.
+outputs/
+.hp-v2-staging/
+node_modules/

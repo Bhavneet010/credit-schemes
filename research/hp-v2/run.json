@@ -1,0 +1,9 @@
+{
+  "id": "HP-V2-PILOT-2026-08",
+  "mode": "full-state-method-pilot",
+  "state": "Himachal Pradesh",
+  "previousCutoff": "2026-08-23",
+  "included": ["all 13 workbook sheets", "all current HP routes", "referenced central routes", "expanded discovery coverage"],
+  "excluded": ["other states", "generalized State Pack implementation", "multi-state PWA"],
+  "publicationBlockedUntilQaPasses": true
+}
