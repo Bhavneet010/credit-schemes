@@ -10,6 +10,89 @@ async function loadBaselineWorkbench() {
   return loadHpV2Workbench({ root });
 }
 
+test("agency inventory covers every baseline agency and approved discovery category", async () => {
+  const workbench = await loadBaselineWorkbench();
+  const inventory = workbench.sources.agencyInventory ?? [];
+  const approvedCategories = [
+    "industries-single-window",
+    "agriculture",
+    "horticulture",
+    "animal-husbandry",
+    "fisheries",
+    "rural-development-nrlm",
+    "urban-development",
+    "tourism",
+    "energy-himurja",
+    "forest",
+    "handloom-handicrafts",
+    "labour-employment-skill",
+    "cooperatives",
+    "startup-incubation",
+    "food-processing",
+    "pharma-medical-devices",
+    "ayush",
+    "sc-st-development-finance",
+    "obc-minority-development-finance",
+    "women-development",
+    "transport-logistics",
+    "district-cluster-channels",
+    "central-implementing-bodies",
+    "budget-cross-government"
+  ];
+  const baselineAgencyColumns = new Map([
+    ["Scheme Master", 15],
+    ["Key Contacts", 0],
+    ["Source Register", 2]
+  ]);
+  const baselineAgencies = workbench.baseline.sheets.flatMap((sheet) => {
+    const column = baselineAgencyColumns.get(sheet.name);
+    if (column === undefined) return [];
+    return sheet.rows.slice(1).map((row) => row.values[column]).filter(nonEmptyString);
+  });
+  const coveredCategories = new Set(inventory.flatMap((entry) => entry.categories ?? []));
+
+  assert.deepEqual(
+    [...new Set(baselineAgencies)].filter((agency) => !inventory.some((entry) =>
+      entry.aliases?.includes(agency) ||
+      entry.agencyMatchTerms?.some((term) => agency.toLowerCase().includes(term.toLowerCase()))
+    )),
+    [],
+    "Every agency label imported from the three baseline sheets must resolve to an official index check."
+  );
+  assert.deepEqual(
+    approvedCategories.filter((category) => !coveredCategories.has(category)),
+    [],
+    "Every approved discovery category must have an official index check."
+  );
+
+  const ids = new Set();
+  const urls = new Set();
+  for (const entry of inventory) {
+    assert.match(entry.id, /^AGENCY-INDEX-[A-Z0-9-]+$/);
+    assert.equal(ids.has(entry.id), false, `Duplicate agency-inventory ID: ${entry.id}`);
+    ids.add(entry.id);
+    assert.ok(nonEmptyString(entry.issuer), `${entry.id} issuer`);
+    assert.ok(nonEmptyString(entry.title), `${entry.id} title`);
+    assert.match(entry.url, /^https:\/\//, `${entry.id} official index URL`);
+    assert.equal(urls.has(entry.url), false, `Duplicate agency-inventory URL: ${entry.url}`);
+    urls.add(entry.url);
+    assert.ok(entry.categories?.length, `${entry.id} categories`);
+    assert.ok(entry.sectors?.length, `${entry.id} sectors`);
+    assert.ok(entry.beneficiaryTags?.length, `${entry.id} beneficiaryTags`);
+    assert.ok(entry.supportTags?.length, `${entry.id} supportTags`);
+    assert.ok(entry.aliases?.length || entry.agencyMatchTerms?.length, `${entry.id} agency coverage selectors`);
+    assert.ok((entry.agencyMatchTerms ?? []).every((term) => nonEmptyString(term) && term.length >= 4), `${entry.id} agencyMatchTerms`);
+    assert.ok(isIsoDate(entry.checkedAt) && entry.checkedAt <= "2026-08-26", `${entry.id} checkedAt`);
+    assert.ok(isIsoDate(entry.retrievedAt) && entry.retrievedAt <= "2026-08-26", `${entry.id} retrievedAt`);
+    assert.ok(isIsoDate(entry.nextCheckAt) && entry.nextCheckAt > entry.checkedAt, `${entry.id} nextCheckAt`);
+    assert.ok(["candidates-found", "verified-none", "failed-access", "pending"].includes(entry.outcome), `${entry.id} outcome`);
+    assert.ok(nonEmptyString(entry.retrievalNote), `${entry.id} retrievalNote`);
+    if (entry.outcome === "failed-access") {
+      assert.match(entry.retrievalNote, /fail|unreachable|timeout|blocked|error/i, `${entry.id} failed-access note`);
+    }
+  }
+});
+
 test("every publishable route has current existence and intake evidence", async () => {
   const qa = await runHpV2Qa(await loadBaselineWorkbench(), { asOf: "2026-08-25" });
 
@@ -402,4 +485,14 @@ function assertNoGateDebt(qa, ...codes) {
   ]));
   const samples = errors.slice(0, 3).map(({ code, subjectId, baseline }) => ({ code, subjectId, baseline }));
   assert.equal(errors.length, 0, `Unresolved research debt: ${JSON.stringify({ counts, samples })}`);
+}
+
+function nonEmptyString(value) {
+  return typeof value === "string" && value.trim().length > 0;
+}
+
+function isIsoDate(value) {
+  if (typeof value !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+  const date = new Date(`${value}T00:00:00.000Z`);
+  return !Number.isNaN(date.valueOf()) && date.toISOString().slice(0, 10) === value;
 }
