@@ -1,107 +1,114 @@
-"""Generate the PWA PNG icons without any image library.
+"""Build the PWA icons from the source artwork in tools/artwork/icon-source.png.
 
-Draws a rounded (or full-bleed, for maskable) pine-green square with a white
-magnifier glyph, and writes it as a PNG.
+The source is a flat RGB export whose rounded corners are painted black, so the
+corner shape is recovered by flooding the black in from the four corners and
+turning it into transparency. Everything else is resampling, and the result is
+written as a palette PNG — the artwork's grain carries far more colours than a
+launcher can show, and indexing them cuts the files roughly six times over.
 
 Run:  python tools/make_icons.py
 """
 import os
-import struct
-import zlib
+from collections import deque
+
+import pngkit
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SOURCE = os.path.join(ROOT, "tools", "artwork", "icon-source.png")
 OUT = os.path.join(ROOT, "app", "icons")
 
-BG = (15, 76, 58)
-FG = (255, 255, 255)
+DARK = 600          # sum(rgb) below this is corner paint or its soft rim
+PROBE = 6           # pixels past the rim to read the tile's true edge colour
+SAFE_SCALE = 0.72   # keeps the artwork inside the maskable inner-80% circle
 
 
-def blend(bg, fg, a):
-    return tuple(round(bg[i] + (fg[i] - bg[i]) * a) for i in range(3))
+def cut_corners(src):
+    """Return the artwork as RGBA, with the painted corners made transparent."""
+    width, height, channels, pixels = src
+    inside = bytearray(b"\x01" * (width * height))
+    queue = deque()
+
+    for x, y in ((0, 0), (width - 1, 0), (0, height - 1), (width - 1, height - 1)):
+        queue.append((x, y))
+
+    while queue:
+        x, y = queue.popleft()
+        at = y * width + x
+        if not inside[at]:
+            continue
+        px = at * channels
+        if pixels[px] + pixels[px + 1] + pixels[px + 2] >= DARK:
+            continue        # hit the tile: stop before eating into the artwork
+        inside[at] = 0
+        if x:
+            queue.append((x - 1, y))
+        if x + 1 < width:
+            queue.append((x + 1, y))
+        if y:
+            queue.append((x, y - 1))
+        if y + 1 < height:
+            queue.append((x, y + 1))
+
+    # Repaint the cleared corners in the tile's own edge colour. They are fully
+    # transparent, but averaging them during downscale would otherwise drag a
+    # dark fringe around the rounded edge.
+    out = bytearray(width * height * 4)
+    for y in range(height):
+        row = y * width
+        # Read the fill colour a few pixels past the boundary: the pixel right on
+        # it is a half-blended rim, and replicating that paints a grey halo.
+        edge = None
+        for x in range(width):
+            if inside[row + x]:
+                edge = (row + min(x + PROBE, width - 1)) * channels
+                break
+        for x in range(width):
+            at = row + x
+            src_at = at * channels if inside[at] else (edge if edge is not None else at * channels)
+            dst = at * 4
+            out[dst] = pixels[src_at]
+            out[dst + 1] = pixels[src_at + 1]
+            out[dst + 2] = pixels[src_at + 2]
+            out[dst + 3] = 255 if inside[at] else 0
+    return width, height, 4, out
 
 
-def coverage(x, y, inside, samples=3):
-    """Box-filtered coverage of `inside` over one pixel, for cheap anti-aliasing."""
-    hits = 0
-    step = 1.0 / samples
-    for sy in range(samples):
-        for sx in range(samples):
-            if inside(x + (sx + 0.5) * step, y + (sy + 0.5) * step):
-                hits += 1
-    return hits / float(samples * samples)
+def maskable(tile, size):
+    """Full-bleed icon: the artwork shrunk into the circle Android may crop to,
+    with its own edge pixels replicated outwards to fill the rest.
 
+    Replicating the edge rather than painting a matching background is what
+    keeps the join invisible — the artwork's gradient runs corner to corner, so
+    any ramp reconstructed from one edge leaves a ghost of the tile's outline.
+    """
+    inner = int(size * SAFE_SCALE)
+    off = (size - inner) // 2
+    scaled = pngkit.resample(tile, (0, 0, tile[0], tile[1]), inner, inner)
 
-def make(size, maskable):
-    pad = size * 0.0 if maskable else size * 0.0
-    r = size * 0.22                      # corner radius of the tile
-    inset = size * 0.16 if maskable else 0.0   # keep the glyph in the safe zone
-
-    cx = cy = size / 2.0
-    ring_r = size * (0.20 if maskable else 0.235)
-    ring_w = size * (0.055 if maskable else 0.065)
-    ring_cx = cx - size * 0.045
-    ring_cy = cy - size * 0.045
-
-    # handle: a thick segment from the ring edge outwards at 45 degrees
-    h_w = ring_w
-    h_from = ring_r - ring_w * 0.2
-    h_to = ring_r + size * (0.14 if maskable else 0.165)
-    d = 0.70710678
-
-    def in_tile(x, y):
-        if maskable:
-            return True
-        # rounded square
-        lx = min(max(x, r), size - r)
-        ly = min(max(y, r), size - r)
-        if lx == x and ly == y:
-            return True
-        return (x - lx) ** 2 + (y - ly) ** 2 <= r * r
-
-    def in_glyph(x, y):
-        dx, dy = x - ring_cx, y - ring_cy
-        dist = (dx * dx + dy * dy) ** 0.5
-        if abs(dist - ring_r) <= ring_w / 2.0:
-            return True
-        # handle as a rotated capsule along the 45 degree axis
-        t = (dx * d + dy * d)
-        if h_from <= t <= h_to:
-            perp = abs(-dx * d + dy * d)
-            if perp <= h_w / 2.0:
-                return True
-        cap = ((dx - h_to * d) ** 2 + (dy - h_to * d) ** 2) ** 0.5
-        return cap <= h_w / 2.0
-
-    rows = []
+    out = bytearray(size * size * 4)
     for y in range(size):
-        row = bytearray([0])  # PNG filter byte 0 (None)
+        sy = min(max(y - off, 0), inner - 1)
         for x in range(size):
-            tile = coverage(x, y, in_tile)
-            glyph = coverage(x, y, in_glyph)
-            colour = blend(BG, FG, glyph)
-            row += bytes(colour)
-            row += bytes([round(255 * tile)])
-        rows.append(bytes(row))
-    return b"".join(rows)
+            sx = min(max(x - off, 0), inner - 1)
+            src = (sy * inner + sx) * 4
+            dst = (y * size + x) * 4
+            out[dst:dst + 3] = scaled[src:src + 3]
+            out[dst + 3] = 255              # maskable icons must not be cut out
+    return out
 
 
-def png(size, raw):
-    def chunk(tag, data):
-        c = tag + data
-        return struct.pack(">I", len(data)) + c + struct.pack(">I", zlib.crc32(c) & 0xFFFFFFFF)
+def main():
+    os.makedirs(OUT, exist_ok=True)
+    tile = cut_corners(pngkit.load(SOURCE))
 
-    header = struct.pack(">IIBBBBB", size, size, 8, 6, 0, 0, 0)  # 8-bit RGBA
-    return (b"\x89PNG\r\n\x1a\n"
-            + chunk(b"IHDR", header)
-            + chunk(b"IDAT", zlib.compress(raw, 9))
-            + chunk(b"IEND", b""))
+    for name, size in [("icon-192.png", 192), ("icon-512.png", 512)]:
+        pixels = pngkit.resample(tile, (0, 0, tile[0], tile[1]), size, size)
+        written = pngkit.save_indexed(os.path.join(OUT, name), size, size, 4, pixels)
+        print("wrote", name, written, "bytes")
+
+    written = pngkit.save_indexed(os.path.join(OUT, "maskable-512.png"), 512, 512, 4, maskable(tile, 512))
+    print("wrote maskable-512.png", written, "bytes")
 
 
-os.makedirs(OUT, exist_ok=True)
-for name, size, maskable in [("icon-192.png", 192, False),
-                             ("icon-512.png", 512, False),
-                             ("maskable-512.png", 512, True)]:
-    path = os.path.join(OUT, name)
-    with open(path, "wb") as f:
-        f.write(png(size, make(size, maskable)))
-    print("wrote", path, os.path.getsize(path), "bytes")
+if __name__ == "__main__":
+    main()

@@ -12,3 +12,7 @@ node_modules/
 
 # Transactional State Pack writes.
 .state-pack-staging/
+
+# Python bytecode from tools/
+__pycache__/
+*.pyc

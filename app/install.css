@@ -1,0 +1,80 @@
+/* Install banner — bottom sheet on phones, corner card on wide screens. */
+.install-banner {
+  position: fixed;
+  z-index: 60;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 6px 14px;
+  padding: 18px var(--pad) calc(18px + env(safe-area-inset-bottom, 0px));
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -16px 40px rgba(42, 92, 173, .16);
+  transform: translateY(110%);
+  transition: transform .26s ease;
+}
+.install-banner.in { transform: translateY(0); }
+
+.install-icon { grid-row: 1; border-radius: 12px; }
+.install-copy { grid-column: 2; min-width: 0; }
+.install-title { margin: 0; font-size: 16px; font-weight: 700; letter-spacing: -.01em; }
+.install-sub { margin: 4px 0 0; font-size: 13.5px; line-height: 1.45; color: var(--ink-2); }
+.install-steps {
+  margin: 10px 0 0;
+  padding: 10px 12px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--ink);
+  background: var(--brand-soft);
+  border-radius: 12px;
+}
+.install-steps b { font-weight: 700; }
+
+.install-actions { grid-column: 1 / -1; display: flex; gap: 10px; }
+.install-actions .btn { margin-top: 8px; }
+.install-actions .btn.primary { flex: 1 1 auto; }
+.install-actions .btn.ghost { flex: 0 0 auto; width: auto; padding: 0 16px; white-space: nowrap; }
+
+.install-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  line-height: 1;
+  color: var(--ink-3);
+  background: none;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.install-close:hover { color: var(--ink); background: var(--surface-2); }
+
+/* Keep the banner from sitting on top of the last row of content. */
+body.install-open { padding-bottom: calc(var(--install-h, 200px) + 16px); }
+
+@media (min-width: 720px) {
+  .install-banner {
+    left: auto;
+    right: 24px;
+    bottom: 24px;
+    width: 380px;
+    padding: 20px;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    box-shadow: var(--shadow-md, 0 14px 34px rgba(42, 92, 173, .14));
+    transform: translateY(calc(100% + 32px));
+  }
+  body.install-open { padding-bottom: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .install-banner { transition: none; }
+}

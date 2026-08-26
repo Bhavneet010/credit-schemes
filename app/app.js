@@ -57,6 +57,151 @@
     return /^\d+$/.test(String(ref)) ? +ref : schemeById.get(decodeURIComponent(ref));
   }
 
+  // Every mapped row also carries why it was mapped, the application sequence
+  // and any row-specific condition. Find the row that joins one activity to one
+  // scheme so the scheme page can say what it means *for that activity*.
+  function linkContext(si, ki) {
+    var ls = linksFor(si);
+    for (var i = 0; i < ls.length; i++) if (ls[i][0] === ki) return ls[i];
+    return null;
+  }
+
+  // ------------------------------------------------------- cross-references
+  // The workbook's reference sheets (Key Contacts, Component Norms, Legacy &
+  // Closed) were only reachable as flat lists under More. These joins pull the
+  // rows belonging to one scheme onto that scheme's own page, so a reader who
+  // wants more than the summary never has to go hunting for it.
+
+  // Structural words carry no institutional identity, so scoring on them pairs
+  // any "... Fund" with any other "... Fund". They are dropped before scoring.
+  var XSTOP = {};
+  (" hp himachal pradesh department dept the and for to in on scheme schemes portal" +
+   " state national india indian ministry route current guidelines index wing yojana" +
+   " bank lender agency nodal fund development board mission corporation programme" +
+   " program council authority centre center office commissioner directorate general" +
+   " division cell unit support assistance promotion services service company limited" +
+   " ltd society federation nigam samiti new ").split(" ").forEach(function (w) {
+    if (w) XSTOP[w] = 1;
+  });
+
+  function idTokens(s) {
+    var out = [];
+    tokens(s).forEach(function (t) {
+      if (t.length > 2 && !XSTOP[t] && out.indexOf(t) < 0) out.push(t);
+    });
+    return out;
+  }
+
+  // Horticulture component themes, keyed by the words a scheme uses when it
+  // actually funds that component.
+  var NORM_KEYS = {
+    "Beekeeping": ["beekeep", "honey", "apicult"],
+    "Floriculture": ["floricult", "flower"],
+    "Protected floriculture": ["floricult", "flower"],
+    "Mushroom": ["mushroom"],
+    "Spices": ["spice", "ginger", "turmeric", "garlic"],
+    "Medicinal & aromatic plants": ["medicinal", "aromatic"],
+    "Protected cultivation": ["polyhouse", "protected cultivation", "greenhouse", "net house"],
+    "Nursery & planting material": ["nursery", "planting material"],
+    "New gardens / area expansion": ["orchard", "area expansion", "plantation", "new garden"],
+    "Orchard rehabilitation": ["orchard", "rejuven"],
+    "Orchard protection": ["orchard", "anti hail", "hail net", "fencing"],
+    "Post-harvest": ["post harvest", "cold stor", "pack house", "grading", "ripening"],
+    "Processing": ["processing"],
+    "Market infrastructure": ["market infrastructure", "mandi", "retail outlet"],
+    "Water management": ["irrigation", "sprinkler", "drip", "water harvest"],
+    "Quality infrastructure": ["testing lab", "quality", "certif"],
+    "Good practices & organic inputs": ["organic", "natural farming", "vermicompost"]
+  };
+
+  // The cost tables are horticulture and farm norms, so only routes on that
+  // side of the catalogue can be sized against them.
+  var NORM_ROUTE = /horticult|midh|nhb |agricultur|food process|orchard|garden|krishi|farm/;
+
+  var xref = null;
+
+  function buildXref() {
+    var byName = {};
+    D.schemes.forEach(function (k, i) {
+      var key = norm(k.name);
+      if (byName[key] === undefined) byName[key] = i;
+    });
+
+    // A Key Contacts row whose "Use it for" names a scheme *is* that scheme's
+    // own official page; the rest are department- or portal-level front doors.
+    var own = {}, generic = [], gtok = {}, df = {};
+    D.contacts.forEach(function (c, j) {
+      var i = byName[norm(c.use)];
+      if (i !== undefined) { (own[i] = own[i] || []).push(j); return; }
+      generic.push(j);
+      var t = idTokens(c.name);
+      gtok[j] = t;
+      t.forEach(function (w) { df[w] = (df[w] || 0) + 1; });
+    });
+
+    var legacyByName = {};
+    D.legacy.forEach(function (l, j) { legacyByName[norm(l.name)] = j; });
+
+    var byParent = {}, byFamily = {};
+    D.schemes.forEach(function (k, i) {
+      if (k.parent) (byParent[k.parent] = byParent[k.parent] || []).push(i);
+      (byFamily[k.family] = byFamily[k.family] || []).push(i);
+    });
+
+    xref = {
+      own: own, generic: generic, gtok: gtok, df: df,
+      legacy: legacyByName, byName: byName, byParent: byParent, byFamily: byFamily
+    };
+  }
+
+  // Up to three department or portal contacts, closest institutional match
+  // first. A shared rare word ("sericulture") outweighs a shared common one
+  // ("agriculture"), which is what inverse document frequency buys here.
+  function deptContacts(k) {
+    var hay = {};
+    idTokens(k.agency + " " + k.name + " " + k.parent).forEach(function (t) { hay[t] = 1; });
+    var out = [];
+    xref.generic.forEach(function (j) {
+      var score = 0;
+      xref.gtok[j].forEach(function (t) { if (hay[t]) score += 1 / xref.df[t]; });
+      if (score > 0) out.push([score, -D.contacts[j].name.length, j]);
+    });
+    out.sort(function (a, b) { return b[0] - a[0] || b[1] - a[1]; });
+    return out.slice(0, 3).map(function (e) { return e[2]; });
+  }
+
+  function schemeNorms(k) {
+    var text = norm([k.name, k.parent, k.family, k.label, k.bestFor, k.support,
+      k.benefit, k.agency].join(" "));
+    if (!NORM_ROUTE.test(text)) return [];
+    var themes = {};
+    Object.keys(NORM_KEYS).forEach(function (t) {
+      var hit = NORM_KEYS[t].some(function (w) { return text.indexOf(w) >= 0; });
+      if (hit) themes[t] = 1;
+    });
+    var out = [];
+    D.norms.forEach(function (n, j) { if (themes[n.theme]) out.push(j); });
+    return out;
+  }
+
+  // Siblings under the same parent programme first, then the rest of the family.
+  function relatedSchemes(ki) {
+    var k = D.schemes[ki], seen = {}, close = [], family = [];
+    function push(bucket, i) {
+      if (i === ki || seen[i]) return;
+      seen[i] = 1;
+      bucket.push(i);
+    }
+    if (k.parent) {
+      (xref.byParent[k.parent] || []).forEach(function (i) { push(close, i); });
+      var p = xref.byName[norm(k.parent)];
+      if (p !== undefined) push(close, p);
+    }
+    (xref.byParent[k.name] || []).forEach(function (i) { push(close, i); });
+    (xref.byFamily[k.family] || []).forEach(function (i) { push(family, i); });
+    return { close: close, family: family };
+  }
+
   // Short, mobile-friendly status label + severity.
   var STATUS = {
     "Open now": ["Open now", "good"],
@@ -79,43 +224,76 @@
   };
 
   // ------------------------------------------------------------ search idx
+  // Each entry keeps a padded haystack (" word word ") so a leading space marks
+  // a word boundary, plus the padded title, so scoring never re-normalises text
+  // while the user is typing.
+  function entry(title, rest) {
+    return { title: " " + norm(title) + " ", hay: " " + norm(title + " " + rest) + " " };
+  }
+
   function buildIndex() {
     idx.sectors = D.sectors.map(function (s) {
-      return norm([s.a, s.sub, D.macros[s.m], D.stages[s.st], D.classes[s.ec]].join(" "));
+      return entry(s.a, [s.sub, D.macros[s.m], D.stages[s.st], D.classes[s.ec]].join(" "));
     });
+    // The whole scheme record is searchable, not just its headline fields, so
+    // "collateral free", "interest subvention" or "DIC" reach the scheme that
+    // says so. Title weighting is unchanged, so existing queries rank as before.
     idx.schemes = D.schemes.map(function (k) {
-      return norm([k.name, k.parent, k.label, k.family, k.gov, k.support, k.bestFor].join(" "));
+      return entry(k.name, [k.parent, k.label, k.family, k.gov, k.support, k.bestFor,
+        k.benefit, k.eligible, k.margin, k.stage, k.access, k.agency, k.caution].join(" "));
     });
+  }
+
+  // Every word the user types is its own keyword. A record is a hit as soon as
+  // one keyword matches; records that match more keywords rank above the rest,
+  // so adding a word sharpens the order instead of emptying the screen.
+  var W_TITLE_START = 120;   // keyword opens the title
+  var W_TITLE_WORD = 80;     // keyword opens a word in the title
+  var W_TITLE_PART = 45;     // keyword sits inside a title word
+  var W_HAY_WORD = 25;       // keyword opens a word elsewhere
+  var W_HAY_PART = 10;       // keyword sits inside a word elsewhere
+  var W_PHRASE_TITLE = 90;   // the whole query appears in the title
+  var W_PHRASE_HAY = 30;     // the whole query appears elsewhere
+
+  function scoreEntry(e, toks, phrase) {
+    var matched = 0, score = 0;
+    for (var t = 0; t < toks.length; t++) {
+      var tok = toks[t];
+      var titleWord = e.title.indexOf(" " + tok);
+      var hayWord = e.hay.indexOf(" " + tok);
+      if (titleWord === 0) score += W_TITLE_START;
+      else if (titleWord > 0) score += W_TITLE_WORD;
+      else if (e.title.indexOf(tok) >= 0) score += W_TITLE_PART;
+      else if (hayWord >= 0) score += W_HAY_WORD;
+      else if (e.hay.indexOf(tok) >= 0) score += W_HAY_PART;
+      else continue;
+      matched++;
+    }
+    if (!matched) return null;
+    if (phrase) {
+      if (e.title.indexOf(phrase) >= 0) score += W_PHRASE_TITLE;
+      else if (e.hay.indexOf(phrase) >= 0) score += W_PHRASE_HAY;
+    }
+    return [matched, score];
   }
 
   function search(q) {
     var toks = tokens(q);
     if (!toks.length) return { sectors: [], schemes: [], toks: toks };
+    var phrase = toks.length > 1 ? toks.join(" ") : "";
 
-    function scan(hays, titleOf) {
+    function scan(entries) {
       var hits = [];
-      for (var i = 0; i < hays.length; i++) {
-        var h = hays[i], ok = true, score = 0;
-        for (var t = 0; t < toks.length; t++) {
-          var p = h.indexOf(toks[t]);
-          if (p < 0) { ok = false; break; }
-          score += p === 0 ? 0 : (h.indexOf(" " + toks[t]) >= 0 ? 4 : 12);
-        }
-        if (!ok) continue;
-        var title = norm(titleOf(i));
-        if (title.indexOf(toks[0]) === 0) score -= 30;
-        else if (title.indexOf(toks[0]) > 0) score -= 12;
-        hits.push([score, i]);
+      for (var i = 0; i < entries.length; i++) {
+        var s = scoreEntry(entries[i], toks, phrase);
+        if (s) hits.push([s[0], s[1], i]);
       }
-      hits.sort(function (a, b) { return a[0] - b[0] || a[1] - b[1]; });
-      return hits.map(function (h) { return h[1]; });
+      // Most keywords matched first, then the strongest score, then input order.
+      hits.sort(function (a, b) { return b[0] - a[0] || b[1] - a[1] || a[2] - b[2]; });
+      return hits.map(function (h) { return h[2]; });
     }
 
-    return {
-      toks: toks,
-      sectors: scan(idx.sectors, function (i) { return D.sectors[i].a; }),
-      schemes: scan(idx.schemes, function (i) { return D.schemes[i].name; })
-    };
+    return { toks: toks, sectors: scan(idx.sectors), schemes: scan(idx.schemes) };
   }
 
   // ------------------------------------------------------------ saved list
@@ -214,10 +392,12 @@
       '</div><span class="n">' + s.n + '</span><i class="chev"></i></a>';
   }
 
-  function schemeRow(ki, toks) {
+  function schemeRow(ki, toks, si) {
     var k = D.schemes[ki];
     var st = STATUS[k.status] || [k.status, ""];
-    return '<a class="row" href="' + stateHref("/k/" + encodeURIComponent(k.id)) + '"><div class="t"><strong>' +
+    var href = stateHref("/k/" + encodeURIComponent(k.id) +
+      (si == null ? "" : "/from/" + encodeURIComponent(D.sectors[si].id)));
+    return '<a class="row" href="' + href + '"><div class="t"><strong>' +
       highlight(k.name, toks || []) + "</strong><small>" +
       esc(k.gov) + " · " + esc(st[0]) + "</small></div><i class=\"chev\"></i></a>";
   }
@@ -245,32 +425,12 @@
   // ----------------------------------------------------------------- views
   var views = {};
 
-  views.home = function () {
-    var r = search(query);
-    var body;
-
-    if (query.trim()) {
-      var parts = "";
-      var CAP = 40;
-      var more = function (n) {
-        return n > CAP ? '<p class="hint">Showing the closest ' +
-          CAP + " of " + n + ". Add a word to narrow it down.</p>" : "";
-      };
-      if (r.sectors.length) {
-        parts += '<div class="section"><h2>Business activities · ' + r.sectors.length + "</h2>" +
-          '<div class="list">' + r.sectors.slice(0, CAP).map(function (si) {
-            return sectorRow(si, r.toks);
-          }).join("") + "</div>" + more(r.sectors.length) + "</div>";
-      }
-      if (r.schemes.length) {
-        parts += '<div class="section"><h2>Schemes · ' + r.schemes.length + "</h2>" +
-          '<div class="list">' + r.schemes.slice(0, CAP).map(function (ki) {
-            return schemeRow(ki, r.toks);
-          }).join("") + "</div>" + more(r.schemes.length) + "</div>";
-      }
-      body = parts || emptyState("Nothing matched “" + query.trim() + "”. Try a simpler word such as apple, dairy, bakery or loan.");
-    } else {
-      body = '<section class="start-here"><h2>Start here</h2><div class="start-list">' +
+  // The results body is rendered on its own so typing can repaint it without
+  // rebuilding the search field — recreating a focused input is what made the
+  // mobile keyboard flicker and swallow keystrokes.
+  function homeBody() {
+    if (!query.trim()) {
+      return '<section class="start-here"><h2>Start here</h2><div class="start-list">' +
         '<a class="start-route route-schemes" href="' + stateHref("/schemes") + '"><span class="route-icon">' +
         '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18V8l5-3 6 3 5-3v10l-5 4-6-3-5 2zM9 5v11M15 8v11"/></svg></span>' +
         '<span class="route-copy"><strong>All schemes and routes</strong><small>' +
@@ -283,6 +443,33 @@
         "</div></section>";
     }
 
+    var r = search(query);
+    var CAP = 40;
+    var more = function (n) {
+      return n > CAP ? '<p class="hint">Showing the closest ' + CAP + " of " + n +
+        ". Add a more specific word to sharpen the ranking.</p>" : "";
+    };
+
+    // Schemes lead the results; matching activities follow.
+    var parts = "";
+    if (r.schemes.length) {
+      parts += '<div class="section"><h2>Schemes · ' + r.schemes.length + "</h2>" +
+        '<div class="list">' + r.schemes.slice(0, CAP).map(function (ki) {
+          return schemeRow(ki, r.toks);
+        }).join("") + "</div>" + more(r.schemes.length) + "</div>";
+    }
+    if (r.sectors.length) {
+      parts += '<div class="section"><h2>Business activities · ' + r.sectors.length + "</h2>" +
+        '<div class="list">' + r.sectors.slice(0, CAP).map(function (si) {
+          return sectorRow(si, r.toks);
+        }).join("") + "</div>" + more(r.sectors.length) + "</div>";
+    }
+
+    return parts || emptyState("Nothing matched \u201C" + query.trim() +
+      "\u201D. Try a simpler word such as apple, dairy, bakery or loan.");
+  }
+
+  views.home = function () {
     return header({
       home: true,
       compact: !!query.trim(),
@@ -291,11 +478,25 @@
       extra: '<div class="searchwrap"><div class="search">' +
         '<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5" fill="none"/><path d="M16 16l4.5 4.5"/></svg>' +
         '<input id="q" type="search" inputmode="search" autocomplete="off" ' +
+        'autocorrect="off" autocapitalize="none" spellcheck="false" ' +
         'placeholder="Your activity, e.g. apple orchard" value="' + esc(query) + '">' +
-        (query ? '<button class="clear" data-clear aria-label="Clear">×</button>' : "") +
+        '<button class="clear" data-clear aria-label="Clear"' + (query ? "" : " hidden") + ">\u00d7</button>" +
         "</div></div>"
-    }) + '<main class="home-main' + (query.trim() ? " search-results" : "") + '">' + body + "</main>";
+    }) + '<main class="home-main' + (query.trim() ? " search-results" : "") + '">' + homeBody() + "</main>";
   };
+
+  // Repaints results in place, leaving the focused input untouched.
+  function renderHomeResults() {
+    var main = document.querySelector(".home-main");
+    if (!main) return;
+    var active = !!query.trim();
+    main.className = "home-main" + (active ? " search-results" : "");
+    main.innerHTML = homeBody();
+    var hero = document.querySelector(".home-hero");
+    if (hero) hero.classList.toggle("compact", active);
+    var clear = document.querySelector("[data-clear]");
+    if (clear) clear.hidden = !query;
+  }
 
   views.sectors = function () {
     return header({ title: "Sectors", sub: "Pick the group your work belongs to" }) +
@@ -350,7 +551,7 @@
       if (!g.length) return;
       body += '<div class="section"><h2>' + kind + " · " + g.length + "</h2>" +
         '<p class="hint">' + esc(APP_HINT[kind]) + "</p><div class=\"list\">" +
-        g.map(function (e) { return schemeRow(e[0]); }).join("") + "</div></div>";
+        g.map(function (e) { return schemeRow(e[0], null, si); }).join("") + "</div></div>";
     });
 
     if (!ls.length) body += emptyState("No routes mapped for this activity.");
@@ -363,10 +564,115 @@
     }) + "<main>" + body + "</main>";
   };
 
-  views.scheme = function (ref) {
+  // A collapsed panel. The summary layer above stays exactly as short as it is
+  // now; everything a reader might want next sits behind one tap.
+  function panel(title, count, body, open) {
+    if (!body) return "";
+    return '<details class="acc"' + (open ? " open" : "") + "><summary>" +
+      esc(title) + (count ? " \u00b7 " + count : "") +
+      '</summary><div class="body">' + body + "</div></details>";
+  }
+
+  function contactBlock(j) {
+    var c = D.contacts[j];
+    return "<p><b>" + esc(c.name) + "</b><br>" + esc(c.use) +
+      (c.note ? "<br>" + esc(c.note) : "") +
+      (c.url ? "<br>" + link(c.url) : "") + "</p>";
+  }
+
+  function normBlock(j) {
+    var n = D.norms[j];
+    return "<p><b>" + esc(n.item) + "</b> \u00b7 " + esc(n.theme) + "<br>" +
+      esc(n.norm) + " \u2014 " + esc(n.pattern) +
+      (n.cap ? "<br><b>Ceiling:</b> " + esc(n.cap) : "") +
+      (n.cond ? "<br>" + esc(n.cond) : "") + "</p>";
+  }
+
+  // What the workbook recorded about this scheme *for the activity the reader
+  // arrived from*: the grade, why it was mapped, the order to do things in and
+  // any condition that differs from the scheme's own caution.
+  function contextPanel(si, ki) {
+    var s = D.sectors[si];
+    var e = s && linkContext(si, ki);
+    if (!e) return "";
+    var kind = D.applicability[e[1]];
+    return '<div class="section"><h2>For ' + esc(s.a) + "</h2>" +
+      '<div class="tags"><span class="tag' + (e[1] < 2 ? " good" : "") + '">' +
+      esc(kind) + " match</span></div>" +
+      facts([
+        ["Why mapped", pool("why", e[2])],
+        ["Do this first", pool("seq", e[3])],
+        ["Condition", e.length > 4 ? pool("cond", e[4]) : ""]
+      ]) +
+      '<a class="row" href="' + stateHref("/s/" + encodeURIComponent(s.id)) + '"><div class="t"><strong>' + esc(s.a) +
+      "</strong><small>Back to the activity and its other " + (s.n - 1) +
+      " routes</small></div><i class=\"chev\"></i></a></div>";
+  }
+
+  // Everything below the summary, each part rendered only when the workbook
+  // actually has rows for this scheme.
+  function schemePanels(ki) {
+    var k = D.schemes[ki];
+    var out = "";
+
+    var own = xref.own[ki] || [];
+    var dept = deptContacts(k);
+    if (own.length || dept.length) {
+      out += panel("Official pages and who to ask", own.length + dept.length,
+        (own.length ? "<p><b>This scheme's own page</b></p>" +
+          own.map(contactBlock).join("") : "") +
+        (dept.length ? "<p><b>Department or portal to ask</b></p>" +
+          dept.map(contactBlock).join("") : "") +
+        '<p><a href="' + stateHref("/contacts") + '">All ' + D.contacts.length + " departments and portals</a></p>");
+    }
+
+    var norms = schemeNorms(k);
+    if (norms.length) {
+      var shown = norms.slice(0, 8);
+      out += panel("Benchmark cost norms", norms.length,
+        "<p>Indicative norms the department uses to size assistance. Confirm the " +
+        "component is admissible on this route before costing a project.</p>" +
+        shown.map(normBlock).join("") +
+        (norms.length > shown.length
+          ? '<p><a href="' + stateHref("/norms") + '">' + (norms.length - shown.length) +
+            " more, and the full cost tables</a></p>"
+          : '<p><a href="' + stateHref("/norms") + '">All ' + D.norms.length + " cost norms and caps</a></p>"));
+    }
+
+    var lg = xref.legacy[norm(k.name)];
+    if (lg !== undefined) {
+      var l = D.legacy[lg];
+      out += panel("Why this route is flagged", 0,
+        "<p><b>Position:</b> " + esc(l.position) + "</p><p>" + esc(l.why) + "</p>" +
+        (l.alt ? "<p><b>Instead:</b> " + esc(l.alt) + "</p>" : "") +
+        (l.src ? "<p>" + link(l.src) + "</p>" : ""), true);
+    }
+
+    var rel = relatedSchemes(ki);
+    var fam = rel.family.slice(0, 6);
+    if (rel.close.length || fam.length) {
+      out += panel("Related routes", rel.close.length + fam.length,
+        (rel.close.length
+          ? "<p><b>Same programme</b></p><div class=\"list\">" +
+            rel.close.map(function (i) { return schemeRow(i); }).join("") + "</div>"
+          : "") +
+        (fam.length
+          ? "<p><b>Same family</b></p><div class=\"list\">" +
+            fam.map(function (i) { return schemeRow(i); }).join("") + "</div>"
+          : "") +
+        '<p><a href="' + stateHref("/schemes/" + esc(encodeURIComponent(k.family))) + '">All ' +
+        rel.family.length + " in " + esc(k.family) + "</a></p>");
+    }
+
+    return out ? '<div class="section"><h2>Go deeper</h2>' + out + "</div>" : "";
+  }
+
+  views.scheme = function (ref, fromRef) {
     var ki = schemeIndex(ref);
     var k = D.schemes[ki];
     if (!k) return views.notfound();
+    var si = fromRef == null ? null : sectorIndex(fromRef);
+    var from = si != null && D.sectors[si] ? D.sectors[si] : null;
     var st = STATUS[k.status] || [k.status, ""];
 
     var body = '<div class="tags">' + statusTag(k) +
@@ -412,6 +718,10 @@
     if (k.caution) {
       body += '<div class="note"><strong>Before you spend money</strong>' + esc(k.caution) + "</div>";
     }
+
+    if (from) body += contextPanel(si, ki);
+    body += schemePanels(ki);
+
     body += '<div class="note plain"><strong>Stacking</strong>' + esc(D.stacking) + "</div>";
 
     if (k.src) {
@@ -422,7 +732,7 @@
     body += '<a class="btn ghost" href="' + stateHref("/k/" + encodeURIComponent(k.id) + "/where") + '">Where it applies · ' + k.reach + " activities</a>";
 
     return header({
-      back: "Back",
+      back: from ? from.a : "Back",
       title: k.name,
       action: saveButton("scheme", k.id),
       sub: k.family + (k.label ? " · " + k.label : "")
@@ -636,7 +946,10 @@
       case "sectors": html = views.sectors(); break;
       case "m": html = views.macro(parts[1]); break;
       case "s": html = views.sector(parts[1]); break;
-      case "k": html = parts[2] === "where" ? views.schemeWhere(parts[1]) : views.scheme(parts[1]); break;
+      case "k":
+        html = parts[2] === "where" ? views.schemeWhere(parts[1])
+          : views.scheme(parts[1], parts[2] === "from" ? parts[3] : null);
+        break;
       case "schemes": html = views.schemes(parts[1]); break;
       case "saved": html = views.saved(); break;
       case "more": html = views.more(); break;
@@ -659,16 +972,17 @@
     window.scrollTo(0, scrollMemory[hash] || 0);
   }
 
-  var queryTimer = null;
+  // Coalesce bursts of keystrokes into one repaint per frame. The input itself
+  // is never re-rendered, so there is no focus or caret to restore and the
+  // on-screen keyboard stays up.
+  var queryFrame = 0;
   function onQuery(e) {
     query = e.target.value;
-    clearTimeout(queryTimer);
-    queryTimer = setTimeout(function () {
-      var pos = document.getElementById("q").selectionStart;
-      route();
-      var q = document.getElementById("q");
-      if (q) { q.focus(); q.setSelectionRange(pos, pos); }
-    }, 120);
+    if (queryFrame) return;
+    queryFrame = requestAnimationFrame(function () {
+      queryFrame = 0;
+      renderHomeResults();
+    });
   }
 
   // -------------------------------------------------------------- listeners
@@ -693,7 +1007,13 @@
     if (back) { history.back(); return; }
 
     var clear = e.target.closest("[data-clear]");
-    if (clear) { query = ""; route(); document.getElementById("q").focus(); return; }
+    if (clear) {
+      query = "";
+      var input = document.getElementById("q");
+      if (input) { input.value = ""; input.focus(); }
+      renderHomeResults();
+      return;
+    }
 
     var fam = e.target.closest("[data-fam]");
     if (fam) {
@@ -756,6 +1076,7 @@
       localStorage.setItem("scheme-finder-selected-state-v1", slug);
       migrateSaved();
       buildIndex();
+      buildXref();
       return D;
     });
   }

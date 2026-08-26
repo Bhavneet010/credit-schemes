@@ -24,26 +24,24 @@ function loadServiceWorker(caches, fetchImpl = () => Promise.reject(new Error("n
   return listeners;
 }
 
-test("install precaches the state index, default state, and approved visual shell", async () => {
+test("install precaches multi-state data, install prompt, and approved visual shell", async () => {
   let cachedShell = [];
-  const caches = {
-    open: async () => ({
-      addAll: async (files) => { cachedShell = files; }
-    })
-  };
+  const caches = { open: async () => ({ addAll: async (files) => { cachedShell = files; } }) };
   const listeners = loadServiceWorker(caches);
   let installWork;
 
   listeners.install({ waitUntil(promise) { installWork = promise; } });
   await installWork;
 
-  assert.ok(cachedShell.includes("./theme.css"), "offline shell should include the active theme stylesheet");
-  assert.ok(cachedShell.includes("./svg-v5.css"), "offline shell should include the versioned mobile SVG override");
-  assert.ok(cachedShell.includes("./visual-v7.css"), "offline shell should include the approved versioned visual treatment");
-  assert.ok(cachedShell.includes("./assets/hero-alpine-crest.png"), "offline shell should include the selected alpine crest asset");
-  assert.ok(cachedShell.includes("./data/states.json"), "offline shell should include the state index");
-  assert.ok(cachedShell.includes("./data/himachal-pradesh.json"), "offline shell should include the default state dataset");
-  assert.ok(!cachedShell.includes("./data.json"), "offline shell should not use the legacy monolithic dataset");
+  assert.ok(cachedShell.includes("./theme.css"));
+  assert.ok(cachedShell.includes("./svg-v5.css"));
+  assert.ok(cachedShell.includes("./visual-v7.css"));
+  assert.ok(cachedShell.includes("./assets/hero-alpine-crest.png"));
+  assert.ok(cachedShell.includes("./install.css"));
+  assert.ok(cachedShell.includes("./install.js"));
+  assert.ok(cachedShell.includes("./data/states.json"));
+  assert.ok(cachedShell.includes("./data/himachal-pradesh.json"));
+  assert.ok(!cachedShell.includes("./data.json"));
 });
 
 test("successfully loaded additional state data is cached for offline reuse", async () => {
@@ -62,10 +60,10 @@ test("successfully loaded additional state data is cached for offline reuse", as
   assert.equal(cachedRequest, request.url);
 });
 
-test("activation removes earlier app caches so clients receive the multi-state release", async () => {
+test("activation removes all earlier Scheme Finder caches", async () => {
   const deleted = [];
   const caches = {
-    keys: async () => ["hpsf-v1", "other-app-cache", "hpsf-v8", "scheme-finder-v9"],
+    keys: async () => ["hpsf-v1", "hpsf-v8", "hpsf-v12", "scheme-finder-v9", "scheme-finder-v13", "other-app-cache"],
     delete: async (key) => { deleted.push(key); }
   };
   const listeners = loadServiceWorker(caches);
@@ -74,5 +72,5 @@ test("activation removes earlier app caches so clients receive the multi-state r
   listeners.activate({ waitUntil(promise) { activationWork = promise; } });
   await activationWork;
 
-  assert.deepEqual(deleted, ["hpsf-v1", "hpsf-v8"]);
+  assert.deepEqual(deleted, ["hpsf-v1", "hpsf-v8", "hpsf-v12", "scheme-finder-v9"]);
 });
