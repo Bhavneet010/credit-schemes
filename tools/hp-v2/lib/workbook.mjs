@@ -75,19 +75,29 @@ export async function importHpWorkbook({ workbookPath, appDataPath, outputPath }
 }
 
 function importSheet(worksheet) {
-  const values = worksheet.getUsedRange().values;
+  const usedRange = worksheet.getUsedRange();
+  const values = usedRange.values;
+  const formulas = usedRange.formulas;
   const headerRow = tableHeaderRows.get(worksheet.name) ?? null;
   return {
     name: worksheet.name,
     headers: headerRow === null ? [] : values[headerRow - 1].map(toDisplayedText),
-    rows: values.map((row, index) => ({
-      values: row.map(toDisplayedText),
-      provenance: {
-        sheet: worksheet.name,
-        row: index + 1
-      }
+    rows: values.map((row, index) => importRow({
+      values: row,
+      formulas: formulas[index],
+      sheet: worksheet.name,
+      row: index + 1
     }))
   };
+}
+
+function importRow({ values, formulas, sheet, row }) {
+  const importedRow = {
+    values: values.map(toDisplayedText),
+    provenance: { sheet, row }
+  };
+  if (formulas.some(Boolean)) importedRow.formulas = formulas;
+  return importedRow;
 }
 
 function extractTableRows(sheet) {

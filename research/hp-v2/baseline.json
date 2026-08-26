@@ -121,7 +121,14 @@
           "provenance": {
             "sheet": "Start Here",
             "row": 6
-          }
+          },
+          "formulas": [
+            "",
+            "=COUNTA('Sector Catalogue'!A2:A5000)",
+            "",
+            "",
+            ""
+          ]
         },
         {
           "values": [
@@ -134,7 +141,14 @@
           "provenance": {
             "sheet": "Start Here",
             "row": 7
-          }
+          },
+          "formulas": [
+            "",
+            "=COUNTA(_xlfn.UNIQUE('Sector Catalogue'!C2:C5000))",
+            "",
+            "",
+            ""
+          ]
         },
         {
           "values": [
@@ -147,7 +161,14 @@
           "provenance": {
             "sheet": "Start Here",
             "row": 8
-          }
+          },
+          "formulas": [
+            "",
+            "=COUNTA('Scheme Master'!A2:A2000)",
+            "",
+            "",
+            ""
+          ]
         },
         {
           "values": [
@@ -160,7 +181,14 @@
           "provenance": {
             "sheet": "Start Here",
             "row": 9
-          }
+          },
+          "formulas": [
+            "",
+            "=COUNTA('Sector-Scheme Map'!A2:A20000)",
+            "",
+            "",
+            ""
+          ]
         },
         {
           "values": [
@@ -173,7 +201,14 @@
           "provenance": {
             "sheet": "Start Here",
             "row": 10
-          }
+          },
+          "formulas": [
+            "",
+            "=COUNTA('Coverage Audit'!A2:A10000)",
+            "",
+            "",
+            ""
+          ]
         },
         {
           "values": [
@@ -186,7 +221,14 @@
           "provenance": {
             "sheet": "Start Here",
             "row": 11
-          }
+          },
+          "formulas": [
+            "",
+            "=COUNTA('Source Register'!A2:A3000)",
+            "",
+            "",
+            ""
+          ]
         },
         {
           "values": [

@@ -5,6 +5,7 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 import test from "node:test";
 
+import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
 import { importHpWorkbook } from "../tools/hp-v2/lib/workbook.mjs";
 
 const root = path.resolve(import.meta.dirname, "..");
@@ -48,6 +49,29 @@ test("every imported table row retains sheet and one-based row provenance", asyn
   assert.ok(result.tableRows.every((row) => row.provenance.sheet && row.provenance.row >= 2));
 });
 
+test("every used row and unavailable formula result remains recoverable from the baseline", async () => {
+  const { outputPath } = await importIntoTempFile();
+  const baseline = JSON.parse(await readFile(outputPath, "utf8"));
+  const sourceWorkbook = await SpreadsheetFile.importXlsx(await FileBlob.load(workbookPath));
+  const sourceSheets = sourceWorkbook.worksheets.items.map((sheet) => {
+    const usedRange = sheet.getUsedRange();
+    return {
+      name: sheet.name,
+      values: usedRange.values.map((row) => row.map(toDisplayedText)),
+      formulas: usedRange.formulas
+    };
+  });
+
+  assert.deepEqual(
+    baseline.sheets.map((sheet) => ({
+      name: sheet.name,
+      values: sheet.rows.map((row) => row.values)
+    })),
+    sourceSheets.map(({ name, values }) => ({ name, values }))
+  );
+  assert.deepEqual(extractFormulaCells(baseline.sheets), extractFormulaCells(sourceSheets));
+});
+
 test("HP v1 workbench import writes deterministic baseline and input hashes", async () => {
   const first = await importIntoTempFile();
   const second = await importIntoTempFile();
@@ -62,4 +86,21 @@ test("HP v1 workbench import writes deterministic baseline and input hashes", as
 
 function sha256(value) {
   return createHash("sha256").update(value).digest("hex");
+}
+
+function toDisplayedText(value) {
+  if (value === null || value === undefined) return "";
+  if (value instanceof Date) return value.toISOString().slice(0, 10);
+  return String(value);
+}
+
+function extractFormulaCells(sheets) {
+  return sheets.flatMap((sheet) => sheet.formulas
+    ? sheet.formulas.flatMap((formulas, rowIndex) => formulas.flatMap((formula, columnIndex) => (
+      formula ? [{ sheet: sheet.name, row: rowIndex + 1, column: columnIndex + 1, formula }] : []
+    )))
+    : sheet.rows.flatMap((row) => (row.formulas ?? []).flatMap((formula, columnIndex) => (
+      formula ? [{ sheet: sheet.name, row: row.provenance.row, column: columnIndex + 1, formula }] : []
+    )))
+  );
 }
