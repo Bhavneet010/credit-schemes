@@ -23,7 +23,7 @@ the named records, expired evidence they depend on, and reverse-index dependants
 
 ```powershell
 npm run data:validate
-node tools/state-pack/cli.mjs build-app --state himachal-pradesh --output app/data.json
+node tools/state-pack/cli.mjs build-app --all --output-dir app/data
 npm run test:unit
 ```
 

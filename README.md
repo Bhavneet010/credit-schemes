@@ -1,10 +1,10 @@
-# HP Scheme Finder
+# Scheme Finder
 
 **Live: https://bhavneet010.github.io/credit-schemes/**
 
-A minimalist, installable PWA for searching Himachal Pradesh and central government
-schemes by business activity. The canonical source is now the version-controlled HP
-State Pack in `scheme-data/states/himachal-pradesh` (research cutoff 2026-08-26).
+A minimalist, installable multi-state PWA for searching Indian state and central
+government schemes by business activity. Himachal Pradesh is the first production State
+Pack, with a research cutoff of 2026-08-26.
 
 - **382** business activities across 15 macro sectors
 - **188** schemes and routes, including 6 newly verified official routes
@@ -27,7 +27,7 @@ Pushing to `main` deploys `app/` to GitHub Pages via
 static host. HTTPS is required for the service worker (and therefore for offline use
 and installability); `localhost` is exempt.
 
-## Rebuild HP v2
+## Rebuild the accepted HP v2 research fixture
 
 Keep `Himachal_Pradesh_MSME_Agri_Scheme_Guide_2026_verified.xlsx` in the repo root,
 then run the deterministic HP v2 pipeline:
@@ -47,7 +47,7 @@ keeps the 13 existing sheets and adds Claim Evidence and Candidate Ledger.
 ## State Pack workflow
 
 HP v2 is the accepted migration fixture for every future state. Import it once, validate
-the canonical records, declare a focused scope, and build the app contract with:
+the canonical records, declare a focused scope, and build the multi-state app data with:
 
 ```bash
 npm run data:import-hp
@@ -70,12 +70,15 @@ app/
   styles.css            shared mobile-first components
   theme.css             bright light theme + redesigned home
   app.js                hash router, search index, settings menu, all views
-  data.json             generated from the accepted HP v2 workbench
+  data/
+    states.json         generated state index
+    himachal-pradesh.json generated HP dataset with evidence/status detail
   manifest.webmanifest  install metadata
   sw.js                 offline cache
   icons/
 scheme-data/            canonical shared records, state packs and schemas
 research/hp-v2/         accepted HP v2 research workbench and migration input
+  baseline-app-data.json frozen 182-scheme v1 app baseline used only by HP pilot tests
 tools/state-pack/       reusable validation, scope, migration, diff and build engine
 tools/hp-v2/            HP pilot research and workbook generators
 tools/
@@ -92,9 +95,11 @@ tools/
 | Activity | Udyam treatment, who applies, first contact, approvals, HP gate, plus every mapped scheme grouped by match strength |
 | Scheme | Benefit and ceiling, your margin, eligibility, how to apply, agency, official page, cautions, stacking rules, and every activity it reaches |
 | Schemes | All 188 routes, filterable by scheme family |
+| State selector | Switches generated State Packs without reloading the app |
 | Settings | The top-right menu opens Saved and More without a bottom tab bar |
 | Saved | Bookmarked activities and schemes, kept in local storage |
 | More | Cost norms and caps, closed/legacy schemes, about and disclaimer |
+| Research | Shows cutoff, coverage, candidate dispositions and material limitations |
 
 Status labels retain separate existence, intake and budget evidence — "Open now",
 "Bank / continuous route", "Annual target / sanction", "Cluster or project area" and

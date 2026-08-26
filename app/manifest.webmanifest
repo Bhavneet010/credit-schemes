@@ -1,7 +1,7 @@
 {
-  "name": "HP Scheme Finder",
+  "name": "Scheme Finder",
   "short_name": "Schemes",
-  "description": "Find Himachal Pradesh and central government schemes for your business activity.",
+  "description": "Find Indian state and central government schemes for your business activity.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -16,8 +16,8 @@
     { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ],
   "shortcuts": [
-    { "name": "Search activities", "url": "./index.html#/" },
-    { "name": "All schemes", "url": "./index.html#/schemes" },
-    { "name": "Saved", "url": "./index.html#/saved" }
+    { "name": "Search activities", "url": "./index.html#/state/himachal-pradesh" },
+    { "name": "All schemes", "url": "./index.html#/state/himachal-pradesh/schemes" },
+    { "name": "Saved", "url": "./index.html#/state/himachal-pradesh/saved" }
   ]
 }

@@ -73,8 +73,101 @@ test("settings menu replaces the bottom navigation and opens Saved and More", as
 
   await menu.getByRole("menuitem", { name: "Saved" }).click();
   await page.getByRole("heading", { name: "Saved" }).waitFor();
-  assert.match(page.url(), /#\/saved$/);
+  assert.match(page.url(), /#\/state\/himachal-pradesh\/saved$/);
 
+  await context.close();
+});
+
+test("app loads the default State Pack and uses stable activity routes", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block" });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+  await page.goto(baseUrl);
+  await page.locator("#q").fill("apple orchard");
+  await page.waitForTimeout(200);
+  const href = await page.locator('a[href*="/s/SEC-"]').first().getAttribute("href");
+  assert.match(href, /^#\/state\/himachal-pradesh\/s\/SEC-/);
+  assert.equal(await page.getByRole("combobox", { name: "Select state" }).inputValue(), "himachal-pradesh");
+  assert.equal(await page.evaluate(() => localStorage.getItem("scheme-finder-selected-state-v1")), "himachal-pradesh");
+  await context.close();
+});
+
+test("state selector switches datasets without a page reload", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block" });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+  const hp = JSON.parse(fs.readFileSync(path.join(appRoot, "data", "himachal-pradesh.json"), "utf8"));
+  const fixture = {
+    ...hp,
+    meta: { ...hp.meta, stateId: "STATE-IN-TS", stateSlug: "test-state", stateName: "Test State", counts: { sectors: 2, schemes: 1, links: 0 } },
+    sectors: hp.sectors.slice(0, 2).map((sector, index) => ({ ...sector, id: `SEC-TS-${index + 1}`, a: `Test activity ${index + 1}`, n: 0 })),
+    schemes: [{ ...hp.schemes[0], id: "SCH-TS-ONE", name: "Test State Enterprise Scheme", reach: 0 }],
+    links: { "0": [], "1": [] }
+  };
+  await page.route("**/data/states.json", (route) => route.fulfill({ contentType: "application/json", body: JSON.stringify({
+    defaultState: "himachal-pradesh",
+    states: [
+      { id: "STATE-IN-HP", slug: "himachal-pradesh", name: "Himachal Pradesh", data: "data/himachal-pradesh.json" },
+      { id: "STATE-IN-TS", slug: "test-state", name: "Test State", data: "data/test-state.json" }
+    ]
+  }) }));
+  await page.route("**/data/test-state.json", (route) => route.fulfill({ contentType: "application/json", body: JSON.stringify(fixture) }));
+  await page.goto(`${baseUrl}#/state/himachal-pradesh/k/${encodeURIComponent(hp.schemes[0].id)}`);
+  await page.getByRole("button", { name: "Save" }).click();
+  await page.getByRole("combobox", { name: "Select state" }).selectOption("test-state");
+  await page.getByText("2 business activities · 1 schemes", { exact: true }).waitFor();
+  assert.match(page.url(), /#\/state\/test-state$/);
+  assert.equal(await page.evaluate(() => localStorage.getItem("scheme-finder-selected-state-v1")), "test-state");
+  await page.locator("#q").fill("Test State Enterprise Scheme");
+  await page.waitForTimeout(200);
+  await page.locator('a[href*="/k/SCH-TS-ONE"]').click();
+  await page.getByRole("button", { name: "Save" }).click();
+  const stateIds = await page.evaluate(() => JSON.parse(localStorage.getItem("scheme-finder-saved-v2")).map((item) => item.stateId).sort());
+  assert.deepEqual(stateIds, ["STATE-IN-HP", "STATE-IN-TS"]);
+  await context.close();
+});
+
+test("legacy HP bookmarks migrate once to state-qualified stable IDs", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block" });
+  const page = await context.newPage();
+  await page.addInitScript(() => localStorage.setItem("saved", JSON.stringify(["s0", "k0"])));
+  await page.goto(baseUrl);
+  await page.locator("#q").waitFor();
+  const migrated = await page.evaluate(() => JSON.parse(localStorage.getItem("scheme-finder-saved-v2")));
+  assert.equal(migrated.length, 2);
+  assert.ok(migrated.every((item) => item.stateId === "STATE-IN-HP" && /^(SEC|SCH)-/.test(item.id)));
+  await page.reload();
+  await page.locator("#q").waitFor();
+  assert.equal(await page.evaluate(() => JSON.parse(localStorage.getItem("scheme-finder-saved-v2")).length), 2);
+  await context.close();
+});
+
+test("scheme detail separates existence, intake, budget, and evidence", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block" });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+  await page.goto(baseUrl);
+  await page.locator("#q").fill("Mukhya Mantri Swavalamban Yojana");
+  await page.waitForTimeout(200);
+  await page.locator('a[href*="/k/SCH-"]').first().click();
+  await page.getByRole("heading", { name: "Scheme status" }).waitFor();
+  await page.getByText("Existence", { exact: true }).waitFor();
+  await page.getByText("Intake", { exact: true }).waitFor();
+  await page.getByText("Budget", { exact: true }).waitFor();
+  await page.getByRole("heading", { name: "Evidence" }).waitFor();
+  await context.close();
+});
+
+test("research view shows cutoff, candidate dispositions, coverage, and limitations", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block" });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+  await page.goto(`${baseUrl}#/state/himachal-pradesh/research`);
+  await page.getByRole("heading", { name: "Research and coverage" }).waitFor();
+  await page.getByText("Research cutoff", { exact: true }).waitFor();
+  await page.getByRole("heading", { name: "Candidate disposition" }).waitFor();
+  await page.getByRole("heading", { name: "Coverage outcomes" }).waitFor();
+  await page.getByText("Material limitations", { exact: true }).waitFor();
   await context.close();
 });
 

@@ -15,7 +15,7 @@ const workbench = await loadHpV2Workbench({ root: ROOT });
 const qa = await runHpV2Qa(workbench, { asOf: AS_OF });
 if (qa.errors.length) throw new Error(`HP v2 publication blocked by ${qa.errors.length} QA error(s).`);
 
-const current = JSON.parse(await readFile(path.join(ROOT, "app", "data.json"), "utf8"));
+const current = JSON.parse(await readFile(path.join(ROOT, "research", "hp-v2", "baseline-app-data.json"), "utf8"));
 const data = structuredClone(current);
 const existingIds = new Set(data.schemes.map((scheme) => scheme.id));
 const publishableCandidates = workbench.candidates.candidates.filter((candidate) => candidate.publishable && candidate.scheme);

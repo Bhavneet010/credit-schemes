@@ -1,0 +1,23 @@
+{
+  "defaultState": "himachal-pradesh",
+  "schemaVersion": "state-index-1",
+  "states": [
+    {
+      "counts": {
+        "links": 8700,
+        "schemes": 188,
+        "sectors": 382
+      },
+      "data": "data/himachal-pradesh.json",
+      "id": "STATE-IN-HP",
+      "limitations": [
+        "Indicative-only v1 wording remains visible with an explicit caution and is not represented as operative entitlement evidence.",
+        "Five official agency surfaces were inaccessible during the breadth pass and remain scheduled for recheck.",
+        "Current allocation and sanction must be confirmed with the issuing body for allocation-dependent routes."
+      ],
+      "name": "Himachal Pradesh",
+      "slug": "himachal-pradesh",
+      "verified": "2026-08-26"
+    }
+  ]
+}

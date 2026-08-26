@@ -29,10 +29,22 @@ test("migrated canonical records retain provenance", async () => {
   assert.ok(collections.flat().every((record) => record.migrationSource?.sheet && Number.isInteger(record.migrationSource.row)));
 });
 
-test("canonical HP validates and compiles to the exact current app contract", async () => {
+test("shared central records do not carry HP access or status presentation", async () => {
+  const result = await convertHpV2();
+  const common = result.files["common/schemes.json"].schemes;
+  const implementations = result.files["states/himachal-pradesh/implementations.json"].implementations;
+  assert.ok(common.every((scheme) => !scheme.legacy && !scheme.legacyCore.agency && !scheme.legacyCore.access && !scheme.legacyCore.status));
+  assert.ok(implementations.every((implementation) => implementation.legacyProjection?.id === implementation.schemeId));
+});
+
+test("canonical HP validates and preserves the current visible app contract", async () => {
   assert.deepEqual(await validateRepositoryState("himachal-pradesh"), { ok: true, errors: [] });
   const current = JSON.parse(await readFile("app/data.json", "utf8"));
-  assert.deepEqual(await compileRepositoryState("himachal-pradesh"), current);
+  const compiled = await compileRepositoryState("himachal-pradesh");
+  assert.deepEqual(compiled.meta.counts, current.meta.counts);
+  assert.deepEqual(compiled.sectors, current.sectors);
+  assert.deepEqual(compiled.schemes.map(({ statusDetail, evidenceLinks, ...scheme }) => scheme), current.schemes);
+  assert.deepEqual(compiled.links, current.links);
 });
 
 test("validation blocks unsupported hard claims and unmapped method findings", async () => {

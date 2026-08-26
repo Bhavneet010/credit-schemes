@@ -1,5 +1,5 @@
 /* Offline-first service worker. Bump CACHE when the data or shell changes. */
-var CACHE = "hpsf-v8";
+var CACHE = "scheme-finder-v9";
 var SHELL = [
   "./",
   "./index.html",
@@ -9,7 +9,8 @@ var SHELL = [
   "./visual-v7.css",
   "./sw-refresh.js",
   "./app.js",
-  "./data.json",
+  "./data/states.json",
+  "./data/himachal-pradesh.json",
   "./manifest.webmanifest",
   "./assets/hero-alpine-crest.png",
   "./icons/icon-192.png",
@@ -28,7 +29,7 @@ self.addEventListener("activate", function (e) {
   e.waitUntil(
     caches.keys().then(function (keys) {
       return Promise.all(keys.filter(function (k) {
-        return k.indexOf("hpsf-") === 0 && k !== CACHE;
+        return (k.indexOf("hpsf-") === 0 || k.indexOf("scheme-finder-") === 0) && k !== CACHE;
       }).map(function (k) {
         return caches.delete(k);
       }));

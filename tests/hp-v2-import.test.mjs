@@ -10,7 +10,7 @@ import { evaluateHpFormula, importHpWorkbook } from "../tools/hp-v2/lib/workbook
 
 const root = path.resolve(import.meta.dirname, "..");
 const workbookPath = path.join(root, "Himachal_Pradesh_MSME_Agri_Scheme_Guide_2026_verified.xlsx");
-const appDataPath = path.join(root, "app", "data.json");
+const appDataPath = path.join(root, "research", "hp-v2", "baseline-app-data.json");
 const expectedCounts = {
   sectors: 382,
   schemes: 182,

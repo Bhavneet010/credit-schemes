@@ -7,10 +7,9 @@ COMMAND = [
     "node",
     str(ROOT / "tools" / "state-pack" / "cli.mjs"),
     "build-app",
-    "--state",
-    "himachal-pradesh",
-    "--output",
-    str(ROOT / "app" / "data.json"),
+    "--all",
+    "--output-dir",
+    str(ROOT / "app" / "data"),
 ]
 
 raise SystemExit(subprocess.run(COMMAND, cwd=ROOT, check=False).returncode)

@@ -14,13 +14,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-PM-KUSUM-SAUR-SINCHAI-IMPLEMENTATION-IN-HP-51246F",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Apply through the HP AgriDBT portal (agridbt.hp.gov.in) or the dedicated PM-KUSUM portal (pmkusumagri.hp.gov.in) via the Block/District Agriculture Office.",
-        "agency": "Department of Agriculture / nodal agency",
+      "legacyCore": {
         "bank": "May be",
         "benefit": "85% assistance for small and marginal farmers and 80% for medium and large farmers on approved solar water-lifting/pumping systems, individual or community.",
         "bestFor": "Standalone solar agriculture pumps and notified solarisation components",
-        "caution": "Original CSV's separate 60%/80% rows were not a reliable representation of HP's current assistance.",
         "eligible": "Eligible farmers/groups under current HP target and technical conditions",
         "family": "Machinery technology energy and digitalisation",
         "gov": "Central + Himachal Pradesh",
@@ -32,7 +29,6 @@
         "reach": 67,
         "src": "https://agriculture.hp.gov.in/en/our-scheme/pm-kusum/",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Capital subsidy"
       },
       "migrationSource": {
@@ -55,13 +51,10 @@
       "familyId": "FAMILY-ESTABLISHMENT-AND-CAPITAL-INVESTMENT",
       "id": "SCH-MIDH-IMPLEMENTATION-IN-HIMACHAL-PRADESH-F434B5",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Apply through Horticulture Department under the approved Annual Action Plan.",
-        "agency": "Department of Horticulture / MIDH",
+      "legacyCore": {
         "bank": "Often",
         "benefit": "In Himalayan states many private-sector components receive 50% of benchmark cost; some components range 40%–75%. Caps are component-specific.",
         "bestFor": "Orchards, nurseries, protected cultivation, mushrooms, mechanisation and post-harvest components",
-        "caution": "Use the 2025 MIDH cost norm and current HP action plan; do not use a generic percentage for every component. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Farmers, entrepreneurs, FPOs/cooperatives; component-specific",
         "evidence": {
           "treatment": "indicative-only",
@@ -78,7 +71,6 @@
         "reach": 120,
         "src": "https://www.nhb.gov.in/writereaddata/085725055718MIDH%20Guidelines%20DO%20Letter%20%281%29.pdf",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Capital/input subsidy"
       },
       "migrationSource": {
@@ -102,13 +94,10 @@
       "familyId": "FAMILY-ESTABLISHMENT-AND-CAPITAL-INVESTMENT",
       "id": "SCH-PMKSY-PER-DROP-MORE-CROP-MICRO-IRRIGATION-8D174C",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Apply through Agriculture/Horticulture Department before installation.",
-        "agency": "Agriculture/Horticulture Department",
+      "legacyCore": {
         "bank": "Sometimes",
         "benefit": "55% of benchmark cost for small/marginal farmers and 45% for other farmers under national norms; HP annual implementation may add/adjust approved support.",
         "bestFor": "Drip and sprinkler systems",
-        "caution": "Confirm whether the farm component is routed through Agriculture or Horticulture in the district. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible farmers; land and water-source conditions apply",
         "evidence": {
           "treatment": "indicative-only",
@@ -125,7 +114,6 @@
         "reach": 53,
         "src": "https://pmksy.gov.in/microirrigation/Archive/GuidelinesMIRevised250817.pdf",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Capital subsidy"
       },
       "migrationSource": {
@@ -149,13 +137,10 @@
       "familyId": "FAMILY-INSURANCE-RISK-COMPENSATION-AND-INCOME-SUPPORT",
       "id": "SCH-WEATHER-BASED-CROP-INSURANCE-SCHEME-HORTIC-5AB1B7",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Enrol through notified insurer/bank/CSC within seasonal cut-off.",
-        "agency": "Department of Horticulture / insurer",
+      "legacyCore": {
         "bank": "Yes for loanee where applicable",
         "benefit": "Farmer pays the notified subsidised premium; claim is trigger-based using weather data, not individual loss assessment.",
         "bestFor": "Notified fruit/horticulture crops against weather triggers",
-        "caution": "Crop, area, insurer, premium and dates change each season. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Growers of notified crop in notified area during enrolment window",
         "evidence": {
           "treatment": "indicative-only",
@@ -172,7 +157,6 @@
         "reach": 53,
         "src": "https://himachalservices.nic.in/economics/pdf/en-economic_survey_2025-26.pdf",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Insurance premium subsidy"
       },
       "migrationSource": {
@@ -195,13 +179,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-MARKET-INTERVENTION-SCHEME-FOR-APPLE-MANGO-006D7B",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Use notified HPMC/HIMFED/agency collection centres during the season.",
-        "agency": "Horticulture Department / designated agency",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Market Intervention Scheme 2026-27 (approved July 2026): C-grade apple ₹12/kg, procurement 1 August-31 October 2026, up to 1.50 lakh MT; processing-grade mango ₹12/kg, 15 July-31 August 2026; citrus ₹12/kg for kinnow, malta and sangtra and ₹10/kg for galgal, 21 November 2026-15 February 2027. Procurement by HPMC, with HIMFED assisting on apple.",
         "bestFor": "Disposal of eligible grade/quality produce through notified procurement centres",
-        "caution": "Seasonal and grade-specific; price and quantity limits must be rechecked each crop year. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Registered/eligible growers meeting current notification",
         "evidence": {
           "treatment": "indicative-only",
@@ -218,7 +199,6 @@
         "reach": 53,
         "src": "https://himachalservices.nic.in/economics/pdf/en-economic_survey_2025-26.pdf",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Procurement price support"
       },
       "migrationSource": {
@@ -241,13 +221,10 @@
       "familyId": "FAMILY-INSURANCE-RISK-COMPENSATION-AND-INCOME-SUPPORT",
       "id": "SCH-FISHERIES-INSURANCE-UNDER-PMMSY-HP-IMPLEME-512871",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Register with Fisheries Department/cooperative during enrolment.",
-        "agency": "Department of Fisheries",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Group Accident Insurance Scheme under PMMSY: ₹5 lakh for death or permanent total disability, ₹2.5 lakh for permanent partial disability and ₹25,000 towards accidental hospitalisation, for fishers aged 18-70; premium is borne under the scheme.",
         "bestFor": "Accidental death/disability cover for registered fishers",
-        "caution": "Confirm insurer, cover and nominee details for the current policy year. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Registered eligible fisher under current group insurance",
         "evidence": {
           "treatment": "indicative-only",
@@ -264,7 +241,6 @@
         "reach": 20,
         "src": "https://nfdb.gov.in/welcome/GAIS",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Insurance support"
       },
       "migrationSource": {
@@ -287,13 +263,10 @@
       "familyId": "FAMILY-ESTABLISHMENT-AND-CAPITAL-INVESTMENT",
       "id": "SCH-PRIME-MINISTER-S-EMPLOYMENT-GENERATION-PRO-D1FEA0",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply only on PMEGP e-portal; scrutiny by KVIC/KVIB/DIC and bank.",
-        "agency": "KVIC / KVIB / DIC / bank",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Project ceiling: ₹50 lakh manufacturing, ₹20 lakh service. General: 10% own contribution and 15% urban/25% rural subsidy. Special category: 5% contribution and 25% urban/35% rural subsidy.",
         "bestFor": "New micro manufacturing or service enterprise",
-        "caution": "Hill-area classification may support special-category rates; portal and bank decide final category. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Individual above 18 and eligible institutions; only new project; education rule for larger projects",
         "evidence": {
           "treatment": "indicative-only",
@@ -310,7 +283,6 @@
         "reach": 320,
         "src": "https://pmegp.msme.gov.in/",
         "stage": "New",
-        "status": "Active - bank or continuous route",
         "support": "Margin-money subsidy"
       },
       "migrationSource": {
@@ -333,13 +305,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-PMEGP-2ND-LOAN-FOR-UPGRADATION-99CA6F",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through PMEGP portal/implementing agency and lender.",
-        "agency": "KVIC / bank",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Margin-money subsidy of 15% of project cost, raised to 20% for NER and Hill States (Himachal Pradesh qualifies). Manufacturing: project up to ₹1 crore, maximum subsidy ₹15 lakh (₹20 lakh in hill/NER). Service or business: project up to ₹25 lakh, maximum subsidy ₹3.75 lakh (₹5 lakh in hill/NER). Own contribution 10%.",
         "bestFor": "Expansion of a successful existing PMEGP/REGP/MUDRA unit",
-        "caution": "Eligibility includes performance and repayment conditions; not a general second loan for every MUDRA borrower.",
         "eligible": "Existing unit with first loan repaid and prescribed profitable track record",
         "family": "Credit guarantee working capital and equity",
         "gov": "Central",
@@ -351,7 +320,6 @@
         "reach": 19,
         "src": "https://www.kviconline.gov.in/pmegpeportal/pmegphome/index.jsp",
         "stage": "Existing",
-        "status": "Active - bank or continuous route",
         "support": "Margin-money subsidy"
       },
       "migrationSource": {
@@ -374,13 +342,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-PRADHAN-MANTRI-MUDRA-YOJANA-PMMY-1FCCD7",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through bank, RRB, small finance bank, MFI/NBFC or JanSamarth where offered.",
-        "agency": "Participating lender / MUDRA",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Shishu up to ₹50,000; Kishore above ₹50,000–₹5 lakh; Tarun above ₹5–₹10 lakh; Tarun Plus above ₹10–₹20 lakh only for borrowers who successfully repaid a Tarun loan.",
         "bestFor": "Non-corporate, non-farm micro business and permitted allied activities",
-        "caution": "No direct subsidy; interest is lender-determined. Guarantee is under the MUDRA/CGFMU framework, not ordinary CGTMSE. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible micro entrepreneur with viable activity",
         "evidence": {
           "treatment": "indicative-only",
@@ -397,7 +362,6 @@
         "reach": 320,
         "src": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Collateral-free loan / guarantee-backed credit"
       },
       "migrationSource": {
@@ -420,13 +384,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-CGTMSE-CREDIT-GUARANTEE-A17996",
       "issuerType": "central",
-      "legacy": {
-        "access": "Ask the lender to cover the eligible facility under CGTMSE; borrower does not apply directly to the Trust.",
-        "agency": "Member lending institution / CGTMSE",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Guarantee cover on eligible credit up to ₹10 crore per borrower, effective for guarantees approved on or after 1 April 2025 (raised from ₹5 crore). Extent of guarantee generally 75%-85% depending on borrower and facility category, subject to current rules and the annual guarantee fee.",
         "bestFor": "Collateral/third-party-guarantee constraint on MSE borrowing",
-        "caution": "A guarantee reduces lender loss, not the borrower's repayment obligation; the original ₹2 crore ceiling was obsolete. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible new/existing micro or small enterprise through a member lender",
         "evidence": {
           "treatment": "indicative-only",
@@ -443,7 +404,6 @@
         "reach": 320,
         "src": "https://www.cgtmse.in/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Credit guarantee to lender"
       },
       "migrationSource": {
@@ -466,13 +426,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-PM-VISHWAKARMA-AD66E3",
       "issuerType": "central",
-      "legacy": {
-        "access": "Register through CSC/PM Vishwakarma portal; verification by local bodies and committee.",
-        "agency": "MSME Ministry / CSC / bank",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Toolkit incentive up to ₹15,000 via e-RUPI voucher; training stipend ₹500/day (basic 5-7 days, advanced 15 days); collateral-free enterprise loans of up to ₹1 lakh (18-month repayment) then up to ₹2 lakh (30-month repayment), beneficiary interest 5% with Government interest subvention capped at 8 percentage points; digital incentive ₹1 per transaction up to 100 transactions a month; marketing support through a ₹250 crore corpus. Scheme period FY2023-24 to FY2027-28.",
         "bestFor": "Recognition, skilling, tools, credit and market support for 18 notified trades",
-        "caution": "Original CSV incorrectly marked no interest subvention. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible traditional artisan/craftsperson, generally one member per family, subject to exclusions",
         "evidence": {
           "treatment": "indicative-only",
@@ -489,7 +446,6 @@
         "reach": 41,
         "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2057040&lang=2&reg=48",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Toolkit + training stipend + subsidised credit"
       },
       "migrationSource": {
@@ -512,13 +468,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-PM-SVANIDHI-RESTRUCTURED-FBA69A",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through urban local body/portal and participating lender.",
-        "agency": "ULB / lender / MoHUA",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Restructured scheme (Cabinet approval August 2025): progressive loans of ₹15,000, then ₹25,000, then ₹50,000; a UPI-linked RuPay credit card for vendors who repay the second loan on time; digital-transaction cashback up to ₹1,600 a year; lending period extended to 31 March 2030 and coverage being extended beyond statutory towns to census towns and peri-urban areas.",
         "bestFor": "Working capital for eligible urban street vendor",
-        "caution": "Eligibility is tied to vending survey/certificate or Letter of Recommendation. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Survey-identified/LoR-eligible street vendor",
         "evidence": {
           "treatment": "indicative-only",
@@ -535,7 +488,6 @@
         "reach": 37,
         "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2267102&lang=2&reg=48",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Working-capital loan + interest subsidy + digital incentive"
       },
       "migrationSource": {
@@ -558,13 +510,10 @@
       "familyId": "FAMILY-APPLICANT-CATEGORY-OVERLAYS",
       "id": "SCH-SPECIAL-CREDIT-LINKED-CAPITAL-SUBSIDY-SCHE-BDBAEA",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through the term-lending institution, which uploads the claim.",
-        "agency": "Lender / NSSH / MSME Ministry",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "25% of eligible term-loan/machinery value, subsidy ceiling ₹25 lakh (institutional finance up to ₹1 crore for calculation).",
         "bestFor": "New machinery/equipment or technology upgrade",
-        "caution": "This is current; the general legacy CLCSS is not the same scheme.",
         "eligible": "SC/ST-owned micro/small manufacturing or service enterprise; trading excluded",
         "family": "Applicant category overlays",
         "gov": "Central",
@@ -576,7 +525,6 @@
         "reach": 28,
         "src": "https://sclcss.msme.gov.in/Common/Home.aspx",
         "stage": "New and existing",
-        "status": "Active - bank or continuous route",
         "support": "Credit-linked capital subsidy"
       },
       "migrationSource": {
@@ -599,13 +547,10 @@
       "familyId": "FAMILY-LAND-CLUSTER-AND-COMMON-INFRASTRUCTURE",
       "id": "SCH-MICRO-AND-SMALL-ENTERPRISES-CLUSTER-DEVELO-C4AA57",
       "issuerType": "central",
-      "legacy": {
-        "access": "Prepare cluster diagnostic/DPR through State/cluster SPV and submit on the scheme system.",
-        "agency": "MSME Ministry / State / SPV",
+      "legacyCore": {
         "bank": "Often",
         "benefit": "Common Facility Centre: project cost ₹5-10 crore, GoI grant 70% (80% for NER, Hill States including Himachal Pradesh, islands and aspirational districts); project cost above ₹10 crore and up to ₹30 crore, GoI grant 60% (70% for the same special categories). Infrastructure Development: new infrastructure ₹5-15 crore, GoI 60% (70% special category); upgradation ₹5-10 crore, GoI 50% (60% special category).",
         "bestFor": "Common Facility Centre (CFC) or industrial-estate infrastructure",
-        "caution": "Not an individual-firm subsidy. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible cluster/SPV and State/implementing agency",
         "evidence": {
           "treatment": "indicative-only",
@@ -622,7 +567,6 @@
         "reach": 1,
         "src": "https://dcmsme.gov.in/schemes/New%20MSE-CDP.pdf",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Project grant"
       },
       "migrationSource": {
@@ -646,13 +590,10 @@
       "familyId": "FAMILY-LAND-CLUSTER-AND-COMMON-INFRASTRUCTURE",
       "id": "SCH-SFURTI-SCHEME-OF-FUND-FOR-REGENERATION-OF--C61C70",
       "issuerType": "central",
-      "legacy": {
-        "access": "Route cluster proposal through designated nodal/technical agency.",
-        "agency": "MSME Ministry / nodal agency",
+      "legacyCore": {
         "bank": "Often",
         "benefit": "Regular cluster (100-500 artisans; minimum 50 in hilly areas) up to ₹2.5 crore; major cluster above 500 artisans up to ₹5 crore. Hard intervention: GoI 90% generally, 95% for NER, J&K and hilly states with 5% SPV contribution in cash. Soft intervention: 100% GoI funded, capped at 10% of the hard-intervention amount or ₹25 lakh, whichever is less.",
         "bestFor": "Common facilities, skills, design and market support for artisan clusters",
-        "caution": "Cluster-level support, not direct reimbursement to each artisan. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible NGO/institution/SPV/implementing agency and artisans",
         "evidence": {
           "treatment": "indicative-only",
@@ -669,7 +610,6 @@
         "reach": 41,
         "src": "https://sfurti.msme.gov.in/",
         "stage": "New and existing",
-        "status": "Active - cluster or project area",
         "support": "Cluster grant"
       },
       "migrationSource": {
@@ -692,13 +632,10 @@
       "familyId": "FAMILY-QUALITY-TESTING-CERTIFICATION-IP-AND-COMPLIANCE",
       "id": "SCH-MSME-SUSTAINABLE-ZED-CERTIFICATION-9DC992",
       "issuerType": "central",
-      "legacy": {
-        "access": "Register on ZED portal using Udyam details.",
-        "agency": "MSME Ministry / QCI",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Certification-cost subsidy 80% for micro, 60% for small and 50% for medium enterprises, plus an extra 10% for women/SC/ST-owned units and for units in NER, Himalayan states (Himachal Pradesh qualifies), LWE, island territories and aspirational districts, plus a further 5% for units in a SFURTI or MSE-CDP cluster. One-time joining reward of ₹10,000 on taking the ZED Pledge.",
         "bestFor": "ZED assessment, certification, testing and handholding",
-        "caution": "Use current portal package and approved providers; this replaces treating ISO reimbursement as a universal standalone scheme.",
         "eligible": "Udyam-registered MSME",
         "family": "Quality testing certification IP and compliance",
         "gov": "Central",
@@ -710,7 +647,6 @@
         "reach": 320,
         "src": "https://zed.msme.gov.in/subsidy-on-cost-of-certification",
         "stage": "New and existing",
-        "status": "Active - bank or continuous route",
         "support": "Certification/testing subsidy"
       },
       "migrationSource": {
@@ -733,13 +669,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-MSME-COMPETITIVE-LEAN-0AFE18",
       "issuerType": "central",
-      "legacy": {
-        "access": "Register on LEAN portal and use approved implementation consultant.",
-        "agency": "MSME Ministry / NPC/QCI ecosystem",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Government bears 90% of implementation consultant cost; indicative programme costs: Basic free, Intermediate ₹1.2 lakh, Advanced ₹2.4 lakh, with additional support for specified categories.",
         "bestFor": "LEAN assessment and implementation",
-        "caution": "The benefit is for structured LEAN implementation, not machinery purchase.",
         "eligible": "Udyam-registered manufacturing MSME or eligible cluster/group",
         "family": "Machinery technology energy and digitalisation",
         "gov": "Central",
@@ -751,7 +684,6 @@
         "reach": 320,
         "src": "https://lean.msme.gov.in/Home/FinancialAssistance",
         "stage": "Existing",
-        "status": "Active - bank or continuous route",
         "support": "Consultancy-cost subsidy"
       },
       "migrationSource": {
@@ -775,13 +707,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-MSE-GIFT-GREEN-INVESTMENT-AND-FINANCING-FO-EE865F",
       "issuerType": "central",
-      "legacy": {
-        "access": "Approach participating lender and follow RAMP/MSE-GIFT process.",
-        "agency": "MSME Ministry / RAMP / lender",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "2% interest subvention on eligible term loan up to ₹2 crore; 75% risk-sharing/guarantee support, subject to guidelines.",
         "bestFor": "Investment in eligible green technology",
-        "caution": "Confirm technology list, lender participation and available allocation before sanction.",
         "eligible": "Udyam-registered micro or small enterprise meeting eligible green project norms",
         "family": "Machinery technology energy and digitalisation",
         "gov": "Central",
@@ -793,7 +722,6 @@
         "reach": 28,
         "src": "https://ramp.msme.gov.in/ramp/index.php/RAMP-initiative/mse-gift/gift-interest-subvention",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Interest subvention + credit guarantee"
       },
       "migrationSource": {
@@ -817,13 +745,10 @@
       "familyId": "FAMILY-ESTABLISHMENT-AND-CAPITAL-INVESTMENT",
       "id": "SCH-MSE-SPICE-CIRCULAR-ECONOMY-INVESTMENT-0B6A5E",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through RAMP/SPICE portal with DPR and financing details.",
-        "agency": "MSME Ministry / RAMP",
+      "legacyCore": {
         "bank": "Usually",
         "benefit": "25% capital subsidy on eligible plant and machinery, maximum ₹12.5 lakh. The subsidy is computed on project cost up to ₹50 lakh; larger projects remain capped at ₹12.5 lakh. Brownfield projects of existing Udyam-registered MSEs only, in the 11 notified circular-economy sectors.",
         "bestFor": "Brownfield investment for recycling, resource efficiency and circularity",
-        "caution": "Brownfield/circular-economy eligibility and eligible asset list are decisive. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible existing Udyam MSE meeting scheme conditions",
         "evidence": {
           "treatment": "indicative-only",
@@ -840,7 +765,6 @@
         "reach": 53,
         "src": "https://www.sidbi.in/uploads/financialreport/FAQ-SPICE.pdf",
         "stage": "Existing",
-        "status": "Active - bank or continuous route",
         "support": "Capital subsidy"
       },
       "migrationSource": {
@@ -864,13 +788,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-MSME-TEAM-INITIATIVE-E-COMMERCE-ONDC-EC9C01",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through the TEAM/ONDC implementation channel when onboarding is open.",
-        "agency": "MSME Ministry / RAMP / ONDC",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Support includes onboarding/cataloguing up to ₹2,500 per MSE, account management up to ₹5,000, and notified logistics/packaging support.",
         "bestFor": "ONDC onboarding, catalogue, account management, logistics and packaging support",
-        "caution": "Benefits are service/cost support, not unrestricted cash.",
         "eligible": "Eligible MSE, with focus on women and SC/ST-owned MSEs",
         "family": "Market procurement ecommerce and export",
         "gov": "Central",
@@ -882,7 +803,6 @@
         "reach": 90,
         "src": "https://ramp.msme.gov.in/ramp/RAMP-initiative/msme-team-initiative/msme-team-initiative",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Reimbursement/service support"
       },
       "migrationSource": {
@@ -906,13 +826,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-ADEETIE-ASSISTANCE-IN-DEPLOYING-ENERGY-EFF-2B4DB7",
       "issuerType": "central",
-      "legacy": {
-        "access": "Register/seek energy audit through BEE/ADEETIE and approach participating lender.",
-        "agency": "Bureau of Energy Efficiency / lender",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Interest subvention: 5% for micro/small and 3% for medium enterprise on eligible project finance; technical support also provided.",
         "bestFor": "Energy-efficiency retrofit in eligible cluster/sector",
-        "caution": "Location/sector list and minimum energy saving are mandatory; confirm whether the HP unit lies in an eligible cluster.",
         "eligible": "Udyam manufacturing unit in notified 60 clusters/14 sectors meeting energy-saving and technical conditions",
         "family": "Machinery technology energy and digitalisation",
         "gov": "Central",
@@ -924,7 +841,6 @@
         "reach": 1,
         "src": "https://adeetie.beeindia.gov.in/adeetie-scheme",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Interest subvention + technical assistance"
       },
       "migrationSource": {
@@ -947,13 +863,10 @@
       "familyId": "FAMILY-CENTRAL-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-RAISING-AND-ACCELERATING-MSME-PERFORMANCE--8ED3FE",
       "issuerType": "central",
-      "legacy": {
-        "access": "Use the specific RAMP component or State implementation call.",
-        "agency": "MSME Ministry / State",
+      "legacyCore": {
         "bank": "Sometimes",
         "benefit": "No universal direct benefit; includes initiatives such as GIFT, SPICE and TEAM and State strategic plans.",
         "bestFor": "State reforms, market/finance/technology interventions",
-        "caution": "Do not list RAMP as a flat subsidy. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "MSMEs benefit through State and component initiatives rather than a single grant application",
         "evidence": {
           "treatment": "indicative-only",
@@ -970,7 +883,6 @@
         "reach": 28,
         "src": "https://ramp.msme.gov.in/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Programme / enabling support"
       },
       "migrationSource": {
@@ -993,13 +905,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-PUBLIC-PROCUREMENT-POLICY-FOR-MSES-934235",
       "issuerType": "central",
-      "legacy": {
-        "access": "Register Udyam and GeM; respond to eligible tenders and use MSME Sambandh/Samadhan mechanisms.",
-        "agency": "Central procuring entity / GeM",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Central procuring entities target 25% annual procurement from MSEs, including sub-targets of 4% for SC/ST-owned and 3% for women-owned MSEs; tender benefits/exemptions apply under policy.",
         "bestFor": "Access to Central Ministry/CPSE procurement",
-        "caution": "This is market access, not a cash subsidy; tender quality and technical conditions remain.",
         "eligible": "Eligible Udyam-registered MSE and product/service meeting tender conditions",
         "family": "Market procurement ecommerce and export",
         "gov": "Central",
@@ -1011,7 +920,6 @@
         "reach": 320,
         "src": "https://msme.gov.in/public-procurement-policy",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Market preference"
       },
       "migrationSource": {
@@ -1034,13 +942,10 @@
       "familyId": "FAMILY-APPLICANT-CATEGORY-OVERLAYS",
       "id": "SCH-NATIONAL-SC-ST-HUB-NSSH-873A63",
       "issuerType": "central",
-      "legacy": {
-        "access": "Register/engage through NSSH/NSIC and current intervention calls.",
-        "agency": "NSIC / MSME Ministry",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Intervention-specific reimbursement/support; SCLCSS is a separate capital-subsidy component under the Hub.",
         "bestFor": "Vendor development, capacity building, exhibition and procurement support",
-        "caution": "Use the exact intervention guideline; the umbrella itself is not a single loan. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "SC/ST-owned MSE/aspiring entrepreneur under the relevant intervention",
         "evidence": {
           "treatment": "indicative-only",
@@ -1057,7 +962,6 @@
         "reach": 1,
         "src": "https://scsthub.in/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Training / market / handholding"
       },
       "migrationSource": {
@@ -1080,13 +984,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-PROCUREMENT-AND-MARKETING-SUPPORT-PMS-708FB2",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply against live MSME-DI/Ministry event or component notice.",
-        "agency": "MSME Ministry / MSME-DFO",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Component- and event-specific support under the current PMS guidelines; no one universal ceiling.",
         "bestFor": "Trade fairs, packaging, barcode, e-commerce and market development interventions",
-        "caution": "Check live notice before incurring cost.",
         "eligible": "Eligible MSE/industry association/implementing agency by component",
         "family": "Market procurement ecommerce and export",
         "gov": "Central",
@@ -1098,7 +999,6 @@
         "reach": 28,
         "src": "https://www.msme.gov.in/offerings/schemes-and-services",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Reimbursement / event support"
       },
       "migrationSource": {
@@ -1121,13 +1021,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-INTERNATIONAL-COOPERATION-SCHEME-DBF1B0",
       "issuerType": "central",
-      "legacy": {
-        "access": "Participate through an approved association/Ministry call.",
-        "agency": "MSME Ministry",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Support is component- and event-specific under approved proposals.",
         "bestFor": "International exhibitions, delegations and market cooperation",
-        "caution": "Usually routed through eligible organisations, not an open individual reimbursement.",
         "eligible": "Eligible industry association/organisation; participating MSEs through approved proposal",
         "family": "Market procurement ecommerce and export",
         "gov": "Central",
@@ -1139,7 +1036,6 @@
         "reach": 21,
         "src": "https://www.msme.gov.in/offerings",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Travel/space/participation support"
       },
       "migrationSource": {
@@ -1162,13 +1058,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-ENTREPRENEURSHIP-AND-SKILL-DEVELOPMENT-PRO-8C6AA1",
       "issuerType": "central",
-      "legacy": {
-        "access": "Enrol in scheduled MSME-DFO/approved-institution programme.",
-        "agency": "MSME Ministry / training institution",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Government-supported training; no standard business capital grant.",
         "bestFor": "Entrepreneurship awareness and skill programmes",
-        "caution": "Training support only.",
         "eligible": "Aspiring/existing entrepreneurs selected for scheduled programme",
         "family": "Training incubation and entrepreneurship",
         "gov": "Central",
@@ -1180,7 +1073,6 @@
         "reach": 19,
         "src": "https://www.msme.gov.in/offerings",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Training"
       },
       "migrationSource": {
@@ -1204,13 +1096,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-ASPIRE-LIVELIHOOD-BUSINESS-INCUBATORS-FUND-B5AD45",
       "issuerType": "central",
-      "legacy": {
-        "access": "Entrepreneurs approach an approved incubator; institutions apply under calls.",
-        "agency": "MSME Ministry / SIDBI / incubator",
+      "legacyCore": {
         "bank": "Not usually",
         "benefit": "Support follows LBI/Technology Business Incubator/fund component guidelines; not a standard direct grant to every startup.",
         "bestFor": "Incubation infrastructure and investment ecosystem",
-        "caution": "Original list should not describe ASPIRE as ordinary borrower subsidy. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible host institution for LBI; startups indirectly through incubator/fund",
         "evidence": {
           "treatment": "indicative-only",
@@ -1227,7 +1116,6 @@
         "reach": 37,
         "src": "https://aspire.msme.gov.in/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Institutional grant / fund-of-funds"
       },
       "migrationSource": {
@@ -1250,13 +1138,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-COIR-VIKAS-YOJANA-697965",
       "issuerType": "central",
-      "legacy": {
-        "access": "Contact Coir Board regional office/use the current component portal.",
-        "agency": "Coir Board",
+      "legacyCore": {
         "bank": "Sometimes",
         "benefit": "Component-specific assistance under current Coir Board guidelines.",
         "bestFor": "Skill, machinery, market and welfare interventions in coir value chain",
-        "caution": "Applicable only where the proposed activity genuinely falls in the coir value chain. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Coir artisan/unit/institution depending on component",
         "evidence": {
           "treatment": "indicative-only",
@@ -1273,7 +1158,6 @@
         "reach": 69,
         "src": "https://coirboard.gov.in/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Training / capital / market support"
       },
       "migrationSource": {
@@ -1296,13 +1180,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-TREDS-INVOICE-DISCOUNTING-B2B9D2",
       "issuerType": "institutional",
-      "legacy": {
-        "access": "Onboard on an RBI-authorised TReDS platform and upload buyer-accepted invoice.",
-        "agency": "TReDS platform / financier",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Competitive invoice discounting without collateral; cost is the accepted discount rate, not a subsidy.",
         "bestFor": "Discounting accepted invoices on eligible buyers",
-        "caution": "Buyer acceptance/onboarding is essential.",
         "eligible": "MSME supplier and onboarded buyer/financier",
         "family": "Credit guarantee working capital and equity",
         "gov": "RBI-regulated platform",
@@ -1314,7 +1195,6 @@
         "reach": 1,
         "src": "https://www.sidbi.in/en/treds",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Receivables finance"
       },
       "migrationSource": {
@@ -1337,13 +1217,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-MUTUAL-CREDIT-GUARANTEE-SCHEME-FOR-MSMES-M-8AEB3C",
       "issuerType": "central",
-      "legacy": {
-        "access": "Approach an NCGTC-registered member lender; lender applies for cover.",
-        "agency": "Member lender / NCGTC",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Guarantee coverage is 60% of the guaranteed term loan, on credit facilities up to ₹100 crore per project. The cost of equipment and machinery must be at least 75% of project cost. Borrower must hold a valid Udyam registration and not be an NPA; an upfront contribution of 5% of the loan amount is deposited with NCGTC.",
         "bestFor": "Large machinery/equipment-led investment project",
-        "caution": "Not an interest subsidy and not automatic collateral-free sanction; lender credit appraisal applies. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Udyam-registered new or existing MSME; machinery/equipment must form at least the prescribed share of project cost",
         "evidence": {
           "treatment": "indicative-only",
@@ -1360,7 +1237,6 @@
         "reach": 1,
         "src": "https://www.ncgtc.in/content/products/0/20260330/Operational_Guidelines_Mutual_Credit_Guarantee_Scheme_for_MSMEs_Modified_2402026_078178750f.pdf",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Credit guarantee to lender"
       },
       "migrationSource": {
@@ -1383,13 +1259,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-CREDIT-GUARANTEE-SCHEME-FOR-STARTUPS-CGSS-AEC55B",
       "issuerType": "central",
-      "legacy": {
-        "access": "Approach a member institution; guarantee is obtained by the institution.",
-        "agency": "DPIIT / NCGTC / member institution",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Guarantee support for eligible credit up to ₹20 crore per borrower (raised from ₹10 crore in May 2025). Coverage is 85% of the amount in default for loans up to ₹10 crore and 75% above ₹10 crore. Annual guarantee fee reduced to 1% p.a. for startups in the 27 notified Champion Sectors.",
         "bestFor": "Debt to DPIIT-recognised startup",
-        "caution": "Guarantee is for the lender/investor and does not waive repayment. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible DPIIT-recognised startup and member institution/AIF under current rules",
         "evidence": {
           "treatment": "indicative-only",
@@ -1406,7 +1279,6 @@
         "reach": 37,
         "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2127843",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Credit guarantee"
       },
       "migrationSource": {
@@ -1429,13 +1301,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-SIDBI-SPEED-RATIONALISED-MACHINERY-EQUIPME-F0E9A0",
       "issuerType": "institutional",
-      "legacy": {
-        "access": "Apply to SIDBI through current branch/digital channel.",
-        "agency": "SIDBI",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Need-based machinery/equipment finance; current pricing, loan size, collateral and contribution are case-specific. Earlier ARISE/SPEED Plus/PRATHAM branch products were merged into rationalised SPEED.",
         "bestFor": "Purchase of machinery/equipment",
-        "caution": "Original ARISE row is no longer a separate current product. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Creditworthy MSME meeting SIDBI product and operating-history requirements",
         "evidence": {
           "treatment": "indicative-only",
@@ -1452,7 +1321,6 @@
         "reach": 1,
         "src": "https://www.sidbi.in/annualreport/AnnualReport202324/business-performance.php",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Term loan"
       },
       "migrationSource": {
@@ -1475,13 +1343,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-SIDBI-PRAYAAS-BC3E4F",
       "issuerType": "institutional",
-      "legacy": {
-        "access": "Apply through a participating PRAYAAS partner institution, not necessarily directly at a SIDBI branch.",
-        "agency": "SIDBI / partner institution",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "₹50,000–₹5 lakh through partner institutions; over 85% of beneficiaries reported as women.",
         "bestFor": "Livelihood/micro-enterprise credit for informal entrepreneurs",
-        "caution": "Availability depends on partner coverage in the applicant's location.",
         "eligible": "Eligible informal micro entrepreneur served by a participating partner institution",
         "family": "Credit guarantee working capital and equity",
         "gov": "SIDBI",
@@ -1493,7 +1358,6 @@
         "reach": 1,
         "src": "https://www.sidbi.in/en/prayaas",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Loan"
       },
       "migrationSource": {
@@ -1516,13 +1380,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-SIDBI-DIGITAL-BUSINESS-LOAN-248602",
       "issuerType": "institutional",
-      "legacy": {
-        "access": "Apply through SIDBI's digital/business-loan channel.",
-        "agency": "SIDBI",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Up to ₹25 lakh; repayment up to 36 months; published starting rate from 10.5% p.a., subject to credit profile.",
         "bestFor": "Machinery, renovation, outlet, vehicle, stock or eligible business purpose",
-        "caution": "This is a commercial loan, not a subsidy; geography and profitability conditions apply.",
         "eligible": "GST- and Udyam-registered business with generally 3+ years operations and product conditions",
         "family": "Machinery technology energy and digitalisation",
         "gov": "SIDBI",
@@ -1534,7 +1395,6 @@
         "reach": 37,
         "src": "https://www.sidbi.in/en/business-loan",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Business loan"
       },
       "migrationSource": {
@@ -1557,13 +1417,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-MICRO-CREDIT-CARD-SCHEME-FOR-MICRO-ENTERPR-A89A30",
       "issuerType": "central",
-      "legacy": {
-        "access": "Ask a participating bank/lender for the Micro Credit Card product and confirm operational availability.",
-        "agency": "Participating lender / DFS / SIDBI ecosystem",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Revolving credit up to ₹5 lakh for Udyam-registered micro enterprises, with no collateral, backed by a CGTMSE guarantee. Launched 25 May 2026; joining fee waived for the first 10 lakh customers up to ₹500 per RuPay card issued.",
         "bestFor": "Short-cycle working capital through a reusable credit line",
-        "caution": "The guarantee protects the lender, not the borrower; pricing, drawing power and documentation are lender-determined. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Udyam-registered micro enterprise meeting lender credit criteria",
         "evidence": {
           "treatment": "indicative-only",
@@ -1580,7 +1437,6 @@
         "reach": 1,
         "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2265005&lang=1&reg=1",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Revolving credit + credit guarantee"
       },
       "migrationSource": {
@@ -1603,13 +1459,10 @@
       "familyId": "FAMILY-CENTRAL-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-SELF-RELIANT-INDIA-SRI-FUND-15347E",
       "issuerType": "central",
-      "legacy": {
-        "access": "Approach an empanelled Daughter Fund/fund manager with an investment memorandum; the MSME does not receive an automatic Government cheque.",
-        "agency": "NSIC Venture Capital Fund / Daughter Fund",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Fund-of-Funds route rather than a grant. The ₹50,000 crore architecture uses a Government Mother Fund and empanelled Daughter Funds. Budget 2026-27 provided a further allocation to the SRI Fund alongside a new ₹10,000 crore SME Growth Fund.",
         "bestFor": "Growth capital for a scalable MSME with an investible business plan",
-        "caution": "Selection, valuation, governance rights and exit terms are commercial; this is unsuitable for a business seeking only debt or subsidy.",
         "eligible": "Eligible growth-oriented MSME selected by an empanelled Daughter Fund",
         "family": "Central sector or commodity support",
         "gov": "Central",
@@ -1621,7 +1474,6 @@
         "reach": 19,
         "src": "https://dashboard.msme.gov.in/sri_fund.aspx",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Equity / quasi-equity investment"
       },
       "migrationSource": {
@@ -1645,13 +1497,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-MSME-INNOVATIVE-INCUBATION-DESIGN-AND-IPR-7FB8BA",
       "issuerType": "central",
-      "legacy": {
-        "access": "Use the MSME Innovative portal; for Incubation first work through an approved Host Institute, and for Design coordinate with an Implementing Agency.",
-        "agency": "MSME Ministry / Host Institute / Implementing Agency",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Incubation: up to ₹15 lakh per approved idea through a Host Institute, plus up to ₹1 crore to the Host Institute for relevant plant and machinery. Design: 75% of project cost for micro and 60% for small/medium enterprises, up to ₹40 lakh; student design projects up to ₹2.5 lakh. IPR reimbursement caps: ₹5 lakh foreign patent, ₹1 lakh domestic patent, ₹2 lakh GI, ₹15,000 design and ₹10,000 trademark.",
         "bestFor": "Prototype, product redesign, patent/trademark/design protection or incubation",
-        "caution": "Each vertical has a different route and admissible cost; approval must precede expenditure where required. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Udyam-registered MSME for Design/IPR; innovative ideas are routed through an approved Host Institute under Incubation",
         "evidence": {
           "treatment": "indicative-only",
@@ -1668,7 +1517,6 @@
         "reach": 18,
         "src": "https://innovative.msme.gov.in/Documents/FinalGuidelines_MSME_Innovative.pdf",
         "stage": "New and existing",
-        "status": "Active - bank or continuous route",
         "support": "Grant / reimbursement / expert support"
       },
       "migrationSource": {
@@ -1691,13 +1539,10 @@
       "familyId": "FAMILY-STORAGE-TRANSPORT-AND-SUPPLY-CHAIN",
       "id": "SCH-NSIC-RAW-MATERIAL-ASSISTANCE-AGAINST-BANK--1C87E0",
       "issuerType": "institutional",
-      "legacy": {
-        "access": "Submit the prescribed application to the nearest NSIC branch; NSIC appraises and inspects the unit before sanction.",
-        "agency": "NSIC branch",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "NSIC can finance raw-material purchase for up to 180 days against a bank guarantee. The last publicly documented rate schedule (effective 1 July 2025) ran from 8.75% p.a. for micro units rated SME 1 to 10.25% p.a. for unrated units, with a processing fee of 1% p.a. on new sanctions and 0.5%-1% on renewals, and an additional 1.25% per quarter on repayment beyond 180 days. NSIC revises these rates periodically - confirm the live rate circular before relying on any figure.",
         "bestFor": "Bulk or timely purchase of indigenous or imported raw material",
-        "caution": "Not a subsidy; delayed repayment loses concessional pricing and attracts penal charges. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Creditworthy MSME able to provide an acceptable bank guarantee",
         "evidence": {
           "treatment": "indicative-only",
@@ -1714,7 +1559,6 @@
         "reach": 1,
         "src": "https://www.nsic.co.in/Schemes/RawMaterialAgainstBG",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Raw-material finance"
       },
       "migrationSource": {
@@ -1737,13 +1581,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-NSIC-SINGLE-POINT-REGISTRATION-SCHEME-SPRS-2DAF35",
       "issuerType": "institutional",
-      "legacy": {
-        "access": "Apply online through NSIC SPRS and complete financial/technical inspection.",
-        "agency": "NSIC",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Free tender sets, EMD exemption, tender consortia and the opportunity for an L1+15% MSE to match L1 for up to 25% of requirement, subject to tender and policy terms.",
         "bestFor": "Tender access and procurement-policy benefits for eligible products/services",
-        "caution": "Manufacture of medicines/drugs is excluded except Ayurveda, Unani, Siddha and Homoeopathy; traders are also excluded. Pharma units should use GeM/tender-specific MSE provisions instead. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Udyam-registered micro or small manufacturing/service enterprise meeting inspection and activity rules",
         "evidence": {
           "treatment": "indicative-only",
@@ -1760,7 +1601,6 @@
         "reach": 1,
         "src": "https://www.nsic.co.in/Schemes/SinglePointRegistration",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Procurement registration / market preference"
       },
       "migrationSource": {
@@ -1783,13 +1623,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-MSE-ONLINE-DISPUTE-RESOLUTION-ODR-FOR-DELA-C9A3F2",
       "issuerType": "central",
-      "legacy": {
-        "access": "File on the MSME ODR portal with invoice, supply acceptance, correspondence and buyer details.",
-        "agency": "MSME ODR / MSE Facilitation Council",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Online filing, pre-MSEFC negotiation and digital conciliation/arbitration support; the scheme also provides component-based legal support rather than a fixed cash award.",
         "bestFor": "Recovery or settlement of delayed buyer dues",
-        "caution": "This does not guarantee recovery; limitation, jurisdiction, contract evidence and enforcement remain important. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Udyam- or Udyam Assist-registered micro or small enterprise with a commercial payment dispute",
         "evidence": {
           "treatment": "indicative-only",
@@ -1806,7 +1643,6 @@
         "reach": 18,
         "src": "https://odr.msme.gov.in/",
         "stage": "Existing",
-        "status": "Active - bank or continuous route",
         "support": "Digital negotiation / mediation / MSEFC route"
       },
       "migrationSource": {
@@ -1830,13 +1666,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-EXPORT-PROMOTION-MISSION-NIRYAT-PROTSAHAN--9BBF48",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through the export-credit bank and the notified Export Promotion Mission intervention; confirm product/country and claim-period eligibility.",
-        "agency": "Department of Commerce / lender / NCGTC",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Interest subvention of 2.75% p.a. on eligible rupee pre- and post-shipment export credit, capped at ₹50 lakh per IEC per financial year (same rate and cap for export factoring and e-commerce export credit). Separate collateral-free guarantee intervention covers 85% for micro and small and 65% for medium enterprises, up to ₹10 crore per exporter per year. From 1 April 2026 Exim Bank, not RBI, processes interest-subvention claims.",
         "bestFor": "Pre/post-shipment export credit, factoring and collateral support",
-        "caution": "Do not assume every export loan or shipment qualifies; RBI/lender instructions, exporter status and intervention dates control. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible MSME exporter with IEC/Udyam and qualifying export-credit facility/intervention",
         "evidence": {
           "treatment": "indicative-only",
@@ -1853,7 +1686,6 @@
         "reach": 9,
         "src": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026224799801.pdf",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Interest subvention + guarantee / trade finance"
       },
       "migrationSource": {
@@ -1877,13 +1709,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-EXPORT-PROMOTION-MISSION-TRACE-AND-NIRYAT--62AE41",
       "issuerType": "central",
-      "legacy": {
-        "access": "Use the notified Export Promotion Mission intervention or participating Export Promotion Council/implementing channel before incurring cost.",
-        "agency": "Department of Commerce / EPC / implementing agency",
+      "legacyCore": {
         "bank": "No",
         "benefit": "TRACE: assistance of 75% of actual cost net of taxes or ₹25 lakh, whichever is lower, for a certification on the notified Positive List, with an annual cap of ₹25 lakh per exporter. Related Niryat Disha interventions include LIFT freight reimbursement of up to 30% of actual cost capped at ₹20 lakh per IEC per year (Himalayan states are a covered low-export zone), FLOW overseas-warehousing support at the lower of 30% of approved project cost or ₹10 crore, and market-access support of up to ₹5 crore per event.",
         "bestFor": "International testing, inspection, certification, branding, market access, logistics or warehousing",
-        "caution": "Only notified certifications, activities, destinations and claim periods qualify; avoid treating the Mission as one blanket reimbursement. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Exporter meeting the relevant intervention criteria; TRACE requires valid IEC and Udyam for MSME support",
         "evidence": {
           "treatment": "indicative-only",
@@ -1900,7 +1729,6 @@
         "reach": 28,
         "src": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026224799801.pdf",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Compliance / market-access reimbursement"
       },
       "migrationSource": {
@@ -1923,13 +1751,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-REVAMPED-PHARMACEUTICAL-TECHNOLOGY-UPGRADA-C98303",
       "issuerType": "central",
-      "legacy": {
-        "access": "Monitor the Department of Pharmaceuticals SPI page/portal and obtain confirmation that fresh intake has reopened before committing upgrade expenditure.",
-        "agency": "Department of Pharmaceuticals / scheme PMA",
+      "legacyCore": {
         "bank": "Not necessarily",
         "benefit": "20% of eligible investment for turnover below ₹50 crore; 15% for ₹50 crore to below ₹250 crore; 10% for ₹250 crore to below ₹500 crore; maximum incentive ₹2 crore per unit (raised from ₹1 crore by corrigendum of 17 September 2024). Assistance is a reimbursement, not credit-linked. Eligible investment is that made after 1 January 2024.",
         "bestFor": "Upgrade an existing pharma plant to Revised Schedule M and/or WHO-GMP",
-        "caution": "As of 4 August 2026, a temporary restriction remained while extension was considered; 21 HP applications were pending. Drug licences, Schedule M/WHO-GMP certification and two-stage verification apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Existing pharmaceutical manufacturing unit with average turnover below ₹500 crore over the preceding 3 years",
         "evidence": {
           "treatment": "indicative-only",
@@ -1946,7 +1771,6 @@
         "reach": 6,
         "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294204&lang=1&reg=48",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Capital incentive / reimbursement"
       },
       "migrationSource": {
@@ -1969,13 +1793,10 @@
       "familyId": "FAMILY-LAND-CLUSTER-AND-COMMON-INFRASTRUCTURE",
       "id": "SCH-ASSISTANCE-TO-PHARMACEUTICAL-INDUSTRY-FOR--188056",
       "issuerType": "central",
-      "legacy": {
-        "access": "Form/strengthen the SPV and monitor the SPI scheme page for a fresh API-CF application window before preparing the final DPR.",
-        "agency": "Department of Pharmaceuticals / SPV / State",
+      "legacyCore": {
         "bank": "Often",
         "benefit": "In Himachal/Himalayan States, up to 90% of approved common-infrastructure project cost or ₹20 crore per cluster, whichever is lower.",
         "bestFor": "Common testing, R&D, effluent/waste, logistics or other approved cluster facility",
-        "caution": "Latest located fresh window closed in January 2025; the 4 August 2026 official update reported no HP proposal pending under API-CF. Not an individual-unit grant.",
         "eligible": "SPV with at least 5 legally independent pharma units; pharma enterprises hold at least 51% equity, or eligible State cluster entity",
         "family": "Land cluster and common infrastructure",
         "gov": "Central",
@@ -1987,7 +1808,6 @@
         "reach": 25,
         "src": "https://www.pharma-dept.gov.in/schemes/scheme-strengthening-pharmaceuticals-industry-spi",
         "stage": "New",
-        "status": "Fresh window closed",
         "support": "Cluster grant"
       },
       "migrationSource": {
@@ -2011,13 +1831,10 @@
       "familyId": "FAMILY-ESTABLISHMENT-AND-CAPITAL-INVESTMENT",
       "id": "SCH-SMDI-MARGINAL-INVESTMENT-SCHEME-FOR-REDUCI-A89898",
       "issuerType": "central",
-      "legacy": {
-        "access": "Use the SMDI portal only against a live notice and obtain product/category confirmation before investment.",
-        "agency": "Department of Pharmaceuticals / SMDI PMA",
+      "legacyCore": {
         "bank": "Not necessarily",
         "benefit": "One-time subsidy on eligible fixed investment: turnover up to ₹250 crore, 20%; ₹250–₹1,000 crore, 15%; above ₹1,000 crore, 10%; maximum ₹10 crore.",
         "bestFor": "Manufacture eligible device components, medical-grade raw materials/accessories or notified import-dependent devices",
-        "caution": "The June/July 2026 call closed on 24 July 2026. Incentive follows commissioning and verification; land is excluded and device/product eligibility is narrow.",
         "eligible": "Eligible Indian company/LLP/SPV or Government entity manufacturing a notified eligible product",
         "family": "Establishment and capital investment",
         "gov": "Central",
@@ -2029,7 +1846,6 @@
         "reach": 6,
         "src": "https://pharma-dept.gov.in/schemes/scheme-strengthening-medical-device-industry",
         "stage": "New",
-        "status": "Open now",
         "support": "Capital subsidy reimbursement"
       },
       "migrationSource": {
@@ -2053,13 +1869,10 @@
       "familyId": "FAMILY-QUALITY-TESTING-CERTIFICATION-IP-AND-COMPLIANCE",
       "id": "SCH-SMDI-MEDICAL-DEVICE-CLINICAL-STUDIES-SUPPO-E2A6A3",
       "issuerType": "central",
-      "legacy": {
-        "access": "Secure CDSCO/ethics and other required permissions, then apply through SMDI only during a live call.",
-        "agency": "Department of Pharmaceuticals / SMDI PMA / CDSCO",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Reimbursement of 25% of expenditure in every category, subject to: pre-clinical (animal) studies up to ₹2 crore; clinical investigation up to ₹5 crore; post-market clinical follow-up up to ₹1 crore; in-vitro diagnostic performance evaluation up to ₹1 crore.",
         "bestFor": "Indian pre-clinical study, clinical investigation, PMCF or new-IVD performance evaluation",
-        "caution": "The July 2026 call is closed. Funding does not replace regulatory approval and is reimbursed only for admissible Indian studies and verified milestones. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible medical-device manufacturer/developer meeting Indian regulatory and study conditions",
         "evidence": {
           "treatment": "indicative-only",
@@ -2076,7 +1889,6 @@
         "reach": 6,
         "src": "https://pharma-dept.gov.in/sites/default/files/Final%20guidelines%20for%20SMDI-8.11.2024.pdf",
         "stage": "New and existing",
-        "status": "Open now",
         "support": "Study-cost reimbursement"
       },
       "migrationSource": {
@@ -2100,13 +1912,10 @@
       "familyId": "FAMILY-QUALITY-TESTING-CERTIFICATION-IP-AND-COMPLIANCE",
       "id": "SCH-SMDI-COMMON-FACILITIES-FOR-MEDICAL-DEVICE--91ED11",
       "issuerType": "central",
-      "legacy": {
-        "access": "Prepare a cluster DPR and apply through SMDI only under a live call.",
-        "agency": "Department of Pharmaceuticals / SPV / State",
+      "legacyCore": {
         "bank": "Often",
         "benefit": "Common facility: 70% for Government-funded entity or 50% for private entity, up to ₹20 crore. Testing facility: 70% Government or 50% private, up to ₹5 crore.",
         "bestFor": "Shared production/testing/R&D/effluent/logistics facility or independent testing facility",
-        "caution": "The July 2026 proposal window has closed. It is not a grant to one factory and requires shared-access governance and sustainable operations. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "SPV with at least 5 medical-device units and at least 51% enterprise equity, State entity or eligible testing institution",
         "evidence": {
           "treatment": "indicative-only",
@@ -2123,7 +1932,6 @@
         "reach": 25,
         "src": "https://pharma-dept.gov.in/sites/default/files/Final%20guidelines%20for%20SMDI-8.11.2024.pdf",
         "stage": "New",
-        "status": "Open now",
         "support": "Cluster/testing-facility grant"
       },
       "migrationSource": {
@@ -2147,13 +1955,10 @@
       "familyId": "FAMILY-CENTRAL-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-PRADHAN-MANTRI-BHARTIYA-JANAUSHADHI-PARIYO-9AEA2A",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply on the official Jan Aushadhi portal; after initial approval obtain the drug licence, execute agreements and complete store-code requirements.",
-        "agency": "PMBI / Department of Pharmaceuticals",
+      "legacyCore": {
         "bank": "Sometimes",
         "benefit": "Normal incentive 20% of monthly purchases, capped at ₹20,000 a month and ₹5 lakh in total. A new Kendra opened by a woman, Divyangjan, SC or ST entrepreneur, or in an aspirational district, Himalayan state (Himachal Pradesh qualifies), island territory or the North East, additionally receives a one-time incentive of up to ₹2 lakh - ₹1.5 lakh for furniture and fixtures and ₹0.5 lakh for IT equipment - against original bills.",
         "bestFor": "Open and operate a compliant Jan Aushadhi Kendra",
-        "caution": "This is regulated medicine retail, not pharmaceutical manufacturing. Reimbursement is actual-cost based and operational incentives depend on purchase/stock compliance. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Individual, NGO, society, trust, firm, private company, PACS or other eligible entity meeting premises, drug-licence and pharmacist rules",
         "evidence": {
           "treatment": "indicative-only",
@@ -2170,7 +1975,6 @@
         "reach": 44,
         "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294917&lang=2&reg=48",
         "stage": "New",
-        "status": "Active - bank or continuous route",
         "support": "Performance incentive + one-time special grant"
       },
       "migrationSource": {
@@ -2194,13 +1998,10 @@
       "familyId": "FAMILY-HP-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-HIMACHAL-PRADESH-BULK-DRUG-PARK-HAROLI-UNA-12483C",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Use the HP Industries Single Window/park implementing agency for current plot allotment, utility tariff and project conditions.",
-        "agency": "HP Bulk Drug Park Infrastructure Ltd. / Industries Department",
+      "legacyCore": {
         "bank": "Usually",
         "benefit": "Government has sanctioned ₹1,000 crore for common infrastructure at the 1,405-acre Haroli park, including ZLD-CETP, solvent recovery, utilities, warehousing and testing. This lowers shared-infrastructure burden; it is not a ₹1,000 crore grant to an allottee.",
         "bestFor": "Locate an eligible bulk-drug/API unit inside the developing common-infrastructure park",
-        "caution": "Common facilities are still under development. Obtain the live allotment notice, utility schedule, environmental category and any State incentive order in writing. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Prospective park allottee/investor meeting the State implementing agency's product, environmental, land and investment conditions",
         "evidence": {
           "treatment": "indicative-only",
@@ -2217,7 +2018,6 @@
         "reach": 6,
         "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292339&lang=1&reg=48",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Common infrastructure / industrial ecosystem"
       },
       "migrationSource": {
@@ -2240,13 +2040,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-BIOTECHNOLOGY-IGNITION-GRANT-BIG-79D1D8",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through a BIG Partner during the call normally announced on 1 January and 1 July.",
-        "agency": "BIRAC / BIG Partner",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Up to ₹50 lakh for up to 18 months to establish proof of concept; milestone-based with mentoring through BIG Partners.",
         "bestFor": "Early proof-of-concept for biotech, drug, vaccine, diagnostics, device, industrial-biotech or agri-biotech innovation",
-        "caution": "Only innovative PoC work is supported; routine manufacturing, late-stage clinical validation and low-novelty projects are excluded. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible individual innovator/entrepreneur or qualifying startup routed through a BIG Partner under current guidelines",
         "evidence": {
           "treatment": "indicative-only",
@@ -2263,7 +2060,6 @@
         "reach": 43,
         "src": "https://birac.nic.in/big.php",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Grant-in-aid + incubation"
       },
       "migrationSource": {
@@ -2286,13 +2082,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-INNOVATIONS-FOR-DEFENCE-EXCELLENCE-IDEX-SP-4F5473",
       "issuerType": "central",
-      "legacy": {
-        "access": "Register on iDEX and apply to a live problem statement before its deadline.",
-        "agency": "Defence Innovation Organisation / iDEX",
+      "legacyCore": {
         "bank": "No",
         "benefit": "DISC/Open Challenge and SPARK support up to ₹1.5 crore per project; iDEX PRIME up to ₹10 crore; ADITI up to ₹25 crore, subject to the challenge and approved product-development budget. The iDEX scheme framework was sanctioned for 2021-22 to 2025-26 - confirm the current sanction before planning around it.",
         "bestFor": "Prototype or commercialise a solution to an iDEX/DISC/Open/PRIME/ADITI challenge",
-        "caution": "Competitive challenge funding, not a general defence-manufacturing subsidy; award, milestones, security/IP terms and procurement are separate decisions.",
         "eligible": "DPIIT startup, eligible Indian MSME/company or individual innovator under the specific challenge",
         "family": "Training incubation and entrepreneurship",
         "gov": "Central / Defence",
@@ -2304,7 +2097,6 @@
         "reach": 18,
         "src": "https://www.idex.gov.in/faq",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Milestone grant + incubation/testing access"
       },
       "migrationSource": {
@@ -2327,13 +2119,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-DRDO-TECHNOLOGY-DEVELOPMENT-FUND-TDF-F6BBFD",
       "issuerType": "central",
-      "legacy": {
-        "access": "Register on TDF portal and submit against an open project requirement with the prescribed PDD/DPR.",
-        "agency": "DRDO / Directorate of TDF",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Grant-in-aid of up to 90% of total project cost, with a maximum of ₹50 crore per project (raised from ₹10 crore). Funding is released against agreed milestones.",
         "bestFor": "Develop or upgrade a technology/prototype against a notified defence requirement",
-        "caution": "Funding is requirement- and milestone-driven; consortium, foreign holding, academia share, security and bank-guarantee rules apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Indian MSME/startup/eligible industry; MSME or Startup recognition is required for portal industry registration",
         "evidence": {
           "treatment": "indicative-only",
@@ -2350,7 +2139,6 @@
         "reach": 1,
         "src": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1832042",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Milestone grant-in-aid + technical support"
       },
       "migrationSource": {
@@ -2374,13 +2162,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-ELECTRONICS-COMPONENT-MANUFACTURING-SCHEME-E38CBD",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply on the ECMS portal with product classification, committed investment and financial-capability evidence.",
-        "agency": "MeitY / ECMS PMA",
+      "legacyCore": {
         "bank": "Usually",
         "benefit": "Segment D (supply-chain ecosystem and capital equipment) is eligible for turnover-linked, capex and hybrid incentives. The Segment D application window remains open to 30 April 2027; windows for Segments A, B, C and E closed on 30 September 2025. Turnover-linked incentive runs 6 years with a 1-year gestation; capex incentive runs 5 years.",
         "bestFor": "Electronics supply-chain inputs or capital goods used in electronics manufacturing",
-        "caution": "Segments A, B, C and E are closed. Segment D thresholds and product list are narrow; do not assume ordinary electronics assembly qualifies. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Applicant meeting the notified Segment D product, investment, net-worth and domestic-value-addition conditions",
         "evidence": {
           "treatment": "indicative-only",
@@ -2397,7 +2182,6 @@
         "reach": 1,
         "src": "https://ecms.meity.gov.in/",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Capex incentive"
       },
       "migrationSource": {
@@ -2421,13 +2205,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-ROSCTL-REBATE-OF-STATE-AND-CENTRAL-TAXES-A-CB6563",
       "issuerType": "central",
-      "legacy": {
-        "access": "Claim through the prescribed Customs shipping-bill/DGFT process for eligible exports.",
-        "agency": "Ministry of Textiles / Customs / DGFT",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Product/tariff-line rate as notified under RoSCTL. The scheme was extended up to 30 September 2026 or until approval of the scheme for the 16th Finance Commission cycle, whichever is earlier (notified 1 April 2026).",
         "bestFor": "Rebate embedded taxes/levies on eligible exported apparel and made-ups",
-        "caution": "Time-limited extension; rate, cap and eligibility depend on tariff line and shipment date. Recheck after 30 September 2026. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible exporter of notified tariff lines complying with Customs/DGFT procedure",
         "evidence": {
           "treatment": "indicative-only",
@@ -2444,7 +2225,6 @@
         "reach": 22,
         "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247851&lang=2&reg=48",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Export duty-credit rebate"
       },
       "migrationSource": {
@@ -2467,13 +2247,10 @@
       "familyId": "FAMILY-LAND-CLUSTER-AND-COMMON-INFRASTRUCTURE",
       "id": "SCH-AGRICULTURE-INFRASTRUCTURE-FUND-AIF-D26F78",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply on AIF portal and select participating lender.",
-        "agency": "Agriculture Ministry / lender",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "3% interest subvention on loan up to ₹2 crore for up to 7 years; credit-guarantee fee support up to ₹2 crore; moratorium up to 2 years subject to project.",
         "bestFor": "Post-harvest, community farming and eligible agri-infrastructure projects",
-        "caution": "Only eligible infrastructure; working capital alone is not covered. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Farmers, agri-entrepreneurs, startups, FPOs, PACS, SHGs, cooperatives and eligible agencies",
         "evidence": {
           "treatment": "indicative-only",
@@ -2490,7 +2267,6 @@
         "reach": 19,
         "src": "https://agriinfra.dac.gov.in/Content/DocAttachment/FINALSchemeGuidelinesAIF.pdf",
         "stage": "New and existing",
-        "status": "Active - bank or continuous route",
         "support": "Interest subvention + credit guarantee"
       },
       "migrationSource": {
@@ -2513,13 +2289,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-FORMATION-AND-PROMOTION-OF-10-000-FPOS-C527F0",
       "issuerType": "central",
-      "legacy": {
-        "access": "Engage with the assigned CBBO/SFAC/NABARD/NCDC implementing agency.",
-        "agency": "SFAC / NABARD / NCDC / CBBO",
+      "legacyCore": {
         "bank": "Often",
         "benefit": "Matching equity grant up to ₹15 lakh per FPO (₹2,000 per farmer member), management-cost support up to ₹18 lakh per FPO over 3 years, and a credit-guarantee facility of up to ₹2 crore per FPO project loan.",
         "bestFor": "Formation, handholding, equity strengthening and credit access",
-        "caution": "The programme's target of 10,000 FPOs was reported achieved in February 2025, so support is now weighted towards handholding existing FPOs. Confirm with the State implementing agency whether fresh FPO formation is still being sanctioned before building a plan around it. Equity grant is matched against member equity actually raised. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible Farmer Producer Organisation/Company under the programme",
         "evidence": {
           "treatment": "indicative-only",
@@ -2536,7 +2309,6 @@
         "reach": 1,
         "src": "https://sfacindia.com/FPO10kApplicationForm.aspx",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Handholding + equity grant + credit guarantee"
       },
       "migrationSource": {
@@ -2559,13 +2331,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-AGRI-CLINICS-AND-AGRI-BUSINESS-CENTRES-ACA-39EEDF",
       "issuerType": "central",
-      "legacy": {
-        "access": "Complete approved ACABC training, prepare DPR and obtain bank sanction.",
-        "agency": "MANAGE / NABARD / bank",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Composite subsidy of 36% of project cost for the general category and 44% for women, SC/ST, PwD and all candidates from NE and hill states - Himachal Pradesh applicants qualify for 44%. Project ceiling ₹20 lakh for an individual (₹25 lakh for an exceptionally successful venture) and ₹100 lakh for a group of at least 5 trained persons. Subsidy is credit-linked and requires the venture to deliver extension services.",
         "bestFor": "Agri advisory, input/service and agribusiness venture by trained graduate",
-        "caution": "Confirm current project-cost norm and training eligibility before relying on the ceiling. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible agriculture/allied graduate or specified diploma holder completing MANAGE training",
         "evidence": {
           "treatment": "indicative-only",
@@ -2582,7 +2351,6 @@
         "reach": 19,
         "src": "https://www.agriclinics.net/ACABCGuidelines.pdf",
         "stage": "New",
-        "status": "Active - bank or continuous route",
         "support": "Credit-linked back-ended subsidy"
       },
       "migrationSource": {
@@ -2605,13 +2373,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-KISAN-CREDIT-CARD-KCC-MODIFIED-INTEREST-SU-D5002C",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply to bank/RRB/cooperative bank; use JanSamarth where enabled.",
-        "agency": "Bank / Department of Financial Services",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "KCC limit under the Modified Interest Subvention Scheme enhanced from ₹3 lakh to ₹5 lakh with effect from FY2025-26. Eligible short-term loans carry 7% p.a.; a 3% prompt repayment incentive brings the effective rate to 4%. Government pays lending institutions 1.5% interest subvention. Collateral-free agricultural loan limit is ₹2 lakh per borrower, effective 1 January 2025.",
         "bestFor": "Short-term crop production and eligible animal husbandry/fisheries working capital",
-        "caution": "The ₹5 lakh KCC/MISS limit includes allied activities; interest benefit, drawing power and security still follow the current lender/RBI instructions. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible farmer/fisher/livestock owner under KCC norms",
         "evidence": {
           "treatment": "indicative-only",
@@ -2628,7 +2393,6 @@
         "reach": 94,
         "src": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157771&lang=1&reg=3",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Revolving credit + interest support"
       },
       "migrationSource": {
@@ -2651,13 +2415,10 @@
       "familyId": "FAMILY-INSURANCE-RISK-COMPENSATION-AND-INCOME-SUPPORT",
       "id": "SCH-PRADHAN-MANTRI-FASAL-BIMA-YOJANA-PMFBY-7C1EEB",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Enrol through notified insurer, bank or CSC before season cut-off.",
-        "agency": "Agriculture Department / insurer",
+      "legacyCore": {
         "bank": "Yes for loanee where applicable",
         "benefit": "Farmer premium capped at 2% Kharif, 1.5% Rabi and 5% annual commercial/horticultural crops; balance actuarial premium subsidised by Government.",
         "bestFor": "Notified food/oilseed/commercial crops against insured perils",
-        "caution": "Voluntary participation, but crop/area/date and claim process are season-specific.",
         "eligible": "Farmer growing notified crop in notified area",
         "family": "Insurance risk compensation and income support",
         "gov": "Central + Himachal Pradesh",
@@ -2669,7 +2430,6 @@
         "reach": 81,
         "src": "https://agriculture.hp.gov.in/en/our-scheme/pradhanmantri-fasal-bima-yojna-pmfby/",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Premium subsidy / insurance"
       },
       "migrationSource": {
@@ -2692,13 +2452,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-SUB-MISSION-ON-AGRICULTURAL-MECHANIZATION--F2E432",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Apply through HP Agriculture Department under current SMAM target.",
-        "agency": "Agriculture Department / SMAM",
+      "legacyCore": {
         "bank": "Often",
         "benefit": "Common machinery assistance is 40%–50% of benchmark cost; custom-hiring and special components have separate norms.",
         "bestFor": "Notified machinery, custom-hiring centres and mechanisation interventions",
-        "caution": "Separate this central component from HP's Rajya Krishi Yantrikaran Yojana.",
         "eligible": "Farmers/groups/FPOs/entrepreneurs; component-specific",
         "family": "Machinery technology energy and digitalisation",
         "gov": "Central + Himachal Pradesh",
@@ -2710,7 +2467,6 @@
         "reach": 1,
         "src": "https://agriculture.hp.gov.in/en/guidelines-english/",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Capital subsidy"
       },
       "migrationSource": {
@@ -2733,13 +2489,10 @@
       "familyId": "FAMILY-ESTABLISHMENT-AND-CAPITAL-INVESTMENT",
       "id": "SCH-NATIONAL-BAMBOO-MISSION-6A54FF",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Apply through HP Agriculture Department/nodal agency.",
-        "agency": "Agriculture Department / NBM",
+      "legacyCore": {
         "bank": "Sometimes",
         "benefit": "Component-wise assistance under current NBM cost norms; private and public support patterns differ.",
         "bestFor": "Plantation, nursery, treatment, processing and market infrastructure",
-        "caution": "Confirm that species, land type and component are eligible in HP's annual plan. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Farmers, FPOs, entrepreneurs and institutions by component",
         "evidence": {
           "treatment": "indicative-only",
@@ -2756,7 +2509,6 @@
         "reach": 19,
         "src": "https://nbm.nic.in/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Capital/input support"
       },
       "migrationSource": {
@@ -2779,13 +2531,10 @@
       "familyId": "FAMILY-HP-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-RASHTRIYA-KRISHI-VIKAS-YOJANA-PM-RKVY-157C16",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Track HP Agriculture notifications/approved project calls.",
-        "agency": "Agriculture Department / RKVY",
+      "legacyCore": {
         "bank": "Sometimes",
         "benefit": "No universal individual percentage; benefit follows an approved State DPR/component.",
         "bestFor": "State-approved innovation, infrastructure and value-chain projects",
-        "caution": "Enabling/project umbrella, not a flat farmer subsidy.",
         "eligible": "State agencies, institutions, groups and selected beneficiaries under approved project",
         "family": "HP sector or commodity support",
         "gov": "Central + Himachal Pradesh",
@@ -2797,7 +2546,6 @@
         "reach": 62,
         "src": "https://agriculture.hp.gov.in/en/guidelines-english/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Project support"
       },
       "migrationSource": {
@@ -2821,13 +2569,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-ATMA-SUPPORT-TO-STATE-EXTENSION-PROGRAMMES-6DDB45",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Contact district ATMA/Agriculture office for calendar and selection.",
-        "agency": "District ATMA / Agriculture Department",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Programme-funded extension activity; no standard capital-grant ceiling.",
         "bestFor": "Training, demonstrations, exposure and farmer-group capacity",
-        "caution": "Training/extension, not business finance.",
         "eligible": "Selected farmers/groups under district extension plan",
         "family": "Training incubation and entrepreneurship",
         "gov": "Central + Himachal Pradesh",
@@ -2839,7 +2584,6 @@
         "reach": 62,
         "src": "https://agriculture.hp.gov.in/en/scheme_category/center-en/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Training / extension support"
       },
       "migrationSource": {
@@ -2862,13 +2606,10 @@
       "familyId": "FAMILY-LAND-CLUSTER-AND-COMMON-INFRASTRUCTURE",
       "id": "SCH-PARAMPARAGAT-KRISHI-VIKAS-YOJANA-NATURAL-F-89AD68",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Join an approved cluster through Agriculture Department.",
-        "agency": "Agriculture Department",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Assistance follows current cluster guidelines and State action plan; no single standalone enterprise cap.",
         "bestFor": "Cluster conversion, inputs, certification/verification and marketing",
-        "caution": "Avoid double-claiming the same cost under State natural-farming support.",
         "eligible": "Farmers organised in approved clusters",
         "family": "Land cluster and common infrastructure",
         "gov": "Central + Himachal Pradesh",
@@ -2880,7 +2621,6 @@
         "reach": 62,
         "src": "https://agriculture.hp.gov.in/en/scheme_category/center-en/",
         "stage": "New and existing",
-        "status": "Active - cluster or project area",
         "support": "Input/cluster support"
       },
       "migrationSource": {
@@ -2903,13 +2643,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-NHB-COMMERCIAL-HORTICULTURE-DEVELOPMENT-39D056",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply online to NHB and obtain term-loan sanction before project execution as required.",
-        "agency": "NHB / bank",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "In HP/Himalayan area, subsidy commonly 50% of eligible project cost under current component norms; project ceiling and cost norm vary by crop/structure.",
         "bestFor": "Commercial production in open/protected conditions",
-        "caution": "Use the latest operational guideline and 2026 amendment; old generic ceilings in the CSV were not dependable. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible individual/entity for a bankable eligible project under current NHB/MIDH norms",
         "evidence": {
           "treatment": "indicative-only",
@@ -2926,7 +2663,6 @@
         "reach": 53,
         "src": "https://www.nhb.gov.in/",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Credit-linked back-ended subsidy"
       },
       "migrationSource": {
@@ -2949,13 +2685,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-NHB-INTEGRATED-POST-HARVEST-MANAGEMENT-82732D",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through NHB portal/bank under the relevant component.",
-        "agency": "NHB / bank",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Component-wise subsidy and cost ceiling under current MIDH/NHB norms; HP generally receives Himalayan-area rate.",
         "bestFor": "Packhouse, grading, ripening, primary processing and eligible logistics",
-        "caution": "A generic 'integrated packhouse' row should be treated as this component, not a separate HP scheme. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible individual/entity with bankable project",
         "evidence": {
           "treatment": "indicative-only",
@@ -2972,7 +2705,6 @@
         "reach": 91,
         "src": "https://www.nhb.gov.in/",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Credit-linked back-ended subsidy"
       },
       "migrationSource": {
@@ -2995,13 +2727,10 @@
       "familyId": "FAMILY-STORAGE-TRANSPORT-AND-SUPPLY-CHAIN",
       "id": "SCH-NHB-COLD-STORAGE-CONTROLLED-ATMOSPHERE-STO-82EB4C",
       "issuerType": "central",
-      "legacy": {
-        "access": "Seek technical appraisal, NHB application and bank sanction before construction.",
-        "agency": "NHB / bank",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Assistance follows capacity, technology and cost norms; Himalayan-area rates apply where specified in current guidelines.",
         "bestFor": "Eligible cold storage and CA infrastructure",
-        "caution": "Cold storage and CA storage are components, not two universal fixed-cap schemes. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible entrepreneur/entity with technical approvals and bankable project",
         "evidence": {
           "treatment": "indicative-only",
@@ -3018,7 +2747,6 @@
         "reach": 72,
         "src": "https://www.nhb.gov.in/",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Credit-linked back-ended subsidy"
       },
       "migrationSource": {
@@ -3041,13 +2769,10 @@
       "familyId": "FAMILY-ESTABLISHMENT-AND-CAPITAL-INVESTMENT",
       "id": "SCH-MIDH-MUSHROOM-PRODUCTION-SPAWN-COMPOST-UNI-04EE81",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Apply through Horticulture Department or NHB route specified for project size.",
-        "agency": "Horticulture Department / NHB",
+      "legacyCore": {
         "bank": "Often",
         "benefit": "2025 MIDH cost norms for Himalayan states provide 50% assistance on benchmark costs; commercial component cost norms include mushroom production ₹30 lakh, spawn ₹20 lakh and compost ₹30 lakh, subject to component limits.",
         "bestFor": "Commercial mushroom production, spawn or compost unit",
-        "caution": "The original HP mushroom rates were not adequately sourced; use the current component guideline. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible grower/entrepreneur under MIDH component and bank/department norms",
         "evidence": {
           "treatment": "indicative-only",
@@ -3064,7 +2789,6 @@
         "reach": 53,
         "src": "https://www.nhb.gov.in/writereaddata/085725055718MIDH%20Guidelines%20DO%20Letter%20%281%29.pdf",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Capital subsidy"
       },
       "migrationSource": {
@@ -3088,13 +2812,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-NATIONAL-LIVESTOCK-MISSION-ENTREPRENEURSHI-72C9C6",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply on NLM portal with bank sanction/DPR as prescribed.",
-        "agency": "DAHD / lender / State Animal Husbandry",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "50% capital subsidy on eligible project cost, with component ceilings: rural poultry (parent farm/hatchery) ₹25 lakh; sheep and goat breeding ₹50 lakh; piggery ₹30 lakh; feed and fodder entrepreneurship ₹50 lakh; fodder seed processing and grading ₹50 lakh. Balance is met through bank loan or self-finance; subsidy is released in two equal instalments through SIDBI.",
         "bestFor": "Poultry, sheep/goat, piggery and fodder entrepreneurship components",
-        "caution": "Use the January 2025 component guideline for the exact unit size and cap. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible individual, SHG, FPO, cooperative, Section 8 company or JLG by component",
         "evidence": {
           "treatment": "indicative-only",
@@ -3111,7 +2832,6 @@
         "reach": 23,
         "src": "https://dahd.gov.in/sites/default/files/2026-04/NLMGuidelinesJan2025.pdf",
         "stage": "New",
-        "status": "Active - bank or continuous route",
         "support": "Capital subsidy"
       },
       "migrationSource": {
@@ -3135,13 +2855,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-RASHTRIYA-GOKUL-MISSION-BREED-MULTIPLICATI-932D43",
       "issuerType": "central",
-      "legacy": {
-        "access": "Use DAHD/RGM portal and State Animal Husbandry channel for the relevant component.",
-        "agency": "DAHD / State Animal Husbandry",
+      "legacyCore": {
         "bank": "Often for farm",
         "benefit": "Under the revised mission (approved March 2025, outlay ₹3,400 crore up to FY2025-26): heifer rearing centres receive one-time assistance of 35% of capital cost; farmers receive up to 50% of the cost of sex-sorted semen; and 3% interest subvention is available on loans to induct high-genetic-merit IVF-born heifers. Most other components are 100% grant-in-aid. The earlier breed-multiplication-farm component offered 50% of project cost or ₹2 crore, whichever is lower, for a farm of at least 200 milch animals - confirm with DAHD whether that component is still open.",
         "bestFor": "Breed multiplication farm and advanced bovine breeding technologies",
-        "caution": "Component continuation/target must be confirmed after FY2025-26 allocation.",
         "eligible": "Entrepreneur/agency/farmer depending on component",
         "family": "Machinery technology energy and digitalisation",
         "gov": "Central",
@@ -3153,7 +2870,6 @@
         "reach": 23,
         "src": "https://monitor.dahd.gov.in/rashtriya-gokul-mission",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Capital/technology support"
       },
       "migrationSource": {
@@ -3176,13 +2892,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-ANIMAL-HUSBANDRY-INFRASTRUCTURE-DEVELOPMEN-E69156",
       "issuerType": "central",
-      "legacy": {
-        "access": "Check portal/DAHD notice and lender before preparing a fresh application.",
-        "agency": "DAHD / lender",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Loan up to 90% of project cost from scheduled banks and financial institutions; 3% interest subvention for 8 years including a 2-year moratorium; credit-guarantee cover of up to 25% of borrowed credit for eligible MSME and dairy-cooperative projects from a ₹750 crore guarantee fund.",
         "bestFor": "Processing, feed, breed/vaccine, waste-to-wealth and related infrastructure",
-        "caution": "Official approval was stated through 31 March 2026; as of verification, a fresh post-March-2026 sanction window was not confirmed. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible MSME, FPO, private company, Section 8 company and individual entrepreneur under guidelines",
         "evidence": {
           "treatment": "indicative-only",
@@ -3199,7 +2912,6 @@
         "reach": 42,
         "src": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2001054",
         "stage": "New",
-        "status": "Fresh window closed",
         "support": "Interest subvention + credit guarantee"
       },
       "migrationSource": {
@@ -3222,13 +2934,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-SUPPORTING-DAIRY-COOPERATIVES-AND-FARMER-P-705C4A",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through NDDB/NCDC route and participating lender as notified.",
-        "agency": "DAHD / NDDB / NCDC / lender",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Additional 2% interest subvention for prompt repayment under current administrative approval; credit amount is need/lender based.",
         "bestFor": "Working capital for dairy cooperatives/FPOs",
-        "caution": "Not an individual dairy-farmer capital subsidy.",
         "eligible": "Eligible dairy cooperative/FPO/producer-owned institution",
         "family": "Credit guarantee working capital and equity",
         "gov": "Central",
@@ -3240,7 +2949,6 @@
         "reach": 23,
         "src": "https://www.dahd.gov.in/schemes/programmes/sdcfpo",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Interest support"
       },
       "migrationSource": {
@@ -3264,13 +2972,10 @@
       "familyId": "FAMILY-ESTABLISHMENT-AND-CAPITAL-INVESTMENT",
       "id": "SCH-PRADHAN-MANTRI-MATSYA-SAMPADA-YOJANA-PMMSY-5A9DE6",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Apply through HP Fisheries Department during the annual activity window.",
-        "agency": "Department of Fisheries / PMMSY",
+      "legacyCore": {
         "bank": "Often",
         "benefit": "Government assistance generally 40% of eligible unit cost for general category and 60% for SC/ST/women, subject to activity cost norm and State target.",
         "bestFor": "Eligible aquaculture, hatchery, cold chain, transport and fisheries activities",
-        "caution": "A live State target/sanction is necessary; the national base guideline alone does not guarantee intake. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Fish farmer, entrepreneur, SHG/JLG, cooperative, SC/ST/women and other eligible categories by activity",
         "evidence": {
           "treatment": "indicative-only",
@@ -3287,7 +2992,6 @@
         "reach": 39,
         "src": "https://dof.gov.in/sites/default/files/2020-12/PMMSY-Guidelines24-June2020.pdf",
         "stage": "New",
-        "status": "Fresh window closed",
         "support": "Capital subsidy"
       },
       "migrationSource": {
@@ -3310,13 +3014,10 @@
       "familyId": "FAMILY-INSURANCE-RISK-COMPENSATION-AND-INCOME-SUPPORT",
       "id": "SCH-PRADHAN-MANTRI-MATSYA-KISAN-SAMRIDHI-SAH-Y-2153DA",
       "issuerType": "central",
-      "legacy": {
-        "access": "Register through Fisheries Department/National Fisheries Digital Platform and current component channel.",
-        "agency": "Department of Fisheries",
+      "legacyCore": {
         "bank": "Sometimes",
         "benefit": "Component-specific performance grants, insurance and digital/formalisation support; no single universal capital percentage.",
         "bestFor": "Registration, digital identity, insurance, value-chain performance and microenterprise formalisation",
-        "caution": "Use the specific subcomponent guideline.",
         "eligible": "Fishers, fisheries microenterprises and value-chain participants under component rules",
         "family": "Insurance risk compensation and income support",
         "gov": "Central",
@@ -3328,7 +3029,6 @@
         "reach": 20,
         "src": "https://www.dof.gov.in/offerings/schemes-and-services/details/pmmkssy-2-cTN5ETMtQWa",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Formalisation / incentive / insurance support"
       },
       "migrationSource": {
@@ -3351,13 +3051,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-FISHERIES-AND-AQUACULTURE-INFRASTRUCTURE-D-2E9384",
       "issuerType": "central",
-      "legacy": {
-        "access": "Check current FIDF portal/Department of Fisheries before a fresh proposal.",
-        "agency": "Department of Fisheries / NCDC/NABARD/lender",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Loan up to 80% of estimated/actual project cost with at least 20% beneficiary margin money (waived for State/UT projects); interest subvention up to 3% p.a.; nodal lending entities charge not lower than 5% p.a.; repayment up to 12 years including a 2-year moratorium.",
         "bestFor": "Large fisheries/harbour/hatchery/cold-chain infrastructure",
-        "caution": "Published extension ran through 31 March 2026; fresh proposal status after that date was not confirmed. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible State entity, cooperative, entrepreneur and other approved entity",
         "evidence": {
           "treatment": "indicative-only",
@@ -3374,7 +3071,6 @@
         "reach": 39,
         "src": "https://www.fidf.in/",
         "stage": "New",
-        "status": "Fresh window closed",
         "support": "Concessional loan / interest subvention"
       },
       "migrationSource": {
@@ -3398,13 +3094,10 @@
       "familyId": "FAMILY-ESTABLISHMENT-AND-CAPITAL-INVESTMENT",
       "id": "SCH-PM-KISAN-SAMPADA-YOJANA-CURRENT-COMPONENT--3045C9",
       "issuerType": "central",
-      "legacy": {
-        "access": "Respond only to a live MoFPI EOI on the official portal.",
-        "agency": "MoFPI",
+      "legacyCore": {
         "bank": "Usually",
         "benefit": "Grant rate and ceiling depend on the live component guideline/EOI; selected 2026 calls remain open/extended for specific infrastructure such as irradiation.",
         "bestFor": "Integrated cold chain, processing capacity, agro-cluster, food safety/R&D and Operation Greens components when notified",
-        "caution": "Mega Food Parks and backward/forward-linkage components are not open as generic new schemes; use live calls only. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible entity under the specific Expression of Interest",
         "evidence": {
           "treatment": "indicative-only",
@@ -3421,7 +3114,6 @@
         "reach": 1,
         "src": "https://mofpi.gov.in/",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Capital grant"
       },
       "migrationSource": {
@@ -3444,13 +3136,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-PM-FORMALISATION-OF-MICRO-FOOD-PROCESSING--8FBEBD",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Check HP PMFME/DIC and portal for a currently open intake.",
-        "agency": "MoFPI / State nodal agency / bank",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Individual unit: 35% credit-linked grant up to ₹10 lakh; SHG seed capital ₹40,000 per member; common infrastructure 35%; branding/marketing up to 50% subject to guidelines.",
         "bestFor": "Formalisation and upgradation of micro food-processing units",
-        "caution": "Extended only through September 2026 as of verification; a proposal to continue the scheme for five more years with revised norms (including a higher per-unit subsidy cap and priority for women and hilly-region entrepreneurs) was pending. Confirm a live State intake with the HP nodal agency/DIC before committing expenditure. The 35% grant is credit-linked - a sanctioned bank loan is a precondition. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Individual micro unit, SHG member, FPO/cooperative and common infrastructure entity by component",
         "evidence": {
           "treatment": "indicative-only",
@@ -3467,7 +3156,6 @@
         "reach": 1,
         "src": "https://pmfme.mofpi.gov.in/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Credit-linked grant / seed capital / branding"
       },
       "migrationSource": {
@@ -3490,13 +3178,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-NABARD-REFINANCE-SCHEME-FOR-AFFORDABLE-CRE-D867B5",
       "issuerType": "central",
-      "legacy": {
-        "access": "Ask the eligible financing bank to claim NABARD refinance; the unit does not receive refinance directly.",
-        "agency": "Eligible bank / NABARD",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "HP loans may be refinanced by NABARD up to 100%; end-borrower lending rate must not exceed 10% p.a.; eligible banking-system loan limit ₹100 crore per borrower; refinance tenor up to 7 years.",
         "bestFor": "Cheaper bank term credit for a unit already granted MoFPI assistance",
-        "caution": "Only units already provided a MoFPI grant qualify; benefit should be passed through by the bank. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Food-processing unit with MoFPI grant and standard eligible term loan through an eligible bank",
         "evidence": {
           "treatment": "indicative-only",
@@ -3513,7 +3198,6 @@
         "reach": 1,
         "src": "https://www.mofpi.gov.in/sites/default/files/guideline_english.pdf",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Concessional refinance to bank"
       },
       "migrationSource": {
@@ -3536,13 +3220,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-NCDC-ASSISTANCE-TO-COOPERATIVES-782FC9",
       "issuerType": "central",
-      "legacy": {
-        "access": "Prepare DPR and apply to NCDC through appropriate direct/State channel.",
-        "agency": "NCDC",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Need-based project finance; subsidy/grant, where available, is programme- and category-specific rather than universal.",
         "bestFor": "Processing, storage, marketing, dairy, poultry and other eligible cooperative projects",
-        "caution": "Treat NCDC as a financing institution/route, not a fixed-rate subsidy scheme. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible cooperative through direct or State route",
         "evidence": {
           "treatment": "indicative-only",
@@ -3559,7 +3240,6 @@
         "reach": 23,
         "src": "https://www.ncdc.in/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Loan + selective subsidy/grant by programme"
       },
       "migrationSource": {
@@ -3582,13 +3262,10 @@
       "familyId": "FAMILY-APPLICANT-CATEGORY-OVERLAYS",
       "id": "SCH-NSTFDC-TERM-LOAN-SCHEME-933EB9",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through HP SC/ST Development Corporation/participating bank as State channel.",
-        "agency": "NSTFDC / State Channelising Agency",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Unit cost up to ₹50 lakh; NSTFDC finance up to 90%. Beneficiary rate: 6% up to ₹5 lakh, 8% up to ₹10 lakh, 10% above ₹10 lakh; promoter contribution 0%–5% by project size.",
         "bestFor": "Viable industrial, agricultural or service venture",
-        "caution": "Channel availability and State allocation determine sanction.",
         "eligible": "Eligible Scheduled Tribe applicant; family-income ceiling and State-channel rules apply",
         "family": "Applicant category overlays",
         "gov": "Central via State channel",
@@ -3600,7 +3277,6 @@
         "reach": 1,
         "src": "https://nstfdc.tribal.gov.in/frm_term_loan.aspx",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Concessional term loan"
       },
       "migrationSource": {
@@ -3623,13 +3299,10 @@
       "familyId": "FAMILY-APPLICANT-CATEGORY-OVERLAYS",
       "id": "SCH-NBCFDC-GENERAL-LOAN-SCHEME-FE8D72",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through HP Backward Classes Finance & Development Corporation/authorised channel.",
-        "agency": "NBCFDC / State Channelising Agency",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Up to 85% of project cost, maximum ₹15 lakh; beneficiary interest 6% up to ₹5 lakh, 7% above ₹5–₹10 lakh, 8% above ₹10–₹15 lakh; repayment up to 8 years.",
         "bestFor": "Agriculture, artisan, small business, transport or service activity",
-        "caution": "State-channel intake and security conditions apply.",
         "eligible": "Member of a notified Backward Class with annual family income up to ₹3 lakh, through the State Channelising Agency",
         "family": "Applicant category overlays",
         "gov": "Central via State channel",
@@ -3641,7 +3314,6 @@
         "reach": 22,
         "src": "https://nbcfdc.gov.in/nbcfdc/web/node/65",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Concessional term loan"
       },
       "migrationSource": {
@@ -3664,13 +3336,10 @@
       "familyId": "FAMILY-APPLICANT-CATEGORY-OVERLAYS",
       "id": "SCH-NBCFDC-NEW-SWARNIMA-FOR-WOMEN-A6B4E6",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through HP Backward Classes Finance & Development Corporation/authorised channel.",
-        "agency": "NBCFDC / State Channelising Agency",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Maximum ₹2 lakh; NBCFDC finance 95%; beneficiary interest 5% p.a.; no own contribution required for projects up to ₹2 lakh under scheme structure.",
         "bestFor": "Small self-employment venture",
-        "caution": "Channel partner contributes 5%; sanction and local intake are not automatic.",
         "eligible": "Backward Class woman with annual family income up to ₹3 lakh, through the State Channelising Agency",
         "family": "Applicant category overlays",
         "gov": "Central via State channel",
@@ -3682,7 +3351,6 @@
         "reach": 1,
         "src": "https://nbcfdc.gov.in/nbcfdc/web/loan-scheme-description",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Concessional term loan"
       },
       "migrationSource": {
@@ -3705,13 +3373,10 @@
       "familyId": "FAMILY-APPLICANT-CATEGORY-OVERLAYS",
       "id": "SCH-NMDFC-TERM-LOAN-SCHEME-88BCA2",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through HP Minorities Finance & Development Corporation/State Channelising Agency.",
-        "agency": "NMDFC / State Channelising Agency",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Credit Line 1: loan up to ₹20 lakh at 6% p.a. for families with annual income up to ₹3 lakh. Credit Line 2: loan up to ₹30 lakh at 8% p.a. for men and 6% p.a. for women, for families with annual income up to ₹8 lakh. Repayment up to 5 years after a 6-month moratorium; typical finance pattern NMDFC:SCA:beneficiary 90:5:5.",
         "bestFor": "Viable agriculture, artisan, small business, technical trade or service venture",
-        "caution": "Income line and annual State allocation determine eligibility; verify current HP intake.",
         "eligible": "Eligible notified-minority applicant under Credit Line 1 or 2 income limit",
         "family": "Applicant category overlays",
         "gov": "Central via State channel",
@@ -3723,7 +3388,6 @@
         "reach": 22,
         "src": "https://www.nmdfc.org/faq",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Concessional term loan"
       },
       "migrationSource": {
@@ -3746,13 +3410,10 @@
       "familyId": "FAMILY-HP-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-SOIL-HEALTH-FERTILITY-SOIL-HEALTH-CARD-AA697B",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Contact the Agriculture Extension Officer or soil-testing laboratory for the district sampling schedule.",
-        "agency": "Department of Agriculture",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Government-funded soil testing and soil-health card/advisory; HP's FY2025-26 programme budget was ₹3.92 crore. There is no standard cash payment to the farmer.",
         "bestFor": "Soil testing, soil-health cards and balanced nutrient recommendations",
-        "caution": "Laboratory coverage and sample collection are programme based; the card is advisory, not a subsidy sanction.",
         "eligible": "Farmers whose samples are covered by the district programme",
         "family": "HP sector or commodity support",
         "gov": "Central + Himachal Pradesh",
@@ -3764,7 +3425,6 @@
         "reach": 81,
         "src": "https://agriculture.hp.gov.in/en/our-scheme/national-project-on-management-of-soil-health-and-fertility/",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Free diagnostic / advisory support"
       },
       "migrationSource": {
@@ -3787,13 +3447,10 @@
       "familyId": "FAMILY-HP-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-FOOD-NUTRITION-SECURITY-NATIONAL-FOOD-SECU-4CAA1E",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Apply through the Agriculture Extension Officer under the notified crop/component and seasonal target.",
-        "agency": "Department of Agriculture",
+      "legacyCore": {
         "bank": "Sometimes",
         "benefit": "Component-wise subsidised seed, demonstrations, plant protection, micronutrients and machinery under the approved action plan; HP reported a ₹9.65 crore FY2025-26 programme.",
         "bestFor": "Rice, wheat, pulses, maize and nutri-cereals: demonstrations, seed, micronutrients and notified machinery",
-        "caution": "No single percentage applies across all inputs; the district crop plan and cost norm control assistance.",
         "eligible": "Farmers, groups and institutions selected under district crop targets",
         "family": "HP sector or commodity support",
         "gov": "Central + Himachal Pradesh",
@@ -3805,7 +3462,6 @@
         "reach": 62,
         "src": "https://agriculture.hp.gov.in/en/our-scheme/national-food-security-mission-nfsm/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Input / demonstration support"
       },
       "migrationSource": {
@@ -3828,13 +3484,10 @@
       "familyId": "FAMILY-HP-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-SUB-MISSION-ON-SEEDS-AND-PLANTING-MATERIAL-4284C4",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Register with Agriculture Department/seed agency before sowing for an approved seed-production or distribution component.",
-        "agency": "Department of Agriculture",
+      "legacyCore": {
         "bank": "Sometimes",
         "benefit": "Assistance follows crop-wise seed cost norms, production targets and quality controls; MKSY separately provides 50% on notified cereal/pulse/oilseed/fodder seed and 25% on potato/ginger/turmeric seed.",
         "bestFor": "Certified seed distribution, seed production, seed villages and seed-chain strengthening",
-        "caution": "Seed replacement and seed-production incentives are different components; certification and procurement conditions may apply.",
         "eligible": "Farmers, seed growers, groups and approved seed institutions by component",
         "family": "HP sector or commodity support",
         "gov": "Central + Himachal Pradesh",
@@ -3846,7 +3499,6 @@
         "reach": 1,
         "src": "https://agriculture.hp.gov.in/en/our-scheme/krishonnati-yojana/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Seed input / programme support"
       },
       "migrationSource": {
@@ -3869,13 +3521,10 @@
       "familyId": "FAMILY-HP-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-SUB-MISSION-ON-AGROFORESTRY-29B841",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Apply through Agriculture Department after confirming species, land classification and district target.",
-        "agency": "Department of Agriculture",
+      "legacyCore": {
         "bank": "Sometimes",
         "benefit": "Component-wise support for quality planting material, plantations and demonstration/cluster activities; HP reported ₹1.55 crore for the programme. No universal individual cash ceiling.",
         "bestFor": "Trees on farms, nurseries, boundary/strip plantation and integrated tree-crop-livestock models",
-        "caution": "Tree-felling/transit rules and species suitability must be checked separately from subsidy eligibility.",
         "eligible": "Farmers, groups, FPOs, nurseries and implementing institutions under the approved plan",
         "family": "HP sector or commodity support",
         "gov": "Central + Himachal Pradesh",
@@ -3887,7 +3536,6 @@
         "reach": 23,
         "src": "https://agriculture.hp.gov.in/en/our-scheme/agroforestry/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Planting material / project support"
       },
       "migrationSource": {
@@ -3911,13 +3559,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-NATIONAL-MISSION-ON-NATURAL-FARMING-NMNF-F-47D94E",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Join an approved cluster through Agriculture Department/ATMA and complete the required training and verification.",
-        "agency": "Agriculture Department / NMNF",
+      "legacyCore": {
         "bank": "No",
         "benefit": "₹4,000 per acre per year for 2 years, limited to 1 acre per farmer, subject to verified adoption/output and cluster implementation.",
         "bestFor": "Adoption of natural-farming practices in an approved cluster",
-        "caution": "Not an advance input subsidy; payment depends on programme registration, verification and State rollout. Avoid double claim for the same item under HP natural-farming support. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Registered participating farmer in an approved NMNF cluster",
         "evidence": {
           "treatment": "indicative-only",
@@ -3934,7 +3579,6 @@
         "reach": 1,
         "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287252&lang=1&reg=48",
         "stage": "New and existing",
-        "status": "Active - cluster or project area",
         "support": "Output-based incentive + training"
       },
       "migrationSource": {
@@ -3958,13 +3602,10 @@
       "familyId": "FAMILY-ESTABLISHMENT-AND-CAPITAL-INVESTMENT",
       "id": "SCH-NATIONAL-MISSION-ON-NATURAL-FARMING-BIO-IN-895615",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Respond to the Agriculture Department's cluster/BRC selection and submit the required proposal/site details.",
-        "agency": "Agriculture Department / NMNF",
+      "legacyCore": {
         "bank": "May be",
         "benefit": "Assistance up to ₹1 lakh per approved Bio-input Resource Centre under NMNF norms.",
         "bestFor": "Local production and supply of natural-farming bio-inputs",
-        "caution": "Selection is linked to an approved cluster plan; it is not an always-open ₹1 lakh grant. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible SHG, FPO, cooperative, local entrepreneur or institution selected for a BRC",
         "evidence": {
           "treatment": "indicative-only",
@@ -3981,7 +3622,6 @@
         "reach": 1,
         "src": "https://www.manage.gov.in/nf/NMNF-Guidelines.pdf",
         "stage": "New and existing",
-        "status": "Active - cluster or project area",
         "support": "Establishment / operational support"
       },
       "migrationSource": {
@@ -4005,13 +3645,10 @@
       "familyId": "FAMILY-ESTABLISHMENT-AND-CAPITAL-INVESTMENT",
       "id": "SCH-NATIONAL-MISSION-ON-EDIBLE-OILS-OILSEEDS-N-C15D3A",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Use Agriculture Department cluster route; infrastructure proposals are normally organised through the eligible group/entity.",
-        "agency": "Department of Agriculture / NMEO",
+      "legacyCore": {
         "bank": "Sometimes",
         "benefit": "Free quality seed in approved clusters; eligible post-harvest units can receive 33% of project cost, capped at ₹9.90 lakh, under the specified component.",
         "bestFor": "Oilseed clusters, quality seed, demonstrations and small post-harvest units",
-        "caution": "The 33% ceiling is for eligible post-harvest components, not every oilseed activity. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Farmers in approved clusters; FPOs/cooperatives and eligible entities for infrastructure",
         "evidence": {
           "treatment": "indicative-only",
@@ -4028,7 +3665,6 @@
         "reach": 1,
         "src": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2110295&lang=2&reg=48",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Seed/input support + capital grant"
       },
       "migrationSource": {
@@ -4051,13 +3687,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-NATIONAL-MISSION-ON-PULSES-FA4C63",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Contact Agriculture Department for cluster/seed target; use the notified procurement or infrastructure proposal channel.",
-        "agency": "Department of Agriculture / Pulses Mission",
+      "legacyCore": {
         "bank": "Sometimes",
         "benefit": "Free seed kits under programme targets; eligible processing and packaging units can receive 33% of project cost up to ₹25 lakh. Tur, urad and masoor procurement support operates under notified conditions.",
         "bestFor": "Pulse seed kits, productivity clusters, assured procurement and small processing/packaging units",
-        "caution": "Procurement is conditional on registration, quality, season and notified agency; the processing grant needs project sanction. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Pulse growers in approved programme areas; FPOs/cooperatives/entrepreneurs for notified infrastructure",
         "evidence": {
           "treatment": "indicative-only",
@@ -4074,7 +3707,6 @@
         "reach": 1,
         "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2239790&lang=1&reg=3",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Seed/procurement support + capital grant"
       },
       "migrationSource": {
@@ -4098,13 +3730,10 @@
       "familyId": "FAMILY-HP-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-PM-DHAN-DHAANYA-KRISHI-YOJANA-BILASPUR-DIS-1EA8FC",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Contact Bilaspur district Agriculture office and ask which block/commodity interventions are in the approved action plan.",
-        "agency": "District administration / Agriculture Department",
+      "legacyCore": {
         "bank": "Varies",
         "benefit": "Bilaspur is the only selected Himachal Pradesh district. Benefits come through convergence of 36 existing schemes; there is no separate universal cash rate.",
         "bestFor": "Productivity, diversification, irrigation, storage, credit and allied activities in the selected district",
-        "caution": "Do not use this row as a standalone grant; eligibility and amount come from the underlying converged scheme. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Farmers, groups and institutions in Bilaspur covered by the approved district plan",
         "evidence": {
           "treatment": "indicative-only",
@@ -4121,7 +3750,6 @@
         "reach": 1,
         "src": "https://documents.doptcirculars.nic.in/D2/D02eod/OrCNOPMDDKzJu4c.pdf",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Converged scheme benefits / infrastructure"
       },
       "migrationSource": {
@@ -4144,13 +3772,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-RKVY-INNOVATION-AGRI-ENTREPRENEURSHIP-PROG-B73A0D",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply to a designated RKVY-RAFTAAR agribusiness incubator during its cohort call.",
-        "agency": "DA&FW / RKVY incubator",
+      "legacyCore": {
         "bank": "Not necessarily",
         "benefit": "Idea/pre-seed grant up to ₹5 lakh with 90:10 support pattern; seed-stage grant up to ₹25 lakh with 85:15 pattern; orientation stipend ₹10,000/month for 2 months under the programme architecture.",
         "bestFor": "Idea validation, pre-seed and seed-stage agritech/agri-allied startup development",
-        "caution": "Competitive cohort selection and milestone disbursement apply; published caps are not automatic startup entitlements. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Selected agripreneur/startup through a designated RKVY agribusiness incubator",
         "evidence": {
           "treatment": "indicative-only",
@@ -4167,7 +3792,6 @@
         "reach": 1,
         "src": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1643788&lang=2&reg=48",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Grant-in-aid + incubation"
       },
       "migrationSource": {
@@ -4191,13 +3815,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-AGRISURE-AGRI-FUND-FOR-STARTUPS-RURAL-ENTE-F45579",
       "issuerType": "central",
-      "legacy": {
-        "access": "Approach the AgriSURE investment manager/NABARD with pitch, DPIIT status, business plan and financial information.",
-        "agency": "NABARD / fund manager",
+      "legacyCore": {
         "bank": "No bank loan required",
         "benefit": "₹750 crore fund architecture; direct-investment scheme can invest up to ₹25 crore in a selected startup, subject to fund diligence and terms.",
         "bestFor": "Scalable early-stage agriculture and rural-enterprise startup",
-        "caution": "This is selective investment, not a subsidy or assured loan; ownership dilution/return terms may apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "DPIIT-recognised Indian startup meeting the fund's sector, stage and investment criteria",
         "evidence": {
           "treatment": "indicative-only",
@@ -4214,7 +3835,6 @@
         "reach": 1,
         "src": "https://www.nabard.org/pdf/agrisure-faq.pdf",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Equity / quasi-equity investment"
       },
       "migrationSource": {
@@ -4238,13 +3858,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-E-NAM-NATIONAL-AGRICULTURE-MARKET-760281",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Register on e-NAM and link with a participating mandi/FPO; complete KYC and commodity/lot requirements.",
-        "agency": "SFAC / State APMC / mandi",
+      "legacyCore": {
         "bank": "No",
         "benefit": "No capital grant; provides online bidding, assaying/market information and direct electronic settlement where the mandi service is enabled.",
         "bestFor": "Online sale through connected mandis, price discovery and electronic payment",
-        "caution": "Actual trading services vary by mandi; registration does not guarantee a buyer or minimum price.",
         "eligible": "Farmer/FPO/trader registered with an integrated e-NAM mandi under role-specific rules",
         "family": "Market procurement ecommerce and export",
         "gov": "Central + Himachal Pradesh",
@@ -4256,7 +3873,6 @@
         "reach": 1,
         "src": "https://enam.gov.in/web/Enam_ctrl/enam_registration",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Market-access platform"
       },
       "migrationSource": {
@@ -4279,13 +3895,10 @@
       "familyId": "FAMILY-STORAGE-TRANSPORT-AND-SUPPLY-CHAIN",
       "id": "SCH-CREDIT-GUARANTEE-SCHEME-FOR-E-NWR-BASED-PL-CE4A2E",
       "issuerType": "central",
-      "legacy": {
-        "access": "Store eligible produce in a WDRA warehouse, obtain e-NWR and apply to an onboarded bank for pledge finance.",
-        "agency": "Bank / WDRA / DFPD",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Backed by a ₹1,000 crore corpus. Eligible loan up to ₹75 lakh for agricultural purposes and up to ₹2 crore for MSMEs, traders, FPOs and farmer cooperatives. Guarantee cover for small and marginal farmers, women and SC/ST/PwD farmers is 85% for loans up to ₹3 lakh and 80% from ₹3 lakh to ₹75 lakh; all other borrowers get 75%.",
         "bestFor": "Short-term credit against produce stored in a WDRA-registered warehouse and represented by electronic negotiable warehouse receipt",
-        "caution": "Guarantee protects the lender, not the borrower from repayment; commodity, warehouse, margin and lender appraisal rules apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible farmer, FPO, cooperative, MSME or trader through an onboarded lender",
         "evidence": {
           "treatment": "indicative-only",
@@ -4302,7 +3915,6 @@
         "reach": 1,
         "src": "https://dfpd.gov.in/WriteReadData/NotificationUploadDocuments/8ff34f9f-de51-45ed-ab8e-a9d15ad774af_Gazette%20Notification%20dated%2012.02.2025%20regarding%20CGS%20NPF%20Scheme%20Operational%20Guidelines-11-19.pdf",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Credit guarantee to lender"
       },
       "migrationSource": {
@@ -4326,13 +3938,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-PM-AASHA-PRICE-SUPPORT-PRICE-DEFICIENCY-RO-1DA9FD",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Register with the notified procurement agency/portal during the crop-specific window.",
-        "agency": "DA&FW / NAFED / NCCF / State agency",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Price Support Scheme procurement is activated on State request when market prices fall below MSP; Price Deficiency Payment Scheme may be used for notified oilseeds. Amount depends on crop, quantity and live notification.",
         "bestFor": "Sale of notified pulses, oilseeds and copra when the approved support mechanism is activated",
-        "caution": "Not a permanent open procurement promise for every crop; quality, quantity, State proposal and dates control access. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Registered growers of notified crop meeting quality and procurement conditions",
         "evidence": {
           "treatment": "indicative-only",
@@ -4349,7 +3958,6 @@
         "reach": 1,
         "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246181&lang=1&reg=1",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Procurement / price support"
       },
       "migrationSource": {
@@ -4372,13 +3980,10 @@
       "familyId": "FAMILY-INSURANCE-RISK-COMPENSATION-AND-INCOME-SUPPORT",
       "id": "SCH-PM-KISAN-INCOME-SUPPORT-9949E7",
       "issuerType": "central",
-      "legacy": {
-        "access": "Complete registration/e-KYC and correction through the official PM-KISAN portal/CSC and State land-record verification.",
-        "agency": "DA&FW / State nodal department",
+      "legacyCore": {
         "bank": "No",
         "benefit": "₹6,000 per year in three ₹2,000 instalments after land, Aadhaar/e-KYC and bank validation.",
         "bestFor": "Income support to eligible landholding farmer families",
-        "caution": "It is household income support, not project finance; exclusions and land-record validation apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible cultivable-landholding farmer family, subject to institutional/high-income and other exclusion categories",
         "evidence": {
           "treatment": "indicative-only",
@@ -4395,7 +4000,6 @@
         "reach": 1,
         "src": "https://pmkisan.gov.in/",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Direct benefit transfer"
       },
       "migrationSource": {
@@ -4418,13 +4022,10 @@
       "familyId": "FAMILY-INSURANCE-RISK-COMPENSATION-AND-INCOME-SUPPORT",
       "id": "SCH-PRADHAN-MANTRI-KISAN-MAANDHAN-YOJANA-PM-KM-994C9E",
       "issuerType": "central",
-      "legacy": {
-        "access": "Enrol through CSC with Aadhaar, bank account and land/eligibility information.",
-        "agency": "LIC / CSC / DA&FW",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Beneficiary contributes about ₹55–₹200 per month depending on entry age and Government contributes an equal amount; assured pension ₹3,000/month after age 60.",
         "bestFor": "Contributory old-age pension for eligible small and marginal farmers",
-        "caution": "Voluntary pension, not a subsidy for farming activity; exit, spouse and default rules apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible small/marginal farmer aged 18–40, subject to scheme exclusions",
         "evidence": {
           "treatment": "indicative-only",
@@ -4441,7 +4042,6 @@
         "reach": 1,
         "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2152564&lang=2&reg=48",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Contributory pension"
       },
       "migrationSource": {
@@ -4464,13 +4064,10 @@
       "familyId": "FAMILY-CENTRAL-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-NATIONAL-BEEKEEPING-HONEY-MISSION-NBHM-C738A4",
       "issuerType": "central",
-      "legacy": {
-        "access": "Use National Bee Board/project call or State Horticulture channel for the relevant Mini Mission/component.",
-        "agency": "National Bee Board / DA&FW",
+      "legacyCore": {
         "bank": "Sometimes",
         "benefit": "Component-specific assistance through National Bee Board/approved project; no single universal individual percentage. Individual hive/colony norms under MIDH are separately listed.",
         "bestFor": "Scientific beekeeping, quality control, post-harvest, traceability and market/value-chain projects",
-        "caution": "Project approval and eligible component determine support; do not treat NBHM as an automatic per-hive payment. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Beekeeper group, FPO/cooperative, institution, entrepreneur or implementing agency under the relevant Mini Mission",
         "evidence": {
           "treatment": "indicative-only",
@@ -4487,7 +4084,6 @@
         "reach": 20,
         "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2296203&lang=1&reg=22",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Project grant / technical support"
       },
       "migrationSource": {
@@ -4510,13 +4106,10 @@
       "familyId": "FAMILY-HP-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-NATIONAL-AYUSH-MISSION-NMPB-MEDICINAL-PLAN-A41B7D",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Check the NMPB prioritised species list and apply through the State AYUSH/medicinal-plants nodal agency before cultivation.",
-        "agency": "State AYUSH Society / NMPB",
+      "legacyCore": {
         "bank": "Sometimes",
         "benefit": "Prioritised medicinal plants are grouped at 30%, 50% or 75% of cultivation cost norms under approved NAM plans; exact species, cluster, area and State target control the rate.",
         "bestFor": "Cultivation of prioritised medicinal plants, nurseries and approved post-harvest/value-chain components",
-        "caution": "Only listed species and approved clusters/components qualify; first secure buy-back/market feasibility because subsidy does not assure sale.",
         "eligible": "Farmers organised in approved clusters; growers/groups/agencies by component",
         "family": "HP sector or commodity support",
         "gov": "Central + Himachal Pradesh",
@@ -4528,7 +4121,6 @@
         "reach": 46,
         "src": "https://nmpb.nic.in/content/prioritised-list-medicinal-plants-cultivation",
         "stage": "New",
-        "status": "Active - cluster or project area",
         "support": "Cultivation / project subsidy"
       },
       "migrationSource": {
@@ -4552,13 +4144,10 @@
       "familyId": "FAMILY-INSURANCE-RISK-COMPENSATION-AND-INCOME-SUPPORT",
       "id": "SCH-LIVESTOCK-INSURANCE-PROGRAMME-HP-IMPLEMENT-688FF7",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Ask the local Veterinary Institution for the current insurer, premium share, valuation, tagging and enrolment window.",
-        "agency": "Department of Animal Husbandry / insurer",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Premium assistance and cover follow the current district tender/policy and animal-value norms; no single current statewide percentage was reliably published in the source reviewed.",
         "bestFor": "Insurance of eligible cattle/buffalo and other notified livestock",
-        "caution": "Cover starts only after valid enrolment/premium and identification; death intimation and post-mortem/claim timelines are strict. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible livestock owner with tagged/identified animal under the current enrolment target",
         "evidence": {
           "treatment": "indicative-only",
@@ -4575,7 +4164,6 @@
         "reach": 23,
         "src": "https://himachalservices.nic.in/economics/pdf/en-economic_survey_2025-26.pdf",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Premium subsidy / insurance"
       },
       "migrationSource": {
@@ -4598,13 +4186,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-FISHERIES-LIVELIHOOD-AND-NUTRITIONAL-SUPPO-8F5115",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Enrol through Fisheries Department/cooperative before the cut-off and maintain the required contribution schedule.",
-        "agency": "Department of Fisheries / PMMSY",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Beneficiary contribution is matched by Government and released during the notified lean period under PMMSY/State implementation; amount follows the current enrolment order. HP reported ₹1.63 crore to 3,616 fishers in FY2025-26.",
         "bestFor": "Saving-cum-relief support during notified lean/ban period",
-        "caution": "Not a capital grant; missed contribution or registration deadlines can make the fisher ineligible for that cycle. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Registered eligible fisher who contributes the prescribed savings and meets programme rules",
         "evidence": {
           "treatment": "indicative-only",
@@ -4621,7 +4206,6 @@
         "reach": 20,
         "src": "https://himachalservices.nic.in/economics/pdf/en-economic_survey_2025-26.pdf",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Matched saving / relief payment"
       },
       "migrationSource": {
@@ -4645,13 +4229,10 @@
       "familyId": "FAMILY-HP-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-NATIONAL-PROGRAMME-FOR-DAIRY-DEVELOPMENT-N-72791A",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Develop proposal through the dairy cooperative/Milkfed/State nodal agency under a live NPDD project.",
-        "agency": "DAHD / State dairy agency",
+      "legacyCore": {
         "bank": "Sometimes",
         "benefit": "Institutional project support under approved NPDD DPR; no direct fixed-rate grant to an individual dairy farmer.",
         "bestFor": "Milk testing, chilling, collection, quality and dairy cooperative/FPO strengthening",
-        "caution": "Institutional route only; farmers benefit through the supported collection/quality/value chain.",
         "eligible": "Eligible dairy cooperative, milk union, producer-owned institution or approved State implementing agency",
         "family": "HP sector or commodity support",
         "gov": "Central + Himachal Pradesh",
@@ -4663,7 +4244,6 @@
         "reach": 1,
         "src": "https://dahd.gov.in/schemes/programmes/npdd",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Project grant / infrastructure support"
       },
       "migrationSource": {
@@ -4687,13 +4267,10 @@
       "familyId": "FAMILY-APPLICANT-CATEGORY-OVERLAYS",
       "id": "SCH-DAY-NRLM-SHG-REVOLVING-FUND-COMMUNITY-INVE-656F2B",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Join/grade through the block NRLM mission and village/cluster federation before seeking RF/CIF or bank linkage.",
-        "agency": "HPSRLM / Rural Development Department",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Revolving Fund of ₹20,000-₹30,000 per eligible SHG; Community Investment Fund up to ₹2.5 lakh per SHG routed through the Cluster Level Federation; Vulnerability Reduction Fund of ₹1.5 lakh per Village Organisation; plus interest subvention (7% p.a. on SHG loans up to ₹3 lakh) and bank-credit support under current rules.",
         "bestFor": "SHG working capital, livelihood activity and community-managed finance",
-        "caution": "Funds are community/institution routed and usually revolving; individual members do not automatically receive the full SHG ceiling.",
         "eligible": "Eligible women SHG/federation member under DAY-NRLM protocols",
         "family": "Applicant category overlays",
         "gov": "Central + Himachal Pradesh",
@@ -4705,7 +4282,6 @@
         "reach": 1,
         "src": "https://lakhpatididi.gov.in/financial-assistance/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Capital support + interest subvention + bank linkage"
       },
       "migrationSource": {
@@ -4728,13 +4304,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-START-UP-VILLAGE-ENTREPRENEURSHIP-PROGRAMM-A73BF9",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Contact the Block Mission Management Unit/Community Resource Person – Enterprise Promotion in an approved SVEP block.",
-        "agency": "HPSRLM / DAY-NRLM",
+      "legacyCore": {
         "bank": "Often",
         "benefit": "Business planning, training, mentoring and access to community enterprise funds and bank credit through a Block Resource Centre. A budget of about ₹6.5 crore is earmarked per block; the loan/support amount for any one enterprise is block-plan specific.",
         "bestFor": "Small rural manufacturing, service and trading enterprise by SHG household",
-        "caution": "Available only in approved blocks and through NRLM institutions; it is not a universal startup grant.",
         "eligible": "SHG woman/member or family in an approved SVEP block, subject to enterprise appraisal",
         "family": "Training incubation and entrepreneurship",
         "gov": "Central + Himachal Pradesh",
@@ -4746,7 +4319,6 @@
         "reach": 1,
         "src": "https://lakhpatididi.gov.in/financial-assistance/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Training + mentoring + community enterprise finance"
       },
       "migrationSource": {
@@ -4770,13 +4342,10 @@
       "familyId": "FAMILY-ESTABLISHMENT-AND-CAPITAL-INVESTMENT",
       "id": "SCH-WATERSHED-DEVELOPMENT-COMPONENT-PMKSY-2-0-FF6948",
       "issuerType": "joint",
-      "legacy": {
-        "access": "Ask the Rural Development/Watershed office whether the village is inside an approved WDC-PMKSY 2.0 project.",
-        "agency": "Rural Development Department / Watershed cell",
+      "legacyCore": {
         "bank": "Sometimes",
         "benefit": "Support follows the sanctioned watershed DPR and community institutions; no single statewide individual percentage.",
         "bestFor": "Soil and water conservation, springshed, land development and livelihood activities in approved micro-watersheds",
-        "caution": "Not open statewide; asset ownership, maintenance and livelihood-fund rules depend on the local DPR. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Households, user groups, SHGs and common lands in selected project areas",
         "evidence": {
           "treatment": "indicative-only",
@@ -4793,7 +4362,6 @@
         "reach": 1,
         "src": "https://himachalservices.nic.in/economics/pdf/en-economic_survey_2025-26.pdf",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Project works + livelihood support"
       },
       "migrationSource": {
@@ -4816,13 +4384,10 @@
       "familyId": "FAMILY-CENTRAL-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-NATIONAL-HANDICRAFTS-DEVELOPMENT-PROGRAMME-6884FB",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through Development Commissioner (Handicrafts) calls / field office",
-        "agency": "Office of Development Commissioner (Handicrafts)",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Component-based assistance for artisan development, design/technology, marketing, research, welfare and infrastructure; funding follows current calls and component guidelines.",
         "bestFor": "Artisans, producer groups, clusters, design and marketing projects",
-        "caution": "Not an automatic individual cash grant; applicant type and live call determine access.",
         "eligible": "Eligible artisan, organisation, implementing agency or cluster",
         "family": "Central sector or commodity support",
         "gov": "Central",
@@ -4834,7 +4399,6 @@
         "reach": 41,
         "src": "https://handicrafts.nic.in/schemes.aspx",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Design, skilling, market and infrastructure support"
       },
       "migrationSource": {
@@ -4857,13 +4421,10 @@
       "familyId": "FAMILY-CENTRAL-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-NATIONAL-HANDLOOM-DEVELOPMENT-PROGRAMME-141210",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through current Handlooms Development Commissioner process / state handloom agency",
-        "agency": "Office of Development Commissioner (Handlooms)",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Component-based support under revised NHDP guidelines, including cluster development, marketing and technology routes.",
         "bestFor": "Weavers, handloom organisations, clusters and producer companies",
-        "caution": "Verify the current component, allocation and implementing agency; cluster support is not an open retail subsidy. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible weaver, SHG, cooperative, producer company or implementing agency",
         "evidence": {
           "treatment": "indicative-only",
@@ -4880,7 +4441,6 @@
         "reach": 23,
         "src": "https://handlooms.nic.in/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Cluster, loom, design, market and infrastructure support"
       },
       "migrationSource": {
@@ -4903,13 +4463,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-WEAVER-MUDRA-SCHEME-84F249",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through participating bank / handloom nodal agency",
-        "agency": "Office of Development Commissioner (Handlooms)",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Margin money assistance of 20% of the loan: up to ₹25,000 for an individual weaver, and up to ₹20 lakh for a handloom organisation or SHG (₹2 lakh for every 100 weavers/workers). Concessional interest of 6% for 3 years for handloom organisations, with Government interest subvention capped at 7 percentage points, and credit-guarantee fee borne by Government for 3 years. Loans up to ₹10 lakh are routed under MUDRA; above ₹10 lakh under Concessional Credit.",
         "bestFor": "Individual weavers and handloom organisations needing working capital or loom finance",
-        "caution": "Bank appraisal and current budget allocation apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible weaver, SHG, joint-liability group, cooperative or producer entity",
         "evidence": {
           "treatment": "indicative-only",
@@ -4926,7 +4483,6 @@
         "reach": 23,
         "src": "https://handlooms.nic.in/assets/img/Handloom%20Schemes/NHDP_English%20Compendium_2024.pdf",
         "stage": "New and existing",
-        "status": "Active - bank or continuous route",
         "support": "Concessional credit and margin money"
       },
       "migrationSource": {
@@ -4949,13 +4505,10 @@
       "familyId": "FAMILY-STORAGE-TRANSPORT-AND-SUPPLY-CHAIN",
       "id": "SCH-HANDLOOM-RAW-MATERIAL-SUPPLY-SCHEME-694299",
       "issuerType": "central",
-      "legacy": {
-        "access": "Use the state/authorised raw-material supply channel",
-        "agency": "Office of Development Commissioner (Handlooms)",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Supplies eligible yarn/raw material through nominated channels with applicable freight or price support under current guidelines.",
         "bestFor": "Weavers requiring yarn and eligible raw material",
-        "caution": "Material, count, quantity and beneficiary rules apply; confirm current state channel. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible handloom weaver or organisation",
         "evidence": {
           "treatment": "indicative-only",
@@ -4972,7 +4525,6 @@
         "reach": 23,
         "src": "https://handlooms.nic.in/",
         "stage": "Existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Raw-material supply and price/freight support"
       },
       "migrationSource": {
@@ -4996,13 +4548,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-GENESIS-GEN-NEXT-SUPPORT-FOR-INNOVATIVE-ST-079FC1",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through a live GENESIS implementing-agency call",
-        "agency": "Ministry of Electronics and Information Technology",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Support is delivered through selected implementing agencies and programme calls for technology startups and ecosystem development.",
         "bestFor": "Startups in tier-II/III ecosystems using selected incubators",
-        "caution": "No permanent direct founder window; verify live incubator call and geography. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible technology startup through an approved implementing agency",
         "evidence": {
           "treatment": "indicative-only",
@@ -5019,7 +4568,6 @@
         "reach": 68,
         "src": "https://www.meity.gov.in/offerings?page=3",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Incubation, grant and ecosystem support"
       },
       "migrationSource": {
@@ -5042,13 +4590,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-TIDE-2-0-87C408",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply to an approved TIDE 2.0 incubation centre",
-        "agency": "Ministry of Electronics and Information Technology",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Incubation, entrepreneurship and technology support through approved centres, with centre-specific challenge calls and assistance.",
         "bestFor": "Technology entrepreneurs at approved TIDE incubators",
-        "caution": "Access depends on an approved centre and live cohort, not merely MSME registration.",
         "eligible": "Innovator or startup accepted by a TIDE 2.0 centre",
         "family": "Training incubation and entrepreneurship",
         "gov": "Central",
@@ -5060,7 +4605,6 @@
         "reach": 68,
         "src": "https://www.meity.gov.in/offerings/schemes-and-services/details/technology-incubation-and-development-of-entrepreneurs-QMwEjNtQWa",
         "stage": "New and existing",
-        "status": "Active - cluster or project area",
         "support": "Incubation and prototype support"
       },
       "migrationSource": {
@@ -5083,13 +4627,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-STPI-NEXT-GENERATION-INCUBATION-SCHEME-5A4B29",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through the STPI startup portal against a cohort",
-        "agency": "Software Technology Parks of India",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Centre/cohort-based incubation, mentoring, investor access and programme support under NGIS.",
         "bestFor": "Tech startups willing to join an NGIS centre/cohort",
-        "caution": "No NGIS centre was identified in Himachal Pradesh; a startup may need to use a notified centre such as Mohali and satisfy cohort terms. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible startup selected by STPI",
         "evidence": {
           "treatment": "indicative-only",
@@ -5106,7 +4647,6 @@
         "reach": 68,
         "src": "https://stpi.in/en/schemes/ngis-scheme",
         "stage": "New and existing",
-        "status": "Active - cluster or project area",
         "support": "Incubation, mentoring and seed-support route"
       },
       "migrationSource": {
@@ -5130,13 +4670,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-DESIGN-LINKED-INCENTIVE-DESIGN-INFRASTRUCT-AF689A",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through the C-DAC DLI portal",
-        "agency": "Ministry of Electronics and Information Technology / C-DAC",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Access to approved electronic-design automation tools, IP cores, MPW/prototyping and related design infrastructure under the DLI framework.",
         "bestFor": "Domestic chip-design startups and MSMEs using approved design infrastructure",
-        "caution": "Fiscal-incentive intake may differ from design-infrastructure access; verify the portal status before committing expenditure.",
         "eligible": "Eligible domestic company, startup or MSME",
         "family": "Machinery technology energy and digitalisation",
         "gov": "Central",
@@ -5148,7 +4685,6 @@
         "reach": 68,
         "src": "https://chips-dli.gov.in/DLI/EDANew",
         "stage": "New and existing",
-        "status": "Active - cluster or project area",
         "support": "EDA tools, IP and prototyping infrastructure"
       },
       "migrationSource": {
@@ -5171,13 +4707,10 @@
       "familyId": "FAMILY-APPLICANT-CATEGORY-OVERLAYS",
       "id": "SCH-PRADHAN-MANTRI-VIKSIT-BHARAT-ROZGAR-YOJANA-9E6BCF",
       "issuerType": "central",
-      "legacy": {
-        "access": "Register and claim through the EPFO PM-VBRY portal",
-        "agency": "Ministry of Labour and Employment / EPFO",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Part A - first-time EPFO-enrolled employees receive one month's EPF wage up to ₹15,000 in two instalments (after 6 months of service, and after 12 months plus a financial-literacy programme). Part B - employers receive up to ₹3,000 per month per additional employee for 2 years, extended into years 3 and 4 for the manufacturing sector. Wage ceiling ₹1 lakh; additional employment must be sustained at least 6 months.",
         "bestFor": "Employers creating additional formal jobs and eligible first-time employees",
-        "caution": "Use the notified baseline, wage, employee and retention rules; it is not a capital subsidy. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible EPFO employer and employee; establishments registered during 1 Aug 2025–31 Jul 2027",
         "evidence": {
           "treatment": "indicative-only",
@@ -5194,7 +4727,6 @@
         "reach": 1,
         "src": "https://pmvbry.epfindia.gov.in",
         "stage": "New and existing",
-        "status": "Open now",
         "support": "Employer and employee incentive"
       },
       "migrationSource": {
@@ -5217,13 +4749,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-NATIONAL-APPRENTICESHIP-PROMOTION-SCHEME-2-1018D0",
       "issuerType": "central",
-      "legacy": {
-        "access": "Register contracts on Apprenticeship India",
-        "agency": "Ministry of Skill Development and Entrepreneurship",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Government pays 25% of prescribed stipend, capped at ₹1,500 per month per apprentice, by DBT to the apprentice.",
         "bestFor": "MSMEs and other employers hiring apprentices",
-        "caution": "Only valid apprenticeship contracts and notified trades/courses qualify; comply with Apprentices Act obligations. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible establishment and registered apprentice",
         "evidence": {
           "treatment": "indicative-only",
@@ -5240,7 +4769,6 @@
         "reach": 1,
         "src": "https://www.apprenticeshipindia.gov.in/",
         "stage": "New and existing",
-        "status": "Active - bank or continuous route",
         "support": "Stipend sharing"
       },
       "migrationSource": {
@@ -5264,13 +4792,10 @@
       "familyId": "FAMILY-TRAINING-INCUBATION-AND-ENTREPRENEURSHIP",
       "id": "SCH-PMKVY-4-0-TRAINING-PROVIDER-ROUTE-EE3509",
       "issuerType": "central",
-      "legacy": {
-        "access": "Participate through Skill India Digital / approved MSDE process",
-        "agency": "Ministry of Skill Development and Entrepreneurship",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Publicly funded short-term training, recognition of prior learning and special projects under approved targets and job roles.",
         "bestFor": "Eligible training providers and employers participating in approved job roles",
-        "caution": "This is not a general grant to open a coaching centre; accreditation, target allocation and outcomes control payments. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Approved training provider / special project partner",
         "evidence": {
           "treatment": "indicative-only",
@@ -5287,7 +4812,6 @@
         "reach": 19,
         "src": "https://www.msde.gov.in/static/uploads/2025/09/20d9aac4ce972a765e83f28682536ee0.pdf",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Outcome-linked training funding"
       },
       "migrationSource": {
@@ -5311,13 +4835,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-AYUSHMAN-BHARAT-PM-JAY-HOSPITAL-EMPANELMEN-61F264",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through the PM-JAY hospital empanelment portal",
-        "agency": "National Health Authority",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Empanelment enables authorised cashless treatment against notified packages and rates; no capital grant is implied.",
         "bestFor": "Eligible private hospitals seeking cashless package business",
-        "caution": "Clinical, infrastructure, specialty, quality, fraud-control and state-approval conditions apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Hospital meeting empanelment criteria",
         "evidence": {
           "treatment": "indicative-only",
@@ -5334,7 +4855,6 @@
         "reach": 46,
         "src": "https://hospitals.pmjay.gov.in",
         "stage": "Existing",
-        "status": "Active - bank or continuous route",
         "support": "Public-purchaser empanelment"
       },
       "migrationSource": {
@@ -5358,13 +4878,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-HIMCARE-HOSPITAL-EMPANELMENT-3491F7",
       "issuerType": "central",
-      "legacy": {
-        "access": "Use the HP Swasthya Bima Yojana Society registration portal",
-        "agency": "Himachal Pradesh Swasthya Bima Yojana Society",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Empanelment enables authorised treatment under state package and claim rules; it is a revenue-access route, not a capital subsidy.",
         "bestFor": "Eligible hospitals seeking HIMCARE beneficiaries",
-        "caution": "Approval, package rates, specialties and claim controls apply; portal status should be checked before investment. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Hospital meeting state empanelment criteria",
         "evidence": {
           "treatment": "indicative-only",
@@ -5381,7 +4898,6 @@
         "reach": 40,
         "src": "https://app.hpsbys.in/website/HOSPITALCODEregistration.aspx",
         "stage": "Existing",
-        "status": "Active - bank or continuous route",
         "support": "State health-purchaser empanelment"
       },
       "migrationSource": {
@@ -5404,13 +4920,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-AYUSH-INTERNATIONAL-COOPERATION-SCHEME-9EEF9D",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply through the AYUSH investment/scheme portal against current guidelines",
-        "agency": "Ministry of AYUSH",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Component-based support for international promotion, market development, regulatory/quality activities and cooperation, subject to current guidelines.",
         "bestFor": "AYUSH industry, institutions and organisations pursuing export/market development",
-        "caution": "Product licences, GMP, export-market registration and current component windows are decisive. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible AYUSH manufacturer, institution or organisation",
         "evidence": {
           "treatment": "indicative-only",
@@ -5427,7 +4940,6 @@
         "reach": 67,
         "src": "https://niveshsaarthi.ayush.gov.in/",
         "stage": "New and existing",
-        "status": "Active - annual target or departmental sanction",
         "support": "Market development, international cooperation and quality support"
       },
       "migrationSource": {
@@ -5450,13 +4962,10 @@
       "familyId": "FAMILY-CREDIT-GUARANTEE-WORKING-CAPITAL-AND-EQUITY",
       "id": "SCH-IREDA-RENEWABLE-ENERGY-FINANCING-7D1131",
       "issuerType": "central",
-      "legacy": {
-        "access": "Submit proposal to IREDA",
-        "agency": "Indian Renewable Energy Development Agency",
+      "legacyCore": {
         "bank": "Yes",
         "benefit": "Term loans under IREDA financing norms with project-type exposure limits, security, promoter contribution and interest determined by appraisal.",
         "bestFor": "Bankable solar, hydro, bioenergy, EV or energy-efficiency projects",
-        "caution": "This is debt, not a subsidy; minimum project size, credit rating, security and technical due diligence apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible project company or enterprise meeting IREDA norms",
         "evidence": {
           "treatment": "indicative-only",
@@ -5473,7 +4982,6 @@
         "reach": 1,
         "src": "https://www.ireda.in/images/HTMLfiles/Financing%20Norms_09_01_2026.pdf",
         "stage": "New and existing",
-        "status": "Active - bank or continuous route",
         "support": "Project debt"
       },
       "migrationSource": {
@@ -5496,13 +5004,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-PM-E-DRIVE-DEMAND-INCENTIVE-F46700",
       "issuerType": "central",
-      "legacy": {
-        "access": "Use an eligible vehicle/OEM and verify category on the PM E-DRIVE portal",
-        "agency": "Ministry of Heavy Industries",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Component-wise as of August 2026: the electric two-wheeler demand incentive (₹2,500/kWh, capped ₹5,000 per vehicle) ended on 31 July 2026. Electric three-wheelers continue at ₹2,500/kWh capped at ₹12,500 per vehicle to 31 March 2028. E-bus support (₹4,391 crore) and charging infrastructure (₹7,171 crore) also run to 31 March 2028. The L5 e-three-wheeler incentive closed in December 2025.",
         "bestFor": "Buyers and manufacturers of eligible electric vehicle categories and charging ecosystem",
-        "caution": "Some categories have separate caps or ended earlier; e-3W L5 demand incentive closed in December 2025. Do not assume every EV qualifies.",
         "eligible": "Eligible buyer/OEM/category under the portal",
         "family": "Machinery technology energy and digitalisation",
         "gov": "Central",
@@ -5514,7 +5019,6 @@
         "reach": 3,
         "src": "https://pmedrive.heavyindustries.gov.in/about-us",
         "stage": "New",
-        "status": "Active - annual target or departmental sanction",
         "support": "Demand incentive and ecosystem support"
       },
       "migrationSource": {
@@ -5538,13 +5042,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-RODTEP-REMISSION-OF-DUTIES-AND-TAXES-ON-EX-A6DAB4",
       "issuerType": "central",
-      "legacy": {
-        "access": "Declare RoDTEP claim in the shipping bill through Customs/ICEGATE",
-        "agency": "Directorate General of Foreign Trade / CBIC",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Electronic remission at notified product-specific rate and value cap; current schedule extended through 30 September 2026 for eligible exports.",
         "bestFor": "Exporters of notified products",
-        "caution": "Rates and exclusions are tariff-line specific; confirm treatment after 30-09-2026. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "IEC holder exporting eligible tariff lines",
         "evidence": {
           "treatment": "indicative-only",
@@ -5561,7 +5062,6 @@
         "reach": 9,
         "src": "https://content.dgft.gov.in/Website/dgftprod/1322d65e-dd25-46ec-a7e9-7b0a3f9765f2/RoDTEP%20Notification%20.pdf",
         "stage": "Existing",
-        "status": "Open now",
         "support": "Export duty/tax remission"
       },
       "migrationSource": {
@@ -5584,13 +5084,10 @@
       "familyId": "FAMILY-INSURANCE-RISK-COMPENSATION-AND-INCOME-SUPPORT",
       "id": "SCH-ECGC-SMALL-EXPORTERS-POLICY-B3B7E2",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply to ECGC branch / online channel",
-        "agency": "ECGC Limited",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Policy cover for eligible commercial and political risks, with maximum liability up to ₹2 crore under the Small Exporters Policy.",
         "bestFor": "Small exporters seeking buyer-default risk cover",
-        "caution": "Cover percentage, waiting period, buyer limits, declarations and exclusions apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Exporter with anticipated export turnover up to ₹5 crore",
         "evidence": {
           "treatment": "indicative-only",
@@ -5607,7 +5104,6 @@
         "reach": 9,
         "src": "https://main.ecgc.in/small-exporters-policy-sep/",
         "stage": "Existing",
-        "status": "Active - bank or continuous route",
         "support": "Export credit insurance"
       },
       "migrationSource": {
@@ -5630,13 +5126,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-ADVANCE-AUTHORISATION-8A928E",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply online through DGFT",
-        "agency": "Directorate General of Foreign Trade",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Duty-free import of inputs physically incorporated in export product, subject to standard input-output norms or approved norms and export obligation.",
         "bestFor": "Manufacturers importing inputs for export production",
-        "caution": "Authorisation, actual-user, input nexus and export-obligation rules are strict. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible manufacturer-exporter / merchant exporter tied to supporting manufacturer",
         "evidence": {
           "treatment": "indicative-only",
@@ -5653,7 +5146,6 @@
         "reach": 9,
         "src": "https://content.dgft.gov.in/Website/dgftprod/34f12103-6192-43a9-aeff-456f3666a8df/Presentation%20_FTP%202023%2031.03.2023%20Final.pdf",
         "stage": "New and existing",
-        "status": "Active - bank or continuous route",
         "support": "Duty-free import authorisation"
       },
       "migrationSource": {
@@ -5677,13 +5169,10 @@
       "familyId": "FAMILY-MACHINERY-TECHNOLOGY-ENERGY-AND-DIGITALISATION",
       "id": "SCH-EPCG-EXPORT-PROMOTION-CAPITAL-GOODS-104345",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply online through DGFT",
-        "agency": "Directorate General of Foreign Trade",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Import of eligible capital goods at concessional or zero customs duty against prescribed export obligation under FTP rules.",
         "bestFor": "Exporters importing capital goods",
-        "caution": "Failure to meet export obligation creates duty and interest liability; check restricted/excluded items. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible manufacturer or service provider with export obligation",
         "evidence": {
           "treatment": "indicative-only",
@@ -5700,7 +5189,6 @@
         "reach": 9,
         "src": "https://content.dgft.gov.in/Website/dgftprod/34f12103-6192-43a9-aeff-456f3666a8df/Presentation%20_FTP%202023%2031.03.2023%20Final.pdf",
         "stage": "New and existing",
-        "status": "Active - bank or continuous route",
         "support": "Concessional/duty-free capital-goods import"
       },
       "migrationSource": {
@@ -5724,13 +5212,10 @@
       "familyId": "FAMILY-CENTRAL-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-SPICED-SCHEME-SPICES-VALUE-CHAIN-AND-EXPOR-62F28E",
       "issuerType": "central",
-      "legacy": {
-        "access": "Apply to Spices Board under the live SPICED window",
-        "agency": "Spices Board India",
+      "legacyCore": {
         "bank": "No",
         "benefit": "Component-based assistance for post-harvest/value addition, quality improvement and export promotion. Current FY 2026-27 application window runs to 31 August 2026; Himalayan-state exporter assistance includes enhanced travel/fair support subject to guidelines.",
         "bestFor": "Spice growers, FPOs, processors and exporters",
-        "caution": "The current window is time-limited; commodity, registration, component cap and prior-approval conditions apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible grower group, FPO, processor or registered exporter",
         "evidence": {
           "treatment": "indicative-only",
@@ -5747,7 +5232,6 @@
         "reach": 21,
         "src": "https://www.indianspices.com/box5_programmes_schemes.html",
         "stage": "New and existing",
-        "status": "Open now",
         "support": "Post-harvest, quality and export promotion support"
       },
       "migrationSource": {
@@ -5770,13 +5254,10 @@
       "familyId": "FAMILY-CENTRAL-SECTOR-OR-COMMODITY-SUPPORT",
       "id": "SCH-TEA-DEVELOPMENT-AND-PROMOTION-SCHEME-2021--3677E0",
       "issuerType": "central",
-      "legacy": {
-        "access": "Check Tea Board for a successor before incurring expenditure",
-        "agency": "Tea Board India",
+      "legacyCore": {
         "bank": "No",
         "benefit": "The 2021-26 scheme covered plantation development, small-grower support, mechanisation, mini factories and factories, organic production, quality and promotion; the notified scheme period ended 31 March 2026. Tea Board continues to operate components (for example Chai Bondhu listings were still being published in August 2026) - check Tea Board notices for the successor scheme before assuming closure.",
         "bestFor": "Small tea growers, SHGs/FPOs, mini factories and tea manufacturers",
-        "caution": "No successor financial window was found as of 23-08-2026. Tea Board registration and regulatory services continue, but fresh subsidy should not be assumed. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
         "eligible": "Eligible Tea Board registered stakeholder",
         "evidence": {
           "treatment": "indicative-only",
@@ -5793,7 +5274,6 @@
         "reach": 6,
         "src": "https://teaboard.gov.in/pdf/TDPS_Press_Release_03_10_2024_pdf5010.pdf",
         "stage": "New and existing",
-        "status": "Fresh window closed",
         "support": "Plantation, mechanisation, factory, quality and market support"
       },
       "migrationSource": {
@@ -5816,13 +5296,10 @@
       "familyId": "FAMILY-MARKET-PROCUREMENT-ECOMMERCE-AND-EXPORT",
       "id": "SCH-APEDA-FINANCIAL-ASSISTANCE-SCHEME-2021-26-B04DC2",
       "issuerType": "central",
-      "legacy": {
-        "access": "Check APEDA for successor guidelines before expenditure",
-        "agency": "Agricultural and Processed Food Products Export Development Authority",
+      "legacyCore": {
         "bank": "No",
         "benefit": "The 2021–26 framework included market-development support; for certain fresh produce/flowers/eggs exporters, packaging assistance was 25% up to ₹5 lakh/year, subject to conditions.",
         "bestFor": "APEDA-registered exporters",
-        "caution": "Published FAS period ended 31-03-2026; no fresh successor window was verified at cutoff.",
         "eligible": "Eligible registered exporter under a component",
         "family": "Market procurement ecommerce and export",
         "gov": "Central",
@@ -5834,7 +5311,6 @@
         "reach": 9,
         "src": "https://apeda.gov.in/market-development",
         "stage": "Existing",
-        "status": "Fresh window closed",
         "support": "Export infrastructure, quality and market-development assistance"
       },
       "migrationSource": {

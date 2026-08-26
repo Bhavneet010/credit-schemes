@@ -1,9 +1,12 @@
-/* HP Scheme Finder — vanilla PWA. Data comes from data.json (built from the
-   verified workbook by tools/build_data.py). */
+/* Scheme Finder — vanilla multi-state PWA generated from canonical State Packs. */
 (function () {
   "use strict";
 
   var D = null;                 // dataset
+  var stateIndex = null;
+  var stateSlug = null;
+  var sectorById = new Map();
+  var schemeById = new Map();
   var idx = { sectors: [], schemes: [] };  // search haystacks
   var app = document.getElementById("app");
   var scrollMemory = {};
@@ -40,6 +43,18 @@
 
   function linksFor(si) {
     return D.links[String(si)] || [];
+  }
+
+  function stateHref(path) {
+    return "#/state/" + encodeURIComponent(stateSlug) + (path || "");
+  }
+
+  function sectorIndex(ref) {
+    return /^\d+$/.test(String(ref)) ? +ref : sectorById.get(decodeURIComponent(ref));
+  }
+
+  function schemeIndex(ref) {
+    return /^\d+$/.test(String(ref)) ? +ref : schemeById.get(decodeURIComponent(ref));
   }
 
   // Short, mobile-friendly status label + severity.
@@ -105,16 +120,32 @@
 
   // ------------------------------------------------------------ saved list
   function saved() {
-    try { return JSON.parse(localStorage.getItem("hpsf.saved") || "[]"); }
+    try { return JSON.parse(localStorage.getItem("scheme-finder-saved-v2") || "[]"); }
     catch (e) { return []; }
   }
 
-  function isSaved(key) { return saved().indexOf(key) >= 0; }
+  function migrateSaved() {
+    if (localStorage.getItem("scheme-finder-saved-v2") !== null) return;
+    var legacy;
+    try { legacy = JSON.parse(localStorage.getItem("hpsf.saved") || localStorage.getItem("saved") || "[]"); }
+    catch (e) { legacy = []; }
+    var migrated = legacy.map(function (key) {
+      var index = +String(key).slice(1);
+      var record = String(key)[0] === "s" ? D.sectors[index] : D.schemes[index];
+      return record ? { stateId: D.meta.stateId, type: String(key)[0] === "s" ? "sector" : "scheme", id: record.id } : null;
+    }).filter(Boolean);
+    localStorage.setItem("scheme-finder-saved-v2", JSON.stringify(migrated));
+  }
 
-  function toggleSaved(key) {
-    var list = saved(), i = list.indexOf(key);
-    if (i >= 0) list.splice(i, 1); else list.unshift(key);
-    localStorage.setItem("hpsf.saved", JSON.stringify(list));
+  function isSaved(type, id) {
+    return saved().some(function (item) { return item.stateId === D.meta.stateId && item.type === type && item.id === id; });
+  }
+
+  function toggleSaved(type, id) {
+    var list = saved();
+    var i = list.findIndex(function (item) { return item.stateId === D.meta.stateId && item.type === type && item.id === id; });
+    if (i >= 0) list.splice(i, 1); else list.unshift({ stateId: D.meta.stateId, type: type, id: id });
+    localStorage.setItem("scheme-finder-saved-v2", JSON.stringify(list));
     return i < 0;
   }
 
@@ -126,25 +157,33 @@
       '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/>' +
       '<path d="M19.4 15a1.8 1.8 0 0 0 .4 2l.1.1-2.8 2.8-.1-.1a1.8 1.8 0 0 0-2-.4 1.8 1.8 0 0 0-1.1 1.7v.2h-4v-.2A1.8 1.8 0 0 0 8.8 19a1.8 1.8 0 0 0-2 .4l-.1.1-2.8-2.8.1-.1a1.8 1.8 0 0 0 .4-2A1.8 1.8 0 0 0 2.7 13h-.2V9h.2a1.8 1.8 0 0 0 1.7-1.1 1.8 1.8 0 0 0-.4-2l-.1-.1L6.7 3l.1.1a1.8 1.8 0 0 0 2 .4 1.8 1.8 0 0 0 1.1-1.7v-.2h4v.2A1.8 1.8 0 0 0 15 3.5a1.8 1.8 0 0 0 2-.4l.1-.1 2.8 2.8-.1.1a1.8 1.8 0 0 0-.4 2A1.8 1.8 0 0 0 21.1 9h.2v4h-.2a1.8 1.8 0 0 0-1.7 2z"/></svg></button>' +
       '<div class="settings-menu" role="menu" aria-label="Settings" hidden>' +
-      '<a href="#/saved" role="menuitem"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11a1 1 0 0 1 1 1v16l-6.5-4-6.5 4v-16a1 1 0 0 1 1-1z"/></svg>Saved</a>' +
-      '<a href="#/more" role="menuitem"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg>More</a>' +
+      '<a href="' + stateHref("/saved") + '" role="menuitem"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11a1 1 0 0 1 1 1v16l-6.5-4-6.5 4v-16a1 1 0 0 1 1-1z"/></svg>Saved</a>' +
+      '<a href="' + stateHref("/more") + '" role="menuitem"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg>More</a>' +
       "</div></div>";
   }
 
+  function stateControl() {
+    if (!stateIndex) return "";
+    return '<label class="state-picker"><span>State</span><select aria-label="Select state" data-state-select>' +
+      stateIndex.states.map(function (state) {
+        return '<option value="' + esc(state.slug) + '"' + (state.slug === stateSlug ? " selected" : "") + '>' + esc(state.name) + "</option>";
+      }).join("") + "</select></label>";
+  }
+
   function brandMark() {
-    return '<a class="brand" href="#/" aria-label="HP Scheme Finder home">' +
+    return '<a class="brand" href="' + stateHref("") + '" aria-label="Scheme Finder home">' +
       '<svg class="brand-mark" viewBox="0 0 56 48" aria-hidden="true">' +
       '<circle class="sun" cx="28" cy="15" r="9"/><path class="ray" d="M28 1v5M12 7l4 4M44 7l-4 4M6 19h6M44 19h6"/>' +
       '<path class="hill hill-back" d="M3 36c9-10 17-13 25-6 8-7 16-4 25 6-17-4-33-4-50 0z"/>' +
       '<path class="hill hill-front" d="M3 40c10-7 20-8 28-3 7-4 14-3 22 3-17 5-33 5-50 0z"/></svg>' +
-      '<span>HP Scheme Finder</span></a>';
+      '<span>Scheme<br>Finder</span></a>';
   }
 
   function header(opts) {
     var back = opts.back
       ? '<button class="back" data-back><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>' + esc(opts.back) + "</button>"
       : "";
-    var actions = '<div class="head-actions">' + (opts.action || "") + settingsMenu() + "</div>";
+    var actions = '<div class="head-actions">' + stateControl() + (opts.action || "") + settingsMenu() + "</div>";
     if (opts.home) {
       return '<header class="head home-head"><div class="head-row">' + brandMark() + actions +
         '</div></header><section class="home-hero' + (opts.compact ? " compact" : "") + '">' +
@@ -159,9 +198,9 @@
       (opts.extra || "") + "</div>";
   }
 
-  function saveButton(key) {
-    var on = isSaved(key);
-    return '<button class="iconbtn' + (on ? " on" : "") + '" data-save="' + key + '" ' +
+  function saveButton(type, id) {
+    var on = isSaved(type, id);
+    return '<button class="iconbtn' + (on ? " on" : "") + '" data-save-type="' + type + '" data-save-id="' + esc(id) + '" ' +
       'aria-label="' + (on ? "Remove from saved" : "Save") + '">' +
       '<svg viewBox="0 0 24 24"><path d="M6.5 3.5h11a1 1 0 0 1 1 1v16l-6.5-4-6.5 4v-16a1 1 0 0 1 1-1z"/></svg></button>';
   }
@@ -170,7 +209,7 @@
     var s = D.sectors[si];
     var context = bare ? "" : "<small>" +
       highlight(s.sub + " · " + D.macros[s.m], toks || []) + "</small>";
-    return '<a class="row" href="#/s/' + si + '"><div class="t"><strong>' +
+    return '<a class="row" href="' + stateHref("/s/" + encodeURIComponent(s.id)) + '"><div class="t"><strong>' +
       highlight(s.a, toks || []) + "</strong>" + context +
       '</div><span class="n">' + s.n + '</span><i class="chev"></i></a>';
   }
@@ -178,7 +217,7 @@
   function schemeRow(ki, toks) {
     var k = D.schemes[ki];
     var st = STATUS[k.status] || [k.status, ""];
-    return '<a class="row" href="#/k/' + ki + '"><div class="t"><strong>' +
+    return '<a class="row" href="' + stateHref("/k/" + encodeURIComponent(k.id)) + '"><div class="t"><strong>' +
       highlight(k.name, toks || []) + "</strong><small>" +
       esc(k.gov) + " · " + esc(st[0]) + "</small></div><i class=\"chev\"></i></a>";
   }
@@ -232,12 +271,12 @@
       body = parts || emptyState("Nothing matched “" + query.trim() + "”. Try a simpler word such as apple, dairy, bakery or loan.");
     } else {
       body = '<section class="start-here"><h2>Start here</h2><div class="start-list">' +
-        '<a class="start-route route-schemes" href="#/schemes"><span class="route-icon">' +
+        '<a class="start-route route-schemes" href="' + stateHref("/schemes") + '"><span class="route-icon">' +
         '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18V8l5-3 6 3 5-3v10l-5 4-6-3-5 2zM9 5v11M15 8v11"/></svg></span>' +
         '<span class="route-copy"><strong>All schemes and routes</strong><small>' +
         D.meta.counts.schemes + ' central and state routes</small></span>' +
         '<svg class="route-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></a>' +
-        '<a class="start-route route-contacts" href="#/contacts"><span class="route-icon">' +
+        '<a class="start-route route-contacts" href="' + stateHref("/contacts") + '"><span class="route-icon">' +
         '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9h18M5 9v9M9 9v9M15 9v9M19 9v9M3 19h18M2 21h20M12 3l9 4H3l9-4z"/></svg></span>' +
         '<span class="route-copy"><strong>Departments and portals</strong><small>Where to apply and who to ask</small></span>' +
         '<svg class="route-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></a>' +
@@ -262,7 +301,7 @@
     return header({ title: "Sectors", sub: "Pick the group your work belongs to" }) +
       "<main><div class=\"list\">" + D.macros.map(function (m, i) {
         var n = D.sectors.filter(function (s) { return s.m === i; }).length;
-        return '<a class="row" href="#/m/' + i + '"><div class="t"><strong>' + esc(m) +
+        return '<a class="row" href="' + stateHref("/m/" + i) + '"><div class="t"><strong>' + esc(m) +
           '</strong></div><span class="n">' + n + '</span><i class="chev"></i></a>';
       }).join("") + "</div></main>";
   };
@@ -284,8 +323,8 @@
       "<main>" + body + "</main>";
   };
 
-  views.sector = function (si) {
-    si = +si;
+  views.sector = function (ref) {
+    var si = sectorIndex(ref);
     var s = D.sectors[si];
     if (!s) return views.notfound();
     var ls = linksFor(si);
@@ -319,13 +358,13 @@
     return header({
       back: "Back",
       title: s.a,
-      action: saveButton("s" + si),
+      action: saveButton("sector", s.id),
       sub: s.sub + " · " + D.macros[s.m] + " · " + ls.length + " schemes"
     }) + "<main>" + body + "</main>";
   };
 
-  views.scheme = function (ki) {
-    ki = +ki;
+  views.scheme = function (ref) {
+    var ki = schemeIndex(ref);
     var k = D.schemes[ki];
     if (!k) return views.notfound();
     var st = STATUS[k.status] || [k.status, ""];
@@ -353,6 +392,23 @@
       facts([["Route", k.access], ["Agency", k.agency], ["Official page", link(k.src), "html"]]) +
       "</div>";
 
+    if (k.statusDetail) {
+      body += '<div class="section evidence-panel"><h2>Scheme status</h2>' + facts([
+        ["Existence", k.statusDetail.existence],
+        ["Intake", k.statusDetail.intake],
+        ["Budget", k.statusDetail.budget],
+        ["Verified", k.statusDetail.verifiedAt],
+        ["Next check", k.statusDetail.nextCheckAt]
+      ]) + "</div>";
+    }
+
+    if (k.evidenceLinks && k.evidenceLinks.length) {
+      body += '<div class="section evidence-panel"><h2>Evidence</h2><div class="list">' + k.evidenceLinks.map(function (source) {
+        return '<a class="row" href="' + esc(source.url) + '" target="_blank" rel="noopener"><div class="t"><strong>' +
+          esc(source.title || "Official source") + '</strong><small>Checked ' + esc(source.retrievedAt || "") + '</small></div><i class="chev"></i></a>';
+      }).join("") + "</div></div>";
+    }
+
     if (k.caution) {
       body += '<div class="note"><strong>Before you spend money</strong>' + esc(k.caution) + "</div>";
     }
@@ -363,18 +419,18 @@
         "Open official page" +
         '<svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></a>';
     }
-    body += '<a class="btn ghost" href="#/k/' + ki + '/where">Where it applies · ' + k.reach + " activities</a>";
+    body += '<a class="btn ghost" href="' + stateHref("/k/" + encodeURIComponent(k.id) + "/where") + '">Where it applies · ' + k.reach + " activities</a>";
 
     return header({
       back: "Back",
       title: k.name,
-      action: saveButton("k" + ki),
+      action: saveButton("scheme", k.id),
       sub: k.family + (k.label ? " · " + k.label : "")
     }) + "<main>" + body + "</main>";
   };
 
-  views.schemeWhere = function (ki) {
-    ki = +ki;
+  views.schemeWhere = function (ref) {
+    var ki = schemeIndex(ref);
     var k = D.schemes[ki];
     if (!k) return views.notfound();
     var byMacro = {};
@@ -389,7 +445,7 @@
       return '<div class="section"><h2>' + esc(m) + " · " + byMacro[m].length + "</h2><div class=\"list\">" +
         byMacro[m].map(function (p) {
           var s = D.sectors[p[0]];
-          return '<a class="row" href="#/s/' + p[0] + '"><div class="t"><strong>' + esc(s.a) +
+          return '<a class="row" href="' + stateHref("/s/" + encodeURIComponent(s.id)) + '"><div class="t"><strong>' + esc(s.a) +
             "</strong><small>" + esc(p[1]) + " match · " + esc(s.sub) + "</small></div><i class=\"chev\"></i></a>";
         }).join("") + "</div></div>";
     }).join("") || emptyState("This scheme is not mapped to a catalogue activity.");
@@ -417,36 +473,41 @@
   };
 
   views.saved = function () {
-    var keys = saved();
-    if (!keys.length) {
+    var allSaved = saved();
+    var items = allSaved.filter(function (item) { return item.stateId === D.meta.stateId; });
+    if (!items.length) {
       return header({ title: "Saved" }) + "<main>" +
-        emptyState("Nothing saved yet. Tap the bookmark on any activity or scheme to keep it here for offline reference.") +
+        emptyState("Nothing saved for " + D.meta.stateName + ". Tap the bookmark on any activity or scheme to keep it here for offline reference.") +
         "</main>";
     }
-    var secs = keys.filter(function (k) { return k[0] === "s"; });
-    var schs = keys.filter(function (k) { return k[0] === "k"; });
+    var secs = items.filter(function (item) { return item.type === "sector" && sectorById.has(item.id); });
+    var schs = items.filter(function (item) { return item.type === "scheme" && schemeById.has(item.id); });
     var body = "";
     if (secs.length) {
       body += '<div class="section"><h2>Activities</h2><div class="list">' +
-        secs.map(function (k) { return sectorRow(+k.slice(1)); }).join("") + "</div></div>";
+        secs.map(function (item) { return sectorRow(sectorById.get(item.id)); }).join("") + "</div></div>";
     }
     if (schs.length) {
       body += '<div class="section"><h2>Schemes</h2><div class="list">' +
-        schs.map(function (k) { return schemeRow(+k.slice(1)); }).join("") + "</div></div>";
+        schs.map(function (item) { return schemeRow(schemeById.get(item.id)); }).join("") + "</div></div>";
     }
-    return header({ title: "Saved", sub: keys.length + (keys.length === 1 ? " item" : " items") }) +
+    var otherCount = allSaved.length - items.length;
+    if (otherCount) body += '<div class="note plain"><strong>Other states</strong>' + otherCount + " saved item" + (otherCount === 1 ? "" : "s") + " can be viewed by switching state.</div>";
+    return header({ title: "Saved", sub: items.length + (items.length === 1 ? " item" : " items") + " in " + D.meta.stateName }) +
       "<main>" + body + "</main>";
   };
 
   views.more = function () {
     return header({ title: "More" }) + "<main><div class=\"list\">" +
-      '<a class="row" href="#/contacts"><div class="t"><strong>Departments and portals</strong>' +
+      '<a class="row" href="' + stateHref("/contacts") + '"><div class="t"><strong>Departments and portals</strong>' +
       "<small>" + D.contacts.length + " official contacts</small></div><i class=\"chev\"></i></a>" +
-      '<a class="row" href="#/norms"><div class="t"><strong>Cost norms and caps</strong>' +
+      '<a class="row" href="' + stateHref("/norms") + '"><div class="t"><strong>Cost norms and caps</strong>' +
       "<small>" + D.norms.length + " horticulture and infrastructure benchmarks</small></div><i class=\"chev\"></i></a>" +
-      '<a class="row" href="#/legacy"><div class="t"><strong>Closed and legacy schemes</strong>' +
+      '<a class="row" href="' + stateHref("/legacy") + '"><div class="t"><strong>Closed and legacy schemes</strong>' +
       "<small>" + D.legacy.length + " routes to stop relying on</small></div><i class=\"chev\"></i></a>" +
-      '<a class="row" href="#/about"><div class="t"><strong>About and disclaimer</strong>' +
+      '<a class="row" href="' + stateHref("/research") + '"><div class="t"><strong>Research and coverage</strong>' +
+      "<small>Cutoff, evidence, candidates and limitations</small></div><i class=\"chev\"></i></a>" +
+      '<a class="row" href="' + stateHref("/about") + '"><div class="t"><strong>About and disclaimer</strong>' +
       "<small>Sources, verification date, limits</small></div><i class=\"chev\"></i></a>" +
       "</div></main>";
   };
@@ -493,7 +554,7 @@
 
   views.about = function () {
     var body = '<div class="note plain"><strong>What this is</strong>' +
-      "A searchable copy of a verified Himachal Pradesh MSME and agriculture scheme guide: " +
+      "A searchable copy of the verified " + esc(D.meta.stateName) + " State Pack: " +
       D.meta.counts.sectors + " business activities, " + D.meta.counts.schemes + " schemes and " +
       D.meta.counts.links + " activity-to-scheme matches. Official-source research cutoff " +
       esc(D.meta.verified) + ".</div>";
@@ -526,6 +587,23 @@
     return header({ back: "More", title: "About" }) + "<main>" + body + "</main>";
   };
 
+  views.research = function () {
+    var research = D.meta.research || {};
+    var disposition = Object.keys(research.candidateDispositions || {}).sort().map(function (key) {
+      return '<dl class="fact"><dt>' + esc(key) + '</dt><dd>' + esc(research.candidateDispositions[key]) + "</dd></dl>";
+    }).join("");
+    var coverage = Object.keys(research.coverageOutcomes || {}).sort().map(function (key) {
+      return '<dl class="fact"><dt>' + esc(key) + '</dt><dd>' + esc(research.coverageOutcomes[key]) + "</dd></dl>";
+    }).join("");
+    var limitations = (research.limitations || []).map(function (item) { return "<li>" + esc(item) + "</li>"; }).join("");
+    var body = facts([["State", D.meta.stateName], ["Research cutoff", research.cutoff || D.meta.verified]]) +
+      '<div class="section"><h2>Candidate disposition</h2><div class="facts">' + disposition + "</div></div>" +
+      '<div class="section"><h2>Coverage outcomes</h2><div class="facts">' + coverage + "</div></div>" +
+      (limitations ? '<div class="note"><strong>Material limitations</strong><ul>' + limitations + "</ul></div>" : "") +
+      '<div class="note plain"><strong>Independent reference</strong>This app is not a government approval or endorsement.</div>';
+    return header({ back: "More", title: "Research and coverage" }) + "<main>" + body + "</main>";
+  };
+
   views.notfound = function () {
     return header({ title: "Not found" }) + "<main>" + emptyState("That page does not exist.") + "</main>";
   };
@@ -535,8 +613,23 @@
     if (!D) return;
     var hash = location.hash.replace(/^#\/?/, "");
     var parts = hash.split("/").filter(function (p) { return p !== ""; });
+    if (parts[0] === "state") {
+      var requestedState = decodeURIComponent(parts[1] || "");
+      if (requestedState && requestedState !== stateSlug) {
+        loadState(requestedState).then(route).catch(showLoadError);
+        return;
+      }
+      parts = parts.slice(2);
+    }
     var head = parts[0] || "";
     var html;
+
+    if (head === "s" && /^\d+$/.test(parts[1] || "") && D.sectors[+parts[1]]) {
+      history.replaceState(null, "", stateHref("/s/" + encodeURIComponent(D.sectors[+parts[1]].id)));
+    }
+    if (head === "k" && /^\d+$/.test(parts[1] || "") && D.schemes[+parts[1]]) {
+      history.replaceState(null, "", stateHref("/k/" + encodeURIComponent(D.schemes[+parts[1]].id) + (parts[2] === "where" ? "/where" : "")));
+    }
 
     switch (head) {
       case "": html = views.home(); break;
@@ -550,6 +643,7 @@
       case "contacts": html = views.contacts(); break;
       case "norms": html = views.norms(); break;
       case "legacy": html = views.legacy(); break;
+      case "research": html = views.research(); break;
       case "about": html = views.about(); break;
       default: html = views.notfound();
     }
@@ -603,17 +697,24 @@
 
     var fam = e.target.closest("[data-fam]");
     if (fam) {
-      location.hash = fam.dataset.fam ? "#/schemes/" + fam.dataset.fam : "#/schemes";
+      location.hash = fam.dataset.fam ? stateHref("/schemes/" + fam.dataset.fam) : stateHref("/schemes");
       return;
     }
 
-    var save = e.target.closest("[data-save]");
+    var save = e.target.closest("[data-save-id]");
     if (save) {
-      var on = toggleSaved(save.dataset.save);
+      var on = toggleSaved(save.dataset.saveType, save.dataset.saveId);
       save.classList.toggle("on", on);
       save.setAttribute("aria-label", on ? "Remove from saved" : "Save");
       return;
     }
+  });
+
+  document.addEventListener("change", function (e) {
+    var selector = e.target.closest("[data-state-select]");
+    if (!selector || selector.value === stateSlug) return;
+    localStorage.setItem("scheme-finder-selected-state-v1", selector.value);
+    location.hash = "#/state/" + encodeURIComponent(selector.value);
   });
 
   document.addEventListener("keydown", function (e) {
@@ -637,17 +738,41 @@
   window.addEventListener("hashchange", route);
 
   // ------------------------------------------------------------------ boot
-  fetch("data.json")
-    .then(function (r) { return r.json(); })
-    .then(function (json) {
+  function showLoadError() {
+    app.innerHTML = '<div class="empty"><p>Could not load the scheme data. Check your connection and reload.</p></div>';
+  }
+
+  function loadState(slug) {
+    var state = stateIndex.states.find(function (item) { return item.slug === slug; });
+    if (!state) return Promise.reject(new Error("Unknown state: " + slug));
+    return fetch(state.data).then(function (response) {
+      if (!response.ok) throw new Error("Could not load " + state.name);
+      return response.json();
+    }).then(function (json) {
       D = json;
+      stateSlug = slug;
+      sectorById = new Map(D.sectors.map(function (record, index) { return [record.id, index]; }));
+      schemeById = new Map(D.schemes.map(function (record, index) { return [record.id, index]; }));
+      localStorage.setItem("scheme-finder-selected-state-v1", slug);
+      migrateSaved();
       buildIndex();
-      route();
-    })
-    .catch(function () {
-      app.innerHTML = '<div class="empty"><p>Could not load the scheme data. ' +
-        "Check your connection and reload.</p></div>";
+      return D;
     });
+  }
+
+  fetch("data/states.json")
+    .then(function (response) { if (!response.ok) throw new Error("State index unavailable"); return response.json(); })
+    .then(function (index) {
+      stateIndex = index;
+      var routeParts = location.hash.replace(/^#\/?/, "").split("/");
+      var requested = routeParts[0] === "state" ? decodeURIComponent(routeParts[1] || "") : "";
+      var savedState = localStorage.getItem("scheme-finder-selected-state-v1");
+      var selected = index.states.some(function (state) { return state.slug === requested; }) ? requested :
+        (index.states.some(function (state) { return state.slug === savedState; }) ? savedState : index.defaultState);
+      return loadState(selected);
+    })
+    .then(function () { route(); })
+    .catch(showLoadError);
 
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", function () {

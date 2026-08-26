@@ -6,7 +6,7 @@ import { importHpWorkbook } from "./lib/workbook.mjs";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 const result = await importHpWorkbook({
   workbookPath: path.join(root, "Himachal_Pradesh_MSME_Agri_Scheme_Guide_2026_verified.xlsx"),
-  appDataPath: path.join(root, "app", "data.json"),
+  appDataPath: path.join(root, "research", "hp-v2", "baseline-app-data.json"),
   outputPath: path.join(root, "research", "hp-v2", "baseline.json")
 });
 

@@ -37,6 +37,11 @@ function makeScheme(scheme, claims, index) {
   };
 }
 
+function centralCore(legacy) {
+  const { agency, access, status, caution, ...core } = legacy;
+  return core;
+}
+
 function reverseIndexes(app, implementations, reviews, claims, sources) {
   const result = {};
   const add = (key, value) => {
@@ -72,19 +77,23 @@ export async function convertHpV2({ workbenchRoot = "research/hp-v2" } = {}) {
   const claims = claimData.claims.map((item, index) => provenance(item, "claims.json", index, "Claim Evidence"));
   const statuses = claimData.statuses.map((item, index) => provenance(item, "claims.json", index, "Claim Evidence"));
   const allSchemes = app.schemes.map((item, index) => makeScheme(item, claims, index));
-  const commonSchemes = allSchemes.filter((item) => item.issuerType !== "state");
+  const commonSchemes = allSchemes.filter((item) => item.issuerType !== "state").map((item) => {
+    const { legacy, ...record } = item;
+    return { ...record, legacyCore: centralCore(legacy) };
+  });
   const stateSchemes = allSchemes.filter((item) => item.issuerType === "state");
   const implementations = commonSchemes.map((scheme, index) => ({
     id: `IMPLEMENTATION-HP-${scheme.id.replace(/^SCH-/, "")}`,
     schemeId: scheme.id,
     stateId: STATE,
     overrides: {
-      agency: scheme.legacy.agency,
-      access: scheme.legacy.access,
-      status: scheme.legacy.status,
-      stateCaution: scheme.legacy.caution
+      agency: app.schemes.find((item) => item.id === scheme.id).agency,
+      access: app.schemes.find((item) => item.id === scheme.id).access,
+      status: app.schemes.find((item) => item.id === scheme.id).status,
+      stateCaution: app.schemes.find((item) => item.id === scheme.id).caution
     },
     claimIds: scheme.claimIds,
+    legacyProjection: app.schemes.find((item) => item.id === scheme.id),
     migrationSource: { workbench: "app/data.json", sheet: "Scheme Master", row: app.schemes.findIndex((item) => item.id === scheme.id) + 2 }
   }));
   const sources = sourceData.sources.map((item, index) => provenance(item, "sources.json", index, "Source Register"));

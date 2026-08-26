@@ -54,7 +54,7 @@ export async function importHpWorkbook({ workbookPath, appDataPath, outputPath }
       sha256: hashes.workbook
     },
     appData: {
-      file: "app/data.json",
+      file: path.relative(path.dirname(path.dirname(outputPath)), appDataPath).replace(/\\/g, "/"),
       sha256: hashes.appData,
       counts: appCounts
     },
