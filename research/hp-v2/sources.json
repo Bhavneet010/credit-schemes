@@ -1,0 +1,4825 @@
+{
+  "schemaVersion": "hp-v2-sources-1",
+  "sources": [
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R2",
+      "sourceRegisterId": "SRC-F481E2FC",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 2
+      },
+      "title": "Mukhya Mantri Swavalamban Yojana (MMSY)",
+      "issuer": "Industries Department / DIC / bank",
+      "url": "https://himachalservices.nic.in/economics/pdf/en-economic_survey_2025-26.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R2-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R2-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R2-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R2-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R3-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R3-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R3-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R3-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R4-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R4-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R4-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R4-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R5-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R5-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R5-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R5-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R6-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R6-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R6-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R6-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R7-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R7-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R7-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R7-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R16-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R16-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R16-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R16-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R20-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R20-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R20-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R20-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R21-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R21-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R21-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R21-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R24-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R24-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R24-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R24-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R25-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R25-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R25-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R25-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R26-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R26-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R26-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R26-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R27-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R27-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R27-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R27-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R30-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R30-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R30-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R30-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R31-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R31-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R31-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R31-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R32-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R32-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R32-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R32-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R33-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R33-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R33-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R33-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R34-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R34-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R34-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R34-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R35-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R35-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R35-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R35-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R36-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R36-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R36-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R36-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R37-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R37-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R37-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R37-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R39-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R39-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R39-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R39-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R143-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R143-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R143-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R143-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R144-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R144-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R144-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R144-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R145-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R145-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R145-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R145-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R146-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R146-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R146-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R146-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R150-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R150-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R150-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R150-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R2",
+        "STATUS-SCHEME-MASTER-R3",
+        "STATUS-SCHEME-MASTER-R4",
+        "STATUS-SCHEME-MASTER-R5",
+        "STATUS-SCHEME-MASTER-R6",
+        "STATUS-SCHEME-MASTER-R7",
+        "STATUS-SCHEME-MASTER-R16",
+        "STATUS-SCHEME-MASTER-R20",
+        "STATUS-SCHEME-MASTER-R21",
+        "STATUS-SCHEME-MASTER-R24",
+        "STATUS-SCHEME-MASTER-R25",
+        "STATUS-SCHEME-MASTER-R26",
+        "STATUS-SCHEME-MASTER-R27",
+        "STATUS-SCHEME-MASTER-R30",
+        "STATUS-SCHEME-MASTER-R31",
+        "STATUS-SCHEME-MASTER-R32",
+        "STATUS-SCHEME-MASTER-R33",
+        "STATUS-SCHEME-MASTER-R34",
+        "STATUS-SCHEME-MASTER-R35",
+        "STATUS-SCHEME-MASTER-R36",
+        "STATUS-SCHEME-MASTER-R37",
+        "STATUS-SCHEME-MASTER-R39",
+        "STATUS-SCHEME-MASTER-R143",
+        "STATUS-SCHEME-MASTER-R144",
+        "STATUS-SCHEME-MASTER-R145",
+        "STATUS-SCHEME-MASTER-R146",
+        "STATUS-SCHEME-MASTER-R150"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R3",
+      "sourceRegisterId": "SRC-B46B7BBB",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 3
+      },
+      "title": "Startup Himachal – sustenance allowance",
+      "issuer": "Startup Himachal / incubator",
+      "url": "https://www.emerginghimachal.hp.gov.in/startup/about/incentive-procedure/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R8-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R8-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R8-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R8-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R9-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R9-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R9-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R9-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R10-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R10-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R10-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R10-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R11-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R11-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R11-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R11-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R12-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R12-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R12-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R12-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R8",
+        "STATUS-SCHEME-MASTER-R9",
+        "STATUS-SCHEME-MASTER-R10",
+        "STATUS-SCHEME-MASTER-R11",
+        "STATUS-SCHEME-MASTER-R12"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R4",
+      "sourceRegisterId": "SRC-230364BC",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 4
+      },
+      "title": "Mukhya Mantri Krishi Samvardhan Yojana (MKSY/MMKSY)",
+      "issuer": "Department of Agriculture",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/mukhya-mantri-krishi-samvardhan-yojna/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R13-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R13-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R13-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R13-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R13"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R5",
+      "sourceRegisterId": "SRC-5BE41AA7",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 5
+      },
+      "title": "Rajya Krishi Yantrikaran Yojana",
+      "issuer": "Department of Agriculture",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/state-agricultural-mechanisation/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R15-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R15-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R15-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R15-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R15"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R6",
+      "sourceRegisterId": "SRC-22F98C92",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 6
+      },
+      "title": "Flow Irrigation Scheme",
+      "issuer": "Department of Agriculture",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/flow-irrigation-scheme/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R17-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R17-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R17-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R17-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R17"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R7",
+      "sourceRegisterId": "SRC-2D92C6D9",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 7
+      },
+      "title": "Rajiv Gandhi Prakritik Kheti Khushhal Kisan Yojana",
+      "issuer": "Department of Agriculture",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/prakritik-kheti-khushhal-kisan-yojna/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R18-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R18-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R18-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R18-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R18"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R8",
+      "sourceRegisterId": "SRC-9DC62A94",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 8
+      },
+      "title": "Him Unnati / Him Krishi cluster programme",
+      "issuer": "Department of Agriculture",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/him-unnati-yojana/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - cluster or project area.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R19-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R19-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R19-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R19-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R19"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R9",
+      "sourceRegisterId": "SRC-EF14562A",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 9
+      },
+      "title": "Scheme to Support Technology Transfer",
+      "issuer": "Department of Agriculture",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/scheme-to-support-technology-transfer/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R22-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R22-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R22-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R22-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R22"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R10",
+      "sourceRegisterId": "SRC-23D709C5",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 10
+      },
+      "title": "PM-KUSUM / Saur Sinchai implementation in HP",
+      "issuer": "Department of Agriculture / nodal agency",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/pm-kusum/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R23-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R23-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R23-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R23-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R23"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R11",
+      "sourceRegisterId": "SRC-AEA038B5",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 11
+      },
+      "title": "MIDH implementation in Himachal Pradesh",
+      "issuer": "Department of Horticulture / MIDH",
+      "url": "https://www.nhb.gov.in/writereaddata/085725055718MIDH%20Guidelines%20DO%20Letter%20%281%29.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R28-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R28-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R28-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R28-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R102-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R102-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R102-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R102-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R28",
+        "STATUS-SCHEME-MASTER-R102"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R12",
+      "sourceRegisterId": "SRC-473950A9",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 12
+      },
+      "title": "PMKSY – Per Drop More Crop (micro-irrigation)",
+      "issuer": "Agriculture/Horticulture Department",
+      "url": "https://pmksy.gov.in/microirrigation/Archive/GuidelinesMIRevised250817.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R29-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R29-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R29-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R29-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R29"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R13",
+      "sourceRegisterId": "SRC-C3E3F579",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 13
+      },
+      "title": "Prime Minister's Employment Generation Programme (PMEGP)",
+      "issuer": "KVIC / KVIB / DIC / bank",
+      "url": "https://pmegp.msme.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R40-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R40-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R40-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R40-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R40"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R14",
+      "sourceRegisterId": "SRC-3656B4A4",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 14
+      },
+      "title": "PMEGP 2nd Loan for Upgradation",
+      "issuer": "KVIC / bank",
+      "url": "https://www.kviconline.gov.in/pmegpeportal/pmegphome/index.jsp",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R41-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R41-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R41-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R41-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R41"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R15",
+      "sourceRegisterId": "SRC-34F7CAF3",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 15
+      },
+      "title": "Pradhan Mantri MUDRA Yojana (PMMY)",
+      "issuer": "Participating lender / MUDRA",
+      "url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R42-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R42-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R42-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R42-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R42"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R16",
+      "sourceRegisterId": "SRC-4F281AA2",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 16
+      },
+      "title": "CGTMSE credit guarantee",
+      "issuer": "Member lending institution / CGTMSE",
+      "url": "https://www.cgtmse.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R43-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R43-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R43-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R43-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R43"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R17",
+      "sourceRegisterId": "SRC-306A9DD4",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 17
+      },
+      "title": "PM Vishwakarma",
+      "issuer": "MSME Ministry / CSC / bank",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2057040&lang=2&reg=48",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R44-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R44-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R44-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R44-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R44"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R18",
+      "sourceRegisterId": "SRC-23550F8D",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 18
+      },
+      "title": "PM SVANidhi (restructured)",
+      "issuer": "ULB / lender / MoHUA",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2267102&lang=2&reg=48",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R45-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R45-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R45-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R45-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R45"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R19",
+      "sourceRegisterId": "SRC-1CBAC523",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 19
+      },
+      "title": "Special Credit Linked Capital Subsidy Scheme (SCLCSS)",
+      "issuer": "Lender / NSSH / MSME Ministry",
+      "url": "https://sclcss.msme.gov.in/Common/Home.aspx",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R46-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R46-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R46-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R46-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R46"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R20",
+      "sourceRegisterId": "SRC-50DCC28B",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 20
+      },
+      "title": "Micro and Small Enterprises Cluster Development Programme (MSE-CDP)",
+      "issuer": "MSME Ministry / State / SPV",
+      "url": "https://cluster.dcmsme.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R21",
+      "sourceRegisterId": "SRC-04A317F0",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 21
+      },
+      "title": "SFURTI – Scheme of Fund for Regeneration of Traditional Industries",
+      "issuer": "MSME Ministry / nodal agency",
+      "url": "https://sfurti.msme.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - cluster or project area.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R48-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R48-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R48-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R48-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R48"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R22",
+      "sourceRegisterId": "SRC-DEBFD56F",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 22
+      },
+      "title": "MSME Sustainable (ZED) Certification",
+      "issuer": "MSME Ministry / QCI",
+      "url": "https://zed.msme.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R23",
+      "sourceRegisterId": "SRC-F3DCE7ED",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 23
+      },
+      "title": "MSME Competitive (LEAN)",
+      "issuer": "MSME Ministry / NPC/QCI ecosystem",
+      "url": "https://lean.msme.gov.in/Home/FinancialAssistance",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R50-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R50-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R50-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R50-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R50"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R24",
+      "sourceRegisterId": "SRC-B474C8CB",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 24
+      },
+      "title": "MSE GIFT – Green Investment and Financing for Transformation",
+      "issuer": "MSME Ministry / RAMP / lender",
+      "url": "https://ramp.msme.gov.in/ramp/index.php/RAMP-initiative/mse-gift/gift-interest-subvention",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R51-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R51-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R51-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R51-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R51"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R25",
+      "sourceRegisterId": "SRC-B2EE7DE8",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 25
+      },
+      "title": "MSE SPICE – circular economy investment",
+      "issuer": "MSME Ministry / RAMP",
+      "url": "https://ramp.msme.gov.in/ramp/RAMP-initiative/mse-spice/mse-spice",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R26",
+      "sourceRegisterId": "SRC-74158C92",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 26
+      },
+      "title": "MSME TEAM initiative – e-commerce/ONDC",
+      "issuer": "MSME Ministry / RAMP / ONDC",
+      "url": "https://ramp.msme.gov.in/ramp/RAMP-initiative/msme-team-initiative/msme-team-initiative",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R53-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R53-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R53-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R53-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R53"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R27",
+      "sourceRegisterId": "SRC-8CE9E9F6",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 27
+      },
+      "title": "ADEETIE – Assistance in Deploying Energy Efficient Technologies in Industries",
+      "issuer": "Bureau of Energy Efficiency / lender",
+      "url": "https://adeetie.beeindia.gov.in/adeetie-scheme",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R54-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R54-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R54-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R54-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R54"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R28",
+      "sourceRegisterId": "SRC-29B516A5",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 28
+      },
+      "title": "Raising and Accelerating MSME Performance (RAMP)",
+      "issuer": "MSME Ministry / State",
+      "url": "https://ramp.msme.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R55-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R55-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R55-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R55-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R55"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R29",
+      "sourceRegisterId": "SRC-B61C4531",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 29
+      },
+      "title": "Public Procurement Policy for MSEs",
+      "issuer": "Central procuring entity / GeM",
+      "url": "https://msme.gov.in/public-procurement-policy",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R56-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R56-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R56-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R56-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R56"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R30",
+      "sourceRegisterId": "SRC-B72A2E52",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 30
+      },
+      "title": "National SC-ST Hub (NSSH)",
+      "issuer": "NSIC / MSME Ministry",
+      "url": "https://scsthub.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R57-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R57-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R57-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R57-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R57"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R31",
+      "sourceRegisterId": "SRC-33885264",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 31
+      },
+      "title": "Procurement and Marketing Support (PMS)",
+      "issuer": "MSME Ministry / MSME-DFO",
+      "url": "https://www.msme.gov.in/offerings/schemes-and-services",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R58-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R58-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R58-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R58-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R58"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R32",
+      "sourceRegisterId": "SRC-6817E563",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 32
+      },
+      "title": "International Cooperation Scheme",
+      "issuer": "MSME Ministry",
+      "url": "https://www.msme.gov.in/offerings",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R59-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R59-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R59-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R59-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R60-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R60-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R60-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R60-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R59",
+        "STATUS-SCHEME-MASTER-R60"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R33",
+      "sourceRegisterId": "SRC-882DB7B6",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 33
+      },
+      "title": "ASPIRE – Livelihood Business Incubators / Fund of Funds",
+      "issuer": "MSME Ministry / SIDBI / incubator",
+      "url": "https://aspire.msme.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R61-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R61-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R61-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R61-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R61"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R34",
+      "sourceRegisterId": "SRC-97DBA895",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 34
+      },
+      "title": "Coir Vikas Yojana",
+      "issuer": "Coir Board",
+      "url": "https://coirboard.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R62-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R62-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R62-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R62-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R62"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R35",
+      "sourceRegisterId": "SRC-AC94FE7D",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 35
+      },
+      "title": "TReDS invoice discounting",
+      "issuer": "TReDS platform / financier",
+      "url": "https://www.sidbi.in/en/treds",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R63-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R63-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R63-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R63-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R63"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R36",
+      "sourceRegisterId": "SRC-365D204B",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 36
+      },
+      "title": "Mutual Credit Guarantee Scheme for MSMEs (MCGS-MSME)",
+      "issuer": "Member lender / NCGTC",
+      "url": "https://www.ncgtc.in/content/products/0/20260330/Operational_Guidelines_Mutual_Credit_Guarantee_Scheme_for_MSMEs_Modified_2402026_078178750f.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R64-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R64-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R64-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R64-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R64"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R37",
+      "sourceRegisterId": "SRC-73F45ADB",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 37
+      },
+      "title": "Credit Guarantee Scheme for Startups (CGSS)",
+      "issuer": "DPIIT / NCGTC / member institution",
+      "url": "https://www.startupindia.gov.in/content/sih/en/credit-guarantee-scheme-for-startups.html",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R38",
+      "sourceRegisterId": "SRC-CAE0A251",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 38
+      },
+      "title": "SIDBI SPEED (rationalised machinery/equipment finance)",
+      "issuer": "SIDBI",
+      "url": "https://www.sidbi.in/annualreport/AnnualReport202324/business-performance.php",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R66-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R66-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R66-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R66-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R66"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R39",
+      "sourceRegisterId": "SRC-C3BE7A42",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 39
+      },
+      "title": "SIDBI PRAYAAS",
+      "issuer": "SIDBI / partner institution",
+      "url": "https://www.sidbi.in/en/prayaas",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R67-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R67-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R67-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R67-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R67"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R40",
+      "sourceRegisterId": "SRC-5D320C5B",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 40
+      },
+      "title": "SIDBI digital business loan",
+      "issuer": "SIDBI",
+      "url": "https://www.sidbi.in/en/business-loan",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R68-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R68-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R68-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R68-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R68"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R41",
+      "sourceRegisterId": "SRC-229F56B3",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 41
+      },
+      "title": "Micro Credit Card Scheme for Micro Enterprises",
+      "issuer": "Participating lender / DFS / SIDBI ecosystem",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2265005&lang=1&reg=1",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R69-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R69-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R69-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R69-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R69"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R42",
+      "sourceRegisterId": "SRC-43A888DE",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 42
+      },
+      "title": "Self-Reliant India (SRI) Fund",
+      "issuer": "NSIC Venture Capital Fund / Daughter Fund",
+      "url": "https://dashboard.msme.gov.in/sri_fund.aspx",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R70-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R70-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R70-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R70-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R70"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R43",
+      "sourceRegisterId": "SRC-7901A4B5",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 43
+      },
+      "title": "MSME Innovative – Incubation, Design and IPR",
+      "issuer": "MSME Ministry / Host Institute / Implementing Agency",
+      "url": "https://innovative.msme.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R44",
+      "sourceRegisterId": "SRC-C36022CF",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 44
+      },
+      "title": "NSIC Raw Material Assistance against Bank Guarantee",
+      "issuer": "NSIC branch",
+      "url": "https://www.nsic.co.in/Schemes/RawMaterialAgainstBG",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R72-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R72-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R72-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R72-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R72"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R45",
+      "sourceRegisterId": "SRC-43B9F7D7",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 45
+      },
+      "title": "NSIC Single Point Registration Scheme (SPRS)",
+      "issuer": "NSIC",
+      "url": "https://www.nsic.co.in/Schemes/SinglePointRegistration",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R73-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R73-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R73-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R73-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R73"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R46",
+      "sourceRegisterId": "SRC-78AF1F24",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 46
+      },
+      "title": "MSE Online Dispute Resolution (ODR) for delayed payments",
+      "issuer": "MSME ODR / MSE Facilitation Council",
+      "url": "https://odr.msme.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R74-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R74-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R74-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R74-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R74"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R47",
+      "sourceRegisterId": "SRC-F009D7CB",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 47
+      },
+      "title": "Export Promotion Mission – Niryat Protsahan finance interventions",
+      "issuer": "Department of Commerce / lender / NCGTC",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210874&lang=1&reg=1",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R48",
+      "sourceRegisterId": "SRC-1727A0C3",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 48
+      },
+      "title": "Export Promotion Mission – TRACE and Niryat Disha market-readiness support",
+      "issuer": "Department of Commerce / EPC / implementing agency",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157540&id=157540&lang=1&reg=20",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R49",
+      "sourceRegisterId": "SRC-0C7AE7D6",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 49
+      },
+      "title": "Revamped Pharmaceutical Technology Upgradation Assistance Scheme (RPTUAS)",
+      "issuer": "Department of Pharmaceuticals / scheme PMA",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294204&lang=1&reg=48",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Status unconfirmed.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R77-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R77-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R77-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R77-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R77"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R50",
+      "sourceRegisterId": "SRC-1F7AD153",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 50
+      },
+      "title": "Assistance to Pharmaceutical Industry for Common Facilities (API-CF)",
+      "issuer": "Department of Pharmaceuticals / SPV / State",
+      "url": "https://www.pharma-dept.gov.in/schemes/scheme-strengthening-pharmaceuticals-industry-spi",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Status unconfirmed.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R78-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R78-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R78-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R78-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R78"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R51",
+      "sourceRegisterId": "SRC-DAFFA303",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 51
+      },
+      "title": "SMDI – Marginal Investment Scheme for Reducing Import Dependence (MIS-RID)",
+      "issuer": "Department of Pharmaceuticals / SMDI PMA",
+      "url": "https://pharma-dept.gov.in/schemes/scheme-strengthening-medical-device-industry",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R79-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R79-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R79-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R79-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R79"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R52",
+      "sourceRegisterId": "SRC-B760953D",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 52
+      },
+      "title": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana – Jan Aushadhi Kendra",
+      "issuer": "PMBI / Department of Pharmaceuticals",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294917&lang=2&reg=48",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R82-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R82-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R82-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R82-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R82"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R53",
+      "sourceRegisterId": "SRC-0BA24316",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 53
+      },
+      "title": "Himachal Pradesh Bulk Drug Park – Haroli, Una",
+      "issuer": "HP Bulk Drug Park Infrastructure Ltd. / Industries Department",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292339&lang=1&reg=48",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R83-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R83-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R83-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R83-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R83"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R54",
+      "sourceRegisterId": "SRC-E42AABDC",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 54
+      },
+      "title": "Biotechnology Ignition Grant (BIG)",
+      "issuer": "BIRAC / BIG Partner",
+      "url": "https://birac.nic.in/big.php",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R84-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R84-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R84-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R84-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R84"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R55",
+      "sourceRegisterId": "SRC-EF6AF440",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 55
+      },
+      "title": "Innovations for Defence Excellence (iDEX / SPARK)",
+      "issuer": "Defence Innovation Organisation / iDEX",
+      "url": "https://www.idex.gov.in/faq",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R85-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R85-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R85-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R85-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R85"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R56",
+      "sourceRegisterId": "SRC-D75A9106",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 56
+      },
+      "title": "DRDO Technology Development Fund (TDF)",
+      "issuer": "DRDO / Directorate of TDF",
+      "url": "https://tdf.drdo.gov.in/site/pdfs/summary.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R57",
+      "sourceRegisterId": "SRC-C3C9B47C",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 57
+      },
+      "title": "Electronics Component Manufacturing Scheme (ECMS) – Target Segment D",
+      "issuer": "MeitY / ECMS PMA",
+      "url": "https://ecms.meity.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R87-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R87-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R87-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R87-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R87"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R58",
+      "sourceRegisterId": "SRC-42F41ADB",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 58
+      },
+      "title": "RoSCTL – Rebate of State and Central Taxes and Levies",
+      "issuer": "Ministry of Textiles / Customs / DGFT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247851&lang=2&reg=48",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R88-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R88-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R88-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R88-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R88"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R59",
+      "sourceRegisterId": "SRC-5584D02A",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 59
+      },
+      "title": "Agriculture Infrastructure Fund (AIF)",
+      "issuer": "Agriculture Ministry / lender",
+      "url": "https://agriinfra.dac.gov.in/Content/DocAttachment/FINALSchemeGuidelinesAIF.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R89-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R89-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R89-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R89-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R89"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R60",
+      "sourceRegisterId": "SRC-0A1F453D",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 60
+      },
+      "title": "Formation and Promotion of 10,000 FPOs",
+      "issuer": "SFAC / NABARD / NCDC / CBBO",
+      "url": "https://sfacindia.com/FPO10kApplicationForm.aspx",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R90-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R90-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R90-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R90-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R90"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R61",
+      "sourceRegisterId": "SRC-6CFED96A",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 61
+      },
+      "title": "Agri-Clinics and Agri-Business Centres (ACABC)",
+      "issuer": "MANAGE / NABARD / bank",
+      "url": "https://www.agriclinics.net/OCGOI.aspx",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R62",
+      "sourceRegisterId": "SRC-16770A67",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 62
+      },
+      "title": "Kisan Credit Card (KCC) / Modified Interest Subvention Scheme",
+      "issuer": "Bank / Department of Financial Services",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157771&lang=1&reg=3",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R92-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R92-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R92-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R92-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R92"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R63",
+      "sourceRegisterId": "SRC-DFEF78A1",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 63
+      },
+      "title": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+      "issuer": "Agriculture Department / insurer",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/pradhanmantri-fasal-bima-yojna-pmfby/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R93-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R93-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R93-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R93-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R93"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R64",
+      "sourceRegisterId": "SRC-9B203C1E",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 64
+      },
+      "title": "Sub-Mission on Agricultural Mechanization (SMAM)",
+      "issuer": "Agriculture Department / SMAM",
+      "url": "https://agriculture.hp.gov.in/en/guidelines-english/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R94-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R94-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R94-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R94-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R96-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R96-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R96-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R96-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R94",
+        "STATUS-SCHEME-MASTER-R96"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R65",
+      "sourceRegisterId": "SRC-184A8001",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 65
+      },
+      "title": "National Bamboo Mission",
+      "issuer": "Agriculture Department / NBM",
+      "url": "https://nbm.nic.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R95-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R95-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R95-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R95-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R95"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R66",
+      "sourceRegisterId": "SRC-A3B3B6E2",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 66
+      },
+      "title": "ATMA – Support to State Extension Programmes",
+      "issuer": "District ATMA / Agriculture Department",
+      "url": "https://agriculture.hp.gov.in/en/scheme_category/center-en/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R97-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R97-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R97-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R97-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R98-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R98-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R98-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R98-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R97",
+        "STATUS-SCHEME-MASTER-R98"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R67",
+      "sourceRegisterId": "SRC-4E8B2B8F",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 67
+      },
+      "title": "NHB Commercial Horticulture Development",
+      "issuer": "NHB / bank",
+      "url": "https://www.nhb.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R99-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R99-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R99-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R99-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R100-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R100-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R100-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R100-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R101-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R101-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R101-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R101-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R99",
+        "STATUS-SCHEME-MASTER-R100",
+        "STATUS-SCHEME-MASTER-R101"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R68",
+      "sourceRegisterId": "SRC-BFF135F3",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 68
+      },
+      "title": "National Livestock Mission – Entrepreneurship Development Programme",
+      "issuer": "DAHD / lender / State Animal Husbandry",
+      "url": "https://dahd.gov.in/en/schemes/programmes/national_livestock_mission",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R69",
+      "sourceRegisterId": "SRC-1536DC98",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 69
+      },
+      "title": "Rashtriya Gokul Mission – breed multiplication/IVF/sex-sorted semen",
+      "issuer": "DAHD / State Animal Husbandry",
+      "url": "https://monitor.dahd.gov.in/rashtriya-gokul-mission",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R104-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R104-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R104-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R104-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R104"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R70",
+      "sourceRegisterId": "SRC-CC745FC0",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 70
+      },
+      "title": "Animal Husbandry Infrastructure Development Fund (AHIDF)",
+      "issuer": "DAHD / lender",
+      "url": "https://www.dahd.gov.in/en/schemes/programmes/ahidf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Status unconfirmed.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R71",
+      "sourceRegisterId": "SRC-58F3926F",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 71
+      },
+      "title": "Supporting Dairy Cooperatives and Farmer Producer Organisations (SDCFPO)",
+      "issuer": "DAHD / NDDB / NCDC / lender",
+      "url": "https://www.dahd.gov.in/schemes/programmes/sdcfpo",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R106-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R106-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R106-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R106-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R106"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R72",
+      "sourceRegisterId": "SRC-AA3CC52A",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 72
+      },
+      "title": "Pradhan Mantri Matsya Sampada Yojana (PMMSY) – beneficiary activities",
+      "issuer": "Department of Fisheries / PMMSY",
+      "url": "https://dof.gov.in/sites/default/files/2020-12/PMMSY-Guidelines24-June2020.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R107-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R107-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R107-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R107-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R107"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R73",
+      "sourceRegisterId": "SRC-7082BFB9",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 73
+      },
+      "title": "Pradhan Mantri Matsya Kisan Samridhi Sah-Yojana (PM-MKSSY)",
+      "issuer": "Department of Fisheries",
+      "url": "https://www.dof.gov.in/offerings/schemes-and-services/details/pmmkssy-2-cTN5ETMtQWa",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R108-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R108-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R108-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R108-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R108"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R74",
+      "sourceRegisterId": "SRC-14D496D4",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 74
+      },
+      "title": "Fisheries and Aquaculture Infrastructure Development Fund (FIDF)",
+      "issuer": "Department of Fisheries / NCDC/NABARD/lender",
+      "url": "https://www.dof.gov.in/offerings/schemes-and-services/details/fidf-2-kTN5ETMtQWa",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Status unconfirmed.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R75",
+      "sourceRegisterId": "SRC-4ECB470B",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 75
+      },
+      "title": "PM Kisan SAMPADA Yojana – current component calls",
+      "issuer": "MoFPI",
+      "url": "https://mofpi.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R110-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R110-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R110-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R110-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R110"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R76",
+      "sourceRegisterId": "SRC-C0D8060C",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 76
+      },
+      "title": "PM Formalisation of Micro Food Processing Enterprises (PMFME)",
+      "issuer": "MoFPI / State nodal agency / bank",
+      "url": "https://pmfme.mofpi.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Status unconfirmed.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R111-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R111-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R111-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R111-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R111"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R77",
+      "sourceRegisterId": "SRC-0A717061",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 77
+      },
+      "title": "NABARD Refinance Scheme for affordable credit to food-processing units",
+      "issuer": "Eligible bank / NABARD",
+      "url": "https://www.mofpi.gov.in/sites/default/files/guideline_english.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R112-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R112-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R112-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R112-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R112"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R78",
+      "sourceRegisterId": "SRC-B5BC6CA0",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 78
+      },
+      "title": "NCDC assistance to cooperatives",
+      "issuer": "NCDC",
+      "url": "https://www.ncdc.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R113-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R113-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R113-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R113-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R113"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R79",
+      "sourceRegisterId": "SRC-F6648DC2",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 79
+      },
+      "title": "HP SC/ST Development Corporation – Swarojgar Yojana",
+      "issuer": "HP SC/ST Development Corporation / bank",
+      "url": "https://hpscstdc.hp.gov.in/scheme/swarojgar-yojna",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R114-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R114-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R114-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R114-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R114"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R80",
+      "sourceRegisterId": "SRC-FDE638BB",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 80
+      },
+      "title": "NSTFDC Term Loan Scheme",
+      "issuer": "NSTFDC / State Channelising Agency",
+      "url": "https://nstfdc.tribal.gov.in/frm_term_loan.aspx",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R115-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R115-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R115-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R115-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R115"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R81",
+      "sourceRegisterId": "SRC-7328C232",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 81
+      },
+      "title": "NBCFDC General Loan Scheme",
+      "issuer": "NBCFDC / State Channelising Agency",
+      "url": "https://nbcfdc.gov.in/nbcfdc/web/node/65",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R116-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R116-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R116-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R116-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R116"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R82",
+      "sourceRegisterId": "SRC-3D87343C",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 82
+      },
+      "title": "NBCFDC New Swarnima for Women",
+      "issuer": "NBCFDC / State Channelising Agency",
+      "url": "https://nbcfdc.gov.in/nbcfdc/web/loan-scheme-description",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R117-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R117-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R117-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R117-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R117"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R83",
+      "sourceRegisterId": "SRC-EA56AA5E",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 83
+      },
+      "title": "NMDFC Term Loan Scheme",
+      "issuer": "NMDFC / State Channelising Agency",
+      "url": "https://www.nmdfc.org/faq",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R118-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R118-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R118-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R118-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R118"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R84",
+      "sourceRegisterId": "SRC-148F556B",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 84
+      },
+      "title": "Soil Health & Fertility / Soil Health Card",
+      "issuer": "Department of Agriculture",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/national-project-on-management-of-soil-health-and-fertility/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R119-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R119-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R119-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R119-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R119"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R85",
+      "sourceRegisterId": "SRC-E1E56660",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 85
+      },
+      "title": "Food & Nutrition Security / National Food Security Mission",
+      "issuer": "Department of Agriculture",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/national-food-security-mission-nfsm/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R120-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R120-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R120-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R120-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R120"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R86",
+      "sourceRegisterId": "SRC-9B6EDF22",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 86
+      },
+      "title": "Sub-Mission on Seeds and Planting Material / Seed Village",
+      "issuer": "Department of Agriculture",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/krishonnati-yojana/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R121-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R121-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R121-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R121-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R121"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R87",
+      "sourceRegisterId": "SRC-75013B50",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 87
+      },
+      "title": "Sub-Mission on Agroforestry",
+      "issuer": "Department of Agriculture",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/agroforestry/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R122-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R122-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R122-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R122-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R122"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R88",
+      "sourceRegisterId": "SRC-F5FB4C65",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 88
+      },
+      "title": "National Mission on Natural Farming (NMNF) – farmer incentive",
+      "issuer": "Agriculture Department / NMNF",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287252&lang=1&reg=48",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - cluster or project area.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R123-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R123-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R123-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R123-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R123"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R89",
+      "sourceRegisterId": "SRC-F8299DEC",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 89
+      },
+      "title": "National Mission on Natural Farming – Bio-input Resource Centre",
+      "issuer": "Agriculture Department / NMNF",
+      "url": "https://www.manage.gov.in/nf/NMNF-Guidelines.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - cluster or project area.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R124-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R124-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R124-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R124-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R124"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R90",
+      "sourceRegisterId": "SRC-7C4AFCBD",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 90
+      },
+      "title": "National Mission on Edible Oils – Oilseeds (NMEO-Oilseeds)",
+      "issuer": "Department of Agriculture / NMEO",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2110295&lang=2&reg=48",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R125-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R125-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R125-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R125-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R125"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R91",
+      "sourceRegisterId": "SRC-44B53CB6",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 91
+      },
+      "title": "National Mission on Pulses",
+      "issuer": "Department of Agriculture / Pulses Mission",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2239790&lang=1&reg=3",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R126-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R126-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R126-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R126-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R126"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R92",
+      "sourceRegisterId": "SRC-1B5BCED6",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 92
+      },
+      "title": "PM Dhan-Dhaanya Krishi Yojana – Bilaspur district convergence",
+      "issuer": "District administration / Agriculture Department",
+      "url": "https://documents.doptcirculars.nic.in/D2/D02eod/OrCNOPMDDKzJu4c.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R127-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R127-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R127-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R127-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R127"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R93",
+      "sourceRegisterId": "SRC-6AD5DE9A",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 93
+      },
+      "title": "RKVY Innovation & Agri-Entrepreneurship Programme",
+      "issuer": "DA&FW / RKVY incubator",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1643788&lang=2&reg=48",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R128-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R128-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R128-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R128-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R128"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R94",
+      "sourceRegisterId": "SRC-9D89C046",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 94
+      },
+      "title": "AgriSURE – Agri Fund for Startups & Rural Enterprises",
+      "issuer": "NABARD / fund manager",
+      "url": "https://www.nabard.org/pdf/agrisure-faq.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R129-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R129-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R129-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R129-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R129"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R95",
+      "sourceRegisterId": "SRC-5EB9F18D",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 95
+      },
+      "title": "e-NAM – National Agriculture Market",
+      "issuer": "SFAC / State APMC / mandi",
+      "url": "https://enam.gov.in/web/Enam_ctrl/enam_registration",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R130-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R130-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R130-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R130-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R130"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R96",
+      "sourceRegisterId": "SRC-9D0F8F17",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 96
+      },
+      "title": "Credit Guarantee Scheme for e-NWR based Pledge Financing (CGS-NPF)",
+      "issuer": "Bank / WDRA / DFPD",
+      "url": "https://dfpd.gov.in/WriteReadData/NotificationUploadDocuments/8ff34f9f-de51-45ed-ab8e-a9d15ad774af_Gazette%20Notification%20dated%2012.02.2025%20regarding%20CGS%20NPF%20Scheme%20Operational%20Guidelines-11-19.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R131-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R131-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R131-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R131-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R131"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R97",
+      "sourceRegisterId": "SRC-19F7B989",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 97
+      },
+      "title": "PM-AASHA – Price Support / Price Deficiency routes",
+      "issuer": "DA&FW / NAFED / NCCF / State agency",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246181&lang=1&reg=1",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R132-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R132-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R132-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R132-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R132"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R98",
+      "sourceRegisterId": "SRC-F8131E3C",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 98
+      },
+      "title": "PM-KISAN income support",
+      "issuer": "DA&FW / State nodal department",
+      "url": "https://pmkisan.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R133-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R133-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R133-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R133-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R133"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R99",
+      "sourceRegisterId": "SRC-A36E7770",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 99
+      },
+      "title": "Pradhan Mantri Kisan Maandhan Yojana (PM-KMY)",
+      "issuer": "LIC / CSC / DA&FW",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2152564&lang=2&reg=48",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R134-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R134-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R134-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R134-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R134"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R100",
+      "sourceRegisterId": "SRC-5A00A251",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 100
+      },
+      "title": "Himachal Pradesh Subtropical Horticulture, Irrigation and Value Addition Project (HP-SHIVA)",
+      "issuer": "Department of Horticulture / HP-SHIVA",
+      "url": "https://www.adb.org/projects/53189-002/main",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - cluster or project area.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R135-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R135-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R135-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R135-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R135"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R101",
+      "sourceRegisterId": "SRC-A991DE9E",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 101
+      },
+      "title": "Himachal Khumb Vikas Yojana",
+      "issuer": "Department of Horticulture",
+      "url": "https://eudyan.hp.gov.in/cms/media/lmlblei4/frequently-asked-questions.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R136-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R136-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R136-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R136-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R136"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R102",
+      "sourceRegisterId": "SRC-7C9E3A02",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 102
+      },
+      "title": "Mukhya Mantri Madhu Vikas Yojana",
+      "issuer": "Department of Horticulture",
+      "url": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/kya/sid/Procedure%20Madhu%20Vikash%20Yojna.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R137-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R137-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R137-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R137-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R137"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R103",
+      "sourceRegisterId": "SRC-76DD5E9C",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 103
+      },
+      "title": "MEHAK – aromatic plants cultivation and processing",
+      "issuer": "Department of Horticulture",
+      "url": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/kya/sid/MEHAK.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R138-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R138-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R138-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R138-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R138"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R104",
+      "sourceRegisterId": "SRC-3AC57EA6",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 104
+      },
+      "title": "Mukhya Mantri Greenhouse Renovation Scheme",
+      "issuer": "Department of Horticulture",
+      "url": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/kya/sid/Mukhyamantri%20Greenhouse%20Renovation%20Scheme.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R139-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R139-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R139-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R139-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R139"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R105",
+      "sourceRegisterId": "SRC-83309ED9",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 105
+      },
+      "title": "Krishi Utpadan Sanrakshan Yojana (KUSHY) – anti-hail support structure",
+      "issuer": "Department of Horticulture",
+      "url": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/kya/sid/Krishi%20Utpad%20Sarankshan%20Yojna.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R140-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R140-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R140-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R140-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R140"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R106",
+      "sourceRegisterId": "SRC-E4652810",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 106
+      },
+      "title": "National Beekeeping & Honey Mission (NBHM)",
+      "issuer": "National Bee Board / DA&FW",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2296203&lang=1&reg=22",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R141-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R141-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R141-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R141-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R141"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R107",
+      "sourceRegisterId": "SRC-5B7B53F8",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 107
+      },
+      "title": "National AYUSH Mission / NMPB medicinal-plant cultivation",
+      "issuer": "State AYUSH Society / NMPB",
+      "url": "https://nmpb.nic.in/content/prioritised-list-medicinal-plants-cultivation",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - cluster or project area.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R142-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R142-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R142-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R142-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R142"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R108",
+      "sourceRegisterId": "SRC-EADA5814",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 108
+      },
+      "title": "National Programme for Dairy Development (NPDD) – HP projects",
+      "issuer": "DAHD / State dairy agency",
+      "url": "https://dahd.gov.in/schemes/programmes/npdd",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R147-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R147-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R147-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R147-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R147"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R109",
+      "sourceRegisterId": "SRC-E3B042BD",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 109
+      },
+      "title": "DAY-NRLM – SHG Revolving Fund, Community Investment Fund and interest support",
+      "issuer": "HPSRLM / Rural Development Department",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2086490&lang=2&reg=48",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R110",
+      "sourceRegisterId": "SRC-5CA139AE",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 110
+      },
+      "title": "Start-up Village Entrepreneurship Programme (SVEP)",
+      "issuer": "HPSRLM / DAY-NRLM",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2289268&lang=1&reg=48",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R111",
+      "sourceRegisterId": "SRC-82533867",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 111
+      },
+      "title": "HPIIP 2019 – MSME land, shed, stamp duty and CLU incentives",
+      "issuer": "Department of Industries, Himachal Pradesh",
+      "url": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/policies/HPIIP-2019-with-all-amendments-upto-08.10.2024.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R151-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R151-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R151-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R151-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R152-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R152-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R152-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R152-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R153-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R153-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R153-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R153-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R154-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R154-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R154-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R154-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R155-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R155-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R155-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R155-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R156-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R156-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R156-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R156-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R151",
+        "STATUS-SCHEME-MASTER-R152",
+        "STATUS-SCHEME-MASTER-R153",
+        "STATUS-SCHEME-MASTER-R154",
+        "STATUS-SCHEME-MASTER-R155",
+        "STATUS-SCHEME-MASTER-R156"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R112",
+      "sourceRegisterId": "SRC-11ED7884",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 112
+      },
+      "title": "Rajiv Gandhi Swarozgar Start-up Yojana – e-taxi",
+      "issuer": "Transport Department, Himachal Pradesh",
+      "url": "https://etaxihpdt.org/home",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Open now.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R157-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R157-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R157-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R157-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R157"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R113",
+      "sourceRegisterId": "SRC-30CE6CBD",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 113
+      },
+      "title": "Rajiv Gandhi Swarozgar Start-up Yojana – e-bus Stage III",
+      "issuer": "Transport Department, Himachal Pradesh",
+      "url": "https://himachal.nic.in/ControlsAsync/ViewFTPFile?qs=KI3gZ53zz1yE7zQVTWhaOzP%2Beb3cLZ68p63GiWXU6hzN3nR9gHw6C3pE5qZLcWqNWhWR40qnvAG77bstWOLYgFmeY8wsd1ie",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R114",
+      "sourceRegisterId": "SRC-6C840069",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 114
+      },
+      "title": "Himachal Pradesh Home Stay Rules 2025 – registration route",
+      "issuer": "Department of Tourism and Civil Aviation, Himachal Pradesh",
+      "url": "https://www.himachaltourism.gov.in/wp-content/uploads/2025/06/The-Himachal-Pradesh-Home-Stay-Rules-2025.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R160-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R160-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R160-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R160-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R160"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R115",
+      "sourceRegisterId": "SRC-40376FB1",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 115
+      },
+      "title": "National Handicrafts Development Programme",
+      "issuer": "Office of Development Commissioner (Handicrafts)",
+      "url": "https://handicrafts.nic.in/schemes.aspx",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R161-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R161-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R161-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R161-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R161"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R116",
+      "sourceRegisterId": "SRC-3941C03E",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 116
+      },
+      "title": "National Handloom Development Programme",
+      "issuer": "Office of Development Commissioner (Handlooms)",
+      "url": "https://handlooms.nic.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R162-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R162-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R162-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R162-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R164-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R164-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R164-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R164-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R162",
+        "STATUS-SCHEME-MASTER-R164"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R117",
+      "sourceRegisterId": "SRC-64E6DD19",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 117
+      },
+      "title": "Weaver MUDRA Scheme",
+      "issuer": "Office of Development Commissioner (Handlooms)",
+      "url": "https://handlooms.nic.in/assets/img/Handloom%20Schemes/NHDP_English%20Compendium_2024.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R163-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R163-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R163-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R163-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R163"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R118",
+      "sourceRegisterId": "SRC-D2D3A7D6",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 118
+      },
+      "title": "GENESIS – Gen-Next Support for Innovative Startups",
+      "issuer": "Ministry of Electronics and Information Technology",
+      "url": "https://www.meity.gov.in/offerings?page=3",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R165-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R165-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R165-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R165-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R165"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R119",
+      "sourceRegisterId": "SRC-8913E8BD",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 119
+      },
+      "title": "TIDE 2.0",
+      "issuer": "Ministry of Electronics and Information Technology",
+      "url": "https://www.meity.gov.in/offerings/schemes-and-services/details/technology-incubation-and-development-of-entrepreneurs-QMwEjNtQWa",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - cluster or project area.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R166-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R166-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R166-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R166-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R166"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R120",
+      "sourceRegisterId": "SRC-9EB2206D",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 120
+      },
+      "title": "STPI Next Generation Incubation Scheme",
+      "issuer": "Software Technology Parks of India",
+      "url": "https://stpi.in/en/schemes/ngis-scheme",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - cluster or project area.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R167-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R167-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R167-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R167-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R167"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R121",
+      "sourceRegisterId": "SRC-B8AE50BA",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 121
+      },
+      "title": "Design Linked Incentive – design infrastructure support",
+      "issuer": "Ministry of Electronics and Information Technology / C-DAC",
+      "url": "https://chips-dli.gov.in/DLI/EDANew",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - cluster or project area.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R168-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R168-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R168-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R168-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R168"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R122",
+      "sourceRegisterId": "SRC-F819080A",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 122
+      },
+      "title": "Pradhan Mantri Viksit Bharat Rozgar Yojana",
+      "issuer": "Ministry of Labour and Employment / EPFO",
+      "url": "https://pmvbry.epfindia.gov.in",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Open now.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R169-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R169-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R169-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R169-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R169"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R123",
+      "sourceRegisterId": "SRC-6BD7FBC8",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 123
+      },
+      "title": "National Apprenticeship Promotion Scheme 2.0",
+      "issuer": "Ministry of Skill Development and Entrepreneurship",
+      "url": "https://www.apprenticeshipindia.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R170-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R170-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R170-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R170-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R170"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R124",
+      "sourceRegisterId": "SRC-B59CFADB",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 124
+      },
+      "title": "PMKVY 4.0 – training provider route",
+      "issuer": "Ministry of Skill Development and Entrepreneurship",
+      "url": "https://www.msde.gov.in/static/uploads/2025/09/20d9aac4ce972a765e83f28682536ee0.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R171-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R171-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R171-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R171-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R171"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R125",
+      "sourceRegisterId": "SRC-C91017D9",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 125
+      },
+      "title": "Ayushman Bharat PM-JAY – hospital empanelment",
+      "issuer": "National Health Authority",
+      "url": "https://hospitals.pmjay.gov.in",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R172-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R172-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R172-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R172-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R172"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R126",
+      "sourceRegisterId": "SRC-20C05244",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 126
+      },
+      "title": "HIMCARE – hospital empanelment",
+      "issuer": "Himachal Pradesh Swasthya Bima Yojana Society",
+      "url": "https://app.hpsbys.in/website/HOSPITALCODEregistration.aspx",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R173-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R173-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R173-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R173-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R173"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R127",
+      "sourceRegisterId": "SRC-6D19E41D",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 127
+      },
+      "title": "AYUSH International Cooperation Scheme",
+      "issuer": "Ministry of AYUSH",
+      "url": "https://niveshsaarthi.ayush.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R174-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R174-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R174-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R174-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R174"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R128",
+      "sourceRegisterId": "SRC-F14DE4C3",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 128
+      },
+      "title": "IREDA renewable-energy financing",
+      "issuer": "Indian Renewable Energy Development Agency",
+      "url": "https://www.ireda.in/images/HTMLfiles/Financing%20Norms_09_01_2026.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R175-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R175-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R175-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R175-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R175"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R129",
+      "sourceRegisterId": "SRC-8866E7AE",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 129
+      },
+      "title": "PM E-DRIVE demand incentive",
+      "issuer": "Ministry of Heavy Industries",
+      "url": "https://pmedrive.heavyindustries.gov.in/about-us",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Open now.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R176-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R176-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R176-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R176-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R176"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R130",
+      "sourceRegisterId": "SRC-63D1EEC2",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 130
+      },
+      "title": "RoDTEP – remission of duties and taxes on exported products",
+      "issuer": "Directorate General of Foreign Trade / CBIC",
+      "url": "https://content.dgft.gov.in/Website/dgftprod/1322d65e-dd25-46ec-a7e9-7b0a3f9765f2/RoDTEP%20Notification%20.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Open now.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R177-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R177-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R177-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R177-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R177"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R131",
+      "sourceRegisterId": "SRC-416AA0A3",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 131
+      },
+      "title": "ECGC Small Exporters Policy",
+      "issuer": "ECGC Limited",
+      "url": "https://main.ecgc.in/small-exporters-policy-sep/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R178-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R178-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R178-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R178-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R178"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R132",
+      "sourceRegisterId": "SRC-9603DF4B",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 132
+      },
+      "title": "Advance Authorisation",
+      "issuer": "Directorate General of Foreign Trade",
+      "url": "https://content.dgft.gov.in/Website/dgftprod/34f12103-6192-43a9-aeff-456f3666a8df/Presentation%20_FTP%202023%2031.03.2023%20Final.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R179-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R179-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R179-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R179-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R180-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R180-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R180-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R180-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R179",
+        "STATUS-SCHEME-MASTER-R180"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R133",
+      "sourceRegisterId": "SRC-846F6E0E",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 133
+      },
+      "title": "SPICED Scheme – spices value-chain and export development",
+      "issuer": "Spices Board India",
+      "url": "https://www.indianspices.com/box5_programmes_schemes.html",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Open now.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R181-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R181-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R181-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R181-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R181"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R134",
+      "sourceRegisterId": "SRC-FE454AFE",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 134
+      },
+      "title": "Tea Development and Promotion Scheme 2021–26",
+      "issuer": "Tea Board India",
+      "url": "https://teaboard.gov.in/pdf/TDPS_Press_Release_03_10_2024_pdf5010.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Fresh window closed.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R182-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R182-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R182-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R182-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R182"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R135",
+      "sourceRegisterId": "SRC-CCDB1F53",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 135
+      },
+      "title": "APEDA Financial Assistance Scheme 2021–26",
+      "issuer": "Agricultural and Processed Food Products Export Development Authority",
+      "url": "https://apeda.gov.in/market-development",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Scheme evidence; status: Fresh window closed.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R183-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R183-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R183-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R183-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R183"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R136",
+      "sourceRegisterId": "SRC-FE0C48D2",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 136
+      },
+      "title": "Field agriculture and crop services – Cereals",
+      "issuer": "Agriculture Department; seed, pesticide or fertiliser regulator where applicable",
+      "url": "https://agriculture.hp.gov.in/en/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R137",
+      "sourceRegisterId": "SRC-2869061F",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 137
+      },
+      "title": "Horticulture floriculture and specialty crops – Apple",
+      "issuer": "Horticulture Department; plant quarantine or nursery accreditation where applicable",
+      "url": "https://himachal.nic.in/en-IN/horticulture.html",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R138",
+      "sourceRegisterId": "SRC-E0791664",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 138
+      },
+      "title": "Horticulture floriculture and specialty crops – Medicinal plants",
+      "issuer": "State Medicinal Plants Board / NMPB",
+      "url": "https://nmpb.nic.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R139",
+      "sourceRegisterId": "SRC-60724152",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 139
+      },
+      "title": "Horticulture floriculture and specialty crops – Kangra tea",
+      "issuer": "Horticulture Department; plant quarantine or nursery accreditation where applicable",
+      "url": "https://www.teaboard.gov.in/TEABOARDPAGE/NzE%3D",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official sector/regulatory evidence used for taxonomy and coverage review.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R140",
+      "sourceRegisterId": "SRC-BD3B1A03",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 140
+      },
+      "title": "Livestock dairy poultry and animal enterprises – Dairy farming",
+      "issuer": "Animal Husbandry Department; FSSAI, veterinary or pollution approvals where applicable",
+      "url": "https://dahd.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R141",
+      "sourceRegisterId": "SRC-3ACDAD54",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 141
+      },
+      "title": "Fisheries beekeeping and sericulture – Inland fisheries",
+      "issuer": "Sector department; food, animal-health and environmental approvals where applicable",
+      "url": "https://fisheries.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R142",
+      "sourceRegisterId": "SRC-3C02C727",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 142
+      },
+      "title": "Fisheries beekeeping and sericulture – Beekeeping",
+      "issuer": "Sector department; food, animal-health and environmental approvals where applicable",
+      "url": "https://nbb.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R143",
+      "sourceRegisterId": "SRC-D6E8B2EC",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 143
+      },
+      "title": "Fisheries beekeeping and sericulture – Sericulture",
+      "issuer": "Sector department; food, animal-health and environmental approvals where applicable",
+      "url": "https://csb.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official sector/regulatory evidence used for taxonomy and coverage review.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R144",
+      "sourceRegisterId": "SRC-16DE2FEE",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 144
+      },
+      "title": "Agri post-harvest infrastructure and logistics – Collection and aggregation",
+      "issuer": "Agriculture, Horticulture or Industries Department; food, warehouse and local approvals",
+      "url": "https://agriinfra.dac.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R145",
+      "sourceRegisterId": "SRC-BD0FDE8D",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 145
+      },
+      "title": "Food and beverage processing – Fruit and vegetable processing",
+      "issuer": "FSSAI; Pollution Control Board, excise or legal metrology where applicable",
+      "url": "https://www.mofpi.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R146",
+      "sourceRegisterId": "SRC-B22E6898",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 146
+      },
+      "title": "Pharma medical devices biotechnology and AYUSH – Pharmaceutical formulations",
+      "issuer": "CDSCO, State Drugs Controller, AYUSH drug authority or biosafety regulator according to product",
+      "url": "https://pharma-dept.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R147",
+      "sourceRegisterId": "SRC-5E1DC121",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 147
+      },
+      "title": "Pharma medical devices biotechnology and AYUSH – AYUSH and herbal products",
+      "issuer": "CDSCO, State Drugs Controller, AYUSH drug authority or biosafety regulator according to product",
+      "url": "https://ayush.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official sector/regulatory evidence used for taxonomy and coverage review.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R148",
+      "sourceRegisterId": "SRC-BB0D778F",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 148
+      },
+      "title": "Pharma medical devices biotechnology and AYUSH – Regulated medicine retail",
+      "issuer": "CDSCO, State Drugs Controller, AYUSH drug authority or biosafety regulator according to product",
+      "url": "https://cdsco.gov.in/opencms/opencms/en/Home/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official sector/regulatory evidence used for taxonomy and coverage review.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R149",
+      "sourceRegisterId": "SRC-858FBE09",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 149
+      },
+      "title": "Textiles wool handicrafts forest products and packaging – Wool and handloom",
+      "issuer": "Industries Department; textiles, handicrafts, forest, pollution and product standards as applicable",
+      "url": "https://texmin.nic.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R150",
+      "sourceRegisterId": "SRC-D8674496",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 150
+      },
+      "title": "Textiles wool handicrafts forest products and packaging – Handicrafts",
+      "issuer": "Industries Department; textiles, handicrafts, forest, pollution and product standards as applicable",
+      "url": "https://handicrafts.nic.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official sector/regulatory evidence used for taxonomy and coverage review.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R151",
+      "sourceRegisterId": "SRC-D885800A",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 151
+      },
+      "title": "Engineering electronics defence and general manufacturing – Metal fabrication",
+      "issuer": "Industries Department, BIS/product regulator and pollution authority as applicable",
+      "url": "https://msme.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R152",
+      "sourceRegisterId": "SRC-BFC65021",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 152
+      },
+      "title": "Engineering electronics defence and general manufacturing – Electronics components",
+      "issuer": "Industries Department, BIS/product regulator and pollution authority as applicable",
+      "url": "https://www.meity.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R153",
+      "sourceRegisterId": "SRC-A0FAEEC6",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 153
+      },
+      "title": "Engineering electronics defence and general manufacturing – Defence and dual-use",
+      "issuer": "Industries Department, BIS/product regulator and pollution authority as applicable",
+      "url": "https://drdo.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official sector/regulatory evidence used for taxonomy and coverage review.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R154",
+      "sourceRegisterId": "SRC-09A54CC7",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 154
+      },
+      "title": "Renewable energy circular economy chemicals and construction materials – Solar and clean energy",
+      "issuer": "Industries, energy, pollution, fire and product-safety authorities according to activity",
+      "url": "https://mnre.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R155",
+      "sourceRegisterId": "SRC-3F99A199",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 155
+      },
+      "title": "Renewable energy circular economy chemicals and construction materials – Waste management and recycling",
+      "issuer": "Industries, energy, pollution, fire and product-safety authorities according to activity",
+      "url": "https://moef.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official sector/regulatory evidence used for taxonomy and coverage review.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R156",
+      "sourceRegisterId": "SRC-57A4D512",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 156
+      },
+      "title": "Tourism hospitality wellness and events – Accommodation",
+      "issuer": "Tourism Department, local body, fire, food, transport and activity-specific safety authority",
+      "url": "https://himachaltourism.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R157",
+      "sourceRegisterId": "SRC-5B76B5B0",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 157
+      },
+      "title": "Healthcare education skills and professional services – Clinics and care delivery",
+      "issuer": "Health, clinical-establishment, education, skills or professional regulator according to service",
+      "url": "https://himachal.nic.in/en-IN/health-family-welfare.html",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R158",
+      "sourceRegisterId": "SRC-CB8179EE",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 158
+      },
+      "title": "Healthcare education skills and professional services – Skills and training",
+      "issuer": "Health, clinical-establishment, education, skills or professional regulator according to service",
+      "url": "https://www.msde.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official sector/regulatory evidence used for taxonomy and coverage review.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R159",
+      "sourceRegisterId": "SRC-1941DEA2",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 159
+      },
+      "title": "Transport logistics retail repair and local services – Freight and logistics",
+      "issuer": "Transport, local body, trade, labour, fire and product regulator according to activity",
+      "url": "https://himachal.nic.in/en-IN/transport.html",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R160",
+      "sourceRegisterId": "SRC-VER-E0C067AF",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 160
+      },
+      "title": "Mukhya Mantri Khet Sanrakshan Yojana (MMKSY) – crop-protection fencing",
+      "issuer": "Department of Agriculture, Himachal Pradesh",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R14-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R14-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R14-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R14-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R14"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R161",
+      "sourceRegisterId": "SRC-VER-F54CF967",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 161
+      },
+      "title": "PM-KUSUM / Saur Sinchai implementation in HP",
+      "issuer": "Department of Agriculture, Himachal Pradesh",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/pradhan-mantri-kisan-urja-suraksha-evem-utthan-mahabhiyan-yojna-pm-kusum/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R162",
+      "sourceRegisterId": "SRC-VER-80F3367D",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 162
+      },
+      "title": "Self-Reliant India (SRI) Fund",
+      "issuer": "Secondary summary – used only where a primary document was unreachable",
+      "url": "https://blitzindiamedia.com/perspective/india-msme-policy-strategy-union-budget-2026-27-sri-fund-treds/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R163",
+      "sourceRegisterId": "SRC-VER-510E1C71",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 163
+      },
+      "title": "Weaver MUDRA Scheme",
+      "issuer": "Ministry of Textiles – National Handloom Development Programme",
+      "url": "https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2025/07/202507231271247224.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R164",
+      "sourceRegisterId": "SRC-VER-0C6841FB",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 164
+      },
+      "title": "Rashtriya Gokul Mission – breed multiplication/IVF/sex-sorted semen",
+      "issuer": "Department of Animal Husbandry and Dairying",
+      "url": "https://dahd.gov.in/en/schemes/programmes/rashtriya_gokul_mission",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R165",
+      "sourceRegisterId": "SRC-VER-C2521C4A",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 165
+      },
+      "title": "National Livestock Mission – Entrepreneurship Development Programme",
+      "issuer": "Department of Animal Husbandry and Dairying",
+      "url": "https://dahd.gov.in/sites/default/files/2026-04/NLMGuidelinesJan2025.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R103-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R103-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R103-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R103-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R103"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R166",
+      "sourceRegisterId": "SRC-VER-D71B363A",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 166
+      },
+      "title": "Micro and Small Enterprises Cluster Development Programme (MSE-CDP)",
+      "issuer": "Office of DC (MSME), Ministry of MSME",
+      "url": "https://dcmsme.gov.in/schemes/New%20MSE-CDP.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R47-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R47-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R47-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R47-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R47"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R167",
+      "sourceRegisterId": "SRC-VER-8DA70891",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 167
+      },
+      "title": "HPIIP 2019 – employment, export, patent and SME listing support",
+      "issuer": "Department of Industries, Himachal Pradesh",
+      "url": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/policies/Industrial-Investment-Policy-2019-and-Rules-Regarding-Grant-of-Incentives-Concessions-and-Facilities-as-on-20-12-2023-with-all-amendments.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R168",
+      "sourceRegisterId": "SRC-VER-84851CF9",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 168
+      },
+      "title": "Rajiv Gandhi Swarozgar Start-up Yojana Phase-IV - passenger bus (electric and diesel)",
+      "issuer": "Government of Himachal Pradesh",
+      "url": "https://himachal.nic.in/lep",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R158-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R158-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R158-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R158-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R158"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R169",
+      "sourceRegisterId": "SRC-VER-79B0EC47",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 169
+      },
+      "title": "Rajiv Gandhi Swarozgar Start-up Yojana Phase-IV - passenger bus (electric and diesel); Rajiv Gandhi Swarozgar Start-up Yojana – e-bus Stage III",
+      "issuer": "Himachal Headlines – contemporary reporting (no official notification located)",
+      "url": "https://himachalheadlines.com/news/himachal-to-offer-50-percent-subsidy-on-electric-buses-30-percent-on-diesel-buses/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R170",
+      "sourceRegisterId": "SRC-VER-96364DC9",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 170
+      },
+      "title": "Mukhya Mantri Khet Sanrakshan Yojana (MMKSY) – crop-protection fencing; Mukhyamantri Krishi Utpadan Sanrakshan Yojana (fencing)",
+      "issuer": "Himachal Watcher – contemporary reporting (no official notification located)",
+      "url": "https://himachalwatcher.com/2019/09/05/farmers-in-himachal-will-get-50-subsidy-on-barbed-wires-channel-link-and-70-on-composite-fences-under-mukhya-mantri-khet-sanrakshan-yojana/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R171",
+      "sourceRegisterId": "SRC-VER-A6586711",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 171
+      },
+      "title": "PMEGP 2nd Loan for Upgradation",
+      "issuer": "Directorate of Industries & Commerce, Kerala (PMEGP norms)",
+      "url": "https://industry.kerala.gov.in/index.php/schemes-mainmenu/pmegp-schemes",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R172",
+      "sourceRegisterId": "SRC-VER-E57D9930",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 172
+      },
+      "title": "MSME Innovative – Incubation, Design and IPR",
+      "issuer": "Ministry of MSME – MSME Innovative",
+      "url": "https://innovative.msme.gov.in/Documents/FinalGuidelines_MSME_Innovative.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R71-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R71-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R71-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R71-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R71"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R173",
+      "sourceRegisterId": "SRC-VER-FB71A363",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 173
+      },
+      "title": "Micro Credit Card Scheme for Micro Enterprises",
+      "issuer": "Kashmir Life – reporting a Lok Sabha reply (no official notification located)",
+      "url": "https://kashmirlife.net/jammu-kashmir-gets-72-credit-cards-under-new-micro-enterprise-scheme-lok-sabha-446094/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R174",
+      "sourceRegisterId": "SRC-VER-353AAC57",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 174
+      },
+      "title": "DAY-NRLM – SHG Revolving Fund, Community Investment Fund and interest support; Start-up Village Entrepreneurship Programme (SVEP)",
+      "issuer": "Ministry of Rural Development – DAY-NRLM",
+      "url": "https://lakhpatididi.gov.in/financial-assistance/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R148-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R148-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R148-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R148-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R149-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R149-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R149-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R149-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R148",
+        "STATUS-SCHEME-MASTER-R149"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R175",
+      "sourceRegisterId": "SRC-VER-DEBF7CB8",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 175
+      },
+      "title": "NMDFC Term Loan Scheme",
+      "issuer": "NMDFC",
+      "url": "https://milannmdfc.org/NMDFC_SCHEME.aspx",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R176",
+      "sourceRegisterId": "SRC-VER-38FA64E0",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 176
+      },
+      "title": "NBCFDC General Loan Scheme",
+      "issuer": "NBCFDC",
+      "url": "https://nbcfdc.gov.in/nbcfdc/web/general-loan",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R177",
+      "sourceRegisterId": "SRC-VER-489282DF",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 177
+      },
+      "title": "Fisheries insurance under PMMSY/HP implementation",
+      "issuer": "National Fisheries Development Board",
+      "url": "https://nfdb.gov.in/welcome/GAIS",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R38-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R38-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R38-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R38-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R38"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R178",
+      "sourceRegisterId": "SRC-VER-F9CAD011",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 178
+      },
+      "title": "(MIDH cost norms)",
+      "issuer": "National Horticulture Board",
+      "url": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R179",
+      "sourceRegisterId": "SRC-VER-CF5124AC",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 179
+      },
+      "title": "Assistance to Pharmaceutical Industry for Common Facilities (API-CF); Revamped Pharmaceutical Technology Upgradation Assistance Scheme (RPTUAS)",
+      "issuer": "Department of Pharmaceuticals",
+      "url": "https://pharma-dept.gov.in/schemes",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R180",
+      "sourceRegisterId": "SRC-VER-5453E195",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 180
+      },
+      "title": "SMDI – Common Facilities for Medical Device Clusters; SMDI – Medical Device Clinical Studies Support",
+      "issuer": "Department of Pharmaceuticals",
+      "url": "https://pharma-dept.gov.in/sites/default/files/Final%20guidelines%20for%20SMDI-8.11.2024.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R80-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R80-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R80-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R80-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R81-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R81-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R81-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R81-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R80",
+        "STATUS-SCHEME-MASTER-R81"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R181",
+      "sourceRegisterId": "SRC-VER-847E7A5A",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 181
+      },
+      "title": "CGTMSE credit guarantee",
+      "issuer": "State Bank of India (CGTMSE coverage circular)",
+      "url": "https://sbi.bank.in/documents/136/49244919/MODIFICATION+-+CGTMSE+GUARANTEE+COVERAGE+UPTO+10+CR.pdf/281d80e2-b952-b553-ffb6-f8725fbf5581",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R182",
+      "sourceRegisterId": "SRC-VER-C00E0C36",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 182
+      },
+      "title": "SFURTI – Scheme of Fund for Regeneration of Traditional Industries",
+      "issuer": "Invest India (SFURTI guidelines mirror)",
+      "url": "https://static.investindia.gov.in/s3fs-public/inline-files/SFURTI_NEW_0.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R183",
+      "sourceRegisterId": "SRC-VER-BC36EC03",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 183
+      },
+      "title": "Export Promotion Mission – Niryat Protsahan finance interventions; Export Promotion Mission – TRACE and Niryat Disha market-readiness support",
+      "issuer": "Press Information Bureau, Government of India",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026224799801.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R75-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R75-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R75-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R75-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R76-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R76-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R76-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R76-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R75",
+        "STATUS-SCHEME-MASTER-R76"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R184",
+      "sourceRegisterId": "SRC-VER-C8A84B9C",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 184
+      },
+      "title": "Market Intervention Scheme for apple/mango/citrus",
+      "issuer": "The News Himachal – contemporary reporting (no official notification located)",
+      "url": "https://thenewshimachal.com/2026/07/himachal-government-approves-mis-for-procurement-of-processing-grade-mangoes-citrus-fruits-and-c-grade-apples/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R185",
+      "sourceRegisterId": "SRC-VER-4000E93F",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 185
+      },
+      "title": "Pradhan Mantri Viksit Bharat Rozgar Yojana",
+      "issuer": "Secondary summary – used only where a primary document was unreachable",
+      "url": "https://vajiramandravi.com/current-affairs/pradhan-mantri-viksit-bharat-rozgar-yojana/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R186",
+      "sourceRegisterId": "SRC-VER-EDA7DEA2",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 186
+      },
+      "title": "Agri-Clinics and Agri-Business Centres (ACABC)",
+      "issuer": "MANAGE / ACABC",
+      "url": "https://www.agriclinics.net/ACABCGuidelines.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R91-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R91-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R91-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R91-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R91"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R187",
+      "sourceRegisterId": "SRC-VER-2F53C078",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 187
+      },
+      "title": "PM E-DRIVE demand incentive",
+      "issuer": "Autocar Professional – contemporary reporting (no official notification located)",
+      "url": "https://www.autocarpro.in/news/govt-extends-pm-e-drive-subsidy-for-e2ws-till-july-e3w-to-get-incentives-till-2028-131843",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R188",
+      "sourceRegisterId": "SRC-VER-578831AA",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 188
+      },
+      "title": "Innovations for Defence Excellence (iDEX / SPARK)",
+      "issuer": "Department of Defence Production",
+      "url": "https://www.ddpmod.gov.in/offerings/schemes-and-services/idex",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R189",
+      "sourceRegisterId": "SRC-VER-EFDE7CB1",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 189
+      },
+      "title": "Revamped Pharmaceutical Technology Upgradation Assistance Scheme (RPTUAS)",
+      "issuer": "Secondary summary – used only where a primary document was unreachable",
+      "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/revamped-pharmaceuticals-technology-upgradation-assistance-scheme-and-ucpmp-2024",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R190",
+      "sourceRegisterId": "SRC-VER-54130BBE",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 190
+      },
+      "title": "PM Vishwakarma",
+      "issuer": "Secondary summary – used only where a primary document was unreachable",
+      "url": "https://www.drishtiias.com/important-government-schemes/ministry-of-msmes/pm-vishwakarma-scheme-2",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R191",
+      "sourceRegisterId": "SRC-VER-43AFADF0",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 191
+      },
+      "title": "Fisheries and Aquaculture Infrastructure Development Fund (FIDF)",
+      "issuer": "Department of Fisheries – FIDF",
+      "url": "https://www.fidf.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R109-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R109-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R109-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R109-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R109"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R192",
+      "sourceRegisterId": "SRC-VER-A3146569",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 192
+      },
+      "title": "Mutual Credit Guarantee Scheme for MSMEs (MCGS-MSME)",
+      "issuer": "IIBF (NCGTC MCGS-MSME scheme brochure)",
+      "url": "https://www.iibf.org.in/documents/Brochure/2025/MCGS%20April.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R193",
+      "sourceRegisterId": "SRC-VER-DEF3E97C",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 193
+      },
+      "title": "MSME Innovative – Incubation, Design and IPR",
+      "issuer": "Secondary summary – used only where a primary document was unreachable",
+      "url": "https://www.indiafilings.com/learn/msme-innovative-scheme-incubation-design-and-ipr",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R194",
+      "sourceRegisterId": "SRC-VER-16DFEAB6",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 194
+      },
+      "title": "SMDI – Marginal Investment Scheme for Reducing Import Dependence (MIS-RID)",
+      "issuer": "Indian Pharma Post – contemporary reporting",
+      "url": "https://www.indianpharmapost.com/policy/india-opens-rs-10-crore-push-to-boost-medical-device-manufacturing-slash-import-dependence-20789",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R195",
+      "sourceRegisterId": "SRC-VER-02255D80",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 195
+      },
+      "title": "Formation and Promotion of 10,000 FPOs",
+      "issuer": "Secondary summary – used only where a primary document was unreachable",
+      "url": "https://www.insightsonindia.com/2026/02/07/ccentral-sector-scheme-of-formation-and-promotion-of-10000-farmer-producer-organizations-fpos/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R196",
+      "sourceRegisterId": "SRC-VER-4AD63412",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 196
+      },
+      "title": "Stand-Up India",
+      "issuer": "News Services Division, All India Radio (Government of India)",
+      "url": "https://www.newsonair.gov.in/fm-nirmala-sitharaman-announces-revamped-stand-up-india-scheme-for-sc-st-and-women-entrepreneurs",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R197",
+      "sourceRegisterId": "SRC-VER-C12CF42F",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 197
+      },
+      "title": "Pradhan Mantri Matsya Sampada Yojana (PMMSY) – beneficiary activities",
+      "issuer": "Press Information Bureau, Government of India",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=155173&ModuleId=3&reg=3&lang=2",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R198",
+      "sourceRegisterId": "SRC-VER-04E1020F",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 198
+      },
+      "title": "Kisan Credit Card (KCC) / Modified Interest Subvention Scheme",
+      "issuer": "Press Information Bureau, Government of India",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=157771&ModuleId=3&reg=48&lang=2",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R199",
+      "sourceRegisterId": "SRC-VER-C10FBC86",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 199
+      },
+      "title": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana – Jan Aushadhi Kendra",
+      "issuer": "Press Information Bureau, Government of India",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?id=157711&NoteId=157711&ModuleId=3&reg=48&lang=2",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R200",
+      "sourceRegisterId": "SRC-VER-DF4EC9BE",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 200
+      },
+      "title": "Animal Husbandry Infrastructure Development Fund (AHIDF)",
+      "issuer": "Press Information Bureau, Government of India",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2001054",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R105-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R105-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R105-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R105-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R105"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R201",
+      "sourceRegisterId": "SRC-VER-DF3E706C",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 201
+      },
+      "title": "Credit Guarantee Scheme for e-NWR based Pledge Financing (CGS-NPF)",
+      "issuer": "Press Information Bureau, Government of India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2085018",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R202",
+      "sourceRegisterId": "SRC-VER-CEF4AE4B",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 202
+      },
+      "title": "Credit Guarantee Scheme for Startups (CGSS)",
+      "issuer": "Press Information Bureau, Government of India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2127843",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R65-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R65-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R65-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R65-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R65"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R203",
+      "sourceRegisterId": "SRC-VER-65A7E39C",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 203
+      },
+      "title": "PM SVANidhi (restructured)",
+      "issuer": "Press Information Bureau, Government of India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2161157&reg=48&lang=2",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R204",
+      "sourceRegisterId": "SRC-VER-A355EB32",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 204
+      },
+      "title": "RoSCTL – Rebate of State and Central Taxes and Levies",
+      "issuer": "Press Information Bureau, Government of India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247851&reg=3&lang=1",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R205",
+      "sourceRegisterId": "SRC-VER-82701FD2",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 205
+      },
+      "title": "DRDO Technology Development Fund (TDF)",
+      "issuer": "Press Information Bureau, Government of India",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1832042",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R86-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R86-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R86-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R86-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R86"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R206",
+      "sourceRegisterId": "SRC-VER-F014BBEC",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 206
+      },
+      "title": "NSIC Raw Material Assistance against Bank Guarantee",
+      "issuer": "Secondary summary – used only where a primary document was unreachable",
+      "url": "https://www.shriramfinance.in/articles/business-loan/2026/raw-material-assistance-scheme-how-msme-can-use-nsic-credit-support-for-procurement",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R207",
+      "sourceRegisterId": "SRC-VER-95E061E2",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 207
+      },
+      "title": "MSE SPICE – circular economy investment",
+      "issuer": "SIDBI",
+      "url": "https://www.sidbi.in/uploads/financialreport/FAQ-SPICE.pdf",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R52-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R52-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R52-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R52-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R52"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R208",
+      "sourceRegisterId": "SRC-VER-AC3B0E15",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 208
+      },
+      "title": "Tea Development and Promotion Scheme 2021–26",
+      "issuer": "Tea Board of India",
+      "url": "https://www.teaboard.gov.in/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R209",
+      "sourceRegisterId": "SRC-VER-AD134B9F",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 209
+      },
+      "title": "Revamped Pharmaceutical Technology Upgradation Assistance Scheme (RPTUAS)",
+      "issuer": "Verification source",
+      "url": "https://www.teamleaseregtech.com/updates/article/35350/mocf-issued-a-corrigendum-regarding-guidelines-for-the-scheme-strength/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R210",
+      "sourceRegisterId": "SRC-VER-8235D027",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 210
+      },
+      "title": "PM Formalisation of Micro Food Processing Enterprises (PMFME)",
+      "issuer": "The Hitavada – contemporary reporting (no official notification located)",
+      "url": "https://www.thehitavada.com/Encyc/2026/5/23/food-processing-industries-ministry-seeking-pmfme-scheme-extension-with-revised-norms.html",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R211",
+      "sourceRegisterId": "SRC-VER-F3607CB5",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 211
+      },
+      "title": "Rajiv Gandhi Swarozgar Start-up Yojana – e-taxi",
+      "issuer": "The Tribune – contemporary reporting (no official notification located)",
+      "url": "https://www.tribuneindia.com/news/himachal/himachal-cm-launches-scheme-for-50-subsidy-on-e-taxi-purchase-564274",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R212",
+      "sourceRegisterId": "SRC-VER-2036FD2F",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 212
+      },
+      "title": "HP Industrial Investment Policy 2019 incentives; HPIIP 2019 – MSME land, shed, stamp duty and CLU incentives; HPIIP 2019 – employment, export, patent and SME listing support; HPIIP 2019 – interest and plant-transport support; HPIIP 2019 – net SGST re",
+      "issuer": "The Tribune – contemporary reporting (no official notification located)",
+      "url": "https://www.tribuneindia.com/news/himachal/himachal-govt-extends-industrial-policy-by-two-months-as-new-one-not-yet-finalised/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R213",
+      "sourceRegisterId": "SRC-VER-356D98DE",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 213
+      },
+      "title": "MSME Sustainable (ZED) Certification",
+      "issuer": "Ministry of MSME – ZED",
+      "url": "https://zed.msme.gov.in/subsidy-on-cost-of-certification",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R49-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R49-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R49-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R49-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R49"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R214",
+      "sourceRegisterId": "SRC-VER-48F0A383",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 214
+      },
+      "title": "Mukhya Mantri Laghu Dukandar Kalyan Yojana (rural and 'Shahri' urban variant); Rajiv Gandhi Laghu Dukandar Sukh Kalyan Yojana",
+      "issuer": "Verification source",
+      "url": "https://thenewsmill.com/2025/12/himachal-government-expands-mukhya-mantri-laghu-dukandar-kalyan-yojana-to-urban-areas/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R159-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R159-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R159-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R159-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R159"
+      ]
+    },
+    {
+      "id": "SOURCE-SOURCE-REGISTER-R215",
+      "sourceRegisterId": "SRC-VER-4999922D",
+      "baseline": {
+        "sheet": "Source Register",
+        "row": 215
+      },
+      "title": "Fisheries and Aquaculture Infrastructure Development Fund (FIDF)",
+      "issuer": "Verification source",
+      "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-extension-of-fisheries-and-aquaculture-infrastructure-development-fund-fidf/",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "classification": "official-unclassified",
+      "claimIds": [],
+      "statusIds": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "hp-v2-changes-1",
+  "changeTypes": [
+    "added",
+    "corrected",
+    "status-updated",
+    "retired",
+    "merged",
+    "split",
+    "evidence-upgraded"
+  ],
+  "changes": []
+}

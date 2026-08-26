@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "hp-v2-candidates-1",
+  "dispositions": [
+    "verified-publishable",
+    "verified-component",
+    "existing-no-current-intake",
+    "institutional-or-intermediary",
+    "superseded-or-closed",
+    "duplicate-or-alias",
+    "outside-beneficiary-scope",
+    "unverified-lead"
+  ],
+  "candidates": []
+}
