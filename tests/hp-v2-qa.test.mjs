@@ -85,6 +85,7 @@ test("QA reports unresolved research debt with stable baseline references", asyn
         baseline: { sheet: "Scheme Master", row: 42 }
       }]
     },
+    sources: { sources: [{ id: "SOURCE-TEST" }] },
     coverage: {
       coverage: [{
         id: "COVERAGE-COVERAGE-AUDIT-R2",
@@ -160,6 +161,7 @@ test("validator rejects unparseable verification dates instead of treating them 
         baseline: { sheet: "Scheme Master", row: 42 }
       }]
     },
+    sources: { sources: [{ id: "SOURCE-TEST" }] },
     coverage: { coverage: [] },
     mappingReview: { reviews: [], orphanSchemes: [] }
   }, { asOf: "2026-08-25" });
@@ -214,6 +216,7 @@ test("validator rejects an unparseable open-status recheck date", async () => {
         baseline: { sheet: "Scheme Master", row: 43 }
       }]
     },
+    sources: { sources: [{ id: "SOURCE-TEST" }] },
     coverage: { coverage: [] },
     mappingReview: { reviews: [], orphanSchemes: [] }
   }, { asOf: "2026-08-25" });
@@ -223,6 +226,173 @@ test("validator rejects an unparseable open-status recheck date", async () => {
     [{ code: "STALE_OPEN_STATUS", baseline: { sheet: "Scheme Master", row: 43 } }]
   );
 });
+
+test("existence requires an active claim with current effective evidence from resolvable sources", async () => {
+  const cases = [
+    { name: "inactive", claim: { value: "withdrawn" } },
+    { name: "dangling-source", claim: { sourceIds: ["SOURCE-MISSING"] } },
+    { name: "future-evidence", claim: { verifiedAt: "2026-08-26" } },
+    { name: "expired-evidence", claim: { effectiveTo: "2026-08-24" } }
+  ];
+
+  for (const { name, claim } of cases) {
+    const qa = await runHpV2Qa(completeRouteWorkbench({ schemeId: `SCH-EXISTENCE-${name}`, claim }), { asOf: "2026-08-25" });
+    assert.equal(qa.byCodes("MISSING_EXISTENCE").length, 1, name);
+  }
+});
+
+test("intake requires active, currently effective, publishable status evidence from resolvable sources", async () => {
+  const cases = [
+    { name: "inactive", status: { existence: "superseded" } },
+    { name: "closed", status: { intake: "closed" } },
+    { name: "scheduled", status: { intake: "scheduled" } },
+    { name: "arbitrary", status: { intake: "anything" } },
+    { name: "dangling-source", status: { sourceIds: ["SOURCE-MISSING"] } },
+    { name: "future-evidence", status: { verifiedAt: "2026-08-26" } },
+    { name: "expired-evidence", status: { validTo: "2026-08-24" } }
+  ];
+
+  for (const { name, status } of cases) {
+    const qa = await runHpV2Qa(completeRouteWorkbench({ schemeId: `SCH-INTAKE-${name}`, status }), { asOf: "2026-08-25" });
+    assert.equal(qa.byCodes("MISSING_INTAKE").length, 1, name);
+  }
+});
+
+test("status rejects an invalid budget facet without conflating it with intake", async () => {
+  const qa = await runHpV2Qa(completeRouteWorkbench({
+    status: { budget: "made-up-budget" }
+  }), { asOf: "2026-08-25" });
+
+  assert.equal(qa.byCodes("MISSING_INTAKE").length, 0);
+  assert.equal(qa.byCodes("INVALID_BUDGET_STATUS").length, 1);
+});
+
+test("hard claims require current primary-operative evidence from resolvable sources", async () => {
+  const cases = [
+    { name: "dangling-source", claim: { sourceIds: ["SOURCE-MISSING"] } },
+    { name: "future-evidence", claim: { verifiedAt: "2026-08-26" } },
+    { name: "expired-evidence", claim: { effectiveTo: "2026-08-24" } }
+  ];
+
+  for (const { name, claim } of cases) {
+    const workbench = completeRouteWorkbench({ schemeId: `SCH-HARD-${name}` });
+    workbench.claims.claims.push({
+      id: `CLAIM-SCH-HARD-${name}-BENEFIT`,
+      subjectId: `SCH-HARD-${name}`,
+      field: "keyBenefit",
+      value: "50% support",
+      sourceIds: ["SOURCE-TEST"],
+      locator: "baseline",
+      verifiedAt: "2026-08-23",
+      effectiveFrom: null,
+      effectiveTo: null,
+      evidenceGrade: "primary-operative",
+      confidence: "high",
+      baseline: { sheet: "Scheme Master", row: 42 },
+      ...claim
+    });
+    const qa = await runHpV2Qa(workbench, { asOf: "2026-08-25" });
+    assert.equal(qa.byCodes("EVIDENCE_HARD_CLAIM").length, 1, name);
+  }
+});
+
+test("coverage and mapping reviews retain debt for invalid outcomes, dimensions, and dispositions", async () => {
+  const qa = await runHpV2Qa(completeRouteWorkbench({
+    coverage: [{
+      id: "COVERAGE-COVERAGE-AUDIT-R2",
+      required: true,
+      outcome: "made-up-outcome",
+      agency: "Industries",
+      sectorId: "SEC-TEST",
+      beneficiary: "MSME",
+      enterpriseStage: "new",
+      supportType: "grant",
+      sourceIds: ["SOURCE-TEST"],
+      verifiedAt: "2026-08-23",
+      baseline: { sheet: "Coverage Audit", row: 2 }
+    }, {
+      id: "COVERAGE-COVERAGE-AUDIT-R3",
+      required: true,
+      outcome: "verified-applicable",
+      agency: "",
+      sectorId: "SEC-TEST",
+      beneficiary: "MSME",
+      enterpriseStage: "new",
+      supportType: "grant",
+      sourceIds: ["SOURCE-TEST"],
+      verifiedAt: "2026-08-23",
+      baseline: { sheet: "Coverage Audit", row: 3 }
+    }],
+    reviews: [{
+      id: "MAPPING-REVIEW-SECTOR-SCHEME-MAP-R2",
+      sectorId: "SEC-TEST",
+      schemeId: "SCH-TEST",
+      disposition: "made-up-disposition",
+      sourceIds: ["SOURCE-TEST"],
+      verifiedAt: "2026-08-23",
+      baseline: { sheet: "Sector-Scheme Map", row: 2 }
+    }, {
+      id: "MAPPING-REVIEW-SECTOR-SCHEME-MAP-R3",
+      sectorId: "SEC-TEST",
+      schemeId: "SCH-TEST",
+      sourceIds: ["SOURCE-TEST"],
+      verifiedAt: "2026-08-23",
+      baseline: { sheet: "Sector-Scheme Map", row: 3 }
+    }]
+  }), { asOf: "2026-08-25" });
+
+  assert.equal(qa.byCodes("COVERAGE_UNEXAMINED").length, 2);
+  assert.equal(qa.byCodes("MAPPING_UNREVIEWED").length, 2);
+});
+
+function completeRouteWorkbench({ schemeId = "SCH-TEST", claim = {}, status = {}, coverage = [], reviews = [] } = {}) {
+  return {
+    baseline: {
+      sheets: [{
+        name: "Scheme Master",
+        rows: [{
+          values: [schemeId, "Test route", "", "", "", "Open now"],
+          provenance: { sheet: "Scheme Master", row: 42 }
+        }]
+      }]
+    },
+    claims: {
+      claims: [{
+        id: `CLAIM-${schemeId}-EXISTENCE`,
+        subjectId: schemeId,
+        field: "existence",
+        value: "active",
+        sourceIds: ["SOURCE-TEST"],
+        locator: "baseline",
+        verifiedAt: "2026-08-23",
+        effectiveFrom: null,
+        effectiveTo: null,
+        evidenceGrade: "primary-summary",
+        confidence: "low",
+        baseline: { sheet: "Scheme Master", row: 42 },
+        ...claim
+      }],
+      statuses: [{
+        id: `STATUS-${schemeId}`,
+        subjectId: schemeId,
+        existence: "active",
+        intake: "continuous",
+        budget: "available",
+        sourceIds: ["SOURCE-TEST"],
+        verifiedAt: "2026-08-23",
+        validFrom: null,
+        validTo: null,
+        nextCheckAt: null,
+        confidence: "low",
+        baseline: { sheet: "Scheme Master", row: 42 },
+        ...status
+      }]
+    },
+    sources: { sources: [{ id: "SOURCE-TEST" }] },
+    coverage: { coverage },
+    mappingReview: { reviews, orphanSchemes: [] }
+  };
+}
 
 function assertNoGateDebt(qa, ...codes) {
   const errors = qa.byCodes(...codes);

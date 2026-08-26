@@ -7,6 +7,22 @@ const HARD_CLAIM_FIELDS = new Set([
   "applicationRoute",
   "deadline"
 ]);
+const EXISTENCE_VALUES = new Set(["active", "superseded", "withdrawn", "completed", "unconfirmed"]);
+const INTAKE_VALUES = new Set(["open", "continuous", "scheduled", "allocation-dependent", "closed", "unknown"]);
+const PUBLISHABLE_INTAKE_VALUES = new Set(["open", "continuous"]);
+const BUDGET_VALUES = new Set(["available", "annual-allocation", "exhausted", "not-applicable", "unknown"]);
+const COVERAGE_OUTCOMES = new Set([
+  "verified-applicable",
+  "verified-none",
+  "candidate-pending",
+  "not-relevant"
+]);
+const MAPPING_REVIEW_DISPOSITIONS = new Set([
+  "unreviewed",
+  "reviewed-applicable",
+  "reviewed-not-applicable",
+  "retired"
+]);
 
 export async function loadHpV2Workbench({ root }) {
   const ledgerDirectory = path.join(root, "research", "hp-v2");
@@ -28,9 +44,9 @@ export async function loadHpV2Workbench({ root }) {
 export async function runHpV2Qa(workbench, { asOf }) {
   const errors = [
     ...statusErrors(workbench, asOf),
-    ...hardClaimErrors(workbench),
-    ...coverageErrors(workbench),
-    ...mappingErrors(workbench)
+    ...hardClaimErrors(workbench, asOf),
+    ...coverageErrors(workbench, asOf),
+    ...mappingErrors(workbench, asOf)
   ].sort(compareErrors);
 
   return {
@@ -46,6 +62,7 @@ export async function runHpV2Qa(workbench, { asOf }) {
 function statusErrors(workbench, asOf) {
   const claimsBySubject = groupBy(workbench.claims?.claims ?? [], "subjectId");
   const statusesBySubject = groupBy(workbench.claims?.statuses ?? [], "subjectId");
+  const sourceIds = knownSourceIds(workbench);
 
   return schemeRows(workbench).flatMap((scheme) => {
     if (!isPublishableBaselineStatus(scheme.values[5])) return [];
@@ -55,11 +72,14 @@ function statusErrors(workbench, asOf) {
     const status = (statusesBySubject.get(subjectId) ?? [])[0];
     const errors = [];
 
-    if (!isCurrentClaim(existenceClaim, asOf)) {
+    if (!isCurrentExistenceClaim(existenceClaim, sourceIds, asOf)) {
       errors.push(error("MISSING_EXISTENCE", subjectId, baseline, "Publishable route lacks current existence evidence."));
     }
-    if (!status || !status.intake || !hasStatusEvidence(status) || status.intake === "allocation-dependent") {
+    if (!isCurrentPublishableIntake(status, sourceIds, asOf)) {
       errors.push(error("MISSING_INTAKE", subjectId, baseline, "Publishable route lacks current operative intake evidence."));
+    }
+    if (status && !BUDGET_VALUES.has(status.budget)) {
+      errors.push(error("INVALID_BUDGET_STATUS", subjectId, baseline, "Status budget facet must use an approved value."));
     }
     if (status?.intake === "open" && (!isIsoDate(status.nextCheckAt) || status.nextCheckAt < asOf)) {
       errors.push(error("STALE_OPEN_STATUS", subjectId, baseline, "Open route lacks a current status recheck deadline."));
@@ -68,9 +88,13 @@ function statusErrors(workbench, asOf) {
   });
 }
 
-function hardClaimErrors(workbench) {
+function hardClaimErrors(workbench, asOf) {
+  const sourceIds = knownSourceIds(workbench);
   return (workbench.claims?.claims ?? [])
-    .filter((claim) => HARD_CLAIM_FIELDS.has(claim.field) && claim.evidenceGrade !== "primary-operative")
+    .filter((claim) => HARD_CLAIM_FIELDS.has(claim.field) && (
+      claim.evidenceGrade !== "primary-operative" ||
+      !isCurrentEvidence(claim, sourceIds, asOf, "effective")
+    ))
     .map((claim) => error(
       "EVIDENCE_HARD_CLAIM",
       claim.subjectId,
@@ -80,9 +104,10 @@ function hardClaimErrors(workbench) {
     ));
 }
 
-function coverageErrors(workbench) {
+function coverageErrors(workbench, asOf) {
+  const sourceIds = knownSourceIds(workbench);
   return (workbench.coverage?.coverage ?? [])
-    .filter((coverage) => coverage.required && !hasExpandedCoverageDimensions(coverage))
+    .filter((coverage) => coverage.required && !isCompleteCoverage(coverage, sourceIds, asOf))
     .map((coverage) => error(
       "COVERAGE_UNEXAMINED",
       coverage.id,
@@ -91,9 +116,10 @@ function coverageErrors(workbench) {
     ));
 }
 
-function mappingErrors(workbench) {
+function mappingErrors(workbench, asOf) {
+  const sourceIds = knownSourceIds(workbench);
   const unreviewed = (workbench.mappingReview?.reviews ?? [])
-    .filter((review) => review.disposition === "unreviewed")
+    .filter((review) => !isCompleteMappingReview(review, sourceIds, asOf))
     .map((review) => error(
       "MAPPING_UNREVIEWED",
       review.schemeId ?? review.id,
@@ -121,17 +147,42 @@ function isPublishableBaselineStatus(status) {
   return status !== "Fresh window closed";
 }
 
-function isCurrentClaim(claim, asOf) {
+function isCurrentExistenceClaim(claim, sourceIds, asOf) {
   return Boolean(
-    claim?.sourceIds?.length &&
-    isIsoDate(claim.verifiedAt) &&
-    claim.verifiedAt <= asOf &&
-    (!claim.effectiveTo || (isIsoDate(claim.effectiveTo) && claim.effectiveTo >= asOf))
+    claim?.field === "existence" &&
+    claim.value === "active" &&
+    isCurrentEvidence(claim, sourceIds, asOf, "effective")
   );
 }
 
-function hasStatusEvidence(status) {
-  return Boolean(status.sourceIds?.length && isIsoDate(status.verifiedAt));
+function isCurrentPublishableIntake(status, sourceIds, asOf) {
+  return Boolean(
+    EXISTENCE_VALUES.has(status?.existence) &&
+    status.existence === "active" &&
+    INTAKE_VALUES.has(status.intake) &&
+    PUBLISHABLE_INTAKE_VALUES.has(status.intake) &&
+    isCurrentEvidence(status, sourceIds, asOf, "valid")
+  );
+}
+
+function isCurrentEvidence(record, sourceIds, asOf, rangePrefix) {
+  const startsAt = record?.[`${rangePrefix}From`];
+  const endsAt = record?.[`${rangePrefix}To`];
+  return Boolean(
+    hasResolvableSources(record?.sourceIds, sourceIds) &&
+    isIsoDate(record?.verifiedAt) &&
+    record.verifiedAt <= asOf &&
+    (!startsAt || (isIsoDate(startsAt) && startsAt <= asOf)) &&
+    (!endsAt || (isIsoDate(endsAt) && endsAt >= asOf))
+  );
+}
+
+function knownSourceIds(workbench) {
+  return new Set((workbench.sources?.sources ?? []).map((source) => source.id));
+}
+
+function hasResolvableSources(recordSourceIds, knownIds) {
+  return Boolean(recordSourceIds?.length && recordSourceIds.every((sourceId) => knownIds.has(sourceId)));
 }
 
 function isIsoDate(value) {
@@ -140,9 +191,27 @@ function isIsoDate(value) {
   return !Number.isNaN(date.valueOf()) && date.toISOString().slice(0, 10) === value;
 }
 
+function isCompleteCoverage(coverage, sourceIds, asOf) {
+  return COVERAGE_OUTCOMES.has(coverage.outcome) &&
+    isCurrentEvidence(coverage, sourceIds, asOf, "effective") &&
+    hasExpandedCoverageDimensions(coverage);
+}
+
 function hasExpandedCoverageDimensions(coverage) {
   return ["agency", "sectorId", "beneficiary", "enterpriseStage", "supportType"]
-    .every((field) => Boolean(coverage[field]));
+    .every((field) => typeof coverage[field] === "string" && coverage[field].trim().length > 0);
+}
+
+function isCompleteMappingReview(review, sourceIds, asOf) {
+  return MAPPING_REVIEW_DISPOSITIONS.has(review.disposition) &&
+    review.disposition !== "unreviewed" &&
+    nonEmptyString(review.sectorId) &&
+    nonEmptyString(review.schemeId) &&
+    isCurrentEvidence(review, sourceIds, asOf, "effective");
+}
+
+function nonEmptyString(value) {
+  return typeof value === "string" && value.trim().length > 0;
 }
 
 function groupBy(values, key) {
