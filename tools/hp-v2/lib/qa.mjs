@@ -9,7 +9,7 @@ const HARD_CLAIM_FIELDS = new Set([
 ]);
 const EXISTENCE_VALUES = new Set(["active", "superseded", "withdrawn", "completed", "unconfirmed"]);
 const INTAKE_VALUES = new Set(["open", "continuous", "scheduled", "allocation-dependent", "closed", "unknown"]);
-const PUBLISHABLE_INTAKE_VALUES = new Set(["open", "continuous"]);
+const PUBLISHABLE_INTAKE_VALUES = new Set(["open", "continuous", "scheduled", "allocation-dependent"]);
 const BUDGET_VALUES = new Set(["available", "annual-allocation", "exhausted", "not-applicable", "unknown"]);
 const COVERAGE_OUTCOMES = new Set([
   "verified-applicable",
@@ -90,18 +90,25 @@ function statusErrors(workbench, asOf) {
 
 function hardClaimErrors(workbench, asOf) {
   const sourceIds = knownSourceIds(workbench);
-  return (workbench.claims?.claims ?? [])
-    .filter((claim) => HARD_CLAIM_FIELDS.has(claim.field) && (
+  return (workbench.claims?.claims ?? []).flatMap((claim) => {
+    if (!HARD_CLAIM_FIELDS.has(claim.field)) return [];
+    if (claim.publicationTreatment === "indicative-only") {
+      return nonEmptyString(claim.limitation) ? [] : [error(
+        "INDICATIVE_CLAIM_WITHOUT_LIMITATION", claim.subjectId, claim.baseline,
+        "An indicative-only claim must state why operative evidence is unavailable.", claim.id
+      )];
+    }
+    return (
       claim.evidenceGrade !== "primary-operative" ||
       !isCurrentEvidence(claim, sourceIds, asOf, "effective")
-    ))
-    .map((claim) => error(
+    ) ? [error(
       "EVIDENCE_HARD_CLAIM",
       claim.subjectId,
       claim.baseline,
       `Hard ${claim.field} claim requires primary-operative evidence.`,
       claim.id
-    ));
+    )] : [];
+  });
 }
 
 function coverageErrors(workbench, asOf) {
@@ -127,6 +134,7 @@ function mappingErrors(workbench, asOf) {
       "Baseline mapping has not received an HP v2 applicability review."
     ));
   const orphans = (workbench.mappingReview?.orphanSchemes ?? [])
+    .filter((orphan) => !orphan.disposition || orphan.disposition === "unresolved")
     .map((orphan) => error(
       "ORPHAN_SCHEME",
       orphan.schemeId,

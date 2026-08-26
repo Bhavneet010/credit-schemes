@@ -6,108 +6,151 @@
       "kind": "renamed-scheme",
       "observedAt": "2026-08-26",
       "hpExample": "The Agriculture index labels the route HIM UNNATI YOJANA while its page describes the initiative as Him Krishi Yojana; the baseline already uses 'Him Unnati / Him Krishi cluster programme'.",
-      "sourceUrls": ["https://agriculture.hp.gov.in/en/scheme_category/state-en/", "https://agriculture.hp.gov.in/en/our-scheme/"],
+      "sourceUrls": [
+        "https://agriculture.hp.gov.in/en/scheme_category/state-en/",
+        "https://agriculture.hp.gov.in/en/our-scheme/"
+      ],
       "requiredRecordBehavior": "Keep one canonical scheme identity, store both official names as aliases, and do not count the page wording as a second scheme.",
-      "laterGeneralizationRequirement": "Add alias/successor fields and name-effective dates for all jurisdictions."
+      "laterGeneralizationRequirement": "Add alias/successor fields and name-effective dates for all jurisdictions.",
+      "generalizationDecision": "Carry into the generic State Pack as an explicit schema or workflow rule."
     },
     {
       "id": "METHOD-HP-COMPONENTS-AS-SCHEMES-MOFPI-SMDI",
       "kind": "components-presented-as-schemes",
       "observedAt": "2026-08-26",
       "hpExample": "MoFPI presents PMKSY and PMFME component trees as navigable scheme pages, while SMDI guidelines name five separately administered components under one parent scheme.",
-      "sourceUrls": ["https://www.mofpi.gov.in/", "https://www.pharmaceuticals.gov.in/sites/default/files/Final%20guidelines%20for%20SMDI-8.11.2024.pdf"],
+      "sourceUrls": [
+        "https://www.mofpi.gov.in/",
+        "https://www.pharmaceuticals.gov.in/sites/default/files/Final%20guidelines%20for%20SMDI-8.11.2024.pdf"
+      ],
       "requiredRecordBehavior": "Record the parent once and model components beneath it unless an independently operative application route justifies a component publication.",
-      "laterGeneralizationRequirement": "Require parent/component relationships and prevent component inflation in published counts."
+      "laterGeneralizationRequirement": "Require parent/component relationships and prevent component inflation in published counts.",
+      "generalizationDecision": "Carry into the generic State Pack as an explicit schema or workflow rule."
     },
     {
       "id": "METHOD-HP-INSTITUTIONAL-FINANCE-SCST",
       "kind": "institutional-finance",
       "observedAt": "2026-08-26",
       "hpExample": "The HP SC/ST Development Corporation index mixes its own Swarojgar/Study Loan routes with finance delivered in collaboration with NSFDC, NSTFDC and NSKFDC, and repeats HIMSWAVLAMBAN (PM-AJAY).",
-      "sourceUrls": ["https://hpscstdc.hp.gov.in/schemes"],
+      "sourceUrls": [
+        "https://hpscstdc.hp.gov.in/schemes"
+      ],
       "requiredRecordBehavior": "Separate scheme owner, funder/apex corporation, state channelising agency and lender; deduplicate repeated labels before publication.",
-      "laterGeneralizationRequirement": "Add reusable owner/funder/channel/lender roles for institutional-finance schemes."
+      "laterGeneralizationRequirement": "Add reusable owner/funder/channel/lender roles for institutional-finance schemes.",
+      "generalizationDecision": "Carry into the generic State Pack as an explicit schema or workflow rule."
     },
     {
       "id": "METHOD-HP-SEASONAL-CALL-MOFPI-IRRADIATION",
       "kind": "seasonal-call",
       "observedAt": "2026-08-26",
       "hpExample": "MoFPI's enduring Cold Chain component has a 2026 proposal call and corrigendum specifically for multi-product food irradiation units.",
-      "sourceUrls": ["https://www.mofpi.gov.in//en/Schemes/cold-chain/download-guidelines-0"],
+      "sourceUrls": [
+        "https://www.mofpi.gov.in//en/Schemes/cold-chain/download-guidelines-0"
+      ],
       "requiredRecordBehavior": "Keep the enduring scheme identity separate from each dated call/window and publish intake only from current call evidence.",
-      "laterGeneralizationRequirement": "Model calls/windows as time-bounded children of durable schemes."
+      "laterGeneralizationRequirement": "Model calls/windows as time-bounded children of durable schemes.",
+      "generalizationDecision": "Carry into the generic State Pack as an explicit schema or workflow rule."
     },
     {
       "id": "METHOD-HP-BROKEN-STARTUP-PORTAL",
       "kind": "broken-portal",
       "observedAt": "2026-08-26",
       "hpExample": "The dedicated Startup Himachal incentive-procedure URL returned HTTP 502 while the parent Emerging Himachal Single Window index remained live and linked Startup Himachal.",
-      "sourceUrls": ["https://www.emerginghimachal.hp.gov.in/startup/about/incentive-procedure/", "https://emerginghimachal.hp.gov.in/site/gis"],
+      "sourceUrls": [
+        "https://www.emerginghimachal.hp.gov.in/startup/about/incentive-procedure/",
+        "https://emerginghimachal.hp.gov.in/site/gis"
+      ],
       "requiredRecordBehavior": "Record failed-access for the broken endpoint, retain the parent-page lead, and do not infer current intake or verified-none.",
-      "laterGeneralizationRequirement": "Track endpoint-level retrieval outcomes separately from scheme-level existence."
+      "laterGeneralizationRequirement": "Track endpoint-level retrieval outcomes separately from scheme-level existence.",
+      "generalizationDecision": "Carry into the generic State Pack as an explicit schema or workflow rule."
     },
     {
       "id": "METHOD-HP-DISTRICT-TARGET-FISHERIES",
       "kind": "district-only-or-target-notice",
       "observedAt": "2026-08-26",
       "hpExample": "The Fisheries notice board carries a 2024 physical/financial target allotment for carp ponds and routes implementation through Assistant Directors/district offices.",
-      "sourceUrls": ["https://himachal.nic.in/fisheries/Content/AllNotifications"],
+      "sourceUrls": [
+        "https://himachal.nic.in/fisheries/Content/AllNotifications"
+      ],
       "requiredRecordBehavior": "Attach district/target notices to the state parent; do not convert each district allocation into a scheme, and require a current district check before saying intake is open.",
-      "laterGeneralizationRequirement": "Support geography-scoped intake and allocation evidence below a statewide scheme."
+      "laterGeneralizationRequirement": "Support geography-scoped intake and allocation evidence below a statewide scheme.",
+      "generalizationDecision": "Carry into the generic State Pack as an explicit schema or workflow rule."
     },
     {
       "id": "METHOD-HP-CONFLICTING-CARP-TITLES",
       "kind": "conflicting-titles",
       "observedAt": "2026-08-26",
       "hpExample": "The same official Fisheries stream lists 'New Scheme for Construction of Carp Fish Ponds including Input Cost' in August 2024 and 'Mukhyamantri Carp Matsya Palan Yojana' in November 2024.",
-      "sourceUrls": ["https://himachal.nic.in/fisheries/Content/AllNotifications"],
+      "sourceUrls": [
+        "https://himachal.nic.in/fisheries/Content/AllNotifications"
+      ],
       "requiredRecordBehavior": "Create both candidate labels, disposition the earlier title as a possible alias/successor only after comparing the SOPs, and publish no duplicate count.",
-      "laterGeneralizationRequirement": "Require document comparison before merging conflicting official titles."
+      "laterGeneralizationRequirement": "Require document comparison before merging conflicting official titles.",
+      "generalizationDecision": "Carry into the generic State Pack as an explicit schema or workflow rule."
     },
     {
       "id": "METHOD-HP-CROSS-DEPARTMENT-ETAXI",
       "kind": "cross-department-ownership",
       "observedAt": "2026-08-26",
       "hpExample": "The Transport notice board hosts the June 2026 e-Taxi application link but explicitly says the scheme was launched by Labour, Employment and Overseas Placement; earlier SOP material assigns subsidy processing to Labour and vehicle deployment to Transport.",
-      "sourceUrls": ["https://himachal.nic.in/transport/Content/AllNotifications"],
+      "sourceUrls": [
+        "https://himachal.nic.in/transport/Content/AllNotifications"
+      ],
       "requiredRecordBehavior": "Use one RGSSY component record with distinct owner, intake host, subsidy processor and deployment channel rather than duplicating by department.",
-      "laterGeneralizationRequirement": "Represent multi-agency operational roles independently of the scheme owner."
+      "laterGeneralizationRequirement": "Represent multi-agency operational roles independently of the scheme owner.",
+      "generalizationDecision": "Carry into the generic State Pack as an explicit schema or workflow rule."
     },
     {
       "id": "METHOD-HP-SERVICE-ENDPOINT-NOT-SCHEME",
       "kind": "application-endpoint-versus-scheme",
       "observedAt": "2026-08-26",
       "hpExample": "The HP eServices directory exposes application links for Doodh Protsahan Yojana and Him Kukkut Palan Yojna, but the directory itself does not state operative benefit terms or window dates.",
-      "sourceUrls": ["https://himachalservices.nic.in/en-IN/"],
+      "sourceUrls": [
+        "https://himachalservices.nic.in/en-IN/"
+      ],
       "requiredRecordBehavior": "Use service endpoints as application-route/intake leads only; require the department notification or guideline for hard claims.",
-      "laterGeneralizationRequirement": "Grade portal endpoints separately from operative scheme instruments."
+      "laterGeneralizationRequirement": "Grade portal endpoints separately from operative scheme instruments.",
+      "generalizationDecision": "Carry into the generic State Pack as an explicit schema or workflow rule."
     },
     {
       "id": "METHOD-HP-STALE-OFFICIAL-HBCFDC",
       "kind": "stale-official-index",
       "observedAt": "2026-08-26",
       "hpExample": "The official HBCFDC scheme page is accessible but search metadata and displayed income/loan limits appear materially old, while it still names General Loan, Swarnima and education routes.",
-      "sourceUrls": ["https://himachalservices.nic.in/hbcfdc/schemes.htm"],
+      "sourceUrls": [
+        "https://himachalservices.nic.in/hbcfdc/schemes.htm"
+      ],
       "requiredRecordBehavior": "Record candidates and the official index check, but do not publish current amounts, eligibility or intake without a recent operative source.",
-      "laterGeneralizationRequirement": "Distinguish official provenance from temporal currency and require recency for hard claims."
+      "laterGeneralizationRequirement": "Distinguish official provenance from temporal currency and require recency for hard claims.",
+      "generalizationDecision": "Carry into the generic State Pack as an explicit schema or workflow rule."
     },
     {
       "id": "METHOD-HP-FAILED-ACCESS-NOT-VERIFIED-NONE",
       "kind": "failed-access-semantics",
       "observedAt": "2026-08-26",
       "hpExample": "The bounded sweep could not retrieve the HPSRLM, Urban Development, Forest and Cooperation portals; the failures did not establish absence of additional routes.",
-      "sourceUrls": ["https://hpsrlm.gov.in/", "https://ud.hp.gov.in/", "https://hpforest.gov.in/", "https://himachal.nic.in/cooperation/"],
+      "sourceUrls": [
+        "https://hpsrlm.gov.in/",
+        "https://ud.hp.gov.in/",
+        "https://hpforest.gov.in/",
+        "https://himachal.nic.in/cooperation/"
+      ],
       "requiredRecordBehavior": "Mark the index check failed-access with a near-term retry and keep coverage candidate-pending; never emit verified-none from a retrieval failure.",
-      "laterGeneralizationRequirement": "Make verified-none contingent on a successful official sweep and store endpoint failure evidence."
+      "laterGeneralizationRequirement": "Make verified-none contingent on a successful official sweep and store endpoint failure evidence.",
+      "generalizationDecision": "Carry into the generic State Pack as an explicit schema or workflow rule."
     },
     {
       "id": "METHOD-HP-BUDGET-SUMMARY-NOT-OPERATIVE",
       "kind": "budget-and-survey-leads",
       "observedAt": "2026-08-26",
       "hpExample": "The FY 2026-27 Budget index and Economic Survey 2025-26 summarise programme activity and allocations across departments but do not by themselves establish current applicant intake.",
-      "sourceUrls": ["https://himachal.nic.in/finance/Content/MenuFormContent?qs=EFjSG8GfYpC%2B6nTyBLtINjnT5y90ksoC", "https://himachalservices.nic.in/economics/en-IN/economic-survey-2025-26.html"],
+      "sourceUrls": [
+        "https://himachal.nic.in/finance/Content/MenuFormContent?qs=EFjSG8GfYpC%2B6nTyBLtINjnT5y90ksoC",
+        "https://himachalservices.nic.in/economics/en-IN/economic-survey-2025-26.html"
+      ],
       "requiredRecordBehavior": "Allow these sources to create/reconcile leads and budget facets only; require department operative evidence for eligibility, benefit and intake claims.",
-      "laterGeneralizationRequirement": "Keep existence/budget/intake evidence facets distinct across all state workbooks."
+      "laterGeneralizationRequirement": "Keep existence/budget/intake evidence facets distinct across all state workbooks.",
+      "generalizationDecision": "Carry into the generic State Pack as an explicit schema or workflow rule."
     }
   ]
 }

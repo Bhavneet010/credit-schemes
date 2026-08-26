@@ -167,8 +167,8 @@
       "url": "https://www.emerginghimachal.hp.gov.in/startup/about/incentive-procedure/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R8-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R8-ELIGIBILITY",
@@ -211,8 +211,8 @@
       "url": "https://agriculture.hp.gov.in/en/our-scheme/mukhya-mantri-krishi-samvardhan-yojna/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R13-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R13-ELIGIBILITY",
@@ -235,8 +235,8 @@
       "url": "https://agriculture.hp.gov.in/en/our-scheme/state-agricultural-mechanisation/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R15-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R15-ELIGIBILITY",
@@ -259,8 +259,8 @@
       "url": "https://agriculture.hp.gov.in/en/our-scheme/flow-irrigation-scheme/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R17-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R17-ELIGIBILITY",
@@ -283,8 +283,8 @@
       "url": "https://agriculture.hp.gov.in/en/our-scheme/prakritik-kheti-khushhal-kisan-yojna/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R18-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R18-ELIGIBILITY",
@@ -307,8 +307,8 @@
       "url": "https://agriculture.hp.gov.in/en/our-scheme/him-unnati-yojana/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - cluster or project area.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R19-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R19-ELIGIBILITY",
@@ -331,8 +331,8 @@
       "url": "https://agriculture.hp.gov.in/en/our-scheme/scheme-to-support-technology-transfer/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R22-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R22-ELIGIBILITY",
@@ -355,8 +355,8 @@
       "url": "https://agriculture.hp.gov.in/en/our-scheme/pm-kusum/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R23-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R23-ELIGIBILITY",
@@ -456,8 +456,8 @@
       "url": "https://www.kviconline.gov.in/pmegpeportal/pmegphome/index.jsp",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - bank or continuous route.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R41-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R41-ELIGIBILITY",
@@ -576,8 +576,8 @@
       "url": "https://sclcss.msme.gov.in/Common/Home.aspx",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - bank or continuous route.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R46-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R46-ELIGIBILITY",
@@ -658,8 +658,8 @@
       "url": "https://lean.msme.gov.in/Home/FinancialAssistance",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - bank or continuous route.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R50-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R50-ELIGIBILITY",
@@ -682,8 +682,8 @@
       "url": "https://ramp.msme.gov.in/ramp/index.php/RAMP-initiative/mse-gift/gift-interest-subvention",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R51-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R51-ELIGIBILITY",
@@ -706,8 +706,8 @@
       "url": "https://ramp.msme.gov.in/ramp/RAMP-initiative/mse-spice/mse-spice",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - bank or continuous route.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [],
       "statusIds": []
     },
@@ -723,8 +723,8 @@
       "url": "https://ramp.msme.gov.in/ramp/RAMP-initiative/msme-team-initiative/msme-team-initiative",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R53-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R53-ELIGIBILITY",
@@ -747,8 +747,8 @@
       "url": "https://adeetie.beeindia.gov.in/adeetie-scheme",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R54-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R54-ELIGIBILITY",
@@ -795,8 +795,8 @@
       "url": "https://msme.gov.in/public-procurement-policy",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R56-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R56-ELIGIBILITY",
@@ -843,8 +843,8 @@
       "url": "https://www.msme.gov.in/offerings/schemes-and-services",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R58-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R58-ELIGIBILITY",
@@ -867,8 +867,8 @@
       "url": "https://www.msme.gov.in/offerings",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R59-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R59-ELIGIBILITY",
@@ -944,8 +944,8 @@
       "url": "https://www.sidbi.in/en/treds",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R63-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R63-ELIGIBILITY",
@@ -992,8 +992,8 @@
       "url": "https://www.startupindia.gov.in/content/sih/en/credit-guarantee-scheme-for-startups.html",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [],
       "statusIds": []
     },
@@ -1033,8 +1033,8 @@
       "url": "https://www.sidbi.in/en/prayaas",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R67-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R67-ELIGIBILITY",
@@ -1057,8 +1057,8 @@
       "url": "https://www.sidbi.in/en/business-loan",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R68-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R68-ELIGIBILITY",
@@ -1105,8 +1105,8 @@
       "url": "https://dashboard.msme.gov.in/sri_fund.aspx",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R70-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R70-ELIGIBILITY",
@@ -1276,8 +1276,8 @@
       "url": "https://www.pharma-dept.gov.in/schemes/scheme-strengthening-pharmaceuticals-industry-spi",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Status unconfirmed.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R78-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R78-ELIGIBILITY",
@@ -1300,8 +1300,8 @@
       "url": "https://pharma-dept.gov.in/schemes/scheme-strengthening-medical-device-industry",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R79-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R79-ELIGIBILITY",
@@ -1396,8 +1396,8 @@
       "url": "https://www.idex.gov.in/faq",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R85-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R85-ELIGIBILITY",
@@ -1574,8 +1574,8 @@
       "url": "https://agriculture.hp.gov.in/en/our-scheme/pradhanmantri-fasal-bima-yojna-pmfby/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R93-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R93-ELIGIBILITY",
@@ -1598,8 +1598,8 @@
       "url": "https://agriculture.hp.gov.in/en/guidelines-english/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R94-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R94-ELIGIBILITY",
@@ -1651,8 +1651,8 @@
       "url": "https://agriculture.hp.gov.in/en/scheme_category/center-en/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R97-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R97-ELIGIBILITY",
@@ -1714,8 +1714,8 @@
       "url": "https://dahd.gov.in/en/schemes/programmes/national_livestock_mission",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - bank or continuous route.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [],
       "statusIds": []
     },
@@ -1731,8 +1731,8 @@
       "url": "https://monitor.dahd.gov.in/rashtriya-gokul-mission",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R104-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R104-ELIGIBILITY",
@@ -1755,8 +1755,8 @@
       "url": "https://www.dahd.gov.in/en/schemes/programmes/ahidf",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Status unconfirmed.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [],
       "statusIds": []
     },
@@ -1772,8 +1772,8 @@
       "url": "https://www.dahd.gov.in/schemes/programmes/sdcfpo",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R106-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R106-ELIGIBILITY",
@@ -1820,8 +1820,8 @@
       "url": "https://www.dof.gov.in/offerings/schemes-and-services/details/pmmkssy-2-cTN5ETMtQWa",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R108-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R108-ELIGIBILITY",
@@ -1844,8 +1844,8 @@
       "url": "https://www.dof.gov.in/offerings/schemes-and-services/details/fidf-2-kTN5ETMtQWa",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Status unconfirmed.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [],
       "statusIds": []
     },
@@ -1957,8 +1957,8 @@
       "url": "https://hpscstdc.hp.gov.in/scheme/swarojgar-yojna",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - bank or continuous route.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R114-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R114-ELIGIBILITY",
@@ -1981,8 +1981,8 @@
       "url": "https://nstfdc.tribal.gov.in/frm_term_loan.aspx",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R115-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R115-ELIGIBILITY",
@@ -2005,8 +2005,8 @@
       "url": "https://nbcfdc.gov.in/nbcfdc/web/node/65",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R116-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R116-ELIGIBILITY",
@@ -2029,8 +2029,8 @@
       "url": "https://nbcfdc.gov.in/nbcfdc/web/loan-scheme-description",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R117-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R117-ELIGIBILITY",
@@ -2053,8 +2053,8 @@
       "url": "https://www.nmdfc.org/faq",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R118-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R118-ELIGIBILITY",
@@ -2077,8 +2077,8 @@
       "url": "https://agriculture.hp.gov.in/en/our-scheme/national-project-on-management-of-soil-health-and-fertility/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R119-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R119-ELIGIBILITY",
@@ -2101,8 +2101,8 @@
       "url": "https://agriculture.hp.gov.in/en/our-scheme/national-food-security-mission-nfsm/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R120-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R120-ELIGIBILITY",
@@ -2125,8 +2125,8 @@
       "url": "https://agriculture.hp.gov.in/en/our-scheme/krishonnati-yojana/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R121-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R121-ELIGIBILITY",
@@ -2149,8 +2149,8 @@
       "url": "https://agriculture.hp.gov.in/en/our-scheme/agroforestry/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R122-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R122-ELIGIBILITY",
@@ -2341,8 +2341,8 @@
       "url": "https://enam.gov.in/web/Enam_ctrl/enam_registration",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R130-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R130-ELIGIBILITY",
@@ -2629,8 +2629,8 @@
       "url": "https://nmpb.nic.in/content/prioritised-list-medicinal-plants-cultivation",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - cluster or project area.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R142-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R142-ELIGIBILITY",
@@ -2653,8 +2653,8 @@
       "url": "https://dahd.gov.in/schemes/programmes/npdd",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R147-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R147-ELIGIBILITY",
@@ -2825,8 +2825,8 @@
       "url": "https://handicrafts.nic.in/schemes.aspx",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R161-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R161-ELIGIBILITY",
@@ -2926,8 +2926,8 @@
       "url": "https://www.meity.gov.in/offerings/schemes-and-services/details/technology-incubation-and-development-of-entrepreneurs-QMwEjNtQWa",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - cluster or project area.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R166-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R166-ELIGIBILITY",
@@ -2974,8 +2974,8 @@
       "url": "https://chips-dli.gov.in/DLI/EDANew",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Active - cluster or project area.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R168-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R168-ELIGIBILITY",
@@ -3166,8 +3166,8 @@
       "url": "https://pmedrive.heavyindustries.gov.in/about-us",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Open now.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R176-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R176-ELIGIBILITY",
@@ -3315,8 +3315,8 @@
       "url": "https://apeda.gov.in/market-development",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Scheme evidence; status: Fresh window closed.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R183-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R183-ELIGIBILITY",
@@ -3747,8 +3747,8 @@
       "url": "https://agriculture.hp.gov.in/en/our-scheme/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R14-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R14-ELIGIBILITY",
@@ -3771,8 +3771,8 @@
       "url": "https://agriculture.hp.gov.in/en/our-scheme/pradhan-mantri-kisan-urja-suraksha-evem-utthan-mahabhiyan-yojna-pm-kusum/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [],
       "statusIds": []
     },
@@ -3822,8 +3822,8 @@
       "url": "https://dahd.gov.in/en/schemes/programmes/rashtriya_gokul_mission",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [],
       "statusIds": []
     },
@@ -3962,8 +3962,8 @@
       "url": "https://industry.kerala.gov.in/index.php/schemes-mainmenu/pmegp-schemes",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [],
       "statusIds": []
     },
@@ -4020,8 +4020,8 @@
       "url": "https://lakhpatididi.gov.in/financial-assistance/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R148-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R148-ELIGIBILITY",
@@ -4049,8 +4049,8 @@
       "url": "https://milannmdfc.org/NMDFC_SCHEME.aspx",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [],
       "statusIds": []
     },
@@ -4066,8 +4066,8 @@
       "url": "https://nbcfdc.gov.in/nbcfdc/web/general-loan",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [],
       "statusIds": []
     },
@@ -4124,8 +4124,8 @@
       "url": "https://pharma-dept.gov.in/schemes",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [],
       "statusIds": []
     },
@@ -4308,8 +4308,8 @@
       "url": "https://www.ddpmod.gov.in/offerings/schemes-and-services/idex",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [],
       "statusIds": []
     },
@@ -4451,8 +4451,8 @@
       "url": "https://www.newsonair.gov.in/fm-nirmala-sitharaman-announces-revamped-stand-up-india-scheme-for-sc-st-and-women-entrepreneurs",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [],
       "statusIds": []
     },
@@ -4768,8 +4768,8 @@
       "url": "https://zed.msme.gov.in/subsidy-on-cost-of-certification",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [
         "CLAIM-SCHEME-MASTER-R49-EXISTENCE",
         "CLAIM-SCHEME-MASTER-R49-ELIGIBILITY",
@@ -4816,10 +4816,124 @@
       "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-extension-of-fisheries-and-aquaculture-infrastructure-development-fund-fidf/",
       "publishedAt": null,
       "retrievedAt": "2026-08-23",
-      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
-      "classification": "official-unclassified",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
       "claimIds": [],
       "statusIds": []
+    },
+    {
+      "id": "SOURCE-SCH-HP-HIMSWAVLAMBAN-PM-AJAY",
+      "title": "HIMSWAVLAMBAN (PM-AJAY)",
+      "issuer": "Himachal Pradesh SC/ST Development Corporation",
+      "url": "https://hpscstdc.hp.gov.in/schemes/pm-ajay",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
+      "claimIds": [
+        "CLAIM-SCH-HP-HIMSWAVLAMBAN-PM-AJAY-EXISTENCE",
+        "CLAIM-SCH-HP-HIMSWAVLAMBAN-PM-AJAY-ELIGIBLEAPPLICANTS",
+        "CLAIM-SCH-HP-HIMSWAVLAMBAN-PM-AJAY-KEYBENEFIT",
+        "CLAIM-SCH-HP-HIMSWAVLAMBAN-PM-AJAY-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCH-HP-HIMSWAVLAMBAN-PM-AJAY"
+      ]
+    },
+    {
+      "id": "SOURCE-SCH-HP-ADIWASI-MAHILA-MICROCREDIT",
+      "title": "Adiwasi Mahila Sashaktikaran / Micro Credit Scheme",
+      "issuer": "Himachal Pradesh SC/ST Development Corporation / NSTFDC",
+      "url": "https://hpscstdc.hp.gov.in/schemes/adiwasi-mahila-sashaktikaran-yojna",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
+      "claimIds": [
+        "CLAIM-SCH-HP-ADIWASI-MAHILA-MICROCREDIT-EXISTENCE",
+        "CLAIM-SCH-HP-ADIWASI-MAHILA-MICROCREDIT-ELIGIBLEAPPLICANTS",
+        "CLAIM-SCH-HP-ADIWASI-MAHILA-MICROCREDIT-KEYBENEFIT",
+        "CLAIM-SCH-HP-ADIWASI-MAHILA-MICROCREDIT-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCH-HP-ADIWASI-MAHILA-MICROCREDIT"
+      ]
+    },
+    {
+      "id": "SOURCE-SCH-HP-NSKFDC-MCF-MSY",
+      "title": "NSKFDC Micro Credit Finance / Mahila Samridhi Yojana",
+      "issuer": "Himachal Pradesh SC/ST Development Corporation / NSKFDC",
+      "url": "https://hpscstdc.hp.gov.in/scheme/micro-credit-finance-schemesmcfmsy",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
+      "claimIds": [
+        "CLAIM-SCH-HP-NSKFDC-MCF-MSY-EXISTENCE",
+        "CLAIM-SCH-HP-NSKFDC-MCF-MSY-ELIGIBLEAPPLICANTS",
+        "CLAIM-SCH-HP-NSKFDC-MCF-MSY-KEYBENEFIT",
+        "CLAIM-SCH-HP-NSKFDC-MCF-MSY-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCH-HP-NSKFDC-MCF-MSY"
+      ]
+    },
+    {
+      "id": "SOURCE-SCH-HP-HPMVN-SWAROJGAR",
+      "title": "Mahila Vikas Nigam Swarojgar Yojna",
+      "issuer": "Himachal Pradesh Mahila Vikas Nigam",
+      "url": "https://hpscstdc.hp.gov.in/hpmvn/schemes",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
+      "claimIds": [
+        "CLAIM-SCH-HP-HPMVN-SWAROJGAR-EXISTENCE",
+        "CLAIM-SCH-HP-HPMVN-SWAROJGAR-ELIGIBLEAPPLICANTS",
+        "CLAIM-SCH-HP-HPMVN-SWAROJGAR-KEYBENEFIT",
+        "CLAIM-SCH-HP-HPMVN-SWAROJGAR-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCH-HP-HPMVN-SWAROJGAR"
+      ]
+    },
+    {
+      "id": "SOURCE-SCH-HP-MINORITY-TERM-LOAN",
+      "title": "HP Minorities Finance and Development Corporation Term Loan",
+      "issuer": "HP Minorities Finance and Development Corporation / NMDFC",
+      "url": "https://minority.hp.gov.in/page/SCHEMES.aspx",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "classification": "primary-operative",
+      "claimIds": [
+        "CLAIM-SCH-HP-MINORITY-TERM-LOAN-EXISTENCE",
+        "CLAIM-SCH-HP-MINORITY-TERM-LOAN-ELIGIBLEAPPLICANTS",
+        "CLAIM-SCH-HP-MINORITY-TERM-LOAN-KEYBENEFIT",
+        "CLAIM-SCH-HP-MINORITY-TERM-LOAN-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCH-HP-MINORITY-TERM-LOAN"
+      ]
+    },
+    {
+      "id": "SOURCE-SCH-HP-MUKHYAMANTRI-CARP-MATSYA-PALAN",
+      "title": "Mukhyamantri Carp Matsya Palan Yojana",
+      "issuer": "Department of Fisheries, Himachal Pradesh",
+      "url": "https://himachal.nic.in/fisheries/Content/AllNotifications",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "locator": "Current issuing-body scheme page, application page, or operative notification index.",
+      "classification": "primary-operative",
+      "claimIds": [
+        "CLAIM-SCH-HP-MUKHYAMANTRI-CARP-MATSYA-PALAN-EXISTENCE",
+        "CLAIM-SCH-HP-MUKHYAMANTRI-CARP-MATSYA-PALAN-ELIGIBLEAPPLICANTS",
+        "CLAIM-SCH-HP-MUKHYAMANTRI-CARP-MATSYA-PALAN-KEYBENEFIT",
+        "CLAIM-SCH-HP-MUKHYAMANTRI-CARP-MATSYA-PALAN-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-SCH-HP-MUKHYAMANTRI-CARP-MATSYA-PALAN"
+      ]
     }
   ],
   "agencyInventory": [
@@ -4828,12 +4942,41 @@
       "issuer": "Department of Industries, Himachal Pradesh",
       "title": "Single Window Clearance System — schemes, policies, incentives and notices",
       "url": "https://emerginghimachal.hp.gov.in/site/gis",
-      "categories": ["industries-single-window", "startup-incubation", "food-processing"],
-      "sectors": ["industry", "MSME", "startup", "food processing", "handloom and sericulture"],
-      "beneficiaryTags": ["entrepreneur", "MSME", "startup", "weaver society"],
-      "supportTags": ["capital subsidy", "interest subsidy", "incentive", "training", "market access"],
-      "agencyMatchTerms": ["industries department", "department of industries", "startup himachal", "sericulture"],
-      "aliases": ["HP Industries Department / Single Window", "Verification source"],
+      "categories": [
+        "industries-single-window",
+        "startup-incubation",
+        "food-processing"
+      ],
+      "sectors": [
+        "industry",
+        "MSME",
+        "startup",
+        "food processing",
+        "handloom and sericulture"
+      ],
+      "beneficiaryTags": [
+        "entrepreneur",
+        "MSME",
+        "startup",
+        "weaver society"
+      ],
+      "supportTags": [
+        "capital subsidy",
+        "interest subsidy",
+        "incentive",
+        "training",
+        "market access"
+      ],
+      "agencyMatchTerms": [
+        "industries department",
+        "department of industries",
+        "startup himachal",
+        "sericulture"
+      ],
+      "aliases": [
+        "HP Industries Department / Single Window",
+        "Verification source"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "candidates-found",
@@ -4845,12 +4988,47 @@
       "issuer": "Department of Agriculture, Himachal Pradesh",
       "title": "State-sponsored scheme index",
       "url": "https://agriculture.hp.gov.in/en/scheme_category/state-en/",
-      "categories": ["agriculture", "district-cluster-channels"],
-      "sectors": ["agriculture", "farm mechanisation", "irrigation", "natural farming"],
-      "beneficiaryTags": ["farmer", "farm labourer", "farmer group", "cluster"],
-      "supportTags": ["subsidy", "infrastructure", "technology transfer", "insurance", "extension"],
-      "agencyMatchTerms": ["agriculture department", "department of agriculture", "district atma", "agriculture ministry", "da&fw", "sfac", "manage", "national bee board", "aif portal", "e-nam", "wdra"],
-      "aliases": ["HP Department of Agriculture", "HP Agriculture – current guidelines", "Agriculture/Horticulture Department"],
+      "categories": [
+        "agriculture",
+        "district-cluster-channels"
+      ],
+      "sectors": [
+        "agriculture",
+        "farm mechanisation",
+        "irrigation",
+        "natural farming"
+      ],
+      "beneficiaryTags": [
+        "farmer",
+        "farm labourer",
+        "farmer group",
+        "cluster"
+      ],
+      "supportTags": [
+        "subsidy",
+        "infrastructure",
+        "technology transfer",
+        "insurance",
+        "extension"
+      ],
+      "agencyMatchTerms": [
+        "agriculture department",
+        "department of agriculture",
+        "district atma",
+        "agriculture ministry",
+        "da&fw",
+        "sfac",
+        "manage",
+        "national bee board",
+        "aif portal",
+        "e-nam",
+        "wdra"
+      ],
+      "aliases": [
+        "HP Department of Agriculture",
+        "HP Agriculture – current guidelines",
+        "Agriculture/Horticulture Department"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "candidates-found",
@@ -4862,12 +5040,42 @@
       "issuer": "Department of Agriculture, Himachal Pradesh",
       "title": "Centrally sponsored scheme index",
       "url": "https://agriculture.hp.gov.in/en/scheme_category/center-en/",
-      "categories": ["agriculture", "central-implementing-bodies"],
-      "sectors": ["agriculture", "agroforestry", "bamboo", "farm infrastructure"],
-      "beneficiaryTags": ["farmer", "FPO", "agri-entrepreneur"],
-      "supportTags": ["credit", "subsidy", "infrastructure", "capacity building"],
-      "agencyMatchTerms": ["rkvy", "smam", "national bamboo", "nmnf", "nmeo", "pulses mission", "nabard", "nafed", "nccf"],
-      "aliases": ["Agriculture Department / insurer", "Eligible bank / NABARD"],
+      "categories": [
+        "agriculture",
+        "central-implementing-bodies"
+      ],
+      "sectors": [
+        "agriculture",
+        "agroforestry",
+        "bamboo",
+        "farm infrastructure"
+      ],
+      "beneficiaryTags": [
+        "farmer",
+        "FPO",
+        "agri-entrepreneur"
+      ],
+      "supportTags": [
+        "credit",
+        "subsidy",
+        "infrastructure",
+        "capacity building"
+      ],
+      "agencyMatchTerms": [
+        "rkvy",
+        "smam",
+        "national bamboo",
+        "nmnf",
+        "nmeo",
+        "pulses mission",
+        "nabard",
+        "nafed",
+        "nccf"
+      ],
+      "aliases": [
+        "Agriculture Department / insurer",
+        "Eligible bank / NABARD"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "candidates-found",
@@ -4879,12 +5087,36 @@
       "issuer": "Department of Horticulture, Himachal Pradesh",
       "title": "eUdyan horticulture policy and service index",
       "url": "https://eudyan.hp.gov.in/cms/en/advisory",
-      "categories": ["horticulture"],
-      "sectors": ["horticulture", "nursery", "post-harvest"],
-      "beneficiaryTags": ["orchardist", "farmer", "nursery", "FPO"],
-      "supportTags": ["subsidy", "advisory", "infrastructure", "insurance"],
-      "agencyMatchTerms": ["horticulture department", "department of horticulture", "horticulture board"],
-      "aliases": ["HP Department of Horticulture", "NHB", "NHB / bank"],
+      "categories": [
+        "horticulture"
+      ],
+      "sectors": [
+        "horticulture",
+        "nursery",
+        "post-harvest"
+      ],
+      "beneficiaryTags": [
+        "orchardist",
+        "farmer",
+        "nursery",
+        "FPO"
+      ],
+      "supportTags": [
+        "subsidy",
+        "advisory",
+        "infrastructure",
+        "insurance"
+      ],
+      "agencyMatchTerms": [
+        "horticulture department",
+        "department of horticulture",
+        "horticulture board"
+      ],
+      "aliases": [
+        "HP Department of Horticulture",
+        "NHB",
+        "NHB / bank"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "verified-none",
@@ -4896,12 +5128,34 @@
       "issuer": "Government of Himachal Pradesh eServices / Department of Animal Husbandry",
       "title": "Animal Husbandry citizen-service and scheme links",
       "url": "https://himachalservices.nic.in/en-IN/",
-      "categories": ["animal-husbandry"],
-      "sectors": ["dairy", "poultry", "livestock"],
-      "beneficiaryTags": ["livestock farmer", "dairy farmer", "poultry farmer"],
-      "supportTags": ["subsidy", "input support", "service delivery"],
-      "agencyMatchTerms": ["animal husbandry", "dahd", "dairy agency", "milkfed"],
-      "aliases": ["HP Department of Animal Husbandry", "Department of Animal Husbandry and Dairying"],
+      "categories": [
+        "animal-husbandry"
+      ],
+      "sectors": [
+        "dairy",
+        "poultry",
+        "livestock"
+      ],
+      "beneficiaryTags": [
+        "livestock farmer",
+        "dairy farmer",
+        "poultry farmer"
+      ],
+      "supportTags": [
+        "subsidy",
+        "input support",
+        "service delivery"
+      ],
+      "agencyMatchTerms": [
+        "animal husbandry",
+        "dahd",
+        "dairy agency",
+        "milkfed"
+      ],
+      "aliases": [
+        "HP Department of Animal Husbandry",
+        "Department of Animal Husbandry and Dairying"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "candidates-found",
@@ -4913,12 +5167,37 @@
       "issuer": "Department of Fisheries, Himachal Pradesh",
       "title": "Fisheries schemes and notice-board index",
       "url": "https://himachal.nic.in/fisheries",
-      "categories": ["fisheries", "district-cluster-channels"],
-      "sectors": ["aquaculture", "trout", "carp", "reservoir fisheries"],
-      "beneficiaryTags": ["fish farmer", "fisher cooperative", "youth entrepreneur"],
-      "supportTags": ["pond subsidy", "input support", "insurance", "infrastructure", "training"],
-      "agencyMatchTerms": ["department of fisheries", "fisheries board", "aquaculture"],
-      "aliases": ["HP Department of Fisheries", "National Fisheries Development Board"],
+      "categories": [
+        "fisheries",
+        "district-cluster-channels"
+      ],
+      "sectors": [
+        "aquaculture",
+        "trout",
+        "carp",
+        "reservoir fisheries"
+      ],
+      "beneficiaryTags": [
+        "fish farmer",
+        "fisher cooperative",
+        "youth entrepreneur"
+      ],
+      "supportTags": [
+        "pond subsidy",
+        "input support",
+        "insurance",
+        "infrastructure",
+        "training"
+      ],
+      "agencyMatchTerms": [
+        "department of fisheries",
+        "fisheries board",
+        "aquaculture"
+      ],
+      "aliases": [
+        "HP Department of Fisheries",
+        "National Fisheries Development Board"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "candidates-found",
@@ -4930,12 +5209,35 @@
       "issuer": "Himachal Pradesh State Rural Livelihoods Mission",
       "title": "HPSRLM official portal",
       "url": "https://hpsrlm.gov.in/",
-      "categories": ["rural-development-nrlm"],
-      "sectors": ["rural livelihoods", "microenterprise", "SHG enterprise"],
-      "beneficiaryTags": ["women SHG", "rural poor", "village entrepreneur"],
-      "supportTags": ["revolving fund", "community investment fund", "interest support", "enterprise incubation"],
-      "agencyMatchTerms": ["hpsrlm", "rural development", "day-nrlm", "watershed"],
-      "aliases": ["Himachal Pradesh State Rural Livelihoods Mission", "Ministry of Rural Development – DAY-NRLM"],
+      "categories": [
+        "rural-development-nrlm"
+      ],
+      "sectors": [
+        "rural livelihoods",
+        "microenterprise",
+        "SHG enterprise"
+      ],
+      "beneficiaryTags": [
+        "women SHG",
+        "rural poor",
+        "village entrepreneur"
+      ],
+      "supportTags": [
+        "revolving fund",
+        "community investment fund",
+        "interest support",
+        "enterprise incubation"
+      ],
+      "agencyMatchTerms": [
+        "hpsrlm",
+        "rural development",
+        "day-nrlm",
+        "watershed"
+      ],
+      "aliases": [
+        "Himachal Pradesh State Rural Livelihoods Mission",
+        "Ministry of Rural Development – DAY-NRLM"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "failed-access",
@@ -4947,12 +5249,31 @@
       "issuer": "Urban Development Department, Himachal Pradesh",
       "title": "Urban Development official portal",
       "url": "https://ud.hp.gov.in/",
-      "categories": ["urban-development"],
-      "sectors": ["urban livelihoods", "street vending", "municipal enterprise"],
-      "beneficiaryTags": ["street vendor", "urban self-employed", "ULB enterprise"],
-      "supportTags": ["working-capital loan", "interest subsidy", "municipal facilitation"],
-      "agencyMatchTerms": ["urban development", "mohua"],
-      "aliases": ["ULB / lender / MoHUA"],
+      "categories": [
+        "urban-development"
+      ],
+      "sectors": [
+        "urban livelihoods",
+        "street vending",
+        "municipal enterprise"
+      ],
+      "beneficiaryTags": [
+        "street vendor",
+        "urban self-employed",
+        "ULB enterprise"
+      ],
+      "supportTags": [
+        "working-capital loan",
+        "interest subsidy",
+        "municipal facilitation"
+      ],
+      "agencyMatchTerms": [
+        "urban development",
+        "mohua"
+      ],
+      "aliases": [
+        "ULB / lender / MoHUA"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "failed-access",
@@ -4964,11 +5285,29 @@
       "issuer": "Department of Tourism and Civil Aviation, Himachal Pradesh",
       "title": "Tourism department policy and scheme surface",
       "url": "https://himachaltourism.gov.in/department-of-tourism-civil-aviation-himachal-pradesh/",
-      "categories": ["tourism"],
-      "sectors": ["tourism", "homestay", "hospitality"],
-      "beneficiaryTags": ["homestay operator", "tourism entrepreneur", "hospitality enterprise"],
-      "supportTags": ["registration", "incentive", "infrastructure", "marketing"],
-      "agencyMatchTerms": ["tourism department", "department of tourism"],
+      "categories": [
+        "tourism"
+      ],
+      "sectors": [
+        "tourism",
+        "homestay",
+        "hospitality"
+      ],
+      "beneficiaryTags": [
+        "homestay operator",
+        "tourism entrepreneur",
+        "hospitality enterprise"
+      ],
+      "supportTags": [
+        "registration",
+        "incentive",
+        "infrastructure",
+        "marketing"
+      ],
+      "agencyMatchTerms": [
+        "tourism department",
+        "department of tourism"
+      ],
       "aliases": [],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
@@ -4981,12 +5320,36 @@
       "issuer": "HIMURJA — Himachal Pradesh Energy Development Agency",
       "title": "Solar Photovoltaic Programme",
       "url": "https://ceohimurja.hp.gov.in/programmes/solar-programmes/solar-photovoltaic-programme/",
-      "categories": ["energy-himurja"],
-      "sectors": ["renewable energy", "solar power", "small hydro"],
-      "beneficiaryTags": ["project developer", "MSME", "household", "farmer"],
-      "supportTags": ["interest subsidy", "capital support", "project allotment", "technical facilitation"],
-      "agencyMatchTerms": ["himurja", "energy efficiency", "renewable energy", "ireda"],
-      "aliases": ["Bureau of Energy Efficiency / lender", "Indian Renewable Energy Development Agency"],
+      "categories": [
+        "energy-himurja"
+      ],
+      "sectors": [
+        "renewable energy",
+        "solar power",
+        "small hydro"
+      ],
+      "beneficiaryTags": [
+        "project developer",
+        "MSME",
+        "household",
+        "farmer"
+      ],
+      "supportTags": [
+        "interest subsidy",
+        "capital support",
+        "project allotment",
+        "technical facilitation"
+      ],
+      "agencyMatchTerms": [
+        "himurja",
+        "energy efficiency",
+        "renewable energy",
+        "ireda"
+      ],
+      "aliases": [
+        "Bureau of Energy Efficiency / lender",
+        "Indian Renewable Energy Development Agency"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "candidates-found",
@@ -4998,11 +5361,27 @@
       "issuer": "Himachal Pradesh Forest Department",
       "title": "Forest Department official portal",
       "url": "https://hpforest.gov.in/",
-      "categories": ["forest"],
-      "sectors": ["forestry", "forest produce", "ecosystem livelihoods"],
-      "beneficiaryTags": ["forest producer", "community institution", "enterprise"],
-      "supportTags": ["livelihood support", "value addition", "training"],
-      "agencyMatchTerms": ["forest"],
+      "categories": [
+        "forest"
+      ],
+      "sectors": [
+        "forestry",
+        "forest produce",
+        "ecosystem livelihoods"
+      ],
+      "beneficiaryTags": [
+        "forest producer",
+        "community institution",
+        "enterprise"
+      ],
+      "supportTags": [
+        "livelihood support",
+        "value addition",
+        "training"
+      ],
+      "agencyMatchTerms": [
+        "forest"
+      ],
       "aliases": [],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
@@ -5015,12 +5394,41 @@
       "issuer": "Development Commissioner (Handlooms), Ministry of Textiles",
       "title": "Handloom schemes index",
       "url": "https://handlooms.nic.in/",
-      "categories": ["handloom-handicrafts", "central-implementing-bodies"],
-      "sectors": ["handloom", "wool", "textiles", "handicrafts"],
-      "beneficiaryTags": ["weaver", "artisan", "producer society", "cluster"],
-      "supportTags": ["credit", "marketing", "cluster support", "training", "equipment"],
-      "agencyMatchTerms": ["handloom", "handicraft", "ministry of textiles", "coir board", "woolfed", "wool federation"],
-      "aliases": ["Office of Development Commissioner (Handicrafts)", "Office of Development Commissioner (Handlooms)"],
+      "categories": [
+        "handloom-handicrafts",
+        "central-implementing-bodies"
+      ],
+      "sectors": [
+        "handloom",
+        "wool",
+        "textiles",
+        "handicrafts"
+      ],
+      "beneficiaryTags": [
+        "weaver",
+        "artisan",
+        "producer society",
+        "cluster"
+      ],
+      "supportTags": [
+        "credit",
+        "marketing",
+        "cluster support",
+        "training",
+        "equipment"
+      ],
+      "agencyMatchTerms": [
+        "handloom",
+        "handicraft",
+        "ministry of textiles",
+        "coir board",
+        "woolfed",
+        "wool federation"
+      ],
+      "aliases": [
+        "Office of Development Commissioner (Handicrafts)",
+        "Office of Development Commissioner (Handlooms)"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "candidates-found",
@@ -5032,12 +5440,35 @@
       "issuer": "Department of Labour and Employment, Himachal Pradesh",
       "title": "Employment and skill allowance scheme index",
       "url": "https://himachal.nic.in/lep/Content/MenuFormContent?qs=+WcLOPiE4QCmDRCayqYhCcV4kA7OODLB",
-      "categories": ["labour-employment-skill"],
-      "sectors": ["skills", "employment", "self-employment"],
-      "beneficiaryTags": ["unemployed youth", "trainee", "worker", "entrepreneur"],
-      "supportTags": ["allowance", "training", "subsidy", "employment facilitation"],
-      "agencyMatchTerms": ["labour", "employment", "skill development", "epfo"],
-      "aliases": ["DRDO Technology Development Fund"],
+      "categories": [
+        "labour-employment-skill"
+      ],
+      "sectors": [
+        "skills",
+        "employment",
+        "self-employment"
+      ],
+      "beneficiaryTags": [
+        "unemployed youth",
+        "trainee",
+        "worker",
+        "entrepreneur"
+      ],
+      "supportTags": [
+        "allowance",
+        "training",
+        "subsidy",
+        "employment facilitation"
+      ],
+      "agencyMatchTerms": [
+        "labour",
+        "employment",
+        "skill development",
+        "epfo"
+      ],
+      "aliases": [
+        "DRDO Technology Development Fund"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "candidates-found",
@@ -5049,11 +5480,28 @@
       "issuer": "Registrar Cooperative Societies, Himachal Pradesh",
       "title": "Cooperation Department official portal",
       "url": "https://himachal.nic.in/cooperation/",
-      "categories": ["cooperatives"],
-      "sectors": ["cooperatives", "producer institutions", "rural enterprise"],
-      "beneficiaryTags": ["cooperative", "producer society", "member entrepreneur"],
-      "supportTags": ["registration", "institutional finance", "capacity building"],
-      "agencyMatchTerms": ["cooperat", "ncdc"],
+      "categories": [
+        "cooperatives"
+      ],
+      "sectors": [
+        "cooperatives",
+        "producer institutions",
+        "rural enterprise"
+      ],
+      "beneficiaryTags": [
+        "cooperative",
+        "producer society",
+        "member entrepreneur"
+      ],
+      "supportTags": [
+        "registration",
+        "institutional finance",
+        "capacity building"
+      ],
+      "agencyMatchTerms": [
+        "cooperat",
+        "ncdc"
+      ],
       "aliases": [],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
@@ -5066,12 +5514,34 @@
       "issuer": "Startup Himachal / Department of Industries",
       "title": "Startup Himachal incentive procedure",
       "url": "https://www.emerginghimachal.hp.gov.in/startup/about/incentive-procedure/",
-      "categories": ["startup-incubation"],
-      "sectors": ["startup", "innovation", "incubation"],
-      "beneficiaryTags": ["startup", "founder", "incubator"],
-      "supportTags": ["sustenance allowance", "incubation", "reimbursement", "interest support"],
-      "agencyMatchTerms": ["incubator", "birac", "dpiit"],
-      "aliases": ["BIRAC", "MSME Innovative"],
+      "categories": [
+        "startup-incubation"
+      ],
+      "sectors": [
+        "startup",
+        "innovation",
+        "incubation"
+      ],
+      "beneficiaryTags": [
+        "startup",
+        "founder",
+        "incubator"
+      ],
+      "supportTags": [
+        "sustenance allowance",
+        "incubation",
+        "reimbursement",
+        "interest support"
+      ],
+      "agencyMatchTerms": [
+        "incubator",
+        "birac",
+        "dpiit"
+      ],
+      "aliases": [
+        "BIRAC",
+        "MSME Innovative"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "failed-access",
@@ -5083,12 +5553,37 @@
       "issuer": "Ministry of Food Processing Industries",
       "title": "MoFPI scheme and current-call index",
       "url": "https://www.mofpi.gov.in/",
-      "categories": ["food-processing", "central-implementing-bodies"],
-      "sectors": ["food processing", "cold chain", "agro-processing"],
-      "beneficiaryTags": ["microenterprise", "FPO", "SHG", "cooperative", "company"],
-      "supportTags": ["credit-linked subsidy", "grant", "common infrastructure", "branding", "cold chain"],
-      "agencyMatchTerms": ["mofpi", "food processing", "fssai"],
-      "aliases": ["MoFPI / State nodal agency / bank"],
+      "categories": [
+        "food-processing",
+        "central-implementing-bodies"
+      ],
+      "sectors": [
+        "food processing",
+        "cold chain",
+        "agro-processing"
+      ],
+      "beneficiaryTags": [
+        "microenterprise",
+        "FPO",
+        "SHG",
+        "cooperative",
+        "company"
+      ],
+      "supportTags": [
+        "credit-linked subsidy",
+        "grant",
+        "common infrastructure",
+        "branding",
+        "cold chain"
+      ],
+      "agencyMatchTerms": [
+        "mofpi",
+        "food processing",
+        "fssai"
+      ],
+      "aliases": [
+        "MoFPI / State nodal agency / bank"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "candidates-found",
@@ -5100,12 +5595,40 @@
       "issuer": "Department of Pharmaceuticals",
       "title": "Scheme for Strengthening of Medical Devices Industry guidelines",
       "url": "https://www.pharmaceuticals.gov.in/sites/default/files/Final%20guidelines%20for%20SMDI-8.11.2024.pdf",
-      "categories": ["pharma-medical-devices", "central-implementing-bodies"],
-      "sectors": ["pharmaceuticals", "medical devices", "bulk drugs"],
-      "beneficiaryTags": ["manufacturer", "cluster SPV", "testing facility", "startup"],
-      "supportTags": ["capital assistance", "common facility", "clinical study support", "skill development"],
-      "agencyMatchTerms": ["pharmaceutical", "cdsco", "pmbi", "medical device", "health authority", "swasthya bima"],
-      "aliases": ["SMDI portal", "PMBI / Jan Aushadhi", "Department of Pharmaceuticals – scheme index"],
+      "categories": [
+        "pharma-medical-devices",
+        "central-implementing-bodies"
+      ],
+      "sectors": [
+        "pharmaceuticals",
+        "medical devices",
+        "bulk drugs"
+      ],
+      "beneficiaryTags": [
+        "manufacturer",
+        "cluster SPV",
+        "testing facility",
+        "startup"
+      ],
+      "supportTags": [
+        "capital assistance",
+        "common facility",
+        "clinical study support",
+        "skill development"
+      ],
+      "agencyMatchTerms": [
+        "pharmaceutical",
+        "cdsco",
+        "pmbi",
+        "medical device",
+        "health authority",
+        "swasthya bima"
+      ],
+      "aliases": [
+        "SMDI portal",
+        "PMBI / Jan Aushadhi",
+        "Department of Pharmaceuticals – scheme index"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "candidates-found",
@@ -5117,12 +5640,33 @@
       "issuer": "Ministry of AYUSH",
       "title": "Ministry of AYUSH official portal",
       "url": "https://ayush.gov.in/",
-      "categories": ["ayush", "central-implementing-bodies"],
-      "sectors": ["AYUSH", "medicinal plants", "herbal products"],
-      "beneficiaryTags": ["AYUSH enterprise", "medicinal plant grower", "manufacturer"],
-      "supportTags": ["cultivation support", "quality support", "investment facilitation"],
-      "agencyMatchTerms": ["ayush", "medicinal plants", "nmpb"],
-      "aliases": ["National Medicinal Plants Board"],
+      "categories": [
+        "ayush",
+        "central-implementing-bodies"
+      ],
+      "sectors": [
+        "AYUSH",
+        "medicinal plants",
+        "herbal products"
+      ],
+      "beneficiaryTags": [
+        "AYUSH enterprise",
+        "medicinal plant grower",
+        "manufacturer"
+      ],
+      "supportTags": [
+        "cultivation support",
+        "quality support",
+        "investment facilitation"
+      ],
+      "agencyMatchTerms": [
+        "ayush",
+        "medicinal plants",
+        "nmpb"
+      ],
+      "aliases": [
+        "National Medicinal Plants Board"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "verified-none",
@@ -5134,12 +5678,40 @@
       "issuer": "Himachal Pradesh SC/ST Development Corporation",
       "title": "SC/ST Development Corporation schemes index",
       "url": "https://hpscstdc.hp.gov.in/schemes",
-      "categories": ["sc-st-development-finance", "women-development"],
-      "sectors": ["self-employment", "microenterprise", "transport", "education"],
-      "beneficiaryTags": ["SC entrepreneur", "ST entrepreneur", "Safai Karamchari", "tribal woman"],
-      "supportTags": ["term loan", "microcredit", "capital subsidy", "interest subsidy", "training"],
-      "agencyMatchTerms": ["sc/st development", "hpscstdc", "nstfdc", "nsfdc", "nskfdc"],
-      "aliases": ["HP SC/ST Development Corporation", "HP SC/ST Development Corporation / bank"],
+      "categories": [
+        "sc-st-development-finance",
+        "women-development"
+      ],
+      "sectors": [
+        "self-employment",
+        "microenterprise",
+        "transport",
+        "education"
+      ],
+      "beneficiaryTags": [
+        "SC entrepreneur",
+        "ST entrepreneur",
+        "Safai Karamchari",
+        "tribal woman"
+      ],
+      "supportTags": [
+        "term loan",
+        "microcredit",
+        "capital subsidy",
+        "interest subsidy",
+        "training"
+      ],
+      "agencyMatchTerms": [
+        "sc/st development",
+        "hpscstdc",
+        "nstfdc",
+        "nsfdc",
+        "nskfdc"
+      ],
+      "aliases": [
+        "HP SC/ST Development Corporation",
+        "HP SC/ST Development Corporation / bank"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "candidates-found",
@@ -5151,12 +5723,33 @@
       "issuer": "Himachal Backward Classes Finance and Development Corporation",
       "title": "HBCFDC schemes index",
       "url": "https://himachalservices.nic.in/hbcfdc/schemes.htm",
-      "categories": ["obc-minority-development-finance"],
-      "sectors": ["small business", "agriculture", "transport", "services"],
-      "beneficiaryTags": ["OBC entrepreneur", "OBC woman", "student"],
-      "supportTags": ["term loan", "microfinance", "education loan", "interest concession"],
-      "agencyMatchTerms": ["nbcfdc", "backward classes"],
-      "aliases": ["HBCFDC"],
+      "categories": [
+        "obc-minority-development-finance"
+      ],
+      "sectors": [
+        "small business",
+        "agriculture",
+        "transport",
+        "services"
+      ],
+      "beneficiaryTags": [
+        "OBC entrepreneur",
+        "OBC woman",
+        "student"
+      ],
+      "supportTags": [
+        "term loan",
+        "microfinance",
+        "education loan",
+        "interest concession"
+      ],
+      "agencyMatchTerms": [
+        "nbcfdc",
+        "backward classes"
+      ],
+      "aliases": [
+        "HBCFDC"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "candidates-found",
@@ -5168,12 +5761,34 @@
       "issuer": "Himachal Pradesh Minorities Finance and Development Corporation",
       "title": "Minority and disability finance schemes index",
       "url": "https://minority.hp.gov.in/page/SCHEMES.aspx",
-      "categories": ["obc-minority-development-finance"],
-      "sectors": ["microenterprise", "services", "transport", "education"],
-      "beneficiaryTags": ["minority entrepreneur", "person with disability", "student"],
-      "supportTags": ["term loan", "education loan", "microfinance", "interest concession"],
-      "agencyMatchTerms": ["nmdfc", "minorities finance", "minority"],
-      "aliases": ["NMDFC"],
+      "categories": [
+        "obc-minority-development-finance"
+      ],
+      "sectors": [
+        "microenterprise",
+        "services",
+        "transport",
+        "education"
+      ],
+      "beneficiaryTags": [
+        "minority entrepreneur",
+        "person with disability",
+        "student"
+      ],
+      "supportTags": [
+        "term loan",
+        "education loan",
+        "microfinance",
+        "interest concession"
+      ],
+      "agencyMatchTerms": [
+        "nmdfc",
+        "minorities finance",
+        "minority"
+      ],
+      "aliases": [
+        "NMDFC"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "candidates-found",
@@ -5185,11 +5800,29 @@
       "issuer": "Himachal Pradesh Mahila Vikas Nigam",
       "title": "Mahila Vikas Nigam schemes index",
       "url": "https://hpscstdc.hp.gov.in/hpmvn/schemes",
-      "categories": ["women-development"],
-      "sectors": ["women enterprise", "small business", "education"],
-      "beneficiaryTags": ["woman entrepreneur", "women organisation", "female student"],
-      "supportTags": ["interest subsidy", "term loan", "study loan", "margin money"],
-      "agencyMatchTerms": ["mahila vikas", "women development"],
+      "categories": [
+        "women-development"
+      ],
+      "sectors": [
+        "women enterprise",
+        "small business",
+        "education"
+      ],
+      "beneficiaryTags": [
+        "woman entrepreneur",
+        "women organisation",
+        "female student"
+      ],
+      "supportTags": [
+        "interest subsidy",
+        "term loan",
+        "study loan",
+        "margin money"
+      ],
+      "agencyMatchTerms": [
+        "mahila vikas",
+        "women development"
+      ],
       "aliases": [],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
@@ -5202,11 +5835,29 @@
       "issuer": "Department of Transport, Himachal Pradesh",
       "title": "Transport notice board and e-Taxi intake link",
       "url": "https://himachal.nic.in/transport/Content/AllNotifications",
-      "categories": ["transport-logistics"],
-      "sectors": ["transport", "e-mobility", "logistics"],
-      "beneficiaryTags": ["driver entrepreneur", "taxi operator", "transport enterprise"],
-      "supportTags": ["capital subsidy", "permit", "government hiring", "conversion support"],
-      "agencyMatchTerms": ["transport", "logistics"],
+      "categories": [
+        "transport-logistics"
+      ],
+      "sectors": [
+        "transport",
+        "e-mobility",
+        "logistics"
+      ],
+      "beneficiaryTags": [
+        "driver entrepreneur",
+        "taxi operator",
+        "transport enterprise"
+      ],
+      "supportTags": [
+        "capital subsidy",
+        "permit",
+        "government hiring",
+        "conversion support"
+      ],
+      "agencyMatchTerms": [
+        "transport",
+        "logistics"
+      ],
       "aliases": [],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
@@ -5219,12 +5870,40 @@
       "issuer": "Government of Himachal Pradesh",
       "title": "State portal, districts and departmental service directory",
       "url": "https://himachal.nic.in/",
-      "categories": ["district-cluster-channels", "budget-cross-government"],
-      "sectors": ["cross-sector", "district delivery", "public services"],
-      "beneficiaryTags": ["citizen", "entrepreneur", "farmer", "SHG"],
-      "supportTags": ["district facilitation", "service route", "notification"],
-      "agencyMatchTerms": ["district administration", "state agency", "nodal agency", "sector department", "local body", "regulator", "government of himachal"],
-      "aliases": ["Secondary summary – used only where a primary document was unreachable", "Directorate of Industries & Commerce, Kerala (PMEGP norms)", "Industries, energy, pollution, fire and product-safety authorities according to activity"],
+      "categories": [
+        "district-cluster-channels",
+        "budget-cross-government"
+      ],
+      "sectors": [
+        "cross-sector",
+        "district delivery",
+        "public services"
+      ],
+      "beneficiaryTags": [
+        "citizen",
+        "entrepreneur",
+        "farmer",
+        "SHG"
+      ],
+      "supportTags": [
+        "district facilitation",
+        "service route",
+        "notification"
+      ],
+      "agencyMatchTerms": [
+        "district administration",
+        "state agency",
+        "nodal agency",
+        "sector department",
+        "local body",
+        "regulator",
+        "government of himachal"
+      ],
+      "aliases": [
+        "Secondary summary – used only where a primary document was unreachable",
+        "Directorate of Industries & Commerce, Kerala (PMEGP norms)",
+        "Industries, energy, pollution, fire and product-safety authorities according to activity"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "verified-none",
@@ -5236,12 +5915,51 @@
       "issuer": "Ministry of Micro, Small and Medium Enterprises",
       "title": "MSME offerings index",
       "url": "https://www.msme.gov.in/offerings",
-      "categories": ["central-implementing-bodies", "startup-incubation", "district-cluster-channels"],
-      "sectors": ["MSME", "manufacturing", "services", "clusters"],
-      "beneficiaryTags": ["microenterprise", "small enterprise", "startup", "cluster SPV"],
-      "supportTags": ["credit guarantee", "subsidy", "quality certification", "market access", "incubation"],
-      "agencyMatchTerms": ["msme", "nsic", "kvic", "kvib", "mudra", "cgtmse", "sidbi", "treds", "ngtc", "ncgtc", "udyam", "pmegp", "pm vishwakarma", "jansamarth"],
-      "aliases": ["MSME Ministry Offerings", "MSME ODR", "GeM"],
+      "categories": [
+        "central-implementing-bodies",
+        "startup-incubation",
+        "district-cluster-channels"
+      ],
+      "sectors": [
+        "MSME",
+        "manufacturing",
+        "services",
+        "clusters"
+      ],
+      "beneficiaryTags": [
+        "microenterprise",
+        "small enterprise",
+        "startup",
+        "cluster SPV"
+      ],
+      "supportTags": [
+        "credit guarantee",
+        "subsidy",
+        "quality certification",
+        "market access",
+        "incubation"
+      ],
+      "agencyMatchTerms": [
+        "msme",
+        "nsic",
+        "kvic",
+        "kvib",
+        "mudra",
+        "cgtmse",
+        "sidbi",
+        "treds",
+        "ngtc",
+        "ncgtc",
+        "udyam",
+        "pmegp",
+        "pm vishwakarma",
+        "jansamarth"
+      ],
+      "aliases": [
+        "MSME Ministry Offerings",
+        "MSME ODR",
+        "GeM"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "candidates-found",
@@ -5253,12 +5971,41 @@
       "issuer": "Biotechnology Industry Research Assistance Council",
       "title": "Biotechnology Ignition Grant programme index",
       "url": "https://birac.nic.in/big.php",
-      "categories": ["central-implementing-bodies", "startup-incubation"],
-      "sectors": ["biotechnology", "electronics", "defence innovation", "software"],
-      "beneficiaryTags": ["startup", "innovator", "technology enterprise"],
-      "supportTags": ["grant", "prototype support", "incubation", "R&D funding"],
-      "agencyMatchTerms": ["birac", "meity", "electronics", "software technology", "c-dac", "defence", "drdo", "idex"],
-      "aliases": ["MeitY ECMS", "iDEX / Defence Innovation Organisation"],
+      "categories": [
+        "central-implementing-bodies",
+        "startup-incubation"
+      ],
+      "sectors": [
+        "biotechnology",
+        "electronics",
+        "defence innovation",
+        "software"
+      ],
+      "beneficiaryTags": [
+        "startup",
+        "innovator",
+        "technology enterprise"
+      ],
+      "supportTags": [
+        "grant",
+        "prototype support",
+        "incubation",
+        "R&D funding"
+      ],
+      "agencyMatchTerms": [
+        "birac",
+        "meity",
+        "electronics",
+        "software technology",
+        "c-dac",
+        "defence",
+        "drdo",
+        "idex"
+      ],
+      "aliases": [
+        "MeitY ECMS",
+        "iDEX / Defence Innovation Organisation"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "verified-none",
@@ -5270,12 +6017,44 @@
       "issuer": "Agricultural and Processed Food Products Export Development Authority",
       "title": "APEDA financial assistance and scheme surface",
       "url": "https://apeda.gov.in/apedawebsite/Announcements/schemes.htm",
-      "categories": ["central-implementing-bodies", "transport-logistics"],
-      "sectors": ["exports", "agri-exports", "food exports", "logistics"],
-      "beneficiaryTags": ["exporter", "producer", "packhouse", "EPC member"],
-      "supportTags": ["market development", "quality support", "export credit", "logistics"],
-      "agencyMatchTerms": ["commerce", "export", "dgft", "ecgc", "apeda", "spices board", "tea board", "customs", "cbic"],
-      "aliases": ["Export Promotion Mission", "Agricultural and Processed Food Products Export Development Authority", "Directorate General of Foreign Trade"],
+      "categories": [
+        "central-implementing-bodies",
+        "transport-logistics"
+      ],
+      "sectors": [
+        "exports",
+        "agri-exports",
+        "food exports",
+        "logistics"
+      ],
+      "beneficiaryTags": [
+        "exporter",
+        "producer",
+        "packhouse",
+        "EPC member"
+      ],
+      "supportTags": [
+        "market development",
+        "quality support",
+        "export credit",
+        "logistics"
+      ],
+      "agencyMatchTerms": [
+        "commerce",
+        "export",
+        "dgft",
+        "ecgc",
+        "apeda",
+        "spices board",
+        "tea board",
+        "customs",
+        "cbic"
+      ],
+      "aliases": [
+        "Export Promotion Mission",
+        "Agricultural and Processed Food Products Export Development Authority",
+        "Directorate General of Foreign Trade"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "verified-none",
@@ -5287,12 +6066,37 @@
       "issuer": "Department of Financial Services / JanSamarth",
       "title": "JanSamarth credit-linked government scheme portal",
       "url": "https://www.jansamarth.in/",
-      "categories": ["central-implementing-bodies"],
-      "sectors": ["cross-sector credit", "procurement", "working capital"],
-      "beneficiaryTags": ["entrepreneur", "MSME", "farmer", "vendor"],
-      "supportTags": ["loan", "credit guarantee", "working capital", "procurement"],
-      "agencyMatchTerms": ["financial services", "participating lender", "eligible bank", "member lender", "bank /", "lender /"],
-      "aliases": ["JanSamarth"],
+      "categories": [
+        "central-implementing-bodies"
+      ],
+      "sectors": [
+        "cross-sector credit",
+        "procurement",
+        "working capital"
+      ],
+      "beneficiaryTags": [
+        "entrepreneur",
+        "MSME",
+        "farmer",
+        "vendor"
+      ],
+      "supportTags": [
+        "loan",
+        "credit guarantee",
+        "working capital",
+        "procurement"
+      ],
+      "agencyMatchTerms": [
+        "financial services",
+        "participating lender",
+        "eligible bank",
+        "member lender",
+        "bank /",
+        "lender /"
+      ],
+      "aliases": [
+        "JanSamarth"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "verified-none",
@@ -5304,11 +6108,30 @@
       "issuer": "Himachal Pradesh State Wool Federation",
       "title": "State and centrally sponsored schemes",
       "url": "https://himachal.nic.in/woolfed/Content/MenuContent?qs=jRiHtBWiyFB8tcrpILmAsA%3D%3D",
-      "categories": ["animal-husbandry", "handloom-handicrafts", "cooperatives"],
-      "sectors": ["wool", "sheep and goat", "handloom"],
-      "beneficiaryTags": ["sheep breeder", "wool cooperative", "weaver"],
-      "supportTags": ["health inputs", "training", "marketing", "equipment"],
-      "agencyMatchTerms": ["wool"],
+      "categories": [
+        "animal-husbandry",
+        "handloom-handicrafts",
+        "cooperatives"
+      ],
+      "sectors": [
+        "wool",
+        "sheep and goat",
+        "handloom"
+      ],
+      "beneficiaryTags": [
+        "sheep breeder",
+        "wool cooperative",
+        "weaver"
+      ],
+      "supportTags": [
+        "health inputs",
+        "training",
+        "marketing",
+        "equipment"
+      ],
+      "agencyMatchTerms": [
+        "wool"
+      ],
       "aliases": [],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
@@ -5321,11 +6144,28 @@
       "issuer": "Directorate of Women and Child Development, Himachal Pradesh",
       "title": "Women and Child Development schemes index",
       "url": "https://himachal.nic.in/wcd/",
-      "categories": ["women-development"],
-      "sectors": ["women empowerment", "care economy", "social development"],
-      "beneficiaryTags": ["woman", "women group", "care institution"],
-      "supportTags": ["grant", "institutional support", "livelihood referral"],
-      "agencyMatchTerms": ["women and child", "women & child"],
+      "categories": [
+        "women-development"
+      ],
+      "sectors": [
+        "women empowerment",
+        "care economy",
+        "social development"
+      ],
+      "beneficiaryTags": [
+        "woman",
+        "women group",
+        "care institution"
+      ],
+      "supportTags": [
+        "grant",
+        "institutional support",
+        "livelihood referral"
+      ],
+      "agencyMatchTerms": [
+        "women and child",
+        "women & child"
+      ],
       "aliases": [],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
@@ -5338,12 +6178,35 @@
       "issuer": "Finance Department, Himachal Pradesh",
       "title": "Budget 2026-27 index and notices",
       "url": "https://himachal.nic.in/finance/Content/MenuFormContent?qs=EFjSG8GfYpC%2B6nTyBLtINjnT5y90ksoC",
-      "categories": ["budget-cross-government"],
-      "sectors": ["cross-sector", "state budget", "institutional finance"],
-      "beneficiaryTags": ["enterprise", "farmer", "youth", "women", "social category"],
-      "supportTags": ["budget allocation", "subsidy", "grant-in-aid", "institutional finance"],
-      "agencyMatchTerms": ["press information bureau", "news services division", "all india radio"],
-      "aliases": ["Government of Himachal Pradesh"],
+      "categories": [
+        "budget-cross-government"
+      ],
+      "sectors": [
+        "cross-sector",
+        "state budget",
+        "institutional finance"
+      ],
+      "beneficiaryTags": [
+        "enterprise",
+        "farmer",
+        "youth",
+        "women",
+        "social category"
+      ],
+      "supportTags": [
+        "budget allocation",
+        "subsidy",
+        "grant-in-aid",
+        "institutional finance"
+      ],
+      "agencyMatchTerms": [
+        "press information bureau",
+        "news services division",
+        "all india radio"
+      ],
+      "aliases": [
+        "Government of Himachal Pradesh"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "candidates-found",
@@ -5355,12 +6218,40 @@
       "issuer": "Economics and Statistics Department, Himachal Pradesh",
       "title": "Economic Survey 2025-26",
       "url": "https://himachalservices.nic.in/economics/en-IN/economic-survey-2025-26.html",
-      "categories": ["budget-cross-government"],
-      "sectors": ["cross-sector", "economy", "programme performance"],
-      "beneficiaryTags": ["enterprise", "farmer", "worker", "household"],
-      "supportTags": ["programme summary", "expenditure", "outcome reporting"],
-      "agencyMatchTerms": ["secondary summary", "contemporary reporting", "reporting a lok sabha", "reporting (no official", "indian pharma post", "state bank of india", "iibf", "invest india"],
-      "aliases": ["The Tribune – contemporary reporting (no official notification located)", "The Hitavada – contemporary reporting (no official notification located)", "Autocar Professional – contemporary reporting (no official notification located)"],
+      "categories": [
+        "budget-cross-government"
+      ],
+      "sectors": [
+        "cross-sector",
+        "economy",
+        "programme performance"
+      ],
+      "beneficiaryTags": [
+        "enterprise",
+        "farmer",
+        "worker",
+        "household"
+      ],
+      "supportTags": [
+        "programme summary",
+        "expenditure",
+        "outcome reporting"
+      ],
+      "agencyMatchTerms": [
+        "secondary summary",
+        "contemporary reporting",
+        "reporting a lok sabha",
+        "reporting (no official",
+        "indian pharma post",
+        "state bank of india",
+        "iibf",
+        "invest india"
+      ],
+      "aliases": [
+        "The Tribune – contemporary reporting (no official notification located)",
+        "The Hitavada – contemporary reporting (no official notification located)",
+        "Autocar Professional – contemporary reporting (no official notification located)"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "candidates-found",
@@ -5372,12 +6263,36 @@
       "issuer": "Government of India implementing bodies",
       "title": "Residual official implementing-body sweep",
       "url": "https://www.india.gov.in/my-government/schemes",
-      "categories": ["central-implementing-bodies"],
-      "sectors": ["cross-sector", "health", "heavy industry", "technology"],
-      "beneficiaryTags": ["enterprise", "institution", "citizen"],
-      "supportTags": ["scheme routing", "grant", "credit", "service"],
-      "agencyMatchTerms": ["ministry of heavy industries", "national health authority", "national horticulture board", "lic /", "state taxes and excise"],
-      "aliases": ["Central procuring entity / GeM"],
+      "categories": [
+        "central-implementing-bodies"
+      ],
+      "sectors": [
+        "cross-sector",
+        "health",
+        "heavy industry",
+        "technology"
+      ],
+      "beneficiaryTags": [
+        "enterprise",
+        "institution",
+        "citizen"
+      ],
+      "supportTags": [
+        "scheme routing",
+        "grant",
+        "credit",
+        "service"
+      ],
+      "agencyMatchTerms": [
+        "ministry of heavy industries",
+        "national health authority",
+        "national horticulture board",
+        "lic /",
+        "state taxes and excise"
+      ],
+      "aliases": [
+        "Central procuring entity / GeM"
+      ],
       "checkedAt": "2026-08-26",
       "retrievedAt": "2026-08-26",
       "outcome": "verified-none",

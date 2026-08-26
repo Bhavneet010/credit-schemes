@@ -5,5 +5,9 @@
   "previousCutoff": "2026-08-23",
   "included": ["all 13 workbook sheets", "all current HP routes", "referenced central routes", "expanded discovery coverage"],
   "excluded": ["other states", "generalized State Pack implementation", "multi-state PWA"],
-  "publicationBlockedUntilQaPasses": true
+  "publicationBlockedUntilQaPasses": true,
+  "status": "complete",
+  "completedAt": "2026-08-26",
+  "publicationQaPassed": true,
+  "methodFindingsDecided": true
 }

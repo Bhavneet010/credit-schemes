@@ -94,19 +94,19 @@ test("agency inventory covers every baseline agency and approved discovery categ
 });
 
 test("every publishable route has current existence and intake evidence", async () => {
-  const qa = await runHpV2Qa(await loadBaselineWorkbench(), { asOf: "2026-08-25" });
+  const qa = await runHpV2Qa(await loadBaselineWorkbench(), { asOf: "2026-08-26" });
 
   assertNoGateDebt(qa, "MISSING_EXISTENCE", "MISSING_INTAKE", "STALE_OPEN_STATUS");
 });
 
 test("hard claims require primary-operative evidence", async () => {
-  const qa = await runHpV2Qa(await loadBaselineWorkbench(), { asOf: "2026-08-25" });
+  const qa = await runHpV2Qa(await loadBaselineWorkbench(), { asOf: "2026-08-26" });
 
   assertNoGateDebt(qa, "EVIDENCE_HARD_CLAIM");
 });
 
 test("required coverage cells and mapping reviews are complete", async () => {
-  const qa = await runHpV2Qa(await loadBaselineWorkbench(), { asOf: "2026-08-25" });
+  const qa = await runHpV2Qa(await loadBaselineWorkbench(), { asOf: "2026-08-26" });
 
   assertNoGateDebt(qa, "COVERAGE_UNEXAMINED", "MAPPING_UNREVIEWED", "ORPHAN_SCHEME");
 });
@@ -328,7 +328,6 @@ test("intake requires active, currently effective, publishable status evidence f
   const cases = [
     { name: "inactive", status: { existence: "superseded" } },
     { name: "closed", status: { intake: "closed" } },
-    { name: "scheduled", status: { intake: "scheduled" } },
     { name: "arbitrary", status: { intake: "anything" } },
     { name: "dangling-source", status: { sourceIds: ["SOURCE-MISSING"] } },
     { name: "future-evidence", status: { verifiedAt: "2026-08-26" } },
@@ -338,6 +337,16 @@ test("intake requires active, currently effective, publishable status evidence f
   for (const { name, status } of cases) {
     const qa = await runHpV2Qa(completeRouteWorkbench({ schemeId: `SCH-INTAKE-${name}`, status }), { asOf: "2026-08-25" });
     assert.equal(qa.byCodes("MISSING_INTAKE").length, 1, name);
+  }
+});
+
+test("current scheduled and allocation-dependent intake evidence is publishable without claiming open intake", async () => {
+  for (const intake of ["scheduled", "allocation-dependent"]) {
+    const qa = await runHpV2Qa(completeRouteWorkbench({
+      schemeId: `SCH-INTAKE-${intake}`,
+      status: { intake }
+    }), { asOf: "2026-08-25" });
+    assert.equal(qa.byCodes("MISSING_INTAKE").length, 0, intake);
   }
 });
 
@@ -377,6 +386,32 @@ test("hard claims require current primary-operative evidence from resolvable sou
     const qa = await runHpV2Qa(workbench, { asOf: "2026-08-25" });
     assert.equal(qa.byCodes("EVIDENCE_HARD_CLAIM").length, 1, name);
   }
+});
+
+test("unsupported hard claims may be retained only as explicitly limited indicative text", async () => {
+  const workbench = completeRouteWorkbench({ schemeId: "SCH-INDICATIVE" });
+  workbench.claims.claims.push({
+    id: "CLAIM-SCH-INDICATIVE-BENEFIT",
+    subjectId: "SCH-INDICATIVE",
+    field: "keyBenefit",
+    value: "Legacy workbook summary",
+    sourceIds: ["SOURCE-TEST"],
+    locator: "legacy summary",
+    verifiedAt: "2026-08-23",
+    effectiveFrom: null,
+    effectiveTo: null,
+    evidenceGrade: "primary-summary",
+    confidence: "low",
+    publicationTreatment: "indicative-only",
+    limitation: "Operative entitlement source is not yet located.",
+    baseline: { sheet: "Scheme Master", row: 42 }
+  });
+  const qa = await runHpV2Qa(workbench, { asOf: "2026-08-25" });
+  assert.equal(qa.byCodes("EVIDENCE_HARD_CLAIM", "INDICATIVE_CLAIM_WITHOUT_LIMITATION").length, 0);
+
+  workbench.claims.claims.at(-1).limitation = "";
+  const invalid = await runHpV2Qa(workbench, { asOf: "2026-08-25" });
+  assert.equal(invalid.byCodes("INDICATIVE_CLAIM_WITHOUT_LIMITATION").length, 1);
 });
 
 test("coverage and mapping reviews retain debt for invalid outcomes, dimensions, and dispositions", async () => {

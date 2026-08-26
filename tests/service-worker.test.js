@@ -24,7 +24,7 @@ function loadServiceWorker(caches) {
   return listeners;
 }
 
-test("install precaches the approved v7 visual shell and alpine crest for offline use", async () => {
+test("install precaches the HP v2 data with the approved visual shell and alpine crest", async () => {
   let cachedShell = [];
   const caches = {
     open: async () => ({
@@ -43,10 +43,10 @@ test("install precaches the approved v7 visual shell and alpine crest for offlin
   assert.ok(cachedShell.includes("./assets/hero-alpine-crest.png"), "offline shell should include the selected alpine crest asset");
 });
 
-test("activation removes v1 through v6 shells so cached clients receive the v7 release", async () => {
+test("activation removes v1 through v7 shells so cached clients receive the HP v2 release", async () => {
   const deleted = [];
   const caches = {
-    keys: async () => ["hpsf-v1", "other-app-cache", "hpsf-v2", "hpsf-v3", "hpsf-v4", "hpsf-v5", "hpsf-v6", "hpsf-v7"],
+    keys: async () => ["hpsf-v1", "other-app-cache", "hpsf-v2", "hpsf-v3", "hpsf-v4", "hpsf-v5", "hpsf-v6", "hpsf-v7", "hpsf-v8"],
     delete: async (key) => { deleted.push(key); }
   };
   const listeners = loadServiceWorker(caches);
@@ -55,5 +55,5 @@ test("activation removes v1 through v6 shells so cached clients receive the v7 r
   listeners.activate({ waitUntil(promise) { activationWork = promise; } });
   await activationWork;
 
-  assert.deepEqual(deleted, ["hpsf-v1", "hpsf-v2", "hpsf-v3", "hpsf-v4", "hpsf-v5", "hpsf-v6"]);
+  assert.deepEqual(deleted, ["hpsf-v1", "hpsf-v2", "hpsf-v3", "hpsf-v4", "hpsf-v5", "hpsf-v6", "hpsf-v7"]);
 });

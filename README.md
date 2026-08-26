@@ -3,12 +3,13 @@
 **Live: https://bhavneet010.github.io/credit-schemes/**
 
 A minimalist, installable PWA for searching Himachal Pradesh and central government
-schemes by business activity. All content comes from
-`Himachal_Pradesh_MSME_Agri_Scheme_Guide_2026_verified.xlsx` (research cutoff 2026-08-23).
+schemes by business activity. HP v2 is generated from the version-controlled research
+workbench in `research/hp-v2` (research cutoff 2026-08-26).
 
 - **382** business activities across 15 macro sectors
-- **182** schemes and routes
-- **6,767** activity-to-scheme matches, graded Direct / Strong / Conditional / Horizontal
+- **188** schemes and routes, including 6 newly verified official routes
+- **8,700** activity-to-scheme matches, graded Direct / Strong / Conditional / Horizontal
+- **220** source records and a 33-entry official-agency inventory
 - Works fully offline after the first load; no backend, no tracking, no dependencies
 
 ## Run it locally
@@ -26,20 +27,22 @@ Pushing to `main` deploys `app/` to GitHub Pages via
 static host. HTTPS is required for the service worker (and therefore for offline use
 and installability); `localhost` is exempt.
 
-## Rebuild the data after editing the workbook
+## Rebuild HP v2
 
-The source workbook is not committed (see `.gitignore`) — keep
-`Himachal_Pradesh_MSME_Agri_Scheme_Guide_2026_verified.xlsx` in the repo root locally,
-then run:
+Keep `Himachal_Pradesh_MSME_Agri_Scheme_Guide_2026_verified.xlsx` in the repo root,
+then run the deterministic HP v2 pipeline:
 
 ```bash
-python tools/build_data.py
+npm run hp-v2:import
+npm run hp-v2:research
+npm run test:hp-v2
+npm run hp-v2:build
+npm run hp-v2:workbook
 ```
 
-That regenerates `app/data.json` from the Sector Catalogue, Scheme Master,
-Sector–Scheme Map, Component Norms, Key Contacts and Legacy & Closed sheets.
-Then bump `CACHE` in `app/sw.js` (e.g. `hpsf-v1` → `hpsf-v2`) so installed copies
-pick up the new data instead of serving the cached version.
+`hp-v2:build` stages app data and QA/change/acceptance reports under
+`outputs/himachal-pradesh`; add `-- --publish` only after all gates pass. The workbook
+keeps the 13 existing sheets and adds Claim Evidence and Candidate Ledger.
 
 `python tools/make_icons.py` regenerates the app icons (no image library needed).
 
@@ -51,12 +54,14 @@ app/
   styles.css            shared mobile-first components
   theme.css             bright light theme + redesigned home
   app.js                hash router, search index, settings menu, all views
-  data.json             generated — do not edit by hand
+  data.json             generated from the accepted HP v2 workbench
   manifest.webmanifest  install metadata
   sw.js                 offline cache
   icons/
+research/hp-v2/         evidence, status, candidates, coverage, mappings and changes
+tools/hp-v2/            import, research, validation and artifact generators
 tools/
-  build_data.py         workbook  ->  data.json
+  build_data.py         legacy v1 workbook -> data.json
   make_icons.py         PNG icon generator
 ```
 
@@ -68,18 +73,21 @@ tools/
 | Search | Type an activity ("apple orchard", "bakery", "loan") and get matching activities and schemes |
 | Activity | Udyam treatment, who applies, first contact, approvals, HP gate, plus every mapped scheme grouped by match strength |
 | Scheme | Benefit and ceiling, your margin, eligibility, how to apply, agency, official page, cautions, stacking rules, and every activity it reaches |
-| Schemes | All 182 routes, filterable by scheme family |
+| Schemes | All 188 routes, filterable by scheme family |
 | Settings | The top-right menu opens Saved and More without a bottom tab bar |
 | Saved | Bookmarked activities and schemes, kept in local storage |
 | More | Cost norms and caps, closed/legacy schemes, about and disclaimer |
 
-Status labels are carried through from the workbook unchanged — "Open now",
+Status labels retain separate existence, intake and budget evidence — "Open now",
 "Bank / continuous route", "Annual target / sanction", "Cluster or project area" and
 "Fresh window closed" — because they determine whether a scheme can actually be used
 for a new project. Closed routes carry an explicit warning on the scheme screen.
 
 ## Caveat
 
-The app is a reference, not an approval. Ceilings, district targets and windows change;
+The app is a reference, not an approval. HP v2 labels 372 retained v1 claim wordings as
+indicative-only where a claim-specific operative locator was not independently recovered;
+the app surfaces that caution rather than presenting those statements as verified
+entitlements. Ceilings, district targets and windows change;
 eligibility must be confirmed in writing with the department, lender or portal before
 committing money to a project.

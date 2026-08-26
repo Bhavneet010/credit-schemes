@@ -9,5 +9,78 @@
     "split",
     "evidence-upgraded"
   ],
-  "changes": []
+  "changes": [
+    {
+      "id": "CHANGE-SCH-HP-HIMSWAVLAMBAN-PM-AJAY",
+      "subjectId": "SCH-HP-HIMSWAVLAMBAN-PM-AJAY",
+      "category": "added",
+      "changedAt": "2026-08-26",
+      "before": null,
+      "after": "HIMSWAVLAMBAN (PM-AJAY)",
+      "sourceIds": [
+        "SOURCE-SCH-HP-HIMSWAVLAMBAN-PM-AJAY"
+      ],
+      "reason": "New route found in the HP v2 official-agency breadth pass and verified on an issuing-body page."
+    },
+    {
+      "id": "CHANGE-SCH-HP-ADIWASI-MAHILA-MICROCREDIT",
+      "subjectId": "SCH-HP-ADIWASI-MAHILA-MICROCREDIT",
+      "category": "added",
+      "changedAt": "2026-08-26",
+      "before": null,
+      "after": "Adiwasi Mahila Sashaktikaran / Micro Credit Scheme",
+      "sourceIds": [
+        "SOURCE-SCH-HP-ADIWASI-MAHILA-MICROCREDIT"
+      ],
+      "reason": "New route found in the HP v2 official-agency breadth pass and verified on an issuing-body page."
+    },
+    {
+      "id": "CHANGE-SCH-HP-NSKFDC-MCF-MSY",
+      "subjectId": "SCH-HP-NSKFDC-MCF-MSY",
+      "category": "added",
+      "changedAt": "2026-08-26",
+      "before": null,
+      "after": "NSKFDC Micro Credit Finance / Mahila Samridhi Yojana",
+      "sourceIds": [
+        "SOURCE-SCH-HP-NSKFDC-MCF-MSY"
+      ],
+      "reason": "New route found in the HP v2 official-agency breadth pass and verified on an issuing-body page."
+    },
+    {
+      "id": "CHANGE-SCH-HP-HPMVN-SWAROJGAR",
+      "subjectId": "SCH-HP-HPMVN-SWAROJGAR",
+      "category": "added",
+      "changedAt": "2026-08-26",
+      "before": null,
+      "after": "Mahila Vikas Nigam Swarojgar Yojna",
+      "sourceIds": [
+        "SOURCE-SCH-HP-HPMVN-SWAROJGAR"
+      ],
+      "reason": "New route found in the HP v2 official-agency breadth pass and verified on an issuing-body page."
+    },
+    {
+      "id": "CHANGE-SCH-HP-MINORITY-TERM-LOAN",
+      "subjectId": "SCH-HP-MINORITY-TERM-LOAN",
+      "category": "added",
+      "changedAt": "2026-08-26",
+      "before": null,
+      "after": "HP Minorities Finance and Development Corporation Term Loan",
+      "sourceIds": [
+        "SOURCE-SCH-HP-MINORITY-TERM-LOAN"
+      ],
+      "reason": "New route found in the HP v2 official-agency breadth pass and verified on an issuing-body page."
+    },
+    {
+      "id": "CHANGE-SCH-HP-MUKHYAMANTRI-CARP-MATSYA-PALAN",
+      "subjectId": "SCH-HP-MUKHYAMANTRI-CARP-MATSYA-PALAN",
+      "category": "added",
+      "changedAt": "2026-08-26",
+      "before": null,
+      "after": "Mukhyamantri Carp Matsya Palan Yojana",
+      "sourceIds": [
+        "SOURCE-SCH-HP-MUKHYAMANTRI-CARP-MATSYA-PALAN"
+      ],
+      "reason": "New route found in the HP v2 official-agency breadth pass and verified on an issuing-body page."
+    }
+  ]
 }

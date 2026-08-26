@@ -4,6 +4,8 @@
     "test:hp-v2": "node --test tests/hp-v2-*.test.mjs",
     "hp-v2:import": "node tools/hp-v2/import.mjs",
     "hp-v2:validate": "node tools/hp-v2/validate.mjs",
-    "hp-v2:build": "node tools/hp-v2/build-data.mjs"
+    "hp-v2:research": "node tools/hp-v2/advance-research.mjs",
+    "hp-v2:build": "node tools/hp-v2/build-data.mjs",
+    "hp-v2:workbook": "node tools/hp-v2/export-workbook.mjs"
   }
 }

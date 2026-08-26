@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "hp-v2-acceptance-1",
+  "runId": "HP-V2-PILOT-2026-08",
+  "cutoff": "2026-08-26",
+  "accepted": true,
+  "counts": {
+    "sectors": 382,
+    "schemes": 188,
+    "mappings": 8700,
+    "sources": 220,
+    "agencyInventoryChecks": 33,
+    "candidates": 26,
+    "addedVerifiedSchemes": 6,
+    "claims": 752,
+    "operativeClaims": 198,
+    "indicativeClaims": 372,
+    "reviewedMappings": 6767,
+    "resolvedOrphans": 6
+  },
+  "candidateDispositions": {
+    "verified-publishable": 6,
+    "duplicate-or-alias": 6,
+    "verified-component": 5,
+    "unverified-lead": 5,
+    "outside-beneficiary-scope": 4
+  },
+  "coverageOutcomes": {
+    "verified-applicable": 2855,
+    "verified-none": 1729
+  },
+  "limitations": [
+    "Indicative-only v1 wording remains visible with an explicit caution and is not represented as operative entitlement evidence.",
+    "Five official agency surfaces were inaccessible during the breadth pass and remain scheduled for recheck.",
+    "Current allocation and sanction must be confirmed with the issuing body for allocation-dependent routes."
+  ],
+  "hashes": {
+    "baselineWorkbook": "377e1ad28feeb5e684b6b50017053b7e4362e4c1e7ea2d04c52837c016eb9c44",
+    "baselineAppData": "e77ba0ab5156a66df2c7aca298a1273e585c6c040e61a062e51c01cccc6affc4",
+    "stagedAppData": "b0bd80c3f9ec8abf31dd9793a40d781fd70751c5dd701544de38ed502037f515"
+  },
+  "gateResults": {
+    "asOf": "2026-08-26",
+    "passed": true,
+    "errorCount": 0,
+    "gates": [
+      "status",
+      "evidence",
+      "coverage",
+      "mappings"
+    ]
+  }
+}

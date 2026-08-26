@@ -4,7 +4,9 @@ import { fileURLToPath } from "node:url";
 import { loadHpV2Workbench, runHpV2Qa } from "./lib/qa.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
-const asOf = process.argv[2] ?? "2026-08-25";
+const dateArgument = process.argv.slice(2).find((argument) => /^\d{4}-\d{2}-\d{2}$/.test(argument));
+const asOfIndex = process.argv.indexOf("--as-of");
+const asOf = dateArgument ?? (asOfIndex >= 0 ? process.argv[asOfIndex + 1] : null) ?? "2026-08-26";
 const qa = await runHpV2Qa(await loadHpV2Workbench({ root }), { asOf });
 
 console.log(JSON.stringify({ asOf: qa.asOf, errorCount: qa.errors.length, errors: qa.errors }, null, 2));
