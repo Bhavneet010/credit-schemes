@@ -37,7 +37,8 @@ export async function importHpWorkbook({ workbookPath, appDataPath, outputPath }
     readFile(appDataPath)
   ]);
   const workbook = await SpreadsheetFile.importXlsx(await FileBlob.load(workbookPath));
-  const sheets = workbook.worksheets.items.map(importSheet);
+  const sourceSheets = workbook.worksheets.items.map(readWorksheet);
+  const sheets = sourceSheets.map((sheet) => importSheet(sheet, sourceSheets));
   const tableRows = sheets.flatMap(extractTableRows);
   const appData = JSON.parse(appDataBytes.toString("utf8"));
   const appCounts = readAppCounts(appData);
@@ -74,30 +75,102 @@ export async function importHpWorkbook({ workbookPath, appDataPath, outputPath }
   };
 }
 
-function importSheet(worksheet) {
+function readWorksheet(worksheet) {
   const usedRange = worksheet.getUsedRange();
-  const values = usedRange.values;
-  const formulas = usedRange.formulas;
-  const headerRow = tableHeaderRows.get(worksheet.name) ?? null;
   return {
     name: worksheet.name,
-    headers: headerRow === null ? [] : values[headerRow - 1].map(toDisplayedText),
-    rows: values.map((row, index) => importRow({
-      values: row,
-      formulas: formulas[index],
-      sheet: worksheet.name,
-      row: index + 1
-    }))
+    values: usedRange.values,
+    formulas: usedRange.formulas
   };
 }
 
-function importRow({ values, formulas, sheet, row }) {
+function importSheet(sourceSheet, sourceSheets) {
+  const rows = sourceSheet.values.map((row, index) => importRow({
+      values: row,
+      formulas: sourceSheet.formulas[index],
+      sheet: sourceSheet.name,
+      row: index + 1,
+      sourceSheets
+    }));
+  const headerRow = tableHeaderRows.get(sourceSheet.name) ?? null;
+  return {
+    name: sourceSheet.name,
+    headers: headerRow === null ? [] : rows[headerRow - 1].values,
+    rows
+  };
+}
+
+function importRow({ values, formulas, sheet, row, sourceSheets }) {
   const importedRow = {
-    values: values.map(toDisplayedText),
+    values: values.map((value, columnIndex) => {
+      const formula = formulas[columnIndex];
+      if (!formula) return toDisplayedText(value);
+      const evaluatedValue = evaluateHpFormula({
+        formula,
+        sheets: sourceSheets,
+        location: `${sheet}!${columnName(columnIndex)}${row}`
+      });
+      return toDisplayedText(value ?? evaluatedValue);
+    }),
     provenance: { sheet, row }
   };
   if (formulas.some(Boolean)) importedRow.formulas = formulas;
   return importedRow;
+}
+
+export function evaluateHpFormula({ formula, sheets, location }) {
+  const countaMatch = formula.match(/^=COUNTA\((.*)\)$/);
+  if (!countaMatch) throw unsupportedFormula(location, formula);
+
+  const uniqueMatch = countaMatch[1].match(/^(?:_xlfn\.)?UNIQUE\((.*)\)$/);
+  const range = readSingleColumnRange(uniqueMatch ? uniqueMatch[1] : countaMatch[1], location, formula);
+  const values = valuesForRange(sheets, range, location, formula).filter(isNonBlank);
+  return uniqueMatch ? String(new Set(values.map(String)).size) : String(values.length);
+}
+
+function readSingleColumnRange(reference, location, formula) {
+  const rangeMatch = reference.match(/^'((?:[^']|'')+)'!([A-Z]+)(\d+):([A-Z]+)(\d+)$/);
+  if (!rangeMatch || rangeMatch[2] !== rangeMatch[4]) throw unsupportedFormula(location, formula);
+
+  return {
+    sheet: rangeMatch[1].replace(/''/g, "'"),
+    column: columnIndex(rangeMatch[2]),
+    startRow: Number(rangeMatch[3]),
+    endRow: Number(rangeMatch[5])
+  };
+}
+
+function valuesForRange(sheets, range, location, formula) {
+  const sheet = sheets.find((candidate) => candidate.name === range.sheet);
+  if (!sheet) throw unsupportedFormula(location, formula);
+
+  return Array.from(
+    { length: range.endRow - range.startRow + 1 },
+    (_, index) => sheet.values[range.startRow - 1 + index]?.[range.column]
+  );
+}
+
+function isNonBlank(value) {
+  return value !== null && value !== undefined && value !== "";
+}
+
+function columnIndex(column) {
+  return [...column].reduce((index, letter) => index * 26 + letter.charCodeAt(0) - 64, 0) - 1;
+}
+
+function columnName(index) {
+  let value = index + 1;
+  let name = "";
+  while (value > 0) {
+    const remainder = (value - 1) % 26;
+    name = String.fromCharCode(65 + remainder) + name;
+    value = Math.floor((value - 1) / 26);
+  }
+  return name;
+}
+
+function unsupportedFormula(location, formula) {
+  return new Error(`Unsupported formula at ${location}: ${formula}`);
 }
 
 function extractTableRows(sheet) {

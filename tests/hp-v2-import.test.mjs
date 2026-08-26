@@ -6,7 +6,7 @@ import path from "node:path";
 import test from "node:test";
 
 import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
-import { importHpWorkbook } from "../tools/hp-v2/lib/workbook.mjs";
+import { evaluateHpFormula, importHpWorkbook } from "../tools/hp-v2/lib/workbook.mjs";
 
 const root = path.resolve(import.meta.dirname, "..");
 const workbookPath = path.join(root, "Himachal_Pradesh_MSME_Agri_Scheme_Guide_2026_verified.xlsx");
@@ -27,6 +27,14 @@ const expectedSheetNames = [
   "Start Here", "Business Navigator", "Sector Catalogue", "Sector-Scheme Map",
   "Scheme Master", "Corrections Log", "Verification Notes", "Coverage Audit",
   "Component Norms", "Legacy & Closed", "Key Contacts", "Original Audit", "Source Register"
+];
+const expectedStartHereFormulaCells = [
+  { row: 6, column: 2, value: "382", formula: "=COUNTA('Sector Catalogue'!A2:A5000)" },
+  { row: 7, column: 2, value: "110", formula: "=COUNTA(_xlfn.UNIQUE('Sector Catalogue'!C2:C5000))" },
+  { row: 8, column: 2, value: "182", formula: "=COUNTA('Scheme Master'!A2:A2000)" },
+  { row: 9, column: 2, value: "6767", formula: "=COUNTA('Sector-Scheme Map'!A2:A20000)" },
+  { row: 10, column: 2, value: "4584", formula: "=COUNTA('Coverage Audit'!A2:A10000)" },
+  { row: 11, column: 2, value: "214", formula: "=COUNTA('Source Register'!A2:A3000)" }
 ];
 
 async function importIntoTempFile() {
@@ -61,15 +69,43 @@ test("every used row and unavailable formula result remains recoverable from the
       formulas: usedRange.formulas
     };
   });
+  const sourceVisibleValues = sourceSheets.map(({ name, values }) => ({
+    name,
+    values: values.map((row) => [...row])
+  }));
+  for (const cell of expectedStartHereFormulaCells) {
+    sourceVisibleValues
+      .find((sheet) => sheet.name === "Start Here")
+      .values[cell.row - 1][cell.column - 1] = cell.value;
+  }
 
   assert.deepEqual(
     baseline.sheets.map((sheet) => ({
       name: sheet.name,
       values: sheet.rows.map((row) => row.values)
     })),
-    sourceSheets.map(({ name, values }) => ({ name, values }))
+    sourceVisibleValues
   );
   assert.deepEqual(extractFormulaCells(baseline.sheets), extractFormulaCells(sourceSheets));
+  assert.deepEqual(
+    baseline.sheets
+      .find((sheet) => sheet.name === "Start Here")
+      .rows
+      .slice(5, 11)
+      .map((row) => ({ value: row.values[1], formula: row.formulas[1] })),
+    expectedStartHereFormulaCells.map(({ value, formula }) => ({ value, formula }))
+  );
+});
+
+test("HP formula evaluator rejects unsupported expressions instead of blanking them", () => {
+  assert.throws(
+    () => evaluateHpFormula({
+      formula: "=SUM('Input'!A2:A2)",
+      sheets: [{ name: "Input", values: [["Label"], ["value"]] }],
+      location: "Test!A1"
+    }),
+    /Unsupported formula at Test!A1/
+  );
 });
 
 test("HP v1 workbench import writes deterministic baseline and input hashes", async () => {
