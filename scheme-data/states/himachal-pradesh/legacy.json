@@ -1,0 +1,425 @@
+{
+  "legacy": [
+    {
+      "alt": "Use PMEGP, MMSY, PMMY, CGTMSE/SCLCSS or targeted corporation finance as applicable.",
+      "migrationSource": {
+        "row": 2,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Stand-Up India",
+      "position": "Original scheme period ended 31 March 2025; a revamped scheme was announced but not yet notified as of the verification date",
+      "src": "https://www.financialservices.gov.in/stand-india-scheme-supi",
+      "why": "The scheme's notified period ran to 31 March 2025 and lapsed. On 16 March 2026 the Finance Minister stated in the Lok Sabha that a revamped Stand-Up India for SC/ST and women entrepreneurs was being drafted; the original ₹10 lakh-₹1 crore bank-loan structure is expected to carry forward but the revamped scheme had not been notified as of verification."
+    },
+    {
+      "alt": "Confirm the live end date with the Single Window Clearance Authority / Department of Industries before committing investment, and in parallel examine MMSY, Startup Himachal, State Mission on Food Processing and central schemes.",
+      "migrationSource": {
+        "row": 3,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HP Industrial Investment Policy 2019 incentives",
+      "position": "Extended - the 2019 policy has been kept alive past its 31 December 2025 cutoff pending a new industrial policy",
+      "src": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/policies/Industrial-Investment-Policy-2019-and-Rules-Regarding-Grant-of-Incentives-Concessions-and-Facilities-as-on-20-12-2023-with-all-amendments.pdf",
+      "why": "The policy lapsed on 31 December 2025 but the State has extended it repeatedly while the successor industrial policy remains unnotified - most recently, as reported on 18 August 2026, up to 12 October 2026. It is therefore still available to units commencing commercial production within the extended window, but the end date moves and must be checked before committing investment."
+    },
+    {
+      "alt": "SC/ST-owned MSEs should examine current SCLCSS; all MSEs can examine ZED, LEAN, GIFT, SPICE and other technology schemes.",
+      "migrationSource": {
+        "row": 4,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "General CLCSS",
+      "position": "Superseded/closed as a general current scheme",
+      "src": "https://sclcss.msme.gov.in/Common/Home.aspx",
+      "why": "Do not use old 15%/₹15 lakh CLCSS data as a current general entitlement."
+    },
+    {
+      "alt": "Ask SIDBI for current SPEED/equipment-finance terms.",
+      "migrationSource": {
+        "row": 5,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "SIDBI ARISE",
+      "position": "Merged into rationalised SPEED",
+      "src": "https://www.sidbi.in/annualreport/AnnualReport202324/business-performance.php",
+      "why": "SIDBI reports ARISE, SPEED Plus and PRATHAM branch products were merged into SPEED."
+    },
+    {
+      "alt": "Check AMI/AIF/NHB/MIDH; verify a live post-31 March 2026 AMI sanction window.",
+      "migrationSource": {
+        "row": 6,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Gramin Bhandaran Yojana",
+      "position": "Superseded by Agricultural Marketing Infrastructure (AMI)",
+      "src": "https://agmarknet.gov.in/",
+      "why": "The old Rural Godown/Gramin Bhandaran branding should not be treated as a live standalone scheme."
+    },
+    {
+      "alt": "Check AHIDF, but confirm a fresh post-31 March 2026 window.",
+      "migrationSource": {
+        "row": 7,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Dairy Infrastructure Development Fund (DIDF)",
+      "position": "Subsumed into AHIDF",
+      "src": "https://www.dahd.gov.in/en/schemes/programmes/ahidf",
+      "why": "Do not prepare a fresh DIDF application."
+    },
+    {
+      "alt": "Use PMMSY/PM-MKSSY and HP Fisheries Department current enrolments.",
+      "migrationSource": {
+        "row": 8,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "National Scheme of Welfare of Fishermen",
+      "position": "Merged into PMMSY framework",
+      "src": "https://dof.gov.in/sites/default/files/2020-12/PMMSY-Guidelines24-June2020.pdf",
+      "why": "Insurance, saving-cum-relief and related welfare now operate through PMMSY/State implementation."
+    },
+    {
+      "alt": "Use AIF, NCDC or the relevant direct beneficiary scheme.",
+      "migrationSource": {
+        "row": 9,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "NABARD RIDF",
+      "position": "Institutional, not a unit scheme",
+      "src": "https://www.nabard.org/content1.aspx?id=573&catid=8&mid=8",
+      "why": "RIDF finances State/public rural infrastructure; an individual MSME/farm unit does not apply as a beneficiary enterprise."
+    },
+    {
+      "alt": "Check NSFDC/PM-SURAJ and current fund manager/Startup India equity routes.",
+      "migrationSource": {
+        "row": 10,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "VCF-SC",
+      "position": "Indirect fund/equity route; original row not a direct subsidy",
+      "src": "https://nsfdc.nic.in/",
+      "why": "Fund availability and investee selection are manager-led and should not be represented as a fixed beneficiary grant."
+    },
+    {
+      "alt": "Confirm new notification with DAHD and lender before relying on it.",
+      "migrationSource": {
+        "row": 11,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "AHIDF",
+      "position": "Fresh applications after 31 March 2026 not confirmed",
+      "src": "https://www.dahd.gov.in/en/schemes/programmes/ahidf",
+      "why": "Official page states scheme approval through 31 March 2026; legacy/committed cases may continue."
+    },
+    {
+      "alt": "Check FIDF portal/Department of Fisheries for a new extension.",
+      "migrationSource": {
+        "row": 12,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "FIDF",
+      "position": "Fresh proposals after 31 March 2026 not confirmed",
+      "src": "https://www.dof.gov.in/offerings/schemes-and-services/details/fidf-2-kTN5ETMtQWa",
+      "why": "Official published extension ran through 31 March 2026."
+    },
+    {
+      "alt": "Check the HP nodal agency and portal for a live intake.",
+      "migrationSource": {
+        "row": 13,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "PMFME",
+      "position": "Fresh FY2026-27 intake not confirmed",
+      "src": "https://pmfme.mofpi.gov.in/",
+      "why": "Benefit architecture remains relevant for approved/legacy cases, but original programme period was through FY2025-26."
+    },
+    {
+      "alt": "For a new innovation examine BIRAC BIG, MSME Innovative, iDEX/TDF where relevant, Startup Himachal, or future successor notifications.",
+      "migrationSource": {
+        "row": 14,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "PRIP – Promotion of Research and Innovation in Pharma-MedTech",
+      "position": "Round 1 closed; no further round presently planned",
+      "src": "https://prip.pharma-dept.gov.in/toolkit",
+      "why": "The portal closed on 19 November 2025. The Department subsequently stated that, because the scheme closes in March 2027 and needs a one-year gestation period, no further application rounds are under consideration."
+    },
+    {
+      "alt": "New pharma units should examine RPTUAS if an upgrade window reopens, the Haroli Bulk Drug Park, general MSME finance, and future DoP calls.",
+      "migrationSource": {
+        "row": 15,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "PLI Scheme for Pharmaceuticals",
+      "position": "Existing approved beneficiaries / performance period",
+      "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295938&lang=1&reg=1",
+      "why": "The scheme is paying incentive to selected applicants; no general fresh application window was located for a new unit in August 2026."
+    },
+    {
+      "alt": "Examine SMDI MIS-RID, clinical-study support, cluster facilities and future DoP notices.",
+      "migrationSource": {
+        "row": 16,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "PLI Scheme for Medical Devices",
+      "position": "Existing approved beneficiaries",
+      "src": "https://pharma-dept.gov.in/schemes/production-linked-incentive-pli-scheme-promoting-domestic-manufacturing-medical-devices",
+      "why": "Current releases report implementation/disbursement but no fresh general application window."
+    },
+    {
+      "alt": "Monitor the Department of Pharmaceuticals scheme page for another product-specific invitation and consider the Haroli Bulk Drug Park.",
+      "migrationSource": {
+        "row": 17,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "PLI Scheme for Bulk Drugs",
+      "position": "Current invitation closed / approved projects continue",
+      "src": "https://pharma-dept.gov.in/schemes/production-linked-incentive-pli-scheme-promotion-domestic-manufacturing-critical-key",
+      "why": "The most recent located invitation was dated 19 February 2026 for specified eligible products; no open August 2026 window was located. Incentive continues for approved applicants through the scheme period."
+    },
+    {
+      "alt": "Ask HP Industries/implementing corporation for the current plot-allotment notice and written concessions before relying on the park.",
+      "migrationSource": {
+        "row": 18,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Himachal Pradesh Medical Device Park, Nalagarh",
+      "position": "Infrastructure under development; some works on hold",
+      "src": "https://himachalservices.nic.in/economics/pdf/en-economic_survey_2025-26.pdf",
+      "why": "HP Economic Survey 2025-26 states operation/management activity is under implementation but certain civil works are on hold due to shortage of funds. It is an industrial-location project, not a universal cash scheme."
+    },
+    {
+      "alt": "Use the active SRI Fund/Daughter Fund route or ordinary equity/debt meanwhile; monitor MSME Ministry notifications.",
+      "migrationSource": {
+        "row": 19,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "₹10,000 crore SME Growth Fund",
+      "position": "Announced in Union Budget 2026-27; operational criteria not yet located",
+      "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2228306&lang=1&reg=3",
+      "why": "A budget announcement is not an investible scheme until the fund structure, manager, eligibility and application route are notified."
+    },
+    {
+      "alt": "Monitor the Department of Pharmaceuticals SPI page/portal and obtain confirmation that fresh intake has reopened before committing upgrade expenditure.",
+      "migrationSource": {
+        "row": 20,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Revamped Pharmaceutical Technology Upgradation Assistance Scheme (RPTUAS)",
+      "position": "Status unconfirmed",
+      "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294204&lang=1&reg=48",
+      "why": "As of 4 August 2026, a temporary restriction remained while extension was considered; 21 HP applications were pending. Drug licences, Schedule M/WHO-GMP certification and two-stage verification apply."
+    },
+    {
+      "alt": "Form/strengthen the SPV and monitor the SPI scheme page for a fresh API-CF application window before preparing the final DPR.",
+      "migrationSource": {
+        "row": 21,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Assistance to Pharmaceutical Industry for Common Facilities (API-CF)",
+      "position": "Status unconfirmed",
+      "src": "https://www.pharma-dept.gov.in/schemes/scheme-strengthening-pharmaceuticals-industry-spi",
+      "why": "Latest located fresh window closed in January 2025; the 4 August 2026 official update reported no HP proposal pending under API-CF. Not an individual-unit grant."
+    },
+    {
+      "alt": "Use the SMDI portal only against a live notice and obtain product/category confirmation before investment.",
+      "migrationSource": {
+        "row": 22,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "SMDI – Marginal Investment Scheme for Reducing Import Dependence (MIS-RID)",
+      "position": "Status unconfirmed",
+      "src": "https://pharma-dept.gov.in/schemes/scheme-strengthening-medical-device-industry",
+      "why": "The June/July 2026 call closed on 24 July 2026. Incentive follows commissioning and verification; land is excluded and device/product eligibility is narrow."
+    },
+    {
+      "alt": "Secure CDSCO/ethics and other required permissions, then apply through SMDI only during a live call.",
+      "migrationSource": {
+        "row": 23,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "SMDI – Medical Device Clinical Studies Support",
+      "position": "Status unconfirmed",
+      "src": "https://pharma-dept.gov.in/schemes/scheme-strengthening-medical-device-industry",
+      "why": "The July 2026 call is closed. Funding does not replace regulatory approval and is reimbursed only for admissible Indian studies and verified milestones."
+    },
+    {
+      "alt": "Prepare a cluster DPR and apply through SMDI only under a live call.",
+      "migrationSource": {
+        "row": 24,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "SMDI – Common Facilities for Medical Device Clusters",
+      "position": "Status unconfirmed",
+      "src": "https://pharma-dept.gov.in/schemes/scheme-strengthening-medical-device-industry",
+      "why": "The July 2026 proposal window has closed. It is not a grant to one factory and requires shared-access governance and sustainable operations."
+    },
+    {
+      "alt": "Check portal/DAHD notice and lender before preparing a fresh application.",
+      "migrationSource": {
+        "row": 25,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Animal Husbandry Infrastructure Development Fund (AHIDF)",
+      "position": "Status unconfirmed",
+      "src": "https://www.dahd.gov.in/en/schemes/programmes/ahidf",
+      "why": "Official approval was stated through 31 March 2026; as of verification, a fresh post-March-2026 sanction window was not confirmed."
+    },
+    {
+      "alt": "Check current FIDF portal/Department of Fisheries before a fresh proposal.",
+      "migrationSource": {
+        "row": 26,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Fisheries and Aquaculture Infrastructure Development Fund (FIDF)",
+      "position": "Status unconfirmed",
+      "src": "https://www.dof.gov.in/offerings/schemes-and-services/details/fidf-2-kTN5ETMtQWa",
+      "why": "Published extension ran through 31 March 2026; fresh proposal status after that date was not confirmed."
+    },
+    {
+      "alt": "Check HP PMFME/DIC and portal for a currently open intake.",
+      "migrationSource": {
+        "row": 27,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "PM Formalisation of Micro Food Processing Enterprises (PMFME)",
+      "position": "Status unconfirmed",
+      "src": "https://pmfme.mofpi.gov.in/",
+      "why": "Original implementation period was through FY2025-26; portal/legacy processing continues, but a fresh FY2026-27 intake was not confirmed in the source reviewed."
+    },
+    {
+      "alt": "Claim through Industries Department / Single Window with eligibility certificate",
+      "migrationSource": {
+        "row": 28,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HPIIP 2019 – MSME land, shed, stamp duty and CLU incentives",
+      "position": "Existing beneficiaries only",
+      "src": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/policies/HPIIP-2019-with-all-amendments-upto-08.10.2024.pdf",
+      "why": "The amended policy limits incentives to qualifying units commencing commercial production on or before 31-12-2025. No official extension was found as of the verification date; do not model this as a fresh-project incentive."
+    },
+    {
+      "alt": "Claim through District Industries Centre / Industries Department",
+      "migrationSource": {
+        "row": 29,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HPIIP 2019 – interest and plant-transport support",
+      "position": "Existing beneficiaries only",
+      "src": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/policies/HPIIP-2019-with-all-amendments-upto-08.10.2024.pdf",
+      "why": "Only policy-period beneficiaries; verify sanction, location category and claim deadlines."
+    },
+    {
+      "alt": "Claim through Industries Department",
+      "migrationSource": {
+        "row": 30,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HPIIP 2019 – transport subsidy for B and C areas",
+      "position": "Existing beneficiaries only",
+      "src": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/policies/HPIIP-2019-with-all-amendments-upto-08.10.2024.pdf",
+      "why": "Fresh eligibility window ended 31-12-2025; turnover and freight definitions require official assessment."
+    },
+    {
+      "alt": "Claim through Industries and State Taxes departments",
+      "migrationSource": {
+        "row": 31,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HPIIP 2019 – net SGST reimbursement",
+      "position": "Existing beneficiaries only",
+      "src": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/policies/HPIIP-2019-with-all-amendments-upto-08.10.2024.pdf",
+      "why": "December 2023 amendment applies; fresh policy eligibility closed after 31-12-2025."
+    },
+    {
+      "alt": "Claim through Industries Department with technical approvals",
+      "migrationSource": {
+        "row": 32,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HPIIP 2019 – technology, quality, EHS and green-fuel support",
+      "position": "Existing beneficiaries only",
+      "src": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/policies/HPIIP-2019-with-all-amendments-upto-08.10.2024.pdf",
+      "why": "Fresh eligibility closed; separate environmental approvals remain mandatory."
+    },
+    {
+      "alt": "Claim through Industries Department",
+      "migrationSource": {
+        "row": 33,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HPIIP 2019 – employment, export, patent and SME listing support",
+      "position": "Existing beneficiaries only",
+      "src": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/policies/HPIIP-2019-with-all-amendments-upto-08.10.2024.pdf",
+      "why": "Employment route requires more than 80% Himachalis and prescribed regular-employment thresholds; fresh policy eligibility ended 31-12-2025."
+    },
+    {
+      "alt": "Confirm current intake with District Industries Centre / lender",
+      "migrationSource": {
+        "row": 34,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Rajiv Gandhi Laghu Dukandar Sukh Kalyan Yojana",
+      "position": "Status unconfirmed",
+      "src": "https://himachalservices.nic.in/economics/pdf/en-economic_survey_2025-26.pdf",
+      "why": "The policy is reported in the Economic Survey, but a current public application window and complete operative guidelines were not located."
+    },
+    {
+      "alt": "Check Tea Board for a successor before incurring expenditure",
+      "migrationSource": {
+        "row": 35,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Tea Development and Promotion Scheme 2021–26",
+      "position": "Fresh window closed",
+      "src": "https://teaboard.gov.in/pdf/TDPS_Press_Release_03_10_2024_pdf5010.pdf",
+      "why": "No successor financial window was found as of 23-08-2026. Tea Board registration and regulatory services continue, but fresh subsidy should not be assumed."
+    },
+    {
+      "alt": "Check APEDA for successor guidelines before expenditure",
+      "migrationSource": {
+        "row": 36,
+        "sheet": "Legacy & Closed",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "APEDA Financial Assistance Scheme 2021–26",
+      "position": "Fresh window closed",
+      "src": "https://apeda.gov.in/market-development",
+      "why": "Published FAS period ended 31-03-2026; no fresh successor window was verified at cutoff."
+    }
+  ],
+  "schemaVersion": "state-pack-1"
+}

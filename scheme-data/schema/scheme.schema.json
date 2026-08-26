@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://credit-schemes.local/schema/scheme.schema.json",
+  "title": "Canonical credit scheme",
+  "type": "object",
+  "required": ["id", "name", "issuerType", "familyId", "claimIds", "aliases"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^(SCH|SCHEME)-[A-Z0-9-]+$" },
+    "name": { "type": "string", "minLength": 1 },
+    "issuerType": { "enum": ["central", "state", "joint", "institutional"] },
+    "familyId": { "type": "string", "pattern": "^FAMILY-[A-Z0-9-]+$" },
+    "claimIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "aliases": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "migrationSource": { "$ref": "#/$defs/migrationSource" }
+  },
+  "$defs": {
+    "migrationSource": {
+      "type": "object",
+      "required": ["workbench", "sheet", "row"],
+      "properties": {
+        "workbench": { "type": "string" },
+        "sheet": { "type": "string" },
+        "row": { "type": "integer", "minimum": 1 }
+      }
+    }
+  }
+}

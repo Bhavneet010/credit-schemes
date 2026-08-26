@@ -1,0 +1,941 @@
+{
+  "candidates": [
+    {
+      "beneficiaryTags": [
+        "fish farmer"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "verified-publishable",
+      "id": "CAND-HP-FISH-MUKHYAMANTRI-CARP-2024",
+      "issuer": "Department of Fisheries, Himachal Pradesh",
+      "migrationSource": {
+        "row": 2,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Recheck on the stated next-check date or when the issuing body publishes a new call, form, or guideline.",
+      "publishable": true,
+      "recommendedMappingTags": [
+        "carp aquaculture",
+        "fish pond"
+      ],
+      "scheme": {
+        "agencyChannel": "Department of Fisheries, Himachal Pradesh",
+        "bankLinked": "Varies",
+        "bestFor": "Fish farmers establishing carp ponds",
+        "contributionMargin": "As stated by the issuing body; sanction terms control.",
+        "criticalCaution": "Verify live allocation, forms, and sanction terms with the issuing body before incurring expenditure.",
+        "currentStatus": "Active - annual target or departmental sanction",
+        "eligibleApplicants": "Fish-farming applicants meeting the Department of Fisheries SOP and district target conditions.",
+        "government": "Himachal Pradesh",
+        "howToAccess": "Apply through the district/department fisheries channel under the current target or call.",
+        "keyBenefit": "Departmental support for carp pond construction and eligible inputs under the 15 November 2024 SOP; current district norms and allocation must be confirmed.",
+        "officialSource": "https://himachal.nic.in/fisheries/Content/AllNotifications",
+        "parentProgramme": "Mukhyamantri Carp Matsya Palan Yojana",
+        "schemeFamily": "HP sector or commodity support",
+        "sectorLabel": "Fisheries and aquaculture",
+        "supportType": "Pond construction and input support",
+        "title": "Mukhyamantri Carp Matsya Palan Yojana",
+        "unitStage": "New and existing",
+        "verified": "2026-08-26"
+      },
+      "schemeId": "SCH-HP-MUKHYAMANTRI-CARP-MATSYA-PALAN",
+      "sectorTags": [
+        "fisheries",
+        "carp aquaculture"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-FISHERIES"
+      ],
+      "supportTags": [
+        "pond support",
+        "input support"
+      ],
+      "title": "Mukhyamantri Carp Matsya Palan Yojana",
+      "url": "https://himachal.nic.in/fisheries/Content/AllNotifications",
+      "verifiedAt": "2026-08-26"
+    },
+    {
+      "beneficiaryTags": [
+        "fish farmer"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "duplicate-or-alias",
+      "id": "CAND-HP-FISH-NEW-CARP-POND-2024",
+      "issuer": "Department of Fisheries, Himachal Pradesh",
+      "migrationSource": {
+        "row": 3,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Compare the 7 August and 15 November 2024 SOPs to establish rename/successor behavior.",
+      "publishable": false,
+      "sectorTags": [
+        "fisheries",
+        "carp aquaculture"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-FISHERIES"
+      ],
+      "supportTags": [
+        "pond support",
+        "input support"
+      ],
+      "title": "New Scheme for Construction of Carp Fish Ponds including Input Cost",
+      "url": "https://himachal.nic.in/fisheries/Content/AllNotifications"
+    },
+    {
+      "beneficiaryTags": [
+        "youth entrepreneur",
+        "fish farmer"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "verified-component",
+      "id": "CAND-HP-FISH-RGSSY-COMPONENT",
+      "issuer": "Department of Fisheries, Himachal Pradesh",
+      "migrationSource": {
+        "row": 4,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Map to the parent RGSSY record after verifying component-specific benefit and intake evidence.",
+      "publishable": false,
+      "sectorTags": [
+        "fisheries",
+        "self-employment"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-FISHERIES"
+      ],
+      "supportTags": [
+        "subsidy"
+      ],
+      "title": "Rajiv Gandhi Swarojgar Yojna — fisheries component",
+      "url": "https://himachal.nic.in/fisheries"
+    },
+    {
+      "beneficiaryTags": [
+        "dairy farmer",
+        "milk producer"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "unverified-lead",
+      "id": "CAND-HP-AH-DOODH-PROTSAHAN",
+      "issuer": "Department of Animal Husbandry, Himachal Pradesh",
+      "migrationSource": {
+        "row": 5,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Open the application service and locate the operative notification, benefit basis and current intake.",
+      "publishable": false,
+      "sectorTags": [
+        "dairy"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-ANIMAL-HUSBANDRY-SERVICES"
+      ],
+      "supportTags": [
+        "producer incentive"
+      ],
+      "title": "Doodh Protsahan Yojana",
+      "url": "https://himachalservices.nic.in/en-IN/"
+    },
+    {
+      "beneficiaryTags": [
+        "poultry farmer"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "duplicate-or-alias",
+      "id": "CAND-HP-AH-HIM-KUKKUT-PORTAL",
+      "issuer": "Department of Animal Husbandry, Himachal Pradesh",
+      "migrationSource": {
+        "row": 6,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Link the live application endpoint to the existing Scheme Master route during depth verification.",
+      "publishable": false,
+      "sectorTags": [
+        "poultry"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-ANIMAL-HUSBANDRY-SERVICES"
+      ],
+      "supportTags": [
+        "subsidy",
+        "application route"
+      ],
+      "title": "Him Kukkut Palan Yojna application service",
+      "url": "https://himachalservices.nic.in/en-IN/"
+    },
+    {
+      "beneficiaryTags": [
+        "bonafide Himachali",
+        "project developer"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "unverified-lead",
+      "id": "CAND-HP-ENERGY-SOLAR-INTEREST-SUBSIDY-2025",
+      "issuer": "Department of Non-Conventional Energy Sources / HIMURJA",
+      "migrationSource": {
+        "row": 7,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Retrieve the official 22 August 2025 gazette notification and verify application/allotment status.",
+      "publishable": false,
+      "sectorTags": [
+        "solar power",
+        "renewable energy"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-HIMURJA"
+      ],
+      "supportTags": [
+        "interest subsidy"
+      ],
+      "title": "Scheme for Setting Up Solar Power Projects With Interest Subsidy for Bonafide Himachalis",
+      "url": "https://ceohimurja.hp.gov.in/programmes/solar-programmes/solar-photovoltaic-programme/"
+    },
+    {
+      "beneficiaryTags": [
+        "unemployed youth",
+        "trainee"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "outside-beneficiary-scope",
+      "id": "CAND-HP-LABOUR-SKILL-DEVELOPMENT-ALLOWANCE",
+      "issuer": "Department of Labour and Employment, Himachal Pradesh",
+      "migrationSource": {
+        "row": 8,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Retain as an employment-support exclusion unless enterprise formation is an operative eligibility condition.",
+      "publishable": false,
+      "sectorTags": [
+        "skills",
+        "employment"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-LABOUR-EMPLOYMENT"
+      ],
+      "supportTags": [
+        "allowance"
+      ],
+      "title": "Skill Development Allowance Scheme, 2013",
+      "url": "https://himachal.nic.in/lep/Content/MenuFormContent?qs=+WcLOPiE4QCmDRCayqYhCcV4kA7OODLB"
+    },
+    {
+      "beneficiaryTags": [
+        "worker",
+        "trainee"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "outside-beneficiary-scope",
+      "id": "CAND-HP-LABOUR-INDUSTRIAL-SKILL-ALLOWANCE",
+      "issuer": "Department of Labour and Employment, Himachal Pradesh",
+      "migrationSource": {
+        "row": 9,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Confirm it supports employees/trainees rather than entrepreneurs before final exclusion.",
+      "publishable": false,
+      "sectorTags": [
+        "skills",
+        "industry employment"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-LABOUR-EMPLOYMENT"
+      ],
+      "supportTags": [
+        "allowance"
+      ],
+      "title": "Industrial Skill Development Allowance Scheme, 2018",
+      "url": "https://himachal.nic.in/lep/Content/MenuFormContent?qs=+WcLOPiE4QCmDRCayqYhCcV4kA7OODLB"
+    },
+    {
+      "beneficiaryTags": [
+        "SC entrepreneur",
+        "ST entrepreneur"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "verified-publishable",
+      "id": "CAND-HP-SCST-HIMSWAVLAMBAN-PMAJAY",
+      "issuer": "Himachal Pradesh SC/ST Development Corporation",
+      "migrationSource": {
+        "row": 10,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Recheck on the stated next-check date or when the issuing body publishes a new call, form, or guideline.",
+      "publishable": true,
+      "recommendedMappingTags": [
+        "livestock",
+        "small business",
+        "transport",
+        "manufacturing"
+      ],
+      "scheme": {
+        "agencyChannel": "Himachal Pradesh SC/ST Development Corporation",
+        "bankLinked": "Yes",
+        "bestFor": "Scheduled Caste entrepreneurs starting income-generating ventures",
+        "contributionMargin": "As stated by the issuing body; sanction terms control.",
+        "criticalCaution": "Verify live allocation, forms, and sanction terms with the issuing body before incurring expenditure.",
+        "currentStatus": "Active - annual target or departmental sanction",
+        "eligibleApplicants": "Scheduled Caste family member, bonafide Himachal resident, annual income up to ₹5 lakh, age 18–55; transport applicants 20–53 with a valid licence; non-defaulter.",
+        "government": "Himachal Pradesh",
+        "howToAccess": "Apply through the HP SC/ST Development Corporation using the current PM-AJAY form; sanction and fund availability control intake.",
+        "keyBenefit": "Project loan of ₹3–5 lakh, 10% promoter contribution, ₹50,000 back-ended capital subsidy, balance through NSFDC term finance; stated interest 8% and repayment up to 5 years.",
+        "officialSource": "https://hpscstdc.hp.gov.in/schemes/pm-ajay",
+        "parentProgramme": "HIMSWAVLAMBAN (PM-AJAY)",
+        "schemeFamily": "Category-targeted self-employment finance",
+        "sectorLabel": "Cross-sector self-employment",
+        "supportType": "Term loan with capital subsidy",
+        "title": "HIMSWAVLAMBAN (PM-AJAY)",
+        "unitStage": "New and existing",
+        "verified": "2026-08-26"
+      },
+      "schemeId": "SCH-HP-HIMSWAVLAMBAN-PM-AJAY",
+      "sectorTags": [
+        "cross-sector self-employment"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-SC-ST-FINANCE"
+      ],
+      "supportTags": [
+        "term loan",
+        "subsidy"
+      ],
+      "title": "HIMSWAVLAMBAN (PM-AJAY)",
+      "url": "https://hpscstdc.hp.gov.in/schemes",
+      "verifiedAt": "2026-08-26"
+    },
+    {
+      "beneficiaryTags": [
+        "ST woman"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "verified-publishable",
+      "id": "CAND-HP-SCST-ADIWASI-MAHILA-MICROCREDIT",
+      "issuer": "Himachal Pradesh SC/ST Development Corporation / NSTFDC",
+      "migrationSource": {
+        "row": 11,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Recheck on the stated next-check date or when the issuing body publishes a new call, form, or guideline.",
+      "publishable": true,
+      "recommendedMappingTags": [
+        "microenterprise",
+        "livestock",
+        "retail",
+        "services"
+      ],
+      "scheme": {
+        "agencyChannel": "Himachal Pradesh SC/ST Development Corporation / NSTFDC",
+        "bankLinked": "Yes",
+        "bestFor": "Scheduled Tribe women and families starting small enterprises",
+        "contributionMargin": "As stated by the issuing body; sanction terms control.",
+        "criticalCaution": "Verify live allocation, forms, and sanction terms with the issuing body before incurring expenditure.",
+        "currentStatus": "Active - annual target or departmental sanction",
+        "eligibleApplicants": "Scheduled Tribe family member, bonafide Himachal resident, annual rural/urban income up to ₹3 lakh, age 18–55, and not a bank/financial-institution defaulter.",
+        "government": "Himachal Pradesh",
+        "howToAccess": "Apply through the HP SC/ST Development Corporation; current sanction and fund availability must be confirmed.",
+        "keyBenefit": "Assistance up to ₹2 lakh; 10% promoter contribution and 90% NSTFDC term loan, stated interest 4–6%, repayment up to 3 years.",
+        "officialSource": "https://hpscstdc.hp.gov.in/schemes/adiwasi-mahila-sashaktikaran-yojna",
+        "parentProgramme": "Adiwasi Mahila Sashaktikaran / Micro Credit Scheme",
+        "schemeFamily": "Category-targeted self-employment finance",
+        "sectorLabel": "Cross-sector microenterprise",
+        "supportType": "Concessional term loan",
+        "title": "Adiwasi Mahila Sashaktikaran / Micro Credit Scheme",
+        "unitStage": "New and existing",
+        "verified": "2026-08-26"
+      },
+      "schemeId": "SCH-HP-ADIWASI-MAHILA-MICROCREDIT",
+      "sectorTags": [
+        "microenterprise"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-SC-ST-FINANCE"
+      ],
+      "supportTags": [
+        "microcredit",
+        "term loan"
+      ],
+      "title": "Adiwasi Mahila Sashaktikaran / Micro Credit Scheme",
+      "url": "https://hpscstdc.hp.gov.in/schemes/adiwasi-mahila-sashaktikaran-yojna",
+      "verifiedAt": "2026-08-26"
+    },
+    {
+      "beneficiaryTags": [
+        "Safai Karamchari dependent",
+        "woman entrepreneur"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "verified-publishable",
+      "id": "CAND-HP-SCST-NSKFDC-MCF-MSY",
+      "issuer": "Himachal Pradesh SC/ST Development Corporation / NSKFDC",
+      "migrationSource": {
+        "row": 12,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Recheck on the stated next-check date or when the issuing body publishes a new call, form, or guideline.",
+      "publishable": true,
+      "recommendedMappingTags": [
+        "microenterprise",
+        "livestock",
+        "manufacturing",
+        "services"
+      ],
+      "scheme": {
+        "agencyChannel": "Himachal Pradesh SC/ST Development Corporation / NSKFDC",
+        "bankLinked": "Yes",
+        "bestFor": "Safai Karamchari dependants, including women, starting small ventures",
+        "contributionMargin": "As stated by the issuing body; sanction terms control.",
+        "criticalCaution": "Verify live allocation, forms, and sanction terms with the issuing body before incurring expenditure.",
+        "currentStatus": "Active - annual target or departmental sanction",
+        "eligibleApplicants": "Dependent of a Safai Karamchari, bonafide Himachal resident, age 18–55; the current official page states no income criterion.",
+        "government": "Himachal Pradesh",
+        "howToAccess": "Apply through the HP SC/ST Development Corporation; current sanction and fund availability must be confirmed.",
+        "keyBenefit": "Direct assistance up to ₹1 lakh for small businesses; stated interest 6–7% with repayment up to 3 years.",
+        "officialSource": "https://hpscstdc.hp.gov.in/scheme/micro-credit-finance-schemesmcfmsy",
+        "parentProgramme": "NSKFDC Micro Credit Finance / Mahila Samridhi Yojana",
+        "schemeFamily": "Category-targeted self-employment finance",
+        "sectorLabel": "Cross-sector microenterprise",
+        "supportType": "Microcredit / term loan",
+        "title": "NSKFDC Micro Credit Finance / Mahila Samridhi Yojana",
+        "unitStage": "New and existing",
+        "verified": "2026-08-26"
+      },
+      "schemeId": "SCH-HP-NSKFDC-MCF-MSY",
+      "sectorTags": [
+        "microenterprise"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-SC-ST-FINANCE"
+      ],
+      "supportTags": [
+        "microcredit",
+        "term loan"
+      ],
+      "title": "NSKFDC Micro Credit Finance / Mahila Samridhi Yojana",
+      "url": "https://hpscstdc.hp.gov.in/scheme/micro-credit-finance-schemesmcfmsy",
+      "verifiedAt": "2026-08-26"
+    },
+    {
+      "beneficiaryTags": [
+        "SC student",
+        "ST student"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "outside-beneficiary-scope",
+      "id": "CAND-HP-SCST-STUDY-LOAN",
+      "issuer": "Himachal Pradesh SC/ST Development Corporation",
+      "migrationSource": {
+        "row": 13,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Keep excluded from enterprise scheme publication unless linked to an enterprise-startup phase.",
+      "publishable": false,
+      "sectorTags": [
+        "education"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-SC-ST-FINANCE"
+      ],
+      "supportTags": [
+        "education loan"
+      ],
+      "title": "SC/ST Development Corporation Study Loan",
+      "url": "https://hpscstdc.hp.gov.in/scheme/study-loan"
+    },
+    {
+      "beneficiaryTags": [
+        "OBC entrepreneur"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "unverified-lead",
+      "id": "CAND-HP-OBC-GENERAL-LOAN",
+      "issuer": "Himachal Backward Classes Finance and Development Corporation",
+      "migrationSource": {
+        "row": 14,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Find current annual report/application notice because the official index carries visibly old limits.",
+      "publishable": false,
+      "sectorTags": [
+        "small business",
+        "agriculture",
+        "transport",
+        "services"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-OBC-FINANCE"
+      ],
+      "supportTags": [
+        "term loan"
+      ],
+      "title": "HBCFDC General Loan Scheme",
+      "url": "https://himachalservices.nic.in/hbcfdc/schemes.htm"
+    },
+    {
+      "beneficiaryTags": [
+        "OBC woman"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "duplicate-or-alias",
+      "id": "CAND-HP-OBC-SWARNIMA",
+      "issuer": "Himachal Backward Classes Finance and Development Corporation / NBCFDC",
+      "migrationSource": {
+        "row": 15,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Compare with the existing NBCFDC New Swarnima record and retain state-channel specifics only.",
+      "publishable": false,
+      "sectorTags": [
+        "microenterprise"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-OBC-FINANCE"
+      ],
+      "supportTags": [
+        "term loan"
+      ],
+      "title": "HBCFDC Swarnima Loan Scheme",
+      "url": "https://himachalservices.nic.in/hbcfdc/schemes.htm"
+    },
+    {
+      "beneficiaryTags": [
+        "minority entrepreneur",
+        "person with disability"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "verified-publishable",
+      "id": "CAND-HP-MINORITY-TERM-LOAN",
+      "issuer": "HP Minorities Finance and Development Corporation / NMDFC",
+      "migrationSource": {
+        "row": 16,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Recheck on the stated next-check date or when the issuing body publishes a new call, form, or guideline.",
+      "publishable": true,
+      "recommendedMappingTags": [
+        "agriculture",
+        "artisan",
+        "transport",
+        "small business",
+        "services"
+      ],
+      "scheme": {
+        "agencyChannel": "HP Minorities Finance and Development Corporation / NMDFC",
+        "bankLinked": "Yes",
+        "bestFor": "Minority-community entrepreneurs pursuing viable agriculture, trade, artisan, transport, or service ventures",
+        "contributionMargin": "As stated by the issuing body; sanction terms control.",
+        "criticalCaution": "Verify live allocation, forms, and sanction terms with the issuing body before incurring expenditure.",
+        "currentStatus": "Active - annual target or departmental sanction",
+        "eligibleApplicants": "Bonafide Himachal resident belonging to a notified minority community, age 18–55, not a government/bank defaulter; current income and security requirements require corporation confirmation.",
+        "government": "Himachal Pradesh",
+        "howToAccess": "Submit the prescribed application to the state channelising corporation; sanction, security, and current fund availability apply.",
+        "keyBenefit": "Official state-channel page describes term finance for viable ventures, with project cost up to ₹20 lakh, 90% NMDFC finance, and 5% each from the state channel and beneficiary; stated beneficiary interest is 6%.",
+        "officialSource": "https://minority.hp.gov.in/page/SCHEMES.aspx",
+        "parentProgramme": "HP Minorities Finance and Development Corporation Term Loan",
+        "schemeFamily": "Category-targeted self-employment finance",
+        "sectorLabel": "Cross-sector self-employment",
+        "supportType": "Concessional term loan",
+        "title": "HP Minorities Finance and Development Corporation Term Loan",
+        "unitStage": "New and existing",
+        "verified": "2026-08-26"
+      },
+      "schemeId": "SCH-HP-MINORITY-TERM-LOAN",
+      "sectorTags": [
+        "agriculture",
+        "small business",
+        "artisan",
+        "transport",
+        "services"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-MINORITY-FINANCE"
+      ],
+      "supportTags": [
+        "term loan"
+      ],
+      "title": "HP Minorities Finance and Development Corporation Term Loan",
+      "url": "https://minority.hp.gov.in/page/SCHEMES.aspx",
+      "verifiedAt": "2026-08-26"
+    },
+    {
+      "beneficiaryTags": [
+        "minority student",
+        "student with disability"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "outside-beneficiary-scope",
+      "id": "CAND-HP-MINORITY-EDUCATION-LOAN",
+      "issuer": "HP Minorities Finance and Development Corporation / NMDFC",
+      "migrationSource": {
+        "row": 17,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Retain as a non-enterprise finance exclusion.",
+      "publishable": false,
+      "sectorTags": [
+        "education"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-MINORITY-FINANCE"
+      ],
+      "supportTags": [
+        "education loan"
+      ],
+      "title": "HP Minorities Finance and Development Corporation Education Loan",
+      "url": "https://minority.hp.gov.in/page/SCHEMES.aspx"
+    },
+    {
+      "beneficiaryTags": [
+        "woman entrepreneur",
+        "women organisation"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "verified-publishable",
+      "id": "CAND-HP-WOMEN-HPMVN-SWAROJGAR",
+      "issuer": "Himachal Pradesh Mahila Vikas Nigam",
+      "migrationSource": {
+        "row": 18,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Recheck on the stated next-check date or when the issuing body publishes a new call, form, or guideline.",
+      "publishable": true,
+      "recommendedMappingTags": [
+        "women entrepreneur",
+        "microenterprise",
+        "services",
+        "manufacturing"
+      ],
+      "scheme": {
+        "agencyChannel": "Himachal Pradesh Mahila Vikas Nigam",
+        "bankLinked": "Yes",
+        "bestFor": "Women entrepreneurs and women organisations in Himachal Pradesh",
+        "contributionMargin": "As stated by the issuing body; sanction terms control.",
+        "criticalCaution": "Verify live allocation, forms, and sanction terms with the issuing body before incurring expenditure.",
+        "currentStatus": "Active - annual target or departmental sanction",
+        "eligibleApplicants": "Woman entrepreneur or women organisation of Himachal Pradesh, annual family income up to ₹1 lakh, age 18 or above, and not a bank/financial-institution defaulter.",
+        "government": "Himachal Pradesh",
+        "howToAccess": "Apply through Himachal Pradesh Mahila Vikas Nigam and the participating bank; confirm current allocation before expenditure.",
+        "keyBenefit": "Loan up to ₹1 lakh through commercial/co-operative banks; the Nigam subsidises interest so stated beneficiary rates are 4–6% subject to regular repayment.",
+        "officialSource": "https://hpscstdc.hp.gov.in/hpmvn/schemes",
+        "parentProgramme": "Mahila Vikas Nigam Swarojgar Yojna",
+        "schemeFamily": "Category-targeted self-employment finance",
+        "sectorLabel": "Cross-sector self-employment",
+        "supportType": "Bank loan with interest subsidy",
+        "title": "Mahila Vikas Nigam Swarojgar Yojna",
+        "unitStage": "New and existing",
+        "verified": "2026-08-26"
+      },
+      "schemeId": "SCH-HP-HPMVN-SWAROJGAR",
+      "sectorTags": [
+        "cross-sector self-employment"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-WOMEN-DEVELOPMENT"
+      ],
+      "supportTags": [
+        "interest subsidy",
+        "bank loan"
+      ],
+      "title": "Mahila Vikas Nigam Swarojgar Yojna",
+      "url": "https://hpscstdc.hp.gov.in/hpmvn/schemes",
+      "verifiedAt": "2026-08-26"
+    },
+    {
+      "beneficiaryTags": [
+        "minority artisan",
+        "trainee",
+        "entrepreneur"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "unverified-lead",
+      "id": "CAND-HP-INDUSTRIES-HPCED-PM-VIKAS",
+      "issuer": "Department of Industries / HPCED / Ministry of Minority Affairs",
+      "migrationSource": {
+        "row": 19,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Retrieve the MoU/programme notice and determine whether beneficiary applications or only institutional delivery are in scope.",
+      "publishable": false,
+      "sectorTags": [
+        "skills",
+        "entrepreneurship",
+        "artisan livelihoods"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-INDUSTRIES-SINGLE-WINDOW"
+      ],
+      "supportTags": [
+        "training",
+        "entrepreneurship development"
+      ],
+      "title": "HPCED implementation under PM VIKAS",
+      "url": "https://emerginghimachal.hp.gov.in/site/gis"
+    },
+    {
+      "beneficiaryTags": [
+        "enterprise",
+        "cooperative",
+        "FPO",
+        "SHG"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "verified-component",
+      "id": "CAND-CENTRAL-MOFPI-COLD-CHAIN-IRRADIATION-2026",
+      "issuer": "Ministry of Food Processing Industries",
+      "migrationSource": {
+        "row": 20,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Attach the current EoI window to the existing PMKSY cold-chain parent rather than publish a duplicate scheme.",
+      "publishable": false,
+      "sectorTags": [
+        "food processing",
+        "cold chain"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-CENTRAL-FOOD-PROCESSING"
+      ],
+      "supportTags": [
+        "capital grant",
+        "infrastructure"
+      ],
+      "title": "PMKSY Cold Chain — multi-product food irradiation 2026 call",
+      "url": "https://www.mofpi.gov.in//en/Schemes/cold-chain/download-guidelines-0"
+    },
+    {
+      "beneficiaryTags": [
+        "manufacturer",
+        "cluster",
+        "testing facility"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "verified-component",
+      "id": "CAND-CENTRAL-SMDI-COMPONENTS-2024-27",
+      "issuer": "Department of Pharmaceuticals",
+      "migrationSource": {
+        "row": 21,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Model components under one parent until component-specific application routes are verified.",
+      "publishable": false,
+      "sectorTags": [
+        "medical devices"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-CENTRAL-PHARMA-MEDICAL-DEVICES"
+      ],
+      "supportTags": [
+        "common facility",
+        "capital support",
+        "clinical study support",
+        "skills",
+        "promotion"
+      ],
+      "title": "Scheme for Strengthening of Medical Devices Industry — five components",
+      "url": "https://www.pharmaceuticals.gov.in/sites/default/files/Final%20guidelines%20for%20SMDI-8.11.2024.pdf"
+    },
+    {
+      "beneficiaryTags": [
+        "taxi operator"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "unverified-lead",
+      "id": "CAND-HP-TRANSPORT-TAXI-CONVERSION-2026",
+      "issuer": "Directorate of Transport, Himachal Pradesh",
+      "migrationSource": {
+        "row": 22,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Retrieve the 2026 notice and verify whether this is a distinct RGSSY component or an amendment to e-Taxi support.",
+      "publishable": false,
+      "sectorTags": [
+        "transport",
+        "e-mobility"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-TRANSPORT"
+      ],
+      "supportTags": [
+        "conversion subsidy"
+      ],
+      "title": "Rajiv Gandhi Swarozgar Yojna — diesel/petrol taxi conversion component",
+      "url": "https://himachal.nic.in/transport/Content/AllNotifications"
+    },
+    {
+      "beneficiaryTags": [
+        "youth entrepreneur",
+        "taxi operator"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "duplicate-or-alias",
+      "id": "CAND-HP-TRANSPORT-ETAXI-INTAKE-2026",
+      "issuer": "Department of Transport / Department of Labour, Employment and Overseas Placement",
+      "migrationSource": {
+        "row": 23,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Use the 1 June 2026 official notice as an intake lead for the existing e-Taxi route after portal verification.",
+      "publishable": false,
+      "sectorTags": [
+        "transport",
+        "e-mobility"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-TRANSPORT"
+      ],
+      "supportTags": [
+        "capital subsidy",
+        "government hiring"
+      ],
+      "title": "Rajiv Gandhi Self-Employment Start-Up Scheme — e-Taxi 2026 intake",
+      "url": "https://himachal.nic.in/transport/Content/AllNotifications"
+    },
+    {
+      "beneficiaryTags": [
+        "sheep breeder",
+        "goat breeder"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "verified-component",
+      "id": "CAND-HP-WOOLFED-HEALTH-INPUTS",
+      "issuer": "Himachal Pradesh State Wool Federation / Animal Husbandry Department",
+      "migrationSource": {
+        "row": 24,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Keep as a budgeted delivery component unless an operative beneficiary application route is found.",
+      "publishable": false,
+      "sectorTags": [
+        "sheep and goat",
+        "wool"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-WOOLFED"
+      ],
+      "supportTags": [
+        "veterinary inputs"
+      ],
+      "title": "Health care facilities for sheep and goat breeders",
+      "url": "https://himachal.nic.in/woolfed/Content/MenuContent?qs=jRiHtBWiyFB8tcrpILmAsA%3D%3D"
+    },
+    {
+      "beneficiaryTags": [
+        "farmer"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "duplicate-or-alias",
+      "id": "CAND-HP-AGRI-TECHNOLOGY-TRANSFER",
+      "issuer": "Department of Agriculture, Himachal Pradesh",
+      "migrationSource": {
+        "row": 25,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Link the current official index page to the existing Scheme Master route.",
+      "publishable": false,
+      "sectorTags": [
+        "agriculture",
+        "extension"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-AGRICULTURE-STATE"
+      ],
+      "supportTags": [
+        "technology transfer"
+      ],
+      "title": "Scheme to Support Technology Transfer",
+      "url": "https://agriculture.hp.gov.in/en/scheme_category/state-en/"
+    },
+    {
+      "beneficiaryTags": [
+        "weaver society"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "verified-component",
+      "id": "CAND-HP-INDUSTRIES-HANDLOOM-MARKETING-ASSISTANCE",
+      "issuer": "Department of Industries, Himachal Pradesh",
+      "migrationSource": {
+        "row": 26,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Treat the beneficiary list as implementation evidence under NHDP, not as a new scheme.",
+      "publishable": false,
+      "sectorTags": [
+        "handloom"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-INDUSTRIES-SINGLE-WINDOW",
+        "AGENCY-INDEX-CENTRAL-HANDLOOM-HANDICRAFTS"
+      ],
+      "supportTags": [
+        "marketing incentive"
+      ],
+      "title": "NHDP marketing-incentive assistance to beneficiary weaver societies",
+      "url": "https://emerginghimachal.hp.gov.in/site/gis"
+    },
+    {
+      "beneficiaryTags": [
+        "Himachali entrepreneur"
+      ],
+      "discoveredAt": "2026-08-26",
+      "disposition": "duplicate-or-alias",
+      "id": "CAND-HP-INDUSTRIES-MMSY-FY2025-26-DIRECTION",
+      "issuer": "Department of Industries, Himachal Pradesh",
+      "migrationSource": {
+        "row": 27,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/candidates.json"
+      },
+      "nextAction": "Use only as a historical approval/status lead; verify 2026-27 intake separately.",
+      "publishable": false,
+      "sectorTags": [
+        "MSME",
+        "self-employment"
+      ],
+      "sourceIds": [
+        "AGENCY-INDEX-HP-INDUSTRIES-SINGLE-WINDOW"
+      ],
+      "supportTags": [
+        "capital subsidy",
+        "interest subsidy"
+      ],
+      "title": "MMSY FY 2025-26 approval direction",
+      "url": "https://emerginghimachal.hp.gov.in/site/gis"
+    }
+  ],
+  "dispositions": [
+    "verified-publishable",
+    "verified-component",
+    "existing-no-current-intake",
+    "institutional-or-intermediary",
+    "superseded-or-closed",
+    "duplicate-or-alias",
+    "outside-beneficiary-scope",
+    "unverified-lead"
+  ],
+  "schemaVersion": "hp-v2-candidates-1"
+}

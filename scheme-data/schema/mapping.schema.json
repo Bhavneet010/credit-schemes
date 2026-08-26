@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://credit-schemes.local/schema/mapping.schema.json",
+  "title": "Sector-scheme mapping review",
+  "type": "object",
+  "required": ["id", "sectorId", "schemeId", "disposition", "whyMapped", "verifiedAt"],
+  "properties": {
+    "id": { "type": "string" },
+    "sectorId": { "type": "string" },
+    "schemeId": { "type": "string" },
+    "disposition": { "enum": ["reviewed-applicable", "reviewed-not-applicable", "retired", "needs-review"] },
+    "whyMapped": { "type": "string", "minLength": 1 },
+    "verifiedAt": { "type": "string", "format": "date" }
+  }
+}

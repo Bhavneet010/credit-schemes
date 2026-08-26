@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://credit-schemes.local/schema/state-pack.schema.json",
+  "title": "Indian state credit-scheme pack manifest",
+  "type": "object",
+  "required": ["schemaVersion", "stateId", "slug", "name", "researchCutoff", "acceptedMethodFindingIds", "methodTraceability", "reverseIndexes"],
+  "properties": {
+    "schemaVersion": { "const": "state-pack-1" },
+    "stateId": { "type": "string", "pattern": "^STATE-IN-[A-Z]{2,3}$" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "researchCutoff": { "type": "string", "format": "date" },
+    "acceptedMethodFindingIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "methodTraceability": { "type": "object" },
+    "reverseIndexes": { "type": "object" }
+  }
+}

@@ -1,0 +1,874 @@
+{
+  "contacts": [
+    {
+      "migrationSource": {
+        "row": 2,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HP Industries Department / Single Window",
+      "note": "Start with the relevant scheme portal, then contact the District Industries Centre before purchase.",
+      "url": "https://emerginghimachal.hp.gov.in/site/gis",
+      "use": "Industry, MMSY, State Mission on Food Processing, Startup Himachal"
+    },
+    {
+      "migrationSource": {
+        "row": 3,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HP Department of Agriculture",
+      "note": "Use scheme pages, guidelines and notifications; district targets can close before the financial year ends.",
+      "url": "https://agriculture.hp.gov.in/en/scheme_category/state-en/",
+      "use": "State and centrally sponsored agriculture schemes"
+    },
+    {
+      "migrationSource": {
+        "row": 4,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HP Agriculture – current guidelines",
+      "note": "Check this page immediately before application.",
+      "url": "https://agriculture.hp.gov.in/en/guidelines-english/",
+      "use": "Latest circulars/cost norms"
+    },
+    {
+      "migrationSource": {
+        "row": 5,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HP Department of Horticulture",
+      "note": "Confirm district allocation and whether application is through eUdyan, NHB or bank.",
+      "url": "https://eudyan.hp.gov.in/",
+      "use": "MIDH, horticulture schemes, insurance and seasonal support"
+    },
+    {
+      "migrationSource": {
+        "row": 6,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HP Department of Animal Husbandry",
+      "note": "Local Veterinary Institution is usually the first verification point.",
+      "url": "https://hpagrisnet.gov.in/animalhusbandry/",
+      "use": "Livestock and poultry schemes"
+    },
+    {
+      "migrationSource": {
+        "row": 7,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HP Department of Fisheries",
+      "note": "Apply only during notified activity/enrolment windows.",
+      "url": "https://himachal.nic.in/fisheries/",
+      "use": "PMMSY, PM-MKSSY, fisher KCC/insurance and State support"
+    },
+    {
+      "migrationSource": {
+        "row": 8,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Himachal Pradesh State Rural Livelihoods Mission",
+      "note": "Begin with the Block Mission Management Unit and SHG federation; funds are institution-routed.",
+      "url": "https://hpsrlm.gov.in/",
+      "use": "DAY-NRLM SHGs, bank linkage, CIF/RF and SVEP"
+    },
+    {
+      "migrationSource": {
+        "row": 9,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HP Sericulture wing",
+      "note": "Ask the District Industries/Sericulture office for the nearest Government Sericulture Centre and crop calendar.",
+      "url": "https://emerginghimachal.hp.gov.in/",
+      "use": "Mulberry, silkworm, chawki and sericulture support"
+    },
+    {
+      "migrationSource": {
+        "row": 10,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HP SC/ST Development Corporation",
+      "note": "Confirm income certificate, category, age, bank and annual allocation.",
+      "url": "https://hpscstdc.hp.gov.in/",
+      "use": "SC/ST concessional finance and Swarojgar"
+    },
+    {
+      "migrationSource": {
+        "row": 11,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MSME Ministry Offerings",
+      "note": "Use this as the official scheme index, then follow the component portal.",
+      "url": "https://www.msme.gov.in/offerings",
+      "use": "Central MSME schemes"
+    },
+    {
+      "migrationSource": {
+        "row": 12,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Udyam Registration",
+      "note": "Government registration is free; avoid unauthorised paid look-alike sites.",
+      "url": "https://udyamregistration.gov.in/",
+      "use": "MSME registration"
+    },
+    {
+      "migrationSource": {
+        "row": 13,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "PMEGP portal",
+      "note": "Apply only through the official e-portal.",
+      "url": "https://pmegp.msme.gov.in/",
+      "use": "PMEGP applications"
+    },
+    {
+      "migrationSource": {
+        "row": 14,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "PM Vishwakarma portal",
+      "note": "Registration is assisted through CSC and local verification.",
+      "url": "https://pmvishwakarma.gov.in/",
+      "use": "Artisan registration/support"
+    },
+    {
+      "migrationSource": {
+        "row": 15,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "AIF portal",
+      "note": "Choose the lender after project registration.",
+      "url": "https://agriinfra.dac.gov.in/",
+      "use": "Agriculture Infrastructure Fund"
+    },
+    {
+      "migrationSource": {
+        "row": 16,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "NHB",
+      "note": "Read the latest operational guideline and amendment before loan sanction/expenditure.",
+      "url": "https://www.nhb.gov.in/",
+      "use": "Commercial horticulture/post-harvest/cold storage"
+    },
+    {
+      "migrationSource": {
+        "row": 17,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "National Bee Board",
+      "note": "Individual hives/colonies may instead be routed through HP Horticulture/MIDH; confirm the component first.",
+      "url": "https://nbb.gov.in/",
+      "use": "NBHM project components and approved beekeeping routes"
+    },
+    {
+      "migrationSource": {
+        "row": 18,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "National Medicinal Plants Board",
+      "note": "Confirm the species, subsidy category, cluster and State AYUSH nodal route before planting.",
+      "url": "https://nmpb.nic.in/",
+      "use": "Prioritised species and medicinal-plant schemes"
+    },
+    {
+      "migrationSource": {
+        "row": 19,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "e-NAM",
+      "note": "Services depend on the connected mandi and commodity; complete KYC and lot requirements.",
+      "url": "https://enam.gov.in/web/",
+      "use": "Digital mandi registration and market access"
+    },
+    {
+      "migrationSource": {
+        "row": 20,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "WDRA",
+      "note": "Use only a WDRA-registered warehouse and ask an onboarded lender about CGS-NPF finance.",
+      "url": "https://wdra.gov.in/",
+      "use": "Registered warehouses and e-NWR pledge finance"
+    },
+    {
+      "migrationSource": {
+        "row": 21,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MoFPI",
+      "note": "Current support is often EOI/call based.",
+      "url": "https://mofpi.gov.in/",
+      "use": "PMKSY calls and food-processing notifications"
+    },
+    {
+      "migrationSource": {
+        "row": 22,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "SIDBI",
+      "note": "Commercial credit appraisal applies; a named product is not a subsidy.",
+      "url": "https://www.sidbi.in/",
+      "use": "MSME lending products"
+    },
+    {
+      "migrationSource": {
+        "row": 23,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "JanSamarth",
+      "note": "Eligibility screening does not guarantee sanction.",
+      "url": "https://www.jansamarth.in/",
+      "use": "Government-linked credit schemes"
+    },
+    {
+      "migrationSource": {
+        "row": 24,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "GeM",
+      "note": "Useful for MSE public procurement and market access.",
+      "url": "https://gem.gov.in/",
+      "use": "Government e-marketplace"
+    },
+    {
+      "migrationSource": {
+        "row": 25,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Pharmaceuticals – scheme index",
+      "note": "Check both the scheme page and Important Documents page for the latest notice/corrigendum.",
+      "url": "https://www.pharma-dept.gov.in/schemes",
+      "use": "RPTUAS, API-CF, SMDI, PRIP and PLI notices"
+    },
+    {
+      "migrationSource": {
+        "row": 26,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "SMDI portal",
+      "note": "A portal login is useful only during a live Department of Pharmaceuticals call.",
+      "url": "https://smdi.lsssdc.in/",
+      "use": "Medical-device investment, clinical-study and cluster calls"
+    },
+    {
+      "migrationSource": {
+        "row": 27,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "PMBI / Jan Aushadhi",
+      "note": "Initial approval does not replace drug licence, pharmacist, premises and agreement requirements.",
+      "url": "https://janaushadhi.gov.in/login-to-kendra",
+      "use": "Open and operate a Jan Aushadhi Kendra"
+    },
+    {
+      "migrationSource": {
+        "row": 28,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MSME Innovative",
+      "note": "Use the correct vertical; incubation is routed through a Host Institute.",
+      "url": "https://innovative.msme.gov.in/",
+      "use": "Incubation, design and IPR reimbursement"
+    },
+    {
+      "migrationSource": {
+        "row": 29,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "NSIC",
+      "note": "Ask the nearest branch about product availability and current fees/rates.",
+      "url": "https://www.nsic.co.in/Schemes",
+      "use": "Raw-material finance, SPRS and tender/marketing support"
+    },
+    {
+      "migrationSource": {
+        "row": 30,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MSME ODR",
+      "note": "Prepare invoices, supply acceptance and buyer correspondence before filing.",
+      "url": "https://odr.msme.gov.in/",
+      "use": "Delayed-payment negotiation, mediation and MSEFC route"
+    },
+    {
+      "migrationSource": {
+        "row": 31,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "BIRAC",
+      "note": "BIG is proof-of-concept funding; engage a BIG Partner before the deadline.",
+      "url": "https://birac.nic.in/big.php",
+      "use": "BIG and other biotechnology innovation calls"
+    },
+    {
+      "migrationSource": {
+        "row": 32,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "iDEX / Defence Innovation Organisation",
+      "note": "Apply only to a live problem statement and read the challenge-specific grant conditions.",
+      "url": "https://www.idex.gov.in/challenges",
+      "use": "Defence innovation challenges"
+    },
+    {
+      "migrationSource": {
+        "row": 33,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "DRDO Technology Development Fund",
+      "note": "Portal registration and project-specific PDD/DPR are required.",
+      "url": "https://tdf.drdo.gov.in/",
+      "use": "Defence/dual-use project requirements"
+    },
+    {
+      "migrationSource": {
+        "row": 34,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MeitY ECMS",
+      "note": "Only Segment D remains open; verify product and threshold before preparing the application.",
+      "url": "https://ecms.meity.gov.in/",
+      "use": "Electronics-component Segment D applications"
+    },
+    {
+      "migrationSource": {
+        "row": 35,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Export Promotion Mission",
+      "note": "Use the relevant intervention, exporter bank or Export Promotion Council; benefits are not automatic.",
+      "url": "https://www.commerce.gov.in/",
+      "use": "MSME export finance, compliance and market-access interventions"
+    },
+    {
+      "migrationSource": {
+        "row": 36,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Industries Department / DIC / bank",
+      "note": "Official source used for multiple scheme and sector-taxonomy records.",
+      "url": "https://himachalservices.nic.in/economics/pdf/en-economic_survey_2025-26.pdf",
+      "use": "Mukhya Mantri Swavalamban Yojana (MMSY)"
+    },
+    {
+      "migrationSource": {
+        "row": 37,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Agriculture",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/mukhya-mantri-krishi-samvardhan-yojna/",
+      "use": "Mukhya Mantri Krishi Samvardhan Yojana (MKSY/MMKSY)"
+    },
+    {
+      "migrationSource": {
+        "row": 38,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Agriculture",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/state-agricultural-mechanisation/",
+      "use": "Rajya Krishi Yantrikaran Yojana"
+    },
+    {
+      "migrationSource": {
+        "row": 39,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Agriculture",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/flow-irrigation-scheme/",
+      "use": "Flow Irrigation Scheme"
+    },
+    {
+      "migrationSource": {
+        "row": 40,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Agriculture",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/prakritik-kheti-khushhal-kisan-yojna/",
+      "use": "Rajiv Gandhi Prakritik Kheti Khushhal Kisan Yojana"
+    },
+    {
+      "migrationSource": {
+        "row": 41,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Agriculture",
+      "note": "Scheme evidence; status: Active - cluster or project area.",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/him-unnati-yojana/",
+      "use": "Him Unnati / Him Krishi cluster programme"
+    },
+    {
+      "migrationSource": {
+        "row": 42,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Agriculture",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/scheme-to-support-technology-transfer/",
+      "use": "Scheme to Support Technology Transfer"
+    },
+    {
+      "migrationSource": {
+        "row": 43,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Agriculture / nodal agency",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/pm-kusum/",
+      "use": "PM-KUSUM / Saur Sinchai implementation in HP"
+    },
+    {
+      "migrationSource": {
+        "row": 44,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Horticulture / MIDH",
+      "note": "Official source used for multiple scheme and sector-taxonomy records.",
+      "url": "https://www.nhb.gov.in/writereaddata/085725055718MIDH%20Guidelines%20DO%20Letter%20%281%29.pdf",
+      "use": "MIDH implementation in Himachal Pradesh"
+    },
+    {
+      "migrationSource": {
+        "row": 45,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Agriculture/Horticulture Department",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://pmksy.gov.in/microirrigation/Archive/GuidelinesMIRevised250817.pdf",
+      "use": "PMKSY – Per Drop More Crop (micro-irrigation)"
+    },
+    {
+      "migrationSource": {
+        "row": 46,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MSME Ministry / CSC / bank",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2057040&lang=2&reg=48",
+      "use": "PM Vishwakarma"
+    },
+    {
+      "migrationSource": {
+        "row": 47,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Lender / NSSH / MSME Ministry",
+      "note": "Scheme evidence; status: Active - bank or continuous route.",
+      "url": "https://sclcss.msme.gov.in/Common/Home.aspx",
+      "use": "Special Credit Linked Capital Subsidy Scheme (SCLCSS)"
+    },
+    {
+      "migrationSource": {
+        "row": 48,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MSME Ministry / State / SPV",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://cluster.dcmsme.gov.in/",
+      "use": "Micro and Small Enterprises Cluster Development Programme (MSE-CDP)"
+    },
+    {
+      "migrationSource": {
+        "row": 49,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MSME Ministry / nodal agency",
+      "note": "Scheme evidence; status: Active - cluster or project area.",
+      "url": "https://sfurti.msme.gov.in/",
+      "use": "SFURTI – Scheme of Fund for Regeneration of Traditional Industries"
+    },
+    {
+      "migrationSource": {
+        "row": 50,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MSME Ministry / QCI",
+      "note": "Scheme evidence; status: Active - bank or continuous route.",
+      "url": "https://zed.msme.gov.in/",
+      "use": "MSME Sustainable (ZED) Certification"
+    },
+    {
+      "migrationSource": {
+        "row": 51,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MSME Ministry / NPC/QCI ecosystem",
+      "note": "Scheme evidence; status: Active - bank or continuous route.",
+      "url": "https://lean.msme.gov.in/Home/FinancialAssistance",
+      "use": "MSME Competitive (LEAN)"
+    },
+    {
+      "migrationSource": {
+        "row": 52,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MSME Ministry / RAMP / lender",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://ramp.msme.gov.in/ramp/index.php/RAMP-initiative/mse-gift/gift-interest-subvention",
+      "use": "MSE GIFT – Green Investment and Financing for Transformation"
+    },
+    {
+      "migrationSource": {
+        "row": 53,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MSME Ministry / RAMP",
+      "note": "Scheme evidence; status: Active - bank or continuous route.",
+      "url": "https://ramp.msme.gov.in/ramp/RAMP-initiative/mse-spice/mse-spice",
+      "use": "MSE SPICE – circular economy investment"
+    },
+    {
+      "migrationSource": {
+        "row": 54,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MSME Ministry / RAMP / ONDC",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://ramp.msme.gov.in/ramp/RAMP-initiative/msme-team-initiative/msme-team-initiative",
+      "use": "MSME TEAM initiative – e-commerce/ONDC"
+    },
+    {
+      "migrationSource": {
+        "row": 55,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MSME Ministry / State",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://ramp.msme.gov.in/",
+      "use": "Raising and Accelerating MSME Performance (RAMP)"
+    },
+    {
+      "migrationSource": {
+        "row": 56,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "NSIC / MSME Ministry",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://scsthub.in/",
+      "use": "National SC-ST Hub (NSSH)"
+    },
+    {
+      "migrationSource": {
+        "row": 57,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MSME Ministry / MSME-DFO",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://www.msme.gov.in/offerings/schemes-and-services",
+      "use": "Procurement and Marketing Support (PMS)"
+    },
+    {
+      "migrationSource": {
+        "row": 58,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MSME Ministry",
+      "note": "Official source used for multiple scheme and sector-taxonomy records.",
+      "url": "https://www.msme.gov.in/offerings",
+      "use": "International Cooperation Scheme"
+    },
+    {
+      "migrationSource": {
+        "row": 59,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MSME Ministry / SIDBI / incubator",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://aspire.msme.gov.in/",
+      "use": "ASPIRE – Livelihood Business Incubators / Fund of Funds"
+    },
+    {
+      "migrationSource": {
+        "row": 60,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Coir Board",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://coirboard.gov.in/",
+      "use": "Coir Vikas Yojana"
+    },
+    {
+      "migrationSource": {
+        "row": 61,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MSME Ministry / Host Institute / Implementing Agency",
+      "note": "Scheme evidence; status: Active - bank or continuous route.",
+      "url": "https://innovative.msme.gov.in/",
+      "use": "MSME Innovative – Incubation, Design and IPR"
+    },
+    {
+      "migrationSource": {
+        "row": 62,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Commerce / lender / NCGTC",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210874&lang=1&reg=1",
+      "use": "Export Promotion Mission – Niryat Protsahan finance interventions"
+    },
+    {
+      "migrationSource": {
+        "row": 63,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Commerce / EPC / implementing agency",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157540&id=157540&lang=1&reg=20",
+      "use": "Export Promotion Mission – TRACE and Niryat Disha market-readiness support"
+    },
+    {
+      "migrationSource": {
+        "row": 64,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Pharmaceuticals / scheme PMA",
+      "note": "Scheme evidence; status: Status unconfirmed.",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294204&lang=1&reg=48",
+      "use": "Revamped Pharmaceutical Technology Upgradation Assistance Scheme (RPTUAS)"
+    },
+    {
+      "migrationSource": {
+        "row": 65,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Pharmaceuticals / SPV / State",
+      "note": "Scheme evidence; status: Status unconfirmed.",
+      "url": "https://www.pharma-dept.gov.in/schemes/scheme-strengthening-pharmaceuticals-industry-spi",
+      "use": "Assistance to Pharmaceutical Industry for Common Facilities (API-CF)"
+    },
+    {
+      "migrationSource": {
+        "row": 66,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Pharmaceuticals / SMDI PMA",
+      "note": "Official source used for multiple scheme and sector-taxonomy records.",
+      "url": "https://pharma-dept.gov.in/schemes/scheme-strengthening-medical-device-industry",
+      "use": "SMDI – Marginal Investment Scheme for Reducing Import Dependence (MIS-RID)"
+    },
+    {
+      "migrationSource": {
+        "row": 67,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "PMBI / Department of Pharmaceuticals",
+      "note": "Scheme evidence; status: Active - bank or continuous route.",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294917&lang=2&reg=48",
+      "use": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana – Jan Aushadhi Kendra"
+    },
+    {
+      "migrationSource": {
+        "row": 68,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HP Bulk Drug Park Infrastructure Ltd. / Industries Department",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292339&lang=1&reg=48",
+      "use": "Himachal Pradesh Bulk Drug Park – Haroli, Una"
+    },
+    {
+      "migrationSource": {
+        "row": 69,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Ministry of Textiles / Customs / DGFT",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247851&lang=2&reg=48",
+      "use": "RoSCTL – Rebate of State and Central Taxes and Levies"
+    },
+    {
+      "migrationSource": {
+        "row": 70,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Agriculture Ministry / lender",
+      "note": "Scheme evidence; status: Active - bank or continuous route.",
+      "url": "https://agriinfra.dac.gov.in/Content/DocAttachment/FINALSchemeGuidelinesAIF.pdf",
+      "use": "Agriculture Infrastructure Fund (AIF)"
+    },
+    {
+      "migrationSource": {
+        "row": 71,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Bank / Department of Financial Services",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157771&lang=1&reg=3",
+      "use": "Kisan Credit Card (KCC) / Modified Interest Subvention Scheme"
+    },
+    {
+      "migrationSource": {
+        "row": 72,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Agriculture Department / insurer",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/pradhanmantri-fasal-bima-yojna-pmfby/",
+      "use": "Pradhan Mantri Fasal Bima Yojana (PMFBY)"
+    },
+    {
+      "migrationSource": {
+        "row": 73,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Agriculture Department / SMAM",
+      "note": "Official source used for multiple scheme and sector-taxonomy records.",
+      "url": "https://agriculture.hp.gov.in/en/guidelines-english/",
+      "use": "Sub-Mission on Agricultural Mechanization (SMAM)"
+    },
+    {
+      "migrationSource": {
+        "row": 74,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Agriculture Department / NBM",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://nbm.nic.in/",
+      "use": "National Bamboo Mission"
+    },
+    {
+      "migrationSource": {
+        "row": 75,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "District ATMA / Agriculture Department",
+      "note": "Official source used for multiple scheme and sector-taxonomy records.",
+      "url": "https://agriculture.hp.gov.in/en/scheme_category/center-en/",
+      "use": "ATMA – Support to State Extension Programmes"
+    },
+    {
+      "migrationSource": {
+        "row": 76,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Fisheries / PMMSY",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://dof.gov.in/sites/default/files/2020-12/PMMSY-Guidelines24-June2020.pdf",
+      "use": "Pradhan Mantri Matsya Sampada Yojana (PMMSY) – beneficiary activities"
+    },
+    {
+      "migrationSource": {
+        "row": 77,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Fisheries",
+      "note": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "url": "https://www.dof.gov.in/offerings/schemes-and-services/details/pmmkssy-2-cTN5ETMtQWa",
+      "use": "Pradhan Mantri Matsya Kisan Samridhi Sah-Yojana (PM-MKSSY)"
+    },
+    {
+      "migrationSource": {
+        "row": 78,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "Department of Fisheries / NCDC/NABARD/lender",
+      "note": "Scheme evidence; status: Status unconfirmed.",
+      "url": "https://www.dof.gov.in/offerings/schemes-and-services/details/fidf-2-kTN5ETMtQWa",
+      "use": "Fisheries and Aquaculture Infrastructure Development Fund (FIDF)"
+    },
+    {
+      "migrationSource": {
+        "row": 79,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "MoFPI / State nodal agency / bank",
+      "note": "Scheme evidence; status: Status unconfirmed.",
+      "url": "https://pmfme.mofpi.gov.in/",
+      "use": "PM Formalisation of Micro Food Processing Enterprises (PMFME)"
+    },
+    {
+      "migrationSource": {
+        "row": 80,
+        "sheet": "Key Contacts",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "name": "HP SC/ST Development Corporation / bank",
+      "note": "Scheme evidence; status: Active - bank or continuous route.",
+      "url": "https://hpscstdc.hp.gov.in/scheme/swarojgar-yojna",
+      "use": "HP SC/ST Development Corporation – Swarojgar Yojana"
+    }
+  ],
+  "schemaVersion": "state-pack-1"
+}

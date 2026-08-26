@@ -3,8 +3,8 @@
 **Live: https://bhavneet010.github.io/credit-schemes/**
 
 A minimalist, installable PWA for searching Himachal Pradesh and central government
-schemes by business activity. HP v2 is generated from the version-controlled research
-workbench in `research/hp-v2` (research cutoff 2026-08-26).
+schemes by business activity. The canonical source is now the version-controlled HP
+State Pack in `scheme-data/states/himachal-pradesh` (research cutoff 2026-08-26).
 
 - **382** business activities across 15 macro sectors
 - **188** schemes and routes, including 6 newly verified official routes
@@ -44,6 +44,22 @@ npm run hp-v2:workbook
 `outputs/himachal-pradesh`; add `-- --publish` only after all gates pass. The workbook
 keeps the 13 existing sheets and adds Claim Evidence and Candidate Ledger.
 
+## State Pack workflow
+
+HP v2 is the accepted migration fixture for every future state. Import it once, validate
+the canonical records, declare a focused scope, and build the app contract with:
+
+```bash
+npm run data:import-hp
+npm run data:validate
+node tools/state-pack/cli.mjs scope --mode refresh-sector --state himachal-pradesh --sectors SEC-AGR-HOR-01
+npm run data:build
+```
+
+For updates, the scope declaration lists exactly which records and dependencies may
+change. The hash guard rejects unrelated record changes. See
+`docs/state-pack-operations.md` for all modes and failure behavior.
+
 `python tools/make_icons.py` regenerates the app icons (no image library needed).
 
 ## Layout
@@ -58,10 +74,12 @@ app/
   manifest.webmanifest  install metadata
   sw.js                 offline cache
   icons/
-research/hp-v2/         evidence, status, candidates, coverage, mappings and changes
-tools/hp-v2/            import, research, validation and artifact generators
+scheme-data/            canonical shared records, state packs and schemas
+research/hp-v2/         accepted HP v2 research workbench and migration input
+tools/state-pack/       reusable validation, scope, migration, diff and build engine
+tools/hp-v2/            HP pilot research and workbook generators
 tools/
-  build_data.py         legacy v1 workbook -> data.json
+  build_data.py         compatibility wrapper for the State Pack app builder
   make_icons.py         PNG icon generator
 ```
 

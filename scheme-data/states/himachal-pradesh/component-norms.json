@@ -1,0 +1,1141 @@
+{
+  "norms": [
+    {
+      "cap": "1–2 ha; minimum 0.5 ha in Himalayan states",
+      "cond": "Accreditation, mother block, irrigation and technical standards apply",
+      "item": "Large nursery",
+      "migrationSource": {
+        "row": 2,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹30 lakh/ha",
+      "pattern": "40% of cost norm for eligible private sector",
+      "route": "HP Horticulture Department / NHB route as notified",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Nursery & planting material",
+      "who": "Entrepreneur/FPO/cooperative/institution"
+    },
+    {
+      "cap": "0.4–1 ha",
+      "cond": "Approved planting material, irrigation and nursery standards",
+      "item": "Small nursery",
+      "migrationSource": {
+        "row": 3,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹20 lakh/ha",
+      "pattern": "50% of cost norm for eligible private sector",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Nursery & planting material",
+      "who": "Grower/entrepreneur/FPO/cooperative"
+    },
+    {
+      "cap": "Maximum 2 ha",
+      "cond": "Only admissible upgrade items and inspected existing nursery",
+      "item": "Upgradation of nursery",
+      "migrationSource": {
+        "row": 4,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "Up to ₹4 lakh/ha",
+      "pattern": "50% of cost norm for eligible private sector",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Nursery & planting material",
+      "who": "Existing nursery/operator"
+    },
+    {
+      "cap": "Capacity-linked ceiling",
+      "cond": "Accreditation, laboratory standards, disease-free stock and bankable DPR",
+      "item": "New tissue-culture unit",
+      "migrationSource": {
+        "row": 5,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "Up to ₹250 lakh for 25 lakh plants; pro rata, minimum 10 lakh plants",
+      "pattern": "40%, credit linked, eligible private sector",
+      "route": "NHB/department + financing bank",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Nursery & planting material",
+      "who": "Company/entrepreneur/institution"
+    },
+    {
+      "cap": "0.2–1 ha",
+      "cond": "Protected structure and automated nursery specifications",
+      "item": "Hi-tech plug nursery",
+      "migrationSource": {
+        "row": 6,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹1,200/sq.m",
+      "pattern": "50%, credit linked, eligible private sector",
+      "route": "Department/NHB + bank",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Nursery & planting material",
+      "who": "Entrepreneur/FPO/cooperative"
+    },
+    {
+      "cap": "Approved area/target",
+      "cond": "Seed certification and procurement/quality protocol",
+      "item": "Open-pollinated vegetable/spice seed production",
+      "migrationSource": {
+        "row": 7,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹50,000/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Nursery & planting material",
+      "who": "Registered seed grower/group"
+    },
+    {
+      "cap": "Approved area/target",
+      "cond": "Seed certification, parental lines and isolation standards",
+      "item": "Hybrid vegetable/spice seed production",
+      "migrationSource": {
+        "row": 8,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹1.80 lakh/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Nursery & planting material",
+      "who": "Registered seed grower/group"
+    },
+    {
+      "cap": "Project ceiling and approved capacity",
+      "cond": "Integrated supply chain, DPR and approved equipment",
+      "item": "Quality seed/planting-material handling, packing and storage infrastructure",
+      "migrationSource": {
+        "row": 9,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "Up to ₹300 lakh/year",
+      "pattern": "50% for eligible private/FPO/SHG/cooperative projects",
+      "route": "Department/NHB + bank where prescribed",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Nursery & planting material",
+      "who": "FPO/SHG/cooperative/entrepreneur/institution"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Approved varieties, spacing, survival and phased assistance rules",
+      "item": "Strawberry",
+      "migrationSource": {
+        "row": 10,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹2.00 lakh/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "New gardens / area expansion",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Site suitability, polliniser ratio and support system",
+      "item": "Kiwi",
+      "migrationSource": {
+        "row": 11,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹2.50 lakh/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "New gardens / area expansion",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Approved planting material and support/spacing package",
+      "item": "Passion fruit",
+      "migrationSource": {
+        "row": 12,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹2.75 lakh/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "New gardens / area expansion",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Suitable microclimate and approved trellis/support design",
+      "item": "Dragon fruit",
+      "migrationSource": {
+        "row": 13,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹6.75 lakh/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "New gardens / area expansion",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Variety, trellis, spacing and technical feasibility",
+      "item": "Grape",
+      "migrationSource": {
+        "row": 14,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹3.00 lakh/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "New gardens / area expansion",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Notified crop/variety and survival verification",
+      "item": "Apricot, pear, peach, plum, cherry and similar temperate fruits – regular density",
+      "migrationSource": {
+        "row": 15,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹1.25 lakh/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "New gardens / area expansion",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Crop-specific planting density and approved material",
+      "item": "Apple/mango/guava/litchi/pomegranate/citrus – regular density",
+      "migrationSource": {
+        "row": 16,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹1.25 lakh/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "New gardens / area expansion",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "High-density spacing and canopy/support package",
+      "item": "High-density fruit orchard – crops other than apple",
+      "migrationSource": {
+        "row": 17,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹2.00 lakh/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "New gardens / area expansion",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Approved rootstock/variety, density and trellis",
+      "item": "High-density apple with support system",
+      "migrationSource": {
+        "row": 18,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹5.00 lakh/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "New gardens / area expansion",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Approved high-intensity technical package",
+      "item": "Ultra-high-density fruit orchard – crops other than apple",
+      "migrationSource": {
+        "row": 19,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹3.00 lakh/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "New gardens / area expansion",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Approved rootstock, certified material, trellis and irrigation",
+      "item": "Ultra-high-density apple with support system",
+      "migrationSource": {
+        "row": 20,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹7.50 lakh/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "New gardens / area expansion",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary unless annual plan specifies lower",
+      "cond": "Approved seed and crop package; seasonal target",
+      "item": "Hybrid vegetables",
+      "migrationSource": {
+        "row": 21,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹60,000/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "New gardens / area expansion",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary unless annual plan specifies lower",
+      "cond": "Approved variety/seed source",
+      "item": "Onion/garlic – open-pollinated planting material",
+      "migrationSource": {
+        "row": 22,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹50,000/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "New gardens / area expansion",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Approved species, planting material and market plan",
+      "item": "Cut flowers in open field",
+      "migrationSource": {
+        "row": 23,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹1.25 lakh/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Floriculture",
+      "who": "Flower grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Approved bulbs/rhizomes and crop package",
+      "item": "Bulbous/rhizomatic flowers",
+      "migrationSource": {
+        "row": 24,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹2.50 lakh/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Floriculture",
+      "who": "Flower grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Approved species and seasonal plan",
+      "item": "Loose flowers",
+      "migrationSource": {
+        "row": 25,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹50,000/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Floriculture",
+      "who": "Flower grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Disease-free planting material and approved crop",
+      "item": "Ginger, turmeric and garlic cultivation",
+      "migrationSource": {
+        "row": 26,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹1.00 lakh/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Spices",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Confirm species is admissible; NAM/NMPB may be the alternative route",
+      "item": "Listed medicinal plants",
+      "migrationSource": {
+        "row": 27,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹1.50 lakh/ha",
+      "pattern": "50% in Himalayan states under this MIDH component",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Medicinal & aromatic plants",
+      "who": "Farmer/grower/group"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Approved species and planting material",
+      "item": "Cost-intensive aromatic plants",
+      "migrationSource": {
+        "row": 28,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹1.25 lakh/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department / MEHAK where notified",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Medicinal & aromatic plants",
+      "who": "Farmer/grower/group"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Approved species and planting material",
+      "item": "Other aromatic plants",
+      "migrationSource": {
+        "row": 29,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹50,000/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department / MEHAK where notified",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Medicinal & aromatic plants",
+      "who": "Farmer/grower/group"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Departmental diagnosis, approved rejuvenation plan and survival checks",
+      "item": "Rejuvenation/replacement of senile orchard",
+      "migrationSource": {
+        "row": 30,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "Removal ₹10,000/ha + top-working/gap filling ₹10,000/ha + inputs ₹40,000/ha",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Orchard rehabilitation",
+      "who": "Existing orchardist"
+    },
+    {
+      "cap": "One approved unit/project",
+      "cond": "DPR, technical design, hygiene and bank sanction before execution",
+      "item": "Commercial mushroom production unit",
+      "migrationSource": {
+        "row": 31,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹30 lakh/unit",
+      "pattern": "50% in Himalayan states; credit linked where prescribed",
+      "route": "HP Horticulture Department/NHB + bank",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Mushroom",
+      "who": "Grower/entrepreneur/FPO/cooperative"
+    },
+    {
+      "cap": "One approved unit/project",
+      "cond": "Laboratory, mother culture, quality-control and technical standards",
+      "item": "Spawn production unit",
+      "migrationSource": {
+        "row": 32,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹20 lakh/unit",
+      "pattern": "50% in Himalayan states; credit linked where prescribed",
+      "route": "HP Horticulture Department/NHB + bank",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Mushroom",
+      "who": "Entrepreneur/institution"
+    },
+    {
+      "cap": "One approved unit/project",
+      "cond": "Approved capacity, pollution/site conditions and market linkage",
+      "item": "Compost-making unit",
+      "migrationSource": {
+        "row": 33,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹30 lakh/unit",
+      "pattern": "50% in Himalayan states; credit linked where prescribed",
+      "route": "HP Horticulture Department/NHB + bank",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Mushroom",
+      "who": "Entrepreneur/FPO/cooperative"
+    },
+    {
+      "cap": "Maximum 5 units/beneficiary",
+      "cond": "Training, technical design and unit verification",
+      "item": "Low-cost mushroom unit (200 sq.ft)",
+      "migrationSource": {
+        "row": 34,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹2 lakh/unit",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Mushroom",
+      "who": "Small grower/entrepreneur"
+    },
+    {
+      "cap": "Up to 30,000 cubic metres; should irrigate at least 10 ha",
+      "cond": "Community asset, command area, water source and maintenance plan",
+      "item": "Community water-harvesting structure in Himalayan states",
+      "migrationSource": {
+        "row": 35,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹30 lakh/unit at ₹100/cubic metre",
+      "pattern": "75% of cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Water management",
+      "who": "Farmer group/community/FPO"
+    },
+    {
+      "cap": "Up to 50,000 litres",
+      "cond": "Linked irrigation use, approved material and size",
+      "item": "Flexible water-storage structure",
+      "migrationSource": {
+        "row": 36,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹0.80/litre",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Water management",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2,500 sq.m/beneficiary",
+      "cond": "Prior technical sanction, approved design/material and site inspection",
+      "item": "Fan-and-pad greenhouse",
+      "migrationSource": {
+        "row": 37,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹1,800/sq.m up to 500 sq.m; ₹1,600 for >500–1,008; ₹1,500 for >1,008–2,500; 15% hill uplift",
+      "pattern": "50% of hill-adjusted cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Protected cultivation",
+      "who": "Farmer/entrepreneur"
+    },
+    {
+      "cap": "Maximum 2,500 sq.m/beneficiary",
+      "cond": "Prior technical sanction and approved structure specification",
+      "item": "Naturally ventilated tubular greenhouse",
+      "migrationSource": {
+        "row": 38,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹1,200/sq.m up to 500; ₹1,050 for >500–1,008; ₹1,000 for >1,008–2,500; 15% hill uplift",
+      "pattern": "50% of hill-adjusted cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Protected cultivation",
+      "who": "Farmer/entrepreneur"
+    },
+    {
+      "cap": "Maximum 2,500 sq.m/beneficiary",
+      "cond": "Approved low-cost design and materials",
+      "item": "Bamboo/cable greenhouse",
+      "migrationSource": {
+        "row": 39,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹450/sq.m plus 15% hill uplift",
+      "pattern": "50% of hill-adjusted cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Protected cultivation",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2,500 sq.m/beneficiary",
+      "cond": "Approved design, net specification and crop plan",
+      "item": "Tubular shade-net house",
+      "migrationSource": {
+        "row": 40,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹710/sq.m plus 15% hill uplift",
+      "pattern": "50% of hill-adjusted cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Protected cultivation",
+      "who": "Farmer/entrepreneur"
+    },
+    {
+      "cap": "Maximum 2,500 sq.m/beneficiary",
+      "cond": "Approved material and seasonal crop plan",
+      "item": "Plastic/non-woven low tunnel",
+      "migrationSource": {
+        "row": 41,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹80/sq.m plus 15% hill uplift",
+      "pattern": "50% of hill-adjusted cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Protected cultivation",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 3 units of 800 sq.m each",
+      "cond": "Approved design and unit dimensions",
+      "item": "Walk-in tunnel",
+      "migrationSource": {
+        "row": 42,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹720/sq.m plus 15% hill uplift",
+      "pattern": "50% of hill-adjusted cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Protected cultivation",
+      "who": "Farmer/entrepreneur"
+    },
+    {
+      "cap": "Maximum 10,000 sq.m/beneficiary",
+      "cond": "Net specifications and prior sanction; support structure may be a separate component",
+      "item": "Anti-bird/anti-hail net",
+      "migrationSource": {
+        "row": 43,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹50/sq.m plus 15% hill uplift",
+      "pattern": "50% of hill-adjusted cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Orchard protection",
+      "who": "Orchardist/grower"
+    },
+    {
+      "cap": "Maximum 2,500 sq.m/beneficiary",
+      "cond": "Eligible only with approved protected structure/crop package",
+      "item": "Planting material/bed preparation for high-value fruit and vegetables under protected structure",
+      "migrationSource": {
+        "row": 44,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹150/sq.m plus 15% hill uplift",
+      "pattern": "50% of hill-adjusted cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Protected cultivation",
+      "who": "Protected-crop grower"
+    },
+    {
+      "cap": "Maximum 2,500 sq.m/beneficiary",
+      "cond": "Protected structure, approved material and crop plan",
+      "item": "Carnation/gerbera planting material and inputs",
+      "migrationSource": {
+        "row": 45,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹600/sq.m plus 15% hill uplift",
+      "pattern": "50% of hill-adjusted cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Protected floriculture",
+      "who": "Flower grower"
+    },
+    {
+      "cap": "Maximum 2,500 sq.m/beneficiary",
+      "cond": "Protected structure and approved planting material",
+      "item": "Rose/chrysanthemum/lilium planting material and inputs",
+      "migrationSource": {
+        "row": 46,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹450/sq.m plus 15% hill uplift",
+      "pattern": "50% of hill-adjusted cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Protected floriculture",
+      "who": "Flower grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Approved thickness/material and disposal practice",
+      "item": "Plastic mulching",
+      "migrationSource": {
+        "row": 47,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹40,000/ha plus 15% hill uplift",
+      "pattern": "50% of hill-adjusted cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Protected cultivation",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 1,000 sq.m/beneficiary",
+      "cond": "Technical DPR, water quality, power and market feasibility",
+      "item": "Hydroponics/aeroponics",
+      "migrationSource": {
+        "row": 48,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹350/sq.m plus 15% hill uplift",
+      "pattern": "50% of hill-adjusted cost norm",
+      "route": "HP Horticulture Department/NHB as notified",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Protected cultivation",
+      "who": "Entrepreneur/grower"
+    },
+    {
+      "cap": "Minimum protected area 2,500 sq.m",
+      "cond": "Compatible irrigation/fertigation system and approved sensors",
+      "item": "Sensor-based fertigation automation",
+      "migrationSource": {
+        "row": 49,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹4 lakh/unit plus 15% hill uplift",
+      "pattern": "50% of hill-adjusted cost norm",
+      "route": "HP Horticulture Department/NHB as notified",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Protected cultivation",
+      "who": "Commercial grower/entrepreneur"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Engineering design and no duplicate support under KUSHY/state structure aid",
+      "item": "Permanent support for anti-hail/anti-bird net",
+      "migrationSource": {
+        "row": 50,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹20/sq.m plus 15% hill uplift",
+      "pattern": "50% of hill-adjusted cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Orchard protection",
+      "who": "Orchardist/grower"
+    },
+    {
+      "cap": "Maximum 1,000 running metres/beneficiary",
+      "cond": "Integral to an approved horticulture project; specification and boundary proof",
+      "item": "Integrated fencing",
+      "migrationSource": {
+        "row": 51,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹300/running metre plus 15% hill uplift",
+      "pattern": "50% of hill-adjusted cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Protected cultivation",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 4,000 sq.m/beneficiary",
+      "cond": "Approved material and orchard/crop use",
+      "item": "Weed-control mat",
+      "migrationSource": {
+        "row": 52,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹50/sq.m plus 15% hill uplift",
+      "pattern": "50% of hill-adjusted cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Protected cultivation",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Only approved IPM/INM inputs and package",
+      "item": "Integrated Pest/Nutrient Management",
+      "migrationSource": {
+        "row": 53,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹5,000/ha",
+      "pattern": "30% of cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Good practices & organic inputs",
+      "who": "Farmer/grower"
+    },
+    {
+      "cap": "Unit limits under annual plan",
+      "cond": "Approved dimensions, material and operational verification",
+      "item": "Vermicompost unit",
+      "migrationSource": {
+        "row": 54,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹1 lakh permanent unit or ₹16,000 HDPE unit",
+      "pattern": "50% of cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Good practices & organic inputs",
+      "who": "Farmer/group/FPO"
+    },
+    {
+      "cap": "Maximum 2 ha/beneficiary",
+      "cond": "Certification through approved process and record keeping",
+      "item": "Bharat GAP/GAP certification",
+      "migrationSource": {
+        "row": 55,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹20,000/ha",
+      "pattern": "50% of cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Good practices & organic inputs",
+      "who": "Grower/group/FPO"
+    },
+    {
+      "cap": "Minimum production 2,000 colonies/year",
+      "cond": "Registration, technical standards and colony health/traceability",
+      "item": "Bee colony production by approved breeder",
+      "migrationSource": {
+        "row": 56,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹10 lakh unit norm",
+      "pattern": "40% of cost norm",
+      "route": "HP Horticulture Department/National Bee Board route",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Beekeeping",
+      "who": "Approved breeder/entrepreneur"
+    },
+    {
+      "cap": "Maximum 50 units/beneficiary",
+      "cond": "Approved breeder/vendor and training; no duplicate Madhu Vikas aid",
+      "item": "Beehive with colony",
+      "migrationSource": {
+        "row": 57,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹4,000/unit",
+      "pattern": "40% of cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Beekeeping",
+      "who": "Trained/registered beekeeper"
+    },
+    {
+      "cap": "Maximum 50 units/beneficiary",
+      "cond": "Approved hive specification",
+      "item": "Beehive without colony",
+      "migrationSource": {
+        "row": 58,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹2,000/unit",
+      "pattern": "40% of cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Beekeeping",
+      "who": "Trained/registered beekeeper"
+    },
+    {
+      "cap": "As specified in the approved component",
+      "cond": "Only approved equipment items and invoices",
+      "item": "Beekeeping equipment set",
+      "migrationSource": {
+        "row": 59,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹20,000/set",
+      "pattern": "40% of cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Beekeeping",
+      "who": "Trained/registered beekeeper"
+    },
+    {
+      "cap": "One approved unit/project",
+      "cond": "Produce linkage, technical design and eligible equipment",
+      "item": "Farm-gate packhouse",
+      "migrationSource": {
+        "row": 60,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "Up to ₹25 lakh/unit",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department/NHB + bank where prescribed",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Post-harvest",
+      "who": "Farmer/FPO/cooperative/entrepreneur"
+    },
+    {
+      "cap": "Project ceiling",
+      "cond": "Integrated grading/packing/cold-chain design, throughput and bankable DPR",
+      "item": "Integrated packhouse",
+      "migrationSource": {
+        "row": 61,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "Up to ₹160 lakh/unit",
+      "pattern": "50% in Himalayan states; credit linked private sector",
+      "route": "NHB/HP Horticulture Department + bank",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Post-harvest",
+      "who": "FPO/cooperative/entrepreneur/company"
+    },
+    {
+      "cap": "Project ceiling/capacity",
+      "cond": "Catchment, throughput, producer linkage and approved equipment",
+      "item": "Collection, sorting, grading and aggregation centre",
+      "migrationSource": {
+        "row": 62,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "Up to ₹320 lakh/project",
+      "pattern": "50% in Himalayan states",
+      "route": "NHB/HP Horticulture Department + bank",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Post-harvest",
+      "who": "FPO/cooperative/entrepreneur/company"
+    },
+    {
+      "cap": "Approved capacity/vehicle",
+      "cond": "Dedicated horticulture cold-chain use and approved refrigeration specification",
+      "item": "Reefer vehicle up to 14 MT",
+      "migrationSource": {
+        "row": 63,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹31 lakh/unit",
+      "pattern": "50% in Himalayan states",
+      "route": "NHB/department + bank",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Post-harvest",
+      "who": "Entrepreneur/FPO/cooperative/company"
+    },
+    {
+      "cap": "Integrated-project component only",
+      "cond": "Admissible only as part of an integrated project",
+      "item": "Primary/minimal processing line",
+      "migrationSource": {
+        "row": 64,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹35 lakh/unit",
+      "pattern": "50% in Himalayan states",
+      "route": "NHB/department + bank",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Post-harvest",
+      "who": "FPO/cooperative/entrepreneur/company"
+    },
+    {
+      "cap": "Capacity and project norms",
+      "cond": "FSSAI/technical standards and approved ripening technology",
+      "item": "Ripening chamber",
+      "migrationSource": {
+        "row": 65,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹1 lakh/MT non-pressurised or ₹1.20 lakh/MT pressurised",
+      "pattern": "50% in Himalayan states",
+      "route": "NHB/department + bank",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Post-harvest",
+      "who": "Entrepreneur/FPO/cooperative/company"
+    },
+    {
+      "cap": "One approved market/project",
+      "cond": "Public access, site, management and market plan",
+      "item": "Rural market",
+      "migrationSource": {
+        "row": 66,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹25 lakh/unit",
+      "pattern": "55% in Himalayan states",
+      "route": "HP Horticulture Department / approved project route",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Market infrastructure",
+      "who": "FPO/cooperative/local/eligible implementing entity"
+    },
+    {
+      "cap": "Approved unit/project",
+      "cond": "Direct horticulture-produce linkage and approved design",
+      "item": "Retail outlet",
+      "migrationSource": {
+        "row": 67,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹20 lakh/unit",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department/NHB as notified",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Market infrastructure",
+      "who": "FPO/cooperative/entrepreneur"
+    },
+    {
+      "cap": "Unit limit under annual plan",
+      "cond": "Approved design and horticulture-produce use",
+      "item": "Vending cart with cool chamber",
+      "migrationSource": {
+        "row": 68,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹30,000/unit",
+      "pattern": "50% of cost norm",
+      "route": "HP Horticulture Department",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Market infrastructure",
+      "who": "Farmer group/FPO/SHG/vendor"
+    },
+    {
+      "cap": "Approved vehicle/unit",
+      "cond": "Approved refrigeration/retail configuration and produce linkage",
+      "item": "Modified retail reefer van up to 3 MT",
+      "migrationSource": {
+        "row": 69,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹20 lakh/unit",
+      "pattern": "50% in Himalayan states",
+      "route": "HP Horticulture Department/NHB + bank where prescribed",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Market infrastructure",
+      "who": "FPO/cooperative/entrepreneur"
+    },
+    {
+      "cap": "Project ceiling",
+      "cond": "Accreditation plan, qualified staff and eligible equipment",
+      "item": "Quality testing laboratory",
+      "migrationSource": {
+        "row": 70,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹200 lakh/unit",
+      "pattern": "50% for eligible private sector",
+      "route": "NHB/department + bank",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Quality infrastructure",
+      "who": "Company/FPO/cooperative/institution"
+    },
+    {
+      "cap": "Project ceiling",
+      "cond": "Horticulture raw-material linkage, licences, DPR and no duplicate MoFPI/State grant",
+      "item": "Food-processing unit under MIDH horticulture component",
+      "migrationSource": {
+        "row": 71,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹1,000 lakh/unit",
+      "pattern": "50% in Himalayan states",
+      "route": "NHB/department + bank",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Processing",
+      "who": "FPO/cooperative/entrepreneur/company"
+    },
+    {
+      "cap": "Project ceiling",
+      "cond": "Eligible value-addition activity, licences and market linkage",
+      "item": "Secondary processing unit",
+      "migrationSource": {
+        "row": 72,
+        "sheet": "Component Norms",
+        "workbench": "research/hp-v2/app/data.json"
+      },
+      "norm": "₹100 lakh/unit",
+      "pattern": "50% in Himalayan states",
+      "route": "NHB/department + bank",
+      "src": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "theme": "Processing",
+      "who": "FPO/cooperative/entrepreneur/company"
+    }
+  ],
+  "schemaVersion": "state-pack-1"
+}

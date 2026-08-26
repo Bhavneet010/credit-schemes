@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://credit-schemes.local/schema/evidence.schema.json",
+  "title": "Claim evidence",
+  "type": "object",
+  "required": ["id", "subjectId", "field", "value", "sourceIds", "verifiedAt", "evidenceGrade", "confidence"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^CLAIM-[A-Z0-9-]+$" },
+    "subjectId": { "type": "string" },
+    "field": { "type": "string" },
+    "sourceIds": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "evidenceGrade": { "enum": ["primary-operative", "primary-summary", "official-corroboration", "secondary-lead"] },
+    "confidence": { "enum": ["high", "medium", "low"] },
+    "publicationTreatment": { "enum": ["publishable", "indicative-only", "internal-only"] },
+    "limitation": { "type": ["string", "null"] }
+  }
+}

@@ -9,3 +9,6 @@
 outputs/
 .hp-v2-staging/
 node_modules/
+
+# Transactional State Pack writes.
+.state-pack-staging/

@@ -1,0 +1,2887 @@
+{
+  "implementations": [
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R23-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R23-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R23-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R23-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PM-KUSUM-SAUR-SINCHAI-IMPLEMENTATION-IN-HP-51246F",
+      "migrationSource": {
+        "row": 23,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through the HP AgriDBT portal (agridbt.hp.gov.in) or the dedicated PM-KUSUM portal (pmkusumagri.hp.gov.in) via the Block/District Agriculture Office.",
+        "agency": "Department of Agriculture / nodal agency",
+        "stateCaution": "Original CSV's separate 60%/80% rows were not a reliable representation of HP's current assistance.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PM-KUSUM-SAUR-SINCHAI-IMPLEMENTATION-IN-HP-51246F",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R28-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R28-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R28-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R28-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-MIDH-IMPLEMENTATION-IN-HIMACHAL-PRADESH-F434B5",
+      "migrationSource": {
+        "row": 28,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through Horticulture Department under the approved Annual Action Plan.",
+        "agency": "Department of Horticulture / MIDH",
+        "stateCaution": "Use the 2025 MIDH cost norm and current HP action plan; do not use a generic percentage for every component. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-MIDH-IMPLEMENTATION-IN-HIMACHAL-PRADESH-F434B5",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R29-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R29-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R29-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R29-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PMKSY-PER-DROP-MORE-CROP-MICRO-IRRIGATION-8D174C",
+      "migrationSource": {
+        "row": 29,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through Agriculture/Horticulture Department before installation.",
+        "agency": "Agriculture/Horticulture Department",
+        "stateCaution": "Confirm whether the farm component is routed through Agriculture or Horticulture in the district. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PMKSY-PER-DROP-MORE-CROP-MICRO-IRRIGATION-8D174C",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R30-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R30-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R30-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R30-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-WEATHER-BASED-CROP-INSURANCE-SCHEME-HORTIC-5AB1B7",
+      "migrationSource": {
+        "row": 30,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Enrol through notified insurer/bank/CSC within seasonal cut-off.",
+        "agency": "Department of Horticulture / insurer",
+        "stateCaution": "Crop, area, insurer, premium and dates change each season. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-WEATHER-BASED-CROP-INSURANCE-SCHEME-HORTIC-5AB1B7",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R31-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R31-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R31-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R31-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-MARKET-INTERVENTION-SCHEME-FOR-APPLE-MANGO-006D7B",
+      "migrationSource": {
+        "row": 31,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Use notified HPMC/HIMFED/agency collection centres during the season.",
+        "agency": "Horticulture Department / designated agency",
+        "stateCaution": "Seasonal and grade-specific; price and quantity limits must be rechecked each crop year. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-MARKET-INTERVENTION-SCHEME-FOR-APPLE-MANGO-006D7B",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R38-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R38-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R38-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R38-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-FISHERIES-INSURANCE-UNDER-PMMSY-HP-IMPLEME-512871",
+      "migrationSource": {
+        "row": 38,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Register with Fisheries Department/cooperative during enrolment.",
+        "agency": "Department of Fisheries",
+        "stateCaution": "Confirm insurer, cover and nominee details for the current policy year. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-FISHERIES-INSURANCE-UNDER-PMMSY-HP-IMPLEME-512871",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R40-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R40-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R40-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R40-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PRIME-MINISTER-S-EMPLOYMENT-GENERATION-PRO-D1FEA0",
+      "migrationSource": {
+        "row": 40,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply only on PMEGP e-portal; scrutiny by KVIC/KVIB/DIC and bank.",
+        "agency": "KVIC / KVIB / DIC / bank",
+        "stateCaution": "Hill-area classification may support special-category rates; portal and bank decide final category. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-PRIME-MINISTER-S-EMPLOYMENT-GENERATION-PRO-D1FEA0",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R41-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R41-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R41-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R41-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PMEGP-2ND-LOAN-FOR-UPGRADATION-99CA6F",
+      "migrationSource": {
+        "row": 41,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through PMEGP portal/implementing agency and lender.",
+        "agency": "KVIC / bank",
+        "stateCaution": "Eligibility includes performance and repayment conditions; not a general second loan for every MUDRA borrower.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-PMEGP-2ND-LOAN-FOR-UPGRADATION-99CA6F",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R42-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R42-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R42-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R42-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PRADHAN-MANTRI-MUDRA-YOJANA-PMMY-1FCCD7",
+      "migrationSource": {
+        "row": 42,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through bank, RRB, small finance bank, MFI/NBFC or JanSamarth where offered.",
+        "agency": "Participating lender / MUDRA",
+        "stateCaution": "No direct subsidy; interest is lender-determined. Guarantee is under the MUDRA/CGFMU framework, not ordinary CGTMSE. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PRADHAN-MANTRI-MUDRA-YOJANA-PMMY-1FCCD7",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R43-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R43-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R43-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R43-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-CGTMSE-CREDIT-GUARANTEE-A17996",
+      "migrationSource": {
+        "row": 43,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Ask the lender to cover the eligible facility under CGTMSE; borrower does not apply directly to the Trust.",
+        "agency": "Member lending institution / CGTMSE",
+        "stateCaution": "A guarantee reduces lender loss, not the borrower's repayment obligation; the original ₹2 crore ceiling was obsolete. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-CGTMSE-CREDIT-GUARANTEE-A17996",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R44-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R44-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R44-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R44-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PM-VISHWAKARMA-AD66E3",
+      "migrationSource": {
+        "row": 44,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Register through CSC/PM Vishwakarma portal; verification by local bodies and committee.",
+        "agency": "MSME Ministry / CSC / bank",
+        "stateCaution": "Original CSV incorrectly marked no interest subvention. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PM-VISHWAKARMA-AD66E3",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R45-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R45-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R45-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R45-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PM-SVANIDHI-RESTRUCTURED-FBA69A",
+      "migrationSource": {
+        "row": 45,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through urban local body/portal and participating lender.",
+        "agency": "ULB / lender / MoHUA",
+        "stateCaution": "Eligibility is tied to vending survey/certificate or Letter of Recommendation. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PM-SVANIDHI-RESTRUCTURED-FBA69A",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R46-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R46-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R46-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R46-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-SPECIAL-CREDIT-LINKED-CAPITAL-SUBSIDY-SCHE-BDBAEA",
+      "migrationSource": {
+        "row": 46,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through the term-lending institution, which uploads the claim.",
+        "agency": "Lender / NSSH / MSME Ministry",
+        "stateCaution": "This is current; the general legacy CLCSS is not the same scheme.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-SPECIAL-CREDIT-LINKED-CAPITAL-SUBSIDY-SCHE-BDBAEA",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R47-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R47-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R47-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R47-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-MICRO-AND-SMALL-ENTERPRISES-CLUSTER-DEVELO-C4AA57",
+      "migrationSource": {
+        "row": 47,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Prepare cluster diagnostic/DPR through State/cluster SPV and submit on the scheme system.",
+        "agency": "MSME Ministry / State / SPV",
+        "stateCaution": "Not an individual-firm subsidy. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-MICRO-AND-SMALL-ENTERPRISES-CLUSTER-DEVELO-C4AA57",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R48-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R48-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R48-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R48-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-SFURTI-SCHEME-OF-FUND-FOR-REGENERATION-OF--C61C70",
+      "migrationSource": {
+        "row": 48,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Route cluster proposal through designated nodal/technical agency.",
+        "agency": "MSME Ministry / nodal agency",
+        "stateCaution": "Cluster-level support, not direct reimbursement to each artisan. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - cluster or project area"
+      },
+      "schemeId": "SCH-SFURTI-SCHEME-OF-FUND-FOR-REGENERATION-OF--C61C70",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R49-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R49-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R49-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R49-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-MSME-SUSTAINABLE-ZED-CERTIFICATION-9DC992",
+      "migrationSource": {
+        "row": 49,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Register on ZED portal using Udyam details.",
+        "agency": "MSME Ministry / QCI",
+        "stateCaution": "Use current portal package and approved providers; this replaces treating ISO reimbursement as a universal standalone scheme.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-MSME-SUSTAINABLE-ZED-CERTIFICATION-9DC992",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R50-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R50-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R50-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R50-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-MSME-COMPETITIVE-LEAN-0AFE18",
+      "migrationSource": {
+        "row": 50,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Register on LEAN portal and use approved implementation consultant.",
+        "agency": "MSME Ministry / NPC/QCI ecosystem",
+        "stateCaution": "The benefit is for structured LEAN implementation, not machinery purchase.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-MSME-COMPETITIVE-LEAN-0AFE18",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R51-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R51-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R51-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R51-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-MSE-GIFT-GREEN-INVESTMENT-AND-FINANCING-FO-EE865F",
+      "migrationSource": {
+        "row": 51,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Approach participating lender and follow RAMP/MSE-GIFT process.",
+        "agency": "MSME Ministry / RAMP / lender",
+        "stateCaution": "Confirm technology list, lender participation and available allocation before sanction.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-MSE-GIFT-GREEN-INVESTMENT-AND-FINANCING-FO-EE865F",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R52-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R52-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R52-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R52-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-MSE-SPICE-CIRCULAR-ECONOMY-INVESTMENT-0B6A5E",
+      "migrationSource": {
+        "row": 52,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through RAMP/SPICE portal with DPR and financing details.",
+        "agency": "MSME Ministry / RAMP",
+        "stateCaution": "Brownfield/circular-economy eligibility and eligible asset list are decisive. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-MSE-SPICE-CIRCULAR-ECONOMY-INVESTMENT-0B6A5E",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R53-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R53-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R53-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R53-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-MSME-TEAM-INITIATIVE-E-COMMERCE-ONDC-EC9C01",
+      "migrationSource": {
+        "row": 53,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through the TEAM/ONDC implementation channel when onboarding is open.",
+        "agency": "MSME Ministry / RAMP / ONDC",
+        "stateCaution": "Benefits are service/cost support, not unrestricted cash.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-MSME-TEAM-INITIATIVE-E-COMMERCE-ONDC-EC9C01",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R54-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R54-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R54-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R54-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-ADEETIE-ASSISTANCE-IN-DEPLOYING-ENERGY-EFF-2B4DB7",
+      "migrationSource": {
+        "row": 54,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Register/seek energy audit through BEE/ADEETIE and approach participating lender.",
+        "agency": "Bureau of Energy Efficiency / lender",
+        "stateCaution": "Location/sector list and minimum energy saving are mandatory; confirm whether the HP unit lies in an eligible cluster.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-ADEETIE-ASSISTANCE-IN-DEPLOYING-ENERGY-EFF-2B4DB7",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R55-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R55-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R55-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R55-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-RAISING-AND-ACCELERATING-MSME-PERFORMANCE--8ED3FE",
+      "migrationSource": {
+        "row": 55,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Use the specific RAMP component or State implementation call.",
+        "agency": "MSME Ministry / State",
+        "stateCaution": "Do not list RAMP as a flat subsidy. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-RAISING-AND-ACCELERATING-MSME-PERFORMANCE--8ED3FE",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R56-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R56-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R56-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R56-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PUBLIC-PROCUREMENT-POLICY-FOR-MSES-934235",
+      "migrationSource": {
+        "row": 56,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Register Udyam and GeM; respond to eligible tenders and use MSME Sambandh/Samadhan mechanisms.",
+        "agency": "Central procuring entity / GeM",
+        "stateCaution": "This is market access, not a cash subsidy; tender quality and technical conditions remain.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PUBLIC-PROCUREMENT-POLICY-FOR-MSES-934235",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R57-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R57-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R57-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R57-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NATIONAL-SC-ST-HUB-NSSH-873A63",
+      "migrationSource": {
+        "row": 57,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Register/engage through NSSH/NSIC and current intervention calls.",
+        "agency": "NSIC / MSME Ministry",
+        "stateCaution": "Use the exact intervention guideline; the umbrella itself is not a single loan. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NATIONAL-SC-ST-HUB-NSSH-873A63",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R58-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R58-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R58-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R58-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PROCUREMENT-AND-MARKETING-SUPPORT-PMS-708FB2",
+      "migrationSource": {
+        "row": 58,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply against live MSME-DI/Ministry event or component notice.",
+        "agency": "MSME Ministry / MSME-DFO",
+        "stateCaution": "Check live notice before incurring cost.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PROCUREMENT-AND-MARKETING-SUPPORT-PMS-708FB2",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R59-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R59-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R59-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R59-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-INTERNATIONAL-COOPERATION-SCHEME-DBF1B0",
+      "migrationSource": {
+        "row": 59,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Participate through an approved association/Ministry call.",
+        "agency": "MSME Ministry",
+        "stateCaution": "Usually routed through eligible organisations, not an open individual reimbursement.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-INTERNATIONAL-COOPERATION-SCHEME-DBF1B0",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R60-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R60-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R60-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R60-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-ENTREPRENEURSHIP-AND-SKILL-DEVELOPMENT-PRO-8C6AA1",
+      "migrationSource": {
+        "row": 60,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Enrol in scheduled MSME-DFO/approved-institution programme.",
+        "agency": "MSME Ministry / training institution",
+        "stateCaution": "Training support only.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-ENTREPRENEURSHIP-AND-SKILL-DEVELOPMENT-PRO-8C6AA1",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R61-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R61-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R61-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R61-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-ASPIRE-LIVELIHOOD-BUSINESS-INCUBATORS-FUND-B5AD45",
+      "migrationSource": {
+        "row": 61,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Entrepreneurs approach an approved incubator; institutions apply under calls.",
+        "agency": "MSME Ministry / SIDBI / incubator",
+        "stateCaution": "Original list should not describe ASPIRE as ordinary borrower subsidy. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-ASPIRE-LIVELIHOOD-BUSINESS-INCUBATORS-FUND-B5AD45",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R62-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R62-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R62-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R62-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-COIR-VIKAS-YOJANA-697965",
+      "migrationSource": {
+        "row": 62,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Contact Coir Board regional office/use the current component portal.",
+        "agency": "Coir Board",
+        "stateCaution": "Applicable only where the proposed activity genuinely falls in the coir value chain. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-COIR-VIKAS-YOJANA-697965",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R63-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R63-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R63-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R63-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-TREDS-INVOICE-DISCOUNTING-B2B9D2",
+      "migrationSource": {
+        "row": 63,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Onboard on an RBI-authorised TReDS platform and upload buyer-accepted invoice.",
+        "agency": "TReDS platform / financier",
+        "stateCaution": "Buyer acceptance/onboarding is essential.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-TREDS-INVOICE-DISCOUNTING-B2B9D2",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R64-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R64-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R64-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R64-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-MUTUAL-CREDIT-GUARANTEE-SCHEME-FOR-MSMES-M-8AEB3C",
+      "migrationSource": {
+        "row": 64,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Approach an NCGTC-registered member lender; lender applies for cover.",
+        "agency": "Member lender / NCGTC",
+        "stateCaution": "Not an interest subsidy and not automatic collateral-free sanction; lender credit appraisal applies. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-MUTUAL-CREDIT-GUARANTEE-SCHEME-FOR-MSMES-M-8AEB3C",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R65-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R65-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R65-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R65-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-CREDIT-GUARANTEE-SCHEME-FOR-STARTUPS-CGSS-AEC55B",
+      "migrationSource": {
+        "row": 65,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Approach a member institution; guarantee is obtained by the institution.",
+        "agency": "DPIIT / NCGTC / member institution",
+        "stateCaution": "Guarantee is for the lender/investor and does not waive repayment. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-CREDIT-GUARANTEE-SCHEME-FOR-STARTUPS-CGSS-AEC55B",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R66-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R66-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R66-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R66-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-SIDBI-SPEED-RATIONALISED-MACHINERY-EQUIPME-F0E9A0",
+      "migrationSource": {
+        "row": 66,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply to SIDBI through current branch/digital channel.",
+        "agency": "SIDBI",
+        "stateCaution": "Original ARISE row is no longer a separate current product. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-SIDBI-SPEED-RATIONALISED-MACHINERY-EQUIPME-F0E9A0",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R67-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R67-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R67-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R67-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-SIDBI-PRAYAAS-BC3E4F",
+      "migrationSource": {
+        "row": 67,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through a participating PRAYAAS partner institution, not necessarily directly at a SIDBI branch.",
+        "agency": "SIDBI / partner institution",
+        "stateCaution": "Availability depends on partner coverage in the applicant's location.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-SIDBI-PRAYAAS-BC3E4F",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R68-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R68-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R68-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R68-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-SIDBI-DIGITAL-BUSINESS-LOAN-248602",
+      "migrationSource": {
+        "row": 68,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through SIDBI's digital/business-loan channel.",
+        "agency": "SIDBI",
+        "stateCaution": "This is a commercial loan, not a subsidy; geography and profitability conditions apply.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-SIDBI-DIGITAL-BUSINESS-LOAN-248602",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R69-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R69-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R69-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R69-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-MICRO-CREDIT-CARD-SCHEME-FOR-MICRO-ENTERPR-A89A30",
+      "migrationSource": {
+        "row": 69,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Ask a participating bank/lender for the Micro Credit Card product and confirm operational availability.",
+        "agency": "Participating lender / DFS / SIDBI ecosystem",
+        "stateCaution": "The guarantee protects the lender, not the borrower; pricing, drawing power and documentation are lender-determined. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-MICRO-CREDIT-CARD-SCHEME-FOR-MICRO-ENTERPR-A89A30",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R70-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R70-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R70-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R70-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-SELF-RELIANT-INDIA-SRI-FUND-15347E",
+      "migrationSource": {
+        "row": 70,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Approach an empanelled Daughter Fund/fund manager with an investment memorandum; the MSME does not receive an automatic Government cheque.",
+        "agency": "NSIC Venture Capital Fund / Daughter Fund",
+        "stateCaution": "Selection, valuation, governance rights and exit terms are commercial; this is unsuitable for a business seeking only debt or subsidy.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-SELF-RELIANT-INDIA-SRI-FUND-15347E",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R71-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R71-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R71-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R71-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-MSME-INNOVATIVE-INCUBATION-DESIGN-AND-IPR-7FB8BA",
+      "migrationSource": {
+        "row": 71,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Use the MSME Innovative portal; for Incubation first work through an approved Host Institute, and for Design coordinate with an Implementing Agency.",
+        "agency": "MSME Ministry / Host Institute / Implementing Agency",
+        "stateCaution": "Each vertical has a different route and admissible cost; approval must precede expenditure where required. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-MSME-INNOVATIVE-INCUBATION-DESIGN-AND-IPR-7FB8BA",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R72-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R72-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R72-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R72-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NSIC-RAW-MATERIAL-ASSISTANCE-AGAINST-BANK--1C87E0",
+      "migrationSource": {
+        "row": 72,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Submit the prescribed application to the nearest NSIC branch; NSIC appraises and inspects the unit before sanction.",
+        "agency": "NSIC branch",
+        "stateCaution": "Not a subsidy; delayed repayment loses concessional pricing and attracts penal charges. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NSIC-RAW-MATERIAL-ASSISTANCE-AGAINST-BANK--1C87E0",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R73-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R73-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R73-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R73-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NSIC-SINGLE-POINT-REGISTRATION-SCHEME-SPRS-2DAF35",
+      "migrationSource": {
+        "row": 73,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply online through NSIC SPRS and complete financial/technical inspection.",
+        "agency": "NSIC",
+        "stateCaution": "Manufacture of medicines/drugs is excluded except Ayurveda, Unani, Siddha and Homoeopathy; traders are also excluded. Pharma units should use GeM/tender-specific MSE provisions instead. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NSIC-SINGLE-POINT-REGISTRATION-SCHEME-SPRS-2DAF35",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R74-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R74-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R74-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R74-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-MSE-ONLINE-DISPUTE-RESOLUTION-ODR-FOR-DELA-C9A3F2",
+      "migrationSource": {
+        "row": 74,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "File on the MSME ODR portal with invoice, supply acceptance, correspondence and buyer details.",
+        "agency": "MSME ODR / MSE Facilitation Council",
+        "stateCaution": "This does not guarantee recovery; limitation, jurisdiction, contract evidence and enforcement remain important. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-MSE-ONLINE-DISPUTE-RESOLUTION-ODR-FOR-DELA-C9A3F2",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R75-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R75-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R75-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R75-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-EXPORT-PROMOTION-MISSION-NIRYAT-PROTSAHAN--9BBF48",
+      "migrationSource": {
+        "row": 75,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through the export-credit bank and the notified Export Promotion Mission intervention; confirm product/country and claim-period eligibility.",
+        "agency": "Department of Commerce / lender / NCGTC",
+        "stateCaution": "Do not assume every export loan or shipment qualifies; RBI/lender instructions, exporter status and intervention dates control. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-EXPORT-PROMOTION-MISSION-NIRYAT-PROTSAHAN--9BBF48",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R76-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R76-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R76-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R76-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-EXPORT-PROMOTION-MISSION-TRACE-AND-NIRYAT--62AE41",
+      "migrationSource": {
+        "row": 76,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Use the notified Export Promotion Mission intervention or participating Export Promotion Council/implementing channel before incurring cost.",
+        "agency": "Department of Commerce / EPC / implementing agency",
+        "stateCaution": "Only notified certifications, activities, destinations and claim periods qualify; avoid treating the Mission as one blanket reimbursement. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-EXPORT-PROMOTION-MISSION-TRACE-AND-NIRYAT--62AE41",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R77-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R77-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R77-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R77-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-REVAMPED-PHARMACEUTICAL-TECHNOLOGY-UPGRADA-C98303",
+      "migrationSource": {
+        "row": 77,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Monitor the Department of Pharmaceuticals SPI page/portal and obtain confirmation that fresh intake has reopened before committing upgrade expenditure.",
+        "agency": "Department of Pharmaceuticals / scheme PMA",
+        "stateCaution": "As of 4 August 2026, a temporary restriction remained while extension was considered; 21 HP applications were pending. Drug licences, Schedule M/WHO-GMP certification and two-stage verification apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-REVAMPED-PHARMACEUTICAL-TECHNOLOGY-UPGRADA-C98303",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R78-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R78-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R78-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R78-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-ASSISTANCE-TO-PHARMACEUTICAL-INDUSTRY-FOR--188056",
+      "migrationSource": {
+        "row": 78,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Form/strengthen the SPV and monitor the SPI scheme page for a fresh API-CF application window before preparing the final DPR.",
+        "agency": "Department of Pharmaceuticals / SPV / State",
+        "stateCaution": "Latest located fresh window closed in January 2025; the 4 August 2026 official update reported no HP proposal pending under API-CF. Not an individual-unit grant.",
+        "status": "Fresh window closed"
+      },
+      "schemeId": "SCH-ASSISTANCE-TO-PHARMACEUTICAL-INDUSTRY-FOR--188056",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R79-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R79-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R79-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R79-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-SMDI-MARGINAL-INVESTMENT-SCHEME-FOR-REDUCI-A89898",
+      "migrationSource": {
+        "row": 79,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Use the SMDI portal only against a live notice and obtain product/category confirmation before investment.",
+        "agency": "Department of Pharmaceuticals / SMDI PMA",
+        "stateCaution": "The June/July 2026 call closed on 24 July 2026. Incentive follows commissioning and verification; land is excluded and device/product eligibility is narrow.",
+        "status": "Open now"
+      },
+      "schemeId": "SCH-SMDI-MARGINAL-INVESTMENT-SCHEME-FOR-REDUCI-A89898",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R80-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R80-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R80-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R80-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-SMDI-MEDICAL-DEVICE-CLINICAL-STUDIES-SUPPO-E2A6A3",
+      "migrationSource": {
+        "row": 80,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Secure CDSCO/ethics and other required permissions, then apply through SMDI only during a live call.",
+        "agency": "Department of Pharmaceuticals / SMDI PMA / CDSCO",
+        "stateCaution": "The July 2026 call is closed. Funding does not replace regulatory approval and is reimbursed only for admissible Indian studies and verified milestones. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Open now"
+      },
+      "schemeId": "SCH-SMDI-MEDICAL-DEVICE-CLINICAL-STUDIES-SUPPO-E2A6A3",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R81-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R81-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R81-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R81-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-SMDI-COMMON-FACILITIES-FOR-MEDICAL-DEVICE--91ED11",
+      "migrationSource": {
+        "row": 81,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Prepare a cluster DPR and apply through SMDI only under a live call.",
+        "agency": "Department of Pharmaceuticals / SPV / State",
+        "stateCaution": "The July 2026 proposal window has closed. It is not a grant to one factory and requires shared-access governance and sustainable operations. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Open now"
+      },
+      "schemeId": "SCH-SMDI-COMMON-FACILITIES-FOR-MEDICAL-DEVICE--91ED11",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R82-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R82-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R82-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R82-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PRADHAN-MANTRI-BHARTIYA-JANAUSHADHI-PARIYO-9AEA2A",
+      "migrationSource": {
+        "row": 82,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply on the official Jan Aushadhi portal; after initial approval obtain the drug licence, execute agreements and complete store-code requirements.",
+        "agency": "PMBI / Department of Pharmaceuticals",
+        "stateCaution": "This is regulated medicine retail, not pharmaceutical manufacturing. Reimbursement is actual-cost based and operational incentives depend on purchase/stock compliance. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-PRADHAN-MANTRI-BHARTIYA-JANAUSHADHI-PARIYO-9AEA2A",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R83-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R83-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R83-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R83-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-HIMACHAL-PRADESH-BULK-DRUG-PARK-HAROLI-UNA-12483C",
+      "migrationSource": {
+        "row": 83,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Use the HP Industries Single Window/park implementing agency for current plot allotment, utility tariff and project conditions.",
+        "agency": "HP Bulk Drug Park Infrastructure Ltd. / Industries Department",
+        "stateCaution": "Common facilities are still under development. Obtain the live allotment notice, utility schedule, environmental category and any State incentive order in writing. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-HIMACHAL-PRADESH-BULK-DRUG-PARK-HAROLI-UNA-12483C",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R84-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R84-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R84-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R84-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-BIOTECHNOLOGY-IGNITION-GRANT-BIG-79D1D8",
+      "migrationSource": {
+        "row": 84,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through a BIG Partner during the call normally announced on 1 January and 1 July.",
+        "agency": "BIRAC / BIG Partner",
+        "stateCaution": "Only innovative PoC work is supported; routine manufacturing, late-stage clinical validation and low-novelty projects are excluded. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-BIOTECHNOLOGY-IGNITION-GRANT-BIG-79D1D8",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R85-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R85-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R85-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R85-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-INNOVATIONS-FOR-DEFENCE-EXCELLENCE-IDEX-SP-4F5473",
+      "migrationSource": {
+        "row": 85,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Register on iDEX and apply to a live problem statement before its deadline.",
+        "agency": "Defence Innovation Organisation / iDEX",
+        "stateCaution": "Competitive challenge funding, not a general defence-manufacturing subsidy; award, milestones, security/IP terms and procurement are separate decisions.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-INNOVATIONS-FOR-DEFENCE-EXCELLENCE-IDEX-SP-4F5473",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R86-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R86-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R86-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R86-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-DRDO-TECHNOLOGY-DEVELOPMENT-FUND-TDF-F6BBFD",
+      "migrationSource": {
+        "row": 86,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Register on TDF portal and submit against an open project requirement with the prescribed PDD/DPR.",
+        "agency": "DRDO / Directorate of TDF",
+        "stateCaution": "Funding is requirement- and milestone-driven; consortium, foreign holding, academia share, security and bank-guarantee rules apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-DRDO-TECHNOLOGY-DEVELOPMENT-FUND-TDF-F6BBFD",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R87-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R87-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R87-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R87-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-ELECTRONICS-COMPONENT-MANUFACTURING-SCHEME-E38CBD",
+      "migrationSource": {
+        "row": 87,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply on the ECMS portal with product classification, committed investment and financial-capability evidence.",
+        "agency": "MeitY / ECMS PMA",
+        "stateCaution": "Segments A, B, C and E are closed. Segment D thresholds and product list are narrow; do not assume ordinary electronics assembly qualifies. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-ELECTRONICS-COMPONENT-MANUFACTURING-SCHEME-E38CBD",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R88-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R88-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R88-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R88-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-ROSCTL-REBATE-OF-STATE-AND-CENTRAL-TAXES-A-CB6563",
+      "migrationSource": {
+        "row": 88,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Claim through the prescribed Customs shipping-bill/DGFT process for eligible exports.",
+        "agency": "Ministry of Textiles / Customs / DGFT",
+        "stateCaution": "Time-limited extension; rate, cap and eligibility depend on tariff line and shipment date. Recheck after 30 September 2026. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-ROSCTL-REBATE-OF-STATE-AND-CENTRAL-TAXES-A-CB6563",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R89-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R89-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R89-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R89-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-AGRICULTURE-INFRASTRUCTURE-FUND-AIF-D26F78",
+      "migrationSource": {
+        "row": 89,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply on AIF portal and select participating lender.",
+        "agency": "Agriculture Ministry / lender",
+        "stateCaution": "Only eligible infrastructure; working capital alone is not covered. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-AGRICULTURE-INFRASTRUCTURE-FUND-AIF-D26F78",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R90-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R90-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R90-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R90-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-FORMATION-AND-PROMOTION-OF-10-000-FPOS-C527F0",
+      "migrationSource": {
+        "row": 90,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Engage with the assigned CBBO/SFAC/NABARD/NCDC implementing agency.",
+        "agency": "SFAC / NABARD / NCDC / CBBO",
+        "stateCaution": "The programme's target of 10,000 FPOs was reported achieved in February 2025, so support is now weighted towards handholding existing FPOs. Confirm with the State implementing agency whether fresh FPO formation is still being sanctioned before building a plan around it. Equity grant is matched against member equity actually raised. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-FORMATION-AND-PROMOTION-OF-10-000-FPOS-C527F0",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R91-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R91-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R91-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R91-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-AGRI-CLINICS-AND-AGRI-BUSINESS-CENTRES-ACA-39EEDF",
+      "migrationSource": {
+        "row": 91,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Complete approved ACABC training, prepare DPR and obtain bank sanction.",
+        "agency": "MANAGE / NABARD / bank",
+        "stateCaution": "Confirm current project-cost norm and training eligibility before relying on the ceiling. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-AGRI-CLINICS-AND-AGRI-BUSINESS-CENTRES-ACA-39EEDF",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R92-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R92-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R92-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R92-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-KISAN-CREDIT-CARD-KCC-MODIFIED-INTEREST-SU-D5002C",
+      "migrationSource": {
+        "row": 92,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply to bank/RRB/cooperative bank; use JanSamarth where enabled.",
+        "agency": "Bank / Department of Financial Services",
+        "stateCaution": "The ₹5 lakh KCC/MISS limit includes allied activities; interest benefit, drawing power and security still follow the current lender/RBI instructions. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-KISAN-CREDIT-CARD-KCC-MODIFIED-INTEREST-SU-D5002C",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R93-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R93-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R93-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R93-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PRADHAN-MANTRI-FASAL-BIMA-YOJANA-PMFBY-7C1EEB",
+      "migrationSource": {
+        "row": 93,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Enrol through notified insurer, bank or CSC before season cut-off.",
+        "agency": "Agriculture Department / insurer",
+        "stateCaution": "Voluntary participation, but crop/area/date and claim process are season-specific.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PRADHAN-MANTRI-FASAL-BIMA-YOJANA-PMFBY-7C1EEB",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R94-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R94-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R94-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R94-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-SUB-MISSION-ON-AGRICULTURAL-MECHANIZATION--F2E432",
+      "migrationSource": {
+        "row": 94,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through HP Agriculture Department under current SMAM target.",
+        "agency": "Agriculture Department / SMAM",
+        "stateCaution": "Separate this central component from HP's Rajya Krishi Yantrikaran Yojana.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-SUB-MISSION-ON-AGRICULTURAL-MECHANIZATION--F2E432",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R95-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R95-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R95-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R95-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NATIONAL-BAMBOO-MISSION-6A54FF",
+      "migrationSource": {
+        "row": 95,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through HP Agriculture Department/nodal agency.",
+        "agency": "Agriculture Department / NBM",
+        "stateCaution": "Confirm that species, land type and component are eligible in HP's annual plan. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NATIONAL-BAMBOO-MISSION-6A54FF",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R96-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R96-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R96-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R96-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-RASHTRIYA-KRISHI-VIKAS-YOJANA-PM-RKVY-157C16",
+      "migrationSource": {
+        "row": 96,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Track HP Agriculture notifications/approved project calls.",
+        "agency": "Agriculture Department / RKVY",
+        "stateCaution": "Enabling/project umbrella, not a flat farmer subsidy.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-RASHTRIYA-KRISHI-VIKAS-YOJANA-PM-RKVY-157C16",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R97-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R97-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R97-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R97-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-ATMA-SUPPORT-TO-STATE-EXTENSION-PROGRAMMES-6DDB45",
+      "migrationSource": {
+        "row": 97,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Contact district ATMA/Agriculture office for calendar and selection.",
+        "agency": "District ATMA / Agriculture Department",
+        "stateCaution": "Training/extension, not business finance.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-ATMA-SUPPORT-TO-STATE-EXTENSION-PROGRAMMES-6DDB45",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R98-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R98-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R98-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R98-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PARAMPARAGAT-KRISHI-VIKAS-YOJANA-NATURAL-F-89AD68",
+      "migrationSource": {
+        "row": 98,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Join an approved cluster through Agriculture Department.",
+        "agency": "Agriculture Department",
+        "stateCaution": "Avoid double-claiming the same cost under State natural-farming support.",
+        "status": "Active - cluster or project area"
+      },
+      "schemeId": "SCH-PARAMPARAGAT-KRISHI-VIKAS-YOJANA-NATURAL-F-89AD68",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R99-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R99-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R99-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R99-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NHB-COMMERCIAL-HORTICULTURE-DEVELOPMENT-39D056",
+      "migrationSource": {
+        "row": 99,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply online to NHB and obtain term-loan sanction before project execution as required.",
+        "agency": "NHB / bank",
+        "stateCaution": "Use the latest operational guideline and 2026 amendment; old generic ceilings in the CSV were not dependable. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NHB-COMMERCIAL-HORTICULTURE-DEVELOPMENT-39D056",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R100-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R100-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R100-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R100-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NHB-INTEGRATED-POST-HARVEST-MANAGEMENT-82732D",
+      "migrationSource": {
+        "row": 100,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through NHB portal/bank under the relevant component.",
+        "agency": "NHB / bank",
+        "stateCaution": "A generic 'integrated packhouse' row should be treated as this component, not a separate HP scheme. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NHB-INTEGRATED-POST-HARVEST-MANAGEMENT-82732D",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R101-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R101-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R101-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R101-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NHB-COLD-STORAGE-CONTROLLED-ATMOSPHERE-STO-82EB4C",
+      "migrationSource": {
+        "row": 101,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Seek technical appraisal, NHB application and bank sanction before construction.",
+        "agency": "NHB / bank",
+        "stateCaution": "Cold storage and CA storage are components, not two universal fixed-cap schemes. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NHB-COLD-STORAGE-CONTROLLED-ATMOSPHERE-STO-82EB4C",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R102-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R102-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R102-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R102-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-MIDH-MUSHROOM-PRODUCTION-SPAWN-COMPOST-UNI-04EE81",
+      "migrationSource": {
+        "row": 102,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through Horticulture Department or NHB route specified for project size.",
+        "agency": "Horticulture Department / NHB",
+        "stateCaution": "The original HP mushroom rates were not adequately sourced; use the current component guideline. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-MIDH-MUSHROOM-PRODUCTION-SPAWN-COMPOST-UNI-04EE81",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R103-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R103-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R103-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R103-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NATIONAL-LIVESTOCK-MISSION-ENTREPRENEURSHI-72C9C6",
+      "migrationSource": {
+        "row": 103,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply on NLM portal with bank sanction/DPR as prescribed.",
+        "agency": "DAHD / lender / State Animal Husbandry",
+        "stateCaution": "Use the January 2025 component guideline for the exact unit size and cap. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-NATIONAL-LIVESTOCK-MISSION-ENTREPRENEURSHI-72C9C6",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R104-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R104-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R104-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R104-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-RASHTRIYA-GOKUL-MISSION-BREED-MULTIPLICATI-932D43",
+      "migrationSource": {
+        "row": 104,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Use DAHD/RGM portal and State Animal Husbandry channel for the relevant component.",
+        "agency": "DAHD / State Animal Husbandry",
+        "stateCaution": "Component continuation/target must be confirmed after FY2025-26 allocation.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-RASHTRIYA-GOKUL-MISSION-BREED-MULTIPLICATI-932D43",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R105-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R105-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R105-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R105-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-ANIMAL-HUSBANDRY-INFRASTRUCTURE-DEVELOPMEN-E69156",
+      "migrationSource": {
+        "row": 105,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Check portal/DAHD notice and lender before preparing a fresh application.",
+        "agency": "DAHD / lender",
+        "stateCaution": "Official approval was stated through 31 March 2026; as of verification, a fresh post-March-2026 sanction window was not confirmed. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Fresh window closed"
+      },
+      "schemeId": "SCH-ANIMAL-HUSBANDRY-INFRASTRUCTURE-DEVELOPMEN-E69156",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R106-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R106-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R106-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R106-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-SUPPORTING-DAIRY-COOPERATIVES-AND-FARMER-P-705C4A",
+      "migrationSource": {
+        "row": 106,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through NDDB/NCDC route and participating lender as notified.",
+        "agency": "DAHD / NDDB / NCDC / lender",
+        "stateCaution": "Not an individual dairy-farmer capital subsidy.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-SUPPORTING-DAIRY-COOPERATIVES-AND-FARMER-P-705C4A",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R107-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R107-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R107-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R107-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PRADHAN-MANTRI-MATSYA-SAMPADA-YOJANA-PMMSY-5A9DE6",
+      "migrationSource": {
+        "row": 107,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through HP Fisheries Department during the annual activity window.",
+        "agency": "Department of Fisheries / PMMSY",
+        "stateCaution": "A live State target/sanction is necessary; the national base guideline alone does not guarantee intake. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Fresh window closed"
+      },
+      "schemeId": "SCH-PRADHAN-MANTRI-MATSYA-SAMPADA-YOJANA-PMMSY-5A9DE6",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R108-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R108-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R108-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R108-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PRADHAN-MANTRI-MATSYA-KISAN-SAMRIDHI-SAH-Y-2153DA",
+      "migrationSource": {
+        "row": 108,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Register through Fisheries Department/National Fisheries Digital Platform and current component channel.",
+        "agency": "Department of Fisheries",
+        "stateCaution": "Use the specific subcomponent guideline.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PRADHAN-MANTRI-MATSYA-KISAN-SAMRIDHI-SAH-Y-2153DA",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R109-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R109-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R109-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R109-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-FISHERIES-AND-AQUACULTURE-INFRASTRUCTURE-D-2E9384",
+      "migrationSource": {
+        "row": 109,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Check current FIDF portal/Department of Fisheries before a fresh proposal.",
+        "agency": "Department of Fisheries / NCDC/NABARD/lender",
+        "stateCaution": "Published extension ran through 31 March 2026; fresh proposal status after that date was not confirmed. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Fresh window closed"
+      },
+      "schemeId": "SCH-FISHERIES-AND-AQUACULTURE-INFRASTRUCTURE-D-2E9384",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R110-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R110-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R110-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R110-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PM-KISAN-SAMPADA-YOJANA-CURRENT-COMPONENT--3045C9",
+      "migrationSource": {
+        "row": 110,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Respond only to a live MoFPI EOI on the official portal.",
+        "agency": "MoFPI",
+        "stateCaution": "Mega Food Parks and backward/forward-linkage components are not open as generic new schemes; use live calls only. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PM-KISAN-SAMPADA-YOJANA-CURRENT-COMPONENT--3045C9",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R111-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R111-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R111-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R111-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PM-FORMALISATION-OF-MICRO-FOOD-PROCESSING--8FBEBD",
+      "migrationSource": {
+        "row": 111,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Check HP PMFME/DIC and portal for a currently open intake.",
+        "agency": "MoFPI / State nodal agency / bank",
+        "stateCaution": "Extended only through September 2026 as of verification; a proposal to continue the scheme for five more years with revised norms (including a higher per-unit subsidy cap and priority for women and hilly-region entrepreneurs) was pending. Confirm a live State intake with the HP nodal agency/DIC before committing expenditure. The 35% grant is credit-linked - a sanctioned bank loan is a precondition. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PM-FORMALISATION-OF-MICRO-FOOD-PROCESSING--8FBEBD",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R112-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R112-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R112-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R112-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NABARD-REFINANCE-SCHEME-FOR-AFFORDABLE-CRE-D867B5",
+      "migrationSource": {
+        "row": 112,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Ask the eligible financing bank to claim NABARD refinance; the unit does not receive refinance directly.",
+        "agency": "Eligible bank / NABARD",
+        "stateCaution": "Only units already provided a MoFPI grant qualify; benefit should be passed through by the bank. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NABARD-REFINANCE-SCHEME-FOR-AFFORDABLE-CRE-D867B5",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R113-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R113-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R113-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R113-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NCDC-ASSISTANCE-TO-COOPERATIVES-782FC9",
+      "migrationSource": {
+        "row": 113,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Prepare DPR and apply to NCDC through appropriate direct/State channel.",
+        "agency": "NCDC",
+        "stateCaution": "Treat NCDC as a financing institution/route, not a fixed-rate subsidy scheme. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NCDC-ASSISTANCE-TO-COOPERATIVES-782FC9",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R115-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R115-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R115-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R115-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NSTFDC-TERM-LOAN-SCHEME-933EB9",
+      "migrationSource": {
+        "row": 115,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through HP SC/ST Development Corporation/participating bank as State channel.",
+        "agency": "NSTFDC / State Channelising Agency",
+        "stateCaution": "Channel availability and State allocation determine sanction.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NSTFDC-TERM-LOAN-SCHEME-933EB9",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R116-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R116-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R116-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R116-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NBCFDC-GENERAL-LOAN-SCHEME-FE8D72",
+      "migrationSource": {
+        "row": 116,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through HP Backward Classes Finance & Development Corporation/authorised channel.",
+        "agency": "NBCFDC / State Channelising Agency",
+        "stateCaution": "State-channel intake and security conditions apply.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NBCFDC-GENERAL-LOAN-SCHEME-FE8D72",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R117-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R117-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R117-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R117-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NBCFDC-NEW-SWARNIMA-FOR-WOMEN-A6B4E6",
+      "migrationSource": {
+        "row": 117,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through HP Backward Classes Finance & Development Corporation/authorised channel.",
+        "agency": "NBCFDC / State Channelising Agency",
+        "stateCaution": "Channel partner contributes 5%; sanction and local intake are not automatic.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NBCFDC-NEW-SWARNIMA-FOR-WOMEN-A6B4E6",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R118-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R118-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R118-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R118-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NMDFC-TERM-LOAN-SCHEME-88BCA2",
+      "migrationSource": {
+        "row": 118,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through HP Minorities Finance & Development Corporation/State Channelising Agency.",
+        "agency": "NMDFC / State Channelising Agency",
+        "stateCaution": "Income line and annual State allocation determine eligibility; verify current HP intake.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NMDFC-TERM-LOAN-SCHEME-88BCA2",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R119-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R119-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R119-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R119-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-SOIL-HEALTH-FERTILITY-SOIL-HEALTH-CARD-AA697B",
+      "migrationSource": {
+        "row": 119,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Contact the Agriculture Extension Officer or soil-testing laboratory for the district sampling schedule.",
+        "agency": "Department of Agriculture",
+        "stateCaution": "Laboratory coverage and sample collection are programme based; the card is advisory, not a subsidy sanction.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-SOIL-HEALTH-FERTILITY-SOIL-HEALTH-CARD-AA697B",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R120-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R120-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R120-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R120-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-FOOD-NUTRITION-SECURITY-NATIONAL-FOOD-SECU-4CAA1E",
+      "migrationSource": {
+        "row": 120,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through the Agriculture Extension Officer under the notified crop/component and seasonal target.",
+        "agency": "Department of Agriculture",
+        "stateCaution": "No single percentage applies across all inputs; the district crop plan and cost norm control assistance.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-FOOD-NUTRITION-SECURITY-NATIONAL-FOOD-SECU-4CAA1E",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R121-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R121-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R121-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R121-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-SUB-MISSION-ON-SEEDS-AND-PLANTING-MATERIAL-4284C4",
+      "migrationSource": {
+        "row": 121,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Register with Agriculture Department/seed agency before sowing for an approved seed-production or distribution component.",
+        "agency": "Department of Agriculture",
+        "stateCaution": "Seed replacement and seed-production incentives are different components; certification and procurement conditions may apply.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-SUB-MISSION-ON-SEEDS-AND-PLANTING-MATERIAL-4284C4",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R122-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R122-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R122-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R122-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-SUB-MISSION-ON-AGROFORESTRY-29B841",
+      "migrationSource": {
+        "row": 122,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through Agriculture Department after confirming species, land classification and district target.",
+        "agency": "Department of Agriculture",
+        "stateCaution": "Tree-felling/transit rules and species suitability must be checked separately from subsidy eligibility.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-SUB-MISSION-ON-AGROFORESTRY-29B841",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R123-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R123-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R123-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R123-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NATIONAL-MISSION-ON-NATURAL-FARMING-NMNF-F-47D94E",
+      "migrationSource": {
+        "row": 123,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Join an approved cluster through Agriculture Department/ATMA and complete the required training and verification.",
+        "agency": "Agriculture Department / NMNF",
+        "stateCaution": "Not an advance input subsidy; payment depends on programme registration, verification and State rollout. Avoid double claim for the same item under HP natural-farming support. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - cluster or project area"
+      },
+      "schemeId": "SCH-NATIONAL-MISSION-ON-NATURAL-FARMING-NMNF-F-47D94E",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R124-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R124-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R124-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R124-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NATIONAL-MISSION-ON-NATURAL-FARMING-BIO-IN-895615",
+      "migrationSource": {
+        "row": 124,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Respond to the Agriculture Department's cluster/BRC selection and submit the required proposal/site details.",
+        "agency": "Agriculture Department / NMNF",
+        "stateCaution": "Selection is linked to an approved cluster plan; it is not an always-open ₹1 lakh grant. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - cluster or project area"
+      },
+      "schemeId": "SCH-NATIONAL-MISSION-ON-NATURAL-FARMING-BIO-IN-895615",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R125-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R125-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R125-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R125-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NATIONAL-MISSION-ON-EDIBLE-OILS-OILSEEDS-N-C15D3A",
+      "migrationSource": {
+        "row": 125,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Use Agriculture Department cluster route; infrastructure proposals are normally organised through the eligible group/entity.",
+        "agency": "Department of Agriculture / NMEO",
+        "stateCaution": "The 33% ceiling is for eligible post-harvest components, not every oilseed activity. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NATIONAL-MISSION-ON-EDIBLE-OILS-OILSEEDS-N-C15D3A",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R126-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R126-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R126-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R126-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NATIONAL-MISSION-ON-PULSES-FA4C63",
+      "migrationSource": {
+        "row": 126,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Contact Agriculture Department for cluster/seed target; use the notified procurement or infrastructure proposal channel.",
+        "agency": "Department of Agriculture / Pulses Mission",
+        "stateCaution": "Procurement is conditional on registration, quality, season and notified agency; the processing grant needs project sanction. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NATIONAL-MISSION-ON-PULSES-FA4C63",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R127-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R127-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R127-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R127-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PM-DHAN-DHAANYA-KRISHI-YOJANA-BILASPUR-DIS-1EA8FC",
+      "migrationSource": {
+        "row": 127,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Contact Bilaspur district Agriculture office and ask which block/commodity interventions are in the approved action plan.",
+        "agency": "District administration / Agriculture Department",
+        "stateCaution": "Do not use this row as a standalone grant; eligibility and amount come from the underlying converged scheme. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PM-DHAN-DHAANYA-KRISHI-YOJANA-BILASPUR-DIS-1EA8FC",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R128-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R128-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R128-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R128-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-RKVY-INNOVATION-AGRI-ENTREPRENEURSHIP-PROG-B73A0D",
+      "migrationSource": {
+        "row": 128,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply to a designated RKVY-RAFTAAR agribusiness incubator during its cohort call.",
+        "agency": "DA&FW / RKVY incubator",
+        "stateCaution": "Competitive cohort selection and milestone disbursement apply; published caps are not automatic startup entitlements. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-RKVY-INNOVATION-AGRI-ENTREPRENEURSHIP-PROG-B73A0D",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R129-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R129-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R129-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R129-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-AGRISURE-AGRI-FUND-FOR-STARTUPS-RURAL-ENTE-F45579",
+      "migrationSource": {
+        "row": 129,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Approach the AgriSURE investment manager/NABARD with pitch, DPIIT status, business plan and financial information.",
+        "agency": "NABARD / fund manager",
+        "stateCaution": "This is selective investment, not a subsidy or assured loan; ownership dilution/return terms may apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-AGRISURE-AGRI-FUND-FOR-STARTUPS-RURAL-ENTE-F45579",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R130-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R130-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R130-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R130-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-E-NAM-NATIONAL-AGRICULTURE-MARKET-760281",
+      "migrationSource": {
+        "row": 130,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Register on e-NAM and link with a participating mandi/FPO; complete KYC and commodity/lot requirements.",
+        "agency": "SFAC / State APMC / mandi",
+        "stateCaution": "Actual trading services vary by mandi; registration does not guarantee a buyer or minimum price.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-E-NAM-NATIONAL-AGRICULTURE-MARKET-760281",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R131-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R131-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R131-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R131-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-CREDIT-GUARANTEE-SCHEME-FOR-E-NWR-BASED-PL-CE4A2E",
+      "migrationSource": {
+        "row": 131,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Store eligible produce in a WDRA warehouse, obtain e-NWR and apply to an onboarded bank for pledge finance.",
+        "agency": "Bank / WDRA / DFPD",
+        "stateCaution": "Guarantee protects the lender, not the borrower from repayment; commodity, warehouse, margin and lender appraisal rules apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-CREDIT-GUARANTEE-SCHEME-FOR-E-NWR-BASED-PL-CE4A2E",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R132-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R132-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R132-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R132-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PM-AASHA-PRICE-SUPPORT-PRICE-DEFICIENCY-RO-1DA9FD",
+      "migrationSource": {
+        "row": 132,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Register with the notified procurement agency/portal during the crop-specific window.",
+        "agency": "DA&FW / NAFED / NCCF / State agency",
+        "stateCaution": "Not a permanent open procurement promise for every crop; quality, quantity, State proposal and dates control access. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PM-AASHA-PRICE-SUPPORT-PRICE-DEFICIENCY-RO-1DA9FD",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R133-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R133-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R133-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R133-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PM-KISAN-INCOME-SUPPORT-9949E7",
+      "migrationSource": {
+        "row": 133,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Complete registration/e-KYC and correction through the official PM-KISAN portal/CSC and State land-record verification.",
+        "agency": "DA&FW / State nodal department",
+        "stateCaution": "It is household income support, not project finance; exclusions and land-record validation apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PM-KISAN-INCOME-SUPPORT-9949E7",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R134-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R134-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R134-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R134-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PRADHAN-MANTRI-KISAN-MAANDHAN-YOJANA-PM-KM-994C9E",
+      "migrationSource": {
+        "row": 134,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Enrol through CSC with Aadhaar, bank account and land/eligibility information.",
+        "agency": "LIC / CSC / DA&FW",
+        "stateCaution": "Voluntary pension, not a subsidy for farming activity; exit, spouse and default rules apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PRADHAN-MANTRI-KISAN-MAANDHAN-YOJANA-PM-KM-994C9E",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R141-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R141-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R141-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R141-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NATIONAL-BEEKEEPING-HONEY-MISSION-NBHM-C738A4",
+      "migrationSource": {
+        "row": 141,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Use National Bee Board/project call or State Horticulture channel for the relevant Mini Mission/component.",
+        "agency": "National Bee Board / DA&FW",
+        "stateCaution": "Project approval and eligible component determine support; do not treat NBHM as an automatic per-hive payment. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NATIONAL-BEEKEEPING-HONEY-MISSION-NBHM-C738A4",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R142-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R142-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R142-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R142-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NATIONAL-AYUSH-MISSION-NMPB-MEDICINAL-PLAN-A41B7D",
+      "migrationSource": {
+        "row": 142,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Check the NMPB prioritised species list and apply through the State AYUSH/medicinal-plants nodal agency before cultivation.",
+        "agency": "State AYUSH Society / NMPB",
+        "stateCaution": "Only listed species and approved clusters/components qualify; first secure buy-back/market feasibility because subsidy does not assure sale.",
+        "status": "Active - cluster or project area"
+      },
+      "schemeId": "SCH-NATIONAL-AYUSH-MISSION-NMPB-MEDICINAL-PLAN-A41B7D",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R144-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R144-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R144-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R144-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-LIVESTOCK-INSURANCE-PROGRAMME-HP-IMPLEMENT-688FF7",
+      "migrationSource": {
+        "row": 144,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Ask the local Veterinary Institution for the current insurer, premium share, valuation, tagging and enrolment window.",
+        "agency": "Department of Animal Husbandry / insurer",
+        "stateCaution": "Cover starts only after valid enrolment/premium and identification; death intimation and post-mortem/claim timelines are strict. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-LIVESTOCK-INSURANCE-PROGRAMME-HP-IMPLEMENT-688FF7",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R145-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R145-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R145-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R145-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-FISHERIES-LIVELIHOOD-AND-NUTRITIONAL-SUPPO-8F5115",
+      "migrationSource": {
+        "row": 145,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Enrol through Fisheries Department/cooperative before the cut-off and maintain the required contribution schedule.",
+        "agency": "Department of Fisheries / PMMSY",
+        "stateCaution": "Not a capital grant; missed contribution or registration deadlines can make the fisher ineligible for that cycle. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-FISHERIES-LIVELIHOOD-AND-NUTRITIONAL-SUPPO-8F5115",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R147-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R147-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R147-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R147-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NATIONAL-PROGRAMME-FOR-DAIRY-DEVELOPMENT-N-72791A",
+      "migrationSource": {
+        "row": 147,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Develop proposal through the dairy cooperative/Milkfed/State nodal agency under a live NPDD project.",
+        "agency": "DAHD / State dairy agency",
+        "stateCaution": "Institutional route only; farmers benefit through the supported collection/quality/value chain.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NATIONAL-PROGRAMME-FOR-DAIRY-DEVELOPMENT-N-72791A",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R148-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R148-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R148-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R148-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-DAY-NRLM-SHG-REVOLVING-FUND-COMMUNITY-INVE-656F2B",
+      "migrationSource": {
+        "row": 148,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Join/grade through the block NRLM mission and village/cluster federation before seeking RF/CIF or bank linkage.",
+        "agency": "HPSRLM / Rural Development Department",
+        "stateCaution": "Funds are community/institution routed and usually revolving; individual members do not automatically receive the full SHG ceiling.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-DAY-NRLM-SHG-REVOLVING-FUND-COMMUNITY-INVE-656F2B",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R149-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R149-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R149-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R149-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-START-UP-VILLAGE-ENTREPRENEURSHIP-PROGRAMM-A73BF9",
+      "migrationSource": {
+        "row": 149,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Contact the Block Mission Management Unit/Community Resource Person – Enterprise Promotion in an approved SVEP block.",
+        "agency": "HPSRLM / DAY-NRLM",
+        "stateCaution": "Available only in approved blocks and through NRLM institutions; it is not a universal startup grant.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-START-UP-VILLAGE-ENTREPRENEURSHIP-PROGRAMM-A73BF9",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R150-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R150-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R150-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R150-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-WATERSHED-DEVELOPMENT-COMPONENT-PMKSY-2-0-FF6948",
+      "migrationSource": {
+        "row": 150,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Ask the Rural Development/Watershed office whether the village is inside an approved WDC-PMKSY 2.0 project.",
+        "agency": "Rural Development Department / Watershed cell",
+        "stateCaution": "Not open statewide; asset ownership, maintenance and livelihood-fund rules depend on the local DPR. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-WATERSHED-DEVELOPMENT-COMPONENT-PMKSY-2-0-FF6948",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R161-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R161-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R161-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R161-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NATIONAL-HANDICRAFTS-DEVELOPMENT-PROGRAMME-6884FB",
+      "migrationSource": {
+        "row": 161,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through Development Commissioner (Handicrafts) calls / field office",
+        "agency": "Office of Development Commissioner (Handicrafts)",
+        "stateCaution": "Not an automatic individual cash grant; applicant type and live call determine access.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NATIONAL-HANDICRAFTS-DEVELOPMENT-PROGRAMME-6884FB",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R162-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R162-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R162-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R162-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NATIONAL-HANDLOOM-DEVELOPMENT-PROGRAMME-141210",
+      "migrationSource": {
+        "row": 162,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through current Handlooms Development Commissioner process / state handloom agency",
+        "agency": "Office of Development Commissioner (Handlooms)",
+        "stateCaution": "Verify the current component, allocation and implementing agency; cluster support is not an open retail subsidy. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-NATIONAL-HANDLOOM-DEVELOPMENT-PROGRAMME-141210",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R163-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R163-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R163-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R163-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-WEAVER-MUDRA-SCHEME-84F249",
+      "migrationSource": {
+        "row": 163,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through participating bank / handloom nodal agency",
+        "agency": "Office of Development Commissioner (Handlooms)",
+        "stateCaution": "Bank appraisal and current budget allocation apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-WEAVER-MUDRA-SCHEME-84F249",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R164-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R164-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R164-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R164-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-HANDLOOM-RAW-MATERIAL-SUPPLY-SCHEME-694299",
+      "migrationSource": {
+        "row": 164,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Use the state/authorised raw-material supply channel",
+        "agency": "Office of Development Commissioner (Handlooms)",
+        "stateCaution": "Material, count, quantity and beneficiary rules apply; confirm current state channel. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-HANDLOOM-RAW-MATERIAL-SUPPLY-SCHEME-694299",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R165-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R165-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R165-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R165-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-GENESIS-GEN-NEXT-SUPPORT-FOR-INNOVATIVE-ST-079FC1",
+      "migrationSource": {
+        "row": 165,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through a live GENESIS implementing-agency call",
+        "agency": "Ministry of Electronics and Information Technology",
+        "stateCaution": "No permanent direct founder window; verify live incubator call and geography. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-GENESIS-GEN-NEXT-SUPPORT-FOR-INNOVATIVE-ST-079FC1",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R166-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R166-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R166-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R166-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-TIDE-2-0-87C408",
+      "migrationSource": {
+        "row": 166,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply to an approved TIDE 2.0 incubation centre",
+        "agency": "Ministry of Electronics and Information Technology",
+        "stateCaution": "Access depends on an approved centre and live cohort, not merely MSME registration.",
+        "status": "Active - cluster or project area"
+      },
+      "schemeId": "SCH-TIDE-2-0-87C408",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R167-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R167-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R167-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R167-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-STPI-NEXT-GENERATION-INCUBATION-SCHEME-5A4B29",
+      "migrationSource": {
+        "row": 167,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through the STPI startup portal against a cohort",
+        "agency": "Software Technology Parks of India",
+        "stateCaution": "No NGIS centre was identified in Himachal Pradesh; a startup may need to use a notified centre such as Mohali and satisfy cohort terms. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - cluster or project area"
+      },
+      "schemeId": "SCH-STPI-NEXT-GENERATION-INCUBATION-SCHEME-5A4B29",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R168-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R168-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R168-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R168-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-DESIGN-LINKED-INCENTIVE-DESIGN-INFRASTRUCT-AF689A",
+      "migrationSource": {
+        "row": 168,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through the C-DAC DLI portal",
+        "agency": "Ministry of Electronics and Information Technology / C-DAC",
+        "stateCaution": "Fiscal-incentive intake may differ from design-infrastructure access; verify the portal status before committing expenditure.",
+        "status": "Active - cluster or project area"
+      },
+      "schemeId": "SCH-DESIGN-LINKED-INCENTIVE-DESIGN-INFRASTRUCT-AF689A",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R169-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R169-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R169-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R169-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PRADHAN-MANTRI-VIKSIT-BHARAT-ROZGAR-YOJANA-9E6BCF",
+      "migrationSource": {
+        "row": 169,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Register and claim through the EPFO PM-VBRY portal",
+        "agency": "Ministry of Labour and Employment / EPFO",
+        "stateCaution": "Use the notified baseline, wage, employee and retention rules; it is not a capital subsidy. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Open now"
+      },
+      "schemeId": "SCH-PRADHAN-MANTRI-VIKSIT-BHARAT-ROZGAR-YOJANA-9E6BCF",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R170-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R170-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R170-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R170-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-NATIONAL-APPRENTICESHIP-PROMOTION-SCHEME-2-1018D0",
+      "migrationSource": {
+        "row": 170,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Register contracts on Apprenticeship India",
+        "agency": "Ministry of Skill Development and Entrepreneurship",
+        "stateCaution": "Only valid apprenticeship contracts and notified trades/courses qualify; comply with Apprentices Act obligations. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-NATIONAL-APPRENTICESHIP-PROMOTION-SCHEME-2-1018D0",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R171-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R171-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R171-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R171-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PMKVY-4-0-TRAINING-PROVIDER-ROUTE-EE3509",
+      "migrationSource": {
+        "row": 171,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Participate through Skill India Digital / approved MSDE process",
+        "agency": "Ministry of Skill Development and Entrepreneurship",
+        "stateCaution": "This is not a general grant to open a coaching centre; accreditation, target allocation and outcomes control payments. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PMKVY-4-0-TRAINING-PROVIDER-ROUTE-EE3509",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R172-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R172-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R172-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R172-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-AYUSHMAN-BHARAT-PM-JAY-HOSPITAL-EMPANELMEN-61F264",
+      "migrationSource": {
+        "row": 172,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through the PM-JAY hospital empanelment portal",
+        "agency": "National Health Authority",
+        "stateCaution": "Clinical, infrastructure, specialty, quality, fraud-control and state-approval conditions apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-AYUSHMAN-BHARAT-PM-JAY-HOSPITAL-EMPANELMEN-61F264",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R173-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R173-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R173-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R173-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-HIMCARE-HOSPITAL-EMPANELMENT-3491F7",
+      "migrationSource": {
+        "row": 173,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Use the HP Swasthya Bima Yojana Society registration portal",
+        "agency": "Himachal Pradesh Swasthya Bima Yojana Society",
+        "stateCaution": "Approval, package rates, specialties and claim controls apply; portal status should be checked before investment. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-HIMCARE-HOSPITAL-EMPANELMENT-3491F7",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R174-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R174-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R174-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R174-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-AYUSH-INTERNATIONAL-COOPERATION-SCHEME-9EEF9D",
+      "migrationSource": {
+        "row": 174,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply through the AYUSH investment/scheme portal against current guidelines",
+        "agency": "Ministry of AYUSH",
+        "stateCaution": "Product licences, GMP, export-market registration and current component windows are decisive. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-AYUSH-INTERNATIONAL-COOPERATION-SCHEME-9EEF9D",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R175-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R175-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R175-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R175-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-IREDA-RENEWABLE-ENERGY-FINANCING-7D1131",
+      "migrationSource": {
+        "row": 175,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Submit proposal to IREDA",
+        "agency": "Indian Renewable Energy Development Agency",
+        "stateCaution": "This is debt, not a subsidy; minimum project size, credit rating, security and technical due diligence apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-IREDA-RENEWABLE-ENERGY-FINANCING-7D1131",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R176-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R176-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R176-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R176-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-PM-E-DRIVE-DEMAND-INCENTIVE-F46700",
+      "migrationSource": {
+        "row": 176,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Use an eligible vehicle/OEM and verify category on the PM E-DRIVE portal",
+        "agency": "Ministry of Heavy Industries",
+        "stateCaution": "Some categories have separate caps or ended earlier; e-3W L5 demand incentive closed in December 2025. Do not assume every EV qualifies.",
+        "status": "Active - annual target or departmental sanction"
+      },
+      "schemeId": "SCH-PM-E-DRIVE-DEMAND-INCENTIVE-F46700",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R177-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R177-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R177-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R177-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-RODTEP-REMISSION-OF-DUTIES-AND-TAXES-ON-EX-A6DAB4",
+      "migrationSource": {
+        "row": 177,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Declare RoDTEP claim in the shipping bill through Customs/ICEGATE",
+        "agency": "Directorate General of Foreign Trade / CBIC",
+        "stateCaution": "Rates and exclusions are tariff-line specific; confirm treatment after 30-09-2026. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Open now"
+      },
+      "schemeId": "SCH-RODTEP-REMISSION-OF-DUTIES-AND-TAXES-ON-EX-A6DAB4",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R178-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R178-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R178-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R178-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-ECGC-SMALL-EXPORTERS-POLICY-B3B7E2",
+      "migrationSource": {
+        "row": 178,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply to ECGC branch / online channel",
+        "agency": "ECGC Limited",
+        "stateCaution": "Cover percentage, waiting period, buyer limits, declarations and exclusions apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-ECGC-SMALL-EXPORTERS-POLICY-B3B7E2",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R179-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R179-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R179-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R179-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-ADVANCE-AUTHORISATION-8A928E",
+      "migrationSource": {
+        "row": 179,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply online through DGFT",
+        "agency": "Directorate General of Foreign Trade",
+        "stateCaution": "Authorisation, actual-user, input nexus and export-obligation rules are strict. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-ADVANCE-AUTHORISATION-8A928E",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R180-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R180-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R180-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R180-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-EPCG-EXPORT-PROMOTION-CAPITAL-GOODS-104345",
+      "migrationSource": {
+        "row": 180,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply online through DGFT",
+        "agency": "Directorate General of Foreign Trade",
+        "stateCaution": "Failure to meet export obligation creates duty and interest liability; check restricted/excluded items. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Active - bank or continuous route"
+      },
+      "schemeId": "SCH-EPCG-EXPORT-PROMOTION-CAPITAL-GOODS-104345",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R181-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R181-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R181-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R181-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-SPICED-SCHEME-SPICES-VALUE-CHAIN-AND-EXPOR-62F28E",
+      "migrationSource": {
+        "row": 181,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Apply to Spices Board under the live SPICED window",
+        "agency": "Spices Board India",
+        "stateCaution": "The current window is time-limited; commodity, registration, component cap and prior-approval conditions apply. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Open now"
+      },
+      "schemeId": "SCH-SPICED-SCHEME-SPICES-VALUE-CHAIN-AND-EXPOR-62F28E",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R182-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R182-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R182-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R182-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-TEA-DEVELOPMENT-AND-PROMOTION-SCHEME-2021--3677E0",
+      "migrationSource": {
+        "row": 182,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Check Tea Board for a successor before incurring expenditure",
+        "agency": "Tea Board India",
+        "stateCaution": "No successor financial window was found as of 23-08-2026. Tea Board registration and regulatory services continue, but fresh subsidy should not be assumed. HP v2 evidence note: precise eligibility, benefit, or access wording remains indicative until a claim-specific operative locator is recorded.",
+        "status": "Fresh window closed"
+      },
+      "schemeId": "SCH-TEA-DEVELOPMENT-AND-PROMOTION-SCHEME-2021--3677E0",
+      "stateId": "STATE-IN-HP"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R183-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R183-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R183-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R183-KEY-BENEFIT"
+      ],
+      "id": "IMPLEMENTATION-HP-APEDA-FINANCIAL-ASSISTANCE-SCHEME-2021-26-B04DC2",
+      "migrationSource": {
+        "row": 183,
+        "sheet": "Scheme Master",
+        "workbench": "app/data.json"
+      },
+      "overrides": {
+        "access": "Check APEDA for successor guidelines before expenditure",
+        "agency": "Agricultural and Processed Food Products Export Development Authority",
+        "stateCaution": "Published FAS period ended 31-03-2026; no fresh successor window was verified at cutoff.",
+        "status": "Fresh window closed"
+      },
+      "schemeId": "SCH-APEDA-FINANCIAL-ASSISTANCE-SCHEME-2021-26-B04DC2",
+      "stateId": "STATE-IN-HP"
+    }
+  ],
+  "schemaVersion": "state-pack-1"
+}

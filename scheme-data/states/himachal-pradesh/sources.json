@@ -1,0 +1,4019 @@
+{
+  "agencyInventory": [
+    {
+      "agencyMatchTerms": [
+        "industries department",
+        "department of industries",
+        "startup himachal",
+        "sericulture"
+      ],
+      "aliases": [
+        "HP Industries Department / Single Window",
+        "Verification source"
+      ],
+      "beneficiaryTags": [
+        "entrepreneur",
+        "MSME",
+        "startup",
+        "weaver society"
+      ],
+      "categories": [
+        "industries-single-window",
+        "startup-incubation",
+        "food-processing"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-INDUSTRIES-SINGLE-WINDOW",
+      "issuer": "Department of Industries, Himachal Pradesh",
+      "migrationSource": {
+        "row": 2,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-09-09",
+      "outcome": "candidates-found",
+      "retrievalNote": "Live official index exposed policies and current notices, including PM VIKAS delivery, handloom beneficiary assistance, ADEETIE, MSE-ODR and FY 2025-26 MMSY directions. Leads were recorded without treating the index as operative eligibility evidence.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "industry",
+        "MSME",
+        "startup",
+        "food processing",
+        "handloom and sericulture"
+      ],
+      "supportTags": [
+        "capital subsidy",
+        "interest subsidy",
+        "incentive",
+        "training",
+        "market access"
+      ],
+      "title": "Single Window Clearance System — schemes, policies, incentives and notices",
+      "url": "https://emerginghimachal.hp.gov.in/site/gis"
+    },
+    {
+      "agencyMatchTerms": [
+        "agriculture department",
+        "department of agriculture",
+        "district atma",
+        "agriculture ministry",
+        "da&fw",
+        "sfac",
+        "manage",
+        "national bee board",
+        "aif portal",
+        "e-nam",
+        "wdra"
+      ],
+      "aliases": [
+        "HP Department of Agriculture",
+        "HP Agriculture – current guidelines",
+        "Agriculture/Horticulture Department"
+      ],
+      "beneficiaryTags": [
+        "farmer",
+        "farm labourer",
+        "farmer group",
+        "cluster"
+      ],
+      "categories": [
+        "agriculture",
+        "district-cluster-channels"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-AGRICULTURE-STATE",
+      "issuer": "Department of Agriculture, Himachal Pradesh",
+      "migrationSource": {
+        "row": 3,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-09-09",
+      "outcome": "candidates-found",
+      "retrievalNote": "Live index listed state schemes and current scheme pages; plausible additions and aliases were captured as candidates before depth review.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "agriculture",
+        "farm mechanisation",
+        "irrigation",
+        "natural farming"
+      ],
+      "supportTags": [
+        "subsidy",
+        "infrastructure",
+        "technology transfer",
+        "insurance",
+        "extension"
+      ],
+      "title": "State-sponsored scheme index",
+      "url": "https://agriculture.hp.gov.in/en/scheme_category/state-en/"
+    },
+    {
+      "agencyMatchTerms": [
+        "rkvy",
+        "smam",
+        "national bamboo",
+        "nmnf",
+        "nmeo",
+        "pulses mission",
+        "nabard",
+        "nafed",
+        "nccf"
+      ],
+      "aliases": [
+        "Agriculture Department / insurer",
+        "Eligible bank / NABARD"
+      ],
+      "beneficiaryTags": [
+        "farmer",
+        "FPO",
+        "agri-entrepreneur"
+      ],
+      "categories": [
+        "agriculture",
+        "central-implementing-bodies"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-AGRICULTURE-CENTRAL",
+      "issuer": "Department of Agriculture, Himachal Pradesh",
+      "migrationSource": {
+        "row": 4,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-10-26",
+      "outcome": "candidates-found",
+      "retrievalNote": "Live official index was reconciled against baseline central agriculture routes; new names and component boundaries remain candidate-level pending guideline review.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "agriculture",
+        "agroforestry",
+        "bamboo",
+        "farm infrastructure"
+      ],
+      "supportTags": [
+        "credit",
+        "subsidy",
+        "infrastructure",
+        "capacity building"
+      ],
+      "title": "Centrally sponsored scheme index",
+      "url": "https://agriculture.hp.gov.in/en/scheme_category/center-en/"
+    },
+    {
+      "agencyMatchTerms": [
+        "horticulture department",
+        "department of horticulture",
+        "horticulture board"
+      ],
+      "aliases": [
+        "HP Department of Horticulture",
+        "NHB",
+        "NHB / bank"
+      ],
+      "beneficiaryTags": [
+        "orchardist",
+        "farmer",
+        "nursery",
+        "FPO"
+      ],
+      "categories": [
+        "horticulture"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-HORTICULTURE",
+      "issuer": "Department of Horticulture, Himachal Pradesh",
+      "migrationSource": {
+        "row": 5,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-11-26",
+      "outcome": "verified-none",
+      "retrievalNote": "Official portal advisory and policy surface was accessible; the breadth sweep found no additional distinct enterprise-support route beyond recorded horticulture/MIDH/HP-SHIVA families.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "horticulture",
+        "nursery",
+        "post-harvest"
+      ],
+      "supportTags": [
+        "subsidy",
+        "advisory",
+        "infrastructure",
+        "insurance"
+      ],
+      "title": "eUdyan horticulture policy and service index",
+      "url": "https://eudyan.hp.gov.in/cms/en/advisory"
+    },
+    {
+      "agencyMatchTerms": [
+        "animal husbandry",
+        "dahd",
+        "dairy agency",
+        "milkfed"
+      ],
+      "aliases": [
+        "HP Department of Animal Husbandry",
+        "Department of Animal Husbandry and Dairying"
+      ],
+      "beneficiaryTags": [
+        "livestock farmer",
+        "dairy farmer",
+        "poultry farmer"
+      ],
+      "categories": [
+        "animal-husbandry"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-ANIMAL-HUSBANDRY-SERVICES",
+      "issuer": "Government of Himachal Pradesh eServices / Department of Animal Husbandry",
+      "migrationSource": {
+        "row": 6,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-09-09",
+      "outcome": "candidates-found",
+      "retrievalNote": "Official service directory exposed Doodh Protsahan and Him Kukkut application routes; Doodh Protsahan was recorded as a lead and the existing Him Kukkut route as a duplicate candidate.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "dairy",
+        "poultry",
+        "livestock"
+      ],
+      "supportTags": [
+        "subsidy",
+        "input support",
+        "service delivery"
+      ],
+      "title": "Animal Husbandry citizen-service and scheme links",
+      "url": "https://himachalservices.nic.in/en-IN/"
+    },
+    {
+      "agencyMatchTerms": [
+        "department of fisheries",
+        "fisheries board",
+        "aquaculture"
+      ],
+      "aliases": [
+        "HP Department of Fisheries",
+        "National Fisheries Development Board"
+      ],
+      "beneficiaryTags": [
+        "fish farmer",
+        "fisher cooperative",
+        "youth entrepreneur"
+      ],
+      "categories": [
+        "fisheries",
+        "district-cluster-channels"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-FISHERIES",
+      "issuer": "Department of Fisheries, Himachal Pradesh",
+      "migrationSource": {
+        "row": 7,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-09-09",
+      "outcome": "candidates-found",
+      "retrievalNote": "Live official scheme and notice indexes exposed Mukhyamantri Carp Matsya Palan Yojana, an earlier new-carp-pond SOP, and a fisheries RGSSY route; all were captured for title/status reconciliation.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "aquaculture",
+        "trout",
+        "carp",
+        "reservoir fisheries"
+      ],
+      "supportTags": [
+        "pond subsidy",
+        "input support",
+        "insurance",
+        "infrastructure",
+        "training"
+      ],
+      "title": "Fisheries schemes and notice-board index",
+      "url": "https://himachal.nic.in/fisheries"
+    },
+    {
+      "agencyMatchTerms": [
+        "hpsrlm",
+        "rural development",
+        "day-nrlm",
+        "watershed"
+      ],
+      "aliases": [
+        "Himachal Pradesh State Rural Livelihoods Mission",
+        "Ministry of Rural Development – DAY-NRLM"
+      ],
+      "beneficiaryTags": [
+        "women SHG",
+        "rural poor",
+        "village entrepreneur"
+      ],
+      "categories": [
+        "rural-development-nrlm"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-RURAL-LIVELIHOODS",
+      "issuer": "Himachal Pradesh State Rural Livelihoods Mission",
+      "migrationSource": {
+        "row": 8,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-08-29",
+      "outcome": "failed-access",
+      "retrievalNote": "Official state mission portal could not be fetched safely; central DAY-NRLM pages remain leads only, so this check is failed-access rather than verified-none.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "rural livelihoods",
+        "microenterprise",
+        "SHG enterprise"
+      ],
+      "supportTags": [
+        "revolving fund",
+        "community investment fund",
+        "interest support",
+        "enterprise incubation"
+      ],
+      "title": "HPSRLM official portal",
+      "url": "https://hpsrlm.gov.in/"
+    },
+    {
+      "agencyMatchTerms": [
+        "urban development",
+        "mohua"
+      ],
+      "aliases": [
+        "ULB / lender / MoHUA"
+      ],
+      "beneficiaryTags": [
+        "street vendor",
+        "urban self-employed",
+        "ULB enterprise"
+      ],
+      "categories": [
+        "urban-development"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-URBAN-DEVELOPMENT",
+      "issuer": "Urban Development Department, Himachal Pradesh",
+      "migrationSource": {
+        "row": 9,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-08-29",
+      "outcome": "failed-access",
+      "retrievalNote": "Official portal access failed with a timeout during retrieval; no verified-none conclusion was drawn.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "urban livelihoods",
+        "street vending",
+        "municipal enterprise"
+      ],
+      "supportTags": [
+        "working-capital loan",
+        "interest subsidy",
+        "municipal facilitation"
+      ],
+      "title": "Urban Development official portal",
+      "url": "https://ud.hp.gov.in/"
+    },
+    {
+      "agencyMatchTerms": [
+        "tourism department",
+        "department of tourism"
+      ],
+      "aliases": [],
+      "beneficiaryTags": [
+        "homestay operator",
+        "tourism entrepreneur",
+        "hospitality enterprise"
+      ],
+      "categories": [
+        "tourism"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-TOURISM",
+      "issuer": "Department of Tourism and Civil Aviation, Himachal Pradesh",
+      "migrationSource": {
+        "row": 10,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-11-26",
+      "outcome": "verified-none",
+      "retrievalNote": "Official department surface and current Home Stay Rules were checked; no additional distinct finance/support scheme beyond recorded tourism routes was found.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "tourism",
+        "homestay",
+        "hospitality"
+      ],
+      "supportTags": [
+        "registration",
+        "incentive",
+        "infrastructure",
+        "marketing"
+      ],
+      "title": "Tourism department policy and scheme surface",
+      "url": "https://himachaltourism.gov.in/department-of-tourism-civil-aviation-himachal-pradesh/"
+    },
+    {
+      "agencyMatchTerms": [
+        "himurja",
+        "energy efficiency",
+        "renewable energy",
+        "ireda"
+      ],
+      "aliases": [
+        "Bureau of Energy Efficiency / lender",
+        "Indian Renewable Energy Development Agency"
+      ],
+      "beneficiaryTags": [
+        "project developer",
+        "MSME",
+        "household",
+        "farmer"
+      ],
+      "categories": [
+        "energy-himurja"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-HIMURJA",
+      "issuer": "HIMURJA — Himachal Pradesh Energy Development Agency",
+      "migrationSource": {
+        "row": 11,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-09-09",
+      "outcome": "candidates-found",
+      "retrievalNote": "Official programme page was live; a 2025 state interest-subsidy solar-project notification was separately captured as a candidate pending operative intake confirmation.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "renewable energy",
+        "solar power",
+        "small hydro"
+      ],
+      "supportTags": [
+        "interest subsidy",
+        "capital support",
+        "project allotment",
+        "technical facilitation"
+      ],
+      "title": "Solar Photovoltaic Programme",
+      "url": "https://ceohimurja.hp.gov.in/programmes/solar-programmes/solar-photovoltaic-programme/"
+    },
+    {
+      "agencyMatchTerms": [
+        "forest"
+      ],
+      "aliases": [],
+      "beneficiaryTags": [
+        "forest producer",
+        "community institution",
+        "enterprise"
+      ],
+      "categories": [
+        "forest"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-FOREST",
+      "issuer": "Himachal Pradesh Forest Department",
+      "migrationSource": {
+        "row": 12,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-08-29",
+      "outcome": "failed-access",
+      "retrievalNote": "Official portal timed out during the bounded sweep; this is failed-access and cannot substantiate verified-none.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "forestry",
+        "forest produce",
+        "ecosystem livelihoods"
+      ],
+      "supportTags": [
+        "livelihood support",
+        "value addition",
+        "training"
+      ],
+      "title": "Forest Department official portal",
+      "url": "https://hpforest.gov.in/"
+    },
+    {
+      "agencyMatchTerms": [
+        "handloom",
+        "handicraft",
+        "ministry of textiles",
+        "coir board",
+        "woolfed",
+        "wool federation"
+      ],
+      "aliases": [
+        "Office of Development Commissioner (Handicrafts)",
+        "Office of Development Commissioner (Handlooms)"
+      ],
+      "beneficiaryTags": [
+        "weaver",
+        "artisan",
+        "producer society",
+        "cluster"
+      ],
+      "categories": [
+        "handloom-handicrafts",
+        "central-implementing-bodies"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-CENTRAL-HANDLOOM-HANDICRAFTS",
+      "issuer": "Development Commissioner (Handlooms), Ministry of Textiles",
+      "migrationSource": {
+        "row": 13,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-10-26",
+      "outcome": "candidates-found",
+      "retrievalNote": "Official handloom index and the HP Industries notice stream were reconciled; current beneficiary assistance was treated as implementation evidence, not a new scheme count.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "handloom",
+        "wool",
+        "textiles",
+        "handicrafts"
+      ],
+      "supportTags": [
+        "credit",
+        "marketing",
+        "cluster support",
+        "training",
+        "equipment"
+      ],
+      "title": "Handloom schemes index",
+      "url": "https://handlooms.nic.in/"
+    },
+    {
+      "agencyMatchTerms": [
+        "labour",
+        "employment",
+        "skill development",
+        "epfo"
+      ],
+      "aliases": [
+        "DRDO Technology Development Fund"
+      ],
+      "beneficiaryTags": [
+        "unemployed youth",
+        "trainee",
+        "worker",
+        "entrepreneur"
+      ],
+      "categories": [
+        "labour-employment-skill"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-LABOUR-EMPLOYMENT",
+      "issuer": "Department of Labour and Employment, Himachal Pradesh",
+      "migrationSource": {
+        "row": 14,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-09-09",
+      "outcome": "candidates-found",
+      "retrievalNote": "Live scheme index listed Skill Development Allowance and Industrial Skill Development Allowance; both were recorded but held outside publication pending enterprise-scope review.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "skills",
+        "employment",
+        "self-employment"
+      ],
+      "supportTags": [
+        "allowance",
+        "training",
+        "subsidy",
+        "employment facilitation"
+      ],
+      "title": "Employment and skill allowance scheme index",
+      "url": "https://himachal.nic.in/lep/Content/MenuFormContent?qs=+WcLOPiE4QCmDRCayqYhCcV4kA7OODLB"
+    },
+    {
+      "agencyMatchTerms": [
+        "cooperat",
+        "ncdc"
+      ],
+      "aliases": [],
+      "beneficiaryTags": [
+        "cooperative",
+        "producer society",
+        "member entrepreneur"
+      ],
+      "categories": [
+        "cooperatives"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-COOPERATION",
+      "issuer": "Registrar Cooperative Societies, Himachal Pradesh",
+      "migrationSource": {
+        "row": 15,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-08-29",
+      "outcome": "failed-access",
+      "retrievalNote": "Official state portal access failed in the bounded check; central NCDC pages remain leads, so no verified-none outcome was assigned.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "cooperatives",
+        "producer institutions",
+        "rural enterprise"
+      ],
+      "supportTags": [
+        "registration",
+        "institutional finance",
+        "capacity building"
+      ],
+      "title": "Cooperation Department official portal",
+      "url": "https://himachal.nic.in/cooperation/"
+    },
+    {
+      "agencyMatchTerms": [
+        "incubator",
+        "birac",
+        "dpiit"
+      ],
+      "aliases": [
+        "BIRAC",
+        "MSME Innovative"
+      ],
+      "beneficiaryTags": [
+        "startup",
+        "founder",
+        "incubator"
+      ],
+      "categories": [
+        "startup-incubation"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-STARTUP-HIMACHAL",
+      "issuer": "Startup Himachal / Department of Industries",
+      "migrationSource": {
+        "row": 16,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-08-29",
+      "outcome": "failed-access",
+      "retrievalNote": "The dedicated official Startup Himachal page returned a 502 while the parent Single Window index remained live; this is failed-access pending a direct recheck.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "startup",
+        "innovation",
+        "incubation"
+      ],
+      "supportTags": [
+        "sustenance allowance",
+        "incubation",
+        "reimbursement",
+        "interest support"
+      ],
+      "title": "Startup Himachal incentive procedure",
+      "url": "https://www.emerginghimachal.hp.gov.in/startup/about/incentive-procedure/"
+    },
+    {
+      "agencyMatchTerms": [
+        "mofpi",
+        "food processing",
+        "fssai"
+      ],
+      "aliases": [
+        "MoFPI / State nodal agency / bank"
+      ],
+      "beneficiaryTags": [
+        "microenterprise",
+        "FPO",
+        "SHG",
+        "cooperative",
+        "company"
+      ],
+      "categories": [
+        "food-processing",
+        "central-implementing-bodies"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-CENTRAL-FOOD-PROCESSING",
+      "issuer": "Ministry of Food Processing Industries",
+      "migrationSource": {
+        "row": 17,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-09-09",
+      "outcome": "candidates-found",
+      "retrievalNote": "Live official index showed current 2026 Cold Chain/irradiation call material and PMKSY/PMFME component trees. Seasonal calls were captured separately from enduring scheme records.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "food processing",
+        "cold chain",
+        "agro-processing"
+      ],
+      "supportTags": [
+        "credit-linked subsidy",
+        "grant",
+        "common infrastructure",
+        "branding",
+        "cold chain"
+      ],
+      "title": "MoFPI scheme and current-call index",
+      "url": "https://www.mofpi.gov.in/"
+    },
+    {
+      "agencyMatchTerms": [
+        "pharmaceutical",
+        "cdsco",
+        "pmbi",
+        "medical device",
+        "health authority",
+        "swasthya bima"
+      ],
+      "aliases": [
+        "SMDI portal",
+        "PMBI / Jan Aushadhi",
+        "Department of Pharmaceuticals – scheme index"
+      ],
+      "beneficiaryTags": [
+        "manufacturer",
+        "cluster SPV",
+        "testing facility",
+        "startup"
+      ],
+      "categories": [
+        "pharma-medical-devices",
+        "central-implementing-bodies"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-CENTRAL-PHARMA-MEDICAL-DEVICES",
+      "issuer": "Department of Pharmaceuticals",
+      "migrationSource": {
+        "row": 18,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-10-26",
+      "outcome": "candidates-found",
+      "retrievalNote": "Official operative guidelines expose five SMDI components through 2026-27; component-versus-scheme treatment was recorded for depth review.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "pharmaceuticals",
+        "medical devices",
+        "bulk drugs"
+      ],
+      "supportTags": [
+        "capital assistance",
+        "common facility",
+        "clinical study support",
+        "skill development"
+      ],
+      "title": "Scheme for Strengthening of Medical Devices Industry guidelines",
+      "url": "https://www.pharmaceuticals.gov.in/sites/default/files/Final%20guidelines%20for%20SMDI-8.11.2024.pdf"
+    },
+    {
+      "agencyMatchTerms": [
+        "ayush",
+        "medicinal plants",
+        "nmpb"
+      ],
+      "aliases": [
+        "National Medicinal Plants Board"
+      ],
+      "beneficiaryTags": [
+        "AYUSH enterprise",
+        "medicinal plant grower",
+        "manufacturer"
+      ],
+      "categories": [
+        "ayush",
+        "central-implementing-bodies"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-CENTRAL-AYUSH",
+      "issuer": "Ministry of AYUSH",
+      "migrationSource": {
+        "row": 19,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-11-26",
+      "outcome": "verified-none",
+      "retrievalNote": "Official central AYUSH/NMPB surface was reconciled to existing routes; no additional distinct HP-enterprise route was found in the breadth sweep.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "AYUSH",
+        "medicinal plants",
+        "herbal products"
+      ],
+      "supportTags": [
+        "cultivation support",
+        "quality support",
+        "investment facilitation"
+      ],
+      "title": "Ministry of AYUSH official portal",
+      "url": "https://ayush.gov.in/"
+    },
+    {
+      "agencyMatchTerms": [
+        "sc/st development",
+        "hpscstdc",
+        "nstfdc",
+        "nsfdc",
+        "nskfdc"
+      ],
+      "aliases": [
+        "HP SC/ST Development Corporation",
+        "HP SC/ST Development Corporation / bank"
+      ],
+      "beneficiaryTags": [
+        "SC entrepreneur",
+        "ST entrepreneur",
+        "Safai Karamchari",
+        "tribal woman"
+      ],
+      "categories": [
+        "sc-st-development-finance",
+        "women-development"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-SC-ST-FINANCE",
+      "issuer": "Himachal Pradesh SC/ST Development Corporation",
+      "migrationSource": {
+        "row": 20,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-09-09",
+      "outcome": "candidates-found",
+      "retrievalNote": "Live official index exposed own, apex-corporation and PM-AJAY-labelled finance routes. Each was recorded separately for later ownership, alias and intake verification.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "self-employment",
+        "microenterprise",
+        "transport",
+        "education"
+      ],
+      "supportTags": [
+        "term loan",
+        "microcredit",
+        "capital subsidy",
+        "interest subsidy",
+        "training"
+      ],
+      "title": "SC/ST Development Corporation schemes index",
+      "url": "https://hpscstdc.hp.gov.in/schemes"
+    },
+    {
+      "agencyMatchTerms": [
+        "nbcfdc",
+        "backward classes"
+      ],
+      "aliases": [
+        "HBCFDC"
+      ],
+      "beneficiaryTags": [
+        "OBC entrepreneur",
+        "OBC woman",
+        "student"
+      ],
+      "categories": [
+        "obc-minority-development-finance"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-OBC-FINANCE",
+      "issuer": "Himachal Backward Classes Finance and Development Corporation",
+      "migrationSource": {
+        "row": 21,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-09-09",
+      "outcome": "candidates-found",
+      "retrievalNote": "Official but visibly old index exposed General Loan, Swarnima and education/microfinance routes. All remain unverified leads because current limits and intake need newer operative evidence.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "small business",
+        "agriculture",
+        "transport",
+        "services"
+      ],
+      "supportTags": [
+        "term loan",
+        "microfinance",
+        "education loan",
+        "interest concession"
+      ],
+      "title": "HBCFDC schemes index",
+      "url": "https://himachalservices.nic.in/hbcfdc/schemes.htm"
+    },
+    {
+      "agencyMatchTerms": [
+        "nmdfc",
+        "minorities finance",
+        "minority"
+      ],
+      "aliases": [
+        "NMDFC"
+      ],
+      "beneficiaryTags": [
+        "minority entrepreneur",
+        "person with disability",
+        "student"
+      ],
+      "categories": [
+        "obc-minority-development-finance"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-MINORITY-FINANCE",
+      "issuer": "Himachal Pradesh Minorities Finance and Development Corporation",
+      "migrationSource": {
+        "row": 22,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-09-09",
+      "outcome": "candidates-found",
+      "retrievalNote": "Live official scheme page lists term and education finance through the state channelising agency; enterprise term-loan route was captured for current-intake verification.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "microenterprise",
+        "services",
+        "transport",
+        "education"
+      ],
+      "supportTags": [
+        "term loan",
+        "education loan",
+        "microfinance",
+        "interest concession"
+      ],
+      "title": "Minority and disability finance schemes index",
+      "url": "https://minority.hp.gov.in/page/SCHEMES.aspx"
+    },
+    {
+      "agencyMatchTerms": [
+        "mahila vikas",
+        "women development"
+      ],
+      "aliases": [],
+      "beneficiaryTags": [
+        "woman entrepreneur",
+        "women organisation",
+        "female student"
+      ],
+      "categories": [
+        "women-development"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-WOMEN-DEVELOPMENT",
+      "issuer": "Himachal Pradesh Mahila Vikas Nigam",
+      "migrationSource": {
+        "row": 23,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-09-09",
+      "outcome": "candidates-found",
+      "retrievalNote": "Live official page exposed Swarojgar and study-loan routes; Swarojgar was recorded as a candidate pending current limits/intake evidence.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "women enterprise",
+        "small business",
+        "education"
+      ],
+      "supportTags": [
+        "interest subsidy",
+        "term loan",
+        "study loan",
+        "margin money"
+      ],
+      "title": "Mahila Vikas Nigam schemes index",
+      "url": "https://hpscstdc.hp.gov.in/hpmvn/schemes"
+    },
+    {
+      "agencyMatchTerms": [
+        "transport",
+        "logistics"
+      ],
+      "aliases": [],
+      "beneficiaryTags": [
+        "driver entrepreneur",
+        "taxi operator",
+        "transport enterprise"
+      ],
+      "categories": [
+        "transport-logistics"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-TRANSPORT",
+      "issuer": "Department of Transport, Himachal Pradesh",
+      "migrationSource": {
+        "row": 24,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-09-02",
+      "outcome": "candidates-found",
+      "retrievalNote": "Official notice board showed a 1 June 2026 e-Taxi application link and a separate 2026 diesel/petrol taxi conversion notice; current intake and component identity were captured for depth verification.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "transport",
+        "e-mobility",
+        "logistics"
+      ],
+      "supportTags": [
+        "capital subsidy",
+        "permit",
+        "government hiring",
+        "conversion support"
+      ],
+      "title": "Transport notice board and e-Taxi intake link",
+      "url": "https://himachal.nic.in/transport/Content/AllNotifications"
+    },
+    {
+      "agencyMatchTerms": [
+        "district administration",
+        "state agency",
+        "nodal agency",
+        "sector department",
+        "local body",
+        "regulator",
+        "government of himachal"
+      ],
+      "aliases": [
+        "Secondary summary – used only where a primary document was unreachable",
+        "Directorate of Industries & Commerce, Kerala (PMEGP norms)",
+        "Industries, energy, pollution, fire and product-safety authorities according to activity"
+      ],
+      "beneficiaryTags": [
+        "citizen",
+        "entrepreneur",
+        "farmer",
+        "SHG"
+      ],
+      "categories": [
+        "district-cluster-channels",
+        "budget-cross-government"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-DISTRICT-CROSS-GOVERNMENT",
+      "issuer": "Government of Himachal Pradesh",
+      "migrationSource": {
+        "row": 25,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-09-26",
+      "outcome": "verified-none",
+      "retrievalNote": "State portal and departmental directory were checked for district-only enterprise calls. No additional distinct route was found; district notices remain a recurring recheck channel.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "cross-sector",
+        "district delivery",
+        "public services"
+      ],
+      "supportTags": [
+        "district facilitation",
+        "service route",
+        "notification"
+      ],
+      "title": "State portal, districts and departmental service directory",
+      "url": "https://himachal.nic.in/"
+    },
+    {
+      "agencyMatchTerms": [
+        "msme",
+        "nsic",
+        "kvic",
+        "kvib",
+        "mudra",
+        "cgtmse",
+        "sidbi",
+        "treds",
+        "ngtc",
+        "ncgtc",
+        "udyam",
+        "pmegp",
+        "pm vishwakarma",
+        "jansamarth"
+      ],
+      "aliases": [
+        "MSME Ministry Offerings",
+        "MSME ODR",
+        "GeM"
+      ],
+      "beneficiaryTags": [
+        "microenterprise",
+        "small enterprise",
+        "startup",
+        "cluster SPV"
+      ],
+      "categories": [
+        "central-implementing-bodies",
+        "startup-incubation",
+        "district-cluster-channels"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-CENTRAL-MSME-ECOSYSTEM",
+      "issuer": "Ministry of Micro, Small and Medium Enterprises",
+      "migrationSource": {
+        "row": 26,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-10-26",
+      "outcome": "candidates-found",
+      "retrievalNote": "Central offerings and HP implementation notices were swept; leads were reconciled to existing baseline routes and retained as candidate/disposition records rather than new published schemes.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "MSME",
+        "manufacturing",
+        "services",
+        "clusters"
+      ],
+      "supportTags": [
+        "credit guarantee",
+        "subsidy",
+        "quality certification",
+        "market access",
+        "incubation"
+      ],
+      "title": "MSME offerings index",
+      "url": "https://www.msme.gov.in/offerings"
+    },
+    {
+      "agencyMatchTerms": [
+        "birac",
+        "meity",
+        "electronics",
+        "software technology",
+        "c-dac",
+        "defence",
+        "drdo",
+        "idex"
+      ],
+      "aliases": [
+        "MeitY ECMS",
+        "iDEX / Defence Innovation Organisation"
+      ],
+      "beneficiaryTags": [
+        "startup",
+        "innovator",
+        "technology enterprise"
+      ],
+      "categories": [
+        "central-implementing-bodies",
+        "startup-incubation"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-CENTRAL-INNOVATION-TECH",
+      "issuer": "Biotechnology Industry Research Assistance Council",
+      "migrationSource": {
+        "row": 27,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-11-26",
+      "outcome": "verified-none",
+      "retrievalNote": "Official central innovation channels were reconciled against existing BIG, iDEX, TDF and ECMS routes; no additional HP-specific route was found in the breadth sweep.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "biotechnology",
+        "electronics",
+        "defence innovation",
+        "software"
+      ],
+      "supportTags": [
+        "grant",
+        "prototype support",
+        "incubation",
+        "R&D funding"
+      ],
+      "title": "Biotechnology Ignition Grant programme index",
+      "url": "https://birac.nic.in/big.php"
+    },
+    {
+      "agencyMatchTerms": [
+        "commerce",
+        "export",
+        "dgft",
+        "ecgc",
+        "apeda",
+        "spices board",
+        "tea board",
+        "customs",
+        "cbic"
+      ],
+      "aliases": [
+        "Export Promotion Mission",
+        "Agricultural and Processed Food Products Export Development Authority",
+        "Directorate General of Foreign Trade"
+      ],
+      "beneficiaryTags": [
+        "exporter",
+        "producer",
+        "packhouse",
+        "EPC member"
+      ],
+      "categories": [
+        "central-implementing-bodies",
+        "transport-logistics"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-CENTRAL-EXPORT-MARKET",
+      "issuer": "Agricultural and Processed Food Products Export Development Authority",
+      "migrationSource": {
+        "row": 28,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-11-26",
+      "outcome": "verified-none",
+      "retrievalNote": "Official export implementing-body sweep found no additional distinct HP-only enterprise-support route beyond baseline export schemes and channels.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "exports",
+        "agri-exports",
+        "food exports",
+        "logistics"
+      ],
+      "supportTags": [
+        "market development",
+        "quality support",
+        "export credit",
+        "logistics"
+      ],
+      "title": "APEDA financial assistance and scheme surface",
+      "url": "https://apeda.gov.in/apedawebsite/Announcements/schemes.htm"
+    },
+    {
+      "agencyMatchTerms": [
+        "financial services",
+        "participating lender",
+        "eligible bank",
+        "member lender",
+        "bank /",
+        "lender /"
+      ],
+      "aliases": [
+        "JanSamarth"
+      ],
+      "beneficiaryTags": [
+        "entrepreneur",
+        "MSME",
+        "farmer",
+        "vendor"
+      ],
+      "categories": [
+        "central-implementing-bodies"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-CENTRAL-FINANCE-PROCUREMENT",
+      "issuer": "Department of Financial Services / JanSamarth",
+      "migrationSource": {
+        "row": 29,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-11-26",
+      "outcome": "verified-none",
+      "retrievalNote": "Cross-scheme portal was checked as an implementing/application channel; no new HP-specific scheme identity was created from portal routing alone.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "cross-sector credit",
+        "procurement",
+        "working capital"
+      ],
+      "supportTags": [
+        "loan",
+        "credit guarantee",
+        "working capital",
+        "procurement"
+      ],
+      "title": "JanSamarth credit-linked government scheme portal",
+      "url": "https://www.jansamarth.in/"
+    },
+    {
+      "agencyMatchTerms": [
+        "wool"
+      ],
+      "aliases": [],
+      "beneficiaryTags": [
+        "sheep breeder",
+        "wool cooperative",
+        "weaver"
+      ],
+      "categories": [
+        "animal-husbandry",
+        "handloom-handicrafts",
+        "cooperatives"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-WOOLFED",
+      "issuer": "Himachal Pradesh State Wool Federation",
+      "migrationSource": {
+        "row": 30,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-09-26",
+      "outcome": "candidates-found",
+      "retrievalNote": "Official federation pages exposed state-funded livestock-health support and training activity; entries were captured as components/leads rather than inflated standalone scheme counts.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "wool",
+        "sheep and goat",
+        "handloom"
+      ],
+      "supportTags": [
+        "health inputs",
+        "training",
+        "marketing",
+        "equipment"
+      ],
+      "title": "State and centrally sponsored schemes",
+      "url": "https://himachal.nic.in/woolfed/Content/MenuContent?qs=jRiHtBWiyFB8tcrpILmAsA%3D%3D"
+    },
+    {
+      "agencyMatchTerms": [
+        "women and child",
+        "women & child"
+      ],
+      "aliases": [],
+      "beneficiaryTags": [
+        "woman",
+        "women group",
+        "care institution"
+      ],
+      "categories": [
+        "women-development"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-WOMEN-CHILD",
+      "issuer": "Directorate of Women and Child Development, Himachal Pradesh",
+      "migrationSource": {
+        "row": 31,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-11-26",
+      "outcome": "verified-none",
+      "retrievalNote": "Official scheme surface was checked; no additional in-scope enterprise-support route beyond Mahila Vikas Nigam finance was found.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "women empowerment",
+        "care economy",
+        "social development"
+      ],
+      "supportTags": [
+        "grant",
+        "institutional support",
+        "livelihood referral"
+      ],
+      "title": "Women and Child Development schemes index",
+      "url": "https://himachal.nic.in/wcd/"
+    },
+    {
+      "agencyMatchTerms": [
+        "press information bureau",
+        "news services division",
+        "all india radio"
+      ],
+      "aliases": [
+        "Government of Himachal Pradesh"
+      ],
+      "beneficiaryTags": [
+        "enterprise",
+        "farmer",
+        "youth",
+        "women",
+        "social category"
+      ],
+      "categories": [
+        "budget-cross-government"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-BUDGET-2026-27",
+      "issuer": "Finance Department, Himachal Pradesh",
+      "migrationSource": {
+        "row": 32,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-09-26",
+      "outcome": "candidates-found",
+      "retrievalNote": "Official FY 2026-27 budget surface was checked for new announcements and allocation signals. Budget mentions create leads only until an operative department source confirms identity and intake.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "cross-sector",
+        "state budget",
+        "institutional finance"
+      ],
+      "supportTags": [
+        "budget allocation",
+        "subsidy",
+        "grant-in-aid",
+        "institutional finance"
+      ],
+      "title": "Budget 2026-27 index and notices",
+      "url": "https://himachal.nic.in/finance/Content/MenuFormContent?qs=EFjSG8GfYpC%2B6nTyBLtINjnT5y90ksoC"
+    },
+    {
+      "agencyMatchTerms": [
+        "secondary summary",
+        "contemporary reporting",
+        "reporting a lok sabha",
+        "reporting (no official",
+        "indian pharma post",
+        "state bank of india",
+        "iibf",
+        "invest india"
+      ],
+      "aliases": [
+        "The Tribune – contemporary reporting (no official notification located)",
+        "The Hitavada – contemporary reporting (no official notification located)",
+        "Autocar Professional – contemporary reporting (no official notification located)"
+      ],
+      "beneficiaryTags": [
+        "enterprise",
+        "farmer",
+        "worker",
+        "household"
+      ],
+      "categories": [
+        "budget-cross-government"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-HP-ECONOMIC-SURVEY-2025-26",
+      "issuer": "Economics and Statistics Department, Himachal Pradesh",
+      "migrationSource": {
+        "row": 33,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-09-26",
+      "outcome": "candidates-found",
+      "retrievalNote": "Official cross-government survey was used to replace secondary leads where possible. It remains summary evidence and does not substantiate hard eligibility, benefit or intake claims.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "cross-sector",
+        "economy",
+        "programme performance"
+      ],
+      "supportTags": [
+        "programme summary",
+        "expenditure",
+        "outcome reporting"
+      ],
+      "title": "Economic Survey 2025-26",
+      "url": "https://himachalservices.nic.in/economics/en-IN/economic-survey-2025-26.html"
+    },
+    {
+      "agencyMatchTerms": [
+        "ministry of heavy industries",
+        "national health authority",
+        "national horticulture board",
+        "lic /",
+        "state taxes and excise"
+      ],
+      "aliases": [
+        "Central procuring entity / GeM"
+      ],
+      "beneficiaryTags": [
+        "enterprise",
+        "institution",
+        "citizen"
+      ],
+      "categories": [
+        "central-implementing-bodies"
+      ],
+      "checkedAt": "2026-08-26",
+      "id": "AGENCY-INDEX-CENTRAL-OTHER-IMPLEMENTERS",
+      "issuer": "Government of India implementing bodies",
+      "migrationSource": {
+        "row": 34,
+        "sheet": "Candidate Ledger",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "nextCheckAt": "2026-11-26",
+      "outcome": "verified-none",
+      "retrievalNote": "Residual official implementing-body names from baseline were checked for breadth; no additional distinct HP enterprise route was found beyond specialised indexes above.",
+      "retrievedAt": "2026-08-26",
+      "sectors": [
+        "cross-sector",
+        "health",
+        "heavy industry",
+        "technology"
+      ],
+      "supportTags": [
+        "scheme routing",
+        "grant",
+        "credit",
+        "service"
+      ],
+      "title": "Residual official implementing-body sweep",
+      "url": "https://www.india.gov.in/my-government/schemes"
+    }
+  ],
+  "schemaVersion": "state-pack-1",
+  "sources": [
+    {
+      "baseline": {
+        "row": 3,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R8-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R8-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R8-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R8-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R9-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R9-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R9-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R9-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R10-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R10-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R10-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R10-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R11-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R11-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R11-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R11-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R12-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R12-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R12-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R12-APPLICATION-ROUTE"
+      ],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R3",
+      "issuer": "Startup Himachal / incubator",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 3,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-B46B7BBB",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R8",
+        "STATUS-SCHEME-MASTER-R9",
+        "STATUS-SCHEME-MASTER-R10",
+        "STATUS-SCHEME-MASTER-R11",
+        "STATUS-SCHEME-MASTER-R12"
+      ],
+      "title": "Startup Himachal – sustenance allowance",
+      "url": "https://www.emerginghimachal.hp.gov.in/startup/about/incentive-procedure/"
+    },
+    {
+      "baseline": {
+        "row": 4,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R13-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R13-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R13-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R13-APPLICATION-ROUTE"
+      ],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R4",
+      "issuer": "Department of Agriculture",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 4,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-230364BC",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R13"
+      ],
+      "title": "Mukhya Mantri Krishi Samvardhan Yojana (MKSY/MMKSY)",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/mukhya-mantri-krishi-samvardhan-yojna/"
+    },
+    {
+      "baseline": {
+        "row": 5,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R15-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R15-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R15-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R15-APPLICATION-ROUTE"
+      ],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R5",
+      "issuer": "Department of Agriculture",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 5,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-5BE41AA7",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R15"
+      ],
+      "title": "Rajya Krishi Yantrikaran Yojana",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/state-agricultural-mechanisation/"
+    },
+    {
+      "baseline": {
+        "row": 6,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R17-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R17-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R17-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R17-APPLICATION-ROUTE"
+      ],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R6",
+      "issuer": "Department of Agriculture",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 6,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-22F98C92",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R17"
+      ],
+      "title": "Flow Irrigation Scheme",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/flow-irrigation-scheme/"
+    },
+    {
+      "baseline": {
+        "row": 7,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R18-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R18-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R18-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R18-APPLICATION-ROUTE"
+      ],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R7",
+      "issuer": "Department of Agriculture",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 7,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-2D92C6D9",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R18"
+      ],
+      "title": "Rajiv Gandhi Prakritik Kheti Khushhal Kisan Yojana",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/prakritik-kheti-khushhal-kisan-yojna/"
+    },
+    {
+      "baseline": {
+        "row": 8,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R19-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R19-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R19-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R19-APPLICATION-ROUTE"
+      ],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R8",
+      "issuer": "Department of Agriculture",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 8,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-9DC62A94",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R19"
+      ],
+      "title": "Him Unnati / Him Krishi cluster programme",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/him-unnati-yojana/"
+    },
+    {
+      "baseline": {
+        "row": 9,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R22-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R22-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R22-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R22-APPLICATION-ROUTE"
+      ],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R9",
+      "issuer": "Department of Agriculture",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 9,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-EF14562A",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R22"
+      ],
+      "title": "Scheme to Support Technology Transfer",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/scheme-to-support-technology-transfer/"
+    },
+    {
+      "baseline": {
+        "row": 20,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R20",
+      "issuer": "MSME Ministry / State / SPV",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "migrationSource": {
+        "row": 20,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-50DCC28B",
+      "statusIds": [],
+      "title": "Micro and Small Enterprises Cluster Development Programme (MSE-CDP)",
+      "url": "https://cluster.dcmsme.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 22,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R22",
+      "issuer": "MSME Ministry / QCI",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "migrationSource": {
+        "row": 22,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-DEBFD56F",
+      "statusIds": [],
+      "title": "MSME Sustainable (ZED) Certification",
+      "url": "https://zed.msme.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 25,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R25",
+      "issuer": "MSME Ministry / RAMP",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 25,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-B2EE7DE8",
+      "statusIds": [],
+      "title": "MSE SPICE – circular economy investment",
+      "url": "https://ramp.msme.gov.in/ramp/RAMP-initiative/mse-spice/mse-spice"
+    },
+    {
+      "baseline": {
+        "row": 37,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R37",
+      "issuer": "DPIIT / NCGTC / member institution",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 37,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-73F45ADB",
+      "statusIds": [],
+      "title": "Credit Guarantee Scheme for Startups (CGSS)",
+      "url": "https://www.startupindia.gov.in/content/sih/en/credit-guarantee-scheme-for-startups.html"
+    },
+    {
+      "baseline": {
+        "row": 43,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R43",
+      "issuer": "MSME Ministry / Host Institute / Implementing Agency",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "migrationSource": {
+        "row": 43,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-7901A4B5",
+      "statusIds": [],
+      "title": "MSME Innovative – Incubation, Design and IPR",
+      "url": "https://innovative.msme.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 47,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R47",
+      "issuer": "Department of Commerce / lender / NCGTC",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "migrationSource": {
+        "row": 47,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-F009D7CB",
+      "statusIds": [],
+      "title": "Export Promotion Mission – Niryat Protsahan finance interventions",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210874&lang=1&reg=1"
+    },
+    {
+      "baseline": {
+        "row": 48,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R48",
+      "issuer": "Department of Commerce / EPC / implementing agency",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "migrationSource": {
+        "row": 48,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-1727A0C3",
+      "statusIds": [],
+      "title": "Export Promotion Mission – TRACE and Niryat Disha market-readiness support",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157540&id=157540&lang=1&reg=20"
+    },
+    {
+      "baseline": {
+        "row": 56,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R56",
+      "issuer": "DRDO / Directorate of TDF",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "migrationSource": {
+        "row": 56,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-D75A9106",
+      "statusIds": [],
+      "title": "DRDO Technology Development Fund (TDF)",
+      "url": "https://tdf.drdo.gov.in/site/pdfs/summary.pdf"
+    },
+    {
+      "baseline": {
+        "row": 61,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R61",
+      "issuer": "MANAGE / NABARD / bank",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "migrationSource": {
+        "row": 61,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-6CFED96A",
+      "statusIds": [],
+      "title": "Agri-Clinics and Agri-Business Centres (ACABC)",
+      "url": "https://www.agriclinics.net/OCGOI.aspx"
+    },
+    {
+      "baseline": {
+        "row": 68,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R68",
+      "issuer": "DAHD / lender / State Animal Husbandry",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 68,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-BFF135F3",
+      "statusIds": [],
+      "title": "National Livestock Mission – Entrepreneurship Development Programme",
+      "url": "https://dahd.gov.in/en/schemes/programmes/national_livestock_mission"
+    },
+    {
+      "baseline": {
+        "row": 70,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R70",
+      "issuer": "DAHD / lender",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 70,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-CC745FC0",
+      "statusIds": [],
+      "title": "Animal Husbandry Infrastructure Development Fund (AHIDF)",
+      "url": "https://www.dahd.gov.in/en/schemes/programmes/ahidf"
+    },
+    {
+      "baseline": {
+        "row": 74,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R74",
+      "issuer": "Department of Fisheries / NCDC/NABARD/lender",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 74,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-14D496D4",
+      "statusIds": [],
+      "title": "Fisheries and Aquaculture Infrastructure Development Fund (FIDF)",
+      "url": "https://www.dof.gov.in/offerings/schemes-and-services/details/fidf-2-kTN5ETMtQWa"
+    },
+    {
+      "baseline": {
+        "row": 79,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R114-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R114-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R114-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R114-APPLICATION-ROUTE"
+      ],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R79",
+      "issuer": "HP SC/ST Development Corporation / bank",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 79,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-F6648DC2",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R114"
+      ],
+      "title": "HP SC/ST Development Corporation – Swarojgar Yojana",
+      "url": "https://hpscstdc.hp.gov.in/scheme/swarojgar-yojna"
+    },
+    {
+      "baseline": {
+        "row": 100,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R135-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R135-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R135-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R135-APPLICATION-ROUTE"
+      ],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R100",
+      "issuer": "Department of Horticulture / HP-SHIVA",
+      "locator": "Scheme evidence; status: Active - cluster or project area.",
+      "migrationSource": {
+        "row": 100,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-5A00A251",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R135"
+      ],
+      "title": "Himachal Pradesh Subtropical Horticulture, Irrigation and Value Addition Project (HP-SHIVA)",
+      "url": "https://www.adb.org/projects/53189-002/main"
+    },
+    {
+      "baseline": {
+        "row": 101,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R136-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R136-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R136-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R136-APPLICATION-ROUTE"
+      ],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R101",
+      "issuer": "Department of Horticulture",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "migrationSource": {
+        "row": 101,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-A991DE9E",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R136"
+      ],
+      "title": "Himachal Khumb Vikas Yojana",
+      "url": "https://eudyan.hp.gov.in/cms/media/lmlblei4/frequently-asked-questions.pdf"
+    },
+    {
+      "baseline": {
+        "row": 102,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R137-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R137-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R137-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R137-APPLICATION-ROUTE"
+      ],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R102",
+      "issuer": "Department of Horticulture",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "migrationSource": {
+        "row": 102,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-7C9E3A02",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R137"
+      ],
+      "title": "Mukhya Mantri Madhu Vikas Yojana",
+      "url": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/kya/sid/Procedure%20Madhu%20Vikash%20Yojna.pdf"
+    },
+    {
+      "baseline": {
+        "row": 103,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R138-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R138-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R138-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R138-APPLICATION-ROUTE"
+      ],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R103",
+      "issuer": "Department of Horticulture",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "migrationSource": {
+        "row": 103,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-76DD5E9C",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R138"
+      ],
+      "title": "MEHAK – aromatic plants cultivation and processing",
+      "url": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/kya/sid/MEHAK.pdf"
+    },
+    {
+      "baseline": {
+        "row": 104,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R139-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R139-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R139-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R139-APPLICATION-ROUTE"
+      ],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R104",
+      "issuer": "Department of Horticulture",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "migrationSource": {
+        "row": 104,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-3AC57EA6",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R139"
+      ],
+      "title": "Mukhya Mantri Greenhouse Renovation Scheme",
+      "url": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/kya/sid/Mukhyamantri%20Greenhouse%20Renovation%20Scheme.pdf"
+    },
+    {
+      "baseline": {
+        "row": 105,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R140-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R140-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R140-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R140-APPLICATION-ROUTE"
+      ],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R105",
+      "issuer": "Department of Horticulture",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "migrationSource": {
+        "row": 105,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-83309ED9",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R140"
+      ],
+      "title": "Krishi Utpadan Sanrakshan Yojana (KUSHY) – anti-hail support structure",
+      "url": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/kya/sid/Krishi%20Utpad%20Sarankshan%20Yojna.pdf"
+    },
+    {
+      "baseline": {
+        "row": 109,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R109",
+      "issuer": "HPSRLM / Rural Development Department",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "migrationSource": {
+        "row": 109,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-E3B042BD",
+      "statusIds": [],
+      "title": "DAY-NRLM – SHG Revolving Fund, Community Investment Fund and interest support",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2086490&lang=2&reg=48"
+    },
+    {
+      "baseline": {
+        "row": 110,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R110",
+      "issuer": "HPSRLM / DAY-NRLM",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "migrationSource": {
+        "row": 110,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-5CA139AE",
+      "statusIds": [],
+      "title": "Start-up Village Entrepreneurship Programme (SVEP)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2289268&lang=1&reg=48"
+    },
+    {
+      "baseline": {
+        "row": 111,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R151-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R151-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R151-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R151-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R152-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R152-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R152-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R152-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R153-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R153-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R153-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R153-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R154-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R154-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R154-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R154-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R155-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R155-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R155-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R155-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R156-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R156-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R156-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R156-APPLICATION-ROUTE"
+      ],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R111",
+      "issuer": "Department of Industries, Himachal Pradesh",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 111,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-82533867",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R151",
+        "STATUS-SCHEME-MASTER-R152",
+        "STATUS-SCHEME-MASTER-R153",
+        "STATUS-SCHEME-MASTER-R154",
+        "STATUS-SCHEME-MASTER-R155",
+        "STATUS-SCHEME-MASTER-R156"
+      ],
+      "title": "HPIIP 2019 – MSME land, shed, stamp duty and CLU incentives",
+      "url": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/policies/HPIIP-2019-with-all-amendments-upto-08.10.2024.pdf"
+    },
+    {
+      "baseline": {
+        "row": 112,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R157-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R157-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R157-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R157-APPLICATION-ROUTE"
+      ],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R112",
+      "issuer": "Transport Department, Himachal Pradesh",
+      "locator": "Scheme evidence; status: Open now.",
+      "migrationSource": {
+        "row": 112,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-11ED7884",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R157"
+      ],
+      "title": "Rajiv Gandhi Swarozgar Start-up Yojana – e-taxi",
+      "url": "https://etaxihpdt.org/home"
+    },
+    {
+      "baseline": {
+        "row": 113,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R113",
+      "issuer": "Transport Department, Himachal Pradesh",
+      "locator": "Scheme evidence; status: Active - annual target or departmental sanction.",
+      "migrationSource": {
+        "row": 113,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-30CE6CBD",
+      "statusIds": [],
+      "title": "Rajiv Gandhi Swarozgar Start-up Yojana – e-bus Stage III",
+      "url": "https://himachal.nic.in/ControlsAsync/ViewFTPFile?qs=KI3gZ53zz1yE7zQVTWhaOzP%2Beb3cLZ68p63GiWXU6hzN3nR9gHw6C3pE5qZLcWqNWhWR40qnvAG77bstWOLYgFmeY8wsd1ie"
+    },
+    {
+      "baseline": {
+        "row": 114,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R160-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R160-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R160-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R160-APPLICATION-ROUTE"
+      ],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R114",
+      "issuer": "Department of Tourism and Civil Aviation, Himachal Pradesh",
+      "locator": "Scheme evidence; status: Active - bank or continuous route.",
+      "migrationSource": {
+        "row": 114,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-6C840069",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R160"
+      ],
+      "title": "Himachal Pradesh Home Stay Rules 2025 – registration route",
+      "url": "https://www.himachaltourism.gov.in/wp-content/uploads/2025/06/The-Himachal-Pradesh-Home-Stay-Rules-2025.pdf"
+    },
+    {
+      "baseline": {
+        "row": 136,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R136",
+      "issuer": "Agriculture Department; seed, pesticide or fertiliser regulator where applicable",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 136,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-FE0C48D2",
+      "statusIds": [],
+      "title": "Field agriculture and crop services – Cereals",
+      "url": "https://agriculture.hp.gov.in/en/"
+    },
+    {
+      "baseline": {
+        "row": 137,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R137",
+      "issuer": "Horticulture Department; plant quarantine or nursery accreditation where applicable",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 137,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-2869061F",
+      "statusIds": [],
+      "title": "Horticulture floriculture and specialty crops – Apple",
+      "url": "https://himachal.nic.in/en-IN/horticulture.html"
+    },
+    {
+      "baseline": {
+        "row": 138,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R138",
+      "issuer": "State Medicinal Plants Board / NMPB",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 138,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-E0791664",
+      "statusIds": [],
+      "title": "Horticulture floriculture and specialty crops – Medicinal plants",
+      "url": "https://nmpb.nic.in/"
+    },
+    {
+      "baseline": {
+        "row": 139,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R139",
+      "issuer": "Horticulture Department; plant quarantine or nursery accreditation where applicable",
+      "locator": "Official sector/regulatory evidence used for taxonomy and coverage review.",
+      "migrationSource": {
+        "row": 139,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-60724152",
+      "statusIds": [],
+      "title": "Horticulture floriculture and specialty crops – Kangra tea",
+      "url": "https://www.teaboard.gov.in/TEABOARDPAGE/NzE%3D"
+    },
+    {
+      "baseline": {
+        "row": 140,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R140",
+      "issuer": "Animal Husbandry Department; FSSAI, veterinary or pollution approvals where applicable",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 140,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-BD3B1A03",
+      "statusIds": [],
+      "title": "Livestock dairy poultry and animal enterprises – Dairy farming",
+      "url": "https://dahd.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 141,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R141",
+      "issuer": "Sector department; food, animal-health and environmental approvals where applicable",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 141,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-3ACDAD54",
+      "statusIds": [],
+      "title": "Fisheries beekeeping and sericulture – Inland fisheries",
+      "url": "https://fisheries.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 142,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R142",
+      "issuer": "Sector department; food, animal-health and environmental approvals where applicable",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 142,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-3C02C727",
+      "statusIds": [],
+      "title": "Fisheries beekeeping and sericulture – Beekeeping",
+      "url": "https://nbb.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 143,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R143",
+      "issuer": "Sector department; food, animal-health and environmental approvals where applicable",
+      "locator": "Official sector/regulatory evidence used for taxonomy and coverage review.",
+      "migrationSource": {
+        "row": 143,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-D6E8B2EC",
+      "statusIds": [],
+      "title": "Fisheries beekeeping and sericulture – Sericulture",
+      "url": "https://csb.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 144,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R144",
+      "issuer": "Agriculture, Horticulture or Industries Department; food, warehouse and local approvals",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 144,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-16DE2FEE",
+      "statusIds": [],
+      "title": "Agri post-harvest infrastructure and logistics – Collection and aggregation",
+      "url": "https://agriinfra.dac.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 145,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R145",
+      "issuer": "FSSAI; Pollution Control Board, excise or legal metrology where applicable",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 145,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-BD0FDE8D",
+      "statusIds": [],
+      "title": "Food and beverage processing – Fruit and vegetable processing",
+      "url": "https://www.mofpi.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 146,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R146",
+      "issuer": "CDSCO, State Drugs Controller, AYUSH drug authority or biosafety regulator according to product",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 146,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-B22E6898",
+      "statusIds": [],
+      "title": "Pharma medical devices biotechnology and AYUSH – Pharmaceutical formulations",
+      "url": "https://pharma-dept.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 147,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R147",
+      "issuer": "CDSCO, State Drugs Controller, AYUSH drug authority or biosafety regulator according to product",
+      "locator": "Official sector/regulatory evidence used for taxonomy and coverage review.",
+      "migrationSource": {
+        "row": 147,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-5E1DC121",
+      "statusIds": [],
+      "title": "Pharma medical devices biotechnology and AYUSH – AYUSH and herbal products",
+      "url": "https://ayush.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 148,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R148",
+      "issuer": "CDSCO, State Drugs Controller, AYUSH drug authority or biosafety regulator according to product",
+      "locator": "Official sector/regulatory evidence used for taxonomy and coverage review.",
+      "migrationSource": {
+        "row": 148,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-BB0D778F",
+      "statusIds": [],
+      "title": "Pharma medical devices biotechnology and AYUSH – Regulated medicine retail",
+      "url": "https://cdsco.gov.in/opencms/opencms/en/Home/"
+    },
+    {
+      "baseline": {
+        "row": 149,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R149",
+      "issuer": "Industries Department; textiles, handicrafts, forest, pollution and product standards as applicable",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 149,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-858FBE09",
+      "statusIds": [],
+      "title": "Textiles wool handicrafts forest products and packaging – Wool and handloom",
+      "url": "https://texmin.nic.in/"
+    },
+    {
+      "baseline": {
+        "row": 150,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R150",
+      "issuer": "Industries Department; textiles, handicrafts, forest, pollution and product standards as applicable",
+      "locator": "Official sector/regulatory evidence used for taxonomy and coverage review.",
+      "migrationSource": {
+        "row": 150,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-D8674496",
+      "statusIds": [],
+      "title": "Textiles wool handicrafts forest products and packaging – Handicrafts",
+      "url": "https://handicrafts.nic.in/"
+    },
+    {
+      "baseline": {
+        "row": 151,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R151",
+      "issuer": "Industries Department, BIS/product regulator and pollution authority as applicable",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 151,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-D885800A",
+      "statusIds": [],
+      "title": "Engineering electronics defence and general manufacturing – Metal fabrication",
+      "url": "https://msme.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 152,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R152",
+      "issuer": "Industries Department, BIS/product regulator and pollution authority as applicable",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 152,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-BFC65021",
+      "statusIds": [],
+      "title": "Engineering electronics defence and general manufacturing – Electronics components",
+      "url": "https://www.meity.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 153,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R153",
+      "issuer": "Industries Department, BIS/product regulator and pollution authority as applicable",
+      "locator": "Official sector/regulatory evidence used for taxonomy and coverage review.",
+      "migrationSource": {
+        "row": 153,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-A0FAEEC6",
+      "statusIds": [],
+      "title": "Engineering electronics defence and general manufacturing – Defence and dual-use",
+      "url": "https://drdo.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 154,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R154",
+      "issuer": "Industries, energy, pollution, fire and product-safety authorities according to activity",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 154,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-09A54CC7",
+      "statusIds": [],
+      "title": "Renewable energy circular economy chemicals and construction materials – Solar and clean energy",
+      "url": "https://mnre.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 155,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R155",
+      "issuer": "Industries, energy, pollution, fire and product-safety authorities according to activity",
+      "locator": "Official sector/regulatory evidence used for taxonomy and coverage review.",
+      "migrationSource": {
+        "row": 155,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-3F99A199",
+      "statusIds": [],
+      "title": "Renewable energy circular economy chemicals and construction materials – Waste management and recycling",
+      "url": "https://moef.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 156,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R156",
+      "issuer": "Tourism Department, local body, fire, food, transport and activity-specific safety authority",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 156,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-57A4D512",
+      "statusIds": [],
+      "title": "Tourism hospitality wellness and events – Accommodation",
+      "url": "https://himachaltourism.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 157,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R157",
+      "issuer": "Health, clinical-establishment, education, skills or professional regulator according to service",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 157,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-5B76B5B0",
+      "statusIds": [],
+      "title": "Healthcare education skills and professional services – Clinics and care delivery",
+      "url": "https://himachal.nic.in/en-IN/health-family-welfare.html"
+    },
+    {
+      "baseline": {
+        "row": 158,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R158",
+      "issuer": "Health, clinical-establishment, education, skills or professional regulator according to service",
+      "locator": "Official sector/regulatory evidence used for taxonomy and coverage review.",
+      "migrationSource": {
+        "row": 158,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-CB8179EE",
+      "statusIds": [],
+      "title": "Healthcare education skills and professional services – Skills and training",
+      "url": "https://www.msde.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 159,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R159",
+      "issuer": "Transport, local body, trade, labour, fire and product regulator according to activity",
+      "locator": "Official source used for multiple scheme and sector-taxonomy records.",
+      "migrationSource": {
+        "row": 159,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-1941DEA2",
+      "statusIds": [],
+      "title": "Transport logistics retail repair and local services – Freight and logistics",
+      "url": "https://himachal.nic.in/en-IN/transport.html"
+    },
+    {
+      "baseline": {
+        "row": 160,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R14-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R14-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R14-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R14-APPLICATION-ROUTE"
+      ],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R160",
+      "issuer": "Department of Agriculture, Himachal Pradesh",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 160,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-E0C067AF",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R14"
+      ],
+      "title": "Mukhya Mantri Khet Sanrakshan Yojana (MMKSY) – crop-protection fencing",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/"
+    },
+    {
+      "baseline": {
+        "row": 161,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R161",
+      "issuer": "Department of Agriculture, Himachal Pradesh",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 161,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-F54CF967",
+      "statusIds": [],
+      "title": "PM-KUSUM / Saur Sinchai implementation in HP",
+      "url": "https://agriculture.hp.gov.in/en/our-scheme/pradhan-mantri-kisan-urja-suraksha-evem-utthan-mahabhiyan-yojna-pm-kusum/"
+    },
+    {
+      "baseline": {
+        "row": 162,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R162",
+      "issuer": "Secondary summary – used only where a primary document was unreachable",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 162,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-80F3367D",
+      "statusIds": [],
+      "title": "Self-Reliant India (SRI) Fund",
+      "url": "https://blitzindiamedia.com/perspective/india-msme-policy-strategy-union-budget-2026-27-sri-fund-treds/"
+    },
+    {
+      "baseline": {
+        "row": 163,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R163",
+      "issuer": "Ministry of Textiles – National Handloom Development Programme",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 163,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-510E1C71",
+      "statusIds": [],
+      "title": "Weaver MUDRA Scheme",
+      "url": "https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2025/07/202507231271247224.pdf"
+    },
+    {
+      "baseline": {
+        "row": 164,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R164",
+      "issuer": "Department of Animal Husbandry and Dairying",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 164,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-0C6841FB",
+      "statusIds": [],
+      "title": "Rashtriya Gokul Mission – breed multiplication/IVF/sex-sorted semen",
+      "url": "https://dahd.gov.in/en/schemes/programmes/rashtriya_gokul_mission"
+    },
+    {
+      "baseline": {
+        "row": 167,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R167",
+      "issuer": "Department of Industries, Himachal Pradesh",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 167,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-8DA70891",
+      "statusIds": [],
+      "title": "HPIIP 2019 – employment, export, patent and SME listing support",
+      "url": "https://emerginghimachal.hp.gov.in/themes/backend/uploads/policies/Industrial-Investment-Policy-2019-and-Rules-Regarding-Grant-of-Incentives-Concessions-and-Facilities-as-on-20-12-2023-with-all-amendments.pdf"
+    },
+    {
+      "baseline": {
+        "row": 168,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R158-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R158-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R158-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R158-APPLICATION-ROUTE"
+      ],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R168",
+      "issuer": "Government of Himachal Pradesh",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 168,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-84851CF9",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R158"
+      ],
+      "title": "Rajiv Gandhi Swarozgar Start-up Yojana Phase-IV - passenger bus (electric and diesel)",
+      "url": "https://himachal.nic.in/lep"
+    },
+    {
+      "baseline": {
+        "row": 169,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R169",
+      "issuer": "Himachal Headlines – contemporary reporting (no official notification located)",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 169,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-79B0EC47",
+      "statusIds": [],
+      "title": "Rajiv Gandhi Swarozgar Start-up Yojana Phase-IV - passenger bus (electric and diesel); Rajiv Gandhi Swarozgar Start-up Yojana – e-bus Stage III",
+      "url": "https://himachalheadlines.com/news/himachal-to-offer-50-percent-subsidy-on-electric-buses-30-percent-on-diesel-buses/"
+    },
+    {
+      "baseline": {
+        "row": 170,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R170",
+      "issuer": "Himachal Watcher – contemporary reporting (no official notification located)",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 170,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-96364DC9",
+      "statusIds": [],
+      "title": "Mukhya Mantri Khet Sanrakshan Yojana (MMKSY) – crop-protection fencing; Mukhyamantri Krishi Utpadan Sanrakshan Yojana (fencing)",
+      "url": "https://himachalwatcher.com/2019/09/05/farmers-in-himachal-will-get-50-subsidy-on-barbed-wires-channel-link-and-70-on-composite-fences-under-mukhya-mantri-khet-sanrakshan-yojana/"
+    },
+    {
+      "baseline": {
+        "row": 171,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R171",
+      "issuer": "Directorate of Industries & Commerce, Kerala (PMEGP norms)",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 171,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-A6586711",
+      "statusIds": [],
+      "title": "PMEGP 2nd Loan for Upgradation",
+      "url": "https://industry.kerala.gov.in/index.php/schemes-mainmenu/pmegp-schemes"
+    },
+    {
+      "baseline": {
+        "row": 173,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R173",
+      "issuer": "Kashmir Life – reporting a Lok Sabha reply (no official notification located)",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 173,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-FB71A363",
+      "statusIds": [],
+      "title": "Micro Credit Card Scheme for Micro Enterprises",
+      "url": "https://kashmirlife.net/jammu-kashmir-gets-72-credit-cards-under-new-micro-enterprise-scheme-lok-sabha-446094/"
+    },
+    {
+      "baseline": {
+        "row": 175,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R175",
+      "issuer": "NMDFC",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 175,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-DEBF7CB8",
+      "statusIds": [],
+      "title": "NMDFC Term Loan Scheme",
+      "url": "https://milannmdfc.org/NMDFC_SCHEME.aspx"
+    },
+    {
+      "baseline": {
+        "row": 176,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R176",
+      "issuer": "NBCFDC",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 176,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-38FA64E0",
+      "statusIds": [],
+      "title": "NBCFDC General Loan Scheme",
+      "url": "https://nbcfdc.gov.in/nbcfdc/web/general-loan"
+    },
+    {
+      "baseline": {
+        "row": 178,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R178",
+      "issuer": "National Horticulture Board",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 178,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-F9CAD011",
+      "statusIds": [],
+      "title": "(MIDH cost norms)",
+      "url": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf"
+    },
+    {
+      "baseline": {
+        "row": 179,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R179",
+      "issuer": "Department of Pharmaceuticals",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 179,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-CF5124AC",
+      "statusIds": [],
+      "title": "Assistance to Pharmaceutical Industry for Common Facilities (API-CF); Revamped Pharmaceutical Technology Upgradation Assistance Scheme (RPTUAS)",
+      "url": "https://pharma-dept.gov.in/schemes"
+    },
+    {
+      "baseline": {
+        "row": 181,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R181",
+      "issuer": "State Bank of India (CGTMSE coverage circular)",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 181,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-847E7A5A",
+      "statusIds": [],
+      "title": "CGTMSE credit guarantee",
+      "url": "https://sbi.bank.in/documents/136/49244919/MODIFICATION+-+CGTMSE+GUARANTEE+COVERAGE+UPTO+10+CR.pdf/281d80e2-b952-b553-ffb6-f8725fbf5581"
+    },
+    {
+      "baseline": {
+        "row": 182,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R182",
+      "issuer": "Invest India (SFURTI guidelines mirror)",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 182,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-C00E0C36",
+      "statusIds": [],
+      "title": "SFURTI – Scheme of Fund for Regeneration of Traditional Industries",
+      "url": "https://static.investindia.gov.in/s3fs-public/inline-files/SFURTI_NEW_0.pdf"
+    },
+    {
+      "baseline": {
+        "row": 184,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R184",
+      "issuer": "The News Himachal – contemporary reporting (no official notification located)",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 184,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-C8A84B9C",
+      "statusIds": [],
+      "title": "Market Intervention Scheme for apple/mango/citrus",
+      "url": "https://thenewshimachal.com/2026/07/himachal-government-approves-mis-for-procurement-of-processing-grade-mangoes-citrus-fruits-and-c-grade-apples/"
+    },
+    {
+      "baseline": {
+        "row": 185,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R185",
+      "issuer": "Secondary summary – used only where a primary document was unreachable",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 185,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-4000E93F",
+      "statusIds": [],
+      "title": "Pradhan Mantri Viksit Bharat Rozgar Yojana",
+      "url": "https://vajiramandravi.com/current-affairs/pradhan-mantri-viksit-bharat-rozgar-yojana/"
+    },
+    {
+      "baseline": {
+        "row": 187,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R187",
+      "issuer": "Autocar Professional – contemporary reporting (no official notification located)",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 187,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-2F53C078",
+      "statusIds": [],
+      "title": "PM E-DRIVE demand incentive",
+      "url": "https://www.autocarpro.in/news/govt-extends-pm-e-drive-subsidy-for-e2ws-till-july-e3w-to-get-incentives-till-2028-131843"
+    },
+    {
+      "baseline": {
+        "row": 188,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R188",
+      "issuer": "Department of Defence Production",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 188,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-578831AA",
+      "statusIds": [],
+      "title": "Innovations for Defence Excellence (iDEX / SPARK)",
+      "url": "https://www.ddpmod.gov.in/offerings/schemes-and-services/idex"
+    },
+    {
+      "baseline": {
+        "row": 189,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R189",
+      "issuer": "Secondary summary – used only where a primary document was unreachable",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 189,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-EFDE7CB1",
+      "statusIds": [],
+      "title": "Revamped Pharmaceutical Technology Upgradation Assistance Scheme (RPTUAS)",
+      "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/revamped-pharmaceuticals-technology-upgradation-assistance-scheme-and-ucpmp-2024"
+    },
+    {
+      "baseline": {
+        "row": 190,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R190",
+      "issuer": "Secondary summary – used only where a primary document was unreachable",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 190,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-54130BBE",
+      "statusIds": [],
+      "title": "PM Vishwakarma",
+      "url": "https://www.drishtiias.com/important-government-schemes/ministry-of-msmes/pm-vishwakarma-scheme-2"
+    },
+    {
+      "baseline": {
+        "row": 192,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R192",
+      "issuer": "IIBF (NCGTC MCGS-MSME scheme brochure)",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 192,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-A3146569",
+      "statusIds": [],
+      "title": "Mutual Credit Guarantee Scheme for MSMEs (MCGS-MSME)",
+      "url": "https://www.iibf.org.in/documents/Brochure/2025/MCGS%20April.pdf"
+    },
+    {
+      "baseline": {
+        "row": 193,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R193",
+      "issuer": "Secondary summary – used only where a primary document was unreachable",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 193,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-DEF3E97C",
+      "statusIds": [],
+      "title": "MSME Innovative – Incubation, Design and IPR",
+      "url": "https://www.indiafilings.com/learn/msme-innovative-scheme-incubation-design-and-ipr"
+    },
+    {
+      "baseline": {
+        "row": 194,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R194",
+      "issuer": "Indian Pharma Post – contemporary reporting",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 194,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-16DFEAB6",
+      "statusIds": [],
+      "title": "SMDI – Marginal Investment Scheme for Reducing Import Dependence (MIS-RID)",
+      "url": "https://www.indianpharmapost.com/policy/india-opens-rs-10-crore-push-to-boost-medical-device-manufacturing-slash-import-dependence-20789"
+    },
+    {
+      "baseline": {
+        "row": 195,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R195",
+      "issuer": "Secondary summary – used only where a primary document was unreachable",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 195,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-02255D80",
+      "statusIds": [],
+      "title": "Formation and Promotion of 10,000 FPOs",
+      "url": "https://www.insightsonindia.com/2026/02/07/ccentral-sector-scheme-of-formation-and-promotion-of-10000-farmer-producer-organizations-fpos/"
+    },
+    {
+      "baseline": {
+        "row": 196,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R196",
+      "issuer": "News Services Division, All India Radio (Government of India)",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 196,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-4AD63412",
+      "statusIds": [],
+      "title": "Stand-Up India",
+      "url": "https://www.newsonair.gov.in/fm-nirmala-sitharaman-announces-revamped-stand-up-india-scheme-for-sc-st-and-women-entrepreneurs"
+    },
+    {
+      "baseline": {
+        "row": 197,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R197",
+      "issuer": "Press Information Bureau, Government of India",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 197,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-C12CF42F",
+      "statusIds": [],
+      "title": "Pradhan Mantri Matsya Sampada Yojana (PMMSY) – beneficiary activities",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=155173&ModuleId=3&reg=3&lang=2"
+    },
+    {
+      "baseline": {
+        "row": 198,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R198",
+      "issuer": "Press Information Bureau, Government of India",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 198,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-04E1020F",
+      "statusIds": [],
+      "title": "Kisan Credit Card (KCC) / Modified Interest Subvention Scheme",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=157771&ModuleId=3&reg=48&lang=2"
+    },
+    {
+      "baseline": {
+        "row": 199,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R199",
+      "issuer": "Press Information Bureau, Government of India",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 199,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-C10FBC86",
+      "statusIds": [],
+      "title": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana – Jan Aushadhi Kendra",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?id=157711&NoteId=157711&ModuleId=3&reg=48&lang=2"
+    },
+    {
+      "baseline": {
+        "row": 201,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R201",
+      "issuer": "Press Information Bureau, Government of India",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 201,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-DF3E706C",
+      "statusIds": [],
+      "title": "Credit Guarantee Scheme for e-NWR based Pledge Financing (CGS-NPF)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2085018"
+    },
+    {
+      "baseline": {
+        "row": 203,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R203",
+      "issuer": "Press Information Bureau, Government of India",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 203,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-65A7E39C",
+      "statusIds": [],
+      "title": "PM SVANidhi (restructured)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2161157&reg=48&lang=2"
+    },
+    {
+      "baseline": {
+        "row": 204,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R204",
+      "issuer": "Press Information Bureau, Government of India",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 204,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-A355EB32",
+      "statusIds": [],
+      "title": "RoSCTL – Rebate of State and Central Taxes and Levies",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247851&reg=3&lang=1"
+    },
+    {
+      "baseline": {
+        "row": 206,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R206",
+      "issuer": "Secondary summary – used only where a primary document was unreachable",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 206,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-F014BBEC",
+      "statusIds": [],
+      "title": "NSIC Raw Material Assistance against Bank Guarantee",
+      "url": "https://www.shriramfinance.in/articles/business-loan/2026/raw-material-assistance-scheme-how-msme-can-use-nsic-credit-support-for-procurement"
+    },
+    {
+      "baseline": {
+        "row": 208,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R208",
+      "issuer": "Tea Board of India",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 208,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-AC3B0E15",
+      "statusIds": [],
+      "title": "Tea Development and Promotion Scheme 2021–26",
+      "url": "https://www.teaboard.gov.in/"
+    },
+    {
+      "baseline": {
+        "row": 209,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R209",
+      "issuer": "Verification source",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 209,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-AD134B9F",
+      "statusIds": [],
+      "title": "Revamped Pharmaceutical Technology Upgradation Assistance Scheme (RPTUAS)",
+      "url": "https://www.teamleaseregtech.com/updates/article/35350/mocf-issued-a-corrigendum-regarding-guidelines-for-the-scheme-strength/"
+    },
+    {
+      "baseline": {
+        "row": 210,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R210",
+      "issuer": "The Hitavada – contemporary reporting (no official notification located)",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 210,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-8235D027",
+      "statusIds": [],
+      "title": "PM Formalisation of Micro Food Processing Enterprises (PMFME)",
+      "url": "https://www.thehitavada.com/Encyc/2026/5/23/food-processing-industries-ministry-seeking-pmfme-scheme-extension-with-revised-norms.html"
+    },
+    {
+      "baseline": {
+        "row": 211,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R211",
+      "issuer": "The Tribune – contemporary reporting (no official notification located)",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 211,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-F3607CB5",
+      "statusIds": [],
+      "title": "Rajiv Gandhi Swarozgar Start-up Yojana – e-taxi",
+      "url": "https://www.tribuneindia.com/news/himachal/himachal-cm-launches-scheme-for-50-subsidy-on-e-taxi-purchase-564274"
+    },
+    {
+      "baseline": {
+        "row": 212,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R212",
+      "issuer": "The Tribune – contemporary reporting (no official notification located)",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 212,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-2036FD2F",
+      "statusIds": [],
+      "title": "HP Industrial Investment Policy 2019 incentives; HPIIP 2019 – MSME land, shed, stamp duty and CLU incentives; HPIIP 2019 – employment, export, patent and SME listing support; HPIIP 2019 – interest and plant-transport support; HPIIP 2019 – net SGST re",
+      "url": "https://www.tribuneindia.com/news/himachal/himachal-govt-extends-industrial-policy-by-two-months-as-new-one-not-yet-finalised/"
+    },
+    {
+      "baseline": {
+        "row": 214,
+        "sheet": "Source Register"
+      },
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R159-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R159-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R159-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R159-APPLICATION-ROUTE"
+      ],
+      "classification": "official-unclassified",
+      "id": "SOURCE-SOURCE-REGISTER-R214",
+      "issuer": "Verification source",
+      "locator": "Added in the 2026-08-23 verification pass; see Corrections Log for the specific cells it supports.",
+      "migrationSource": {
+        "row": 214,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-48F0A383",
+      "statusIds": [
+        "STATUS-SCHEME-MASTER-R159"
+      ],
+      "title": "Mukhya Mantri Laghu Dukandar Kalyan Yojana (rural and 'Shahri' urban variant); Rajiv Gandhi Laghu Dukandar Sukh Kalyan Yojana",
+      "url": "https://thenewsmill.com/2025/12/himachal-government-expands-mukhya-mantri-laghu-dukandar-kalyan-yojana-to-urban-areas/"
+    },
+    {
+      "baseline": {
+        "row": 215,
+        "sheet": "Source Register"
+      },
+      "claimIds": [],
+      "classification": "primary-operative",
+      "id": "SOURCE-SOURCE-REGISTER-R215",
+      "issuer": "Verification source",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 215,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-23",
+      "sourceRegisterId": "SRC-VER-4999922D",
+      "statusIds": [],
+      "title": "Fisheries and Aquaculture Infrastructure Development Fund (FIDF)",
+      "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-extension-of-fisheries-and-aquaculture-infrastructure-development-fund-fidf/"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCH-HP-HIMSWAVLAMBAN-PM-AJAY-EXISTENCE",
+        "CLAIM-SCH-HP-HIMSWAVLAMBAN-PM-AJAY-ELIGIBLEAPPLICANTS",
+        "CLAIM-SCH-HP-HIMSWAVLAMBAN-PM-AJAY-KEYBENEFIT",
+        "CLAIM-SCH-HP-HIMSWAVLAMBAN-PM-AJAY-APPLICATIONROUTE"
+      ],
+      "classification": "primary-operative",
+      "id": "SOURCE-SCH-HP-HIMSWAVLAMBAN-PM-AJAY",
+      "issuer": "Himachal Pradesh SC/ST Development Corporation",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 216,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "statusIds": [
+        "STATUS-SCH-HP-HIMSWAVLAMBAN-PM-AJAY"
+      ],
+      "title": "HIMSWAVLAMBAN (PM-AJAY)",
+      "url": "https://hpscstdc.hp.gov.in/schemes/pm-ajay"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCH-HP-ADIWASI-MAHILA-MICROCREDIT-EXISTENCE",
+        "CLAIM-SCH-HP-ADIWASI-MAHILA-MICROCREDIT-ELIGIBLEAPPLICANTS",
+        "CLAIM-SCH-HP-ADIWASI-MAHILA-MICROCREDIT-KEYBENEFIT",
+        "CLAIM-SCH-HP-ADIWASI-MAHILA-MICROCREDIT-APPLICATIONROUTE"
+      ],
+      "classification": "primary-operative",
+      "id": "SOURCE-SCH-HP-ADIWASI-MAHILA-MICROCREDIT",
+      "issuer": "Himachal Pradesh SC/ST Development Corporation / NSTFDC",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 217,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "statusIds": [
+        "STATUS-SCH-HP-ADIWASI-MAHILA-MICROCREDIT"
+      ],
+      "title": "Adiwasi Mahila Sashaktikaran / Micro Credit Scheme",
+      "url": "https://hpscstdc.hp.gov.in/schemes/adiwasi-mahila-sashaktikaran-yojna"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCH-HP-NSKFDC-MCF-MSY-EXISTENCE",
+        "CLAIM-SCH-HP-NSKFDC-MCF-MSY-ELIGIBLEAPPLICANTS",
+        "CLAIM-SCH-HP-NSKFDC-MCF-MSY-KEYBENEFIT",
+        "CLAIM-SCH-HP-NSKFDC-MCF-MSY-APPLICATIONROUTE"
+      ],
+      "classification": "primary-operative",
+      "id": "SOURCE-SCH-HP-NSKFDC-MCF-MSY",
+      "issuer": "Himachal Pradesh SC/ST Development Corporation / NSKFDC",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 218,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "statusIds": [
+        "STATUS-SCH-HP-NSKFDC-MCF-MSY"
+      ],
+      "title": "NSKFDC Micro Credit Finance / Mahila Samridhi Yojana",
+      "url": "https://hpscstdc.hp.gov.in/scheme/micro-credit-finance-schemesmcfmsy"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCH-HP-HPMVN-SWAROJGAR-EXISTENCE",
+        "CLAIM-SCH-HP-HPMVN-SWAROJGAR-ELIGIBLEAPPLICANTS",
+        "CLAIM-SCH-HP-HPMVN-SWAROJGAR-KEYBENEFIT",
+        "CLAIM-SCH-HP-HPMVN-SWAROJGAR-APPLICATIONROUTE"
+      ],
+      "classification": "primary-operative",
+      "id": "SOURCE-SCH-HP-HPMVN-SWAROJGAR",
+      "issuer": "Himachal Pradesh Mahila Vikas Nigam",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 219,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "statusIds": [
+        "STATUS-SCH-HP-HPMVN-SWAROJGAR"
+      ],
+      "title": "Mahila Vikas Nigam Swarojgar Yojna",
+      "url": "https://hpscstdc.hp.gov.in/hpmvn/schemes"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCH-HP-MINORITY-TERM-LOAN-EXISTENCE",
+        "CLAIM-SCH-HP-MINORITY-TERM-LOAN-ELIGIBLEAPPLICANTS",
+        "CLAIM-SCH-HP-MINORITY-TERM-LOAN-KEYBENEFIT",
+        "CLAIM-SCH-HP-MINORITY-TERM-LOAN-APPLICATIONROUTE"
+      ],
+      "classification": "primary-operative",
+      "id": "SOURCE-SCH-HP-MINORITY-TERM-LOAN",
+      "issuer": "HP Minorities Finance and Development Corporation / NMDFC",
+      "locator": "Issuing-body scheme or application page; use the named eligibility, assistance, and access sections.",
+      "migrationSource": {
+        "row": 220,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "statusIds": [
+        "STATUS-SCH-HP-MINORITY-TERM-LOAN"
+      ],
+      "title": "HP Minorities Finance and Development Corporation Term Loan",
+      "url": "https://minority.hp.gov.in/page/SCHEMES.aspx"
+    },
+    {
+      "claimIds": [
+        "CLAIM-SCH-HP-MUKHYAMANTRI-CARP-MATSYA-PALAN-EXISTENCE",
+        "CLAIM-SCH-HP-MUKHYAMANTRI-CARP-MATSYA-PALAN-ELIGIBLEAPPLICANTS",
+        "CLAIM-SCH-HP-MUKHYAMANTRI-CARP-MATSYA-PALAN-KEYBENEFIT",
+        "CLAIM-SCH-HP-MUKHYAMANTRI-CARP-MATSYA-PALAN-APPLICATIONROUTE"
+      ],
+      "classification": "primary-operative",
+      "id": "SOURCE-SCH-HP-MUKHYAMANTRI-CARP-MATSYA-PALAN",
+      "issuer": "Department of Fisheries, Himachal Pradesh",
+      "locator": "Current issuing-body scheme page, application page, or operative notification index.",
+      "migrationSource": {
+        "row": 221,
+        "sheet": "Source Register",
+        "workbench": "research/hp-v2/sources.json"
+      },
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "statusIds": [
+        "STATUS-SCH-HP-MUKHYAMANTRI-CARP-MATSYA-PALAN"
+      ],
+      "title": "Mukhyamantri Carp Matsya Palan Yojana",
+      "url": "https://himachal.nic.in/fisheries/Content/AllNotifications"
+    }
+  ]
+}

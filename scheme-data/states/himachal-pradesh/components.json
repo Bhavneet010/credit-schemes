@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "baseline": {
+        "row": 151,
+        "sheet": "Scheme Master"
+      },
+      "disposition": "component",
+      "id": "ORPHAN-SCHEME-MASTER-R151",
+      "migrationSource": {
+        "row": 151,
+        "sheet": "Scheme Master",
+        "workbench": "research/hp-v2/mapping-review.json"
+      },
+      "parentProgramme": "Himachal Pradesh Industrial Investment Policy 2019",
+      "reason": "Verified as an incentive component of HPIIP 2019, not a standalone activity-mapped programme.",
+      "resolvedAt": "2026-08-26",
+      "schemeId": "SCH-HPIIP-2019-MSME-LAND-SHED-STAMP-DUTY-AND-C-EBC804"
+    },
+    {
+      "baseline": {
+        "row": 152,
+        "sheet": "Scheme Master"
+      },
+      "disposition": "component",
+      "id": "ORPHAN-SCHEME-MASTER-R152",
+      "migrationSource": {
+        "row": 152,
+        "sheet": "Scheme Master",
+        "workbench": "research/hp-v2/mapping-review.json"
+      },
+      "parentProgramme": "Himachal Pradesh Industrial Investment Policy 2019",
+      "reason": "Verified as an incentive component of HPIIP 2019, not a standalone activity-mapped programme.",
+      "resolvedAt": "2026-08-26",
+      "schemeId": "SCH-HPIIP-2019-INTEREST-AND-PLANT-TRANSPORT-SU-4876F9"
+    },
+    {
+      "baseline": {
+        "row": 153,
+        "sheet": "Scheme Master"
+      },
+      "disposition": "component",
+      "id": "ORPHAN-SCHEME-MASTER-R153",
+      "migrationSource": {
+        "row": 153,
+        "sheet": "Scheme Master",
+        "workbench": "research/hp-v2/mapping-review.json"
+      },
+      "parentProgramme": "Himachal Pradesh Industrial Investment Policy 2019",
+      "reason": "Verified as an incentive component of HPIIP 2019, not a standalone activity-mapped programme.",
+      "resolvedAt": "2026-08-26",
+      "schemeId": "SCH-HPIIP-2019-TRANSPORT-SUBSIDY-FOR-B-AND-C-A-6098AD"
+    },
+    {
+      "baseline": {
+        "row": 154,
+        "sheet": "Scheme Master"
+      },
+      "disposition": "component",
+      "id": "ORPHAN-SCHEME-MASTER-R154",
+      "migrationSource": {
+        "row": 154,
+        "sheet": "Scheme Master",
+        "workbench": "research/hp-v2/mapping-review.json"
+      },
+      "parentProgramme": "Himachal Pradesh Industrial Investment Policy 2019",
+      "reason": "Verified as an incentive component of HPIIP 2019, not a standalone activity-mapped programme.",
+      "resolvedAt": "2026-08-26",
+      "schemeId": "SCH-HPIIP-2019-NET-SGST-REIMBURSEMENT-B2F615"
+    },
+    {
+      "baseline": {
+        "row": 155,
+        "sheet": "Scheme Master"
+      },
+      "disposition": "component",
+      "id": "ORPHAN-SCHEME-MASTER-R155",
+      "migrationSource": {
+        "row": 155,
+        "sheet": "Scheme Master",
+        "workbench": "research/hp-v2/mapping-review.json"
+      },
+      "parentProgramme": "Himachal Pradesh Industrial Investment Policy 2019",
+      "reason": "Verified as an incentive component of HPIIP 2019, not a standalone activity-mapped programme.",
+      "resolvedAt": "2026-08-26",
+      "schemeId": "SCH-HPIIP-2019-TECHNOLOGY-QUALITY-EHS-AND-GREE-C15A2A"
+    },
+    {
+      "baseline": {
+        "row": 156,
+        "sheet": "Scheme Master"
+      },
+      "disposition": "component",
+      "id": "ORPHAN-SCHEME-MASTER-R156",
+      "migrationSource": {
+        "row": 156,
+        "sheet": "Scheme Master",
+        "workbench": "research/hp-v2/mapping-review.json"
+      },
+      "parentProgramme": "Himachal Pradesh Industrial Investment Policy 2019",
+      "reason": "Verified as an incentive component of HPIIP 2019, not a standalone activity-mapped programme.",
+      "resolvedAt": "2026-08-26",
+      "schemeId": "SCH-HPIIP-2019-EMPLOYMENT-EXPORT-PATENT-AND-SM-8778D0"
+    }
+  ],
+  "schemaVersion": "state-pack-1"
+}
