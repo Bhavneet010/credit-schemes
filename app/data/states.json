@@ -18,6 +18,24 @@
       "name": "Himachal Pradesh",
       "slug": "himachal-pradesh",
       "verified": "2026-08-26"
+    },
+    {
+      "counts": {
+        "links": 4941,
+        "schemes": 156,
+        "sectors": 369
+      },
+      "data": "data/punjab.json",
+      "id": "STATE-IN-PB",
+      "limitations": [
+        "Annual and allocation-dependent programmes must be rechecked with the issuing body before expenditure.",
+        "The DSOG 2026 Gazette content was accessible through a third-party mirror; the policy and major electricity-duty rule were cross-checked against official primary sources.",
+        "Current operative state-specific fisheries and Backfinco financial slabs were not publicly accessible and remain candidates rather than inferred entitlements.",
+        "Common central-scheme evidence is inherited from the shared catalogue; Punjab-specific intake and channel details are supplied only where verified."
+      ],
+      "name": "Punjab",
+      "slug": "punjab",
+      "verified": "2026-08-26"
     }
   ]
 }

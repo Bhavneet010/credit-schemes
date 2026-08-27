@@ -67,7 +67,9 @@ export async function validateStatePack(packRoot, options = {}) {
   const sourceIds = new Set(sources.map((record) => record.id));
   const claims = files.evidence?.claims ?? [];
   const claimIds = new Set(claims.map((record) => record.id));
-  for (const scheme of schemes) {
+  const implementedSchemeIds = new Set(implementations.map((record) => record.schemeId));
+  const evidencedSchemes = schemes.filter((scheme) => stateSchemes.includes(scheme) || implementedSchemeIds.has(scheme.id));
+  for (const scheme of evidencedSchemes) {
     for (const claimId of scheme.claimIds ?? []) {
       if (!claimIds.has(claimId)) add(errors, "UNRESOLVED_REFERENCE", `schemes.${scheme.id}.claimIds`, claimId);
     }
@@ -79,6 +81,23 @@ export async function validateStatePack(packRoot, options = {}) {
     if (HARD_FIELDS.has(claim.field) && claim.evidenceGrade !== "primary-operative") {
       const safeIndicative = claim.publicationTreatment === "indicative-only" && Boolean(claim.limitation?.trim());
       if (!safeIndicative) add(errors, "EVIDENCE_HARD_CLAIM", `evidence.${claim.id}`, "Hard claims need primary-operative evidence or explicit indicative-only treatment.");
+    }
+  }
+
+  if (manifest?.accepted === true && manifest?.acceptance?.schemaVersion === "state-pack-acceptance-1") {
+    const publishedSchemeIds = new Set(manifest.schemeOrder ?? []);
+    for (const claim of claims) {
+      if (!publishedSchemeIds.has(claim.subjectId)) add(errors, "ORPHAN_EVIDENCE", `evidence.${claim.id}.subjectId`, claim.subjectId);
+    }
+    for (const status of files.evidence?.statuses ?? []) {
+      if (!publishedSchemeIds.has(status.subjectId)) add(errors, "ORPHAN_EVIDENCE", `statuses.${status.id}.subjectId`, status.subjectId);
+    }
+    const reverseIndexes = manifest.reverseIndexes ?? {};
+    for (const record of [...claims, ...(files.evidence?.statuses ?? []), ...(files.mappings?.reviews ?? [])]) {
+      if (!Array.isArray(reverseIndexes[record.id])) add(errors, "MISSING_REVERSE_INDEX", `manifest.reverseIndexes.${record.id}`, "Accepted records require a reverse source index.");
+      else if ([...new Set(reverseIndexes[record.id])].sort().join("|") !== [...new Set(record.sourceIds ?? [])].sort().join("|")) {
+        add(errors, "REVERSE_INDEX_MISMATCH", `manifest.reverseIndexes.${record.id}`, "Reverse source index differs from the record sourceIds.");
+      }
     }
   }
 

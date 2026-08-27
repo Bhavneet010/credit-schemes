@@ -3,13 +3,12 @@
 **Live: https://bhavneet010.github.io/credit-schemes/**
 
 A minimalist, installable multi-state PWA for searching Indian state and central
-government schemes by business activity. Himachal Pradesh is the first production State
-Pack, with a research cutoff of 2026-08-26.
+government schemes by business activity. Production State Packs currently cover
+Himachal Pradesh and Punjab, with research cutoffs of 2026-08-26.
 
-- **382** business activities across 15 macro sectors
-- **188** schemes and routes, including 6 newly verified official routes
-- **8,700** activity-to-scheme matches, graded Direct / Strong / Conditional / Horizontal
-- **220** source records and a 33-entry official-agency inventory
+- **Himachal Pradesh:** 382 activities, 188 schemes/routes and 8,700 reviewed matches
+- **Punjab:** 369 activities, 156 schemes/routes and 4,941 activity-to-scheme matches with recorded rationale
+- Claim-level evidence, explicit intake status, candidate ledgers and official-agency inventories
 - Works fully offline after the first load; no backend, no tracking, no dependencies
 
 ## Run it locally
@@ -56,6 +55,9 @@ node tools/state-pack/cli.mjs scope --mode refresh-sector --state himachal-prade
 npm run data:build
 ```
 
+The accepted Punjab pack can be regenerated deterministically with
+`npm run data:generate-punjab` before validation and build.
+
 For updates, the scope declaration lists exactly which records and dependencies may
 change. The hash guard rejects unrelated record changes. See
 `docs/state-pack-operations.md` for all modes and failure behavior.
@@ -92,6 +94,7 @@ app/
   data/
     states.json         generated state index
     himachal-pradesh.json generated HP dataset with evidence/status detail
+    punjab.json         generated Punjab dataset with evidence/status detail
   icons/                generated — app icons
   splash/               generated — iOS launch images
   manifest.webmanifest  install metadata
@@ -116,9 +119,9 @@ tools/
 | --- | --- |
 | Home | Use the centered activity search, or start with all schemes and official departments/portals |
 | Search | Type an activity ("apple orchard", "bakery", "loan") and get matching activities and schemes. The whole scheme record is indexed, not just its headline, so "collateral free", "interest subvention" or "DIC" reach the schemes that say so |
-| Activity | Udyam treatment, who applies, first contact, approvals, HP gate, plus every mapped scheme grouped by match strength. Opening a scheme from here carries the activity with it, so the scheme screen also shows why that match was made, what to do first, and any condition specific to that pairing |
+| Activity | Udyam treatment, who applies, first contact, approvals, state-specific gate, plus every mapped scheme grouped by match strength. Opening a scheme from here carries the activity with it, so the scheme screen also shows why that match was made, what to do first, and any condition specific to that pairing |
 | Scheme | Benefit and ceiling, your margin, eligibility, how to apply, agency, official page, cautions, stacking rules, and every activity it reaches. Below that, "Go deeper" panels — collapsed until tapped — carry the scheme's own official pages and the department to ask, the benchmark cost norms that size the assistance, why a closed route is flagged, and related routes under the same programme or family |
-| Schemes | All 188 routes, filterable by scheme family |
+| Schemes | All routes for the selected state, filterable by scheme family |
 | State selector | Switches generated State Packs without reloading the app |
 | Settings | The top-right menu opens Saved and More without a bottom tab bar |
 | Install | Every visit that is not already installed opens with a banner offering the app — the browser's own install prompt where one is available, otherwise the "add to home screen" steps for that platform. "Not now" hides it for that visit; installing hides it for good |
@@ -137,6 +140,8 @@ for a new project. Closed routes carry an explicit warning on the scheme screen.
 The app is a reference, not an approval. HP v2 labels 372 retained v1 claim wordings as
 indicative-only where a claim-specific operative locator was not independently recovered;
 the app surfaces that caution rather than presenting those statements as verified
-entitlements. Ceilings, district targets and windows change;
+entitlements. Punjab likewise keeps inaccessible or unconfirmed fisheries, horticulture,
+targeted-finance and annual-allocation leads in its candidate ledger rather than inferring
+benefits. Ceilings, district targets and windows change;
 eligibility must be confirmed in writing with the department, lender or portal before
 committing money to a project.

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "state-pack-1",
+  "contacts": [
+    {
+      "name": "Department of Industries and Commerce / Invest Punjab",
+      "use": "industry, MSME, startup",
+      "url": "https://pbindustries.gov.in/",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Department of Agriculture and Farmers Welfare",
+      "use": "agriculture, mechanisation, crop support",
+      "url": "https://agrimachinerypb.com/",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Department of Horticulture",
+      "use": "horticulture, mushroom, post-harvest",
+      "url": "https://punjab.gov.in/government/departments/department-of-horticulture/",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "use": "livestock, dairy, fisheries",
+      "url": "https://punjab.gov.in/government/departments/department-of-animal-husbandry-dairy-development-and-fisheries/",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Dairy Development Department / Punjab Dairy Development Board",
+      "use": "dairy, training, equipment",
+      "url": "https://dairydevpunjab.in/",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Punjab Energy Development Agency",
+      "use": "renewable energy, energy efficiency, solar",
+      "url": "https://www.peda.gov.in/about-peda.php",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Department of Rural Development / Punjab SRLM",
+      "use": "SHG, rural livelihood, enterprise",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287316&lang=1&reg=1",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Department of Cooperation",
+      "use": "cooperative, credit, marketing",
+      "url": "https://punjab.gov.in/government/departments/department-of-cooperation/",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Punjab SC Land Development and Finance Corporation",
+      "use": "Scheduled Caste, enterprise finance",
+      "url": "https://www.india.gov.in/category/benefits-social-development/subcategory/minorities-castes-tribes/details/punjab-scheduled-castes-land-development-and-finance-corporation",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Punjab Backward Classes Land Development and Finance Corporation",
+      "use": "Backward Classes, minority finance",
+      "url": "https://punjab.gov.in/government/departments/department-of-welfare-of-scs-bcs/",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Punjab Khadi and Village Industries Board",
+      "use": "PMEGP, village industry, artisan",
+      "url": "https://punjab.gov.in/government/departments/",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Department of Tourism and Cultural Affairs",
+      "use": "tourism, hospitality, film",
+      "url": "https://static.investindia.gov.in/s3fs-public/2026-03/sectoral_policies_2026.pdf",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Department of Employment Generation, Skill Development and Training",
+      "use": "skills, employment, apprenticeship",
+      "url": "https://punjab.gov.in/government/departments/",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Department of Social Justice, Empowerment and Minorities",
+      "use": "SC, BC, minority",
+      "url": "https://punjab.gov.in/government/departments/department-of-welfare-of-scs-bcs/",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Department of Forests and Wildlife",
+      "use": "agroforestry, bamboo, forest produce",
+      "url": "https://punjab.gov.in/government/departments/",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Department of Local Government",
+      "use": "street vending, urban enterprise, local services",
+      "url": "https://punjab.gov.in/government/departments/",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Punjab State Power Corporation Limited",
+      "use": "electricity duty, grid, solar",
+      "url": "https://docs.pspcl.in/docs/cecommercial2620260327151710847.pdf",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    },
+    {
+      "name": "Punjab Pollution Control Board",
+      "use": "environment, ZLD, waste",
+      "url": "https://static.investindia.gov.in/s3fs-public/2026-03/punjab_industrial_policy_2026.pdf",
+      "note": "Confirm the live intake and obtain written sanction before incurring scheme-linked expenditure."
+    }
+  ]
+}

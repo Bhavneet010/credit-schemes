@@ -1,0 +1,1135 @@
+{
+  "schemaVersion": "state-pack-1",
+  "sources": [
+    {
+      "id": "SOURCE-PB-IBDP-2026",
+      "title": "Punjab Industrial and Business Development Policy 2026 — Gazette notification",
+      "issuer": "Department of Industries and Commerce, Punjab",
+      "url": "https://static.investindia.gov.in/s3fs-public/2026-03/punjab_industrial_policy_2026.pdf",
+      "classification": "primary-operative",
+      "locator": "Policy notification PIU/Industrial & Business Development Policy-2026/898 dated 8 March 2026.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [
+        "CLAIM-PB-IBDP26-CAPITAL-EXISTENCE",
+        "CLAIM-PB-IBDP26-CAPITAL-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-IBDP26-CAPITAL-KEYBENEFIT",
+        "CLAIM-PB-IBDP26-CAPITAL-APPLICATIONROUTE",
+        "CLAIM-PB-IBDP26-MODERNISATION-EXISTENCE",
+        "CLAIM-PB-IBDP26-MODERNISATION-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-IBDP26-MODERNISATION-KEYBENEFIT",
+        "CLAIM-PB-IBDP26-MODERNISATION-APPLICATIONROUTE",
+        "CLAIM-PB-IBDP26-SGST-EXISTENCE",
+        "CLAIM-PB-IBDP26-SGST-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-IBDP26-SGST-KEYBENEFIT",
+        "CLAIM-PB-IBDP26-SGST-APPLICATIONROUTE",
+        "CLAIM-PB-IBDP26-EMPLOYMENT-EXISTENCE",
+        "CLAIM-PB-IBDP26-EMPLOYMENT-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-IBDP26-EMPLOYMENT-KEYBENEFIT",
+        "CLAIM-PB-IBDP26-EMPLOYMENT-APPLICATIONROUTE",
+        "CLAIM-PB-IBDP26-GREEN-EXISTENCE",
+        "CLAIM-PB-IBDP26-GREEN-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-IBDP26-GREEN-KEYBENEFIT",
+        "CLAIM-PB-IBDP26-GREEN-APPLICATIONROUTE",
+        "CLAIM-PB-IBDP26-STRAW-BOILER-EXISTENCE",
+        "CLAIM-PB-IBDP26-STRAW-BOILER-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-IBDP26-STRAW-BOILER-KEYBENEFIT",
+        "CLAIM-PB-IBDP26-STRAW-BOILER-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-PB-IBDP26-CAPITAL",
+        "STATUS-PB-IBDP26-MODERNISATION",
+        "STATUS-PB-IBDP26-SGST",
+        "STATUS-PB-IBDP26-EMPLOYMENT",
+        "STATUS-PB-IBDP26-GREEN",
+        "STATUS-PB-IBDP26-STRAW-BOILER"
+      ]
+    },
+    {
+      "id": "SOURCE-PB-SECTOR-POLICIES-2026",
+      "title": "Punjab sectoral policies 2026",
+      "issuer": "Department of Industries and Commerce, Punjab",
+      "url": "https://static.investindia.gov.in/s3fs-public/2026-03/sectoral_policies_2026.pdf",
+      "classification": "primary-operative",
+      "locator": "Notified sector-policy compendium accompanying IBDP 2026.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [
+        "CLAIM-PB-STARTUP26-EXISTENCE",
+        "CLAIM-PB-STARTUP26-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-STARTUP26-KEYBENEFIT",
+        "CLAIM-PB-STARTUP26-APPLICATIONROUTE",
+        "CLAIM-PB-FOOD26-EXISTENCE",
+        "CLAIM-PB-FOOD26-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-FOOD26-KEYBENEFIT",
+        "CLAIM-PB-FOOD26-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-ESDM-EXISTENCE",
+        "CLAIM-PB-SECTOR26-ESDM-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-ESDM-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-ESDM-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-EV-EXISTENCE",
+        "CLAIM-PB-SECTOR26-EV-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-EV-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-EV-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-LOGISTICS-EXISTENCE",
+        "CLAIM-PB-SECTOR26-LOGISTICS-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-LOGISTICS-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-LOGISTICS-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-TOURISM-EXISTENCE",
+        "CLAIM-PB-SECTOR26-TOURISM-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-TOURISM-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-TOURISM-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-FILM-EXISTENCE",
+        "CLAIM-PB-SECTOR26-FILM-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-FILM-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-FILM-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-HEALTH-EXISTENCE",
+        "CLAIM-PB-SECTOR26-HEALTH-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-HEALTH-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-HEALTH-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-EDUCATION-EXISTENCE",
+        "CLAIM-PB-SECTOR26-EDUCATION-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-EDUCATION-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-EDUCATION-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-RENEWABLE-EXISTENCE",
+        "CLAIM-PB-SECTOR26-RENEWABLE-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-RENEWABLE-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-RENEWABLE-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-IT-EXISTENCE",
+        "CLAIM-PB-SECTOR26-IT-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-IT-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-IT-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-TEXTILE-EXISTENCE",
+        "CLAIM-PB-SECTOR26-TEXTILE-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-TEXTILE-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-TEXTILE-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-PHARMA-EXISTENCE",
+        "CLAIM-PB-SECTOR26-PHARMA-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-PHARMA-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-PHARMA-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-AUTO-EXISTENCE",
+        "CLAIM-PB-SECTOR26-AUTO-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-AUTO-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-AUTO-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-BICYCLE-EXISTENCE",
+        "CLAIM-PB-SECTOR26-BICYCLE-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-BICYCLE-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-BICYCLE-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-SPORTS-EXISTENCE",
+        "CLAIM-PB-SECTOR26-SPORTS-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-SPORTS-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-SPORTS-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-TOOLS-EXISTENCE",
+        "CLAIM-PB-SECTOR26-TOOLS-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-TOOLS-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-TOOLS-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-STEEL-EXISTENCE",
+        "CLAIM-PB-SECTOR26-STEEL-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-STEEL-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-STEEL-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-CHEMICAL-EXISTENCE",
+        "CLAIM-PB-SECTOR26-CHEMICAL-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-CHEMICAL-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-CHEMICAL-APPLICATIONROUTE",
+        "CLAIM-PB-SECTOR26-FURNITURE-EXISTENCE",
+        "CLAIM-PB-SECTOR26-FURNITURE-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SECTOR26-FURNITURE-KEYBENEFIT",
+        "CLAIM-PB-SECTOR26-FURNITURE-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-PB-STARTUP26",
+        "STATUS-PB-FOOD26",
+        "STATUS-PB-SECTOR26-ESDM",
+        "STATUS-PB-SECTOR26-EV",
+        "STATUS-PB-SECTOR26-LOGISTICS",
+        "STATUS-PB-SECTOR26-TOURISM",
+        "STATUS-PB-SECTOR26-FILM",
+        "STATUS-PB-SECTOR26-HEALTH",
+        "STATUS-PB-SECTOR26-EDUCATION",
+        "STATUS-PB-SECTOR26-RENEWABLE",
+        "STATUS-PB-SECTOR26-IT",
+        "STATUS-PB-SECTOR26-TEXTILE",
+        "STATUS-PB-SECTOR26-PHARMA",
+        "STATUS-PB-SECTOR26-AUTO",
+        "STATUS-PB-SECTOR26-BICYCLE",
+        "STATUS-PB-SECTOR26-SPORTS",
+        "STATUS-PB-SECTOR26-TOOLS",
+        "STATUS-PB-SECTOR26-STEEL",
+        "STATUS-PB-SECTOR26-CHEMICAL",
+        "STATUS-PB-SECTOR26-FURNITURE"
+      ]
+    },
+    {
+      "id": "SOURCE-PB-DSOG-2026",
+      "title": "Detailed Schemes and Operational Guidelines 2026 — Gazette scan",
+      "issuer": "Government of Punjab",
+      "url": "https://www.royalpatiala.in/wp-content/uploads/2026/03/Notification-no-916-dated-08-03-2026-regarding-DSOG-2026_watermark-2.pdf",
+      "classification": "primary-operative",
+      "locator": "Gazette content; accessed through a third-party mirror because a stable official direct file was not indexed.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [
+        "CLAIM-PB-IBDP26-MSME-EXISTENCE",
+        "CLAIM-PB-IBDP26-MSME-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-IBDP26-MSME-KEYBENEFIT",
+        "CLAIM-PB-IBDP26-MSME-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-PB-IBDP26-MSME"
+      ]
+    },
+    {
+      "id": "SOURCE-PB-PSPCL-CC19-2026",
+      "title": "PSPCL Commercial Circular 19/2026 — electricity-duty treatment under IBDP 2026",
+      "issuer": "Punjab State Power Corporation Limited",
+      "url": "https://docs.pspcl.in/docs/cecommercial2620260327151710847.pdf",
+      "classification": "primary-operative",
+      "locator": "Implementation circular corroborating the electricity-duty route.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [
+        "CLAIM-PB-IBDP26-DUTIES-EXISTENCE",
+        "CLAIM-PB-IBDP26-DUTIES-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-IBDP26-DUTIES-KEYBENEFIT",
+        "CLAIM-PB-IBDP26-DUTIES-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-PB-IBDP26-DUTIES"
+      ]
+    },
+    {
+      "id": "SOURCE-PB-AGRI-SUBSIDY-PORTAL",
+      "title": "Punjab Agriculture Subsidy Portal",
+      "issuer": "Department of Agriculture and Farmers Welfare, Punjab",
+      "url": "https://agrimachinerypb.com/",
+      "classification": "primary-summary",
+      "locator": "Live application portal for machinery and seasonal crop-support calls.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-PB-AGRI-2026-27-NOTICE",
+      "title": "Applications invited under CRM, SMAM and CDP for 2026-27",
+      "issuer": "District Administration Ludhiana / Department of Agriculture",
+      "url": "https://ludhiana.nic.in/applications-invited-for-subsidy-on-agriculture-machinery-under-different-schemes-like-crm-smam-cdp-scheme-for-year-2026-27/",
+      "classification": "primary-operative",
+      "locator": "Current official district intake notice dated 20 April 2026.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [
+        "CLAIM-PB-CRM-2026-27-EXISTENCE",
+        "CLAIM-PB-CRM-2026-27-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-CRM-2026-27-KEYBENEFIT",
+        "CLAIM-PB-CRM-2026-27-APPLICATIONROUTE",
+        "CLAIM-PB-SMAM-CDP-2026-27-EXISTENCE",
+        "CLAIM-PB-SMAM-CDP-2026-27-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SMAM-CDP-2026-27-KEYBENEFIT",
+        "CLAIM-PB-SMAM-CDP-2026-27-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-PB-CRM-2026-27",
+        "STATUS-PB-SMAM-CDP-2026-27"
+      ]
+    },
+    {
+      "id": "SOURCE-PB-CRM-NORMS",
+      "title": "Crop-residue management machinery assistance architecture",
+      "issuer": "Press Information Bureau / Ministry of Agriculture",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1707021&lang=2&reg=48",
+      "classification": "primary-operative",
+      "locator": "Official assistance architecture; current Punjab intake remains controlled by the 2026-27 notice and portal.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-PB-DSR-CAQM",
+      "title": "Punjab paddy-straw management action plan — direct-seeded rice incentive",
+      "issuer": "Commission for Air Quality Management",
+      "url": "https://caqm.nic.in/WriteReadData/LINKS/e2b2514a-e0b6-48c9-96c4-c1e62173af66.pdf",
+      "classification": "primary-operative",
+      "locator": "Official plan records the ₹1,500 per acre DSR incentive; annual verification remains necessary.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [
+        "CLAIM-PB-DSR-2026-EXISTENCE",
+        "CLAIM-PB-DSR-2026-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-DSR-2026-KEYBENEFIT",
+        "CLAIM-PB-DSR-2026-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-PB-DSR-2026"
+      ]
+    },
+    {
+      "id": "SOURCE-PB-DAIRY-HOME",
+      "title": "Dairy Development Department Punjab — schemes and 2026-27 training schedule",
+      "issuer": "Dairy Development Department, Punjab",
+      "url": "https://dairydevpunjab.in/",
+      "classification": "primary-summary",
+      "locator": "Current department portal.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [
+        "CLAIM-PB-DAIRY-TRAINING-EXISTENCE",
+        "CLAIM-PB-DAIRY-TRAINING-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-DAIRY-TRAINING-KEYBENEFIT",
+        "CLAIM-PB-DAIRY-TRAINING-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-PB-DAIRY-TRAINING"
+      ]
+    },
+    {
+      "id": "SOURCE-PB-DAIRY-DD8",
+      "title": "DD-8 dairy-unit scheme — RTI manual",
+      "issuer": "Dairy Development Department, Punjab",
+      "url": "https://dairydevpunjab.in/skleinbkdfb25dfdhh/22112023233752RTI%20Manual%202023-24.pdf",
+      "classification": "primary-operative",
+      "locator": "Official manual contains scheme rules; live sanction and budget must be reconfirmed.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [
+        "CLAIM-PB-DD8-EXISTENCE",
+        "CLAIM-PB-DD8-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-DD8-KEYBENEFIT",
+        "CLAIM-PB-DD8-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-PB-DD8"
+      ]
+    },
+    {
+      "id": "SOURCE-PB-DAIRY-2025-26",
+      "title": "Dairy Development Department RTI manual 2025-26",
+      "issuer": "Dairy Development Department, Punjab",
+      "url": "https://dairydevpunjab.in/skleinbkdfb25dfdhh/1962025234738RTI_Manual_2025-26.pdf",
+      "classification": "primary-summary",
+      "locator": "Confirms training, loan sponsorship and subsidy remittance functions.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-PB-DAIRY-SERVICES",
+      "title": "Services for farmers",
+      "issuer": "Dairy Development Department, Punjab",
+      "url": "https://dairydevpunjab.in/services-for-farmers",
+      "classification": "primary-summary",
+      "locator": "Lists training, institutional finance and silage-baler assistance.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [
+        "CLAIM-PB-DAIRY-SILAGE-EXISTENCE",
+        "CLAIM-PB-DAIRY-SILAGE-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-DAIRY-SILAGE-KEYBENEFIT",
+        "CLAIM-PB-DAIRY-SILAGE-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-PB-DAIRY-SILAGE"
+      ]
+    },
+    {
+      "id": "SOURCE-PB-PEDA-KUSUM",
+      "title": "PM-KUSUM status in Punjab",
+      "issuer": "Punjab Energy Development Agency",
+      "url": "https://www.peda.gov.in/pm-kusum.php",
+      "classification": "primary-operative",
+      "locator": "Records Punjab component terms, historic/current work and closure of PM-KUSUM 1.0 pending 2.0 allocation.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [
+        "CLAIM-PB-PEDA-KUSUM-EXISTENCE",
+        "CLAIM-PB-PEDA-KUSUM-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-PEDA-KUSUM-KEYBENEFIT",
+        "CLAIM-PB-PEDA-KUSUM-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-PB-PEDA-KUSUM"
+      ]
+    },
+    {
+      "id": "SOURCE-PB-PEDA-RIF",
+      "title": "Revolving Investment Fund scheme",
+      "issuer": "Punjab Energy Development Agency",
+      "url": "https://www.peda.gov.in/ec/revolving-investment-fund.php",
+      "classification": "primary-operative",
+      "locator": "Official energy-efficiency finance terms.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [
+        "CLAIM-PB-PEDA-RIF-EXISTENCE",
+        "CLAIM-PB-PEDA-RIF-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-PEDA-RIF-KEYBENEFIT",
+        "CLAIM-PB-PEDA-RIF-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-PB-PEDA-RIF"
+      ]
+    },
+    {
+      "id": "SOURCE-PB-PEDA-ROOFTOP",
+      "title": "Punjab rooftop-solar arrangements",
+      "issuer": "Punjab Energy Development Agency",
+      "url": "https://www.peda.gov.in/roof-top-solar-power-projects.php",
+      "classification": "primary-operative",
+      "locator": "Official page reflects PSERC regulations and 11 April 2026 amendments.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-PB-SCFC",
+      "title": "Punjab Scheduled Castes Land Development and Finance Corporation",
+      "issuer": "National Portal of India / Government of Punjab",
+      "url": "https://www.india.gov.in/category/benefits-social-development/subcategory/minorities-castes-tribes/details/punjab-scheduled-castes-land-development-and-finance-corporation",
+      "classification": "primary-summary",
+      "locator": "Official-government summary reviewed in August 2026; sanction-specific financial terms were not exposed.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [
+        "CLAIM-PB-SCFC-ECONOMIC-VENTURE-EXISTENCE",
+        "CLAIM-PB-SCFC-ECONOMIC-VENTURE-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-SCFC-ECONOMIC-VENTURE-KEYBENEFIT",
+        "CLAIM-PB-SCFC-ECONOMIC-VENTURE-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-PB-SCFC-ECONOMIC-VENTURE"
+      ]
+    },
+    {
+      "id": "SOURCE-PB-WELFARE",
+      "title": "Department of Social Justice, Empowerment and Minorities",
+      "issuer": "Government of Punjab",
+      "url": "https://punjab.gov.in/government/departments/department-of-welfare-of-scs-bcs/",
+      "classification": "primary-summary",
+      "locator": "Official department and corporation routing surface.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-PB-NRLM-2026",
+      "title": "DAY-NRLM 2026-27 Punjab allocation and expenditure",
+      "issuer": "Press Information Bureau / Ministry of Rural Development",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287316&lang=1&reg=1",
+      "classification": "primary-operative",
+      "locator": "Official July 2026 state-wise allocation confirms current Punjab implementation.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-PB-DEPARTMENTS",
+      "title": "Punjab government department directory",
+      "issuer": "Government of Punjab",
+      "url": "https://punjab.gov.in/government/departments/",
+      "classification": "primary-summary",
+      "locator": "Official discovery and routing index.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-PB-HORTICULTURE",
+      "title": "Department of Horticulture",
+      "issuer": "Government of Punjab",
+      "url": "https://punjab.gov.in/government/departments/department-of-horticulture/",
+      "classification": "primary-summary",
+      "locator": "Current official department surface; detailed 2026-27 component sanctions were not exposed.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [
+        "CLAIM-PB-MIDH-HORTICULTURE-EXISTENCE",
+        "CLAIM-PB-MIDH-HORTICULTURE-ELIGIBLEAPPLICANTS",
+        "CLAIM-PB-MIDH-HORTICULTURE-KEYBENEFIT",
+        "CLAIM-PB-MIDH-HORTICULTURE-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-PB-MIDH-HORTICULTURE"
+      ]
+    },
+    {
+      "id": "SOURCE-PB-AHDF",
+      "title": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "issuer": "Government of Punjab",
+      "url": "https://punjab.gov.in/government/departments/department-of-animal-husbandry-dairy-development-and-fisheries/",
+      "classification": "primary-summary",
+      "locator": "Current official department route.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-PB-COOPERATION",
+      "title": "Department of Cooperation",
+      "issuer": "Government of Punjab",
+      "url": "https://punjab.gov.in/government/departments/department-of-cooperation/",
+      "classification": "primary-summary",
+      "locator": "Current official department route.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-PB-PEDA",
+      "title": "About PEDA and programme surface",
+      "issuer": "Punjab Energy Development Agency",
+      "url": "https://www.peda.gov.in/about-peda.php",
+      "classification": "primary-summary",
+      "locator": "Official agency remit and programme surface.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "id": "SOURCE-PB-SINGLE-WINDOW",
+      "title": "Punjab single-window business portal",
+      "issuer": "Department of Industries and Commerce, Punjab",
+      "url": "https://pbindustries.gov.in/",
+      "classification": "primary-summary",
+      "locator": "State application and facilitation route; live service availability controls filing.",
+      "publishedAt": null,
+      "retrievedAt": "2026-08-26",
+      "claimIds": [],
+      "statusIds": []
+    }
+  ],
+  "agencyInventory": [
+    {
+      "id": "AGENCY-PB-INDUSTRIES",
+      "title": "Department of Industries and Commerce / Invest Punjab",
+      "issuer": "Department of Industries and Commerce / Invest Punjab",
+      "url": "https://pbindustries.gov.in/",
+      "aliases": [],
+      "categories": [
+        "industry",
+        "MSME",
+        "startup"
+      ],
+      "sectors": [
+        "industry",
+        "MSME",
+        "startup"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "industry",
+        "MSME",
+        "startup"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-AGRICULTURE",
+      "title": "Department of Agriculture and Farmers Welfare",
+      "issuer": "Department of Agriculture and Farmers Welfare",
+      "url": "https://agrimachinerypb.com/",
+      "aliases": [],
+      "categories": [
+        "agriculture",
+        "mechanisation",
+        "crop support"
+      ],
+      "sectors": [
+        "agriculture",
+        "mechanisation",
+        "crop support"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "agriculture",
+        "mechanisation",
+        "crop support"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-HORTICULTURE",
+      "title": "Department of Horticulture",
+      "issuer": "Department of Horticulture",
+      "url": "https://punjab.gov.in/government/departments/department-of-horticulture/",
+      "aliases": [],
+      "categories": [
+        "horticulture",
+        "mushroom",
+        "post-harvest"
+      ],
+      "sectors": [
+        "horticulture",
+        "mushroom",
+        "post-harvest"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "horticulture",
+        "mushroom",
+        "post-harvest"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-AHDF",
+      "title": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "issuer": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "url": "https://punjab.gov.in/government/departments/department-of-animal-husbandry-dairy-development-and-fisheries/",
+      "aliases": [],
+      "categories": [
+        "livestock",
+        "dairy",
+        "fisheries"
+      ],
+      "sectors": [
+        "livestock",
+        "dairy",
+        "fisheries"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "livestock",
+        "dairy",
+        "fisheries"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-DAIRY",
+      "title": "Dairy Development Department / Punjab Dairy Development Board",
+      "issuer": "Dairy Development Department / Punjab Dairy Development Board",
+      "url": "https://dairydevpunjab.in/",
+      "aliases": [],
+      "categories": [
+        "dairy",
+        "training",
+        "equipment"
+      ],
+      "sectors": [
+        "dairy",
+        "training",
+        "equipment"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "dairy",
+        "training",
+        "equipment"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-PEDA",
+      "title": "Punjab Energy Development Agency",
+      "issuer": "Punjab Energy Development Agency",
+      "url": "https://www.peda.gov.in/about-peda.php",
+      "aliases": [],
+      "categories": [
+        "renewable energy",
+        "energy efficiency",
+        "solar"
+      ],
+      "sectors": [
+        "renewable energy",
+        "energy efficiency",
+        "solar"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "renewable energy",
+        "energy efficiency",
+        "solar"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-RURAL",
+      "title": "Department of Rural Development / Punjab SRLM",
+      "issuer": "Department of Rural Development / Punjab SRLM",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287316&lang=1&reg=1",
+      "aliases": [],
+      "categories": [
+        "SHG",
+        "rural livelihood",
+        "enterprise"
+      ],
+      "sectors": [
+        "SHG",
+        "rural livelihood",
+        "enterprise"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "SHG",
+        "rural livelihood",
+        "enterprise"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-COOP",
+      "title": "Department of Cooperation",
+      "issuer": "Department of Cooperation",
+      "url": "https://punjab.gov.in/government/departments/department-of-cooperation/",
+      "aliases": [],
+      "categories": [
+        "cooperative",
+        "credit",
+        "marketing"
+      ],
+      "sectors": [
+        "cooperative",
+        "credit",
+        "marketing"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "cooperative",
+        "credit",
+        "marketing"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-SCFC",
+      "title": "Punjab SC Land Development and Finance Corporation",
+      "issuer": "Punjab SC Land Development and Finance Corporation",
+      "url": "https://www.india.gov.in/category/benefits-social-development/subcategory/minorities-castes-tribes/details/punjab-scheduled-castes-land-development-and-finance-corporation",
+      "aliases": [],
+      "categories": [
+        "Scheduled Caste",
+        "enterprise finance"
+      ],
+      "sectors": [
+        "Scheduled Caste",
+        "enterprise finance"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "Scheduled Caste",
+        "enterprise finance"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-BACKFINCO",
+      "title": "Punjab Backward Classes Land Development and Finance Corporation",
+      "issuer": "Punjab Backward Classes Land Development and Finance Corporation",
+      "url": "https://punjab.gov.in/government/departments/department-of-welfare-of-scs-bcs/",
+      "aliases": [],
+      "categories": [
+        "Backward Classes",
+        "minority finance"
+      ],
+      "sectors": [
+        "Backward Classes",
+        "minority finance"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "Backward Classes",
+        "minority finance"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-KVIB",
+      "title": "Punjab Khadi and Village Industries Board",
+      "issuer": "Punjab Khadi and Village Industries Board",
+      "url": "https://punjab.gov.in/government/departments/",
+      "aliases": [],
+      "categories": [
+        "PMEGP",
+        "village industry",
+        "artisan"
+      ],
+      "sectors": [
+        "PMEGP",
+        "village industry",
+        "artisan"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "PMEGP",
+        "village industry",
+        "artisan"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-TOURISM",
+      "title": "Department of Tourism and Cultural Affairs",
+      "issuer": "Department of Tourism and Cultural Affairs",
+      "url": "https://static.investindia.gov.in/s3fs-public/2026-03/sectoral_policies_2026.pdf",
+      "aliases": [],
+      "categories": [
+        "tourism",
+        "hospitality",
+        "film"
+      ],
+      "sectors": [
+        "tourism",
+        "hospitality",
+        "film"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "tourism",
+        "hospitality",
+        "film"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-EMPLOYMENT",
+      "title": "Department of Employment Generation, Skill Development and Training",
+      "issuer": "Department of Employment Generation, Skill Development and Training",
+      "url": "https://punjab.gov.in/government/departments/",
+      "aliases": [],
+      "categories": [
+        "skills",
+        "employment",
+        "apprenticeship"
+      ],
+      "sectors": [
+        "skills",
+        "employment",
+        "apprenticeship"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "skills",
+        "employment",
+        "apprenticeship"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-SOCIAL",
+      "title": "Department of Social Justice, Empowerment and Minorities",
+      "issuer": "Department of Social Justice, Empowerment and Minorities",
+      "url": "https://punjab.gov.in/government/departments/department-of-welfare-of-scs-bcs/",
+      "aliases": [],
+      "categories": [
+        "SC",
+        "BC",
+        "minority"
+      ],
+      "sectors": [
+        "SC",
+        "BC",
+        "minority"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "SC",
+        "BC",
+        "minority"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-FORESTS",
+      "title": "Department of Forests and Wildlife",
+      "issuer": "Department of Forests and Wildlife",
+      "url": "https://punjab.gov.in/government/departments/",
+      "aliases": [],
+      "categories": [
+        "agroforestry",
+        "bamboo",
+        "forest produce"
+      ],
+      "sectors": [
+        "agroforestry",
+        "bamboo",
+        "forest produce"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "agroforestry",
+        "bamboo",
+        "forest produce"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-LOCAL",
+      "title": "Department of Local Government",
+      "issuer": "Department of Local Government",
+      "url": "https://punjab.gov.in/government/departments/",
+      "aliases": [],
+      "categories": [
+        "street vending",
+        "urban enterprise",
+        "local services"
+      ],
+      "sectors": [
+        "street vending",
+        "urban enterprise",
+        "local services"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "street vending",
+        "urban enterprise",
+        "local services"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-PSPCL",
+      "title": "Punjab State Power Corporation Limited",
+      "issuer": "Punjab State Power Corporation Limited",
+      "url": "https://docs.pspcl.in/docs/cecommercial2620260327151710847.pdf",
+      "aliases": [],
+      "categories": [
+        "electricity duty",
+        "grid",
+        "solar"
+      ],
+      "sectors": [
+        "electricity duty",
+        "grid",
+        "solar"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "electricity duty",
+        "grid",
+        "solar"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    },
+    {
+      "id": "AGENCY-PB-PPCB",
+      "title": "Punjab Pollution Control Board",
+      "issuer": "Punjab Pollution Control Board",
+      "url": "https://static.investindia.gov.in/s3fs-public/2026-03/punjab_industrial_policy_2026.pdf",
+      "aliases": [],
+      "categories": [
+        "environment",
+        "ZLD",
+        "waste"
+      ],
+      "sectors": [
+        "environment",
+        "ZLD",
+        "waste"
+      ],
+      "beneficiaryTags": [
+        "eligible Punjab applicant"
+      ],
+      "supportTags": [
+        "finance",
+        "subsidy",
+        "facilitation"
+      ],
+      "agencyMatchTerms": [
+        "environment",
+        "ZLD",
+        "waste"
+      ],
+      "checkedAt": "2026-08-26",
+      "retrievedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "outcome": "routes-or-candidates-found",
+      "retrievalNote": "Official programme, policy or department surface checked; missing operative detail is retained as a candidate rather than inferred."
+    }
+  ]
+}

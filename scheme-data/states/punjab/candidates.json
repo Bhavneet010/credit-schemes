@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "state-pack-1",
+  "candidates": [
+    {
+      "id": "CAND-PB-HORT-JICA",
+      "title": "Punjab high-value climate-resilient horticulture project",
+      "issuer": "Government of Punjab",
+      "url": "https://punjab.gov.in/government/departments/department-of-horticulture/",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "sectorTags": [],
+      "beneficiaryTags": [],
+      "supportTags": [],
+      "discoveredAt": "2026-08-26",
+      "verifiedAt": "2026-08-26",
+      "nextAction": "Budget announcement located, but operative beneficiary guidelines and intake were not found.",
+      "disposition": "candidate-pending",
+      "publishable": false
+    },
+    {
+      "id": "CAND-PB-HORT-MUSHROOM-OLD",
+      "title": "Punjab mushroom subsidy references predating 2026",
+      "issuer": "Government of Punjab",
+      "url": "https://punjab.gov.in/government/departments/department-of-horticulture/",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "sectorTags": [],
+      "beneficiaryTags": [],
+      "supportTags": [],
+      "discoveredAt": "2026-08-26",
+      "verifiedAt": "2026-08-26",
+      "nextAction": "Older department/RTI references were not treated as current sanction authority.",
+      "disposition": "unverified-lead",
+      "publishable": false
+    },
+    {
+      "id": "CAND-PB-HORT-POTATO-OLD",
+      "title": "Punjab potato-development subsidy references predating 2026",
+      "issuer": "Government of Punjab",
+      "url": "https://punjab.gov.in/government/departments/department-of-horticulture/",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "sectorTags": [],
+      "beneficiaryTags": [],
+      "supportTags": [],
+      "discoveredAt": "2026-08-26",
+      "verifiedAt": "2026-08-26",
+      "nextAction": "Current operative call and financial norms were not located.",
+      "disposition": "unverified-lead",
+      "publishable": false
+    },
+    {
+      "id": "CAND-PB-FISH-STATE",
+      "title": "Punjab state fisheries subsidy components",
+      "issuer": "Government of Punjab",
+      "url": "https://punjab.gov.in/government/departments/department-of-animal-husbandry-dairy-development-and-fisheries/",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "sectorTags": [],
+      "beneficiaryTags": [],
+      "supportTags": [],
+      "discoveredAt": "2026-08-26",
+      "verifiedAt": "2026-08-26",
+      "nextAction": "Department route exists, but no current state-specific operative component page was accessible; central PMMSY routes remain mapped.",
+      "disposition": "candidate-pending",
+      "publishable": false
+    },
+    {
+      "id": "CAND-PB-BACKFINCO-DETAILS",
+      "title": "Punjab Backfinco state-loan slabs",
+      "issuer": "Government of Punjab",
+      "url": "https://punjab.gov.in/government/departments/department-of-welfare-of-scs-bcs/",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "sectorTags": [],
+      "beneficiaryTags": [],
+      "supportTags": [],
+      "discoveredAt": "2026-08-26",
+      "verifiedAt": "2026-08-26",
+      "nextAction": "Agency route verified; current operative financial slabs were not accessible, so NBCFDC common schemes are used without inventing state terms.",
+      "disposition": "candidate-pending",
+      "publishable": false
+    },
+    {
+      "id": "CAND-PB-WOMEN-CORP",
+      "title": "Punjab Women Development Corporation enterprise finance",
+      "issuer": "Government of Punjab",
+      "url": "https://punjab.gov.in/government/departments/department-of-welfare-of-scs-bcs/",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "sectorTags": [],
+      "beneficiaryTags": [],
+      "supportTags": [],
+      "discoveredAt": "2026-08-26",
+      "verifiedAt": "2026-08-26",
+      "nextAction": "No current operative enterprise-finance guideline was located on the checked official surfaces.",
+      "disposition": "candidate-pending",
+      "publishable": false
+    },
+    {
+      "id": "CAND-PB-PMKUSUM2",
+      "title": "Punjab PM-KUSUM 2.0 allocation",
+      "issuer": "Punjab Energy Development Agency",
+      "url": "https://www.peda.gov.in/pm-kusum.php",
+      "sourceIds": [
+        "SOURCE-PB-PEDA-KUSUM"
+      ],
+      "sectorTags": [],
+      "beneficiaryTags": [],
+      "supportTags": [],
+      "discoveredAt": "2026-08-26",
+      "verifiedAt": "2026-08-26",
+      "nextAction": "PEDA states that PM-KUSUM 1.0 closed and fresh allocation awaits 2.0.",
+      "disposition": "candidate-pending",
+      "publishable": false
+    },
+    {
+      "id": "CAND-PB-IBDP22",
+      "title": "Punjab Industrial and Business Development Policy 2022",
+      "issuer": "Department of Industries and Commerce, Punjab",
+      "url": "https://static.investindia.gov.in/s3fs-public/2026-03/punjab_industrial_policy_2026.pdf",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "sectorTags": [],
+      "beneficiaryTags": [],
+      "supportTags": [],
+      "discoveredAt": "2026-08-26",
+      "verifiedAt": "2026-08-26",
+      "nextAction": "New common application forms are governed by IBDP 2026; limited migration provisions exist for qualifying earlier cases.",
+      "disposition": "superseded",
+      "publishable": false
+    },
+    {
+      "id": "CAND-PB-PEDA-EC-AWARD",
+      "title": "Punjab State Energy Conservation Awards 2026",
+      "issuer": "Punjab Energy Development Agency",
+      "url": "https://www.peda.gov.in/about-peda.php",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "sectorTags": [],
+      "beneficiaryTags": [],
+      "supportTags": [],
+      "discoveredAt": "2026-08-26",
+      "verifiedAt": "2026-08-26",
+      "nextAction": "Recognition programme recorded but not mapped as ordinary enterprise finance.",
+      "disposition": "outside-beneficiary-scope",
+      "publishable": false
+    },
+    {
+      "id": "CAND-PB-DAIRY-FORMS",
+      "title": "Older Punjab dairy equipment subsidy forms",
+      "issuer": "Dairy Development Department, Punjab",
+      "url": "https://dairydevpunjab.in/services-for-farmers",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-SERVICES"
+      ],
+      "sectorTags": [],
+      "beneficiaryTags": [],
+      "supportTags": [],
+      "discoveredAt": "2026-08-26",
+      "verifiedAt": "2026-08-26",
+      "nextAction": "Forms remain discoverable, but current allocations for each equipment component were not confirmed.",
+      "disposition": "candidate-pending",
+      "publishable": false
+    }
+  ]
+}

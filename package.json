@@ -11,6 +11,7 @@
     "test:unit": "node --test tests/state-pack-*.test.mjs tests/multi-state-data.test.mjs tests/service-worker.test.js",
     "data:validate": "node tools/state-pack/cli.mjs validate --all",
     "data:import-hp": "node tools/state-pack/cli.mjs import-hp --workbench research/hp-v2",
+    "data:generate-punjab": "node tools/state-pack/generate-punjab.mjs",
     "data:build": "node tools/state-pack/cli.mjs build-app --all --output-dir app/data"
   }
 }

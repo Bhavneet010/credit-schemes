@@ -1,0 +1,4836 @@
+{
+  "schemaVersion": "state-pack-coverage-1",
+  "outcomes": [
+    "verified-applicable",
+    "not-relevant",
+    "candidate-pending",
+    "verified-none"
+  ],
+  "coverage": [
+    {
+      "id": "COVERAGE-PB-INDUSTRIES-M0",
+      "agency": "Department of Industries and Commerce / Invest Punjab",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SINGLE-WINDOW"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-INDUSTRIES-M1",
+      "agency": "Department of Industries and Commerce / Invest Punjab",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SINGLE-WINDOW"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-INDUSTRIES-M2",
+      "agency": "Department of Industries and Commerce / Invest Punjab",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SINGLE-WINDOW"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-INDUSTRIES-M3",
+      "agency": "Department of Industries and Commerce / Invest Punjab",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SINGLE-WINDOW"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-INDUSTRIES-M4",
+      "agency": "Department of Industries and Commerce / Invest Punjab",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SINGLE-WINDOW"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-INDUSTRIES-M5",
+      "agency": "Department of Industries and Commerce / Invest Punjab",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SINGLE-WINDOW"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-INDUSTRIES-M6",
+      "agency": "Department of Industries and Commerce / Invest Punjab",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SINGLE-WINDOW"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-INDUSTRIES-M7",
+      "agency": "Department of Industries and Commerce / Invest Punjab",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SINGLE-WINDOW"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-INDUSTRIES-M8",
+      "agency": "Department of Industries and Commerce / Invest Punjab",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SINGLE-WINDOW"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-INDUSTRIES-M9",
+      "agency": "Department of Industries and Commerce / Invest Punjab",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SINGLE-WINDOW"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-INDUSTRIES-M10",
+      "agency": "Department of Industries and Commerce / Invest Punjab",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SINGLE-WINDOW"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-INDUSTRIES-M11",
+      "agency": "Department of Industries and Commerce / Invest Punjab",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SINGLE-WINDOW"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-INDUSTRIES-M12",
+      "agency": "Department of Industries and Commerce / Invest Punjab",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SINGLE-WINDOW"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-INDUSTRIES-M13",
+      "agency": "Department of Industries and Commerce / Invest Punjab",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SINGLE-WINDOW"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-INDUSTRIES-M14",
+      "agency": "Department of Industries and Commerce / Invest Punjab",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SINGLE-WINDOW"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AGRICULTURE-M0",
+      "agency": "Department of Agriculture and Farmers Welfare",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-AGRI-SUBSIDY-PORTAL"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AGRICULTURE-M1",
+      "agency": "Department of Agriculture and Farmers Welfare",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AGRI-SUBSIDY-PORTAL"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AGRICULTURE-M2",
+      "agency": "Department of Agriculture and Farmers Welfare",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AGRI-SUBSIDY-PORTAL"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AGRICULTURE-M3",
+      "agency": "Department of Agriculture and Farmers Welfare",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AGRI-SUBSIDY-PORTAL"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AGRICULTURE-M4",
+      "agency": "Department of Agriculture and Farmers Welfare",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-AGRI-SUBSIDY-PORTAL"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AGRICULTURE-M5",
+      "agency": "Department of Agriculture and Farmers Welfare",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AGRI-SUBSIDY-PORTAL"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AGRICULTURE-M6",
+      "agency": "Department of Agriculture and Farmers Welfare",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-AGRI-SUBSIDY-PORTAL"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AGRICULTURE-M7",
+      "agency": "Department of Agriculture and Farmers Welfare",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AGRI-SUBSIDY-PORTAL"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AGRICULTURE-M8",
+      "agency": "Department of Agriculture and Farmers Welfare",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AGRI-SUBSIDY-PORTAL"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AGRICULTURE-M9",
+      "agency": "Department of Agriculture and Farmers Welfare",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AGRI-SUBSIDY-PORTAL"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AGRICULTURE-M10",
+      "agency": "Department of Agriculture and Farmers Welfare",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AGRI-SUBSIDY-PORTAL"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AGRICULTURE-M11",
+      "agency": "Department of Agriculture and Farmers Welfare",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AGRI-SUBSIDY-PORTAL"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AGRICULTURE-M12",
+      "agency": "Department of Agriculture and Farmers Welfare",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AGRI-SUBSIDY-PORTAL"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AGRICULTURE-M13",
+      "agency": "Department of Agriculture and Farmers Welfare",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AGRI-SUBSIDY-PORTAL"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AGRICULTURE-M14",
+      "agency": "Department of Agriculture and Farmers Welfare",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AGRI-SUBSIDY-PORTAL"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-HORTICULTURE-M0",
+      "agency": "Department of Horticulture",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-HORTICULTURE-M1",
+      "agency": "Department of Horticulture",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-HORTICULTURE-M2",
+      "agency": "Department of Horticulture",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-HORTICULTURE-M3",
+      "agency": "Department of Horticulture",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-HORTICULTURE-M4",
+      "agency": "Department of Horticulture",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-HORTICULTURE-M5",
+      "agency": "Department of Horticulture",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-HORTICULTURE-M6",
+      "agency": "Department of Horticulture",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-HORTICULTURE-M7",
+      "agency": "Department of Horticulture",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-HORTICULTURE-M8",
+      "agency": "Department of Horticulture",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-HORTICULTURE-M9",
+      "agency": "Department of Horticulture",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-HORTICULTURE-M10",
+      "agency": "Department of Horticulture",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-HORTICULTURE-M11",
+      "agency": "Department of Horticulture",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-HORTICULTURE-M12",
+      "agency": "Department of Horticulture",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-HORTICULTURE-M13",
+      "agency": "Department of Horticulture",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-HORTICULTURE-M14",
+      "agency": "Department of Horticulture",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AHDF-M0",
+      "agency": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AHDF-M1",
+      "agency": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AHDF-M2",
+      "agency": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AHDF-M3",
+      "agency": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AHDF-M4",
+      "agency": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AHDF-M5",
+      "agency": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AHDF-M6",
+      "agency": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AHDF-M7",
+      "agency": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AHDF-M8",
+      "agency": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AHDF-M9",
+      "agency": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AHDF-M10",
+      "agency": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AHDF-M11",
+      "agency": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AHDF-M12",
+      "agency": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AHDF-M13",
+      "agency": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-AHDF-M14",
+      "agency": "Animal Husbandry, Dairy Development and Fisheries Department",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-DAIRY-M0",
+      "agency": "Dairy Development Department / Punjab Dairy Development Board",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-HOME"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-DAIRY-M1",
+      "agency": "Dairy Development Department / Punjab Dairy Development Board",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-HOME"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-DAIRY-M2",
+      "agency": "Dairy Development Department / Punjab Dairy Development Board",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-HOME"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-DAIRY-M3",
+      "agency": "Dairy Development Department / Punjab Dairy Development Board",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-HOME"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-DAIRY-M4",
+      "agency": "Dairy Development Department / Punjab Dairy Development Board",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-HOME"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-DAIRY-M5",
+      "agency": "Dairy Development Department / Punjab Dairy Development Board",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-HOME"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-DAIRY-M6",
+      "agency": "Dairy Development Department / Punjab Dairy Development Board",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-HOME"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-DAIRY-M7",
+      "agency": "Dairy Development Department / Punjab Dairy Development Board",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-HOME"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-DAIRY-M8",
+      "agency": "Dairy Development Department / Punjab Dairy Development Board",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-HOME"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-DAIRY-M9",
+      "agency": "Dairy Development Department / Punjab Dairy Development Board",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-HOME"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-DAIRY-M10",
+      "agency": "Dairy Development Department / Punjab Dairy Development Board",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-HOME"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-DAIRY-M11",
+      "agency": "Dairy Development Department / Punjab Dairy Development Board",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-HOME"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-DAIRY-M12",
+      "agency": "Dairy Development Department / Punjab Dairy Development Board",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-HOME"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-DAIRY-M13",
+      "agency": "Dairy Development Department / Punjab Dairy Development Board",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-HOME"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-DAIRY-M14",
+      "agency": "Dairy Development Department / Punjab Dairy Development Board",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-HOME"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PEDA-M0",
+      "agency": "Punjab Energy Development Agency",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PEDA-M1",
+      "agency": "Punjab Energy Development Agency",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PEDA-M2",
+      "agency": "Punjab Energy Development Agency",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PEDA-M3",
+      "agency": "Punjab Energy Development Agency",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PEDA-M4",
+      "agency": "Punjab Energy Development Agency",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PEDA-M5",
+      "agency": "Punjab Energy Development Agency",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PEDA-M6",
+      "agency": "Punjab Energy Development Agency",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PEDA-M7",
+      "agency": "Punjab Energy Development Agency",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PEDA-M8",
+      "agency": "Punjab Energy Development Agency",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PEDA-M9",
+      "agency": "Punjab Energy Development Agency",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PEDA-M10",
+      "agency": "Punjab Energy Development Agency",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PEDA-M11",
+      "agency": "Punjab Energy Development Agency",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PEDA-M12",
+      "agency": "Punjab Energy Development Agency",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PEDA-M13",
+      "agency": "Punjab Energy Development Agency",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PEDA-M14",
+      "agency": "Punjab Energy Development Agency",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-RURAL-M0",
+      "agency": "Department of Rural Development / Punjab SRLM",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-NRLM-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-RURAL-M1",
+      "agency": "Department of Rural Development / Punjab SRLM",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-NRLM-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-RURAL-M2",
+      "agency": "Department of Rural Development / Punjab SRLM",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-NRLM-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-RURAL-M3",
+      "agency": "Department of Rural Development / Punjab SRLM",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-NRLM-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-RURAL-M4",
+      "agency": "Department of Rural Development / Punjab SRLM",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-NRLM-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-RURAL-M5",
+      "agency": "Department of Rural Development / Punjab SRLM",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-NRLM-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-RURAL-M6",
+      "agency": "Department of Rural Development / Punjab SRLM",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-NRLM-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-RURAL-M7",
+      "agency": "Department of Rural Development / Punjab SRLM",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-NRLM-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-RURAL-M8",
+      "agency": "Department of Rural Development / Punjab SRLM",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-NRLM-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-RURAL-M9",
+      "agency": "Department of Rural Development / Punjab SRLM",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-NRLM-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-RURAL-M10",
+      "agency": "Department of Rural Development / Punjab SRLM",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-NRLM-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-RURAL-M11",
+      "agency": "Department of Rural Development / Punjab SRLM",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-NRLM-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-RURAL-M12",
+      "agency": "Department of Rural Development / Punjab SRLM",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-NRLM-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-RURAL-M13",
+      "agency": "Department of Rural Development / Punjab SRLM",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-NRLM-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-RURAL-M14",
+      "agency": "Department of Rural Development / Punjab SRLM",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-NRLM-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-COOP-M0",
+      "agency": "Department of Cooperation",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-COOPERATION"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-COOP-M1",
+      "agency": "Department of Cooperation",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-COOPERATION"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-COOP-M2",
+      "agency": "Department of Cooperation",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-COOPERATION"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-COOP-M3",
+      "agency": "Department of Cooperation",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-COOPERATION"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-COOP-M4",
+      "agency": "Department of Cooperation",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-COOPERATION"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-COOP-M5",
+      "agency": "Department of Cooperation",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-COOPERATION"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-COOP-M6",
+      "agency": "Department of Cooperation",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-COOPERATION"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-COOP-M7",
+      "agency": "Department of Cooperation",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-COOPERATION"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-COOP-M8",
+      "agency": "Department of Cooperation",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-COOPERATION"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-COOP-M9",
+      "agency": "Department of Cooperation",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-COOPERATION"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-COOP-M10",
+      "agency": "Department of Cooperation",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-COOPERATION"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-COOP-M11",
+      "agency": "Department of Cooperation",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-COOPERATION"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-COOP-M12",
+      "agency": "Department of Cooperation",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-COOPERATION"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-COOP-M13",
+      "agency": "Department of Cooperation",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-COOPERATION"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-COOP-M14",
+      "agency": "Department of Cooperation",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-COOPERATION"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SCFC-M0",
+      "agency": "Punjab SC Land Development and Finance Corporation",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SCFC"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SCFC-M1",
+      "agency": "Punjab SC Land Development and Finance Corporation",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SCFC"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SCFC-M2",
+      "agency": "Punjab SC Land Development and Finance Corporation",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SCFC"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SCFC-M3",
+      "agency": "Punjab SC Land Development and Finance Corporation",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SCFC"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SCFC-M4",
+      "agency": "Punjab SC Land Development and Finance Corporation",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SCFC"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SCFC-M5",
+      "agency": "Punjab SC Land Development and Finance Corporation",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SCFC"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SCFC-M6",
+      "agency": "Punjab SC Land Development and Finance Corporation",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SCFC"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SCFC-M7",
+      "agency": "Punjab SC Land Development and Finance Corporation",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SCFC"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SCFC-M8",
+      "agency": "Punjab SC Land Development and Finance Corporation",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SCFC"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SCFC-M9",
+      "agency": "Punjab SC Land Development and Finance Corporation",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SCFC"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SCFC-M10",
+      "agency": "Punjab SC Land Development and Finance Corporation",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SCFC"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SCFC-M11",
+      "agency": "Punjab SC Land Development and Finance Corporation",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SCFC"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SCFC-M12",
+      "agency": "Punjab SC Land Development and Finance Corporation",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SCFC"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SCFC-M13",
+      "agency": "Punjab SC Land Development and Finance Corporation",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SCFC"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SCFC-M14",
+      "agency": "Punjab SC Land Development and Finance Corporation",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SCFC"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-BACKFINCO-M0",
+      "agency": "Punjab Backward Classes Land Development and Finance Corporation",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-BACKFINCO-M1",
+      "agency": "Punjab Backward Classes Land Development and Finance Corporation",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-BACKFINCO-M2",
+      "agency": "Punjab Backward Classes Land Development and Finance Corporation",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-BACKFINCO-M3",
+      "agency": "Punjab Backward Classes Land Development and Finance Corporation",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-BACKFINCO-M4",
+      "agency": "Punjab Backward Classes Land Development and Finance Corporation",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-BACKFINCO-M5",
+      "agency": "Punjab Backward Classes Land Development and Finance Corporation",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-BACKFINCO-M6",
+      "agency": "Punjab Backward Classes Land Development and Finance Corporation",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-BACKFINCO-M7",
+      "agency": "Punjab Backward Classes Land Development and Finance Corporation",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-BACKFINCO-M8",
+      "agency": "Punjab Backward Classes Land Development and Finance Corporation",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-BACKFINCO-M9",
+      "agency": "Punjab Backward Classes Land Development and Finance Corporation",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-BACKFINCO-M10",
+      "agency": "Punjab Backward Classes Land Development and Finance Corporation",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-BACKFINCO-M11",
+      "agency": "Punjab Backward Classes Land Development and Finance Corporation",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-BACKFINCO-M12",
+      "agency": "Punjab Backward Classes Land Development and Finance Corporation",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-BACKFINCO-M13",
+      "agency": "Punjab Backward Classes Land Development and Finance Corporation",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-BACKFINCO-M14",
+      "agency": "Punjab Backward Classes Land Development and Finance Corporation",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-KVIB-M0",
+      "agency": "Punjab Khadi and Village Industries Board",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-KVIB-M1",
+      "agency": "Punjab Khadi and Village Industries Board",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-KVIB-M2",
+      "agency": "Punjab Khadi and Village Industries Board",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-KVIB-M3",
+      "agency": "Punjab Khadi and Village Industries Board",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-KVIB-M4",
+      "agency": "Punjab Khadi and Village Industries Board",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-KVIB-M5",
+      "agency": "Punjab Khadi and Village Industries Board",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-KVIB-M6",
+      "agency": "Punjab Khadi and Village Industries Board",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-KVIB-M7",
+      "agency": "Punjab Khadi and Village Industries Board",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-KVIB-M8",
+      "agency": "Punjab Khadi and Village Industries Board",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-KVIB-M9",
+      "agency": "Punjab Khadi and Village Industries Board",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-KVIB-M10",
+      "agency": "Punjab Khadi and Village Industries Board",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-KVIB-M11",
+      "agency": "Punjab Khadi and Village Industries Board",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-KVIB-M12",
+      "agency": "Punjab Khadi and Village Industries Board",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-KVIB-M13",
+      "agency": "Punjab Khadi and Village Industries Board",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-KVIB-M14",
+      "agency": "Punjab Khadi and Village Industries Board",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-TOURISM-M0",
+      "agency": "Department of Tourism and Cultural Affairs",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SECTOR-POLICIES-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-TOURISM-M1",
+      "agency": "Department of Tourism and Cultural Affairs",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SECTOR-POLICIES-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-TOURISM-M2",
+      "agency": "Department of Tourism and Cultural Affairs",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SECTOR-POLICIES-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-TOURISM-M3",
+      "agency": "Department of Tourism and Cultural Affairs",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SECTOR-POLICIES-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-TOURISM-M4",
+      "agency": "Department of Tourism and Cultural Affairs",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SECTOR-POLICIES-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-TOURISM-M5",
+      "agency": "Department of Tourism and Cultural Affairs",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SECTOR-POLICIES-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-TOURISM-M6",
+      "agency": "Department of Tourism and Cultural Affairs",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SECTOR-POLICIES-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-TOURISM-M7",
+      "agency": "Department of Tourism and Cultural Affairs",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SECTOR-POLICIES-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-TOURISM-M8",
+      "agency": "Department of Tourism and Cultural Affairs",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SECTOR-POLICIES-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-TOURISM-M9",
+      "agency": "Department of Tourism and Cultural Affairs",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SECTOR-POLICIES-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-TOURISM-M10",
+      "agency": "Department of Tourism and Cultural Affairs",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SECTOR-POLICIES-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-TOURISM-M11",
+      "agency": "Department of Tourism and Cultural Affairs",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SECTOR-POLICIES-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-TOURISM-M12",
+      "agency": "Department of Tourism and Cultural Affairs",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-SECTOR-POLICIES-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-TOURISM-M13",
+      "agency": "Department of Tourism and Cultural Affairs",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SECTOR-POLICIES-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-TOURISM-M14",
+      "agency": "Department of Tourism and Cultural Affairs",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-SECTOR-POLICIES-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-EMPLOYMENT-M0",
+      "agency": "Department of Employment Generation, Skill Development and Training",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-EMPLOYMENT-M1",
+      "agency": "Department of Employment Generation, Skill Development and Training",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-EMPLOYMENT-M2",
+      "agency": "Department of Employment Generation, Skill Development and Training",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-EMPLOYMENT-M3",
+      "agency": "Department of Employment Generation, Skill Development and Training",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-EMPLOYMENT-M4",
+      "agency": "Department of Employment Generation, Skill Development and Training",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-EMPLOYMENT-M5",
+      "agency": "Department of Employment Generation, Skill Development and Training",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-EMPLOYMENT-M6",
+      "agency": "Department of Employment Generation, Skill Development and Training",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-EMPLOYMENT-M7",
+      "agency": "Department of Employment Generation, Skill Development and Training",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-EMPLOYMENT-M8",
+      "agency": "Department of Employment Generation, Skill Development and Training",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-EMPLOYMENT-M9",
+      "agency": "Department of Employment Generation, Skill Development and Training",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-EMPLOYMENT-M10",
+      "agency": "Department of Employment Generation, Skill Development and Training",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-EMPLOYMENT-M11",
+      "agency": "Department of Employment Generation, Skill Development and Training",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-EMPLOYMENT-M12",
+      "agency": "Department of Employment Generation, Skill Development and Training",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-EMPLOYMENT-M13",
+      "agency": "Department of Employment Generation, Skill Development and Training",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-EMPLOYMENT-M14",
+      "agency": "Department of Employment Generation, Skill Development and Training",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SOCIAL-M0",
+      "agency": "Department of Social Justice, Empowerment and Minorities",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SOCIAL-M1",
+      "agency": "Department of Social Justice, Empowerment and Minorities",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SOCIAL-M2",
+      "agency": "Department of Social Justice, Empowerment and Minorities",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SOCIAL-M3",
+      "agency": "Department of Social Justice, Empowerment and Minorities",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SOCIAL-M4",
+      "agency": "Department of Social Justice, Empowerment and Minorities",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SOCIAL-M5",
+      "agency": "Department of Social Justice, Empowerment and Minorities",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SOCIAL-M6",
+      "agency": "Department of Social Justice, Empowerment and Minorities",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SOCIAL-M7",
+      "agency": "Department of Social Justice, Empowerment and Minorities",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SOCIAL-M8",
+      "agency": "Department of Social Justice, Empowerment and Minorities",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SOCIAL-M9",
+      "agency": "Department of Social Justice, Empowerment and Minorities",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SOCIAL-M10",
+      "agency": "Department of Social Justice, Empowerment and Minorities",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SOCIAL-M11",
+      "agency": "Department of Social Justice, Empowerment and Minorities",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SOCIAL-M12",
+      "agency": "Department of Social Justice, Empowerment and Minorities",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SOCIAL-M13",
+      "agency": "Department of Social Justice, Empowerment and Minorities",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-SOCIAL-M14",
+      "agency": "Department of Social Justice, Empowerment and Minorities",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "candidate-pending",
+      "evidence": "The agency route may be relevant, but current operative detail was not available; the lead remains in the candidate ledger.",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-FORESTS-M0",
+      "agency": "Department of Forests and Wildlife",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-FORESTS-M1",
+      "agency": "Department of Forests and Wildlife",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-FORESTS-M2",
+      "agency": "Department of Forests and Wildlife",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-FORESTS-M3",
+      "agency": "Department of Forests and Wildlife",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-FORESTS-M4",
+      "agency": "Department of Forests and Wildlife",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-FORESTS-M5",
+      "agency": "Department of Forests and Wildlife",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-FORESTS-M6",
+      "agency": "Department of Forests and Wildlife",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-FORESTS-M7",
+      "agency": "Department of Forests and Wildlife",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-FORESTS-M8",
+      "agency": "Department of Forests and Wildlife",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-FORESTS-M9",
+      "agency": "Department of Forests and Wildlife",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-FORESTS-M10",
+      "agency": "Department of Forests and Wildlife",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-FORESTS-M11",
+      "agency": "Department of Forests and Wildlife",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-FORESTS-M12",
+      "agency": "Department of Forests and Wildlife",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-FORESTS-M13",
+      "agency": "Department of Forests and Wildlife",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-FORESTS-M14",
+      "agency": "Department of Forests and Wildlife",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-LOCAL-M0",
+      "agency": "Department of Local Government",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-LOCAL-M1",
+      "agency": "Department of Local Government",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-LOCAL-M2",
+      "agency": "Department of Local Government",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-LOCAL-M3",
+      "agency": "Department of Local Government",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-LOCAL-M4",
+      "agency": "Department of Local Government",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-LOCAL-M5",
+      "agency": "Department of Local Government",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-LOCAL-M6",
+      "agency": "Department of Local Government",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-LOCAL-M7",
+      "agency": "Department of Local Government",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-LOCAL-M8",
+      "agency": "Department of Local Government",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-LOCAL-M9",
+      "agency": "Department of Local Government",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-LOCAL-M10",
+      "agency": "Department of Local Government",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-LOCAL-M11",
+      "agency": "Department of Local Government",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-LOCAL-M12",
+      "agency": "Department of Local Government",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-LOCAL-M13",
+      "agency": "Department of Local Government",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-LOCAL-M14",
+      "agency": "Department of Local Government",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PSPCL-M0",
+      "agency": "Punjab State Power Corporation Limited",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PSPCL-CC19-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PSPCL-M1",
+      "agency": "Punjab State Power Corporation Limited",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PSPCL-CC19-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PSPCL-M2",
+      "agency": "Punjab State Power Corporation Limited",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PSPCL-CC19-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PSPCL-M3",
+      "agency": "Punjab State Power Corporation Limited",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PSPCL-CC19-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PSPCL-M4",
+      "agency": "Punjab State Power Corporation Limited",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PSPCL-CC19-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PSPCL-M5",
+      "agency": "Punjab State Power Corporation Limited",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PSPCL-CC19-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PSPCL-M6",
+      "agency": "Punjab State Power Corporation Limited",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PSPCL-CC19-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PSPCL-M7",
+      "agency": "Punjab State Power Corporation Limited",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PSPCL-CC19-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PSPCL-M8",
+      "agency": "Punjab State Power Corporation Limited",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PSPCL-CC19-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PSPCL-M9",
+      "agency": "Punjab State Power Corporation Limited",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-PSPCL-CC19-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PSPCL-M10",
+      "agency": "Punjab State Power Corporation Limited",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-PSPCL-CC19-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PSPCL-M11",
+      "agency": "Punjab State Power Corporation Limited",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PSPCL-CC19-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PSPCL-M12",
+      "agency": "Punjab State Power Corporation Limited",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PSPCL-CC19-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PSPCL-M13",
+      "agency": "Punjab State Power Corporation Limited",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PSPCL-CC19-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PSPCL-M14",
+      "agency": "Punjab State Power Corporation Limited",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-PSPCL-CC19-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PPCB-M0",
+      "agency": "Punjab Pollution Control Board",
+      "sectorId": "SEC-AGR-CER-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Field agriculture and crop services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PPCB-M1",
+      "agency": "Punjab Pollution Control Board",
+      "sectorId": "SEC-HOR-CIT-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Horticulture floriculture and specialty crops",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PPCB-M2",
+      "agency": "Punjab Pollution Control Board",
+      "sectorId": "SEC-LIV-DAI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Livestock dairy poultry and animal enterprises",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PPCB-M3",
+      "agency": "Punjab Pollution Control Board",
+      "sectorId": "SEC-AQU-FIS-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Fisheries beekeeping and sericulture",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PPCB-M4",
+      "agency": "Punjab Pollution Control Board",
+      "sectorId": "SEC-INF-COL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri post-harvest infrastructure and logistics",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PPCB-M5",
+      "agency": "Punjab Pollution Control Board",
+      "sectorId": "SEC-FOD-FRU-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Food and beverage processing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PPCB-M6",
+      "agency": "Punjab Pollution Control Board",
+      "sectorId": "SEC-ORG-FPO-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Agri organisations markets and technology",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PPCB-M7",
+      "agency": "Punjab Pollution Control Board",
+      "sectorId": "SEC-PHM-FOR-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Pharma medical devices biotechnology and AYUSH",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PPCB-M8",
+      "agency": "Punjab Pollution Control Board",
+      "sectorId": "SEC-TEX-WOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Textiles wool handicrafts forest products and packaging",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PPCB-M9",
+      "agency": "Punjab Pollution Control Board",
+      "sectorId": "SEC-ENG-MET-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Engineering electronics defence and general manufacturing",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PPCB-M10",
+      "agency": "Punjab Pollution Control Board",
+      "sectorId": "SEC-GRN-SOL-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Renewable energy circular economy chemicals and construction materials",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PPCB-M11",
+      "agency": "Punjab Pollution Control Board",
+      "sectorId": "SEC-TOU-ACC-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Tourism hospitality wellness and events",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PPCB-M12",
+      "agency": "Punjab Pollution Control Board",
+      "sectorId": "SEC-DIG-SOF-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "IT digital media and creative services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PPCB-M13",
+      "agency": "Punjab Pollution Control Board",
+      "sectorId": "SEC-HES-CLI-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Healthcare education skills and professional services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "not-relevant",
+      "evidence": "The agency's documented remit does not cover this macro; no absence claim is made.",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    },
+    {
+      "id": "COVERAGE-PB-PPCB-M14",
+      "agency": "Punjab Pollution Control Board",
+      "sectorId": "SEC-TRD-FRE-01",
+      "beneficiary": "Applicant matching programme conditions",
+      "enterpriseStage": "new-and-existing",
+      "schemeFamily": "Transport logistics retail repair and local services",
+      "supportType": "finance, subsidy, training or facilitation",
+      "required": true,
+      "outcome": "verified-applicable",
+      "evidence": "Official remit or programme surface supports this macro route.",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "verifiedAt": "2026-08-26",
+      "effectiveFrom": "2026-08-26"
+    }
+  ],
+  "agencyCoverage": [
+    {
+      "id": "AGENCY-COVERAGE-PB-INDUSTRIES",
+      "category": "industries",
+      "sourceIds": [
+        "SOURCE-PB-SINGLE-WINDOW"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": [
+        "CAND-PB-IBDP22"
+      ]
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-AGRICULTURE",
+      "category": "agriculture",
+      "sourceIds": [
+        "SOURCE-PB-AGRI-SUBSIDY-PORTAL"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": []
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-HORTICULTURE",
+      "category": "horticulture",
+      "sourceIds": [
+        "SOURCE-PB-HORTICULTURE"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": [
+        "CAND-PB-HORT-JICA",
+        "CAND-PB-HORT-MUSHROOM-OLD",
+        "CAND-PB-HORT-POTATO-OLD"
+      ]
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-AHDF",
+      "category": "ahdf",
+      "sourceIds": [
+        "SOURCE-PB-AHDF"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": [
+        "CAND-PB-FISH-STATE"
+      ]
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-DAIRY",
+      "category": "dairy",
+      "sourceIds": [
+        "SOURCE-PB-DAIRY-HOME"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": [
+        "CAND-PB-DAIRY-FORMS"
+      ]
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-PEDA",
+      "category": "peda",
+      "sourceIds": [
+        "SOURCE-PB-PEDA"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": [
+        "CAND-PB-PMKUSUM2",
+        "CAND-PB-PEDA-EC-AWARD"
+      ]
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-RURAL",
+      "category": "rural",
+      "sourceIds": [
+        "SOURCE-PB-NRLM-2026"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": []
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-COOP",
+      "category": "coop",
+      "sourceIds": [
+        "SOURCE-PB-COOPERATION"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": []
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-SCFC",
+      "category": "scfc",
+      "sourceIds": [
+        "SOURCE-PB-SCFC"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": []
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-BACKFINCO",
+      "category": "backfinco",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": [
+        "CAND-PB-BACKFINCO-DETAILS"
+      ]
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-KVIB",
+      "category": "kvib",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": []
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-TOURISM",
+      "category": "tourism",
+      "sourceIds": [
+        "SOURCE-PB-SECTOR-POLICIES-2026"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": []
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-EMPLOYMENT",
+      "category": "employment",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": []
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-SOCIAL",
+      "category": "social",
+      "sourceIds": [
+        "SOURCE-PB-WELFARE"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": [
+        "CAND-PB-WOMEN-CORP"
+      ]
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-FORESTS",
+      "category": "forests",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": []
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-LOCAL",
+      "category": "local",
+      "sourceIds": [
+        "SOURCE-PB-DEPARTMENTS"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": []
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-PSPCL",
+      "category": "pspcl",
+      "sourceIds": [
+        "SOURCE-PB-PSPCL-CC19-2026"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": []
+    },
+    {
+      "id": "AGENCY-COVERAGE-PB-PPCB",
+      "category": "ppcb",
+      "sourceIds": [
+        "SOURCE-PB-IBDP-2026"
+      ],
+      "outcome": "routes-or-candidates-found",
+      "evidence": "Official surface checked and publishable routes or documented candidates recorded.",
+      "verifiedAt": "2026-08-26",
+      "nextCheckAt": "2026-09-25",
+      "candidateIds": []
+    }
+  ]
+}

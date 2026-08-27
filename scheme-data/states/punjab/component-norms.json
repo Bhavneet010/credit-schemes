@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "state-pack-1",
+  "norms": [
+    {
+      "theme": "Punjab verified norms",
+      "item": "Industrial capital subsidy",
+      "norm": "20% eligible FCI",
+      "cap": "₹10 crore",
+      "who": "New/expansion units",
+      "cond": "IBDP classification and annual capping apply",
+      "route": "Apply through the responsible Punjab agency",
+      "src": "https://static.investindia.gov.in/s3fs-public/2026-03/punjab_industrial_policy_2026.pdf"
+    },
+    {
+      "theme": "Punjab verified norms",
+      "item": "Modernisation subsidy",
+      "norm": "20% eligible plant and machinery",
+      "cap": "₹10 crore",
+      "who": "Existing eligible industrial units",
+      "cond": "Ten annual instalments; once in five years",
+      "route": "Apply through the responsible Punjab agency",
+      "src": "https://static.investindia.gov.in/s3fs-public/2026-03/punjab_industrial_policy_2026.pdf"
+    },
+    {
+      "theme": "Punjab verified norms",
+      "item": "Employment subsidy",
+      "norm": "₹3,000/₹4,000 per eligible employee per month",
+      "cap": "5 years",
+      "who": "Qualifying units with ₹25 crore FCI and 50 direct Punjab-resident jobs",
+      "cond": "Payroll, PF/ESI and category evidence required",
+      "route": "Apply through the responsible Punjab agency",
+      "src": "https://static.investindia.gov.in/s3fs-public/2026-03/punjab_industrial_policy_2026.pdf"
+    },
+    {
+      "theme": "Punjab verified norms",
+      "item": "DSR incentive",
+      "norm": "₹1,500 per acre",
+      "cap": "Annual verified area",
+      "who": "Eligible Punjab paddy farmer",
+      "cond": "Seasonal registration and field verification apply",
+      "route": "Apply through the responsible Punjab agency",
+      "src": "https://caqm.nic.in/WriteReadData/LINKS/e2b2514a-e0b6-48c9-96c4-c1e62173af66.pdf"
+    },
+    {
+      "theme": "Punjab verified norms",
+      "item": "DD-8 dairy units",
+      "norm": "25% general / 33% eligible reserved category",
+      "cap": "Approved animal rate in manual: ₹70,000",
+      "who": "Trained rural Punjab applicant with bank finance",
+      "cond": "Current allocation and rate must be reconfirmed",
+      "route": "Apply through the responsible Punjab agency",
+      "src": "https://dairydevpunjab.in/skleinbkdfb25dfdhh/22112023233752RTI%20Manual%202023-24.pdf"
+    },
+    {
+      "theme": "Punjab verified norms",
+      "item": "Silage baler and wrapper",
+      "norm": "₹5.60 lakh subsidy listed",
+      "cap": "Current departmental sanction",
+      "who": "Eligible dairy applicant",
+      "cond": "Specifications and annual target apply",
+      "route": "Apply through the responsible Punjab agency",
+      "src": "https://dairydevpunjab.in/services-for-farmers"
+    },
+    {
+      "theme": "Punjab verified norms",
+      "item": "PEDA RIF",
+      "norm": "Up to 100% eligible cost",
+      "cap": "Ordinarily ₹25 lakh",
+      "who": "Eligible public agency",
+      "cond": "Repayable finance secured by bank guarantee",
+      "route": "Apply through the responsible Punjab agency",
+      "src": "https://www.peda.gov.in/ec/revolving-investment-fund.php"
+    }
+  ]
+}

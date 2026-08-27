@@ -5,9 +5,23 @@ import { readFile } from "node:fs/promises";
 
 test("state index points to every generated state dataset", async () => {
   const build = await compileAllStates();
+  const punjabPack = JSON.parse(await readFile("scheme-data/states/punjab/manifest.json", "utf8"));
+  const punjabEvidence = JSON.parse(await readFile("scheme-data/states/punjab/evidence.json", "utf8"));
+  const punjabCoverage = JSON.parse(await readFile("scheme-data/states/punjab/coverage.json", "utf8"));
   assert.equal(build.index.defaultState, "himachal-pradesh");
-  assert.deepEqual(build.index.states.map((state) => state.slug), ["himachal-pradesh"]);
+  assert.deepEqual(build.index.states.map((state) => state.slug), ["himachal-pradesh", "punjab"]);
   assert.equal(build.datasets.get("himachal-pradesh").meta.stateId, "STATE-IN-HP");
+  assert.equal(build.datasets.get("punjab").meta.stateId, "STATE-IN-PB");
+  assert.ok(build.datasets.get("punjab").schemes.some((scheme) => scheme.id === "SCH-PB-IBDP26-CAPITAL"));
+  assert.doesNotMatch(JSON.stringify(build.datasets.get("punjab").schemes), /Himachal|agriculture\.hp\.gov|himachal\.nic/i);
+  assert.doesNotMatch(JSON.stringify({ pools: build.datasets.get("punjab").pools, sectors: build.datasets.get("punjab").sectors }), /Himachal|Baddi|mountain logistics|chilling hours|agriculture\.hp\.gov|himachal\.nic/i);
+  assert.ok(punjabCoverage.coverage.some((cell) => cell.outcome === "verified-applicable"));
+  assert.ok(punjabCoverage.coverage.some((cell) => cell.outcome === "not-relevant"));
+  assert.ok(punjabCoverage.coverage.some((cell) => cell.outcome === "candidate-pending"));
+  assert.ok(Object.keys(punjabPack.reverseIndexes).length >= punjabEvidence.claims.length + punjabEvidence.statuses.length);
+  assert.ok(punjabEvidence.claims.every((claim) => punjabPack.schemeOrder.includes(claim.subjectId)));
+  assert.ok(punjabEvidence.statuses.every((status) => punjabPack.schemeOrder.includes(status.subjectId)));
+  assert.doesNotMatch(JSON.stringify(punjabEvidence), /PRADHAN-MANTRI-FASAL-BIMA|PMFBY/i);
 });
 
 test("product metadata is state-neutral and shortcuts are state-aware", async () => {

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "state-pack-1",
+  "legacy": [
+    {
+      "name": "Punjab Industrial and Business Development Policy 2022 — new CAF route",
+      "position": "Superseded for new common application forms by IBDP 2026",
+      "why": "IBDP 2026 was notified on 8 March 2026; qualifying 2022 cases may use the notified migration window.",
+      "alt": "Use IBDP 2026 and its sector policies.",
+      "src": "https://static.investindia.gov.in/s3fs-public/2026-03/punjab_industrial_policy_2026.pdf"
+    },
+    {
+      "name": "PM-KUSUM 1.0 fresh Punjab intake",
+      "position": "Closed pending the next allocation",
+      "why": "PEDA records closure from 31 December 2025 and awaits PM-KUSUM 2.0 targets.",
+      "alt": "Monitor PEDA; do not assume a fresh intake.",
+      "src": "https://www.peda.gov.in/pm-kusum.php"
+    },
+    {
+      "name": "Older Punjab horticulture component references",
+      "position": "Current status not established",
+      "why": "Historic scheme descriptions were not backed by a current 2026-27 operative call.",
+      "alt": "Confirm live MIDH components with the Horticulture Department.",
+      "src": "https://punjab.gov.in/government/departments/department-of-horticulture/"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "state-pack-1",
+  "components": [
+    {
+      "id": "COMP-PB-IBDP-SGST",
+      "schemeId": "SCH-PB-IBDP26-SGST",
+      "parentProgramme": "Punjab Industrial and Business Development Policy 2026",
+      "title": "Net SGST reimbursement",
+      "disposition": "component",
+      "reason": "Published separately for discoverability while preserving the common IBDP 2026 ceiling and DSOG conditions.",
+      "resolvedAt": "2026-08-26"
+    },
+    {
+      "id": "COMP-PB-IBDP-DUTIES",
+      "schemeId": "SCH-PB-IBDP26-DUTIES",
+      "parentProgramme": "Punjab Industrial and Business Development Policy 2026",
+      "title": "Stamp and electricity duty relief",
+      "disposition": "component",
+      "reason": "Published separately for discoverability while preserving the common IBDP 2026 ceiling and DSOG conditions.",
+      "resolvedAt": "2026-08-26"
+    },
+    {
+      "id": "COMP-PB-IBDP-EMPLOYMENT",
+      "schemeId": "SCH-PB-IBDP26-EMPLOYMENT",
+      "parentProgramme": "Punjab Industrial and Business Development Policy 2026",
+      "title": "Employment generation subsidy",
+      "disposition": "component",
+      "reason": "Published separately for discoverability while preserving the common IBDP 2026 ceiling and DSOG conditions.",
+      "resolvedAt": "2026-08-26"
+    },
+    {
+      "id": "COMP-PB-IBDP-MSME",
+      "schemeId": "SCH-PB-IBDP26-MSME",
+      "parentProgramme": "Punjab Industrial and Business Development Policy 2026",
+      "title": "MSME competitiveness basket",
+      "disposition": "component",
+      "reason": "Published separately for discoverability while preserving the common IBDP 2026 ceiling and DSOG conditions.",
+      "resolvedAt": "2026-08-26"
+    },
+    {
+      "id": "COMP-PB-IBDP-GREEN",
+      "schemeId": "SCH-PB-IBDP26-GREEN",
+      "parentProgramme": "Punjab Industrial and Business Development Policy 2026",
+      "title": "Environmental technology assistance",
+      "disposition": "component",
+      "reason": "Published separately for discoverability while preserving the common IBDP 2026 ceiling and DSOG conditions.",
+      "resolvedAt": "2026-08-26"
+    },
+    {
+      "id": "COMP-PB-IBDP-STRAW",
+      "schemeId": "SCH-PB-IBDP26-STRAW-BOILER",
+      "parentProgramme": "Punjab Industrial and Business Development Policy 2026",
+      "title": "Paddy-straw boiler assistance",
+      "disposition": "component",
+      "reason": "Published separately for discoverability while preserving the common IBDP 2026 ceiling and DSOG conditions.",
+      "resolvedAt": "2026-08-26"
+    }
+  ]
+}
