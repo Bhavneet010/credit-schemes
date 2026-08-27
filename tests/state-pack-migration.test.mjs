@@ -43,7 +43,7 @@ test("canonical HP validates and preserves the current visible app contract", as
   const compiled = await compileRepositoryState("himachal-pradesh");
   assert.deepEqual(compiled.meta.counts, current.meta.counts);
   assert.deepEqual(compiled.sectors, current.sectors);
-  assert.deepEqual(compiled.schemes.map(({ statusDetail, evidenceLinks, ...scheme }) => scheme), current.schemes);
+  assert.deepEqual(compiled.schemes.map(({ origin, statusDetail, evidenceLinks, ...scheme }) => scheme), current.schemes);
   assert.deepEqual(compiled.links, current.links);
 });
 

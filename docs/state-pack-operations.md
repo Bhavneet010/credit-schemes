@@ -19,6 +19,22 @@ may propagate. Capture out-of-scope hashes before editing and compare them befor
 publication; `OUT_OF_SCOPE_CHANGE` is a hard failure. A focused refresh rechecks only
 the named records, expired evidence they depend on, and reverse-index dependants.
 
+### Reuse central research when adding a state
+
+`scheme-data/common/` is the single source of truth for pan-India central and
+national-institution scheme facts. An `add-state` run must reuse those records and
+must not research their national benefits, eligibility or source claims again.
+Research only the new state's adoption, implementing agency, access route, live
+intake, state budget dependency and activity mappings, recorded in that state's
+implementation and evidence files. Joint or centrally sponsored implementations
+are treated as State routes in the app because their availability depends on state
+adoption and delivery.
+
+Recheck a shared central fact only in a separately declared `refresh-scheme` scope
+that explicitly names the common scheme. If `add-state` encounters expired shared
+evidence, pause that dependency, complete the focused common-scheme refresh once,
+then resume `add-state` and reuse the refreshed record for every state pack.
+
 ## Validate and build
 
 ```powershell

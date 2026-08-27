@@ -72,5 +72,5 @@ test("activation removes all earlier Scheme Finder caches", async () => {
   listeners.activate({ waitUntil(promise) { activationWork = promise; } });
   await activationWork;
 
-  assert.deepEqual(deleted, ["hpsf-v1", "hpsf-v8", "hpsf-v12", "scheme-finder-v9"]);
+  assert.deepEqual(deleted, ["hpsf-v1", "hpsf-v8", "hpsf-v12", "scheme-finder-v9", "scheme-finder-v13"]);
 });

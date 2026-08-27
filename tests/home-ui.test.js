@@ -127,6 +127,51 @@ test("state selector switches datasets without a page reload", async () => {
   await context.close();
 });
 
+test("scheme scope toggle separates state and joint routes from central routes", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block" });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+
+  await page.goto(`${baseUrl}#/state/punjab/schemes`);
+  await page.getByRole("heading", { name: "Schemes" }).waitFor();
+
+  await page.getByRole("button", { name: "State" }).click();
+  assert.match(page.url(), /#\/state\/punjab\/schemes\/state$/);
+  await page.getByText("62 routes", { exact: true }).waitFor();
+  assert.equal(await page.locator('[data-scheme-origin="state"]').count(), 62);
+  assert.equal(await page.locator('[data-scheme-origin="central"]').count(), 0);
+  assert.equal(await page.getByText("PMKSY – Per Drop More Crop (micro-irrigation)", { exact: true }).count(), 1);
+  assert.equal(await page.getByText("Prime Minister's Employment Generation Programme (PMEGP)", { exact: true }).count(), 0);
+
+  await page.getByRole("button", { name: "Central" }).click();
+  assert.match(page.url(), /#\/state\/punjab\/schemes\/central$/);
+  await page.getByText("94 routes", { exact: true }).waitFor();
+  assert.equal(await page.locator('[data-scheme-origin="central"]').count(), 94);
+  assert.equal(await page.locator('[data-scheme-origin="state"]').count(), 0);
+
+  await page.getByRole("button", { name: "All" }).first().click();
+  assert.match(page.url(), /#\/state\/punjab\/schemes\/all$/);
+  await page.getByText("156 routes", { exact: true }).waitFor();
+
+  await context.close();
+});
+
+test("scheme scope changes preserve a family filter when the destination contains it", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block" });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+
+  await page.goto(`${baseUrl}#/state/punjab/schemes`);
+  await page.getByRole("button", { name: "Establishment and capital investment", exact: true }).click();
+  await page.getByRole("button", { name: "State", exact: true }).click();
+
+  assert.match(page.url(), /#\/state\/punjab\/schemes\/state\/Establishment%20and%20capital%20investment$/);
+  assert.equal(await page.locator(".chip.on").innerText(), "Establishment and capital investment");
+  assert.ok(await page.locator('[data-scheme-origin="state"]').count() > 0);
+
+  await context.close();
+});
+
 test("legacy HP bookmarks migrate once to state-qualified stable IDs", async () => {
   const context = await browser.newContext({ serviceWorkers: "block" });
   const page = await context.newPage();
@@ -284,6 +329,30 @@ test("mobile hero keeps the selected single-line headline and two-line brand loc
 
   assert.ok(headlineMetrics.height <= headlineMetrics.lineHeight * 1.15, "mobile hero headline should remain on one line");
   assert.ok(brandMetrics.height >= brandMetrics.lineHeight * 1.8, "mobile brand label should wrap to two compact lines");
+
+  await context.close();
+});
+
+test("mobile header keeps Scheme Finder and a readable full state selector at 320px", async () => {
+  const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 320, height: 800 } });
+  const page = await context.newPage();
+  page.setDefaultTimeout(3000);
+
+  await page.goto(baseUrl);
+  await page.locator("#q").waitFor();
+
+  const brand = page.locator(".brand span");
+  const selector = page.getByRole("combobox", { name: "Select state" });
+  const settings = page.getByRole("button", { name: "Open settings" });
+  const metrics = await page.evaluate(() => ({ width: innerWidth, scrollWidth: document.documentElement.scrollWidth }));
+  const selectorBox = await selector.boundingBox();
+  const settingsBox = await settings.boundingBox();
+
+  assert.ok(await brand.isVisible(), "Scheme Finder should remain visible on narrow mobile screens");
+  assert.equal(await selector.inputValue(), "himachal-pradesh");
+  assert.ok(selectorBox && selectorBox.width >= 138, `state selector should show the full state name; received ${selectorBox && selectorBox.width}px`);
+  assert.ok(settingsBox && settingsBox.width <= 34, `settings button should be compact; received ${settingsBox && settingsBox.width}px`);
+  assert.equal(metrics.scrollWidth, metrics.width, "mobile header should not overflow horizontally");
 
   await context.close();
 });

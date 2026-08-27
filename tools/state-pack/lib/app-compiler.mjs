@@ -7,12 +7,20 @@ function withoutMigration(record) {
   return rest;
 }
 
+function schemeOrigin(scheme) {
+  if (scheme.issuerType === "state" || scheme.issuerType === "joint") return "state";
+  if (scheme.issuerType === "central" || scheme.issuerType === "institutional") return "central";
+  throw new Error(`UNSUPPORTED_SCHEME_ISSUER_TYPE: ${scheme.id} (${scheme.issuerType ?? "missing"})`);
+}
+
 export function compileStateForLegacyApp(pack) {
   const manifest = pack.manifest;
   const implementations = pack.implementations?.implementations ?? [];
   const implementationByScheme = new Map(implementations.map((item) => [item.schemeId, item]));
   const sharedSchemes = (pack.common?.schemes?.schemes ?? []).filter((scheme) => implementationByScheme.has(scheme.id));
-  const schemes = [...sharedSchemes, ...(pack.schemes?.schemes ?? [])];
+  const stateSchemes = pack.schemes?.schemes ?? [];
+  const schemes = [...sharedSchemes, ...stateSchemes];
+  const originByScheme = new Map(schemes.map((scheme) => [scheme.id, schemeOrigin(scheme)]));
   const byId = new Map(schemes.map((scheme) => {
     const implementation = implementationByScheme.get(scheme.id);
     if (implementation?.legacyProjection) return [scheme.id, implementation.legacyProjection];
@@ -44,6 +52,7 @@ export function compileStateForLegacyApp(pack) {
     const status = statusBySubject.get(scheme.id);
     return {
       ...scheme,
+      origin: originByScheme.get(scheme.id),
       statusDetail: status ? {
         existence: status.existence,
         intake: status.intake,

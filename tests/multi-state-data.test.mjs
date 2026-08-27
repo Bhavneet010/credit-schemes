@@ -41,3 +41,14 @@ test("compiled records expose stable IDs and separated status evidence", async (
   assert.equal(hp.meta.counts.schemes, 188);
   assert.equal(hp.meta.counts.links, 8700);
 });
+
+test("compiled schemes classify joint routes as state and national routes as central", async () => {
+  const punjab = (await compileAllStates()).datasets.get("punjab");
+  const originById = new Map(punjab.schemes.map((scheme) => [scheme.id, scheme.origin]));
+
+  assert.equal(originById.get("SCH-PB-IBDP26-CAPITAL"), "state");
+  assert.equal(originById.get("SCH-PMKSY-PER-DROP-MORE-CROP-MICRO-IRRIGATION-8D174C"), "state");
+  assert.equal(originById.get("SCH-PRIME-MINISTER-S-EMPLOYMENT-GENERATION-PRO-D1FEA0"), "central");
+  assert.equal(originById.get("SCH-TREDS-INVOICE-DISCOUNTING-B2B9D2"), "central");
+  assert.ok(punjab.schemes.every((scheme) => scheme.origin === "state" || scheme.origin === "central"));
+});

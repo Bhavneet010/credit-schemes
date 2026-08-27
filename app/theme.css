@@ -247,12 +247,15 @@ mark { background: var(--sun-soft); }
 
 @media (max-width: 680px) {
   :root { --pad: 16px; }
-  .home-head { padding: calc(env(safe-area-inset-top, 0px) + 14px) 16px 6px; }
-  .brand { gap: 8px; font-size: 18px; }
-  .brand-mark { width: 38px; height: 33px; }
-  .home-head .iconbtn { width: 44px; height: 44px; }
+  .home-head { padding: calc(env(safe-area-inset-top, 0px) + 14px) 12px 6px; }
+  .home-head .head-row { gap: 6px; }
+  .head-actions { gap: 4px; }
+  .brand { gap: 6px; font-size: 17px; }
+  .brand-mark { width: 34px; height: 31px; }
+  .home-head .iconbtn { width: 34px; height: 34px; }
+  .home-head .iconbtn svg { width: 18px; height: 18px; }
   .state-picker span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-  .state-picker select { width: 118px; height: 40px; padding-left: 8px; font-size: 12px; }
+  .state-picker select { width: 140px; height: 36px; padding: 0 18px 0 7px; border-radius: 10px; font-size: 11px; }
   .settings-menu { width: 184px; }
   .home-hero { padding: 42px 18px 40px; }
   .home-hero::before,
@@ -293,8 +296,12 @@ mark { background: var(--sun-soft); }
 }
 
 @media (max-width: 370px) {
-  .state-picker select { width: 98px; }
-  .brand span { max-width: 132px; line-height: 1.05; }
+  .home-head { padding-right: 10px; padding-left: 10px; }
+  .state-picker select { width: 140px; }
+  .home-head .iconbtn { width: 32px; height: 32px; }
+  .brand { gap: 5px; font-size: 16px; }
+  .brand-mark { width: 30px; height: 28px; }
+  .brand span { max-width: 70px; line-height: 1.05; }
   .home-hero h1 { font-size: 33px; }
   .start-route { grid-template-columns: 46px 1fr 16px; gap: 9px; padding: 12px 10px; }
   .route-icon { width: 44px; height: 44px; }

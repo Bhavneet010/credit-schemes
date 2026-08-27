@@ -397,7 +397,7 @@
     var st = STATUS[k.status] || [k.status, ""];
     var href = stateHref("/k/" + encodeURIComponent(k.id) +
       (si == null ? "" : "/from/" + encodeURIComponent(D.sectors[si].id)));
-    return '<a class="row" href="' + href + '"><div class="t"><strong>' +
+    return '<a class="row" data-scheme-origin="' + esc(k.origin || "central") + '" href="' + href + '"><div class="t"><strong>' +
       highlight(k.name, toks || []) + "</strong><small>" +
       esc(k.gov) + " · " + esc(st[0]) + "</small></div><i class=\"chev\"></i></a>";
   }
@@ -763,14 +763,26 @@
     return header({ back: "Scheme", title: "Where it applies", sub: k.name }) + "<main>" + body + "</main>";
   };
 
-  views.schemes = function (fam) {
-    var families = D.schemes.map(function (k) { return k.family; })
+  views.schemes = function (scope, fam) {
+    var activeScope = scope === "state" || scope === "central" ? scope : "all";
+    var scopedSchemes = D.schemes.filter(function (k) {
+      return activeScope === "all" || k.origin === activeScope;
+    });
+    var families = scopedSchemes.map(function (k) { return k.family; })
       .filter(function (v, i, a) { return a.indexOf(v) === i; }).sort();
     var active = fam ? decodeURIComponent(fam) : "";
     var list = [];
-    D.schemes.forEach(function (k, i) { if (!active || k.family === active) list.push(i); });
+    D.schemes.forEach(function (k, i) {
+      if ((activeScope === "all" || k.origin === activeScope) && (!active || k.family === active)) list.push(i);
+    });
     list.sort(function (a, b) { return D.schemes[a].name.localeCompare(D.schemes[b].name); });
 
+    var scopes = '<div class="scheme-scope" role="group" aria-label="Scheme origin">' +
+      ["all", "state", "central"].map(function (value) {
+        var label = value.charAt(0).toUpperCase() + value.slice(1);
+        return '<button class="scope-option' + (value === activeScope ? " on" : "") +
+          '" data-scheme-scope="' + value + '" aria-pressed="' + String(value === activeScope) + '">' + label + "</button>";
+      }).join("") + "</div>";
     var chips = '<div class="chips"><button class="chip' + (active ? "" : " on") +
       '" data-fam="">All</button>' + families.map(function (f) {
         return '<button class="chip' + (f === active ? " on" : "") + '" data-fam="' +
@@ -778,7 +790,7 @@
       }).join("") + "</div>";
 
     return header({ title: "Schemes", sub: list.length + " routes", extra: "" }) +
-      "<main>" + chips + '<div class="list">' +
+      "<main>" + scopes + chips + '<div class="list">' +
       list.map(function (i) { return schemeRow(i); }).join("") + "</div></main>";
   };
 
@@ -950,7 +962,10 @@
         html = parts[2] === "where" ? views.schemeWhere(parts[1])
           : views.scheme(parts[1], parts[2] === "from" ? parts[3] : null);
         break;
-      case "schemes": html = views.schemes(parts[1]); break;
+      case "schemes":
+        html = parts[1] === "all" || parts[1] === "state" || parts[1] === "central"
+          ? views.schemes(parts[1], parts[2]) : views.schemes("all", parts[1]);
+        break;
       case "saved": html = views.saved(); break;
       case "more": html = views.more(); break;
       case "contacts": html = views.contacts(); break;
@@ -1017,7 +1032,22 @@
 
     var fam = e.target.closest("[data-fam]");
     if (fam) {
-      location.hash = fam.dataset.fam ? stateHref("/schemes/" + fam.dataset.fam) : stateHref("/schemes");
+      var selectedScope = document.querySelector('[data-scheme-scope][aria-pressed="true"]');
+      var scope = selectedScope ? selectedScope.dataset.schemeScope : "all";
+      location.hash = stateHref("/schemes/" + scope + (fam.dataset.fam ? "/" + fam.dataset.fam : ""));
+      return;
+    }
+
+    var schemeScope = e.target.closest("[data-scheme-scope]");
+    if (schemeScope) {
+      var nextScope = schemeScope.dataset.schemeScope;
+      var activeFamily = document.querySelector("[data-fam].on");
+      var encodedFamily = activeFamily ? activeFamily.dataset.fam : "";
+      var family = encodedFamily ? decodeURIComponent(encodedFamily) : "";
+      var familyAvailable = family && D.schemes.some(function (k) {
+        return (nextScope === "all" || k.origin === nextScope) && k.family === family;
+      });
+      location.hash = stateHref("/schemes/" + nextScope + (familyAvailable ? "/" + encodedFamily : ""));
       return;
     }
 

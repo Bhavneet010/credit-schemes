@@ -1,5 +1,5 @@
 /* Offline-first service worker. Bump CACHE when the data or shell changes. */
-var CACHE = "scheme-finder-v13";
+var CACHE = "scheme-finder-v14";
 var SHELL = [
   "./",
   "./index.html",
