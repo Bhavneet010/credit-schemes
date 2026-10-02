@@ -1,0 +1,1183 @@
+{
+  "sources": [
+    {
+      "code": "LIVX-UKBVVN",
+      "title": "UKBVVN institutional and state-channelising routes",
+      "issuer": "Uttarakhand Bahuuddeshiya Vitt Evam Vikas Nigam",
+      "url": "https://www.ukbvvn.org.in/",
+      "classification": "primary-summary",
+      "locator": "Institutional description and national corporation list; footer last updated 10 June 2022; does not establish current allocations."
+    },
+    {
+      "code": "LIVX-JEEVIKA",
+      "title": "Jeevika Avsar Protsahan Yojana departmental rules summary",
+      "issuer": "UKBVVN",
+      "url": "https://www.ukbvvn.org.in/frmJeevikaAvsarProtsahanYojna.html",
+      "classification": "primary-summary",
+      "locator": "Loan eligibility and financing headings; legacy income line contains inconsistent monthly/annual wording, so no income threshold asserted."
+    },
+    {
+      "code": "LIVX-PM-AJAY",
+      "title": "PM-AJAY revised guidelines linked by Uttarakhand corporation",
+      "issuer": "Department of Social Justice and Empowerment / UKBVVN",
+      "url": "https://www.ukbvvn.org.in/Documents/Guidelines.pdf",
+      "classification": "primary-operative",
+      "locator": "December 2022 revised guideline; Chapter 3 grants-in-aid comprehensive livelihood projects. State publication establishes access surface, not a sanctioned project list."
+    },
+    {
+      "code": "LIVX-DIVYANG",
+      "title": "Uttarakhand Divyang self-employment loan invitation and form",
+      "issuer": "UKBVVN",
+      "url": "https://www.ukbvvn.org.in/News/AppsInvitationFormForDisabled.pdf",
+      "classification": "primary-operative",
+      "locator": "Notice dated December 2025; application deadline 29 December 2025, now past; attached financing application form. Financial OCR unclear, no ceilings asserted."
+    },
+    {
+      "code": "LIVX-SHILPI",
+      "title": "Shilpi Gram SC/ST handicraft development scheme",
+      "issuer": "UKBVVN",
+      "url": "https://www.ukbvvn.org.in/Documents/shilpigram.pdf",
+      "classification": "primary-operative",
+      "locator": "Ten-page Hindi scheme order, scanned; corroborated by UKBVVN scheme heading and description. No financial slabs asserted from unreadable text."
+    },
+    {
+      "code": "LIVX-MINORITY",
+      "title": "Minority self-employment and Hunar programme objectives",
+      "issuer": "Minority Welfare Department, Uttarakhand",
+      "url": "https://minoritywelfare.uk.gov.in/about-department/vision-mission/",
+      "classification": "primary-summary",
+      "locator": "Objectives identify employment-oriented corporation loans and Hunar training linked to business start-up; dated 2 July 2018."
+    },
+    {
+      "code": "LIVX-MINORITY-DASH",
+      "title": "Minority programme beneficiary dashboard",
+      "issuer": "Minority Welfare Department, Uttarakhand",
+      "url": "https://minoritywelfare.uk.gov.in/dashboard/",
+      "classification": "primary-summary",
+      "locator": "Self-employment and Chief Minister Hunar programme rows updated 30 December 2024; historic implementation, not a current call."
+    },
+    {
+      "code": "LIVX-REAP",
+      "title": "REAP-Gramothan state implementation",
+      "issuer": "Rural Development Department, Uttarakhand",
+      "url": "https://ukrd.uk.gov.in/scheme/rural-enterprise-acceleration-project/",
+      "classification": "primary-summary",
+      "locator": "Project 2 June 2022–31 March 2029; scope, beneficiaries and application headings."
+    },
+    {
+      "code": "LIVX-MUY",
+      "title": "Mukhyamantri Udyamshala Yojana",
+      "issuer": "Rural Development Department, Uttarakhand",
+      "url": "https://ukrd.uk.gov.in/scheme/mukhyamantri-udyamshala-yojana-muy/",
+      "classification": "primary-summary",
+      "locator": "Services, beneficiary and How To Apply headings; official page links ukrbi.in/new/."
+    },
+    {
+      "code": "LIVX-HOH",
+      "title": "House of Himalayas livelihood marketing platform",
+      "issuer": "Rural Development Department, Uttarakhand",
+      "url": "https://ukrd.uk.gov.in/scheme/house-of-himalayas/",
+      "classification": "primary-summary",
+      "locator": "Branding, quality, procurement, SHG product development and market linkage description; application heading blank."
+    },
+    {
+      "code": "LIVX-SHG2025",
+      "title": "March 2025 amendments to CM women SHG strengthening scheme",
+      "issuer": "Government of Uttarakhand, Rural Development Section 2",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3e9412ee564384b987d086df32d4ce6b7/uploads/2025/06/202506031847326564.pdf",
+      "classification": "primary-operative",
+      "locator": "Pages 2–3 CLF enterprise revolving assistance, turnover/profit stages and application; pages 3–5 collective quality/marketing and SARAS provisions."
+    },
+    {
+      "code": "LIVX-USRLM",
+      "title": "USRLM financial inclusion, livelihoods and bank-linkage surface",
+      "issuer": "Uttarakhand State Rural Livelihoods Mission",
+      "url": "https://usrlm.uk.gov.in/",
+      "classification": "primary-summary",
+      "locator": "Components, impact RF/CIF headings and Bank Linkage links establish local implementation."
+    },
+    {
+      "code": "LIVX-SVEP",
+      "title": "USRLM state-hosted SVEP livelihood guidelines register",
+      "issuer": "Uttarakhand State Rural Livelihoods Mission",
+      "url": "https://usrlm.uk.gov.in/document-category/livelihoods/",
+      "classification": "primary-summary",
+      "locator": "Four SVEP documents: CEF, CRP-EP, BRC and master guidelines; state-adopted block geography/current intake not established."
+    },
+    {
+      "code": "LIVX-MPRY",
+      "title": "Mukhyamantri Palayan Roktham Yojna",
+      "issuer": "Rural Development Department, Uttarakhand",
+      "url": "https://ukrd.uk.gov.in/scheme/mukhiya-mantri-palayan-roktham-yojnampry/",
+      "classification": "primary-summary",
+      "locator": "Beneficiary and bottom-up BDO/District Screening Committee proposal route; 474 identified villages with possible additions."
+    },
+    {
+      "code": "LIVX-MBADP",
+      "title": "Mukhyamantri Border Area Development Programme",
+      "issuer": "Rural Development Department, Uttarakhand",
+      "url": "https://ukrd.uk.gov.in/scheme/mukhiya-mantri-border-area-development-programmembadp/",
+      "classification": "primary-summary",
+      "locator": "Cluster annual-action-plan convergence, community livelihoods, border tourism and BDO proposal route."
+    },
+    {
+      "code": "LIVX-NULM",
+      "title": "DAY-NULM Uttarakhand enterprise and SHG implementation",
+      "issuer": "Urban Development Department, Uttarakhand",
+      "url": "https://udd.uk.gov.in/deendayal-antyodaya-yojna-national-urban-livelihood-mission-day-nulm/",
+      "classification": "primary-summary",
+      "locator": "SEP and SM&ID components; achievements through FY2024-25. Current programme continuation/intake beyond those years needs city confirmation."
+    },
+    {
+      "code": "LIVX-NULM-BANK",
+      "title": "Uttarakhand Gramin Bank NULM enterprise product",
+      "issuer": "Uttarakhand Gramin Bank",
+      "url": "https://ukgb.bank.in/agriculture/micro-credit/nulm",
+      "classification": "primary-operative",
+      "locator": "Eligibility, Facilities, Rates & Others: individual/group ceilings, ULB and SHG/ALF forwarding; actual interest field is placeholder, not asserted."
+    },
+    {
+      "code": "LIVX-WOOL",
+      "title": "Uttarakhand Wool Scheme productive service centres",
+      "issuer": "Uttarakhand Khadi and Village Industries Board",
+      "url": "https://ukvib.org/uttarakhand-wool-plan",
+      "classification": "primary-summary",
+      "locator": "Chamba, Almora, Srinagar production network and carding/finishing centres; no current admission/fee schedule."
+    },
+    {
+      "code": "LIVX-WOOLBANK",
+      "title": "Uttarakhand wool bank procurement route",
+      "issuer": "Uttarakhand Khadi and Village Industries Board",
+      "url": "https://ukvib.org/details.php?pgID=sb_5",
+      "classification": "primary-summary",
+      "locator": "Local sheep wool procurement and regional wool superintendent application; listed Rs106/kg belongs to 2015-16 and is omitted."
+    },
+    {
+      "code": "LIVX-YARN",
+      "title": "Khadi yarn bank cluster development",
+      "issuer": "Uttarakhand Khadi and Village Industries Board",
+      "url": "https://ukvib.org/details.php?pgID=sb_6",
+      "classification": "primary-summary",
+      "locator": "Training and cluster application instructions: minimum 20 local rural poor women/unemployed/traditional artisans; legacy insurance component not republished."
+    },
+    {
+      "code": "LIVX-EXPO",
+      "title": "Khadi and village industry exhibition stall allocation",
+      "issuer": "Uttarakhand Khadi and Village Industries Board",
+      "url": "https://ukvib.org/details.php?pgID=sb_32",
+      "classification": "primary-operative",
+      "locator": "Eligibility, applicant-paid rental/accommodation and district village industry office/headquarters submission instructions; no fresh event date verified."
+    },
+    {
+      "code": "LIVX-PMEGP",
+      "title": "Uttarakhand PMEGP implementing agencies",
+      "issuer": "District Haridwar / Uttarakhand Khadi and Village Industries Board",
+      "url": "https://haridwar.nic.in/hi/खादी-एवं-ग्राम-उद्योग-बोर/",
+      "classification": "primary-summary",
+      "locator": "District board description identifies PMEGP state DIC/KVIC/KVIB delivery; shared national financial rules retained unchanged."
+    },
+    {
+      "code": "LIVX-WSC",
+      "title": "Weavers Service Centre Chamoli territorial contact",
+      "issuer": "Development Commissioner Handlooms / India Handloom Brand",
+      "url": "https://www.indiahandloombrand.gov.in/pages/contact-details-of-wscs",
+      "classification": "primary-operative",
+      "locator": "WSC Chamoli entry expressly assigns Uttarakhand jurisdiction; enquire about appropriate scheme/service and current sanctioned proposals."
+    },
+    {
+      "code": "LIVX-SKILL",
+      "title": "Uttarakhand Skill Development Mission training",
+      "issuer": "Department of Skill Development and Employment, Uttarakhand",
+      "url": "https://dsde.uk.gov.in/skill-development-mission/",
+      "classification": "primary-summary",
+      "locator": "About paragraph: 3–6 months free short-term training, administered by Uttarakhand Skill Development Committee."
+    },
+    {
+      "code": "LIVX-NAPS",
+      "title": "Uttarakhand apprenticeship and NAPS-2 delivery",
+      "issuer": "Department of Skill Development and Employment, Uttarakhand",
+      "url": "https://dsde.uk.gov.in/apprenticeship-training-scheme/",
+      "classification": "primary-summary",
+      "locator": "State Apprenticeship Advisers and NAPS-2 sections; common national support facts reused unchanged."
+    },
+    {
+      "code": "LIVX-DDUGKY",
+      "title": "Uttarakhand DDU-GKY training and placement route",
+      "issuer": "Rural Development Department, Uttarakhand",
+      "url": "https://ukrd.uk.gov.in/scheme/pradhan-mantri-jan-dhan-yojana/",
+      "classification": "primary-summary",
+      "locator": "Mismatched URL slug verified against title/body and official scheme index. Candidate registration via Kaushal Panjee; placement-led programme."
+    },
+    {
+      "code": "LIVX-UKWDP",
+      "title": "Uttarakhand Workforce Development Project",
+      "issuer": "Department of Skill Development and Employment, Uttarakhand",
+      "url": "https://dsde.uk.gov.in/ukwdp/",
+      "classification": "primary-summary",
+      "locator": "Institutional project components and selected ITIs; no direct enterprise grant/application established."
+    },
+    {
+      "code": "LIVX-VISHWAKARMA",
+      "title": "PM Vishwakarma guidelines hosted by RDSDE Uttarakhand",
+      "issuer": "Regional Directorate of Skill Development and Entrepreneurship, Uttarakhand",
+      "url": "https://rdsdeuttarakhand.dgt.gov.in/sites/default/files/2024-02/PM%20Vishwakarma-Guidelines%20%282%29.pdf",
+      "classification": "primary-operative",
+      "locator": "State-jurisdiction DGT official repository hosts scheme guidelines; local specific centre or current batch not established. National claims remain unchanged."
+    },
+    {
+      "code": "LIVX-SVANIDHI",
+      "title": "PM SVANidhi state implementation and district progress",
+      "issuer": "Urban Development Department, Uttarakhand",
+      "url": "https://udd.uk.gov.in/pm-svanidhi/",
+      "classification": "primary-summary",
+      "locator": "District progress as of 15 June 2026; implementation and interest-support paragraphs. Historical narrative has mixed dates; national monetary facts are reused from common catalogue."
+    },
+    {
+      "code": "LIVX-HANDICRAFTS",
+      "title": "District-wise crafts for skill development components FY2026-27",
+      "issuer": "Development Commissioner Handicrafts, Ministry of Textiles",
+      "url": "https://handicrafts.gov.in/cmsUpload/20260102104219New_Annexure-1%28ITDP%29.pdf",
+      "classification": "primary-summary",
+      "locator": "Official indexed annexure entries 76–84 identify Uttarakhand HSC Almora/Dehradun crafts and districts. Direct PDF retrieval failed; only indexed official text used for limited local delivery evidence."
+    },
+    {
+      "code": "LIVX-JANAUSHADHI",
+      "title": "Jan Aushadhi Kendras state-wise operation June 2026",
+      "issuer": "Department of Pharmaceuticals / PIB",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2297561&lang=1&reg=48",
+      "classification": "primary-summary",
+      "locator": "11 August 2026 parliamentary reply; annexure Uttarakhand entry establishes operating state network. Common national incentives/eligibility unchanged."
+    },
+    {
+      "code": "LIVX-PMBI-PORTAL",
+      "title": "PMBI Jan Aushadhi Kendra application portal",
+      "issuer": "Pharmaceuticals and Medical Devices Bureau of India",
+      "url": "https://www.janaushadhi.gov.in/",
+      "classification": "primary-operative",
+      "locator": "Apply For Kendra and Locate Kendra services; use current online service for site-specific approval, no Uttarakhand exclusive cash entitlement."
+    }
+  ],
+  "schemes": [
+    {
+      "code": "LIVX-JEEVIKA",
+      "name": "Jeevika Avsar Protsahan Yojana — SC/ST enterprise finance",
+      "source": "LIVX-JEEVIKA",
+      "family": "Social category enterprise finance",
+      "support": "Bank-linked margin money and training",
+      "benefit": "Indicative-only legacy summary: projects Rs50,000–Rs2 lakh; 60% bank loan, 30% corporation margin-money loan; grant up to Rs10,000 within residual share. Corporation loan cited at 7%, bank portion at bank rate.",
+      "eligible": "SC/ST Uttarakhand residents; age 18–50 cited in legacy summary. Confirm current income and contribution rules.",
+      "access": "Obtain corporation financing form and ask District Social Welfare Officer, also district corporation manager, to confirm current allocation and financing terms.",
+      "macros": [
+        5,
+        8,
+        9,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "pattern": null,
+      "caution": "Indicative-only; undated legacy summary has inconsistent income wording. No entitlement/current intake asserted; bank sanction and corporation budget govern.",
+      "locator": "Loan eligibility, project cost, interest and training headings."
+    },
+    {
+      "code": "LIVX-SC-SCA",
+      "name": "NSFDC enterprise finance — Uttarakhand channelising route",
+      "source": "LIVX-UKBVVN",
+      "family": "Social category enterprise finance",
+      "support": "Concessional enterprise finance access",
+      "benefit": "UKBVVN identifies itself as the NSFDC state channelising agency for SC self-employment finance; product terms require current corporation confirmation.",
+      "eligible": "Eligible SC entrepreneurs under the selected national corporation product; category and current income documentation required.",
+      "access": "Enquire through UKBVVN and District Social Welfare Officer; submit the common national-corporation financing form only against a confirmed allocation.",
+      "macros": [
+        5,
+        8,
+        9,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "pattern": null,
+      "caution": "Indicative-only state access record; does not create a new national product or assert national ceilings. Last-dated institutional description is legacy.",
+      "locator": "State-channelising agency list and NSFDC implementation paragraph."
+    },
+    {
+      "code": "LIVX-DIVYANG",
+      "name": "Divyang enterprise finance — Uttarakhand corporation route",
+      "source": "LIVX-DIVYANG",
+      "family": "Social category enterprise finance",
+      "support": "Disability enterprise loan access",
+      "benefit": "Official corporation invitation and application form establish self-employment finance for persons with disabilities.",
+      "eligible": "Uttarakhand persons with disabilities satisfying current corporation disability/UDID, project and credit conditions.",
+      "access": "Ask UKBVVN or District Social Welfare Officer for the next authorised intake and use the attached category financing form when instructed.",
+      "macros": [
+        5,
+        8,
+        9,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "pattern": null,
+      "caution": "December 2025 invitation closed on 29 December 2025. No open application claimed; unreadable financial OCR excluded.",
+      "locator": "Notice page 1 and application form page 3."
+    },
+    {
+      "code": "LIVX-SANITATION-SCA",
+      "name": "Safai Karamchari enterprise finance — Uttarakhand channelising route",
+      "source": "LIVX-UKBVVN",
+      "family": "Social category enterprise finance",
+      "support": "Category enterprise finance access",
+      "benefit": "UKBVVN lists itself as channelising agency for the National Safai Karamcharis Finance and Development Corporation.",
+      "eligible": "Eligible sanitation workers and dependants under the selected corporation product; confirmation required.",
+      "access": "Enquire through UKBVVN district corporation manager/District Social Welfare Officer for current product and allocation.",
+      "macros": [
+        14
+      ],
+      "stages": [
+        3,
+        9
+      ],
+      "pattern": null,
+      "caution": "Indicative-only institutional route. Historic SRMS survey/rehabilitation figures do not establish current beneficiary intake.",
+      "locator": "State-channelising corporation list."
+    },
+    {
+      "code": "LIVX-HUNAR",
+      "name": "Chief Minister Hunar Yojana — minority livelihood skills",
+      "source": "LIVX-MINORITY",
+      "family": "Minority enterprise and skills",
+      "support": "Skill development and self-employment linkage",
+      "benefit": "Indicative-only: demand-based skills training with linkage to loans for starting businesses.",
+      "eligible": "Minority applicants meeting the currently notified course and programme selection conditions.",
+      "access": "Contact district minority welfare office for authorised Hunar batches and the corporation loan linkage.",
+      "macros": [
+        8,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "pattern": null,
+      "caution": "Programme objectives dated 2018 and dashboard last updated December 2024; current batch, loan availability and terms unconfirmed.",
+      "locator": "Vision and mission Hunar bullet; corroborated by minority dashboard."
+    },
+    {
+      "code": "LIVX-REAP",
+      "name": "Rural Enterprise Acceleration Project (REAP) — Gramothan",
+      "source": "LIVX-REAP",
+      "family": "Rural livelihoods and enterprise",
+      "support": "Cluster enterprise development and market ecosystem",
+      "benefit": "Indicative-only: climate-resilient value chains and agricultural, non-agricultural/non-farm enterprise development to diversify rural income.",
+      "eligible": "Rural households, farmers and entrepreneurs; state page covers all 95 blocks in 13 districts.",
+      "access": "Approach rural development/project offices for village/cluster selection and the applicable enterprise support component.",
+      "macros": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        14
+      ],
+      "stages": [
+        0,
+        2,
+        3,
+        4,
+        8
+      ],
+      "pattern": null,
+      "caution": "Project existence to March 2029 does not establish universal individual finance or open intake; local selection/allocation determines assistance.",
+      "locator": "Project date, development objective, beneficiary/application headings."
+    },
+    {
+      "code": "LIVX-MUY",
+      "name": "Mukhyamantri Udyamshala Yojana — rural enterprise incubation",
+      "source": "LIVX-MUY",
+      "family": "Rural livelihoods and enterprise",
+      "support": "Mentoring, incubation and finance facilitation",
+      "benefit": "Indicative-only: business planning, compliance, co-working, mentorship, market access and finance/private-investment facilitation.",
+      "eligible": "Aspiring rural entrepreneurs, women, SHGs, community/nano enterprises and socially disadvantaged groups.",
+      "access": "Apply through designated rural incubation centres; state page links http://ukrbi.in/new/, whose current service path should be confirmed at the centre.",
+      "macros": [
+        0,
+        1,
+        5,
+        6,
+        8,
+        14
+      ],
+      "stages": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "pattern": null,
+      "caution": "Access to finance is facilitation, not an automatic loan or grant. Current cohort and selection unconfirmed.",
+      "locator": "Services offered and How To Apply."
+    },
+    {
+      "code": "LIVX-HOH",
+      "name": "House of Himalayas — SHG and producer market linkage",
+      "source": "LIVX-HOH",
+      "family": "Rural livelihoods and enterprise",
+      "support": "Branding, quality and market linkage",
+      "benefit": "Indicative-only: umbrella brand, product development, packaging, quality improvement and e-commerce/retail market channels for collective products.",
+      "eligible": "SHGs, livelihood collectives and other qualifying producer suppliers selected for product sourcing.",
+      "access": "Approach rural development/USRLM or REAP collective support teams for sourcing and quality onboarding; official page has no direct application service.",
+      "macros": [
+        5,
+        6,
+        8
+      ],
+      "stages": [
+        2,
+        4,
+        10
+      ],
+      "pattern": null,
+      "caution": "Collective market platform, not an individual grant or guaranteed procurement/offtake. Supplier onboarding, prices and current products need confirmation.",
+      "locator": "Brand/product quality and SHG/LC development paragraphs."
+    },
+    {
+      "code": "LIVX-SHG-STRENGTH",
+      "name": "Mukhyamantri women SHG strengthening — CLF enterprise support",
+      "source": "LIVX-SHG2025",
+      "family": "Rural livelihoods and enterprise",
+      "support": "Collective revolving enterprise assistance",
+      "benefit": "CLF business-stage assistance up to Rs1 lakh in first stage, Rs2 lakh in second and Rs2 lakh in third; combined up to Rs5 lakh after third-stage criteria. Includes collective marketing/product quality support.",
+      "eligible": "USRLM women CLFs meeting specified annual turnover/profit milestones; organisations already benefited under this component excluded.",
+      "access": "CLF submits annual, audit and business reports to BDO; verification proceeds to District Mission Manager recommendation and Chief Development Officer sanction.",
+      "macros": [
+        5,
+        6,
+        8,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "pattern": null,
+      "caution": "Amounts support the CLF business as revolving fund, not each SHG member. Stage criteria, audit, annual allocations and non-duplication apply; intake unconfirmed.",
+      "locator": "March 2025 amendment pages 2–3; CLF stages and application flow."
+    },
+    {
+      "code": "LIVX-MPRY",
+      "name": "Mukhyamantri Palayan Roktham Yojna — selected village livelihoods",
+      "source": "LIVX-MPRY",
+      "family": "Rural livelihoods and enterprise",
+      "support": "Gap funding and livelihood convergence",
+      "benefit": "Indicative-only: self-employment/skills proposals filling gaps in existing departmental schemes, prioritising agriculture, horticulture and animal husbandry.",
+      "eligible": "Residents, unemployed youth and reverse migrants of commission-identified migration-affected villages; village list may be extended.",
+      "access": "Villagers develop proposals through BDO; district screening reviews and forwards for state approval.",
+      "macros": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "stages": [
+        0,
+        3,
+        11
+      ],
+      "pattern": null,
+      "caution": "Selected-village community proposal route, not universal individual subsidy. Verify village inclusion, approved project and current annual funding.",
+      "locator": "Objective, beneficiary and bottom-up proposal headings."
+    },
+    {
+      "code": "LIVX-MBADP",
+      "name": "Mukhyamantri Border Area Development Programme — community livelihoods",
+      "source": "LIVX-MBADP",
+      "family": "Rural livelihoods and enterprise",
+      "support": "Annual-plan gap funding and common infrastructure",
+      "benefit": "Indicative-only: community livelihood/skill projects, growth centres, technology, organic agriculture and border tourism through scheme convergence.",
+      "eligible": "Remote international-border communities and selected SHGs/producer groups/VOs/CLFs/livelihood cooperatives.",
+      "access": "Prepare cluster/community proposal through BDO for district screening and state annual-action-plan approval.",
+      "macros": [
+        0,
+        1,
+        6,
+        11,
+        13
+      ],
+      "stages": [
+        0,
+        3,
+        11
+      ],
+      "pattern": null,
+      "caution": "Annual-plan collective route; no beneficiary-wide amount or direct grant entitlement. Convergence must avoid duplicate funding.",
+      "locator": "Permitted livelihood activities, annual action plan and proposal flow."
+    },
+    {
+      "code": "LIVX-NULM",
+      "name": "DAY-NULM — Uttarakhand urban self-employment and SHGs",
+      "source": "LIVX-NULM-BANK",
+      "family": "Urban livelihoods",
+      "support": "Enterprise bank loans and SHG linkage",
+      "benefit": "Bank lists loans up to Rs2 lakh individual and Rs10 lakh group, with cash-credit or term-loan options. State mission also describes subsidised SEP finance and SHG organisation/revolving support.",
+      "eligible": "Urban poor enterprise applicants; group minimum five members, at least 70% urban poor; every member at least 18, with SHG/ALF forwarding under bank product.",
+      "access": "Apply to ULB community organiser or through bank/SHG/Area Level Federation; ask city mission office for current SEP sanction/subsidy availability.",
+      "macros": [
+        5,
+        6,
+        8,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "pattern": null,
+      "caution": "Bank sanction and current city programme allocation apply. UDD achievements end FY2024-25; no open city intake claimed. Bank interest placeholder omitted.",
+      "locator": "Bank product Eligibility, Facilities and ULB application bullets."
+    },
+    {
+      "code": "LIVX-WOOL",
+      "name": "Uttarakhand Wool Scheme — carding, finishing and production services",
+      "source": "LIVX-WOOL",
+      "family": "Artisan and textile development",
+      "support": "Productive common facilities",
+      "benefit": "Indicative-only: khadi wool spinning/weaving network and local wool carding/finishing at Almora, Srinagar, Bageshwar and Chamba facilities.",
+      "eligible": "Local wool artisans, institutions/cooperatives and departmental production centres.",
+      "access": "Enquire at regional wool industry superintendent or nearest UKVIB wool production centre for service access and charges.",
+      "macros": [
+        8
+      ],
+      "stages": [
+        1,
+        2
+      ],
+      "pattern": null,
+      "caution": "Published production network is legacy summary; current facility operation, service capacity and fees unconfirmed. Not a capital grant.",
+      "locator": "Wool scheme paragraph and facility list."
+    },
+    {
+      "code": "LIVX-WOOLBANK",
+      "name": "Uttarakhand Wool Bank — local wool procurement",
+      "source": "LIVX-WOOLBANK",
+      "family": "Artisan and textile development",
+      "support": "Raw-material procurement and supply",
+      "benefit": "Indicative-only: departmental committee buys local sheep wool at an Animal Husbandry Department prescribed support price and makes processed local wool available.",
+      "eligible": "Uttarakhand local sheep rearers and wool buyers/artisans using the state wool network.",
+      "access": "Apply/enquire through regional wool industry superintendent or departmental production centre.",
+      "macros": [
+        2,
+        8
+      ],
+      "stages": [
+        1,
+        8
+      ],
+      "pattern": null,
+      "caution": "Current procurement season, quality, quantities and prices require confirmation. Published Rs106/kg is explicitly 2015-16 and not a current rate.",
+      "locator": "Procurement objective and application headings."
+    },
+    {
+      "code": "LIVX-YARN",
+      "name": "Khadi Yarn Bank cluster development",
+      "source": "LIVX-YARN",
+      "family": "Artisan and textile development",
+      "support": "Cluster skills and local productive employment",
+      "benefit": "Indicative-only: organise local spinning/weaving clusters and train artisans to develop livelihoods.",
+      "eligible": "Rural poor women, educated unemployed and traditional artisans; published application requires minimum 20-member cluster.",
+      "access": "Submit cluster-development proposal to regional wool industry superintendent responsible for the district.",
+      "macros": [
+        6,
+        8
+      ],
+      "stages": [
+        1,
+        2
+      ],
+      "pattern": null,
+      "caution": "Legacy webpage; confirm current acceptance and training batch. Obsolete insurance/welfare references excluded.",
+      "locator": "Cluster objective, beneficiary and application paragraph."
+    },
+    {
+      "code": "LIVX-EXPO",
+      "name": "UKVIB exhibitions — artisan and SHG market access",
+      "source": "LIVX-EXPO",
+      "family": "Artisan and textile development",
+      "support": "Selected paid exhibition stalls",
+      "benefit": "Stall allocation for khadi/village industry products with tables, seating and electricity; committee selects applicants.",
+      "eligible": "KVIC/KVIB registered/financed units, PMEGP units, recommended bamboo/natural-fibre groups and Uttarakhand women SHGs.",
+      "access": "Submit prescribed stall form and documents via district village industry office or directly UKVIB Dehradun headquarters; obtain current event notice.",
+      "macros": [
+        5,
+        6,
+        8,
+        9
+      ],
+      "stages": [
+        4
+      ],
+      "pattern": null,
+      "caution": "Participant bears stall rental, travel and accommodation; no blanket reimbursement. Legacy calendar is not proof of an upcoming event or open call.",
+      "locator": "Eligibility, costs, application and allotment committee paragraphs."
+    },
+    {
+      "code": "LIVX-SKILL",
+      "name": "Uttarakhand Skill Development Mission — short-term livelihood training",
+      "source": "LIVX-SKILL",
+      "family": "Skills and enterprise readiness",
+      "support": "Free short-term training",
+      "benefit": "Indicative-only: 3–6 months training for unskilled, semi-skilled and school-dropout learners.",
+      "eligible": "Eligible Uttarakhand learners under authorised programme batches.",
+      "access": "Ask Uttarakhand Skill Development Committee/Department for current approved centres and batch enrolment.",
+      "macros": [
+        13
+      ],
+      "stages": [
+        3
+      ],
+      "pattern": null,
+      "caution": "Training opportunity, not enterprise credit or guaranteed job. Course/batch intake and post-training finance unconfirmed.",
+      "locator": "About paragraph."
+    },
+    {
+      "code": "LIVX-DDUGKY",
+      "name": "DDU-GKY — Uttarakhand rural skills and placement",
+      "source": "LIVX-DDUGKY",
+      "family": "Skills and enterprise readiness",
+      "support": "Placement-led training",
+      "benefit": "Indicative-only: skills, boarding/lodging, on-job training and post-placement support through approved projects.",
+      "eligible": "Eligible rural poor youth and NRLM SHG-family members; current project rules and special-category age concessions apply.",
+      "access": "Register through Kaushal Panjee as linked by state department and confirm an authorised training project with district rural skills team.",
+      "macros": [
+        13
+      ],
+      "stages": [
+        3
+      ],
+      "pattern": null,
+      "caution": "Employment-focused training route, not an enterprise grant. Approved batches, trade and placement outcomes vary; no guaranteed placement asserted.",
+      "locator": "Salient features and candidate registration headings."
+    },
+    {
+      "code": "LIVX-SHILPI",
+      "name": "Shilpi Gram — SC/ST craft livelihoods",
+      "source": "LIVX-UKBVVN",
+      "family": "Artisan and textile development",
+      "support": "Craft skills, technical and market support",
+      "benefit": "Indicative-only: revitalise traditional SC/ST handicrafts through skills, product quality, technical support and marketing.",
+      "eligible": "Uttarakhand SC/ST artisans and selected craft clusters; current beneficiary selection requires district corporation confirmation.",
+      "access": "Enquire with UKBVVN district manager/District Social Welfare Officer for authorised Shilpi Gram training and craft-cluster programmes.",
+      "macros": [
+        6,
+        8
+      ],
+      "stages": [
+        2,
+        4
+      ],
+      "pattern": null,
+      "caution": "Official programme summary and scanned order establish existence; current allocation, cohort, assistance amounts and precise application rules unverified.",
+      "locator": "UKBVVN Shilpi Gram heading, skills/marketing/technical support paragraphs and linked ten-page order."
+    }
+  ],
+  "sharedRoutes": [
+    {
+      "match": "NSTFDC-TERM",
+      "source": "LIVX-UKBVVN",
+      "macros": [
+        5,
+        8,
+        9,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "pattern": null,
+      "agency": "UKBVVN / District Social Welfare Officer",
+      "access": "Use UKBVVN national-corporation financing form; confirm ST product, documentation and current allocation. National benefits/eligibility remain common records."
+    },
+    {
+      "match": "NBCFDC-GENERAL",
+      "source": "LIVX-UKBVVN",
+      "macros": [
+        5,
+        8,
+        9,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "pattern": null,
+      "agency": "UKBVVN / District Social Welfare Officer",
+      "access": "Confirm OBC income/category documentation and current national-corporation allocation with district corporation manager; apply using corporation financing form."
+    },
+    {
+      "match": "NBCFDC-NEW-SWARNIMA",
+      "source": "LIVX-UKBVVN",
+      "macros": [
+        5,
+        8,
+        9,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "pattern": null,
+      "agency": "UKBVVN / District Social Welfare Officer",
+      "access": "Ask for availability of the selected women/OBC national product; SCA listing proves institutional channel, not product-specific live intake."
+    },
+    {
+      "match": "NMDFC-TERM",
+      "source": "LIVX-MINORITY",
+      "macros": [
+        5,
+        8,
+        9,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "pattern": null,
+      "agency": "Uttarakhand Minority Welfare and Waqf Development Corporation / district minority welfare office",
+      "access": "Contact Minority Welfare Department for current corporation loan application and allocation; use official department channel because its old corporation domain is no longer trustworthy."
+    },
+    {
+      "match": "DAY-NRLM",
+      "source": "LIVX-USRLM",
+      "macros": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        14
+      ],
+      "stages": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "pattern": null,
+      "agency": "USRLM / BDO Block Mission Manager",
+      "access": "Women approach nearest BDO and NRLM Block Mission Manager for SHG enrolment, bank linkage and approved livelihoods. RF/CIF and national interest support reuse common rules."
+    },
+    {
+      "match": "START-UP-VILLAGE",
+      "source": "LIVX-SVEP",
+      "macros": [
+        5,
+        6,
+        8,
+        9,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "pattern": null,
+      "agency": "USRLM / selected-block SVEP BRC and SHG federations",
+      "access": "Ask USRLM/Block Mission Manager whether the block has sanctioned SVEP and an active BRC/CRP-EP; enterprise selection and CEF are through community institutions, not a universal grant."
+    },
+    {
+      "match": "PM-VISHWAKARMA",
+      "source": "LIVX-VISHWAKARMA",
+      "macros": [
+        8
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "pattern": null,
+      "agency": "CSC / RDSDE Uttarakhand / district verification committees",
+      "access": "Apply through the common scheme CSC registration route with local-body/district verification; ask RDSDE Uttarakhand for approved trade training centres. State-hosted guideline verifies the local official surface; no current batch/intake asserted."
+    },
+    {
+      "match": "NATIONAL-HANDLOOM-DEVELOPMENT",
+      "source": "LIVX-WSC",
+      "macros": [
+        6,
+        8
+      ],
+      "stages": [
+        2,
+        4
+      ],
+      "pattern": null,
+      "agency": "Weavers Service Centre Chamoli / Directorate of Industries",
+      "access": "Contact WSC Chamoli, whose jurisdiction is Uttarakhand, for appropriate handloom support and state-sanctioned proposals; shared national terms retained unchanged."
+    },
+    {
+      "match": "WEAVER-MUDRA",
+      "source": "LIVX-WSC",
+      "macros": [
+        8
+      ],
+      "stages": [
+        1,
+        2
+      ],
+      "pattern": null,
+      "agency": "Weavers Service Centre Chamoli / designated lender",
+      "access": "Ask WSC Chamoli about current weaver-credit facilitation and participating bank; individual lending/interest support needs lender and programme approval."
+    },
+    {
+      "match": "HANDLOOM-RAW-MATERIAL",
+      "source": "LIVX-WSC",
+      "macros": [
+        8
+      ],
+      "stages": [
+        1,
+        2
+      ],
+      "pattern": null,
+      "agency": "Weavers Service Centre Chamoli / NHDC designated supply route",
+      "access": "Enquire with Uttarakhand-jurisdiction WSC Chamoli for current yarn/material supply route and producer documentation; no state depot/stock availability claimed."
+    },
+    {
+      "match": "EMPLOYMENT-GENERATION-PRO",
+      "source": "LIVX-PMEGP",
+      "macros": [
+        5,
+        8,
+        9,
+        14
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "pattern": null,
+      "agency": "KVIC Uttarakhand / UKVIB / District Industries Centre",
+      "access": "Use common PMEGP portal and select the relevant Uttarakhand implementing agency; state DIC, KVIC and KVIB channel confirmed by district page."
+    },
+    {
+      "match": "NATIONAL-APPRENTICESHIP",
+      "source": "LIVX-NAPS",
+      "macros": [
+        5,
+        8,
+        9,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "pattern": null,
+      "agency": "State Apprenticeship Adviser / registered establishment",
+      "access": "Register establishment/apprentice and contract through Apprenticeship India; state adviser covers state/private establishments. Reuse NAPS-2 common rules and exclusions."
+    },
+    {
+      "match": "PM-SVANIDHI",
+      "source": "LIVX-SVANIDHI",
+      "macros": [
+        14
+      ],
+      "stages": [
+        4
+      ],
+      "pattern": null,
+      "agency": "Urban Development Directorate / ULB Town Vending Committee / designated bank",
+      "access": "Use common PM SVANidhi portal via local ULB/Town Vending Committee or lender for vendor eligibility/identification and loan processing. State implementation is evidenced through June 2026; current eligibility and restructured tranches remain common facts."
+    },
+    {
+      "match": "NATIONAL-HANDICRAFTS-DEVELOPMENT",
+      "source": "LIVX-HANDICRAFTS",
+      "macros": [
+        8
+      ],
+      "stages": [
+        2,
+        4
+      ],
+      "pattern": null,
+      "agency": "Handicrafts Service Centre Almora / Dehradun; Development Commissioner Handicrafts",
+      "access": "Ask HSC Almora/Dehradun about current sanctioned district/craft skill, design and market support, artisan identification and implementing agency. FY2026-27 indexed district-craft annexure supports the local official surface; individual batch access still unconfirmed."
+    },
+    {
+      "match": "BHARTIYA-JANAUSHADHI",
+      "source": "LIVX-JANAUSHADHI",
+      "macros": [
+        7,
+        14
+      ],
+      "stages": [
+        4
+      ],
+      "pattern": null,
+      "agency": "PMBI / Uttarakhand drug licensing authority",
+      "access": "Use PMBI official Apply For Kendra service at https://www.janaushadhi.gov.in/ for a proposed Uttarakhand retail site; obtain requisite local drug licence and pharmacist documentation under unchanged common rules. Operating state network does not prove a site is eligible or intake approved."
+    }
+  ],
+  "agencies": [
+    {
+      "code": "LIVX-UKBVVN",
+      "source": "LIVX-UKBVVN",
+      "macros": [
+        5,
+        6,
+        8,
+        9,
+        14
+      ],
+      "title": "UKBVVN / District Social Welfare Officers",
+      "outcome": "official-surface-reviewed; category enterprise finance access established, current product allocations unconfirmed"
+    },
+    {
+      "code": "LIVX-USRLM",
+      "source": "LIVX-USRLM",
+      "macros": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        14
+      ],
+      "title": "Uttarakhand State Rural Livelihoods Mission",
+      "outcome": "official-surface-reviewed; RF/CIF bank linkage and SVEP document channels reviewed; selected SVEP blocks need confirmation"
+    },
+    {
+      "code": "LIVX-UKVIB",
+      "source": "LIVX-WOOL",
+      "macros": [
+        2,
+        5,
+        6,
+        8,
+        9
+      ],
+      "title": "Uttarakhand Khadi and Village Industries Board",
+      "outcome": "official-surface-reviewed; wool facilities, procurement, clusters, exhibition and PMEGP delivery mapped; legacy rates excluded"
+    },
+    {
+      "code": "LIVX-URBAN",
+      "source": "LIVX-NULM",
+      "macros": [
+        5,
+        6,
+        8,
+        14
+      ],
+      "title": "Urban Development Directorate / SUDA / ULBs",
+      "outcome": "official-surface-reviewed; urban enterprise and SHG routes established, current city sanction/subsidy availability pending"
+    },
+    {
+      "code": "LIVX-WSC",
+      "source": "LIVX-WSC",
+      "macros": [
+        6,
+        8
+      ],
+      "title": "Weavers Service Centre Chamoli",
+      "outcome": "official-surface-reviewed; Uttarakhand territorial delivery contact established; scheme and sanction availability to confirm"
+    },
+    {
+      "code": "LIVX-MINORITY",
+      "source": "LIVX-MINORITY",
+      "macros": [
+        5,
+        8,
+        13,
+        14
+      ],
+      "title": "Minority Welfare Department / Minority Welfare and Waqf Development Corporation",
+      "outcome": "official-surface-reviewed; minority loans and Hunar documented; old corporation domain unsafe, district channel retained"
+    },
+    {
+      "code": "LIVX-DSDE",
+      "source": "LIVX-SKILL",
+      "macros": [
+        13
+      ],
+      "title": "Department of Skill Development and Employment / Skill Development Committee",
+      "outcome": "official-surface-reviewed; training/apprenticeship delivery established; UKWDP institution-only components distinguished"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "PM-AJAY comprehensive livelihood projects",
+      "disposition": "intermediary-only",
+      "reason": "State corporation hosts operative central guideline and application form. District/state approved projects, skills and productive assets are eligible pathway; not a universal direct individual grant. Confirm sanctioned local projects before adding beneficiary component.",
+      "sources": [
+        "LIVX-PM-AJAY"
+      ]
+    },
+    {
+      "name": "Shilpi Gram SC/ST handicraft development",
+      "disposition": "unverified-lead",
+      "reason": "Official ten-page order and corporation programme summary establish existence. Publish limited indicative-only non-monetary route; scanned financial/eligibility text and current budget need readable verification.",
+      "sources": [
+        "LIVX-SHILPI",
+        "LIVX-UKBVVN"
+      ]
+    },
+    {
+      "name": "Divyang loan application December 2025 window",
+      "disposition": "no-current-intake",
+      "reason": "Specific invitation deadline 29 December 2025 has passed. Preserve institutional enterprise route; do not republish the call as open.",
+      "sources": [
+        "LIVX-DIVYANG"
+      ]
+    },
+    {
+      "name": "Khadi sale rebate",
+      "disposition": "unverified-lead",
+      "reason": "UKVIB lists rebate at https://ukvib.org/details.php?pgID=sb_8; no operative current financial year reimbursement order verified. Do not claim continuing discount/reimbursement.",
+      "sources": [
+        "LIVX-WOOL"
+      ]
+    },
+    {
+      "name": "Chief Minister Sashakt Behna Utsav marketing events",
+      "disposition": "component",
+      "reason": "Rural department has event page; marketing opportunity overlaps SHG/House of Himalayas/UKVIB routes. No distinct operative funding entitlement verified.",
+      "sources": [
+        "LIVX-SHG2025",
+        "LIVX-HOH"
+      ]
+    },
+    {
+      "name": "Lakhpati Didi",
+      "disposition": "component",
+      "reason": "SHG strengthening amendment describes outcome supported by CLF business assistance and MUY marketing centres. Treat as livelihood target/convergence, not another automatic grant.",
+      "sources": [
+        "LIVX-SHG2025"
+      ]
+    },
+    {
+      "name": "Rural Business Incubator / RBI",
+      "disposition": "duplicate/alias",
+      "reason": "Current SHG amendment identifies RBI as earlier name of Mukhyamantri Udyamshala; avoid duplicate incubation scheme.",
+      "sources": [
+        "LIVX-SHG2025",
+        "LIVX-MUY"
+      ]
+    },
+    {
+      "name": "RSETI rural self-employment training",
+      "disposition": "component",
+      "reason": "State DAY-NRLM page identifies RSETIs as skills route; enquiry via block NRLM and sponsor bank. Included under NRLM delivery, not a new state cash subsidy.",
+      "sources": [
+        "LIVX-USRLM"
+      ]
+    },
+    {
+      "name": "Uttarakhand Workforce Development Project and PM-SETU industry partnership",
+      "disposition": "intermediary-only",
+      "reason": "UKWDP strengthens selected ITIs/training systems; DSDE homepage also lists anchor industry partner selection under PM-SETU. Institution/procurement route, not direct applicant enterprise finance.",
+      "sources": [
+        "LIVX-UKWDP",
+        "LIVX-SKILL"
+      ]
+    },
+    {
+      "name": "Urban Utthan EST&P old provider EOI",
+      "disposition": "closed/superseded",
+      "reason": "Official SUDA RFP at https://udd.uk.gov.in/files/RFP_of_ESTP_under_DAY-NULM.pdf was for 2018-19/2019-20 and closed 25 July 2018. Does not establish current provider empanelment.",
+      "sources": [
+        "LIVX-NULM"
+      ]
+    },
+    {
+      "name": "Social/minority pensions, student scholarships, marriage/education incentives and housing",
+      "disposition": "outside scope",
+      "reason": "Non-productive welfare excluded from enterprise credit catalogue; skills/enterprise loan routes handled separately. Educational loans are not business capital.",
+      "sources": [
+        "LIVX-MINORITY",
+        "LIVX-UKBVVN"
+      ]
+    },
+    {
+      "name": "SMILE social rehabilitation and historic SRMS beneficiary survey",
+      "disposition": "outside scope",
+      "reason": "State corporation surfaces SMILE and historic manual-scavenger rehabilitation; no current productive enterprise financing intake established beyond NSKFDC institutional route.",
+      "sources": [
+        "LIVX-UKBVVN"
+      ]
+    },
+    {
+      "name": "PM SVANidhi Uttarakhand additional interest support",
+      "disposition": "component",
+      "reason": "UDD summary mentions an additional 2% state subsidy and further planned interest coverage. Operative sanction/rules, budget and claim flow not verified; do not publish as guaranteed interest-free credit or alter common national interest benefit.",
+      "sources": [
+        "LIVX-SVANIDHI"
+      ]
+    }
+  ],
+  "failedAccess": [
+    {
+      "url": "https://alpsankhyak.org.in/",
+      "alternate": "https://minoritywelfare.uk.gov.in/about-department/vision-mission/",
+      "outcome": "old official outgoing domain now serves unrelated betting content; excluded from applicant access and evidence",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "url": "https://nmdfc.org/scas",
+      "alternate": "https://nmdfc.org/",
+      "outcome": "state channelising list endpoint unavailable; state minority department institutional route used without product-specific intake claim",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "url": "https://handlooms.nic.in/assets/img/About%20Us/Citizens%20Charter/Citizen%20Charter%20%20Chamoli637618647423490611.pdf",
+      "alternate": "https://www.indiahandloombrand.gov.in/pages/contact-details-of-wscs",
+      "outcome": "502; official WSC contact/jurisdiction register accessible",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "url": "https://handicrafts.gov.in/cmsUpload/20260102104219New_Annexure-1%28ITDP%29.pdf",
+      "alternate": "Official indexed FY2026-27 district/craft annexure; handicrafts nomination records and events index",
+      "outcome": "direct PDF and website access failed; limited official indexed state/HSC identification retained with summary caution",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    }
+  ],
+  "coverageNotes": [
+    "Research cutoff 2026-10-02, under root refresh-state STATE-IN-UK. Scope here is social/category enterprise finance, rural/urban livelihoods, crafts/khadi/handloom and skills. National scheme facts and common catalogue unchanged.",
+    "Existing Motorcycle Taxi and E-Rickshaw scheme records are already part of base state pack; no duplicate transport subsidy added. Enterprise finance mappings restricted to approved projects and borrower categories.",
+    "Sources distinguish productive loans, common production facilities, procurement/marketing and skills from pensions, scholarships and other consumption welfare.",
+    "PM-AJAY and border/migration programmes use district/community plans; do not map as universal individual grants. SVEP needs selected block confirmation. Training provider tenders are not learner entitlements.",
+    "Indicative-only summary wording carries financial/eligibility/intake caveats. No route is labelled open now; district allocations/current sanction unconfirmed. Recheck unknown intake on 2026-10-16.",
+    "PM SVANidhi additional state interest support is a component candidate until operative state rules are verified; shared restructured national record reused without revision. Janaushadhi retail state network verified by August 2026 reply; PMBI approval remains site-specific."
+  ]
+}

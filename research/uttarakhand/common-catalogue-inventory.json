@@ -1,0 +1,788 @@
+[
+  {
+    "id": "SCH-PM-KUSUM-SAUR-SINCHAI-IMPLEMENTATION-IN-HP-51246F",
+    "name": "PM-KUSUM / Saur Sinchai implementation in HP",
+    "disposition": "other-state-excluded",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-MIDH-IMPLEMENTATION-IN-HIMACHAL-PRADESH-F434B5",
+    "name": "MIDH implementation in Himachal Pradesh",
+    "disposition": "other-state-excluded",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-PMKSY-PER-DROP-MORE-CROP-MICRO-IRRIGATION-8D174C",
+    "name": "PMKSY – Per Drop More Crop (micro-irrigation)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-WEATHER-BASED-CROP-INSURANCE-SCHEME-HORTIC-5AB1B7",
+    "name": "Weather Based Crop Insurance Scheme – horticulture crops",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-MARKET-INTERVENTION-SCHEME-FOR-APPLE-MANGO-006D7B",
+    "name": "Market Intervention Scheme for apple/mango/citrus",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-FISHERIES-INSURANCE-UNDER-PMMSY-HP-IMPLEME-512871",
+    "name": "Fisheries insurance under PMMSY/HP implementation",
+    "disposition": "other-state-excluded",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-PRIME-MINISTER-S-EMPLOYMENT-GENERATION-PRO-D1FEA0",
+    "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-PMEGP-2ND-LOAN-FOR-UPGRADATION-99CA6F",
+    "name": "PMEGP 2nd Loan for Upgradation",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-PRADHAN-MANTRI-MUDRA-YOJANA-PMMY-1FCCD7",
+    "name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-CGTMSE-CREDIT-GUARANTEE-A17996",
+    "name": "CGTMSE credit guarantee",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-PM-VISHWAKARMA-AD66E3",
+    "name": "PM Vishwakarma",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-PM-SVANIDHI-RESTRUCTURED-FBA69A",
+    "name": "PM SVANidhi (restructured)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-SPECIAL-CREDIT-LINKED-CAPITAL-SUBSIDY-SCHE-BDBAEA",
+    "name": "Special Credit Linked Capital Subsidy Scheme (SCLCSS)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-MICRO-AND-SMALL-ENTERPRISES-CLUSTER-DEVELO-C4AA57",
+    "name": "Micro and Small Enterprises Cluster Development Programme (MSE-CDP)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-SFURTI-SCHEME-OF-FUND-FOR-REGENERATION-OF--C61C70",
+    "name": "SFURTI – Scheme of Fund for Regeneration of Traditional Industries",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-MSME-SUSTAINABLE-ZED-CERTIFICATION-9DC992",
+    "name": "MSME Sustainable (ZED) Certification",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-MSME-COMPETITIVE-LEAN-0AFE18",
+    "name": "MSME Competitive (LEAN)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-MSE-GIFT-GREEN-INVESTMENT-AND-FINANCING-FO-EE865F",
+    "name": "MSE GIFT – Green Investment and Financing for Transformation",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-MSE-SPICE-CIRCULAR-ECONOMY-INVESTMENT-0B6A5E",
+    "name": "MSE SPICE – circular economy investment",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-MSME-TEAM-INITIATIVE-E-COMMERCE-ONDC-EC9C01",
+    "name": "MSME TEAM initiative – e-commerce/ONDC",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-ADEETIE-ASSISTANCE-IN-DEPLOYING-ENERGY-EFF-2B4DB7",
+    "name": "ADEETIE – Assistance in Deploying Energy Efficient Technologies in Industries",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-RAISING-AND-ACCELERATING-MSME-PERFORMANCE--8ED3FE",
+    "name": "Raising and Accelerating MSME Performance (RAMP)",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-PUBLIC-PROCUREMENT-POLICY-FOR-MSES-934235",
+    "name": "Public Procurement Policy for MSEs",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-NATIONAL-SC-ST-HUB-NSSH-873A63",
+    "name": "National SC-ST Hub (NSSH)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-PROCUREMENT-AND-MARKETING-SUPPORT-PMS-708FB2",
+    "name": "Procurement and Marketing Support (PMS)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-INTERNATIONAL-COOPERATION-SCHEME-DBF1B0",
+    "name": "International Cooperation Scheme",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-ENTREPRENEURSHIP-AND-SKILL-DEVELOPMENT-PRO-8C6AA1",
+    "name": "Entrepreneurship and Skill Development Programme (ESDP)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-ASPIRE-LIVELIHOOD-BUSINESS-INCUBATORS-FUND-B5AD45",
+    "name": "ASPIRE – Livelihood Business Incubators / Fund of Funds",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-COIR-VIKAS-YOJANA-697965",
+    "name": "Coir Vikas Yojana",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-TREDS-INVOICE-DISCOUNTING-B2B9D2",
+    "name": "TReDS invoice discounting",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-MUTUAL-CREDIT-GUARANTEE-SCHEME-FOR-MSMES-M-8AEB3C",
+    "name": "Mutual Credit Guarantee Scheme for MSMEs (MCGS-MSME)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-CREDIT-GUARANTEE-SCHEME-FOR-STARTUPS-CGSS-AEC55B",
+    "name": "Credit Guarantee Scheme for Startups (CGSS)",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-SIDBI-SPEED-RATIONALISED-MACHINERY-EQUIPME-F0E9A0",
+    "name": "SIDBI SPEED (rationalised machinery/equipment finance)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-SIDBI-PRAYAAS-BC3E4F",
+    "name": "SIDBI PRAYAAS",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-SIDBI-DIGITAL-BUSINESS-LOAN-248602",
+    "name": "SIDBI digital business loan",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-MICRO-CREDIT-CARD-SCHEME-FOR-MICRO-ENTERPR-A89A30",
+    "name": "Micro Credit Card Scheme for Micro Enterprises",
+    "disposition": "period-or-scope-review-required",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-SELF-RELIANT-INDIA-SRI-FUND-15347E",
+    "name": "Self-Reliant India (SRI) Fund",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-MSME-INNOVATIVE-INCUBATION-DESIGN-AND-IPR-7FB8BA",
+    "name": "MSME Innovative – Incubation, Design and IPR",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-NSIC-RAW-MATERIAL-ASSISTANCE-AGAINST-BANK--1C87E0",
+    "name": "NSIC Raw Material Assistance against Bank Guarantee",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-NSIC-SINGLE-POINT-REGISTRATION-SCHEME-SPRS-2DAF35",
+    "name": "NSIC Single Point Registration Scheme (SPRS)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-MSE-ONLINE-DISPUTE-RESOLUTION-ODR-FOR-DELA-C9A3F2",
+    "name": "MSE Online Dispute Resolution (ODR) for delayed payments",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-EXPORT-PROMOTION-MISSION-NIRYAT-PROTSAHAN--9BBF48",
+    "name": "Export Promotion Mission – Niryat Protsahan finance interventions",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-EXPORT-PROMOTION-MISSION-TRACE-AND-NIRYAT--62AE41",
+    "name": "Export Promotion Mission – TRACE and Niryat Disha market-readiness support",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-REVAMPED-PHARMACEUTICAL-TECHNOLOGY-UPGRADA-C98303",
+    "name": "Revamped Pharmaceutical Technology Upgradation Assistance Scheme (RPTUAS)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-ASSISTANCE-TO-PHARMACEUTICAL-INDUSTRY-FOR--188056",
+    "name": "Assistance to Pharmaceutical Industry for Common Facilities (API-CF)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-SMDI-MARGINAL-INVESTMENT-SCHEME-FOR-REDUCI-A89898",
+    "name": "SMDI – Marginal Investment Scheme for Reducing Import Dependence (MIS-RID)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-SMDI-MEDICAL-DEVICE-CLINICAL-STUDIES-SUPPO-E2A6A3",
+    "name": "SMDI – Medical Device Clinical Studies Support",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-SMDI-COMMON-FACILITIES-FOR-MEDICAL-DEVICE--91ED11",
+    "name": "SMDI – Common Facilities for Medical Device Clusters",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-PRADHAN-MANTRI-BHARTIYA-JANAUSHADHI-PARIYO-9AEA2A",
+    "name": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana – Jan Aushadhi Kendra",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-HIMACHAL-PRADESH-BULK-DRUG-PARK-HAROLI-UNA-12483C",
+    "name": "Himachal Pradesh Bulk Drug Park – Haroli, Una",
+    "disposition": "other-state-excluded",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-BIOTECHNOLOGY-IGNITION-GRANT-BIG-79D1D8",
+    "name": "Biotechnology Ignition Grant (BIG)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-INNOVATIONS-FOR-DEFENCE-EXCELLENCE-IDEX-SP-4F5473",
+    "name": "Innovations for Defence Excellence (iDEX / SPARK)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-DRDO-TECHNOLOGY-DEVELOPMENT-FUND-TDF-F6BBFD",
+    "name": "DRDO Technology Development Fund (TDF)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-ELECTRONICS-COMPONENT-MANUFACTURING-SCHEME-E38CBD",
+    "name": "Electronics Component Manufacturing Scheme (ECMS) – Target Segment D",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-ROSCTL-REBATE-OF-STATE-AND-CENTRAL-TAXES-A-CB6563",
+    "name": "RoSCTL – Rebate of State and Central Taxes and Levies",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-AGRICULTURE-INFRASTRUCTURE-FUND-AIF-D26F78",
+    "name": "Agriculture Infrastructure Fund (AIF)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-FORMATION-AND-PROMOTION-OF-10-000-FPOS-C527F0",
+    "name": "Formation and Promotion of 10,000 FPOs",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-AGRI-CLINICS-AND-AGRI-BUSINESS-CENTRES-ACA-39EEDF",
+    "name": "Agri-Clinics and Agri-Business Centres (ACABC)",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-KISAN-CREDIT-CARD-KCC-MODIFIED-INTEREST-SU-D5002C",
+    "name": "Kisan Credit Card (KCC) / Modified Interest Subvention Scheme",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-PRADHAN-MANTRI-FASAL-BIMA-YOJANA-PMFBY-7C1EEB",
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-SUB-MISSION-ON-AGRICULTURAL-MECHANIZATION--F2E432",
+    "name": "Sub-Mission on Agricultural Mechanization (SMAM)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-NATIONAL-BAMBOO-MISSION-6A54FF",
+    "name": "National Bamboo Mission",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-RASHTRIYA-KRISHI-VIKAS-YOJANA-PM-RKVY-157C16",
+    "name": "Rashtriya Krishi Vikas Yojana (PM-RKVY)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-ATMA-SUPPORT-TO-STATE-EXTENSION-PROGRAMMES-6DDB45",
+    "name": "ATMA – Support to State Extension Programmes",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-PARAMPARAGAT-KRISHI-VIKAS-YOJANA-NATURAL-F-89AD68",
+    "name": "Paramparagat Krishi Vikas Yojana / Natural Farming component",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-NHB-COMMERCIAL-HORTICULTURE-DEVELOPMENT-39D056",
+    "name": "NHB Commercial Horticulture Development",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-NHB-INTEGRATED-POST-HARVEST-MANAGEMENT-82732D",
+    "name": "NHB Integrated Post-Harvest Management",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-NHB-COLD-STORAGE-CONTROLLED-ATMOSPHERE-STO-82EB4C",
+    "name": "NHB Cold Storage / Controlled Atmosphere Storage",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-MIDH-MUSHROOM-PRODUCTION-SPAWN-COMPOST-UNI-04EE81",
+    "name": "MIDH mushroom production/spawn/compost units",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-NATIONAL-LIVESTOCK-MISSION-ENTREPRENEURSHI-72C9C6",
+    "name": "National Livestock Mission – Entrepreneurship Development Programme",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-RASHTRIYA-GOKUL-MISSION-BREED-MULTIPLICATI-932D43",
+    "name": "Rashtriya Gokul Mission – breed multiplication/IVF/sex-sorted semen",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-ANIMAL-HUSBANDRY-INFRASTRUCTURE-DEVELOPMEN-E69156",
+    "name": "Animal Husbandry Infrastructure Development Fund (AHIDF)",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-SUPPORTING-DAIRY-COOPERATIVES-AND-FARMER-P-705C4A",
+    "name": "Supporting Dairy Cooperatives and Farmer Producer Organisations (SDCFPO)",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-PRADHAN-MANTRI-MATSYA-SAMPADA-YOJANA-PMMSY-5A9DE6",
+    "name": "Pradhan Mantri Matsya Sampada Yojana (PMMSY) – beneficiary activities",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-PRADHAN-MANTRI-MATSYA-KISAN-SAMRIDHI-SAH-Y-2153DA",
+    "name": "Pradhan Mantri Matsya Kisan Samridhi Sah-Yojana (PM-MKSSY)",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-FISHERIES-AND-AQUACULTURE-INFRASTRUCTURE-D-2E9384",
+    "name": "Fisheries and Aquaculture Infrastructure Development Fund (FIDF)",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-PM-KISAN-SAMPADA-YOJANA-CURRENT-COMPONENT--3045C9",
+    "name": "PM Kisan SAMPADA Yojana – current component calls",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-PM-FORMALISATION-OF-MICRO-FOOD-PROCESSING--8FBEBD",
+    "name": "PM Formalisation of Micro Food Processing Enterprises (PMFME)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-NABARD-REFINANCE-SCHEME-FOR-AFFORDABLE-CRE-D867B5",
+    "name": "NABARD Refinance Scheme for affordable credit to food-processing units",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-NCDC-ASSISTANCE-TO-COOPERATIVES-782FC9",
+    "name": "NCDC assistance to cooperatives",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-NSTFDC-TERM-LOAN-SCHEME-933EB9",
+    "name": "NSTFDC Term Loan Scheme",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-NBCFDC-GENERAL-LOAN-SCHEME-FE8D72",
+    "name": "NBCFDC General Loan Scheme",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-NBCFDC-NEW-SWARNIMA-FOR-WOMEN-A6B4E6",
+    "name": "NBCFDC New Swarnima for Women",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-NMDFC-TERM-LOAN-SCHEME-88BCA2",
+    "name": "NMDFC Term Loan Scheme",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-SOIL-HEALTH-FERTILITY-SOIL-HEALTH-CARD-AA697B",
+    "name": "Soil Health & Fertility / Soil Health Card",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-FOOD-NUTRITION-SECURITY-NATIONAL-FOOD-SECU-4CAA1E",
+    "name": "Food & Nutrition Security / National Food Security Mission",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-SUB-MISSION-ON-SEEDS-AND-PLANTING-MATERIAL-4284C4",
+    "name": "Sub-Mission on Seeds and Planting Material / Seed Village",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-SUB-MISSION-ON-AGROFORESTRY-29B841",
+    "name": "Sub-Mission on Agroforestry",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-NATIONAL-MISSION-ON-NATURAL-FARMING-NMNF-F-47D94E",
+    "name": "National Mission on Natural Farming (NMNF) – farmer incentive",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-NATIONAL-MISSION-ON-NATURAL-FARMING-BIO-IN-895615",
+    "name": "National Mission on Natural Farming – Bio-input Resource Centre",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-NATIONAL-MISSION-ON-EDIBLE-OILS-OILSEEDS-N-C15D3A",
+    "name": "National Mission on Edible Oils – Oilseeds (NMEO-Oilseeds)",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-NATIONAL-MISSION-ON-PULSES-FA4C63",
+    "name": "National Mission on Pulses",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-PM-DHAN-DHAANYA-KRISHI-YOJANA-BILASPUR-DIS-1EA8FC",
+    "name": "PM Dhan-Dhaanya Krishi Yojana – Bilaspur district convergence",
+    "disposition": "other-state-excluded",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-RKVY-INNOVATION-AGRI-ENTREPRENEURSHIP-PROG-B73A0D",
+    "name": "RKVY Innovation & Agri-Entrepreneurship Programme",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-AGRISURE-AGRI-FUND-FOR-STARTUPS-RURAL-ENTE-F45579",
+    "name": "AgriSURE – Agri Fund for Startups & Rural Enterprises",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-E-NAM-NATIONAL-AGRICULTURE-MARKET-760281",
+    "name": "e-NAM – National Agriculture Market",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-CREDIT-GUARANTEE-SCHEME-FOR-E-NWR-BASED-PL-CE4A2E",
+    "name": "Credit Guarantee Scheme for e-NWR based Pledge Financing (CGS-NPF)",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-PM-AASHA-PRICE-SUPPORT-PRICE-DEFICIENCY-RO-1DA9FD",
+    "name": "PM-AASHA – Price Support / Price Deficiency routes",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-PM-KISAN-INCOME-SUPPORT-9949E7",
+    "name": "PM-KISAN income support",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-PRADHAN-MANTRI-KISAN-MAANDHAN-YOJANA-PM-KM-994C9E",
+    "name": "Pradhan Mantri Kisan Maandhan Yojana (PM-KMY)",
+    "disposition": "period-or-scope-review-required",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-NATIONAL-BEEKEEPING-HONEY-MISSION-NBHM-C738A4",
+    "name": "National Beekeeping & Honey Mission (NBHM)",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-NATIONAL-AYUSH-MISSION-NMPB-MEDICINAL-PLAN-A41B7D",
+    "name": "National AYUSH Mission / NMPB medicinal-plant cultivation",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-LIVESTOCK-INSURANCE-PROGRAMME-HP-IMPLEMENT-688FF7",
+    "name": "Livestock Insurance Programme – HP implementation",
+    "disposition": "other-state-excluded",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-FISHERIES-LIVELIHOOD-AND-NUTRITIONAL-SUPPO-8F5115",
+    "name": "Fisheries livelihood and nutritional support during fishing ban/lean period",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-NATIONAL-PROGRAMME-FOR-DAIRY-DEVELOPMENT-N-72791A",
+    "name": "National Programme for Dairy Development (NPDD) – HP projects",
+    "disposition": "other-state-excluded",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-DAY-NRLM-SHG-REVOLVING-FUND-COMMUNITY-INVE-656F2B",
+    "name": "DAY-NRLM – SHG Revolving Fund, Community Investment Fund and interest support",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-START-UP-VILLAGE-ENTREPRENEURSHIP-PROGRAMM-A73BF9",
+    "name": "Start-up Village Entrepreneurship Programme (SVEP)",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-WATERSHED-DEVELOPMENT-COMPONENT-PMKSY-2-0-FF6948",
+    "name": "Watershed Development Component – PMKSY 2.0",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-NATIONAL-HANDICRAFTS-DEVELOPMENT-PROGRAMME-6884FB",
+    "name": "National Handicrafts Development Programme",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-NATIONAL-HANDLOOM-DEVELOPMENT-PROGRAMME-141210",
+    "name": "National Handloom Development Programme",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-WEAVER-MUDRA-SCHEME-84F249",
+    "name": "Weaver MUDRA Scheme",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-HANDLOOM-RAW-MATERIAL-SUPPLY-SCHEME-694299",
+    "name": "Handloom Raw Material Supply Scheme",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-GENESIS-GEN-NEXT-SUPPORT-FOR-INNOVATIVE-ST-079FC1",
+    "name": "GENESIS – Gen-Next Support for Innovative Startups",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-TIDE-2-0-87C408",
+    "name": "TIDE 2.0",
+    "disposition": "period-or-scope-review-required",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-STPI-NEXT-GENERATION-INCUBATION-SCHEME-5A4B29",
+    "name": "STPI Next Generation Incubation Scheme",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-DESIGN-LINKED-INCENTIVE-DESIGN-INFRASTRUCT-AF689A",
+    "name": "Design Linked Incentive – design infrastructure support",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-PRADHAN-MANTRI-VIKSIT-BHARAT-ROZGAR-YOJANA-9E6BCF",
+    "name": "Pradhan Mantri Viksit Bharat Rozgar Yojana",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-NATIONAL-APPRENTICESHIP-PROMOTION-SCHEME-2-1018D0",
+    "name": "National Apprenticeship Promotion Scheme 2.0",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-PMKVY-4-0-TRAINING-PROVIDER-ROUTE-EE3509",
+    "name": "PMKVY 4.0 – training provider route",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-AYUSHMAN-BHARAT-PM-JAY-HOSPITAL-EMPANELMEN-61F264",
+    "name": "Ayushman Bharat PM-JAY – hospital empanelment",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-HIMCARE-HOSPITAL-EMPANELMENT-3491F7",
+    "name": "HIMCARE – hospital empanelment",
+    "disposition": "other-state-excluded",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-AYUSH-INTERNATIONAL-COOPERATION-SCHEME-9EEF9D",
+    "name": "AYUSH International Cooperation Scheme",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-IREDA-RENEWABLE-ENERGY-FINANCING-7D1131",
+    "name": "IREDA renewable-energy financing",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-PM-E-DRIVE-DEMAND-INCENTIVE-F46700",
+    "name": "PM E-DRIVE demand incentive",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-RODTEP-REMISSION-OF-DUTIES-AND-TAXES-ON-EX-A6DAB4",
+    "name": "RoDTEP – remission of duties and taxes on exported products",
+    "disposition": "period-or-scope-review-required",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-ECGC-SMALL-EXPORTERS-POLICY-B3B7E2",
+    "name": "ECGC Small Exporters Policy",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-ADVANCE-AUTHORISATION-8A928E",
+    "name": "Advance Authorisation",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-EPCG-EXPORT-PROMOTION-CAPITAL-GOODS-104345",
+    "name": "EPCG – Export Promotion Capital Goods",
+    "disposition": "published-conditional-access",
+    "reason": "National programme reused; Uttarakhand access recorded separately."
+  },
+  {
+    "id": "SCH-SPICED-SCHEME-SPICES-VALUE-CHAIN-AND-EXPOR-62F28E",
+    "name": "SPICED Scheme – spices value-chain and export development",
+    "disposition": "period-or-scope-review-required",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-TEA-DEVELOPMENT-AND-PROMOTION-SCHEME-2021--3677E0",
+    "name": "Tea Development and Promotion Scheme 2021–26",
+    "disposition": "state-or-direct-access-not-established",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  },
+  {
+    "id": "SCH-APEDA-FINANCIAL-ASSISTANCE-SCHEME-2021-26-B04DC2",
+    "name": "APEDA Financial Assistance Scheme 2021–26",
+    "disposition": "period-or-scope-review-required",
+    "reason": "Retained as an explicit catalogue check. No availability inferred from presence in another state pack."
+  }
+]

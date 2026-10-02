@@ -1,0 +1,3179 @@
+{
+  "schemaVersion": "state-pack-1",
+  "implementations": [
+    {
+      "id": "IMPLEMENTATION-UK-PRIME-MINISTER-S-EMPLOYMENT-GENERATION-PRO-D1FEA0",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-PRIME-MINISTER-S-EMPLOYMENT-GENERATION-PRO-D1FEA0",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R40-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R40-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R40-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R40-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-LIVX-PMEGP"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "KVIC Uttarakhand / UKVIB / District Industries Centre",
+        "access": "Use common PMEGP portal and select the relevant Uttarakhand implementing agency; state DIC, KVIC and KVIB channel confirmed by district page.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Project ceiling: ₹50 lakh manufacturing, ₹20 lakh service. General: 10% own contribution and 15% urban/25% rural subsidy. Special category: 5% contribution and 25% urban/35% rural subsidy.",
+        "bestFor": "New micro manufacturing or service enterprise",
+        "eligible": "Individual above 18 and eligible institutions; only new project; education rule for larger projects",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Establishment and capital investment",
+        "gov": "Central",
+        "id": "SCH-PRIME-MINISTER-S-EMPLOYMENT-GENERATION-PRO-D1FEA0",
+        "label": "MSME / self-employment",
+        "margin": "5% special or 10% general",
+        "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+        "parent": "",
+        "reach": 94,
+        "src": "https://pmegp.msme.gov.in/",
+        "stage": "New",
+        "support": "Margin-money subsidy",
+        "agency": "KVIC Uttarakhand / UKVIB / District Industries Centre",
+        "access": "Use common PMEGP portal and select the relevant Uttarakhand implementing agency; state DIC, KVIC and KVIB channel confirmed by district page.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-PM-FORMALISATION-OF-MICRO-FOOD-PROCESSING--8FBEBD",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-PM-FORMALISATION-OF-MICRO-FOOD-PROCESSING--8FBEBD",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R111-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R111-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R111-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R111-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-PMFME"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "State Horticulture Mission / district resource person",
+        "access": "Checked 2026-10-02; State PMFME page establishes nodal horticulture route. Contact district resource person for existing/new-unit eligibility, DPR, bank financing and selected ODOP/group component; central shared benefits unchanged.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Individual unit: 35% credit-linked grant up to ₹10 lakh; SHG seed capital ₹40,000 per member; common infrastructure 35%; branding/marketing up to 50% subject to guidelines.",
+        "bestFor": "Formalisation and upgradation of micro food-processing units",
+        "eligible": "Individual micro unit, SHG member, FPO/cooperative and common infrastructure entity by component",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Credit guarantee working capital and equity",
+        "gov": "Central + Uttarakhand",
+        "id": "SCH-PM-FORMALISATION-OF-MICRO-FOOD-PROCESSING--8FBEBD",
+        "label": "Micro food processing",
+        "margin": "Typically 10% beneficiary contribution for individual unit plus loan",
+        "name": "PM Formalisation of Micro Food Processing Enterprises (PMFME)",
+        "parent": "",
+        "reach": 66,
+        "src": "https://pmfme.mofpi.gov.in/",
+        "stage": "New and existing",
+        "support": "Credit-linked grant / seed capital / branding",
+        "agency": "State Horticulture Mission / district resource person",
+        "access": "Checked 2026-10-02; State PMFME page establishes nodal horticulture route. Contact district resource person for existing/new-unit eligibility, DPR, bank financing and selected ODOP/group component; central shared benefits unchanged.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-AGRICULTURE-INFRASTRUCTURE-FUND-AIF-D26F78",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-AGRICULTURE-INFRASTRUCTURE-FUND-AIF-D26F78",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R89-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R89-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R89-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R89-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-AGRX-AIF-SRC"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Agriculture office and participating lender",
+        "access": "Checked 2026-10-02; Department establishes state access via nearby agriculture office; prepare bankable eligible post-harvest/community asset DPR and apply through AIF/lender route; common central benefit unchanged.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "3% interest subvention on loan up to ₹2 crore for up to 7 years; credit-guarantee fee support up to ₹2 crore; moratorium up to 2 years subject to project.",
+        "bestFor": "Post-harvest, community farming and eligible agri-infrastructure projects",
+        "eligible": "Farmers, agri-entrepreneurs, startups, FPOs, PACS, SHGs, cooperatives and eligible agencies",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Land cluster and common infrastructure",
+        "gov": "Central",
+        "id": "SCH-AGRICULTURE-INFRASTRUCTURE-FUND-AIF-D26F78",
+        "label": "Agri infrastructure",
+        "margin": "As per lender/project",
+        "name": "Agriculture Infrastructure Fund (AIF)",
+        "parent": "",
+        "reach": 29,
+        "src": "https://agriinfra.dac.gov.in/Content/DocAttachment/FINALSchemeGuidelinesAIF.pdf",
+        "stage": "New and existing",
+        "support": "Interest subvention + credit guarantee",
+        "agency": "Agriculture office and participating lender",
+        "access": "Checked 2026-10-02; Department establishes state access via nearby agriculture office; prepare bankable eligible post-harvest/community asset DPR and apply through AIF/lender route; common central benefit unchanged.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-KISAN-CREDIT-CARD-KCC-MODIFIED-INTEREST-SU-D5002C",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-KISAN-CREDIT-CARD-KCC-MODIFIED-INTEREST-SU-D5002C",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R92-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R92-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R92-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R92-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-AGRI"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Bank / agriculture, veterinary or fisheries office",
+        "access": "Checked 2026-10-02; State agriculture department lists KCC adoption; approach bank with land/activity and KYC records. Allied applicants obtain department activity certification where required; bank determines sanction.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "KCC limit under the Modified Interest Subvention Scheme enhanced from ₹3 lakh to ₹5 lakh with effect from FY2025-26. Eligible short-term loans carry 7% p.a.; a 3% prompt repayment incentive brings the effective rate to 4%. Government pays lending institutions 1.5% interest subvention. Collateral-free agricultural loan limit is ₹2 lakh per borrower, effective 1 January 2025.",
+        "bestFor": "Short-term crop production and eligible animal husbandry/fisheries working capital",
+        "eligible": "Eligible farmer/fisher/livestock owner under KCC norms",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Credit guarantee working capital and equity",
+        "gov": "Central",
+        "id": "SCH-KISAN-CREDIT-CARD-KCC-MODIFIED-INTEREST-SU-D5002C",
+        "label": "Crop + allied working capital",
+        "margin": "As per scale of finance/lender",
+        "name": "Kisan Credit Card (KCC) / Modified Interest Subvention Scheme",
+        "parent": "",
+        "reach": 102,
+        "src": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157771&lang=1&reg=3",
+        "stage": "New and existing",
+        "support": "Revolving credit + interest support",
+        "agency": "Bank / agriculture, veterinary or fisheries office",
+        "access": "Checked 2026-10-02; State agriculture department lists KCC adoption; approach bank with land/activity and KYC records. Allied applicants obtain department activity certification where required; bank determines sanction.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-SUB-MISSION-ON-AGRICULTURAL-MECHANIZATION--F2E432",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-SUB-MISSION-ON-AGRICULTURAL-MECHANIZATION--F2E432",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R94-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R94-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R94-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R94-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-AGRX-SMAM-SRC"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "District/block agriculture office",
+        "access": "Checked 2026-10-02; Apply nearby agriculture office for individual machinery or approved farm machinery bank/custom-hiring centre. Current 2026-27 mechanisation documents/targets govern approval; 90:10 central/state funding share is not farmer subsidy percentage.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Often",
+        "benefit": "Common machinery assistance is 40%–50% of benchmark cost; custom-hiring and special components have separate norms.",
+        "bestFor": "Notified machinery, custom-hiring centres and mechanisation interventions",
+        "eligible": "Farmers/groups/FPOs/entrepreneurs; component-specific",
+        "family": "Machinery technology energy and digitalisation",
+        "gov": "Central + Uttarakhand",
+        "id": "SCH-SUB-MISSION-ON-AGRICULTURAL-MECHANIZATION--F2E432",
+        "label": "Farm mechanisation",
+        "margin": "Balance cost",
+        "name": "Sub-Mission on Agricultural Mechanization (SMAM)",
+        "parent": "",
+        "reach": 87,
+        "src": "https://agriculture.uk.gov.in/scheme/sub-mission-on-agriculture-mechanization-smam/",
+        "stage": "New",
+        "support": "Capital subsidy",
+        "agency": "District/block agriculture office",
+        "access": "Checked 2026-10-02; Apply nearby agriculture office for individual machinery or approved farm machinery bank/custom-hiring centre. Current 2026-27 mechanisation documents/targets govern approval; 90:10 central/state funding share is not farmer subsidy percentage.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-RASHTRIYA-KRISHI-VIKAS-YOJANA-PM-RKVY-157C16",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-RASHTRIYA-KRISHI-VIKAS-YOJANA-PM-RKVY-157C16",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R96-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R96-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R96-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R96-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-AGRI"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "District agriculture office",
+        "access": "Checked 2026-10-02; State department lists RKVY-RAFTAAR integrated agriculture/land conservation. Access via selected approved district work plan rather than universal project reimbursement.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Sometimes",
+        "benefit": "No universal individual percentage; benefit follows an approved State DPR/component.",
+        "bestFor": "State-approved innovation, infrastructure and value-chain projects",
+        "eligible": "State agencies, institutions, groups and selected beneficiaries under approved project",
+        "family": "Central sector or commodity support",
+        "gov": "Central + Uttarakhand",
+        "id": "SCH-RASHTRIYA-KRISHI-VIKAS-YOJANA-PM-RKVY-157C16",
+        "label": "Agriculture and allied",
+        "margin": "Project-specific",
+        "name": "Rashtriya Krishi Vikas Yojana (PM-RKVY)",
+        "parent": "",
+        "reach": 98,
+        "src": "https://agriculture.uk.gov.in/schemes-programmes/",
+        "stage": "New and existing",
+        "support": "Project support",
+        "agency": "District agriculture office",
+        "access": "Checked 2026-10-02; State department lists RKVY-RAFTAAR integrated agriculture/land conservation. Access via selected approved district work plan rather than universal project reimbursement.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-SOIL-HEALTH-FERTILITY-SOIL-HEALTH-CARD-AA697B",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-SOIL-HEALTH-FERTILITY-SOIL-HEALTH-CARD-AA697B",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R119-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R119-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R119-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R119-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-AGRI"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Agriculture office / soil-testing laboratory",
+        "access": "Checked 2026-10-02; State soil-testing programme; arrange representative field sample and department laboratory/card route; verify local sampling schedule.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "National programme terms apply. The former state-specific example is omitted; confirm the current admissible assistance with the implementing agency.",
+        "bestFor": "Soil testing, soil-health cards and balanced nutrient recommendations",
+        "eligible": "Farmers whose samples are covered by the district programme",
+        "family": "Central sector or commodity support",
+        "gov": "Central + Uttarakhand",
+        "id": "SCH-SOIL-HEALTH-FERTILITY-SOIL-HEALTH-CARD-AA697B",
+        "label": "Agriculture / soil health",
+        "margin": "Normally none",
+        "name": "Soil Health & Fertility / Soil Health Card",
+        "parent": "",
+        "reach": 78,
+        "src": "https://agriculture.uk.gov.in/schemes-programmes/",
+        "stage": "Existing",
+        "support": "Free diagnostic / advisory support",
+        "agency": "Agriculture office / soil-testing laboratory",
+        "access": "Checked 2026-10-02; State soil-testing programme; arrange representative field sample and department laboratory/card route; verify local sampling schedule.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-FOOD-NUTRITION-SECURITY-NATIONAL-FOOD-SECU-4CAA1E",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-FOOD-NUTRITION-SECURITY-NATIONAL-FOOD-SECU-4CAA1E",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R120-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R120-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R120-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R120-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-AGRI"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "District/block agriculture office",
+        "access": "Checked 2026-10-02; State department lists Food and Nutrition Security–Krishonnati Yojana; identify notified crop/district demonstration/input and current selected beneficiary list.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Sometimes",
+        "benefit": "National programme terms apply. The former state-specific example is omitted; confirm the current admissible assistance with the implementing agency.",
+        "bestFor": "Rice, wheat, pulses, maize and nutri-cereals: demonstrations, seed, micronutrients and notified machinery",
+        "eligible": "Farmers, groups and institutions selected under district crop targets",
+        "family": "Central sector or commodity support",
+        "gov": "Central + Uttarakhand",
+        "id": "SCH-FOOD-NUTRITION-SECURITY-NATIONAL-FOOD-SECU-4CAA1E",
+        "label": "Agriculture / field crops",
+        "margin": "Component-specific",
+        "name": "Food & Nutrition Security / National Food Security Mission",
+        "parent": "",
+        "reach": 33,
+        "src": "https://agriculture.uk.gov.in/schemes-programmes/",
+        "stage": "New and existing",
+        "support": "Input / demonstration support",
+        "agency": "District/block agriculture office",
+        "access": "Checked 2026-10-02; State department lists Food and Nutrition Security–Krishonnati Yojana; identify notified crop/district demonstration/input and current selected beneficiary list.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-PARAMPARAGAT-KRISHI-VIKAS-YOJANA-NATURAL-F-89AD68",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-PARAMPARAGAT-KRISHI-VIKAS-YOJANA-NATURAL-F-89AD68",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R98-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R98-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R98-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R98-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-AGRI"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Agriculture office / Uttarakhand Organic Commodity Board",
+        "access": "Checked 2026-10-02; State organic/natural farming programme and selected clusters; district office confirms PKVY cluster, certification and current approved component. Do not infer universal individual payment.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Assistance follows current cluster guidelines and State action plan; no single standalone enterprise cap.",
+        "bestFor": "Cluster conversion, inputs, certification/verification and marketing",
+        "eligible": "Farmers organised in approved clusters",
+        "family": "Land cluster and common infrastructure",
+        "gov": "Central + Uttarakhand",
+        "id": "SCH-PARAMPARAGAT-KRISHI-VIKAS-YOJANA-NATURAL-F-89AD68",
+        "label": "Organic/natural farming",
+        "margin": "Component-specific",
+        "name": "Paramparagat Krishi Vikas Yojana / Natural Farming component",
+        "parent": "",
+        "reach": 83,
+        "src": "https://agriculture.uk.gov.in/schemes-programmes/",
+        "stage": "New and existing",
+        "support": "Input/cluster support",
+        "agency": "Agriculture office / Uttarakhand Organic Commodity Board",
+        "access": "Checked 2026-10-02; State organic/natural farming programme and selected clusters; district office confirms PKVY cluster, certification and current approved component. Do not infer universal individual payment.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-NATIONAL-LIVESTOCK-MISSION-ENTREPRENEURSHI-72C9C6",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-NATIONAL-LIVESTOCK-MISSION-ENTREPRENEURSHI-72C9C6",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R103-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R103-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R103-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R103-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-AGRX-NLM-SRC"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Chief Veterinary Officer / NLM portal",
+        "access": "Checked 2026-10-02; Apply through udyamimitra.in as state department directs; local veterinary/CVO assists admissible DPR/land and bank appraisal. Confirm current central component and state scrutiny; common financial norms unchanged.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "50% capital subsidy on eligible project cost, with component ceilings: rural poultry (parent farm/hatchery) ₹25 lakh; sheep and goat breeding ₹50 lakh; piggery ₹30 lakh; feed and fodder entrepreneurship ₹50 lakh; fodder seed processing and grading ₹50 lakh. Balance is met through bank loan or self-finance; subsidy is released in two equal instalments through SIDBI.",
+        "bestFor": "Poultry, sheep/goat, piggery and fodder entrepreneurship components",
+        "eligible": "Eligible individual, SHG, FPO, cooperative, Section 8 company or JLG by component",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Training incubation and entrepreneurship",
+        "gov": "Central",
+        "id": "SCH-NATIONAL-LIVESTOCK-MISSION-ENTREPRENEURSHI-72C9C6",
+        "label": "Livestock / fodder",
+        "margin": "Balance project cost",
+        "name": "National Livestock Mission – Entrepreneurship Development Programme",
+        "parent": "National Livestock Mission",
+        "reach": 18,
+        "src": "https://dahd.gov.in/sites/default/files/2026-04/NLMGuidelinesJan2025.pdf",
+        "stage": "New",
+        "support": "Capital subsidy",
+        "agency": "Chief Veterinary Officer / NLM portal",
+        "access": "Checked 2026-10-02; Apply through udyamimitra.in as state department directs; local veterinary/CVO assists admissible DPR/land and bank appraisal. Confirm current central component and state scrutiny; common financial norms unchanged.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-DAY-NRLM-SHG-REVOLVING-FUND-COMMUNITY-INVE-656F2B",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-DAY-NRLM-SHG-REVOLVING-FUND-COMMUNITY-INVE-656F2B",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R148-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R148-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R148-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R148-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-LIVX-USRLM"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "USRLM / BDO Block Mission Manager",
+        "access": "Women approach nearest BDO and NRLM Block Mission Manager for SHG enrolment, bank linkage and approved livelihoods. RF/CIF and national interest support reuse common rules.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Revolving Fund of ₹20,000-₹30,000 per eligible SHG; Community Investment Fund up to ₹2.5 lakh per SHG routed through the Cluster Level Federation; Vulnerability Reduction Fund of ₹1.5 lakh per Village Organisation; plus interest subvention (7% p.a. on SHG loans up to ₹3 lakh) and bank-credit support under current rules.",
+        "bestFor": "SHG working capital, livelihood activity and community-managed finance",
+        "eligible": "Eligible women SHG/federation member under DAY-NRLM protocols",
+        "family": "Applicant category overlays",
+        "gov": "Central + Uttarakhand",
+        "id": "SCH-DAY-NRLM-SHG-REVOLVING-FUND-COMMUNITY-INVE-656F2B",
+        "label": "Rural livelihoods / women enterprise",
+        "margin": "SHG savings/repayment and bank terms",
+        "name": "DAY-NRLM – SHG Revolving Fund, Community Investment Fund and interest support",
+        "parent": "DAY-NRLM",
+        "reach": 182,
+        "src": "https://lakhpatididi.gov.in/financial-assistance/",
+        "stage": "New and existing",
+        "support": "Capital support + interest subvention + bank linkage",
+        "agency": "USRLM / BDO Block Mission Manager",
+        "access": "Women approach nearest BDO and NRLM Block Mission Manager for SHG enrolment, bank linkage and approved livelihoods. RF/CIF and national interest support reuse common rules.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-PMEGP-2ND-LOAN-FOR-UPGRADATION-99CA6F",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-PMEGP-2ND-LOAN-FOR-UPGRADATION-99CA6F",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R41-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R41-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R41-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R41-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSME"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Margin-money subsidy of 15% of project cost, raised to 20% for NER and Hill States. Manufacturing: project up to ₹1 crore, maximum subsidy ₹15 lakh (₹20 lakh in hill/NER). Service or business: project up to ₹25 lakh, maximum subsidy ₹3.75 lakh (₹5 lakh in hill/NER). Own contribution 10%.",
+        "bestFor": "Expansion of a successful existing PMEGP/REGP/MUDRA unit",
+        "eligible": "Existing unit with first loan repaid and prescribed profitable track record",
+        "family": "Credit guarantee working capital and equity",
+        "gov": "Central",
+        "id": "SCH-PMEGP-2ND-LOAN-FOR-UPGRADATION-99CA6F",
+        "label": "MSME expansion",
+        "margin": "10%",
+        "name": "PMEGP 2nd Loan for Upgradation",
+        "parent": "",
+        "reach": 215,
+        "src": "https://www.kviconline.gov.in/pmegpeportal/pmegphome/index.jsp",
+        "stage": "Existing",
+        "support": "Margin-money subsidy",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-SPECIAL-CREDIT-LINKED-CAPITAL-SUBSIDY-SCHE-BDBAEA",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-SPECIAL-CREDIT-LINKED-CAPITAL-SUBSIDY-SCHE-BDBAEA",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R46-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R46-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R46-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R46-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSME"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "25% of eligible term-loan/machinery value, subsidy ceiling ₹25 lakh (institutional finance up to ₹1 crore for calculation).",
+        "bestFor": "New machinery/equipment or technology upgrade",
+        "eligible": "SC/ST-owned micro/small manufacturing or service enterprise; trading excluded",
+        "family": "Applicant category overlays",
+        "gov": "Central",
+        "id": "SCH-SPECIAL-CREDIT-LINKED-CAPITAL-SUBSIDY-SCHE-BDBAEA",
+        "label": "SC/ST-owned MSE",
+        "margin": "Balance project cost",
+        "name": "Special Credit Linked Capital Subsidy Scheme (SCLCSS)",
+        "parent": "",
+        "reach": 215,
+        "src": "https://sclcss.msme.gov.in/Common/Home.aspx",
+        "stage": "New and existing",
+        "support": "Credit-linked capital subsidy",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-MICRO-AND-SMALL-ENTERPRISES-CLUSTER-DEVELO-C4AA57",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-MICRO-AND-SMALL-ENTERPRISES-CLUSTER-DEVELO-C4AA57",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R47-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R47-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R47-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R47-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSME"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Often",
+        "benefit": "Common Facility Centre: project cost ₹5-10 crore, GoI grant 70% (80% for NER, Hill States islands and aspirational districts); project cost above ₹10 crore and up to ₹30 crore, GoI grant 60% (70% for the same special categories). Infrastructure Development: new infrastructure ₹5-15 crore, GoI 60% (70% special category); upgradation ₹5-10 crore, GoI 50% (60% special category).",
+        "bestFor": "Common Facility Centre (CFC) or industrial-estate infrastructure",
+        "eligible": "Eligible cluster/SPV and State/implementing agency",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Land cluster and common infrastructure",
+        "gov": "Central",
+        "id": "SCH-MICRO-AND-SMALL-ENTERPRISES-CLUSTER-DEVELO-C4AA57",
+        "label": "MSME cluster infrastructure",
+        "margin": "SPV/State contribution",
+        "name": "Micro and Small Enterprises Cluster Development Programme (MSE-CDP)",
+        "parent": "",
+        "reach": 4,
+        "src": "https://dcmsme.gov.in/schemes/New%20MSE-CDP.pdf",
+        "stage": "New",
+        "support": "Project grant",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-SFURTI-SCHEME-OF-FUND-FOR-REGENERATION-OF--C61C70",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-SFURTI-SCHEME-OF-FUND-FOR-REGENERATION-OF--C61C70",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R48-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R48-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R48-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R48-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSME"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Often",
+        "benefit": "Regular cluster (100-500 artisans; minimum 50 in hilly areas) up to ₹2.5 crore; major cluster above 500 artisans up to ₹5 crore. Hard intervention: GoI 90% generally, 95% for NER, J&K and hilly states with 5% SPV contribution in cash. Soft intervention: 100% GoI funded, capped at 10% of the hard-intervention amount or ₹25 lakh, whichever is less.",
+        "bestFor": "Common facilities, skills, design and market support for artisan clusters",
+        "eligible": "Eligible NGO/institution/SPV/implementing agency and artisans",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Land cluster and common infrastructure",
+        "gov": "Central",
+        "id": "SCH-SFURTI-SCHEME-OF-FUND-FOR-REGENERATION-OF--C61C70",
+        "label": "Traditional industry cluster",
+        "margin": "Typically 5% SPV hard-intervention share in hill area",
+        "name": "SFURTI – Scheme of Fund for Regeneration of Traditional Industries",
+        "parent": "SFURTI",
+        "reach": 23,
+        "src": "https://sfurti.msme.gov.in/",
+        "stage": "New and existing",
+        "support": "Cluster grant",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-MSME-SUSTAINABLE-ZED-CERTIFICATION-9DC992",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-MSME-SUSTAINABLE-ZED-CERTIFICATION-9DC992",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R49-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R49-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R49-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R49-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSME"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Certification-cost subsidy 80% for micro, 60% for small and 50% for medium enterprises, plus an extra 10% for women/SC/ST-owned units and for units in NER, Himalayan states, LWE, island territories and aspirational districts, plus a further 5% for units in a SFURTI or MSE-CDP cluster. One-time joining reward of ₹10,000 on taking the ZED Pledge.",
+        "bestFor": "ZED assessment, certification, testing and handholding",
+        "eligible": "Udyam-registered MSME",
+        "family": "Quality testing certification IP and compliance",
+        "gov": "Central",
+        "id": "SCH-MSME-SUSTAINABLE-ZED-CERTIFICATION-9DC992",
+        "label": "MSME quality / green",
+        "margin": "Residual fee",
+        "name": "MSME Sustainable (ZED) Certification",
+        "parent": "",
+        "reach": 215,
+        "src": "https://zed.msme.gov.in/subsidy-on-cost-of-certification",
+        "stage": "New and existing",
+        "support": "Certification/testing subsidy",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-MSME-COMPETITIVE-LEAN-0AFE18",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-MSME-COMPETITIVE-LEAN-0AFE18",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R50-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R50-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R50-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R50-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSME"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Government bears 90% of implementation consultant cost; indicative programme costs: Basic free, Intermediate ₹1.2 lakh, Advanced ₹2.4 lakh, with additional support for specified categories.",
+        "bestFor": "LEAN assessment and implementation",
+        "eligible": "Udyam-registered manufacturing MSME or eligible cluster/group",
+        "family": "Machinery technology energy and digitalisation",
+        "gov": "Central",
+        "id": "SCH-MSME-COMPETITIVE-LEAN-0AFE18",
+        "label": "MSME productivity",
+        "margin": "Generally 10%",
+        "name": "MSME Competitive (LEAN)",
+        "parent": "",
+        "reach": 114,
+        "src": "https://lean.msme.gov.in/Home/FinancialAssistance",
+        "stage": "Existing",
+        "support": "Consultancy-cost subsidy",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-PUBLIC-PROCUREMENT-POLICY-FOR-MSES-934235",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-PUBLIC-PROCUREMENT-POLICY-FOR-MSES-934235",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R56-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R56-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R56-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R56-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSME"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Central procuring entities target 25% annual procurement from MSEs, including sub-targets of 4% for SC/ST-owned and 3% for women-owned MSEs; tender benefits/exemptions apply under policy.",
+        "bestFor": "Access to Central Ministry/CPSE procurement",
+        "eligible": "Eligible Udyam-registered MSE and product/service meeting tender conditions",
+        "family": "Market procurement ecommerce and export",
+        "gov": "Central",
+        "id": "SCH-PUBLIC-PROCUREMENT-POLICY-FOR-MSES-934235",
+        "label": "Government procurement",
+        "margin": "Tender-specific",
+        "name": "Public Procurement Policy for MSEs",
+        "parent": "",
+        "reach": 215,
+        "src": "https://msme.gov.in/public-procurement-policy",
+        "stage": "Existing",
+        "support": "Market preference",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-NATIONAL-SC-ST-HUB-NSSH-873A63",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-NATIONAL-SC-ST-HUB-NSSH-873A63",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R57-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R57-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R57-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R57-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSME"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Intervention-specific reimbursement/support; SCLCSS is a separate capital-subsidy component under the Hub.",
+        "bestFor": "Vendor development, capacity building, exhibition and procurement support",
+        "eligible": "SC/ST-owned MSE/aspiring entrepreneur under the relevant intervention",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Applicant category overlays",
+        "gov": "Central",
+        "id": "SCH-NATIONAL-SC-ST-HUB-NSSH-873A63",
+        "label": "SC/ST entrepreneurship",
+        "margin": "Component-specific",
+        "name": "National SC-ST Hub (NSSH)",
+        "parent": "",
+        "reach": 215,
+        "src": "https://scsthub.in/",
+        "stage": "New and existing",
+        "support": "Training / market / handholding",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-PROCUREMENT-AND-MARKETING-SUPPORT-PMS-708FB2",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-PROCUREMENT-AND-MARKETING-SUPPORT-PMS-708FB2",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R58-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R58-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R58-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R58-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSME"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Component- and event-specific support under the current PMS guidelines; no one universal ceiling.",
+        "bestFor": "Trade fairs, packaging, barcode, e-commerce and market development interventions",
+        "eligible": "Eligible MSE/industry association/implementing agency by component",
+        "family": "Market procurement ecommerce and export",
+        "gov": "Central",
+        "id": "SCH-PROCUREMENT-AND-MARKETING-SUPPORT-PMS-708FB2",
+        "label": "MSME marketing",
+        "margin": "Component-specific",
+        "name": "Procurement and Marketing Support (PMS)",
+        "parent": "",
+        "reach": 215,
+        "src": "https://www.msme.gov.in/offerings/schemes-and-services",
+        "stage": "Existing",
+        "support": "Reimbursement / event support",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-INTERNATIONAL-COOPERATION-SCHEME-DBF1B0",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-INTERNATIONAL-COOPERATION-SCHEME-DBF1B0",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R59-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R59-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R59-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R59-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSME"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Support is component- and event-specific under approved proposals.",
+        "bestFor": "International exhibitions, delegations and market cooperation",
+        "eligible": "Eligible industry association/organisation; participating MSEs through approved proposal",
+        "family": "Market procurement ecommerce and export",
+        "gov": "Central",
+        "id": "SCH-INTERNATIONAL-COOPERATION-SCHEME-DBF1B0",
+        "label": "MSME exports / international exposure",
+        "margin": "Component-specific",
+        "name": "International Cooperation Scheme",
+        "parent": "",
+        "reach": 215,
+        "src": "https://www.msme.gov.in/offerings",
+        "stage": "Existing",
+        "support": "Travel/space/participation support",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-ENTREPRENEURSHIP-AND-SKILL-DEVELOPMENT-PRO-8C6AA1",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-ENTREPRENEURSHIP-AND-SKILL-DEVELOPMENT-PRO-8C6AA1",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R60-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R60-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R60-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R60-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSME"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Government-supported training; no standard business capital grant.",
+        "bestFor": "Entrepreneurship awareness and skill programmes",
+        "eligible": "Aspiring/existing entrepreneurs selected for scheduled programme",
+        "family": "Training incubation and entrepreneurship",
+        "gov": "Central",
+        "id": "SCH-ENTREPRENEURSHIP-AND-SKILL-DEVELOPMENT-PRO-8C6AA1",
+        "label": "Entrepreneurship / skills",
+        "margin": "Usually nil/nominal",
+        "name": "Entrepreneurship and Skill Development Programme (ESDP)",
+        "parent": "",
+        "reach": 215,
+        "src": "https://www.msme.gov.in/offerings",
+        "stage": "New and existing",
+        "support": "Training",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-ASPIRE-LIVELIHOOD-BUSINESS-INCUBATORS-FUND-B5AD45",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-ASPIRE-LIVELIHOOD-BUSINESS-INCUBATORS-FUND-B5AD45",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R61-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R61-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R61-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R61-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSME"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Not usually",
+        "benefit": "Support follows LBI/Technology Business Incubator/fund component guidelines; not a standard direct grant to every startup.",
+        "bestFor": "Incubation infrastructure and investment ecosystem",
+        "eligible": "Eligible host institution for LBI; startups indirectly through incubator/fund",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Training incubation and entrepreneurship",
+        "gov": "Central",
+        "id": "SCH-ASPIRE-LIVELIHOOD-BUSINESS-INCUBATORS-FUND-B5AD45",
+        "label": "Agri / rural enterprise incubation",
+        "margin": "Component-specific",
+        "name": "ASPIRE – Livelihood Business Incubators / Fund of Funds",
+        "parent": "ASPIRE",
+        "reach": 4,
+        "src": "https://aspire.msme.gov.in/",
+        "stage": "New and existing",
+        "support": "Institutional grant / fund-of-funds",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-SELF-RELIANT-INDIA-SRI-FUND-15347E",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-SELF-RELIANT-INDIA-SRI-FUND-15347E",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R70-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R70-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R70-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R70-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSME"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Fund-of-Funds route rather than a grant. The ₹50,000 crore architecture uses a Government Mother Fund and empanelled Daughter Funds. Budget 2026-27 provided a further allocation to the SRI Fund alongside a new ₹10,000 crore SME Growth Fund.",
+        "bestFor": "Growth capital for a scalable MSME with an investible business plan",
+        "eligible": "Eligible growth-oriented MSME selected by an empanelled Daughter Fund",
+        "family": "Central sector or commodity support",
+        "gov": "Central",
+        "id": "SCH-SELF-RELIANT-INDIA-SRI-FUND-15347E",
+        "label": "MSME growth equity",
+        "margin": "Dilution and commercial investment terms",
+        "name": "Self-Reliant India (SRI) Fund",
+        "parent": "",
+        "reach": 215,
+        "src": "https://dashboard.msme.gov.in/sri_fund.aspx",
+        "stage": "Existing",
+        "support": "Equity / quasi-equity investment",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-MSME-INNOVATIVE-INCUBATION-DESIGN-AND-IPR-7FB8BA",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-MSME-INNOVATIVE-INCUBATION-DESIGN-AND-IPR-7FB8BA",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R71-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R71-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R71-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R71-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSME"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Incubation: up to ₹15 lakh per approved idea through a Host Institute, plus up to ₹1 crore to the Host Institute for relevant plant and machinery. Design: 75% of project cost for micro and 60% for small/medium enterprises, up to ₹40 lakh; student design projects up to ₹2.5 lakh. IPR reimbursement caps: ₹5 lakh foreign patent, ₹1 lakh domestic patent, ₹2 lakh GI, ₹15,000 design and ₹10,000 trademark.",
+        "bestFor": "Prototype, product redesign, patent/trademark/design protection or incubation",
+        "eligible": "Udyam-registered MSME for Design/IPR; innovative ideas are routed through an approved Host Institute under Incubation",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Training incubation and entrepreneurship",
+        "gov": "Central",
+        "id": "SCH-MSME-INNOVATIVE-INCUBATION-DESIGN-AND-IPR-7FB8BA",
+        "label": "MSME innovation / design / IP",
+        "margin": "Component-specific balance and approved actual cost",
+        "name": "MSME Innovative – Incubation, Design and IPR",
+        "parent": "MSME Innovative",
+        "reach": 132,
+        "src": "https://innovative.msme.gov.in/Documents/FinalGuidelines_MSME_Innovative.pdf",
+        "stage": "New and existing",
+        "support": "Grant / reimbursement / expert support",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-MSE-GIFT-GREEN-INVESTMENT-AND-FINANCING-FO-EE865F",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-MSE-GIFT-GREEN-INVESTMENT-AND-FINANCING-FO-EE865F",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R51-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R51-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R51-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R51-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-RAMP"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "2% interest subvention on eligible term loan up to ₹2 crore; 75% risk-sharing/guarantee support, subject to guidelines.",
+        "bestFor": "Investment in eligible green technology",
+        "eligible": "Udyam-registered micro or small enterprise meeting eligible green project norms",
+        "family": "Machinery technology energy and digitalisation",
+        "gov": "Central",
+        "id": "SCH-MSE-GIFT-GREEN-INVESTMENT-AND-FINANCING-FO-EE865F",
+        "label": "Green technology / MSE",
+        "margin": "Lender margin and residual interest",
+        "name": "MSE GIFT – Green Investment and Financing for Transformation",
+        "parent": "MSE GIFT",
+        "reach": 215,
+        "src": "https://ramp.msme.gov.in/ramp/index.php/RAMP-initiative/mse-gift/gift-interest-subvention",
+        "stage": "New and existing",
+        "support": "Interest subvention + credit guarantee",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-MSE-SPICE-CIRCULAR-ECONOMY-INVESTMENT-0B6A5E",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-MSE-SPICE-CIRCULAR-ECONOMY-INVESTMENT-0B6A5E",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R52-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R52-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R52-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R52-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-RAMP"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Usually",
+        "benefit": "25% capital subsidy on eligible plant and machinery, maximum ₹12.5 lakh. The subsidy is computed on project cost up to ₹50 lakh; larger projects remain capped at ₹12.5 lakh. Brownfield projects of existing Udyam-registered MSEs only, in the 11 notified circular-economy sectors.",
+        "bestFor": "Brownfield investment for recycling, resource efficiency and circularity",
+        "eligible": "Eligible existing Udyam MSE meeting scheme conditions",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Establishment and capital investment",
+        "gov": "Central",
+        "id": "SCH-MSE-SPICE-CIRCULAR-ECONOMY-INVESTMENT-0B6A5E",
+        "label": "Circular economy / MSE",
+        "margin": "Balance project cost",
+        "name": "MSE SPICE – circular economy investment",
+        "parent": "MSE SPICE",
+        "reach": 7,
+        "src": "https://www.sidbi.in/uploads/financialreport/FAQ-SPICE.pdf",
+        "stage": "Existing",
+        "support": "Capital subsidy",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-MSME-TEAM-INITIATIVE-E-COMMERCE-ONDC-EC9C01",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-MSME-TEAM-INITIATIVE-E-COMMERCE-ONDC-EC9C01",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R53-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R53-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R53-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R53-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-RAMP"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Support includes onboarding/cataloguing up to ₹2,500 per MSE, account management up to ₹5,000, and notified logistics/packaging support.",
+        "bestFor": "ONDC onboarding, catalogue, account management, logistics and packaging support",
+        "eligible": "Eligible MSE, with focus on women and SC/ST-owned MSEs",
+        "family": "Market procurement ecommerce and export",
+        "gov": "Central",
+        "id": "SCH-MSME-TEAM-INITIATIVE-E-COMMERCE-ONDC-EC9C01",
+        "label": "Digital commerce / market access",
+        "margin": "Residual cost",
+        "name": "MSME TEAM initiative – e-commerce/ONDC",
+        "parent": "MSME TEAM initiative",
+        "reach": 215,
+        "src": "https://ramp.msme.gov.in/ramp/RAMP-initiative/msme-team-initiative/msme-team-initiative",
+        "stage": "New and existing",
+        "support": "Reimbursement/service support",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-MSE-ONLINE-DISPUTE-RESOLUTION-ODR-FOR-DELA-C9A3F2",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-MSE-ONLINE-DISPUTE-RESOLUTION-ODR-FOR-DELA-C9A3F2",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R74-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R74-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R74-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R74-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-RAMP"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Online filing, pre-MSEFC negotiation and digital conciliation/arbitration support; the scheme also provides component-based legal support rather than a fixed cash award.",
+        "bestFor": "Recovery or settlement of delayed buyer dues",
+        "eligible": "Udyam- or Udyam Assist-registered micro or small enterprise with a commercial payment dispute",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Machinery technology energy and digitalisation",
+        "gov": "Central",
+        "id": "SCH-MSE-ONLINE-DISPUTE-RESOLUTION-ODR-FOR-DELA-C9A3F2",
+        "label": "MSE receivables / dispute resolution",
+        "margin": "Portal/legal cost as notified",
+        "name": "MSE Online Dispute Resolution (ODR) for delayed payments",
+        "parent": "",
+        "reach": 215,
+        "src": "https://odr.msme.gov.in/",
+        "stage": "Existing",
+        "support": "Digital negotiation / mediation / MSEFC route",
+        "agency": "Ministry of MSME",
+        "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-PRADHAN-MANTRI-MUDRA-YOJANA-PMMY-1FCCD7",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-PRADHAN-MANTRI-MUDRA-YOJANA-PMMY-1FCCD7",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R42-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R42-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R42-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R42-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-MUDRA"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Department of Financial Services",
+        "access": "Apply through a participating bank, NBFC or microfinance institution; repayment and lender appraisal are required.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Shishu up to ₹50,000; Kishore above ₹50,000–₹5 lakh; Tarun above ₹5–₹10 lakh; Tarun Plus above ₹10–₹20 lakh only for borrowers who successfully repaid a Tarun loan.",
+        "bestFor": "Non-corporate, non-farm micro business and permitted allied activities",
+        "eligible": "Eligible micro entrepreneur with viable activity",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Credit guarantee working capital and equity",
+        "gov": "Central",
+        "id": "SCH-PRADHAN-MANTRI-MUDRA-YOJANA-PMMY-1FCCD7",
+        "label": "Micro enterprise credit",
+        "margin": "As per lender/product",
+        "name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+        "parent": "",
+        "reach": 258,
+        "src": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+        "stage": "New and existing",
+        "support": "Collateral-free loan / guarantee-backed credit",
+        "agency": "Department of Financial Services",
+        "access": "Apply through a participating bank, NBFC or microfinance institution; repayment and lender appraisal are required.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-CGTMSE-CREDIT-GUARANTEE-A17996",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-CGTMSE-CREDIT-GUARANTEE-A17996",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R43-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R43-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R43-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R43-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-CGTMSE"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "CGTMSE",
+        "access": "Request eligible guarantee-backed credit from a CGTMSE member lender; the lender applies for guarantee cover.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Guarantee cover on eligible credit up to ₹10 crore per borrower, effective for guarantees approved on or after 1 April 2025 (raised from ₹5 crore). Extent of guarantee generally 75%-85% depending on borrower and facility category, subject to current rules and the annual guarantee fee.",
+        "bestFor": "Collateral/third-party-guarantee constraint on MSE borrowing",
+        "eligible": "Eligible new/existing micro or small enterprise through a member lender",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Credit guarantee working capital and equity",
+        "gov": "Central",
+        "id": "SCH-CGTMSE-CREDIT-GUARANTEE-A17996",
+        "label": "MSME credit guarantee",
+        "margin": "Borrower pays lender margin/fees unless another scheme reimburses",
+        "name": "CGTMSE credit guarantee",
+        "parent": "",
+        "reach": 237,
+        "src": "https://www.cgtmse.in/",
+        "stage": "New and existing",
+        "support": "Credit guarantee to lender",
+        "agency": "CGTMSE",
+        "access": "Request eligible guarantee-backed credit from a CGTMSE member lender; the lender applies for guarantee cover.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-SIDBI-SPEED-RATIONALISED-MACHINERY-EQUIPME-F0E9A0",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-SIDBI-SPEED-RATIONALISED-MACHINERY-EQUIPME-F0E9A0",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R66-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R66-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R66-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R66-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-SIDBI"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "SIDBI",
+        "access": "Contact SIDBI via its customer portal or Uttarakhand branches; product-specific lending eligibility applies.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Need-based machinery/equipment finance; current pricing, loan size, collateral and contribution are case-specific. Earlier ARISE/SPEED Plus/PRATHAM branch products were merged into rationalised SPEED.",
+        "bestFor": "Purchase of machinery/equipment",
+        "eligible": "Creditworthy MSME meeting SIDBI product and operating-history requirements",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Machinery technology energy and digitalisation",
+        "gov": "Central",
+        "id": "SCH-SIDBI-SPEED-RATIONALISED-MACHINERY-EQUIPME-F0E9A0",
+        "label": "MSME equipment finance",
+        "margin": "As per SIDBI appraisal",
+        "name": "SIDBI SPEED (rationalised machinery/equipment finance)",
+        "parent": "",
+        "reach": 237,
+        "src": "https://www.sidbi.in/annualreport/AnnualReport202324/business-performance.php",
+        "stage": "New and existing",
+        "support": "Term loan",
+        "agency": "SIDBI",
+        "access": "Contact SIDBI via its customer portal or Uttarakhand branches; product-specific lending eligibility applies.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-SIDBI-PRAYAAS-BC3E4F",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-SIDBI-PRAYAAS-BC3E4F",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R67-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R67-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R67-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R67-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-SIDBI"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "SIDBI",
+        "access": "Contact SIDBI via its customer portal or Uttarakhand branches; product-specific lending eligibility applies.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "₹50,000–₹5 lakh through partner institutions; over 85% of beneficiaries reported as women.",
+        "bestFor": "Livelihood/micro-enterprise credit for informal entrepreneurs",
+        "eligible": "Eligible informal micro entrepreneur served by a participating partner institution",
+        "family": "Credit guarantee working capital and equity",
+        "gov": "Central",
+        "id": "SCH-SIDBI-PRAYAAS-BC3E4F",
+        "label": "Informal micro enterprise",
+        "margin": "As per partner product",
+        "name": "SIDBI PRAYAAS",
+        "parent": "",
+        "reach": 237,
+        "src": "https://www.sidbi.in/en/prayaas",
+        "stage": "New and existing",
+        "support": "Loan",
+        "agency": "SIDBI",
+        "access": "Contact SIDBI via its customer portal or Uttarakhand branches; product-specific lending eligibility applies.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-SIDBI-DIGITAL-BUSINESS-LOAN-248602",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-SIDBI-DIGITAL-BUSINESS-LOAN-248602",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R68-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R68-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R68-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R68-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-SIDBI"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "SIDBI",
+        "access": "Contact SIDBI via its customer portal or Uttarakhand branches; product-specific lending eligibility applies.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Up to ₹25 lakh; repayment up to 36 months; published starting rate from 10.5% p.a., subject to credit profile.",
+        "bestFor": "Machinery, renovation, outlet, vehicle, stock or eligible business purpose",
+        "eligible": "GST- and Udyam-registered business with generally 3+ years operations and product conditions",
+        "family": "Machinery technology energy and digitalisation",
+        "gov": "Central",
+        "id": "SCH-SIDBI-DIGITAL-BUSINESS-LOAN-248602",
+        "label": "MSME business finance",
+        "margin": "As per SIDBI appraisal",
+        "name": "SIDBI digital business loan",
+        "parent": "",
+        "reach": 237,
+        "src": "https://www.sidbi.in/en/business-loan",
+        "stage": "Existing",
+        "support": "Business loan",
+        "agency": "SIDBI",
+        "access": "Contact SIDBI via its customer portal or Uttarakhand branches; product-specific lending eligibility applies.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-TREDS-INVOICE-DISCOUNTING-B2B9D2",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-TREDS-INVOICE-DISCOUNTING-B2B9D2",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R63-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R63-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R63-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R63-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-SIDBI"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "SIDBI",
+        "access": "Register with a permitted TReDS platform; accepted buyer invoices and financier bidding are required.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Competitive invoice discounting without collateral; cost is the accepted discount rate, not a subsidy.",
+        "bestFor": "Discounting accepted invoices on eligible buyers",
+        "eligible": "MSME supplier and onboarded buyer/financier",
+        "family": "Credit guarantee working capital and equity",
+        "gov": "Central",
+        "id": "SCH-TREDS-INVOICE-DISCOUNTING-B2B9D2",
+        "label": "MSME working capital",
+        "margin": "Discount/fees",
+        "name": "TReDS invoice discounting",
+        "parent": "",
+        "reach": 237,
+        "src": "https://www.sidbi.in/en/treds",
+        "stage": "Existing",
+        "support": "Receivables finance",
+        "agency": "SIDBI",
+        "access": "Register with a permitted TReDS platform; accepted buyer invoices and financier bidding are required.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-NSIC-RAW-MATERIAL-ASSISTANCE-AGAINST-BANK--1C87E0",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-NSIC-RAW-MATERIAL-ASSISTANCE-AGAINST-BANK--1C87E0",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R72-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R72-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R72-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R72-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-NSIC"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "NSIC",
+        "access": "Apply to NSIC through its official forms/registration channel; the Dehradun branch is the local access point.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "NSIC can finance raw-material purchase for up to 180 days against a bank guarantee. The last publicly documented rate schedule (effective 1 July 2025) ran from 8.75% p.a. for micro units rated SME 1 to 10.25% p.a. for unrated units, with a processing fee of 1% p.a. on new sanctions and 0.5%-1% on renewals, and an additional 1.25% per quarter on repayment beyond 180 days. NSIC revises these rates periodically - confirm the live rate circular before relying on any figure.",
+        "bestFor": "Bulk or timely purchase of indigenous or imported raw material",
+        "eligible": "Creditworthy MSME able to provide an acceptable bank guarantee",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Storage transport and supply chain",
+        "gov": "Central",
+        "id": "SCH-NSIC-RAW-MATERIAL-ASSISTANCE-AGAINST-BANK--1C87E0",
+        "label": "MSME working capital / inputs",
+        "margin": "Bank guarantee, interest, fee and repayment",
+        "name": "NSIC Raw Material Assistance against Bank Guarantee",
+        "parent": "",
+        "reach": 151,
+        "src": "https://www.nsic.co.in/Schemes/RawMaterialAgainstBG",
+        "stage": "Existing",
+        "support": "Raw-material finance",
+        "agency": "NSIC",
+        "access": "Apply to NSIC through its official forms/registration channel; the Dehradun branch is the local access point.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-NSIC-SINGLE-POINT-REGISTRATION-SCHEME-SPRS-2DAF35",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-NSIC-SINGLE-POINT-REGISTRATION-SCHEME-SPRS-2DAF35",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R73-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R73-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R73-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R73-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-NSIC"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "NSIC",
+        "access": "Apply to NSIC through its official forms/registration channel; the Dehradun branch is the local access point.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Free tender sets, EMD exemption, tender consortia and the opportunity for an L1+15% MSE to match L1 for up to 25% of requirement, subject to tender and policy terms.",
+        "bestFor": "Tender access and procurement-policy benefits for eligible products/services",
+        "eligible": "Udyam-registered micro or small manufacturing/service enterprise meeting inspection and activity rules",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Market procurement ecommerce and export",
+        "gov": "Central",
+        "id": "SCH-NSIC-SINGLE-POINT-REGISTRATION-SCHEME-SPRS-2DAF35",
+        "label": "Government procurement / MSE",
+        "margin": "Registration/inspection fees as applicable",
+        "name": "NSIC Single Point Registration Scheme (SPRS)",
+        "parent": "",
+        "reach": 151,
+        "src": "https://www.nsic.co.in/Schemes/SinglePointRegistration",
+        "stage": "New and existing",
+        "support": "Procurement registration / market preference",
+        "agency": "NSIC",
+        "access": "Apply to NSIC through its official forms/registration channel; the Dehradun branch is the local access point.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-MUTUAL-CREDIT-GUARANTEE-SCHEME-FOR-MSMES-M-8AEB3C",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-MUTUAL-CREDIT-GUARANTEE-SCHEME-FOR-MSMES-M-8AEB3C",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R64-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R64-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R64-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R64-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-NCGTC"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "NCGTC",
+        "access": "Approach an eligible member lender for project finance; member lender seeks NCGTC guarantee, subject to current scheme conditions.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Guarantee coverage is 60% of the guaranteed term loan, on credit facilities up to ₹100 crore per project. The cost of equipment and machinery must be at least 75% of project cost. Borrower must hold a valid Udyam registration and not be an NPA; an upfront contribution of 5% of the loan amount is deposited with NCGTC.",
+        "bestFor": "Large machinery/equipment-led investment project",
+        "eligible": "Udyam-registered new or existing MSME; machinery/equipment must form at least the prescribed share of project cost",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Machinery technology energy and digitalisation",
+        "gov": "Central",
+        "id": "SCH-MUTUAL-CREDIT-GUARANTEE-SCHEME-FOR-MSMES-M-8AEB3C",
+        "label": "MSME machinery finance",
+        "margin": "Lender margin, upfront contribution/guarantee fee structure and repayment",
+        "name": "Mutual Credit Guarantee Scheme for MSMEs (MCGS-MSME)",
+        "parent": "",
+        "reach": 132,
+        "src": "https://www.ncgtc.in/content/products/0/20260330/Operational_Guidelines_Mutual_Credit_Guarantee_Scheme_for_MSMEs_Modified_2402026_078178750f.pdf",
+        "stage": "New and existing",
+        "support": "Credit guarantee to lender",
+        "agency": "NCGTC",
+        "access": "Approach an eligible member lender for project finance; member lender seeks NCGTC guarantee, subject to current scheme conditions.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-REVAMPED-PHARMACEUTICAL-TECHNOLOGY-UPGRADA-C98303",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-REVAMPED-PHARMACEUTICAL-TECHNOLOGY-UPGRADA-C98303",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R77-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R77-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R77-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R77-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-PHARMA"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Department of Pharmaceuticals",
+        "access": "Use the Department of Pharmaceuticals scheme application/implementing agency channel; current guideline, component and approval conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Not necessarily",
+        "benefit": "20% of eligible investment for turnover below ₹50 crore; 15% for ₹50 crore to below ₹250 crore; 10% for ₹250 crore to below ₹500 crore; maximum incentive ₹2 crore per unit (raised from ₹1 crore by corrigendum of 17 September 2024). Assistance is a reimbursement, not credit-linked. Eligible investment is that made after 1 January 2024.",
+        "bestFor": "Upgrade an existing pharma plant to Revised Schedule M and/or WHO-GMP",
+        "eligible": "Existing pharmaceutical manufacturing unit with average turnover below ₹500 crore over the preceding 3 years",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Machinery technology energy and digitalisation",
+        "gov": "Central",
+        "id": "SCH-REVAMPED-PHARMACEUTICAL-TECHNOLOGY-UPGRADA-C98303",
+        "label": "Pharmaceutical manufacturing",
+        "margin": "Balance eligible/actual cost",
+        "name": "Revamped Pharmaceutical Technology Upgradation Assistance Scheme (RPTUAS)",
+        "parent": "",
+        "reach": 11,
+        "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294204&lang=1&reg=48",
+        "stage": "Existing",
+        "support": "Capital incentive / reimbursement",
+        "agency": "Department of Pharmaceuticals",
+        "access": "Use the Department of Pharmaceuticals scheme application/implementing agency channel; current guideline, component and approval conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-ASSISTANCE-TO-PHARMACEUTICAL-INDUSTRY-FOR--188056",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-ASSISTANCE-TO-PHARMACEUTICAL-INDUSTRY-FOR--188056",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R78-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R78-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R78-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R78-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-PHARMA"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Department of Pharmaceuticals",
+        "access": "Use the Department of Pharmaceuticals scheme application/implementing agency channel; current guideline, component and approval conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Often",
+        "benefit": "National programme terms apply. The former state-specific example is omitted; confirm the current admissible assistance with the implementing agency.",
+        "bestFor": "Common testing, R&D, effluent/waste, logistics or other approved cluster facility",
+        "eligible": "SPV with at least 5 legally independent pharma units; pharma enterprises hold at least 51% equity, or eligible State cluster entity",
+        "family": "Land cluster and common infrastructure",
+        "gov": "Central",
+        "id": "SCH-ASSISTANCE-TO-PHARMACEUTICAL-INDUSTRY-FOR--188056",
+        "label": "Pharma cluster infrastructure",
+        "margin": "SPV/State balance and operating cost",
+        "name": "Assistance to Pharmaceutical Industry for Common Facilities (API-CF)",
+        "parent": "",
+        "reach": 11,
+        "src": "https://www.pharma-dept.gov.in/schemes/scheme-strengthening-pharmaceuticals-industry-spi",
+        "stage": "New",
+        "support": "Cluster grant",
+        "agency": "Department of Pharmaceuticals",
+        "access": "Use the Department of Pharmaceuticals scheme application/implementing agency channel; current guideline, component and approval conditions apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-SMDI-MARGINAL-INVESTMENT-SCHEME-FOR-REDUCI-A89898",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-SMDI-MARGINAL-INVESTMENT-SCHEME-FOR-REDUCI-A89898",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R79-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R79-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R79-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R79-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-PHARMA"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Department of Pharmaceuticals",
+        "access": "Use the SMDI online application route; support depends on component eligibility and the relevant invitation/approval process.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Not necessarily",
+        "benefit": "One-time subsidy on eligible fixed investment: turnover up to ₹250 crore, 20%; ₹250–₹1,000 crore, 15%; above ₹1,000 crore, 10%; maximum ₹10 crore.",
+        "bestFor": "Manufacture eligible device components, medical-grade raw materials/accessories or notified import-dependent devices",
+        "eligible": "Eligible Indian company/LLP/SPV or Government entity manufacturing a notified eligible product",
+        "family": "Establishment and capital investment",
+        "gov": "Central",
+        "id": "SCH-SMDI-MARGINAL-INVESTMENT-SCHEME-FOR-REDUCI-A89898",
+        "label": "Medical devices / components",
+        "margin": "Balance investment and operating finance",
+        "name": "SMDI – Marginal Investment Scheme for Reducing Import Dependence (MIS-RID)",
+        "parent": "SMDI",
+        "reach": 10,
+        "src": "https://pharma-dept.gov.in/schemes/scheme-strengthening-medical-device-industry",
+        "stage": "New",
+        "support": "Capital subsidy reimbursement",
+        "agency": "Department of Pharmaceuticals",
+        "access": "Use the SMDI online application route; support depends on component eligibility and the relevant invitation/approval process.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-SMDI-MEDICAL-DEVICE-CLINICAL-STUDIES-SUPPO-E2A6A3",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-SMDI-MEDICAL-DEVICE-CLINICAL-STUDIES-SUPPO-E2A6A3",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R80-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R80-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R80-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R80-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-PHARMA"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Department of Pharmaceuticals",
+        "access": "Use the SMDI online application route; support depends on component eligibility and the relevant invitation/approval process.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Reimbursement of 25% of expenditure in every category, subject to: pre-clinical (animal) studies up to ₹2 crore; clinical investigation up to ₹5 crore; post-market clinical follow-up up to ₹1 crore; in-vitro diagnostic performance evaluation up to ₹1 crore.",
+        "bestFor": "Indian pre-clinical study, clinical investigation, PMCF or new-IVD performance evaluation",
+        "eligible": "Eligible medical-device manufacturer/developer meeting Indian regulatory and study conditions",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Quality testing certification IP and compliance",
+        "gov": "Central",
+        "id": "SCH-SMDI-MEDICAL-DEVICE-CLINICAL-STUDIES-SUPPO-E2A6A3",
+        "label": "Medical-device R&D / regulatory studies",
+        "margin": "Balance study cost",
+        "name": "SMDI – Medical Device Clinical Studies Support",
+        "parent": "SMDI",
+        "reach": 10,
+        "src": "https://pharma-dept.gov.in/sites/default/files/Final%20guidelines%20for%20SMDI-8.11.2024.pdf",
+        "stage": "New and existing",
+        "support": "Study-cost reimbursement",
+        "agency": "Department of Pharmaceuticals",
+        "access": "Use the SMDI online application route; support depends on component eligibility and the relevant invitation/approval process.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-SMDI-COMMON-FACILITIES-FOR-MEDICAL-DEVICE--91ED11",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-SMDI-COMMON-FACILITIES-FOR-MEDICAL-DEVICE--91ED11",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R81-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R81-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R81-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R81-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-PHARMA"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Department of Pharmaceuticals",
+        "access": "Use the SMDI online application route; support depends on component eligibility and the relevant invitation/approval process.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Often",
+        "benefit": "Common facility: 70% for Government-funded entity or 50% for private entity, up to ₹20 crore. Testing facility: 70% Government or 50% private, up to ₹5 crore.",
+        "bestFor": "Shared production/testing/R&D/effluent/logistics facility or independent testing facility",
+        "eligible": "SPV with at least 5 medical-device units and at least 51% enterprise equity, State entity or eligible testing institution",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Quality testing certification IP and compliance",
+        "gov": "Central",
+        "id": "SCH-SMDI-COMMON-FACILITIES-FOR-MEDICAL-DEVICE--91ED11",
+        "label": "Medical-device cluster / testing infrastructure",
+        "margin": "SPV/entity balance and operating cost",
+        "name": "SMDI – Common Facilities for Medical Device Clusters",
+        "parent": "SMDI",
+        "reach": 10,
+        "src": "https://pharma-dept.gov.in/sites/default/files/Final%20guidelines%20for%20SMDI-8.11.2024.pdf",
+        "stage": "New",
+        "support": "Cluster/testing-facility grant",
+        "agency": "Department of Pharmaceuticals",
+        "access": "Use the SMDI online application route; support depends on component eligibility and the relevant invitation/approval process.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-INNOVATIONS-FOR-DEFENCE-EXCELLENCE-IDEX-SP-4F5473",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-INNOVATIONS-FOR-DEFENCE-EXCELLENCE-IDEX-SP-4F5473",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R85-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R85-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R85-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R85-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-IDEX"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Defence Innovation Organisation",
+        "access": "Register on iDEX and submit to an eligible challenge or Open Challenge; award requires selection.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "DISC/Open Challenge and SPARK support up to ₹1.5 crore per project; iDEX PRIME up to ₹10 crore; ADITI up to ₹25 crore, subject to the challenge and approved product-development budget. The iDEX scheme framework was sanctioned for 2021-22 to 2025-26 - confirm the current sanction before planning around it.",
+        "bestFor": "Prototype or commercialise a solution to an iDEX/DISC/Open/PRIME/ADITI challenge",
+        "eligible": "DPIIT startup, eligible Indian MSME/company or individual innovator under the specific challenge",
+        "family": "Training incubation and entrepreneurship",
+        "gov": "Central",
+        "id": "SCH-INNOVATIONS-FOR-DEFENCE-EXCELLENCE-IDEX-SP-4F5473",
+        "label": "Defence / aerospace / dual-use innovation",
+        "margin": "Matching contribution/category-specific cost and overruns",
+        "name": "Innovations for Defence Excellence (iDEX / SPARK)",
+        "parent": "",
+        "reach": 52,
+        "src": "https://www.idex.gov.in/faq",
+        "stage": "New and existing",
+        "support": "Milestone grant + incubation/testing access",
+        "agency": "Defence Innovation Organisation",
+        "access": "Register on iDEX and submit to an eligible challenge or Open Challenge; award requires selection.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-BIOTECHNOLOGY-IGNITION-GRANT-BIG-79D1D8",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-BIOTECHNOLOGY-IGNITION-GRANT-BIG-79D1D8",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R84-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R84-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R84-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R84-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-BIRAC"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "BIRAC",
+        "access": "Apply through BIRAC BIG calls and approved BIG partners; current call dates require confirmation.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Up to ₹50 lakh for up to 18 months to establish proof of concept; milestone-based with mentoring through BIG Partners.",
+        "bestFor": "Early proof-of-concept for biotech, drug, vaccine, diagnostics, device, industrial-biotech or agri-biotech innovation",
+        "eligible": "Eligible individual innovator/entrepreneur or qualifying startup routed through a BIG Partner under current guidelines",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Training incubation and entrepreneurship",
+        "gov": "Central",
+        "id": "SCH-BIOTECHNOLOGY-IGNITION-GRANT-BIG-79D1D8",
+        "label": "Biotechnology / life sciences / agri-biotech",
+        "margin": "Any ineligible/overrun cost",
+        "name": "Biotechnology Ignition Grant (BIG)",
+        "parent": "",
+        "reach": 9,
+        "src": "https://birac.nic.in/big.php",
+        "stage": "New",
+        "support": "Grant-in-aid + incubation",
+        "agency": "BIRAC",
+        "access": "Apply through BIRAC BIG calls and approved BIG partners; current call dates require confirmation.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-GENESIS-GEN-NEXT-SUPPORT-FOR-INNOVATIVE-ST-079FC1",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-GENESIS-GEN-NEXT-SUPPORT-FOR-INNOVATIVE-ST-079FC1",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R165-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R165-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R165-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R165-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-GENESIS"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "MeitY Startup Hub",
+        "access": "Apply through an approved GENESIS implementing agency and its current startup selection process.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Support is delivered through selected implementing agencies and programme calls for technology startups and ecosystem development.",
+        "bestFor": "Startups in tier-II/III ecosystems using selected incubators",
+        "eligible": "Eligible technology startup through an approved implementing agency",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Training incubation and entrepreneurship",
+        "gov": "Central",
+        "id": "SCH-GENESIS-GEN-NEXT-SUPPORT-FOR-INNOVATIVE-ST-079FC1",
+        "label": "Digital and technology startups",
+        "margin": "Call-specific",
+        "name": "GENESIS – Gen-Next Support for Innovative Startups",
+        "parent": "GENESIS",
+        "reach": 17,
+        "src": "https://www.meity.gov.in/offerings?page=3",
+        "stage": "New and existing",
+        "support": "Incubation, grant and ecosystem support",
+        "agency": "MeitY Startup Hub",
+        "access": "Apply through an approved GENESIS implementing agency and its current startup selection process.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-STPI-NEXT-GENERATION-INCUBATION-SCHEME-5A4B29",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-STPI-NEXT-GENERATION-INCUBATION-SCHEME-5A4B29",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R167-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R167-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R167-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R167-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-STPI"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "STPI",
+        "access": "Contact STPI Dehradun/NGIS for current cohort selection and programme terms.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Centre/cohort-based incubation, mentoring, investor access and programme support under NGIS.",
+        "bestFor": "Tech startups willing to join an NGIS centre/cohort",
+        "eligible": "Eligible startup selected by STPI",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Training incubation and entrepreneurship",
+        "gov": "Central",
+        "id": "SCH-STPI-NEXT-GENERATION-INCUBATION-SCHEME-5A4B29",
+        "label": "Software and electronics startups",
+        "margin": "Cohort-specific",
+        "name": "STPI Next Generation Incubation Scheme",
+        "parent": "",
+        "reach": 17,
+        "src": "https://stpi.in/en/schemes/ngis-scheme",
+        "stage": "New and existing",
+        "support": "Incubation, mentoring and seed-support route",
+        "agency": "STPI",
+        "access": "Contact STPI Dehradun/NGIS for current cohort selection and programme terms.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-ECGC-SMALL-EXPORTERS-POLICY-B3B7E2",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-ECGC-SMALL-EXPORTERS-POLICY-B3B7E2",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R178-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R178-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R178-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R178-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-ECGC"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "ECGC",
+        "access": "Submit the policy proposal to ECGC; exporter underwriting, premium and policy terms apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Policy cover for eligible commercial and political risks, with maximum liability up to ₹2 crore under the Small Exporters Policy.",
+        "bestFor": "Small exporters seeking buyer-default risk cover",
+        "eligible": "Exporter with anticipated export turnover up to ₹5 crore",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Insurance risk compensation and income support",
+        "gov": "Central",
+        "id": "SCH-ECGC-SMALL-EXPORTERS-POLICY-B3B7E2",
+        "label": "Exports",
+        "margin": "Premium payable by exporter",
+        "name": "ECGC Small Exporters Policy",
+        "parent": "",
+        "reach": 7,
+        "src": "https://main.ecgc.in/small-exporters-policy-sep/",
+        "stage": "Existing",
+        "support": "Export credit insurance",
+        "agency": "ECGC",
+        "access": "Submit the policy proposal to ECGC; exporter underwriting, premium and policy terms apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-ADVANCE-AUTHORISATION-8A928E",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-ADVANCE-AUTHORISATION-8A928E",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R179-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R179-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R179-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R179-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-AA"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "DGFT",
+        "access": "Use DGFT IEC-linked Advance Authorisation application; imported-input use and export obligations apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Duty-free import of inputs physically incorporated in export product, subject to standard input-output norms or approved norms and export obligation.",
+        "bestFor": "Manufacturers importing inputs for export production",
+        "eligible": "Eligible manufacturer-exporter / merchant exporter tied to supporting manufacturer",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Market procurement ecommerce and export",
+        "gov": "Central",
+        "id": "SCH-ADVANCE-AUTHORISATION-8A928E",
+        "label": "Export manufacturing",
+        "margin": "Export obligation and bond conditions",
+        "name": "Advance Authorisation",
+        "parent": "",
+        "reach": 107,
+        "src": "https://content.dgft.gov.in/Website/dgftprod/34f12103-6192-43a9-aeff-456f3666a8df/Presentation%20_FTP%202023%2031.03.2023%20Final.pdf",
+        "stage": "New and existing",
+        "support": "Duty-free import authorisation",
+        "agency": "DGFT",
+        "access": "Use DGFT IEC-linked Advance Authorisation application; imported-input use and export obligations apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-EPCG-EXPORT-PROMOTION-CAPITAL-GOODS-104345",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-EPCG-EXPORT-PROMOTION-CAPITAL-GOODS-104345",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R180-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R180-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R180-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R180-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-EPCG"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "DGFT",
+        "access": "Use the DGFT EPCG authorisation workflow; fulfil the prescribed export obligation.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Import of eligible capital goods at concessional or zero customs duty against prescribed export obligation under FTP rules.",
+        "bestFor": "Exporters importing capital goods",
+        "eligible": "Eligible manufacturer or service provider with export obligation",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Machinery technology energy and digitalisation",
+        "gov": "Central",
+        "id": "SCH-EPCG-EXPORT-PROMOTION-CAPITAL-GOODS-104345",
+        "label": "Export manufacturing and eligible services",
+        "margin": "Export obligation and security/bond conditions",
+        "name": "EPCG – Export Promotion Capital Goods",
+        "parent": "EPCG",
+        "reach": 145,
+        "src": "https://content.dgft.gov.in/Website/dgftprod/34f12103-6192-43a9-aeff-456f3666a8df/Presentation%20_FTP%202023%2031.03.2023%20Final.pdf",
+        "stage": "New and existing",
+        "support": "Concessional/duty-free capital-goods import",
+        "agency": "DGFT",
+        "access": "Use the DGFT EPCG authorisation workflow; fulfil the prescribed export obligation.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-IREDA-RENEWABLE-ENERGY-FINANCING-7D1131",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-IREDA-RENEWABLE-ENERGY-FINANCING-7D1131",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R175-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R175-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R175-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R175-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-IREDA"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "IREDA",
+        "access": "Apply to IREDA for project appraisal under the appropriate current financing product.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Term loans under IREDA financing norms with project-type exposure limits, security, promoter contribution and interest determined by appraisal.",
+        "bestFor": "Bankable solar, hydro, bioenergy, EV or energy-efficiency projects",
+        "eligible": "Eligible project company or enterprise meeting IREDA norms",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Credit guarantee working capital and equity",
+        "gov": "Central",
+        "id": "SCH-IREDA-RENEWABLE-ENERGY-FINANCING-7D1131",
+        "label": "Renewable energy and energy infrastructure",
+        "margin": "Promoter contribution and security per financing norms",
+        "name": "IREDA renewable-energy financing",
+        "parent": "",
+        "reach": 8,
+        "src": "https://www.ireda.in/images/HTMLfiles/Financing%20Norms_09_01_2026.pdf",
+        "stage": "New and existing",
+        "support": "Project debt",
+        "agency": "IREDA",
+        "access": "Apply to IREDA for project appraisal under the appropriate current financing product.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-DRDO-TECHNOLOGY-DEVELOPMENT-FUND-TDF-F6BBFD",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-DRDO-TECHNOLOGY-DEVELOPMENT-FUND-TDF-F6BBFD",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R86-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R86-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R86-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R86-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-TDF"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "DRDO",
+        "access": "Apply through the TDF portal against eligible defence-technology projects; selection and development milestones apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Grant-in-aid of up to 90% of total project cost, with a maximum of ₹50 crore per project (raised from ₹10 crore). Funding is released against agreed milestones.",
+        "bestFor": "Develop or upgrade a technology/prototype against a notified defence requirement",
+        "eligible": "Indian MSME/startup/eligible industry; MSME or Startup recognition is required for portal industry registration",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Machinery technology energy and digitalisation",
+        "gov": "Central",
+        "id": "SCH-DRDO-TECHNOLOGY-DEVELOPMENT-FUND-TDF-F6BBFD",
+        "label": "Defence / national-security / dual-use technology",
+        "margin": "Industry share, bank guarantee and cost overruns",
+        "name": "DRDO Technology Development Fund (TDF)",
+        "parent": "",
+        "reach": 52,
+        "src": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1832042",
+        "stage": "New and existing",
+        "support": "Milestone grant-in-aid + technical support",
+        "agency": "DRDO",
+        "access": "Apply through the TDF portal against eligible defence-technology projects; selection and development milestones apply.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-DESIGN-LINKED-INCENTIVE-DESIGN-INFRASTRUCT-AF689A",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-DESIGN-LINKED-INCENTIVE-DESIGN-INFRASTRUCT-AF689A",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R168-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R168-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R168-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R168-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-DLI"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "MeitY / C-DAC",
+        "access": "Register on DLI and submit the EDA tool request for eligible domestic semiconductor-design work.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Access to approved electronic-design automation tools, IP cores, MPW/prototyping and related design infrastructure under the DLI framework.",
+        "bestFor": "Domestic chip-design startups and MSMEs using approved design infrastructure",
+        "eligible": "Eligible domestic company, startup or MSME",
+        "family": "Machinery technology energy and digitalisation",
+        "gov": "Central",
+        "id": "SCH-DESIGN-LINKED-INCENTIVE-DESIGN-INFRASTRUCT-AF689A",
+        "label": "Semiconductor and electronics design",
+        "margin": "Programme-specific",
+        "name": "Design Linked Incentive – design infrastructure support",
+        "parent": "Design Linked Incentive",
+        "reach": 6,
+        "src": "https://chips-dli.gov.in/DLI/EDANew",
+        "stage": "New and existing",
+        "support": "EDA tools, IP and prototyping infrastructure",
+        "agency": "MeitY / C-DAC",
+        "access": "Register on DLI and submit the EDA tool request for eligible domestic semiconductor-design work.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-ELECTRONICS-COMPONENT-MANUFACTURING-SCHEME-E38CBD",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-ELECTRONICS-COMPONENT-MANUFACTURING-SCHEME-E38CBD",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R87-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R87-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R87-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R87-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-NATX-ECMS"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "MeitY",
+        "access": "Apply through ECMS only for a target segment with a valid application window. Earlier A/B/C/E windows closed; verify amendments and the eligible segment before applying.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Usually",
+        "benefit": "Segment D (supply-chain ecosystem and capital equipment) is eligible for turnover-linked, capex and hybrid incentives. The Segment D application window remains open to 30 April 2027; windows for Segments A, B, C and E closed on 30 September 2025. Turnover-linked incentive runs 6 years with a 1-year gestation; capex incentive runs 5 years.",
+        "bestFor": "Electronics supply-chain inputs or capital goods used in electronics manufacturing",
+        "eligible": "Applicant meeting the notified Segment D product, investment, net-worth and domestic-value-addition conditions",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Machinery technology energy and digitalisation",
+        "gov": "Central",
+        "id": "SCH-ELECTRONICS-COMPONENT-MANUFACTURING-SCHEME-E38CBD",
+        "label": "Electronics components / capital equipment",
+        "margin": "Minimum investment and balance project finance",
+        "name": "Electronics Component Manufacturing Scheme (ECMS) – Target Segment D",
+        "parent": "Electronics Component Manufacturing Scheme (ECMS)",
+        "reach": 6,
+        "src": "https://ecms.meity.gov.in/",
+        "stage": "New",
+        "support": "Capex incentive",
+        "agency": "MeitY",
+        "access": "Apply through ECMS only for a target segment with a valid application window. Earlier A/B/C/E windows closed; verify amendments and the eligible segment before applying.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-PRADHAN-MANTRI-BHARTIYA-JANAUSHADHI-PARIYO-9AEA2A",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-PRADHAN-MANTRI-BHARTIYA-JANAUSHADHI-PARIYO-9AEA2A",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R82-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R82-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R82-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R82-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-LIVX-JANAUSHADHI"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "PMBI / Uttarakhand drug licensing authority",
+        "access": "Use PMBI official Apply For Kendra service at https://www.janaushadhi.gov.in/ for a proposed Uttarakhand retail site; obtain requisite local drug licence and pharmacist documentation under unchanged common rules. Operating state network does not prove a site is eligible or intake approved.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Sometimes",
+        "benefit": "Normal incentive 20% of monthly purchases, capped at ₹20,000 a month and ₹5 lakh in total. A new Kendra opened by a woman, Divyangjan, SC or ST entrepreneur, or in an aspirational district, Himalayan state, island territory or the North East, additionally receives a one-time incentive of up to ₹2 lakh - ₹1.5 lakh for furniture and fixtures and ₹0.5 lakh for IT equipment - against original bills.",
+        "bestFor": "Open and operate a compliant Jan Aushadhi Kendra",
+        "eligible": "Individual, NGO, society, trust, firm, private company, PACS or other eligible entity meeting premises, drug-licence and pharmacist rules",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Central sector or commodity support",
+        "gov": "Central",
+        "id": "SCH-PRADHAN-MANTRI-BHARTIYA-JANAUSHADHI-PARIYO-9AEA2A",
+        "label": "Generic medicine retail / healthcare enterprise",
+        "margin": "Premises, pharmacist, licence, stock and working capital",
+        "name": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana – Jan Aushadhi Kendra",
+        "parent": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana",
+        "reach": 2,
+        "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294917&lang=2&reg=48",
+        "stage": "New",
+        "support": "Performance incentive + one-time special grant",
+        "agency": "PMBI / Uttarakhand drug licensing authority",
+        "access": "Use PMBI official Apply For Kendra service at https://www.janaushadhi.gov.in/ for a proposed Uttarakhand retail site; obtain requisite local drug licence and pharmacist documentation under unchanged common rules. Operating state network does not prove a site is eligible or intake approved.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-PMKSY-PER-DROP-MORE-CROP-MICRO-IRRIGATION-8D174C",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-PMKSY-PER-DROP-MORE-CROP-MICRO-IRRIGATION-8D174C",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R29-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R29-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R29-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R29-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-AGRX-PMKSY-SRC"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Agriculture office / district horticulture officer",
+        "access": "Checked 2026-10-02; Landholding farmers approach nearby agriculture office; horticulture DBT register separately lists PMKSY code 2401001190115. Confirm current micro-irrigation component, technical design, approved supplier and sanction before purchase.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Sometimes",
+        "benefit": "National programme terms apply. The former state-specific example is omitted; confirm the current admissible assistance with the implementing agency.",
+        "bestFor": "Drip and sprinkler systems",
+        "eligible": "Eligible farmers; land and water-source conditions apply",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Establishment and capital investment",
+        "gov": "Central + Uttarakhand",
+        "id": "SCH-PMKSY-PER-DROP-MORE-CROP-MICRO-IRRIGATION-8D174C",
+        "label": "Agriculture / horticulture irrigation",
+        "margin": "Balance cost",
+        "name": "PMKSY – Per Drop More Crop (micro-irrigation)",
+        "parent": "PMKSY",
+        "reach": 58,
+        "src": "https://pmksy.gov.in/microirrigation/Archive/GuidelinesMIRevised250817.pdf",
+        "stage": "New",
+        "support": "Capital subsidy",
+        "agency": "Agriculture office / district horticulture officer",
+        "access": "Checked 2026-10-02; Landholding farmers approach nearby agriculture office; horticulture DBT register separately lists PMKSY code 2401001190115. Confirm current micro-irrigation component, technical design, approved supplier and sanction before purchase.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-PRADHAN-MANTRI-MATSYA-SAMPADA-YOJANA-PMMSY-5A9DE6",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-PRADHAN-MANTRI-MATSYA-SAMPADA-YOJANA-PMMSY-5A9DE6",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R107-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R107-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R107-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R107-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-FISH"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "District fisheries officer",
+        "access": "Checked 2026-10-02; State CM fisheries programme is designed alongside PMMSY; district fisheries officer confirms separate current PMMSY component, target and non-duplication.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Often",
+        "benefit": "Government assistance generally 40% of eligible unit cost for general category and 60% for SC/ST/women, subject to activity cost norm and State target.",
+        "bestFor": "Eligible aquaculture, hatchery, cold chain, transport and fisheries activities",
+        "eligible": "Fish farmer, entrepreneur, SHG/JLG, cooperative, SC/ST/women and other eligible categories by activity",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Establishment and capital investment",
+        "gov": "Central + Uttarakhand",
+        "id": "SCH-PRADHAN-MANTRI-MATSYA-SAMPADA-YOJANA-PMMSY-5A9DE6",
+        "label": "Fisheries / aquaculture",
+        "margin": "60% general or 40% special category",
+        "name": "Pradhan Mantri Matsya Sampada Yojana (PMMSY) – beneficiary activities",
+        "parent": "Pradhan Mantri Matsya Sampada Yojana (PMMSY)",
+        "reach": 60,
+        "src": "https://dof.gov.in/sites/default/files/2020-12/PMMSY-Guidelines24-June2020.pdf",
+        "stage": "New",
+        "support": "Capital subsidy",
+        "agency": "District fisheries officer",
+        "access": "Checked 2026-10-02; State CM fisheries programme is designed alongside PMMSY; district fisheries officer confirms separate current PMMSY component, target and non-duplication.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-NSTFDC-TERM-LOAN-SCHEME-933EB9",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-NSTFDC-TERM-LOAN-SCHEME-933EB9",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R115-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R115-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R115-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R115-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-LIVX-UKBVVN"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "UKBVVN / District Social Welfare Officer",
+        "access": "Use UKBVVN national-corporation financing form; confirm ST product, documentation and current allocation. National benefits/eligibility remain common records.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Unit cost up to ₹50 lakh; NSTFDC finance up to 90%. Beneficiary rate: 6% up to ₹5 lakh, 8% up to ₹10 lakh, 10% above ₹10 lakh; promoter contribution 0%–5% by project size.",
+        "bestFor": "Viable industrial, agricultural or service venture",
+        "eligible": "Eligible Scheduled Tribe applicant; family-income ceiling and State-channel rules apply",
+        "family": "Applicant category overlays",
+        "gov": "Central",
+        "id": "SCH-NSTFDC-TERM-LOAN-SCHEME-933EB9",
+        "label": "ST enterprise",
+        "margin": "0%–5% plus financing gap",
+        "name": "NSTFDC Term Loan Scheme",
+        "parent": "",
+        "reach": 99,
+        "src": "https://nstfdc.tribal.gov.in/frm_term_loan.aspx",
+        "stage": "New",
+        "support": "Concessional term loan",
+        "agency": "UKBVVN / District Social Welfare Officer",
+        "access": "Use UKBVVN national-corporation financing form; confirm ST product, documentation and current allocation. National benefits/eligibility remain common records.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-NBCFDC-GENERAL-LOAN-SCHEME-FE8D72",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-NBCFDC-GENERAL-LOAN-SCHEME-FE8D72",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R116-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R116-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R116-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R116-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-LIVX-UKBVVN"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "UKBVVN / District Social Welfare Officer",
+        "access": "Confirm OBC income/category documentation and current national-corporation allocation with district corporation manager; apply using corporation financing form.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Up to 85% of project cost, maximum ₹15 lakh; beneficiary interest 6% up to ₹5 lakh, 7% above ₹5–₹10 lakh, 8% above ₹10–₹15 lakh; repayment up to 8 years.",
+        "bestFor": "Agriculture, artisan, small business, transport or service activity",
+        "eligible": "Member of a notified Backward Class with annual family income up to ₹3 lakh, through the State Channelising Agency",
+        "family": "Applicant category overlays",
+        "gov": "Central",
+        "id": "SCH-NBCFDC-GENERAL-LOAN-SCHEME-FE8D72",
+        "label": "OBC / backward-class enterprise",
+        "margin": "At least 15% unless channel adds finance",
+        "name": "NBCFDC General Loan Scheme",
+        "parent": "",
+        "reach": 99,
+        "src": "https://nbcfdc.gov.in/nbcfdc/web/node/65",
+        "stage": "New",
+        "support": "Concessional term loan",
+        "agency": "UKBVVN / District Social Welfare Officer",
+        "access": "Confirm OBC income/category documentation and current national-corporation allocation with district corporation manager; apply using corporation financing form.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-NBCFDC-NEW-SWARNIMA-FOR-WOMEN-A6B4E6",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-NBCFDC-NEW-SWARNIMA-FOR-WOMEN-A6B4E6",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R117-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R117-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R117-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R117-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-LIVX-UKBVVN"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "UKBVVN / District Social Welfare Officer",
+        "access": "Ask for availability of the selected women/OBC national product; SCA listing proves institutional channel, not product-specific live intake.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Maximum ₹2 lakh; NBCFDC finance 95%; beneficiary interest 5% p.a.; no own contribution required for projects up to ₹2 lakh under scheme structure.",
+        "bestFor": "Small self-employment venture",
+        "eligible": "Backward Class woman with annual family income up to ₹3 lakh, through the State Channelising Agency",
+        "family": "Applicant category overlays",
+        "gov": "Central",
+        "id": "SCH-NBCFDC-NEW-SWARNIMA-FOR-WOMEN-A6B4E6",
+        "label": "Women / OBC enterprise",
+        "margin": "No beneficiary contribution stated up to ₹2 lakh",
+        "name": "NBCFDC New Swarnima for Women",
+        "parent": "",
+        "reach": 99,
+        "src": "https://nbcfdc.gov.in/nbcfdc/web/loan-scheme-description",
+        "stage": "New",
+        "support": "Concessional term loan",
+        "agency": "UKBVVN / District Social Welfare Officer",
+        "access": "Ask for availability of the selected women/OBC national product; SCA listing proves institutional channel, not product-specific live intake.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-NMDFC-TERM-LOAN-SCHEME-88BCA2",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-NMDFC-TERM-LOAN-SCHEME-88BCA2",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R118-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R118-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R118-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R118-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-LIVX-MINORITY"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Uttarakhand Minority Welfare and Waqf Development Corporation / district minority welfare office",
+        "access": "Contact Minority Welfare Department for current corporation loan application and allocation; use official department channel because its old corporation domain is no longer trustworthy.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Credit Line 1: loan up to ₹20 lakh at 6% p.a. for families with annual income up to ₹3 lakh. Credit Line 2: loan up to ₹30 lakh at 8% p.a. for men and 6% p.a. for women, for families with annual income up to ₹8 lakh. Repayment up to 5 years after a 6-month moratorium; typical finance pattern NMDFC:SCA:beneficiary 90:5:5.",
+        "bestFor": "Viable agriculture, artisan, small business, technical trade or service venture",
+        "eligible": "Eligible notified-minority applicant under Credit Line 1 or 2 income limit",
+        "family": "Applicant category overlays",
+        "gov": "Central",
+        "id": "SCH-NMDFC-TERM-LOAN-SCHEME-88BCA2",
+        "label": "Minority enterprise",
+        "margin": "Generally 5%",
+        "name": "NMDFC Term Loan Scheme",
+        "parent": "",
+        "reach": 99,
+        "src": "https://www.nmdfc.org/faq",
+        "stage": "New",
+        "support": "Concessional term loan",
+        "agency": "Uttarakhand Minority Welfare and Waqf Development Corporation / district minority welfare office",
+        "access": "Contact Minority Welfare Department for current corporation loan application and allocation; use official department channel because its old corporation domain is no longer trustworthy.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-START-UP-VILLAGE-ENTREPRENEURSHIP-PROGRAMM-A73BF9",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-START-UP-VILLAGE-ENTREPRENEURSHIP-PROGRAMM-A73BF9",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R149-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R149-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R149-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R149-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-LIVX-SVEP"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "USRLM / selected-block SVEP BRC and SHG federations",
+        "access": "Ask USRLM/Block Mission Manager whether the block has sanctioned SVEP and an active BRC/CRP-EP; enterprise selection and CEF are through community institutions, not a universal grant.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Often",
+        "benefit": "Business planning, training, mentoring and access to community enterprise funds and bank credit through a Block Resource Centre. A budget of about ₹6.5 crore is earmarked per block; the loan/support amount for any one enterprise is block-plan specific.",
+        "bestFor": "Small rural manufacturing, service and trading enterprise by SHG household",
+        "eligible": "SHG woman/member or family in an approved SVEP block, subject to enterprise appraisal",
+        "family": "Training incubation and entrepreneurship",
+        "gov": "Central + Uttarakhand",
+        "id": "SCH-START-UP-VILLAGE-ENTREPRENEURSHIP-PROGRAMM-A73BF9",
+        "label": "Rural non-farm enterprise",
+        "margin": "Beneficiary/loan contribution as appraised",
+        "name": "Start-up Village Entrepreneurship Programme (SVEP)",
+        "parent": "",
+        "reach": 109,
+        "src": "https://lakhpatididi.gov.in/financial-assistance/",
+        "stage": "New and existing",
+        "support": "Training + mentoring + community enterprise finance",
+        "agency": "USRLM / selected-block SVEP BRC and SHG federations",
+        "access": "Ask USRLM/Block Mission Manager whether the block has sanctioned SVEP and an active BRC/CRP-EP; enterprise selection and CEF are through community institutions, not a universal grant.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-PM-VISHWAKARMA-AD66E3",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-PM-VISHWAKARMA-AD66E3",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R44-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R44-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R44-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R44-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-LIVX-VISHWAKARMA"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "CSC / RDSDE Uttarakhand / district verification committees",
+        "access": "Apply through the common scheme CSC registration route with local-body/district verification; ask RDSDE Uttarakhand for approved trade training centres. State-hosted guideline verifies the local official surface; no current batch/intake asserted.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Toolkit incentive up to ₹15,000 via e-RUPI voucher; training stipend ₹500/day (basic 5-7 days, advanced 15 days); collateral-free enterprise loans of up to ₹1 lakh (18-month repayment) then up to ₹2 lakh (30-month repayment), beneficiary interest 5% with Government interest subvention capped at 8 percentage points; digital incentive ₹1 per transaction up to 100 transactions a month; marketing support through a ₹250 crore corpus. Scheme period FY2023-24 to FY2027-28.",
+        "bestFor": "Recognition, skilling, tools, credit and market support for 18 notified trades",
+        "eligible": "Eligible traditional artisan/craftsperson, generally one member per family, subject to exclusions",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Training incubation and entrepreneurship",
+        "gov": "Central",
+        "id": "SCH-PM-VISHWAKARMA-AD66E3",
+        "label": "Artisan / traditional trades",
+        "margin": "No margin normally specified for credit tranche; repayment required",
+        "name": "PM Vishwakarma",
+        "parent": "",
+        "reach": 12,
+        "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2057040&lang=2&reg=48",
+        "stage": "New and existing",
+        "support": "Toolkit + training stipend + subsidised credit",
+        "agency": "CSC / RDSDE Uttarakhand / district verification committees",
+        "access": "Apply through the common scheme CSC registration route with local-body/district verification; ask RDSDE Uttarakhand for approved trade training centres. State-hosted guideline verifies the local official surface; no current batch/intake asserted.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-NATIONAL-HANDLOOM-DEVELOPMENT-PROGRAMME-141210",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-NATIONAL-HANDLOOM-DEVELOPMENT-PROGRAMME-141210",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R162-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R162-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R162-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R162-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-LIVX-WSC"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Weavers Service Centre Chamoli / Directorate of Industries",
+        "access": "Contact WSC Chamoli, whose jurisdiction is Uttarakhand, for appropriate handloom support and state-sanctioned proposals; shared national terms retained unchanged.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Component-based support under revised NHDP guidelines, including cluster development, marketing and technology routes.",
+        "bestFor": "Weavers, handloom organisations, clusters and producer companies",
+        "eligible": "Eligible weaver, SHG, cooperative, producer company or implementing agency",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Central sector or commodity support",
+        "gov": "Central",
+        "id": "SCH-NATIONAL-HANDLOOM-DEVELOPMENT-PROGRAMME-141210",
+        "label": "Handloom and wool weaving",
+        "margin": "Component-specific contribution",
+        "name": "National Handloom Development Programme",
+        "parent": "",
+        "reach": 4,
+        "src": "https://handlooms.nic.in/",
+        "stage": "New and existing",
+        "support": "Cluster, loom, design, market and infrastructure support",
+        "agency": "Weavers Service Centre Chamoli / Directorate of Industries",
+        "access": "Contact WSC Chamoli, whose jurisdiction is Uttarakhand, for appropriate handloom support and state-sanctioned proposals; shared national terms retained unchanged.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-WEAVER-MUDRA-SCHEME-84F249",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-WEAVER-MUDRA-SCHEME-84F249",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R163-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R163-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R163-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R163-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-LIVX-WSC"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Weavers Service Centre Chamoli / designated lender",
+        "access": "Ask WSC Chamoli about current weaver-credit facilitation and participating bank; individual lending/interest support needs lender and programme approval.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Margin money assistance of 20% of the loan: up to ₹25,000 for an individual weaver, and up to ₹20 lakh for a handloom organisation or SHG (₹2 lakh for every 100 weavers/workers). Concessional interest of 6% for 3 years for handloom organisations, with Government interest subvention capped at 7 percentage points, and credit-guarantee fee borne by Government for 3 years. Loans up to ₹10 lakh are routed under MUDRA; above ₹10 lakh under Concessional Credit.",
+        "bestFor": "Individual weavers and handloom organisations needing working capital or loom finance",
+        "eligible": "Eligible weaver, SHG, joint-liability group, cooperative or producer entity",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Credit guarantee working capital and equity",
+        "gov": "Central",
+        "id": "SCH-WEAVER-MUDRA-SCHEME-84F249",
+        "label": "Handloom weaving",
+        "margin": "Borrower and bank terms apply",
+        "name": "Weaver MUDRA Scheme",
+        "parent": "",
+        "reach": 4,
+        "src": "https://handlooms.nic.in/assets/img/Handloom%20Schemes/NHDP_English%20Compendium_2024.pdf",
+        "stage": "New and existing",
+        "support": "Concessional credit and margin money",
+        "agency": "Weavers Service Centre Chamoli / designated lender",
+        "access": "Ask WSC Chamoli about current weaver-credit facilitation and participating bank; individual lending/interest support needs lender and programme approval.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-HANDLOOM-RAW-MATERIAL-SUPPLY-SCHEME-694299",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-HANDLOOM-RAW-MATERIAL-SUPPLY-SCHEME-694299",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R164-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R164-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R164-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R164-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-LIVX-WSC"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Weavers Service Centre Chamoli / NHDC designated supply route",
+        "access": "Enquire with Uttarakhand-jurisdiction WSC Chamoli for current yarn/material supply route and producer documentation; no state depot/stock availability claimed.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Supplies eligible yarn/raw material through nominated channels with applicable freight or price support under current guidelines.",
+        "bestFor": "Weavers requiring yarn and eligible raw material",
+        "eligible": "Eligible handloom weaver or organisation",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Storage transport and supply chain",
+        "gov": "Central",
+        "id": "SCH-HANDLOOM-RAW-MATERIAL-SUPPLY-SCHEME-694299",
+        "label": "Handloom weaving",
+        "margin": "Component-specific",
+        "name": "Handloom Raw Material Supply Scheme",
+        "parent": "",
+        "reach": 4,
+        "src": "https://handlooms.nic.in/",
+        "stage": "Existing",
+        "support": "Raw-material supply and price/freight support",
+        "agency": "Weavers Service Centre Chamoli / NHDC designated supply route",
+        "access": "Enquire with Uttarakhand-jurisdiction WSC Chamoli for current yarn/material supply route and producer documentation; no state depot/stock availability claimed.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-NATIONAL-APPRENTICESHIP-PROMOTION-SCHEME-2-1018D0",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-NATIONAL-APPRENTICESHIP-PROMOTION-SCHEME-2-1018D0",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R170-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R170-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R170-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R170-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-LIVX-NAPS"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "State Apprenticeship Adviser / registered establishment",
+        "access": "Register establishment/apprentice and contract through Apprenticeship India; state adviser covers state/private establishments. Reuse NAPS-2 common rules and exclusions.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Government pays 25% of prescribed stipend, capped at ₹1,500 per month per apprentice, by DBT to the apprentice.",
+        "bestFor": "MSMEs and other employers hiring apprentices",
+        "eligible": "Eligible establishment and registered apprentice",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Training incubation and entrepreneurship",
+        "gov": "Central",
+        "id": "SCH-NATIONAL-APPRENTICESHIP-PROMOTION-SCHEME-2-1018D0",
+        "label": "All establishments engaging apprentices",
+        "margin": "Employer pays the balance stipend and training costs",
+        "name": "National Apprenticeship Promotion Scheme 2.0",
+        "parent": "",
+        "reach": 125,
+        "src": "https://www.apprenticeshipindia.gov.in/",
+        "stage": "New and existing",
+        "support": "Stipend sharing",
+        "agency": "State Apprenticeship Adviser / registered establishment",
+        "access": "Register establishment/apprentice and contract through Apprenticeship India; state adviser covers state/private establishments. Reuse NAPS-2 common rules and exclusions.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-PM-SVANIDHI-RESTRUCTURED-FBA69A",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-PM-SVANIDHI-RESTRUCTURED-FBA69A",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R45-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R45-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R45-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R45-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-LIVX-SVANIDHI"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Urban Development Directorate / ULB Town Vending Committee / designated bank",
+        "access": "Use common PM SVANidhi portal via local ULB/Town Vending Committee or lender for vendor eligibility/identification and loan processing. State implementation is evidenced through June 2026; current eligibility and restructured tranches remain common facts.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "Yes",
+        "benefit": "Restructured scheme (Cabinet approval August 2025): progressive loans of ₹15,000, then ₹25,000, then ₹50,000; a UPI-linked RuPay credit card for vendors who repay the second loan on time; digital-transaction cashback up to ₹1,600 a year; lending period extended to 31 March 2030 and coverage being extended beyond statutory towns to census towns and peri-urban areas.",
+        "bestFor": "Working capital for eligible urban street vendor",
+        "eligible": "Survey-identified/LoR-eligible street vendor",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        },
+        "family": "Machinery technology energy and digitalisation",
+        "gov": "Central",
+        "id": "SCH-PM-SVANIDHI-RESTRUCTURED-FBA69A",
+        "label": "Street-vending micro business",
+        "margin": "Repayment of each tranche",
+        "name": "PM SVANidhi (restructured)",
+        "parent": "",
+        "reach": 4,
+        "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2267102&lang=2&reg=48",
+        "stage": "Existing",
+        "support": "Working-capital loan + interest subsidy + digital incentive",
+        "agency": "Urban Development Directorate / ULB Town Vending Committee / designated bank",
+        "access": "Use common PM SVANidhi portal via local ULB/Town Vending Committee or lender for vendor eligibility/identification and loan processing. State implementation is evidenced through June 2026; current eligibility and restructured tranches remain common facts.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      }
+    },
+    {
+      "id": "IMPLEMENTATION-UK-NATIONAL-HANDICRAFTS-DEVELOPMENT-PROGRAMME-6884FB",
+      "stateId": "STATE-IN-UK",
+      "schemeId": "SCH-NATIONAL-HANDICRAFTS-DEVELOPMENT-PROGRAMME-6884FB",
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R161-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R161-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R161-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R161-KEY-BENEFIT"
+      ],
+      "sourceIds": [
+        "SOURCE-UK-LIVX-HANDICRAFTS"
+      ],
+      "verifiedAt": "2026-10-02",
+      "overrides": {
+        "agency": "Handicrafts Service Centre Almora / Dehradun; Development Commissioner Handicrafts",
+        "access": "Ask HSC Almora/Dehradun about current sanctioned district/craft skill, design and market support, artisan identification and implementing agency. FY2026-27 indexed district-craft annexure supports the local official surface; individual batch access still unconfirmed.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "stateCaution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue."
+      },
+      "legacyProjection": {
+        "bank": "No",
+        "benefit": "Component-based assistance for artisan development, design/technology, marketing, research, welfare and infrastructure; funding follows current calls and component guidelines.",
+        "bestFor": "Artisans, producer groups, clusters, design and marketing projects",
+        "eligible": "Eligible artisan, organisation, implementing agency or cluster",
+        "family": "Central sector or commodity support",
+        "gov": "Central",
+        "id": "SCH-NATIONAL-HANDICRAFTS-DEVELOPMENT-PROGRAMME-6884FB",
+        "label": "Handicrafts and artisan enterprises",
+        "margin": "Component-specific contribution",
+        "name": "National Handicrafts Development Programme",
+        "parent": "",
+        "reach": 8,
+        "src": "https://handicrafts.nic.in/schemes.aspx",
+        "stage": "New and existing",
+        "support": "Design, skilling, market and infrastructure support",
+        "agency": "Handicrafts Service Centre Almora / Dehradun; Development Commissioner Handicrafts",
+        "access": "Ask HSC Almora/Dehradun about current sanctioned district/craft skill, design and market support, artisan identification and implementing agency. FY2026-27 indexed district-craft annexure supports the local official surface; individual batch access still unconfirmed.",
+        "status": "Shared programme reference — current Uttarakhand intake unconfirmed",
+        "caution": " Current intake, district allocation, admissible costs and sanction must be confirmed before expenditure. Summary-only details are indicative, not an entitlement. National evidence dates are retained from the shared catalogue.",
+        "evidence": {
+          "treatment": "inherited-national-evidence",
+          "verified": "2026-08-23"
+        }
+      }
+    }
+  ]
+}

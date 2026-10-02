@@ -1,0 +1,40 @@
+{
+  "cutoff": "2026-10-02",
+  "validation": {
+    "ok": true,
+    "errors": []
+  },
+  "outOfScopeHashGuard": "passed",
+  "counts": {
+    "stateSchemes": 97,
+    "sharedImplementations": 69,
+    "sectors": 421,
+    "mappings": 9972,
+    "sources": 124,
+    "candidates": 49,
+    "agencyInventoryChecks": 33
+  },
+  "limitations": [
+    "Expanded statewide research covers agriculture and allied activities, industry and services, livelihoods and category finance, and direct national enterprise routes. Remaining specific candidates are recorded; full statewide research acceptance is not claimed.",
+    "Programme existence is separate from current intake and budget. District allocations and current application windows require confirmation; recheck scheduled for 16 October 2026.",
+    "Official summaries are indicative-only. Precise assistance supported by operative rules remains subject to unit, location, applicant, cost and sanction conditions.",
+    "National benefits retain the common catalogue evidence dates. Only Uttarakhand access and state-local presentation were expanded; common records and existing states were preserved.",
+    "Expired, superseded, unverified and duplicate routes are retained in the research candidate/legacy ledger instead of presented as current entitlements.",
+    "Agency/activity coverage still includes explicit pending cells. Component cost schedules and every district-specific allocation are not independently verified."
+  ],
+  "coverageComplete": false,
+  "deterministicBuild": "passed",
+  "existingStatesAndCommonPreserved": "passed",
+  "unitTests": {
+    "passed": 20,
+    "failed": 0
+  },
+  "browserChecks": [
+    "166-route Uttarakhand listing",
+    "Uttarakhand home and state selector",
+    "Millet Policy operative benefit and intake caveat",
+    "Punjab switching:156 routes",
+    "Himachal Pradesh switching:188 routes"
+  ],
+  "browserScreenshot": "research/uttarakhand/browser-expanded-millet.png"
+}

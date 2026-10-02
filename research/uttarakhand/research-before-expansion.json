@@ -1,0 +1,1355 @@
+{
+  "sources": [
+    {
+      "code": "DIRECTORY",
+      "title": "State department directory",
+      "issuer": "Government of Uttarakhand",
+      "url": "https://cm.uk.gov.in/department/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "MSME",
+      "title": "MSME Policy 2023 operational guidelines",
+      "issuer": "MSME Department, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/swcsincentive/common/protected/msme_policy/MSMEpolicy.pdf",
+      "classification": "primary-operative",
+      "locator": "Sections 6–7 eligibility; 8–10 DPR, stamp duty and capital subsidy."
+    },
+    {
+      "code": "MSY",
+      "title": "MSY 2.0 notification — indexed official text",
+      "issuer": "MSME Department, Uttarakhand",
+      "url": "https://startuputtarakhand.uk.gov.in/attachments/MSY.pdf",
+      "classification": "primary-summary",
+      "locator": "Indexed first-page text establishes 2025-26 to 2029-30 scheme and merger; direct PDF timed out. No financial slabs published from the incomplete retrieval."
+    },
+    {
+      "code": "STARTUP",
+      "title": "State Startup Ecosystem Report 2026",
+      "issuer": "DPIIT / Startup India",
+      "url": "https://www.startupindia.gov.in/srf/portal/SRF_2026_Result_page/Uttarakhand_State_Report.pdf",
+      "classification": "primary-summary",
+      "locator": "Section 2.1 describes Startup Policy 2023. Older policy landing page conflicts on allowance; omit monetary amounts."
+    },
+    {
+      "code": "TOURISM",
+      "title": "Tourism investment and self-employment programme surface",
+      "issuer": "Uttarakhand Tourism Development Board",
+      "url": "https://nivesh.uttarakhandtourism.gov.in/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "HOMESTAY",
+      "title": "Homestay registration declaration",
+      "issuer": "Uttarakhand Tourism Development Board",
+      "url": "https://homestay.uttarakhandtourism.gov.in/signup",
+      "classification": "primary-operative",
+      "locator": "Declaration citing GO 53 vi (1)/2026 dated 5 June 2026: rural location and permanent resident requirement."
+    },
+    {
+      "code": "HORT",
+      "title": "State horticulture DBT scheme register",
+      "issuer": "Horticulture and Food Processing Department, Uttarakhand",
+      "url": "https://shm.uk.gov.in/dbt-scheme/",
+      "classification": "primary-summary",
+      "locator": "State DBT register rows 1–7; names verified, benefit slabs and live calls unconfirmed."
+    },
+    {
+      "code": "AGRI",
+      "title": "Agriculture scheme register",
+      "issuer": "Agriculture Department, Uttarakhand",
+      "url": "https://agriculture.uk.gov.in/schemes-programmes/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "PMFME",
+      "title": "PMFME state implementation page",
+      "issuer": "Horticulture and Food Processing Department, Uttarakhand",
+      "url": "https://shm.uk.gov.in/pmfme/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "LIVESTOCK",
+      "title": "Mukhyamantri Rajya Pashudhan Mission",
+      "issuer": "Animal Husbandry Department, Uttarakhand",
+      "url": "https://ahd.uk.gov.in/hi/scheme/मुख्यमंत्री-राज्य-पशुधन/",
+      "classification": "primary-summary",
+      "locator": "Department scheme summary lists unit sizes, loan interest support and veterinary-office application route."
+    },
+    {
+      "code": "GOAT",
+      "title": "Goat Valley",
+      "issuer": "Animal Husbandry Department, Uttarakhand",
+      "url": "https://ahd.uk.gov.in/hi/scheme/गोट-वैली/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "POULTRY",
+      "title": "Poultry Valley",
+      "issuer": "Animal Husbandry Department, Uttarakhand",
+      "url": "https://ahd.uk.gov.in/hi/scheme/पोल्ट्री-वैली-की-स्थापना/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "AH",
+      "title": "Animal husbandry scheme register",
+      "issuer": "Animal Husbandry Department, Uttarakhand",
+      "url": "https://ahd.uk.gov.in/hi/योजनाएं/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "FISH",
+      "title": "Mukhyamantri Matsya Sampada Yojana",
+      "issuer": "Fisheries Department, Uttarakhand",
+      "url": "https://fisheries.uk.gov.in/scheme/mukhyamantri-matsysa-sampada-yojna/",
+      "classification": "primary-summary",
+      "locator": "Scheme page dated 5 April 2026; apply to district office. Detailed financial component guideline not verified."
+    },
+    {
+      "code": "COOP",
+      "title": "Cooperative programme register",
+      "issuer": "Cooperative Department, Uttarakhand",
+      "url": "https://cooperative.uk.gov.in/schemes-programmes/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "KISAN",
+      "title": "Deendayal Upadhyay Sahkarita Kisan Kalyan Yojana",
+      "issuer": "Cooperative Department, Uttarakhand",
+      "url": "https://cooperative.uk.gov.in/scheme/deendayal-upadhay-sahkarita-kisan-kalyan-yojana/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "GHASIYARI",
+      "title": "Mukhyamantri Ghasiyari Kalyan Yojana",
+      "issuer": "Cooperative Department, Uttarakhand",
+      "url": "https://cooperative.uk.gov.in/scheme/chief-minister-ghasiyari-kalyan-yojana/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "TAXI",
+      "title": "Motorcycle Taxi Yojana",
+      "issuer": "Cooperative Department, Uttarakhand",
+      "url": "https://cooperative.uk.gov.in/scheme/kasturba-gandhi-balika-vidyalaya/",
+      "classification": "primary-summary",
+      "locator": "Official index links this mismatched URL slug to Motorcycle Taxi Yojana; page title and application text checked."
+    },
+    {
+      "code": "ERICK",
+      "title": "E-Rickshaw Kalyan Yojana",
+      "issuer": "Cooperative Department, Uttarakhand",
+      "url": "https://cooperative.uk.gov.in/scheme/pradhan-mantri-gram-sadak-yojana/",
+      "classification": "primary-summary",
+      "locator": "Official index links this mismatched URL slug to E-Rickshaw Kalyan Yojana; title and body checked."
+    },
+    {
+      "code": "SOLAR",
+      "title": "Solar Energy Schemes",
+      "issuer": "UREDA, Uttarakhand",
+      "url": "https://ureda.uk.gov.in/solar-energy-schemes/",
+      "classification": "primary-summary",
+      "locator": "Lists MSSY March 2023 update and Solar Policy 2023; PDF links were not exposed by the parsed index."
+    },
+    {
+      "code": "DAIRY",
+      "title": "Dairy programme register",
+      "issuer": "Dairy Development Department, Uttarakhand",
+      "url": "https://dairyvikasuttarakhand.in/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "GANGA",
+      "title": "Ganga Gaay Mahila Dairy Yojana",
+      "issuer": "Dairy Development Department, Uttarakhand",
+      "url": "https://dairyvikasuttarakhand.in/ganga-gaay-mahila-dairy-yojana/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "MILK",
+      "title": "Milk Incentive Yojana",
+      "issuer": "Dairy Development Department, Uttarakhand",
+      "url": "https://dairyvikasuttarakhand.in/milk-incentive-yojna/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "RURAL",
+      "title": "Rural development programme surface",
+      "issuer": "Rural Development Department, Uttarakhand",
+      "url": "https://ukrd.uk.gov.in/dehradun/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "SOCIAL",
+      "title": "Social welfare department and loan notices",
+      "issuer": "Social Welfare Department, Uttarakhand",
+      "url": "https://socialwelfare.uk.gov.in/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "MINORITY",
+      "title": "Minority welfare department",
+      "issuer": "Minority Welfare Department, Uttarakhand",
+      "url": "https://minoritywelfare.uk.gov.in/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "SKILL",
+      "title": "Training and employment programme surface",
+      "issuer": "Directorate of Training and Employment, Uttarakhand",
+      "url": "https://rojgar.uk.gov.in/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    },
+    {
+      "code": "FOREST",
+      "title": "Forest department programme surface",
+      "issuer": "Forest Department, Uttarakhand",
+      "url": "https://forest.uk.gov.in/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established."
+    }
+  ],
+  "schemes": [
+    {
+      "code": "MSY-2",
+      "name": "Mukhyamantri Swarojgar Yojana 2.0",
+      "source": "MSY",
+      "family": "Enterprise self-employment",
+      "support": "Credit-linked self-employment",
+      "benefit": "Bank-linked support for setting up enterprises; earlier MSY and Nano merged for 2025-26 to 2029-30.",
+      "eligible": "Eligible Uttarakhand self-employment applicants; detailed conditions require DIC confirmation.",
+      "access": "Confirm the current MSY 2.0 application service and requirements with the District Industries Centre.",
+      "macros": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        9
+      ],
+      "pattern": null
+    },
+    {
+      "code": "MSME23-CAPITAL",
+      "name": "Uttarakhand MSME Policy 2023 — capital subsidy",
+      "source": "MSME",
+      "family": "MSME incentives",
+      "support": "capital subsidy",
+      "benefit": "Location and investment-slab based capital assistance on eligible assets.",
+      "eligible": "Eligible Uttarakhand manufacturing MSMEs and permitted non-conventional energy units; location category and policy exclusions apply.",
+      "access": "Submit the single-window CAF and obtain in-principle approval before commercial production; file the incentive claim through the prescribed portal and DIC.",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stages": [
+        2
+      ],
+      "pattern": null,
+      "parent": "Uttarakhand MSME Policy 2023",
+      "stage": "New or qualifying expansion",
+      "caution": "CAF approval before production is mandatory. Manufacturing eligibility, district category, eligible assets and claim deadlines control sanction; expansion units receive only eligible capital subsidy."
+    },
+    {
+      "code": "MSME23-DPR",
+      "name": "Uttarakhand MSME Policy 2023 — DPR reimbursement",
+      "source": "MSME",
+      "family": "MSME incentives",
+      "support": "DPR reimbursement",
+      "benefit": "Reimbursement of 75% of empanelled-consultant DPR fees.",
+      "eligible": "New micro manufacturing enterprises meeting the policy conditions.",
+      "access": "Submit the single-window CAF and obtain in-principle approval before commercial production; file the incentive claim through the prescribed portal and DIC.",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stages": [
+        2
+      ],
+      "pattern": null,
+      "parent": "Uttarakhand MSME Policy 2023",
+      "stage": "New units",
+      "caution": "CAF approval before production is mandatory. Manufacturing eligibility, district category, eligible assets and claim deadlines control sanction; expansion units receive only eligible capital subsidy."
+    },
+    {
+      "code": "MSME23-STAMP",
+      "name": "Uttarakhand MSME Policy 2023 — stamp-duty reimbursement",
+      "source": "MSME",
+      "family": "MSME incentives",
+      "support": "stamp-duty reimbursement",
+      "benefit": "Land stamp-duty reimbursement by area category: A/B 100%, C 75%, D 50%.",
+      "eligible": "Eligible Uttarakhand manufacturing MSMEs and permitted non-conventional energy units; location category and policy exclusions apply.",
+      "access": "Submit the single-window CAF and obtain in-principle approval before commercial production; file the incentive claim through the prescribed portal and DIC.",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stages": [
+        2
+      ],
+      "pattern": null,
+      "parent": "Uttarakhand MSME Policy 2023",
+      "stage": "New units",
+      "caution": "CAF approval before production is mandatory. Manufacturing eligibility, district category, eligible assets and claim deadlines control sanction; expansion units receive only eligible capital subsidy."
+    },
+    {
+      "code": "STARTUP23",
+      "name": "Uttarakhand Startup Policy 2023",
+      "source": "STARTUP",
+      "family": "Startup support",
+      "support": "Startup incubation and financial support",
+      "benefit": "Recognition-linked incubation, seed, intellectual-property and ecosystem support; financial terms need operative-policy verification.",
+      "eligible": "Recognised innovative startups satisfying state-policy requirements.",
+      "access": "Check recognition and live incentive services on Startup Uttarakhand through the MSME startup cell.",
+      "macros": [
+        6,
+        7,
+        9,
+        10,
+        12
+      ],
+      "stages": [
+        2,
+        3,
+        6
+      ],
+      "pattern": null
+    },
+    {
+      "code": "TOURISM23",
+      "name": "Tourism Policy 2023 investment incentives",
+      "source": "TOURISM",
+      "family": "Tourism enterprise",
+      "support": "Tourism investment support",
+      "benefit": "Programme support for qualifying tourism projects; amounts and approval conditions require current guidelines.",
+      "eligible": "Eligible tourism entrepreneurs under the respective programme.",
+      "access": "Check the UTDB investment portal and district tourism office for the scheme application and current sanction process.",
+      "macros": [
+        11
+      ],
+      "stages": [
+        3
+      ],
+      "pattern": null
+    },
+    {
+      "code": "VCSG",
+      "name": "Veer Chandra Singh Garhwali Tourism Self-Employment Scheme",
+      "source": "TOURISM",
+      "family": "Tourism enterprise",
+      "support": "Tourism investment support",
+      "benefit": "Programme support for qualifying tourism projects; amounts and approval conditions require current guidelines.",
+      "eligible": "Eligible tourism entrepreneurs under the respective programme.",
+      "access": "Check the UTDB investment portal and district tourism office for the scheme application and current sanction process.",
+      "macros": [
+        11
+      ],
+      "stages": [
+        3
+      ],
+      "pattern": null
+    },
+    {
+      "code": "PARYATAN",
+      "name": "Uttarakhand Paryatan Udhyami Protsahan Yojana",
+      "source": "TOURISM",
+      "family": "Tourism enterprise",
+      "support": "Tourism investment support",
+      "benefit": "Programme support for qualifying tourism projects; amounts and approval conditions require current guidelines.",
+      "eligible": "Eligible tourism entrepreneurs under the respective programme.",
+      "access": "Check the UTDB investment portal and district tourism office for the scheme application and current sanction process.",
+      "macros": [
+        11
+      ],
+      "stages": [
+        3
+      ],
+      "pattern": null
+    },
+    {
+      "code": "HOMESTAY",
+      "name": "Deendayal Upadhyay Grah Aawas Homestay Vikas Yojana",
+      "source": "TOURISM",
+      "family": "Tourism enterprise",
+      "support": "Homestay development support",
+      "benefit": "Homestay development route; registration is separate from subsidy sanction.",
+      "eligible": "Permanent Uttarakhand residents with a rural homestay location under the current registration declaration.",
+      "access": "Register through the UTDB homestay portal; confirm finance and subsidy application with the district tourism office.",
+      "macros": [
+        11
+      ],
+      "stages": [
+        3
+      ],
+      "pattern": "homestay|home stay",
+      "caution": "June 2026 registration declaration requires rural location and permanent residency. Historical policy descriptions mentioning urban homestays should not be relied on. Current subsidy slabs and budget remain unconfirmed."
+    },
+    {
+      "code": "HORT-MUSHROOM",
+      "name": "Mushroom Production and Marketing",
+      "source": "HORT",
+      "family": "Horticulture development",
+      "support": "Component-based horticulture support",
+      "benefit": "State DBT programme listed; component amounts, beneficiary share and allocation require district confirmation.",
+      "eligible": "Eligible growers or producers for the named horticulture component.",
+      "access": "Confirm component availability and application with the District Horticulture Office.",
+      "macros": [
+        1,
+        3
+      ],
+      "stages": [
+        0,
+        1
+      ],
+      "pattern": "mushroom|spawn|compost"
+    },
+    {
+      "code": "HORT-PROTECTED",
+      "name": "Chief Minister Protected Cultivation",
+      "source": "HORT",
+      "family": "Horticulture development",
+      "support": "Component-based horticulture support",
+      "benefit": "State DBT programme listed; component amounts, beneficiary share and allocation require district confirmation.",
+      "eligible": "Eligible growers or producers for the named horticulture component.",
+      "access": "Confirm component availability and application with the District Horticulture Office.",
+      "macros": [
+        1,
+        3
+      ],
+      "stages": [
+        0,
+        1
+      ],
+      "pattern": "greenhouse|polyhouse|protected|vegetable"
+    },
+    {
+      "code": "HORT-POLYTHENE",
+      "name": "Greenhouse Polythene Replacement",
+      "source": "HORT",
+      "family": "Horticulture development",
+      "support": "Component-based horticulture support",
+      "benefit": "State DBT programme listed; component amounts, beneficiary share and allocation require district confirmation.",
+      "eligible": "Eligible growers or producers for the named horticulture component.",
+      "access": "Confirm component availability and application with the District Horticulture Office.",
+      "macros": [
+        1,
+        3
+      ],
+      "stages": [
+        0,
+        1
+      ],
+      "pattern": "greenhouse|polyhouse|protected"
+    },
+    {
+      "code": "HORT-OFFSEASON",
+      "name": "Off-season Vegetable Production",
+      "source": "HORT",
+      "family": "Horticulture development",
+      "support": "Component-based horticulture support",
+      "benefit": "State DBT programme listed; component amounts, beneficiary share and allocation require district confirmation.",
+      "eligible": "Eligible growers or producers for the named horticulture component.",
+      "access": "Confirm component availability and application with the District Horticulture Office.",
+      "macros": [
+        1,
+        3
+      ],
+      "stages": [
+        0,
+        1
+      ],
+      "pattern": "vegetable|tomato|cucumber|capsicum|potato|onion|pea|cabbage|cauliflower|radish|broccoli|carrot|bean"
+    },
+    {
+      "code": "HORT-BEE",
+      "name": "Beekeeping",
+      "source": "HORT",
+      "family": "Horticulture development",
+      "support": "Component-based horticulture support",
+      "benefit": "State DBT programme listed; component amounts, beneficiary share and allocation require district confirmation.",
+      "eligible": "Eligible growers or producers for the named horticulture component.",
+      "access": "Confirm component availability and application with the District Horticulture Office.",
+      "macros": [
+        1,
+        3
+      ],
+      "stages": [
+        0,
+        1
+      ],
+      "pattern": "bee|honey"
+    },
+    {
+      "code": "HORT-FENCING",
+      "name": "Fencing of Old Orchards",
+      "source": "HORT",
+      "family": "Horticulture development",
+      "support": "Component-based horticulture support",
+      "benefit": "State DBT programme listed; component amounts, beneficiary share and allocation require district confirmation.",
+      "eligible": "Eligible growers or producers for the named horticulture component.",
+      "access": "Confirm component availability and application with the District Horticulture Office.",
+      "macros": [
+        1,
+        3
+      ],
+      "stages": [
+        0,
+        1
+      ],
+      "pattern": "orchard|apple|pear|peach|plum|apricot|citrus|fruit"
+    },
+    {
+      "code": "HORT-APPLE",
+      "name": "Mission Apple",
+      "source": "HORT",
+      "family": "Horticulture development",
+      "support": "Component-based horticulture support",
+      "benefit": "State DBT programme listed; component amounts, beneficiary share and allocation require district confirmation.",
+      "eligible": "Eligible growers or producers for the named horticulture component.",
+      "access": "Confirm component availability and application with the District Horticulture Office.",
+      "macros": [
+        1,
+        3
+      ],
+      "stages": [
+        0,
+        1
+      ],
+      "pattern": "apple"
+    },
+    {
+      "code": "PASHUDHAN",
+      "name": "Mukhyamantri Rajya Pashudhan Mission",
+      "source": "LIVESTOCK",
+      "family": "Livestock enterprise",
+      "support": "Loan interest subsidy",
+      "benefit": "Interest support for approved dairy, small-animal, draft-animal and poultry units; current sanction norms apply.",
+      "eligible": "Uttarakhand residents establishing prescribed animal units.",
+      "access": "Apply at the local veterinary hospital with lender consent for the proposed loan.",
+      "macros": [
+        2
+      ],
+      "stages": [
+        0,
+        1
+      ],
+      "pattern": null
+    },
+    {
+      "code": "GOAT-VALLEY",
+      "name": "Goat Valley",
+      "source": "GOAT",
+      "family": "Livestock enterprise",
+      "support": "Cluster livestock finance",
+      "benefit": "Cluster goat-rearing units combining loan, subsidy and beneficiary contribution.",
+      "eligible": "Eligible Uttarakhand residents selected for the notified goat cluster.",
+      "access": "Apply through Apuni Sarkar; block-level scrutiny and cluster selection apply.",
+      "macros": [
+        2
+      ],
+      "stages": [
+        0
+      ],
+      "pattern": "goat"
+    },
+    {
+      "code": "POULTRY-VALLEY",
+      "name": "Poultry Valley",
+      "source": "POULTRY",
+      "family": "Livestock enterprise",
+      "support": "Poultry input and cooperative credit",
+      "benefit": "Poultry inputs and cooperative credit for approved low-input poultry units.",
+      "eligible": "Eligible mPACS members with land and required non-default status; women receive preference.",
+      "access": "Apply through mPACS and the veterinary/cooperative departments.",
+      "macros": [
+        2
+      ],
+      "stages": [
+        0
+      ],
+      "pattern": "poultry|chicken|layer|broiler"
+    },
+    {
+      "code": "CM-MATSYA",
+      "name": "Mukhyamantri Matsya Sampada Yojana",
+      "source": "FISH",
+      "family": "Fisheries development",
+      "support": "Fishery enterprise support",
+      "benefit": "Fish-production and self-employment components; current approved component norms control support.",
+      "eligible": "Applicants meeting the selected fisheries component requirements.",
+      "access": "Submit an application to the concerned district fisheries office.",
+      "macros": [
+        3
+      ],
+      "stages": [
+        0,
+        1
+      ],
+      "pattern": "fish|trout|carp|aquaculture|hatchery"
+    },
+    {
+      "code": "SAHKARITA-KISAN",
+      "name": "Deendayal Upadhyay Sahkarita Kisan Kalyan Yojana",
+      "source": "KISAN",
+      "family": "Cooperative finance",
+      "support": "Interest-free cooperative credit",
+      "benefit": "Indicative official summary: interest-free loans up to ₹3 lakh for individuals and ₹5 lakh for SHGs; sanction terms apply.",
+      "eligible": "Eligible small/marginal cooperative members and approved groups.",
+      "access": "Apply at the cooperative society or bank branch; block selection and PACS/DCB lending follow.",
+      "macros": [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      "stages": [
+        0,
+        1,
+        8
+      ],
+      "pattern": null
+    },
+    {
+      "code": "GHASIYARI",
+      "name": "Mukhyamantri Ghasiyari Kalyan Yojana",
+      "source": "GHASIYARI",
+      "family": "Livestock inputs",
+      "support": "Subsidised silage and feed",
+      "benefit": "Concessional silage and animal-feed distribution through cooperative channels.",
+      "eligible": "Covered hill livestock keepers and participating cooperative feed producers.",
+      "access": "Confirm local availability with the silage distribution centre or cooperative society.",
+      "macros": [
+        2
+      ],
+      "stages": [
+        0,
+        1
+      ],
+      "pattern": null
+    },
+    {
+      "code": "MOTORCYCLE-TAXI",
+      "name": "Motorcycle Taxi Yojana",
+      "source": "TAXI",
+      "family": "Transport self-employment",
+      "support": "Cooperative vehicle loan",
+      "benefit": "Cooperative-bank finance for approved motorcycle taxi self-employment.",
+      "eligible": "Eligible permanent Uttarakhand residents satisfying transport and bank conditions.",
+      "access": "Submit the prescribed loan application to the district cooperative bank for district selection.",
+      "macros": [
+        14
+      ],
+      "stages": [
+        9,
+        3
+      ],
+      "pattern": "taxi|passenger transport"
+    },
+    {
+      "code": "E-RICKSHAW",
+      "name": "E-Rickshaw Kalyan Yojana",
+      "source": "ERICK",
+      "family": "Transport self-employment",
+      "support": "Cooperative vehicle finance",
+      "benefit": "Finance route for approved e-rickshaw operations; current bank terms require confirmation.",
+      "eligible": "Eligible Uttarakhand resident drivers meeting scheme and lending conditions.",
+      "access": "Obtain a vehicle quotation and apply through the relevant cooperative bank.",
+      "macros": [
+        14
+      ],
+      "stages": [
+        9,
+        3
+      ],
+      "pattern": "rickshaw|taxi|passenger transport"
+    },
+    {
+      "code": "MSSY",
+      "name": "Mukhyamantri Saur Swarojgar Yojana",
+      "source": "SOLAR",
+      "family": "Renewable energy",
+      "support": "Solar self-employment route",
+      "benefit": "State solar self-employment programme listed with a March 2023 update; current capacity, tariff and finance norms unverified.",
+      "eligible": "Eligible state applicants meeting UREDA project and grid-connectivity conditions.",
+      "access": "Confirm the current MSSY application and grid feasibility through UREDA and UPCL.",
+      "macros": [
+        10
+      ],
+      "stages": [
+        0,
+        2,
+        3
+      ],
+      "pattern": "solar|photovoltaic"
+    },
+    {
+      "code": "GANGA-GAAY",
+      "name": "Ganga Gaay Mahila Dairy Yojana",
+      "source": "GANGA",
+      "family": "Dairy development",
+      "support": "Women dairy development support",
+      "benefit": "Department-listed women dairy development route; live animal-unit terms and allocation require confirmation.",
+      "eligible": "Eligible women dairy applicants under the department rules.",
+      "access": "Confirm participation through the Dairy Development Department and local milk union.",
+      "macros": [
+        2
+      ],
+      "stages": [
+        0
+      ],
+      "pattern": "dairy|cow|cattle"
+    },
+    {
+      "code": "MILK-INCENTIVE",
+      "name": "Milk Incentive Yojana",
+      "source": "MILK",
+      "family": "Dairy development",
+      "support": "Milk supply incentive",
+      "benefit": "Incentive route for qualifying cooperative milk supply; current rate and payment eligibility unconfirmed.",
+      "eligible": "Eligible participating milk producers under the department rules.",
+      "access": "Confirm eligible milk supply and claim process through the milk cooperative or district dairy office.",
+      "macros": [
+        2
+      ],
+      "stages": [
+        0,
+        8
+      ],
+      "pattern": "dairy|milk|cattle"
+    }
+  ],
+  "sharedRoutes": [
+    {
+      "match": "EMPLOYMENT-GENERATION-PRO",
+      "source": "MSME",
+      "macros": [
+        5,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "agency": "MSME Department, Uttarakhand / designated national agency or lender",
+      "access": "Use the official programme channel and confirm Uttarakhand implementation and current intake with the designated office or lender.",
+      "rationale": "Reuse of the common national programme; the state department lists this implementation or policy linkage. Financial facts retain their original national evidence dates."
+    },
+    {
+      "match": "MICRO-FOOD-PROCESSING",
+      "source": "PMFME",
+      "macros": [
+        5
+      ],
+      "stages": [
+        2
+      ],
+      "agency": "Horticulture and Food Processing Department, Uttarakhand / designated national agency or lender",
+      "access": "Use the official programme channel and confirm Uttarakhand implementation and current intake with the designated office or lender.",
+      "rationale": "Reuse of the common national programme; the state department lists this implementation or policy linkage. Financial facts retain their original national evidence dates."
+    },
+    {
+      "match": "AGRICULTURE-INFRASTRUCTURE",
+      "source": "AGRI",
+      "macros": [
+        4
+      ],
+      "stages": [
+        7,
+        8
+      ],
+      "agency": "Agriculture Department, Uttarakhand / designated national agency or lender",
+      "access": "Use the official programme channel and confirm Uttarakhand implementation and current intake with the designated office or lender.",
+      "rationale": "Reuse of the common national programme; the state department lists this implementation or policy linkage. Financial facts retain their original national evidence dates."
+    },
+    {
+      "match": "KISAN-CREDIT-CARD",
+      "source": "AGRI",
+      "macros": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "stages": [
+        0,
+        1
+      ],
+      "agency": "Agriculture Department, Uttarakhand / designated national agency or lender",
+      "access": "Use the official programme channel and confirm Uttarakhand implementation and current intake with the designated office or lender.",
+      "rationale": "Reuse of the common national programme; the state department lists this implementation or policy linkage. Financial facts retain their original national evidence dates."
+    },
+    {
+      "match": "AGRICULTURAL-MECHANIZATION",
+      "source": "AGRI",
+      "macros": [
+        0
+      ],
+      "stages": [
+        0,
+        1,
+        3
+      ],
+      "agency": "Agriculture Department, Uttarakhand / designated national agency or lender",
+      "access": "Use the official programme channel and confirm Uttarakhand implementation and current intake with the designated office or lender.",
+      "rationale": "Reuse of the common national programme; the state department lists this implementation or policy linkage. Financial facts retain their original national evidence dates."
+    },
+    {
+      "match": "RKVY",
+      "source": "AGRI",
+      "macros": [
+        0,
+        1,
+        6
+      ],
+      "stages": [
+        0,
+        1,
+        3
+      ],
+      "agency": "Agriculture Department, Uttarakhand / designated national agency or lender",
+      "access": "Use the official programme channel and confirm Uttarakhand implementation and current intake with the designated office or lender.",
+      "rationale": "Reuse of the common national programme; the state department lists this implementation or policy linkage. Financial facts retain their original national evidence dates."
+    },
+    {
+      "match": "SOIL-HEALTH",
+      "source": "AGRI",
+      "macros": [
+        0
+      ],
+      "stages": [
+        0,
+        1,
+        6
+      ],
+      "agency": "Agriculture Department, Uttarakhand / designated national agency or lender",
+      "access": "Use the official programme channel and confirm Uttarakhand implementation and current intake with the designated office or lender.",
+      "rationale": "Reuse of the common national programme; the state department lists this implementation or policy linkage. Financial facts retain their original national evidence dates."
+    },
+    {
+      "match": "FOOD-NUTRITION",
+      "source": "AGRI",
+      "macros": [
+        0
+      ],
+      "stages": [
+        0
+      ],
+      "agency": "Agriculture Department, Uttarakhand / designated national agency or lender",
+      "access": "Use the official programme channel and confirm Uttarakhand implementation and current intake with the designated office or lender.",
+      "rationale": "Reuse of the common national programme; the state department lists this implementation or policy linkage. Financial facts retain their original national evidence dates."
+    },
+    {
+      "match": "PARAMPARAGAT",
+      "source": "AGRI",
+      "macros": [
+        0,
+        1
+      ],
+      "stages": [
+        0
+      ],
+      "agency": "Agriculture Department, Uttarakhand / designated national agency or lender",
+      "access": "Use the official programme channel and confirm Uttarakhand implementation and current intake with the designated office or lender.",
+      "rationale": "Reuse of the common national programme; the state department lists this implementation or policy linkage. Financial facts retain their original national evidence dates."
+    },
+    {
+      "match": "NATIONAL-LIVESTOCK-MISSION",
+      "source": "AH",
+      "macros": [
+        2
+      ],
+      "stages": [
+        0,
+        1
+      ],
+      "agency": "Animal Husbandry Department, Uttarakhand / designated national agency or lender",
+      "access": "Use the official programme channel and confirm Uttarakhand implementation and current intake with the designated office or lender.",
+      "rationale": "Reuse of the common national programme; the state department lists this implementation or policy linkage. Financial facts retain their original national evidence dates."
+    },
+    {
+      "match": "DAY-NRLM",
+      "source": "RURAL",
+      "macros": [
+        6,
+        8,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "agency": "Rural Development Department, Uttarakhand / designated national agency or lender",
+      "access": "Use the official programme channel and confirm Uttarakhand implementation and current intake with the designated office or lender.",
+      "rationale": "Reuse of the common national programme; the state department lists this implementation or policy linkage. Financial facts retain their original national evidence dates."
+    }
+  ],
+  "agencies": [
+    {
+      "code": "INDUSTRIES",
+      "source": "MSME",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "title": "MSME Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates"
+    },
+    {
+      "code": "STARTUP",
+      "source": "STARTUP",
+      "macros": [
+        6,
+        7,
+        9,
+        10,
+        12
+      ],
+      "title": "DPIIT / Startup India",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates"
+    },
+    {
+      "code": "TOURISM",
+      "source": "TOURISM",
+      "macros": [
+        11
+      ],
+      "title": "Uttarakhand Tourism Development Board",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates"
+    },
+    {
+      "code": "HORTICULTURE",
+      "source": "HORT",
+      "macros": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "title": "Horticulture and Food Processing Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates"
+    },
+    {
+      "code": "AGRICULTURE",
+      "source": "AGRI",
+      "macros": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "title": "Agriculture Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates"
+    },
+    {
+      "code": "ANIMAL-HUSBANDRY",
+      "source": "AH",
+      "macros": [
+        2
+      ],
+      "title": "Animal Husbandry Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates"
+    },
+    {
+      "code": "FISHERIES",
+      "source": "FISH",
+      "macros": [
+        3
+      ],
+      "title": "Fisheries Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates"
+    },
+    {
+      "code": "COOPERATION",
+      "source": "COOP",
+      "macros": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        14
+      ],
+      "title": "Cooperative Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates"
+    },
+    {
+      "code": "DAIRY",
+      "source": "DAIRY",
+      "macros": [
+        2,
+        5
+      ],
+      "title": "Dairy Development Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates"
+    },
+    {
+      "code": "ENERGY",
+      "source": "SOLAR",
+      "macros": [
+        10
+      ],
+      "title": "UREDA, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates"
+    },
+    {
+      "code": "RURAL",
+      "source": "RURAL",
+      "macros": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        11,
+        14
+      ],
+      "title": "Rural Development Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates"
+    },
+    {
+      "code": "SOCIAL",
+      "source": "SOCIAL",
+      "macros": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "title": "Social Welfare Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates"
+    },
+    {
+      "code": "MINORITY",
+      "source": "MINORITY",
+      "macros": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "title": "Minority Welfare Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates"
+    },
+    {
+      "code": "SKILLS",
+      "source": "SKILL",
+      "macros": [
+        13
+      ],
+      "title": "Directorate of Training and Employment, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates"
+    },
+    {
+      "code": "FORESTS",
+      "source": "FOREST",
+      "macros": [
+        1,
+        8,
+        10
+      ],
+      "title": "Forest Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Earlier MSY and MSY Nano",
+      "disposition": "duplicate/alias",
+      "reason": "Merged into MSY 2.0; do not publish as separate current applications.",
+      "sources": [
+        "MSY"
+      ]
+    },
+    {
+      "name": "MSY 2.0 financial slabs",
+      "disposition": "unverified-lead",
+      "reason": "Official PDF timed out; indexed first-page text alone does not verify benefit tables.",
+      "sources": [
+        "MSY"
+      ]
+    },
+    {
+      "name": "Startup 2018 allowance figures",
+      "disposition": "closed/superseded",
+      "reason": "Official legacy landing page conflicts with 2026 ecosystem report; no allowance amount published.",
+      "sources": [
+        "STARTUP"
+      ]
+    },
+    {
+      "name": "MSME 2023 remaining interest, tax, quality and cluster components",
+      "disposition": "component",
+      "reason": "Verify operative sections individually before publishing financial claims.",
+      "sources": [
+        "MSME"
+      ]
+    },
+    {
+      "name": "Service Sector Policy 2024",
+      "disposition": "unverified-lead",
+      "reason": "Official PDF retrieval failed; indexed lead retained for operative-rule verification.",
+      "sources": [
+        "DIRECTORY"
+      ]
+    },
+    {
+      "name": "State Integrated Cooperative Development Project",
+      "disposition": "intermediary-only",
+      "reason": "Institution-led cluster processing, storage and marketing project; not an automatic individual grant.",
+      "sources": [
+        "COOP"
+      ]
+    },
+    {
+      "name": "Madho Singh Bhandari Collective Farming",
+      "disposition": "unverified-lead",
+      "reason": "Official scheme surface located; beneficiary funding and allocation require operative verification.",
+      "sources": [
+        "COOP"
+      ]
+    },
+    {
+      "name": "Animal husbandry beneficiary schemes and broiler farm support",
+      "disposition": "component",
+      "reason": "Additional components require current district norms and separate mapping review.",
+      "sources": [
+        "AH"
+      ]
+    },
+    {
+      "name": "Sailage and Dudharu Pashu and NCDC dairy routes",
+      "disposition": "unverified-lead",
+      "reason": "Department routes located; confirm continuing sanction terms and convergence with other dairy schemes.",
+      "sources": [
+        "DAIRY"
+      ]
+    },
+    {
+      "name": "Rural SHG strengthening, House of Himalayas, migration prevention and REAP",
+      "disposition": "unverified-lead",
+      "reason": "Agency lists routes; operative enterprise support and current access require verification.",
+      "sources": [
+        "RURAL"
+      ]
+    },
+    {
+      "name": "SC/ST/OBC/Divyang and minority enterprise finance",
+      "disposition": "unverified-lead",
+      "reason": "Department and loan-notice surfaces located; current corporation slabs and windows unverified.",
+      "sources": [
+        "SOCIAL",
+        "MINORITY"
+      ]
+    },
+    {
+      "name": "Forest, aromatic plants, sericulture, handloom and khadi agency support",
+      "disposition": "unverified-lead",
+      "reason": "Specialist beneficiary schemes and current allocations remain to be checked.",
+      "sources": [
+        "FOREST",
+        "DIRECTORY"
+      ]
+    },
+    {
+      "name": "Training, urban livelihoods, watershed and sector-policy support",
+      "disposition": "unverified-lead",
+      "reason": "Agency directory discovery recorded; current enterprise access not established.",
+      "sources": [
+        "SKILL",
+        "DIRECTORY"
+      ]
+    },
+    {
+      "name": "PM Surya Ghar residential rooftop subsidy",
+      "disposition": "outside scope",
+      "reason": "Residential household subsidy excluded from the enterprise catalogue.",
+      "sources": [
+        "SOLAR"
+      ]
+    },
+    {
+      "name": "Tourism trek-centre grants and incentive amounts",
+      "disposition": "unverified-lead",
+      "reason": "Official policy index located, but current operative financial conditions require review.",
+      "sources": [
+        "TOURISM"
+      ]
+    }
+  ],
+  "failedAccess": [
+    {
+      "url": "https://startuputtarakhand.uk.gov.in/attachments/MSY.pdf",
+      "alternate": "Official indexed notification text",
+      "outcome": "failed-access; partial index only",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "url": "https://dbt.uk.gov.in/getallschemeservicelist.aspx",
+      "alternate": "https://shm.uk.gov.in/dbt-scheme/",
+      "outcome": "state DBT failed-access; horticulture register accessible",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "url": "https://startuputtarakhand.uk.gov.in/",
+      "alternate": "DPIIT Uttarakhand State Report 2026",
+      "outcome": "failed-access; official report used for summary only",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/act_english1713161936.pdf",
+      "alternate": "Official indexed service-policy lead",
+      "outcome": "failed-access; candidate retained",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "url": "https://ukrd.uk.gov.in/",
+      "alternate": "https://ukrd.uk.gov.in/dehradun/",
+      "outcome": "alternate agency page accessible",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "url": "https://tribalwelfare.uk.gov.in/",
+      "alternate": "https://cm.uk.gov.in/department/",
+      "outcome": "failed-access; directory only; beneficiary terms pending",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    }
+  ],
+  "activities": [
+    [
+      "MANDUA",
+      "Mandua finger millet cultivation",
+      "Hill millets",
+      0,
+      0
+    ],
+    [
+      "JHANGORA",
+      "Jhangora barnyard millet cultivation",
+      "Hill millets",
+      0,
+      0
+    ],
+    [
+      "RURAL-HOMESTAY",
+      "Rural Uttarakhand homestay",
+      "Rural tourism",
+      11,
+      3
+    ],
+    [
+      "ERICK",
+      "Electric rickshaw passenger service",
+      "Local transport",
+      14,
+      9
+    ]
+  ],
+  "exclusions": [
+    "Other-state records",
+    "Shared national benefits and eligibility research",
+    "Non-productive welfare schemes",
+    "Unverified financial entitlements"
+  ],
+  "limitations": [
+    "This is an initial Uttarakhand catalogue. Required agency/activity coverage contains explicit candidate-pending cells; full statewide research acceptance is not claimed.",
+    "No route is labelled open now. District allocations, budget availability and current intake remain unconfirmed and are scheduled for recheck on 16 October 2026.",
+    "Department summaries establish programme routes; financial or eligibility details without operative evidence are indicative-only.",
+    "Shared national claims are reused with their original evidence dates. Common records containing other-state wording are deferred; no national facts or existing state packs were refreshed.",
+    "MSY 2.0 direct PDF access failed; only the indexed official first page was available. Startup allowance sources conflict, so no amount is published.",
+    "Specialist agencies and schemes in the candidate ledger need further operative-rule verification. Component cost norms are not yet verified; department contacts link to checked official programme pages."
+  ],
+  "legacy": [
+    {
+      "name": "MSY 2020 and MSY Nano 2021",
+      "position": "Merged into MSY 2.0",
+      "why": "Official MSY 2.0 notification records the merger.",
+      "alt": "Confirm MSY 2.0 through DIC.",
+      "src": "https://startuputtarakhand.uk.gov.in/attachments/MSY.pdf"
+    },
+    {
+      "name": "Older urban homestay references",
+      "position": "Current registration conditions changed",
+      "why": "June 2026 declaration requires rural location and permanent state residency.",
+      "alt": "Use current UTDB registration rules.",
+      "src": "https://homestay.uttarakhandtourism.gov.in/signup"
+    }
+  ]
+}

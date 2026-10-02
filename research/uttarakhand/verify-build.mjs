@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const before=JSON.parse(fs.readFileSync('research/uttarakhand/out-of-scope-before.json'));
+for(const [p,h] of Object.entries(before))if(hash(p)!==h)throw new Error('OUT_OF_SCOPE_CHANGE: '+p);
+for(const file of fs.readdirSync('app/data'))if(file.endsWith('.json')&&hash('app/data/'+file)!==hash('.state-pack-staging/uttarakhand-app/'+file))throw new Error('Non-deterministic build: '+file);
+const qa=JSON.parse(fs.readFileSync('research/uttarakhand/qa.json'));
+qa.deterministicBuild='passed';qa.existingStatesAndCommonPreserved='passed';
+fs.writeFileSync('research/uttarakhand/qa.json',JSON.stringify(qa,null,2)+'\n');
+console.log(JSON.stringify({outOfScopeHashGuard:'passed',deterministicBuild:'passed',preservedFiles:Object.keys(before).length}));

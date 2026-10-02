@@ -9,7 +9,7 @@ test("state index points to every generated state dataset", async () => {
   const punjabEvidence = JSON.parse(await readFile("scheme-data/states/punjab/evidence.json", "utf8"));
   const punjabCoverage = JSON.parse(await readFile("scheme-data/states/punjab/coverage.json", "utf8"));
   assert.equal(build.index.defaultState, "himachal-pradesh");
-  assert.deepEqual(build.index.states.map((state) => state.slug), ["himachal-pradesh", "punjab"]);
+  assert.deepEqual(build.index.states.map((state) => state.slug), ["himachal-pradesh", "punjab", "uttarakhand"]);
   assert.equal(build.datasets.get("himachal-pradesh").meta.stateId, "STATE-IN-HP");
   assert.equal(build.datasets.get("punjab").meta.stateId, "STATE-IN-PB");
   assert.ok(build.datasets.get("punjab").schemes.some((scheme) => scheme.id === "SCH-PB-IBDP26-CAPITAL"));

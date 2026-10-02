@@ -1,0 +1,719 @@
+{
+  "schemaVersion": "state-pack-1",
+  "candidates": [
+    {
+      "name": "Earlier MSY and MSY Nano",
+      "disposition": "duplicate/alias",
+      "reason": "Merged into MSY 2.0; not counted as separate current applications.",
+      "sources": [
+        "MSY"
+      ],
+      "id": "CAND-UK-1",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-MSY"
+      ]
+    },
+    {
+      "name": "MSY 2.0 financial slabs",
+      "disposition": "publishable",
+      "reason": "Full official PDF recovered; slabs, contribution, boosters, eligibility and application process verified under stable MSY-2 record.",
+      "sources": [
+        "MSY"
+      ],
+      "id": "CAND-UK-2",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-MSY"
+      ]
+    },
+    {
+      "name": "Startup 2018 allowance figures",
+      "disposition": "closed/superseded",
+      "reason": "Official legacy landing page conflicts with 2026 ecosystem report; no allowance amount published.",
+      "sources": [
+        "STARTUP"
+      ],
+      "id": "CAND-UK-3",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-STARTUP"
+      ]
+    },
+    {
+      "name": "MSME 2023 remaining interest, tax, quality and cluster components",
+      "disposition": "resolved-by-expansion",
+      "reason": "The earlier discovery-only entry was researched in this expansion. Published programme records and component-specific remaining candidates supersede the original limitation.",
+      "sources": [
+        "MSME"
+      ],
+      "id": "CAND-UK-4",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-MSME"
+      ]
+    },
+    {
+      "name": "Service Sector Policy 2024",
+      "disposition": "resolved-by-expansion",
+      "reason": "The earlier discovery-only entry was researched in this expansion. Published programme records and component-specific remaining candidates supersede the original limitation.",
+      "sources": [
+        "DIRECTORY"
+      ],
+      "id": "CAND-UK-5",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-DIRECTORY"
+      ]
+    },
+    {
+      "name": "State Integrated Cooperative Development Project",
+      "disposition": "intermediary-only",
+      "reason": "Institution-led cluster processing, storage and marketing project; not an automatic individual grant.",
+      "sources": [
+        "COOP"
+      ],
+      "id": "CAND-UK-6",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-COOP"
+      ]
+    },
+    {
+      "name": "Madho Singh Bhandari Collective Farming",
+      "disposition": "unverified-lead",
+      "reason": "Official scheme surface located; beneficiary funding and allocation require operative verification.",
+      "sources": [
+        "COOP"
+      ],
+      "id": "CAND-UK-7",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-COOP"
+      ]
+    },
+    {
+      "name": "Animal husbandry beneficiary schemes and broiler farm support",
+      "disposition": "component",
+      "reason": "Additional components require current district norms and separate mapping review.",
+      "sources": [
+        "AH"
+      ],
+      "id": "CAND-UK-8",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-AH"
+      ]
+    },
+    {
+      "name": "Sailage and Dudharu Pashu and NCDC dairy routes",
+      "disposition": "unverified-lead",
+      "reason": "Department routes located; confirm continuing sanction terms and convergence with other dairy schemes.",
+      "sources": [
+        "DAIRY"
+      ],
+      "id": "CAND-UK-9",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-DAIRY"
+      ]
+    },
+    {
+      "name": "Rural SHG strengthening, House of Himalayas, migration prevention and REAP",
+      "disposition": "resolved-by-expansion",
+      "reason": "The earlier discovery-only entry was researched in this expansion. Published programme records and component-specific remaining candidates supersede the original limitation.",
+      "sources": [
+        "RURAL"
+      ],
+      "id": "CAND-UK-10",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-RURAL"
+      ]
+    },
+    {
+      "name": "SC/ST/OBC/Divyang and minority enterprise finance",
+      "disposition": "resolved-by-expansion",
+      "reason": "The earlier discovery-only entry was researched in this expansion. Published programme records and component-specific remaining candidates supersede the original limitation.",
+      "sources": [
+        "SOCIAL",
+        "MINORITY"
+      ],
+      "id": "CAND-UK-11",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-SOCIAL",
+        "SOURCE-UK-MINORITY"
+      ]
+    },
+    {
+      "name": "Forest, aromatic plants, sericulture, handloom and khadi agency support",
+      "disposition": "unverified-lead",
+      "reason": "Specialist beneficiary schemes and current allocations remain to be checked.",
+      "sources": [
+        "FOREST",
+        "DIRECTORY"
+      ],
+      "id": "CAND-UK-12",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-FOREST",
+        "SOURCE-UK-DIRECTORY"
+      ]
+    },
+    {
+      "name": "Training, urban livelihoods, watershed and sector-policy support",
+      "disposition": "unverified-lead",
+      "reason": "Agency directory discovery recorded; current enterprise access not established.",
+      "sources": [
+        "SKILL",
+        "DIRECTORY"
+      ],
+      "id": "CAND-UK-13",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-SKILL",
+        "SOURCE-UK-DIRECTORY"
+      ]
+    },
+    {
+      "name": "PM Surya Ghar residential rooftop subsidy",
+      "disposition": "outside scope",
+      "reason": "Residential household subsidy excluded from the enterprise catalogue.",
+      "sources": [
+        "SOLAR"
+      ],
+      "id": "CAND-UK-14",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-SOLAR"
+      ]
+    },
+    {
+      "name": "Tourism trek-centre grants and incentive amounts",
+      "disposition": "unverified-lead",
+      "reason": "Official policy index located, but current operative financial conditions require review.",
+      "sources": [
+        "TOURISM"
+      ],
+      "id": "CAND-UK-15",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-TOURISM"
+      ]
+    },
+    {
+      "name": "Expired or time-limited shared export/commodity calls",
+      "disposition": "candidate-pending",
+      "reason": "RoDTEP shared evidence ends 30 September 2026; APEDA/Tea 2021–26 periods and SPICED August call need successor/current-window evidence. No active entitlement inferred.",
+      "sources": [
+        "NATX-AA"
+      ],
+      "id": "CAND-UK-16",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-NATX-AA"
+      ]
+    },
+    {
+      "name": "ADEETIE cluster coverage",
+      "disposition": "candidate-pending",
+      "reason": "Official BEE brochure identifies Kashipur, but exact activity/cluster eligibility requires project-level confirmation; not mapped as statewide general energy support.",
+      "sources": [
+        "NATX-MSMEOFFICE"
+      ],
+      "id": "CAND-UK-17",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSMEOFFICE"
+      ]
+    },
+    {
+      "name": "Coir Vikas and legacy TIDE 2.0",
+      "disposition": "candidate-pending",
+      "reason": "Current Uttarakhand access/intake was not established; geographical and successor restrictions require verification.",
+      "sources": [
+        "NATX-MSME",
+        "NATX-GENESIS"
+      ],
+      "id": "CAND-UK-18",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSME",
+        "SOURCE-UK-NATX-GENESIS"
+      ]
+    },
+    {
+      "name": "Millet Mission 2023–27",
+      "disposition": "superseded",
+      "reason": "2026 Millet Policy §14.1 terminates old mission upon implementation; pending dues remain governed by old norms. Do not add a second current scheme.",
+      "sources": [
+        "AGRX-MILLET-DOC"
+      ],
+      "id": "CAND-UK-42",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-AGRX-MILLET-DOC"
+      ]
+    },
+    {
+      "name": "Older CAP aromatic cultivation and distillation subsidies",
+      "disposition": "unverified-lead",
+      "reason": "2019 incentive page and older brochure have legacy crop/market/rate differences. Relationship to 2026 Mahak Kranti operative policy not established; do not duplicate or publish old rates as current.",
+      "sources": [
+        "CANDX-1",
+        "CANDX-2",
+        "AGRX-MAHAK-SRC"
+      ],
+      "id": "CAND-UK-43",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-CANDX-1",
+        "SOURCE-UK-CANDX-2",
+        "SOURCE-UK-AGRX-MAHAK-SRC"
+      ]
+    },
+    {
+      "name": "Aroma Park Policy",
+      "disposition": "pending-source-review",
+      "reason": "Official CAP policy page discovered but repeated fetch failure prevented operative eligibility/cost scrutiny; no subsidy entitlement published.",
+      "sources": [
+        "CANDX-3"
+      ],
+      "id": "CAND-UK-44",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-CANDX-3"
+      ]
+    },
+    {
+      "name": "NCDC Dairy Development Programme",
+      "disposition": "pending-source-review",
+      "reason": "Department page only yielded title; financing and individual/institution distinction require operative evidence.",
+      "sources": [
+        "CANDX-4"
+      ],
+      "id": "CAND-UK-45",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-CANDX-4"
+      ]
+    },
+    {
+      "name": "Tea tourism / leased tea factory opportunities",
+      "disposition": "intermediary-only",
+      "reason": "Compendium describes selected e-tender operators and tea-board infrastructure, not a general individual grant or live tender. Keep distinct from farmer cultivation route.",
+      "sources": [
+        "AGRX-BOOK"
+      ],
+      "id": "CAND-UK-46",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-AGRX-BOOK"
+      ]
+    },
+    {
+      "name": "Sugarcane village link roads",
+      "disposition": "intermediary-only",
+      "reason": "Compendium describes Gram Sabha/cane council/district project approval and contributory public works; not enterprise-access cash subsidy.",
+      "sources": [
+        "AGRX-BOOK"
+      ],
+      "id": "CAND-UK-47",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-AGRX-BOOK"
+      ]
+    },
+    {
+      "name": "Piru Lao Paise Pao forest-fire needle collection",
+      "disposition": "unverified-lead",
+      "reason": "Public announcements are insufficient to verify current payable rate, geographical operation and claim order; operative forest order not retrieved.",
+      "sources": [
+        "FOREST"
+      ],
+      "id": "CAND-UK-48",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-FOREST"
+      ]
+    },
+    {
+      "name": "Walnut development under UFRMP",
+      "disposition": "component-of-existing-programme",
+      "reason": "Forest-project plantation component; do not inflate count as independent general orchard subsidy.",
+      "sources": [
+        "CANDX-5",
+        "AGRX-FOREST-PROJECT"
+      ],
+      "id": "CAND-UK-49",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-CANDX-5",
+        "SOURCE-UK-AGRX-FOREST-PROJECT"
+      ]
+    },
+    {
+      "name": "State sericulture working-capital/reeling/weaving historical budget components",
+      "disposition": "pending-source-review",
+      "reason": "Budget file covers historical years and does not establish current direct assistance; cluster production access published without old money claims.",
+      "sources": [
+        "CANDX-6"
+      ],
+      "id": "CAND-UK-50",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-CANDX-6"
+      ]
+    },
+    {
+      "name": "Uttarakhand RAMP SIP projects",
+      "disposition": "intermediary-only",
+      "reason": "Approved ₹83.05 crore SIP lists Avishkaar, quality champions, market access, SME exchange and facilitation projects. Individual grant terms or active calls were not verified.",
+      "sources": [
+        "INDX-RAMP"
+      ],
+      "id": "CAND-UK-51",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-INDX-RAMP"
+      ]
+    },
+    {
+      "name": "Mega Industrial Policy 2021 and 2024 draft",
+      "disposition": "closed/superseded",
+      "reason": "Mega Policy 2025 notified on 15 July 2025 and implementation guidelines published in 2026. Legacy claims and transitional rights may remain; fresh 2021 applications are not assumed.",
+      "sources": [
+        "INDX-MEGA25",
+        "INDX-MEGAPOLICY"
+      ],
+      "id": "CAND-UK-52",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-INDX-MEGA25",
+        "SOURCE-UK-INDX-MEGAPOLICY"
+      ]
+    },
+    {
+      "name": "Startup Policy 2023 allowance and incubator schedules",
+      "disposition": "unverified-lead",
+      "reason": "Official policy retrieved as a scan; current report and legacy 2018 allowance figures conflict. Existing startup route retained without unverified monetary figures.",
+      "sources": [
+        "INDX-POLICYINDEX"
+      ],
+      "id": "CAND-UK-53",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-INDX-POLICYINDEX"
+      ]
+    },
+    {
+      "name": "EV Manufacturing Policy 2018 and EV 2019 consumer policy",
+      "disposition": "unverified-lead",
+      "reason": "Older official references located; operative continuation and consumer-subsidy status unresolved. Do not treat a draft policy as a current purchase grant.",
+      "sources": [
+        "INDX-POLICYINDEX"
+      ],
+      "id": "CAND-UK-54",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-INDX-POLICYINDEX"
+      ]
+    },
+    {
+      "name": "ICT/Electronics Policy 2016–2025 and IT 2018",
+      "disposition": "no-current-intake",
+      "reason": "The 2016–2025 horizon has passed and continuation of old incentives was not verified. New large IT/GCC/data-centre access is represented under Service Sector Policy 2024.",
+      "sources": [
+        "INDX-SERVICE"
+      ],
+      "id": "CAND-UK-55",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-INDX-SERVICE"
+      ]
+    },
+    {
+      "name": "Aerospace and Defence Policy 2020",
+      "disposition": "no-current-intake",
+      "reason": "Official summary uses establishment window through 31 March 2025; no extension was verified. Keep as legacy rather than new-unit entitlement.",
+      "sources": [
+        "INDX-POLICYINDEX"
+      ],
+      "id": "CAND-UK-56",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-INDX-POLICYINDEX"
+      ]
+    },
+    {
+      "name": "Paryatan Udyami 2024 and homestay financial schedules",
+      "disposition": "unverified-lead",
+      "reason": "Official policy and updated guidelines retrieved as scans; exact amended financial/registration terms need transcription. Existing stable routes retained without new unverified figures.",
+      "sources": [
+        "INDX-POLICYINDEX"
+      ],
+      "id": "CAND-UK-57",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-INDX-POLICYINDEX"
+      ]
+    },
+    {
+      "name": "Export Policy 2021 versus Export Policy 2023",
+      "disposition": "unverified-lead",
+      "reason": "Current index and policy document say 2021, while some official sector summaries refer to 2023. The policy has a five-year term from notification and indicative financial chapter; operative scan and continuation need verification.",
+      "sources": [
+        "INDX-EXPORT",
+        "INDX-POLICYINDEX"
+      ],
+      "id": "CAND-UK-58",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-INDX-EXPORT",
+        "SOURCE-UK-INDX-POLICYINDEX"
+      ]
+    },
+    {
+      "name": "Private industrial estate, customized package and pumped storage financial schedules",
+      "disposition": "unverified-lead",
+      "reason": "Official policy existence retained as indicative routes. Exact financial, land and application terms remain pending; no numeric entitlement inferred.",
+      "sources": [
+        "INDX-POLICYINDEX"
+      ],
+      "id": "CAND-UK-59",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-INDX-POLICYINDEX"
+      ]
+    },
+    {
+      "name": "PM-AJAY comprehensive livelihood projects",
+      "disposition": "intermediary-only",
+      "reason": "State corporation hosts operative central guideline and application form. District/state approved projects, skills and productive assets are eligible pathway; not a universal direct individual grant. Confirm sanctioned local projects before adding beneficiary component.",
+      "sources": [
+        "LIVX-PM-AJAY"
+      ],
+      "id": "CAND-UK-29",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-PM-AJAY"
+      ]
+    },
+    {
+      "name": "Shilpi Gram SC/ST handicraft development",
+      "disposition": "unverified-lead",
+      "reason": "Official ten-page order and corporation programme summary establish existence. Publish limited indicative-only non-monetary route; scanned financial/eligibility text and current budget need readable verification.",
+      "sources": [
+        "LIVX-SHILPI",
+        "LIVX-UKBVVN"
+      ],
+      "id": "CAND-UK-30",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-SHILPI",
+        "SOURCE-UK-LIVX-UKBVVN"
+      ]
+    },
+    {
+      "name": "Divyang loan application December 2025 window",
+      "disposition": "no-current-intake",
+      "reason": "Specific invitation deadline 29 December 2025 has passed. Preserve institutional enterprise route; do not republish the call as open.",
+      "sources": [
+        "LIVX-DIVYANG"
+      ],
+      "id": "CAND-UK-31",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-DIVYANG"
+      ]
+    },
+    {
+      "name": "Khadi sale rebate",
+      "disposition": "unverified-lead",
+      "reason": "UKVIB lists rebate at https://ukvib.org/details.php?pgID=sb_8; no operative current financial year reimbursement order verified. Do not claim continuing discount/reimbursement.",
+      "sources": [
+        "LIVX-WOOL"
+      ],
+      "id": "CAND-UK-32",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-WOOL"
+      ]
+    },
+    {
+      "name": "Chief Minister Sashakt Behna Utsav marketing events",
+      "disposition": "component",
+      "reason": "Rural department has event page; marketing opportunity overlaps SHG/House of Himalayas/UKVIB routes. No distinct operative funding entitlement verified.",
+      "sources": [
+        "LIVX-SHG2025",
+        "LIVX-HOH"
+      ],
+      "id": "CAND-UK-33",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-SHG2025",
+        "SOURCE-UK-LIVX-HOH"
+      ]
+    },
+    {
+      "name": "Lakhpati Didi",
+      "disposition": "component",
+      "reason": "SHG strengthening amendment describes outcome supported by CLF business assistance and MUY marketing centres. Treat as livelihood target/convergence, not another automatic grant.",
+      "sources": [
+        "LIVX-SHG2025"
+      ],
+      "id": "CAND-UK-34",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-SHG2025"
+      ]
+    },
+    {
+      "name": "Rural Business Incubator / RBI",
+      "disposition": "duplicate/alias",
+      "reason": "Current SHG amendment identifies RBI as earlier name of Mukhyamantri Udyamshala; avoid duplicate incubation scheme.",
+      "sources": [
+        "LIVX-SHG2025",
+        "LIVX-MUY"
+      ],
+      "id": "CAND-UK-35",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-SHG2025",
+        "SOURCE-UK-LIVX-MUY"
+      ]
+    },
+    {
+      "name": "RSETI rural self-employment training",
+      "disposition": "component",
+      "reason": "State DAY-NRLM page identifies RSETIs as skills route; enquiry via block NRLM and sponsor bank. Included under NRLM delivery, not a new state cash subsidy.",
+      "sources": [
+        "LIVX-USRLM"
+      ],
+      "id": "CAND-UK-36",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-USRLM"
+      ]
+    },
+    {
+      "name": "Uttarakhand Workforce Development Project and PM-SETU industry partnership",
+      "disposition": "intermediary-only",
+      "reason": "UKWDP strengthens selected ITIs/training systems; DSDE homepage also lists anchor industry partner selection under PM-SETU. Institution/procurement route, not direct applicant enterprise finance.",
+      "sources": [
+        "LIVX-UKWDP",
+        "LIVX-SKILL"
+      ],
+      "id": "CAND-UK-37",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-UKWDP",
+        "SOURCE-UK-LIVX-SKILL"
+      ]
+    },
+    {
+      "name": "Urban Utthan EST&P old provider EOI",
+      "disposition": "closed/superseded",
+      "reason": "Official SUDA RFP at https://udd.uk.gov.in/files/RFP_of_ESTP_under_DAY-NULM.pdf was for 2018-19/2019-20 and closed 25 July 2018. Does not establish current provider empanelment.",
+      "sources": [
+        "LIVX-NULM"
+      ],
+      "id": "CAND-UK-38",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-NULM"
+      ]
+    },
+    {
+      "name": "Social/minority pensions, student scholarships, marriage/education incentives and housing",
+      "disposition": "outside scope",
+      "reason": "Non-productive welfare excluded from enterprise credit catalogue; skills/enterprise loan routes handled separately. Educational loans are not business capital.",
+      "sources": [
+        "LIVX-MINORITY",
+        "LIVX-UKBVVN"
+      ],
+      "id": "CAND-UK-39",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-MINORITY",
+        "SOURCE-UK-LIVX-UKBVVN"
+      ]
+    },
+    {
+      "name": "SMILE social rehabilitation and historic SRMS beneficiary survey",
+      "disposition": "outside scope",
+      "reason": "State corporation surfaces SMILE and historic manual-scavenger rehabilitation; no current productive enterprise financing intake established beyond NSKFDC institutional route.",
+      "sources": [
+        "LIVX-UKBVVN"
+      ],
+      "id": "CAND-UK-40",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-UKBVVN"
+      ]
+    },
+    {
+      "name": "PM SVANidhi Uttarakhand additional interest support",
+      "disposition": "component",
+      "reason": "UDD summary mentions an additional 2% state subsidy and further planned interest coverage. Operative sanction/rules, budget and claim flow not verified; do not publish as guaranteed interest-free credit or alter common national interest benefit.",
+      "sources": [
+        "LIVX-SVANIDHI"
+      ],
+      "id": "CAND-UK-41",
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-SVANIDHI"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3257 @@
+{
+  "schemaVersion": "state-pack-1",
+  "sources": [
+    {
+      "code": "DIRECTORY",
+      "title": "State department directory",
+      "issuer": "Government of Uttarakhand",
+      "url": "https://cm.uk.gov.in/department/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-DIRECTORY",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "MSME",
+      "title": "MSME Policy 2023 operational guidelines",
+      "issuer": "MSME Department, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/swcsincentive/common/protected/msme_policy/MSMEpolicy.pdf",
+      "classification": "primary-operative",
+      "locator": "Full 31-page English PDF recovered. Sections 7–16, 19, 21–22: eligibility, exact investment subsidy table, interest, electricity, certification, mandi, ZED, cluster and claim procedure.",
+      "id": "SOURCE-UK-MSME",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-MSME23-CAPITAL-EXISTENCE",
+        "CLAIM-UK-MSME23-CAPITAL-KEYBENEFIT",
+        "CLAIM-UK-MSME23-CAPITAL-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-MSME23-CAPITAL-APPLICATIONROUTE",
+        "CLAIM-UK-MSME23-DPR-EXISTENCE",
+        "CLAIM-UK-MSME23-DPR-KEYBENEFIT",
+        "CLAIM-UK-MSME23-DPR-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-MSME23-DPR-APPLICATIONROUTE",
+        "CLAIM-UK-MSME23-STAMP-EXISTENCE",
+        "CLAIM-UK-MSME23-STAMP-KEYBENEFIT",
+        "CLAIM-UK-MSME23-STAMP-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-MSME23-STAMP-APPLICATIONROUTE",
+        "CLAIM-UK-INDX-MSME-INTEREST-EXISTENCE",
+        "CLAIM-UK-INDX-MSME-INTEREST-KEYBENEFIT",
+        "CLAIM-UK-INDX-MSME-INTEREST-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-MSME-INTEREST-APPLICATIONROUTE",
+        "CLAIM-UK-INDX-MSME-ELECTRICITY-EXISTENCE",
+        "CLAIM-UK-INDX-MSME-ELECTRICITY-KEYBENEFIT",
+        "CLAIM-UK-INDX-MSME-ELECTRICITY-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-MSME-ELECTRICITY-APPLICATIONROUTE",
+        "CLAIM-UK-INDX-MSME-QUALITY-EXISTENCE",
+        "CLAIM-UK-INDX-MSME-QUALITY-KEYBENEFIT",
+        "CLAIM-UK-INDX-MSME-QUALITY-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-MSME-QUALITY-APPLICATIONROUTE",
+        "CLAIM-UK-INDX-MSME-MANDI-EXISTENCE",
+        "CLAIM-UK-INDX-MSME-MANDI-KEYBENEFIT",
+        "CLAIM-UK-INDX-MSME-MANDI-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-MSME-MANDI-APPLICATIONROUTE",
+        "CLAIM-UK-INDX-MSME-ZED-EXISTENCE",
+        "CLAIM-UK-INDX-MSME-ZED-KEYBENEFIT",
+        "CLAIM-UK-INDX-MSME-ZED-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-MSME-ZED-APPLICATIONROUTE",
+        "CLAIM-UK-INDX-MSME-CLUSTER-EXISTENCE",
+        "CLAIM-UK-INDX-MSME-CLUSTER-KEYBENEFIT",
+        "CLAIM-UK-INDX-MSME-CLUSTER-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-MSME-CLUSTER-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-MSME23-CAPITAL",
+        "STATUS-UK-MSME23-DPR",
+        "STATUS-UK-MSME23-STAMP",
+        "STATUS-UK-INDX-MSME-INTEREST",
+        "STATUS-UK-INDX-MSME-ELECTRICITY",
+        "STATUS-UK-INDX-MSME-QUALITY",
+        "STATUS-UK-INDX-MSME-MANDI",
+        "STATUS-UK-INDX-MSME-ZED",
+        "STATUS-UK-INDX-MSME-CLUSTER"
+      ]
+    },
+    {
+      "code": "MSY",
+      "title": "MSY 2.0 official notification — full English PDF",
+      "issuer": "MSME Department, Uttarakhand",
+      "url": "https://startuputtarakhand.uk.gov.in/attachments/MSY.pdf",
+      "classification": "primary-operative",
+      "locator": "Full 13-page English notification recovered using direct HTTPS PDF retrieval and pypdf on 2026-10-02; sections 8–12 and 15 establish finance, beneficiaries and portal process. Printed notification date fields partly blank; scheme FY 2025-26–2029-30 explicit.",
+      "id": "SOURCE-UK-MSY",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-MSY-2-EXISTENCE",
+        "CLAIM-UK-MSY-2-KEYBENEFIT",
+        "CLAIM-UK-MSY-2-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-MSY-2-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-MSY-2"
+      ]
+    },
+    {
+      "code": "STARTUP",
+      "title": "State Startup Ecosystem Report 2026",
+      "issuer": "DPIIT / Startup India",
+      "url": "https://www.startupindia.gov.in/srf/portal/SRF_2026_Result_page/Uttarakhand_State_Report.pdf",
+      "classification": "primary-summary",
+      "locator": "Section 2.1 describes Startup Policy 2023. Older policy landing page conflicts on allowance; omit monetary amounts.",
+      "id": "SOURCE-UK-STARTUP",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-STARTUP23-EXISTENCE",
+        "CLAIM-UK-STARTUP23-KEYBENEFIT",
+        "CLAIM-UK-STARTUP23-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-STARTUP23-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-STARTUP23"
+      ]
+    },
+    {
+      "code": "TOURISM",
+      "title": "Tourism investment and self-employment programme surface",
+      "issuer": "Uttarakhand Tourism Development Board",
+      "url": "https://nivesh.uttarakhandtourism.gov.in/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-TOURISM",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-VCSG-EXISTENCE",
+        "CLAIM-UK-VCSG-KEYBENEFIT",
+        "CLAIM-UK-VCSG-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-VCSG-APPLICATIONROUTE",
+        "CLAIM-UK-PARYATAN-EXISTENCE",
+        "CLAIM-UK-PARYATAN-KEYBENEFIT",
+        "CLAIM-UK-PARYATAN-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-PARYATAN-APPLICATIONROUTE",
+        "CLAIM-UK-HOMESTAY-EXISTENCE",
+        "CLAIM-UK-HOMESTAY-KEYBENEFIT",
+        "CLAIM-UK-HOMESTAY-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-VCSG",
+        "STATUS-UK-PARYATAN",
+        "STATUS-UK-HOMESTAY"
+      ]
+    },
+    {
+      "code": "HOMESTAY",
+      "title": "Homestay registration declaration",
+      "issuer": "Uttarakhand Tourism Development Board",
+      "url": "https://homestay.uttarakhandtourism.gov.in/signup",
+      "classification": "primary-operative",
+      "locator": "Declaration citing GO 53 vi (1)/2026 dated 5 June 2026: rural location and permanent resident requirement.",
+      "id": "SOURCE-UK-HOMESTAY",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-HOMESTAY-ELIGIBLEAPPLICANTS"
+      ],
+      "statusIds": []
+    },
+    {
+      "code": "HORT",
+      "title": "State horticulture DBT scheme register",
+      "issuer": "Horticulture and Food Processing Department, Uttarakhand",
+      "url": "https://shm.uk.gov.in/dbt-scheme/",
+      "classification": "primary-summary",
+      "locator": "State DBT register rows 1–7; names verified, benefit slabs and live calls unconfirmed.",
+      "id": "SOURCE-UK-HORT",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-AGRX-MIDH-EXISTENCE",
+        "CLAIM-UK-AGRX-MIDH-KEYBENEFIT",
+        "CLAIM-UK-AGRX-MIDH-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-MIDH-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-AGRX-MIDH"
+      ]
+    },
+    {
+      "code": "AGRI",
+      "title": "Agriculture scheme register",
+      "issuer": "Agriculture Department, Uttarakhand",
+      "url": "https://agriculture.uk.gov.in/schemes-programmes/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-AGRI",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R92-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R92-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R92-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R92-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R96-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R96-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R96-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R96-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R119-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R119-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R119-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R119-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R120-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R120-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R120-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R120-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R98-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R98-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R98-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R98-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-KISAN-CREDIT-CARD-KCC-MODIFIED-INTEREST-SU-D5002C",
+        "STATUS-UK-ROUTE-RASHTRIYA-KRISHI-VIKAS-YOJANA-PM-RKVY-157C16",
+        "STATUS-UK-ROUTE-SOIL-HEALTH-FERTILITY-SOIL-HEALTH-CARD-AA697B",
+        "STATUS-UK-ROUTE-FOOD-NUTRITION-SECURITY-NATIONAL-FOOD-SECU-4CAA1E",
+        "STATUS-UK-ROUTE-PARAMPARAGAT-KRISHI-VIKAS-YOJANA-NATURAL-F-89AD68"
+      ]
+    },
+    {
+      "code": "PMFME",
+      "title": "PMFME state implementation page",
+      "issuer": "Horticulture and Food Processing Department, Uttarakhand",
+      "url": "https://shm.uk.gov.in/pmfme/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-PMFME",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R111-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R111-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R111-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R111-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-PM-FORMALISATION-OF-MICRO-FOOD-PROCESSING--8FBEBD"
+      ]
+    },
+    {
+      "code": "LIVESTOCK",
+      "title": "Mukhyamantri Rajya Pashudhan Mission",
+      "issuer": "Animal Husbandry Department, Uttarakhand",
+      "url": "https://ahd.uk.gov.in/hi/scheme/मुख्यमंत्री-राज्य-पशुधन/",
+      "classification": "primary-summary",
+      "locator": "Department scheme summary lists unit sizes, loan interest support and veterinary-office application route.",
+      "id": "SOURCE-UK-LIVESTOCK",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-PASHUDHAN-EXISTENCE",
+        "CLAIM-UK-PASHUDHAN-KEYBENEFIT",
+        "CLAIM-UK-PASHUDHAN-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-PASHUDHAN-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-PASHUDHAN"
+      ]
+    },
+    {
+      "code": "GOAT",
+      "title": "Goat Valley",
+      "issuer": "Animal Husbandry Department, Uttarakhand",
+      "url": "https://ahd.uk.gov.in/hi/scheme/गोट-वैली/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-GOAT",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-GOAT-VALLEY-EXISTENCE",
+        "CLAIM-UK-GOAT-VALLEY-KEYBENEFIT",
+        "CLAIM-UK-GOAT-VALLEY-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-GOAT-VALLEY-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-GOAT-VALLEY"
+      ]
+    },
+    {
+      "code": "POULTRY",
+      "title": "Poultry Valley",
+      "issuer": "Animal Husbandry Department, Uttarakhand",
+      "url": "https://ahd.uk.gov.in/hi/scheme/पोल्ट्री-वैली-की-स्थापना/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-POULTRY",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-POULTRY-VALLEY-EXISTENCE",
+        "CLAIM-UK-POULTRY-VALLEY-KEYBENEFIT",
+        "CLAIM-UK-POULTRY-VALLEY-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-POULTRY-VALLEY-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-POULTRY-VALLEY"
+      ]
+    },
+    {
+      "code": "AH",
+      "title": "Animal husbandry scheme register",
+      "issuer": "Animal Husbandry Department, Uttarakhand",
+      "url": "https://ahd.uk.gov.in/hi/योजनाएं/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-AH",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "FISH",
+      "title": "Mukhyamantri Matsya Sampada Yojana",
+      "issuer": "Fisheries Department, Uttarakhand",
+      "url": "https://fisheries.uk.gov.in/scheme/mukhyamantri-matsysa-sampada-yojna/",
+      "classification": "primary-summary",
+      "locator": "Scheme page dated 5 April 2026; apply to district office. Detailed financial component guideline not verified.",
+      "id": "SOURCE-UK-FISH",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R107-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R107-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R107-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R107-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-PRADHAN-MANTRI-MATSYA-SAMPADA-YOJANA-PMMSY-5A9DE6"
+      ]
+    },
+    {
+      "code": "COOP",
+      "title": "Cooperative programme register",
+      "issuer": "Cooperative Department, Uttarakhand",
+      "url": "https://cooperative.uk.gov.in/schemes-programmes/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-COOP",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "KISAN",
+      "title": "Deendayal Upadhyay Sahkarita Kisan Kalyan Yojana",
+      "issuer": "Cooperative Department, Uttarakhand",
+      "url": "https://cooperative.uk.gov.in/scheme/deendayal-upadhay-sahkarita-kisan-kalyan-yojana/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-KISAN",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-SAHKARITA-KISAN-EXISTENCE",
+        "CLAIM-UK-SAHKARITA-KISAN-KEYBENEFIT",
+        "CLAIM-UK-SAHKARITA-KISAN-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-SAHKARITA-KISAN-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-SAHKARITA-KISAN"
+      ]
+    },
+    {
+      "code": "GHASIYARI",
+      "title": "Mukhyamantri Ghasiyari Kalyan Yojana",
+      "issuer": "Cooperative Department, Uttarakhand",
+      "url": "https://cooperative.uk.gov.in/scheme/chief-minister-ghasiyari-kalyan-yojana/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-GHASIYARI",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-GHASIYARI-EXISTENCE",
+        "CLAIM-UK-GHASIYARI-KEYBENEFIT",
+        "CLAIM-UK-GHASIYARI-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-GHASIYARI-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-GHASIYARI"
+      ]
+    },
+    {
+      "code": "TAXI",
+      "title": "Motorcycle Taxi Yojana",
+      "issuer": "Cooperative Department, Uttarakhand",
+      "url": "https://cooperative.uk.gov.in/scheme/kasturba-gandhi-balika-vidyalaya/",
+      "classification": "primary-summary",
+      "locator": "Official index links this mismatched URL slug to Motorcycle Taxi Yojana; page title and application text checked.",
+      "id": "SOURCE-UK-TAXI",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-MOTORCYCLE-TAXI-EXISTENCE",
+        "CLAIM-UK-MOTORCYCLE-TAXI-KEYBENEFIT",
+        "CLAIM-UK-MOTORCYCLE-TAXI-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-MOTORCYCLE-TAXI-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-MOTORCYCLE-TAXI"
+      ]
+    },
+    {
+      "code": "ERICK",
+      "title": "E-Rickshaw Kalyan Yojana",
+      "issuer": "Cooperative Department, Uttarakhand",
+      "url": "https://cooperative.uk.gov.in/scheme/pradhan-mantri-gram-sadak-yojana/",
+      "classification": "primary-summary",
+      "locator": "Official index links this mismatched URL slug to E-Rickshaw Kalyan Yojana; title and body checked.",
+      "id": "SOURCE-UK-ERICK",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-E-RICKSHAW-EXISTENCE",
+        "CLAIM-UK-E-RICKSHAW-KEYBENEFIT",
+        "CLAIM-UK-E-RICKSHAW-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-E-RICKSHAW-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-E-RICKSHAW"
+      ]
+    },
+    {
+      "code": "SOLAR",
+      "title": "Solar Energy Schemes",
+      "issuer": "UREDA, Uttarakhand",
+      "url": "https://ureda.uk.gov.in/solar-energy-schemes/",
+      "classification": "primary-summary",
+      "locator": "Lists MSSY March 2023 update and Solar Policy 2023; PDF links were not exposed by the parsed index.",
+      "id": "SOURCE-UK-SOLAR",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "DAIRY",
+      "title": "Dairy programme register",
+      "issuer": "Dairy Development Department, Uttarakhand",
+      "url": "https://dairyvikasuttarakhand.in/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-DAIRY",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "GANGA",
+      "title": "Ganga Gaay Mahila Dairy Yojana",
+      "issuer": "Dairy Development Department, Uttarakhand",
+      "url": "https://dairyvikasuttarakhand.in/ganga-gaay-mahila-dairy-yojana/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-GANGA",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-GANGA-GAAY-EXISTENCE",
+        "CLAIM-UK-GANGA-GAAY-KEYBENEFIT",
+        "CLAIM-UK-GANGA-GAAY-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-GANGA-GAAY-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-GANGA-GAAY"
+      ]
+    },
+    {
+      "code": "MILK",
+      "title": "Milk Incentive Yojana",
+      "issuer": "Dairy Development Department, Uttarakhand",
+      "url": "https://dairyvikasuttarakhand.in/milk-incentive-yojna/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-MILK",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-MILK-INCENTIVE-EXISTENCE",
+        "CLAIM-UK-MILK-INCENTIVE-KEYBENEFIT",
+        "CLAIM-UK-MILK-INCENTIVE-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-MILK-INCENTIVE-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-MILK-INCENTIVE"
+      ]
+    },
+    {
+      "code": "RURAL",
+      "title": "Rural development programme surface",
+      "issuer": "Rural Development Department, Uttarakhand",
+      "url": "https://ukrd.uk.gov.in/dehradun/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-RURAL",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "SOCIAL",
+      "title": "Social welfare department and loan notices",
+      "issuer": "Social Welfare Department, Uttarakhand",
+      "url": "https://socialwelfare.uk.gov.in/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-SOCIAL",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "MINORITY",
+      "title": "Minority welfare department",
+      "issuer": "Minority Welfare Department, Uttarakhand",
+      "url": "https://minoritywelfare.uk.gov.in/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-MINORITY",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "SKILL",
+      "title": "Training and employment programme surface",
+      "issuer": "Directorate of Training and Employment, Uttarakhand",
+      "url": "https://rojgar.uk.gov.in/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-SKILL",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "FOREST",
+      "title": "Forest department programme surface",
+      "issuer": "Forest Department, Uttarakhand",
+      "url": "https://forest.uk.gov.in/",
+      "classification": "primary-summary",
+      "locator": "Official programme page; current budget and intake not established.",
+      "id": "SOURCE-UK-FOREST",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "NATX-MSME",
+      "title": "MSME schemes at a glance, January–March 2026",
+      "issuer": "Ministry of MSME",
+      "url": "https://www.msme.gov.in/static/uploads/2026/05/3040dc36fd7023c4d4d1f647ee816165.pdf",
+      "locator": "National programme inventory; current eligibility and financial evidence are inherited, not refreshed.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-MSME",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R41-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R41-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R41-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R41-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R46-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R46-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R46-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R46-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R47-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R47-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R47-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R47-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R48-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R48-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R48-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R48-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R49-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R49-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R49-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R49-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R50-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R50-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R50-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R50-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R56-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R56-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R56-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R56-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R57-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R57-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R57-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R57-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R58-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R58-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R58-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R58-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R59-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R59-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R59-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R59-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R60-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R60-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R60-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R60-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R61-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R61-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R61-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R61-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R70-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R70-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R70-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R70-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R71-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R71-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R71-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R71-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-PMEGP-2ND-LOAN-FOR-UPGRADATION-99CA6F",
+        "STATUS-UK-ROUTE-SPECIAL-CREDIT-LINKED-CAPITAL-SUBSIDY-SCHE-BDBAEA",
+        "STATUS-UK-ROUTE-MICRO-AND-SMALL-ENTERPRISES-CLUSTER-DEVELO-C4AA57",
+        "STATUS-UK-ROUTE-SFURTI-SCHEME-OF-FUND-FOR-REGENERATION-OF--C61C70",
+        "STATUS-UK-ROUTE-MSME-SUSTAINABLE-ZED-CERTIFICATION-9DC992",
+        "STATUS-UK-ROUTE-MSME-COMPETITIVE-LEAN-0AFE18",
+        "STATUS-UK-ROUTE-PUBLIC-PROCUREMENT-POLICY-FOR-MSES-934235",
+        "STATUS-UK-ROUTE-NATIONAL-SC-ST-HUB-NSSH-873A63",
+        "STATUS-UK-ROUTE-PROCUREMENT-AND-MARKETING-SUPPORT-PMS-708FB2",
+        "STATUS-UK-ROUTE-INTERNATIONAL-COOPERATION-SCHEME-DBF1B0",
+        "STATUS-UK-ROUTE-ENTREPRENEURSHIP-AND-SKILL-DEVELOPMENT-PRO-8C6AA1",
+        "STATUS-UK-ROUTE-ASPIRE-LIVELIHOOD-BUSINESS-INCUBATORS-FUND-B5AD45",
+        "STATUS-UK-ROUTE-SELF-RELIANT-INDIA-SRI-FUND-15347E",
+        "STATUS-UK-ROUTE-MSME-INNOVATIVE-INCUBATION-DESIGN-AND-IPR-7FB8BA"
+      ]
+    },
+    {
+      "code": "NATX-MSMEOFFICE",
+      "title": "MSME development office directory",
+      "issuer": "Development Commissioner MSME",
+      "url": "https://cluster.dcmsme.gov.in/CFCRPT/CFC_DiDirectory.aspx",
+      "locator": "MSME DFO Haldwani, Uttarakhand; local facilitation route.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-MSMEOFFICE",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "NATX-RAMP",
+      "title": "RAMP scheme guidelines",
+      "issuer": "Ministry of MSME",
+      "url": "https://ramp.msme.gov.in/ramp/scheme-guidelines",
+      "locator": "TEAM, GIFT, SPICE and ODR programme links.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-RAMP",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R51-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R51-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R51-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R51-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R52-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R52-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R52-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R52-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R53-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R53-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R53-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R53-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R74-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R74-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R74-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R74-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-MSE-GIFT-GREEN-INVESTMENT-AND-FINANCING-FO-EE865F",
+        "STATUS-UK-ROUTE-MSE-SPICE-CIRCULAR-ECONOMY-INVESTMENT-0B6A5E",
+        "STATUS-UK-ROUTE-MSME-TEAM-INITIATIVE-E-COMMERCE-ONDC-EC9C01",
+        "STATUS-UK-ROUTE-MSE-ONLINE-DISPUTE-RESOLUTION-ODR-FOR-DELA-C9A3F2"
+      ]
+    },
+    {
+      "code": "NATX-SIDBI",
+      "title": "SIDBI branch network and financing menu",
+      "issuer": "SIDBI",
+      "url": "https://www.sidbi.in/en/branch-office",
+      "locator": "Dehradun, Haridwar and Rudrapur branch entries; loan, PRAYAAS and TReDS menus.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-SIDBI",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R66-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R66-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R66-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R66-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R67-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R67-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R67-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R67-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R68-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R68-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R68-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R68-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R63-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R63-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R63-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R63-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-SIDBI-SPEED-RATIONALISED-MACHINERY-EQUIPME-F0E9A0",
+        "STATUS-UK-ROUTE-SIDBI-PRAYAAS-BC3E4F",
+        "STATUS-UK-ROUTE-SIDBI-DIGITAL-BUSINESS-LOAN-248602",
+        "STATUS-UK-ROUTE-TREDS-INVOICE-DISCOUNTING-B2B9D2"
+      ]
+    },
+    {
+      "code": "NATX-NSIC",
+      "title": "NSIC product and application surfaces",
+      "issuer": "NSIC",
+      "url": "https://www.nsic.co.in/Info/Download?AspxAutoDetectCookieSupport=1",
+      "locator": "Raw material assistance, single point registration and application forms.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-NSIC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R72-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R72-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R72-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R72-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R73-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R73-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R73-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R73-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-NSIC-RAW-MATERIAL-ASSISTANCE-AGAINST-BANK--1C87E0",
+        "STATUS-UK-ROUTE-NSIC-SINGLE-POINT-REGISTRATION-SCHEME-SPRS-2DAF35"
+      ]
+    },
+    {
+      "code": "NATX-NCGTC",
+      "title": "Mutual Credit Guarantee Scheme member lenders",
+      "issuer": "NCGTC",
+      "url": "https://www.ncgtc.in/hi-IN/product-details/MCGSMSME/Mutual-Credit-Guarantee-Scheme-for-MSMEs-%28MCGS-MSME%29",
+      "locator": "Member-lender route; borrower cannot apply directly for a cash grant.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-NCGTC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R64-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R64-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R64-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R64-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-MUTUAL-CREDIT-GUARANTEE-SCHEME-FOR-MSMES-M-8AEB3C"
+      ]
+    },
+    {
+      "code": "NATX-MUDRA",
+      "title": "PMMY finance route",
+      "issuer": "Department of Financial Services",
+      "url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+      "locator": "Banks, NBFCs and microfinance institutions; eligibility is lender-appraised.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-MUDRA",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R42-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R42-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R42-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R42-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-PRADHAN-MANTRI-MUDRA-YOJANA-PMMY-1FCCD7"
+      ]
+    },
+    {
+      "code": "NATX-CGTMSE",
+      "title": "CGTMSE member lending institutions",
+      "issuer": "CGTMSE",
+      "url": "https://www.cgtmse.in/Home/VS/94",
+      "locator": "Guarantee through an eligible member lender.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-CGTMSE",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R43-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R43-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R43-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R43-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-CGTMSE-CREDIT-GUARANTEE-A17996"
+      ]
+    },
+    {
+      "code": "NATX-PHARMA",
+      "title": "Department of Pharmaceuticals scheme and application index",
+      "issuer": "Department of Pharmaceuticals",
+      "url": "https://pharma-dept.gov.in/schemes/scheme-promotion-bulk-drug-",
+      "locator": "SPI/RPTUAS and SMDI operational guidelines and application links; project and call conditions apply.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-PHARMA",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R77-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R77-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R77-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R77-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R78-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R78-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R78-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R78-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R79-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R79-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R79-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R79-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R80-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R80-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R80-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R80-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R81-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R81-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R81-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R81-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-REVAMPED-PHARMACEUTICAL-TECHNOLOGY-UPGRADA-C98303",
+        "STATUS-UK-ROUTE-ASSISTANCE-TO-PHARMACEUTICAL-INDUSTRY-FOR--188056",
+        "STATUS-UK-ROUTE-SMDI-MARGINAL-INVESTMENT-SCHEME-FOR-REDUCI-A89898",
+        "STATUS-UK-ROUTE-SMDI-MEDICAL-DEVICE-CLINICAL-STUDIES-SUPPO-E2A6A3",
+        "STATUS-UK-ROUTE-SMDI-COMMON-FACILITIES-FOR-MEDICAL-DEVICE--91ED11"
+      ]
+    },
+    {
+      "code": "NATX-IDEX",
+      "title": "iDEX application FAQ",
+      "issuer": "Defence Innovation Organisation",
+      "url": "https://idex.gov.in/faq",
+      "locator": "Challenge/rolling Open Challenge application through iDEX; selection required.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-IDEX",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R85-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R85-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R85-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R85-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-INNOVATIONS-FOR-DEFENCE-EXCELLENCE-IDEX-SP-4F5473"
+      ]
+    },
+    {
+      "code": "NATX-BIRAC",
+      "title": "BIRAC programmes and calls",
+      "issuer": "BIRAC",
+      "url": "https://www.birac.nic.in/",
+      "locator": "BIG programme; latest open call not established.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-BIRAC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R84-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R84-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R84-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R84-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-BIOTECHNOLOGY-IGNITION-GRANT-BIG-79D1D8"
+      ]
+    },
+    {
+      "code": "NATX-GENESIS",
+      "title": "GENESIS programme surface",
+      "issuer": "MeitY Startup Hub",
+      "url": "https://msh.meity.gov.in/schemes/genesis",
+      "locator": "Approved implementing-agency route for tier-II/III ecosystems.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-GENESIS",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R165-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R165-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R165-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R165-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-GENESIS-GEN-NEXT-SUPPORT-FOR-INNOVATIVE-ST-079FC1"
+      ]
+    },
+    {
+      "code": "NATX-STPI",
+      "title": "STPI startup incubation locations",
+      "issuer": "STPI",
+      "url": "https://startup.stpi.in/",
+      "locator": "NGIS lists Dehradun; cohort selection and current call must be checked.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-STPI",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R167-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R167-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R167-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R167-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-STPI-NEXT-GENERATION-INCUBATION-SCHEME-5A4B29"
+      ]
+    },
+    {
+      "code": "NATX-ECGC",
+      "title": "Small Exporters Policy application",
+      "issuer": "ECGC",
+      "url": "https://main.ecgc.in/small-exporters-policy-sep/",
+      "locator": "Proposal and insurance route for eligible exporters; premium and underwriting apply.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-ECGC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R178-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R178-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R178-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R178-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-ECGC-SMALL-EXPORTERS-POLICY-B3B7E2"
+      ]
+    },
+    {
+      "code": "NATX-AA",
+      "title": "Advance Authorisation exporter FAQ",
+      "issuer": "DGFT",
+      "url": "https://content.dgft.gov.in/Website/dgftprod/218ff804-081d-425f-95a4-ff4b7c5e3575/DGFT%20FAQs%20-%20Advance%20Authorisation%20v1.0.pdf",
+      "locator": "IEC profile, authorisation application and export obligation; access evidence only.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-AA",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R179-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R179-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R179-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R179-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-ADVANCE-AUTHORISATION-8A928E"
+      ]
+    },
+    {
+      "code": "NATX-EPCG",
+      "title": "EPCG exporter user manual v4.0",
+      "issuer": "DGFT",
+      "url": "https://content.dgft.gov.in/Website/DGFT_EPCG_User_Manual_for_Exporters_v4.0.pdf",
+      "locator": "Online authorisation workflow; current national terms retained from shared catalogue.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-EPCG",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R180-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R180-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R180-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R180-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-EPCG-EXPORT-PROMOTION-CAPITAL-GOODS-104345"
+      ]
+    },
+    {
+      "code": "NATX-IREDA",
+      "title": "IREDA financing products",
+      "issuer": "IREDA",
+      "url": "https://ireda.in/IredaWebPortal/loan-products/schemes",
+      "locator": "Project financing through IREDA appraisal; debt, not subsidy.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-IREDA",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R175-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R175-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R175-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R175-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-IREDA-RENEWABLE-ENERGY-FINANCING-7D1131"
+      ]
+    },
+    {
+      "code": "NATX-TDF",
+      "title": "Technology Development Fund portal",
+      "issuer": "DRDO",
+      "url": "https://tdf.drdo.gov.in/",
+      "locator": "Defence technology projects and application process; project invitations govern access.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-TDF",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R86-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R86-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R86-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R86-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-DRDO-TECHNOLOGY-DEVELOPMENT-FUND-TDF-F6BBFD"
+      ]
+    },
+    {
+      "code": "NATX-DLI",
+      "title": "Design infrastructure support application",
+      "issuer": "MeitY / C-DAC",
+      "url": "https://www.chips-dli.gov.in/DLI/EDANew",
+      "locator": "Domestic startups/MSMEs register and file EDA tool request; semiconductor design activities.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-DLI",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R168-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R168-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R168-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R168-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-DESIGN-LINKED-INCENTIVE-DESIGN-INFRASTRUCT-AF689A"
+      ]
+    },
+    {
+      "code": "NATX-ECMS",
+      "title": "Electronics Component Manufacturing Scheme portal",
+      "issuer": "MeitY",
+      "url": "https://ecms.meity.gov.in/notification",
+      "locator": "Notification and window amendments; different component segments have different application periods.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-ECMS",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R87-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R87-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R87-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R87-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-ELECTRONICS-COMPONENT-MANUFACTURING-SCHEME-E38CBD"
+      ]
+    },
+    {
+      "code": "NATX-PMBJK",
+      "title": "Janaushadhi Kendra opening requirements",
+      "issuer": "PMBI",
+      "url": "https://janaushadhi.gov.in/pdf/English-OpenKendra.pdf",
+      "locator": "Online application, pharmacy requirements and premises conditions.",
+      "classification": "primary-summary",
+      "id": "SOURCE-UK-NATX-PMBJK",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "AGRX-MILLET-DOC",
+      "title": "Uttarakhand State Millet Policy",
+      "issuer": "Agriculture Department Uttarakhand",
+      "url": "https://cdnbbsr.s3waas.gov.in/s30fe473396242072e84af286632d3f0ff/uploads/2026/07/20260713387004462.pdf",
+      "classification": "primary-operative",
+      "locator": "Checked 2026-10-02; 40-page policy; chapters 4, 6 and 14; agriculture State Millet Policy directory publishes this document.",
+      "id": "SOURCE-UK-AGRX-MILLET-DOC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-AGRX-MILLET-EXISTENCE",
+        "CLAIM-UK-AGRX-MILLET-KEYBENEFIT",
+        "CLAIM-UK-AGRX-MILLET-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-MILLET-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-AGRX-MILLET"
+      ]
+    },
+    {
+      "code": "AGRX-HORT-NORMS",
+      "title": "Horticulture Department state/district/central scheme schedule",
+      "issuer": "State Horticulture Mission Uttarakhand",
+      "url": "https://cdnbbsr.s3waas.gov.in/s394c14a38fe64229a997e13d9c9e1c0eb/uploads/2026/01/202601291939934535.pdf",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; 11-page Hindi schedule; state schemes pp.1–3, district schemes p.4. Publication upload date is not proof that every historic rate remains operative.",
+      "id": "SOURCE-UK-AGRX-HORT-NORMS",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-HORT-MUSHROOM-EXISTENCE",
+        "CLAIM-UK-HORT-MUSHROOM-KEYBENEFIT",
+        "CLAIM-UK-HORT-MUSHROOM-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-HORT-MUSHROOM-APPLICATIONROUTE",
+        "CLAIM-UK-HORT-PROTECTED-EXISTENCE",
+        "CLAIM-UK-HORT-PROTECTED-KEYBENEFIT",
+        "CLAIM-UK-HORT-PROTECTED-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-HORT-PROTECTED-APPLICATIONROUTE",
+        "CLAIM-UK-HORT-POLYTHENE-EXISTENCE",
+        "CLAIM-UK-HORT-POLYTHENE-KEYBENEFIT",
+        "CLAIM-UK-HORT-POLYTHENE-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-HORT-POLYTHENE-APPLICATIONROUTE",
+        "CLAIM-UK-HORT-OFFSEASON-EXISTENCE",
+        "CLAIM-UK-HORT-OFFSEASON-KEYBENEFIT",
+        "CLAIM-UK-HORT-OFFSEASON-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-HORT-OFFSEASON-APPLICATIONROUTE",
+        "CLAIM-UK-HORT-BEE-EXISTENCE",
+        "CLAIM-UK-HORT-BEE-KEYBENEFIT",
+        "CLAIM-UK-HORT-BEE-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-HORT-BEE-APPLICATIONROUTE",
+        "CLAIM-UK-HORT-FENCING-EXISTENCE",
+        "CLAIM-UK-HORT-FENCING-KEYBENEFIT",
+        "CLAIM-UK-HORT-FENCING-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-HORT-FENCING-APPLICATIONROUTE",
+        "CLAIM-UK-HORT-APPLE-EXISTENCE",
+        "CLAIM-UK-HORT-APPLE-KEYBENEFIT",
+        "CLAIM-UK-HORT-APPLE-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-HORT-APPLE-APPLICATIONROUTE",
+        "CLAIM-UK-AGRX-HORT-MARKET-EXISTENCE",
+        "CLAIM-UK-AGRX-HORT-MARKET-KEYBENEFIT",
+        "CLAIM-UK-AGRX-HORT-MARKET-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-HORT-MARKET-APPLICATIONROUTE",
+        "CLAIM-UK-AGRX-HORT-SOCIAL-EXISTENCE",
+        "CLAIM-UK-AGRX-HORT-SOCIAL-KEYBENEFIT",
+        "CLAIM-UK-AGRX-HORT-SOCIAL-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-HORT-SOCIAL-APPLICATIONROUTE",
+        "CLAIM-UK-AGRX-HORT-BOREWELL-EXISTENCE",
+        "CLAIM-UK-AGRX-HORT-BOREWELL-KEYBENEFIT",
+        "CLAIM-UK-AGRX-HORT-BOREWELL-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-HORT-BOREWELL-APPLICATIONROUTE",
+        "CLAIM-UK-AGRX-HORT-NURSERY-EXISTENCE",
+        "CLAIM-UK-AGRX-HORT-NURSERY-KEYBENEFIT",
+        "CLAIM-UK-AGRX-HORT-NURSERY-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-HORT-NURSERY-APPLICATIONROUTE",
+        "CLAIM-UK-AGRX-HORT-ORGANIC-EXISTENCE",
+        "CLAIM-UK-AGRX-HORT-ORGANIC-KEYBENEFIT",
+        "CLAIM-UK-AGRX-HORT-ORGANIC-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-HORT-ORGANIC-APPLICATIONROUTE",
+        "CLAIM-UK-AGRX-NUT-MISSION-EXISTENCE",
+        "CLAIM-UK-AGRX-NUT-MISSION-KEYBENEFIT",
+        "CLAIM-UK-AGRX-NUT-MISSION-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-NUT-MISSION-APPLICATIONROUTE",
+        "CLAIM-UK-AGRX-CHILLI-EXISTENCE",
+        "CLAIM-UK-AGRX-CHILLI-KEYBENEFIT",
+        "CLAIM-UK-AGRX-CHILLI-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-CHILLI-APPLICATIONROUTE",
+        "CLAIM-UK-AGRX-HORT-VERMI-EXISTENCE",
+        "CLAIM-UK-AGRX-HORT-VERMI-KEYBENEFIT",
+        "CLAIM-UK-AGRX-HORT-VERMI-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-HORT-VERMI-APPLICATIONROUTE",
+        "CLAIM-UK-AGRX-DISTRICT-HORT-EXISTENCE",
+        "CLAIM-UK-AGRX-DISTRICT-HORT-KEYBENEFIT",
+        "CLAIM-UK-AGRX-DISTRICT-HORT-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-DISTRICT-HORT-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-HORT-MUSHROOM",
+        "STATUS-UK-HORT-PROTECTED",
+        "STATUS-UK-HORT-POLYTHENE",
+        "STATUS-UK-HORT-OFFSEASON",
+        "STATUS-UK-HORT-BEE",
+        "STATUS-UK-HORT-FENCING",
+        "STATUS-UK-HORT-APPLE",
+        "STATUS-UK-AGRX-HORT-MARKET",
+        "STATUS-UK-AGRX-HORT-SOCIAL",
+        "STATUS-UK-AGRX-HORT-BOREWELL",
+        "STATUS-UK-AGRX-HORT-NURSERY",
+        "STATUS-UK-AGRX-HORT-ORGANIC",
+        "STATUS-UK-AGRX-NUT-MISSION",
+        "STATUS-UK-AGRX-CHILLI",
+        "STATUS-UK-AGRX-HORT-VERMI",
+        "STATUS-UK-AGRX-DISTRICT-HORT"
+      ]
+    },
+    {
+      "code": "AGRX-HORT-FORMS",
+      "title": "Horticulture application formats",
+      "issuer": "State Horticulture Mission Uttarakhand",
+      "url": "https://shm.uk.gov.in/application-formats/",
+      "classification": "primary-operative",
+      "locator": "Checked 2026-10-02; Component application forms: protected cultivation, water resources, plant material, area expansion, vermicompost, pollination, machinery, mushroom/PHM/FPO marketing. Undated forms are not proof of an open call.",
+      "id": "SOURCE-UK-AGRX-HORT-FORMS",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "AGRX-SMFP-FORM",
+      "title": "State Mission on Food Processing application form",
+      "issuer": "Horticulture and Food Processing Department Uttarakhand",
+      "url": "https://cdnbbsr.s3waas.gov.in/s394c14a38fe64229a997e13d9c9e1c0eb/uploads/2026/01/20260127329930559.pdf",
+      "classification": "primary-operative",
+      "locator": "Checked 2026-10-02; 4-page establishment/upgradation/modernisation form; attachment checklist and financing appraisal.",
+      "id": "SOURCE-UK-AGRX-SMFP-FORM",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-AGRX-SMFP-EXISTENCE",
+        "CLAIM-UK-AGRX-SMFP-KEYBENEFIT",
+        "CLAIM-UK-AGRX-SMFP-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-SMFP-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-AGRX-SMFP"
+      ]
+    },
+    {
+      "code": "AGRX-AH-BEN",
+      "title": "Animal Husbandry beneficiary schemes",
+      "issuer": "Animal Husbandry Department Uttarakhand",
+      "url": "https://ahd.uk.gov.in/scheme/beneficiary-schemes/",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; Sheep/goat, SC/ST cow and women goat unit sections; older financial norms embedded in departmental description.",
+      "id": "SOURCE-UK-AGRX-AH-BEN",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-AGRX-AH-BENEFICIARY-EXISTENCE",
+        "CLAIM-UK-AGRX-AH-BENEFICIARY-KEYBENEFIT",
+        "CLAIM-UK-AGRX-AH-BENEFICIARY-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-AH-BENEFICIARY-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-AGRX-AH-BENEFICIARY"
+      ]
+    },
+    {
+      "code": "AGRX-BROILER-SRC",
+      "title": "Establishment of Broiler Farms",
+      "issuer": "Animal Husbandry Department Uttarakhand",
+      "url": "https://ahd.uk.gov.in/hi/scheme/ब्रॉयलर-फार्मों-की-स्थाप/",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; Unit scale, beneficiary selection, documents and bank-linked district approval.",
+      "id": "SOURCE-UK-AGRX-BROILER-SRC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-AGRX-BROILER-EXISTENCE",
+        "CLAIM-UK-AGRX-BROILER-KEYBENEFIT",
+        "CLAIM-UK-AGRX-BROILER-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-BROILER-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-AGRX-BROILER"
+      ]
+    },
+    {
+      "code": "AGRX-ITBP-SRC",
+      "title": "Supply of local products to ITBP",
+      "issuer": "Animal Husbandry Department Uttarakhand",
+      "url": "https://ahd.uk.gov.in/hi/scheme/आईटीबीपी-को-स्थानीय-उत्प/",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; 30 October 2024 MoU; Vibrant Villages cooperative livestock/poultry/trout procurement route.",
+      "id": "SOURCE-UK-AGRX-ITBP-SRC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-AGRX-ITBP-MARKET-EXISTENCE",
+        "CLAIM-UK-AGRX-ITBP-MARKET-KEYBENEFIT",
+        "CLAIM-UK-AGRX-ITBP-MARKET-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-ITBP-MARKET-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-AGRX-ITBP-MARKET"
+      ]
+    },
+    {
+      "code": "AGRX-COLLECTIVE-SRC",
+      "title": "Madho Singh Bhandari Cooperative Collective Farming Scheme",
+      "issuer": "Cooperative Department Uttarakhand",
+      "url": "https://cooperative.uk.gov.in/scheme/madho-singh-bhandari-cooperative-collective-farming-scheme/",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; Cooperative/member eligibility and integrated cultivation/marketing model; application section does not specify an individual claim workflow.",
+      "id": "SOURCE-UK-AGRX-COLLECTIVE-SRC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-AGRX-COLLECTIVE-EXISTENCE",
+        "CLAIM-UK-AGRX-COLLECTIVE-KEYBENEFIT",
+        "CLAIM-UK-AGRX-COLLECTIVE-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-COLLECTIVE-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-AGRX-COLLECTIVE"
+      ]
+    },
+    {
+      "code": "AGRX-ICDP-SRC",
+      "title": "State Integrated Cooperative Development Project",
+      "issuer": "Cooperative Department Uttarakhand",
+      "url": "https://cooperative.uk.gov.in/scheme/state-integrated-cooperative-development-project/",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; Agriculture, dairy, sheep/goat and fisheries cooperative cluster components. Institutional financing route.",
+      "id": "SOURCE-UK-AGRX-ICDP-SRC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-AGRX-ICDP-EXISTENCE",
+        "CLAIM-UK-AGRX-ICDP-KEYBENEFIT",
+        "CLAIM-UK-AGRX-ICDP-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-ICDP-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-AGRX-ICDP"
+      ]
+    },
+    {
+      "code": "AGRX-DAIRY-DEV-SRC",
+      "title": "Dairy Vikas Yojna",
+      "issuer": "Dairy Development Uttarakhand",
+      "url": "https://dairyvikasuttarakhand.in/dairy-vikas-yojna/",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; Cooperative milk marketing, feed/fodder/animal services, collection transport, testing, training and milk union assets.",
+      "id": "SOURCE-UK-AGRX-DAIRY-DEV-SRC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-AGRX-DAIRY-DEVELOPMENT-EXISTENCE",
+        "CLAIM-UK-AGRX-DAIRY-DEVELOPMENT-KEYBENEFIT",
+        "CLAIM-UK-AGRX-DAIRY-DEVELOPMENT-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-DAIRY-DEVELOPMENT-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-AGRX-DAIRY-DEVELOPMENT"
+      ]
+    },
+    {
+      "code": "AGRX-DAIRY-SILAGE-SRC",
+      "title": "Silage and milch animal nutrition scheme",
+      "issuer": "Dairy Development Uttarakhand",
+      "url": "https://dairyvikasuttarakhand.in/sailage-dudharu-pashu-yojna/",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; 2018-19 launch description; hill women dairy cooperative members and vacuum-packed maize silage supply.",
+      "id": "SOURCE-UK-AGRX-DAIRY-SILAGE-SRC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-AGRX-DAIRY-SILAGE-EXISTENCE",
+        "CLAIM-UK-AGRX-DAIRY-SILAGE-KEYBENEFIT",
+        "CLAIM-UK-AGRX-DAIRY-SILAGE-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-DAIRY-SILAGE-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-AGRX-DAIRY-SILAGE"
+      ]
+    },
+    {
+      "code": "AGRX-MATSYA-GO",
+      "title": "Mukhyamantri Matsya Sampada Yojana guidelines",
+      "issuer": "Fisheries Department Uttarakhand",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3d577273ff885c3f84dadb8578bb41399/uploads/2026/04/20260405711304894.pdf",
+      "classification": "primary-operative",
+      "locator": "Checked 2026-10-02; 22-page guideline; legible Appendix A pp.1–8: cost-sharing, RAS/biofloc, angling beats, additional FIDF interest, insurance, solar, trout inputs and Matsya Saheli. Remaining scanned annexures not relied on.",
+      "id": "SOURCE-UK-AGRX-MATSYA-GO",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-CM-MATSYA-EXISTENCE",
+        "CLAIM-UK-CM-MATSYA-KEYBENEFIT",
+        "CLAIM-UK-CM-MATSYA-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-CM-MATSYA-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-CM-MATSYA"
+      ]
+    },
+    {
+      "code": "AGRX-MAHAK-SRC",
+      "title": "Uttarakhand Mahak Kranti Niti",
+      "issuer": "Centre for Aromatic Plants, Uttarakhand",
+      "url": "https://www.capuk.in/index.php/about-cap/vacancies-updates/311-uttarakhand-mahak-kranti-niti",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; 2026 policy summary: aromatic valleys, cultivation, nursery, processing, packaging/branding and satellite centres. Operative notification/application document not linked on reviewed page.",
+      "id": "SOURCE-UK-AGRX-MAHAK-SRC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-AGRX-MAHAK-EXISTENCE",
+        "CLAIM-UK-AGRX-MAHAK-KEYBENEFIT",
+        "CLAIM-UK-AGRX-MAHAK-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-MAHAK-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-AGRX-MAHAK"
+      ]
+    },
+    {
+      "code": "AGRX-CAP-SRC",
+      "title": "Centre for Aromatic Plants",
+      "issuer": "Centre for Aromatic Plants, Uttarakhand",
+      "url": "https://www.capuk.in/",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; Government aromatic-sector organisation, Selaqui; extension, planting material, distillation, testing, R&D, marketing and incubation.",
+      "id": "SOURCE-UK-AGRX-CAP-SRC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "AGRX-BOOK",
+      "title": "Meri Yojana state scheme compendium, Part 2",
+      "issuer": "Government of Uttarakhand / Cooperative Department publication",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3cc0991344c3d760ae42259064406bae1/uploads/2025/03/20250325860407851.pdf",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; 177 PDF pages; printed pp.164–165 local crops/organic; p.196 MAITRI; p.201 women dairy; pp.224–225 tea; pp.239–243 silage/sericulture; pp.252–257 sugarcane. Summary publication, not operative approval or current intake.",
+      "id": "SOURCE-UK-AGRX-BOOK",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-AGRX-WOMEN-DAIRY-EXISTENCE",
+        "CLAIM-UK-AGRX-WOMEN-DAIRY-KEYBENEFIT",
+        "CLAIM-UK-AGRX-WOMEN-DAIRY-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-WOMEN-DAIRY-APPLICATIONROUTE",
+        "CLAIM-UK-AGRX-LOCAL-CROPS-EXISTENCE",
+        "CLAIM-UK-AGRX-LOCAL-CROPS-KEYBENEFIT",
+        "CLAIM-UK-AGRX-LOCAL-CROPS-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-LOCAL-CROPS-APPLICATIONROUTE",
+        "CLAIM-UK-AGRX-NAMAMI-ORGANIC-EXISTENCE",
+        "CLAIM-UK-AGRX-NAMAMI-ORGANIC-KEYBENEFIT",
+        "CLAIM-UK-AGRX-NAMAMI-ORGANIC-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-NAMAMI-ORGANIC-APPLICATIONROUTE",
+        "CLAIM-UK-AGRX-MAITRI-EXISTENCE",
+        "CLAIM-UK-AGRX-MAITRI-KEYBENEFIT",
+        "CLAIM-UK-AGRX-MAITRI-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-MAITRI-APPLICATIONROUTE",
+        "CLAIM-UK-AGRX-TEA-EXISTENCE",
+        "CLAIM-UK-AGRX-TEA-KEYBENEFIT",
+        "CLAIM-UK-AGRX-TEA-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-TEA-APPLICATIONROUTE",
+        "CLAIM-UK-AGRX-SERICULTURE-EXISTENCE",
+        "CLAIM-UK-AGRX-SERICULTURE-KEYBENEFIT",
+        "CLAIM-UK-AGRX-SERICULTURE-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-SERICULTURE-APPLICATIONROUTE",
+        "CLAIM-UK-AGRX-CANE-DEVELOPMENT-EXISTENCE",
+        "CLAIM-UK-AGRX-CANE-DEVELOPMENT-KEYBENEFIT",
+        "CLAIM-UK-AGRX-CANE-DEVELOPMENT-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-CANE-DEVELOPMENT-APPLICATIONROUTE",
+        "CLAIM-UK-AGRX-CANE-TRAINING-EXISTENCE",
+        "CLAIM-UK-AGRX-CANE-TRAINING-KEYBENEFIT",
+        "CLAIM-UK-AGRX-CANE-TRAINING-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-CANE-TRAINING-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-AGRX-WOMEN-DAIRY",
+        "STATUS-UK-AGRX-LOCAL-CROPS",
+        "STATUS-UK-AGRX-NAMAMI-ORGANIC",
+        "STATUS-UK-AGRX-MAITRI",
+        "STATUS-UK-AGRX-TEA",
+        "STATUS-UK-AGRX-SERICULTURE",
+        "STATUS-UK-AGRX-CANE-DEVELOPMENT",
+        "STATUS-UK-AGRX-CANE-TRAINING"
+      ]
+    },
+    {
+      "code": "AGRX-TEA-SRC",
+      "title": "Uttarakhand Tea Development Board, Nauti tea garden/factory",
+      "issuer": "Uttarakhand Tea Development Board",
+      "url": "https://utdb.uk.gov.in/organization/nauti-tea-garden-factory/",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; Garhwal farmer-land tea plantation and board processing model; lease/MGNREGA convergence; district project selection.",
+      "id": "SOURCE-UK-AGRX-TEA-SRC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "AGRX-SILK-SRC",
+      "title": "Sericulture department objectives",
+      "issuer": "Sericulture Department Uttarakhand",
+      "url": "https://silk.uk.gov.in/about-department/objectives-functions/",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; Rural sericulture production, inputs and training, including women and economically weaker households.",
+      "id": "SOURCE-UK-AGRX-SILK-SRC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "AGRX-FOREST-PROJECT",
+      "title": "Uttarakhand Forest Resource Management Project approach",
+      "issuer": "Uttarakhand Forest Resource Management Project",
+      "url": "https://jicauttarakhand.org/project-approach-2/",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; Selected forest divisions/Van Panchayats; microplanning, SHGs and livelihood interventions through DMU/FMU. New intake/project continuation not confirmed.",
+      "id": "SOURCE-UK-AGRX-FOREST-PROJECT",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-AGRX-FOREST-LIVELIHOODS-EXISTENCE",
+        "CLAIM-UK-AGRX-FOREST-LIVELIHOODS-KEYBENEFIT",
+        "CLAIM-UK-AGRX-FOREST-LIVELIHOODS-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-AGRX-FOREST-LIVELIHOODS-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-AGRX-FOREST-LIVELIHOODS"
+      ]
+    },
+    {
+      "code": "AGRX-PMKSY-SRC",
+      "title": "PMKSY Uttarakhand adoption and access",
+      "issuer": "Government of Uttarakhand",
+      "url": "https://agriculture.uk.gov.in/scheme/pradhan-mantri-krishi-sinchai-yojna-pmksy/",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; Beneficiary and How To Apply; directs landholding farmers to nearby agriculture office.",
+      "id": "SOURCE-UK-AGRX-PMKSY-SRC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R29-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R29-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R29-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R29-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-PMKSY-PER-DROP-MORE-CROP-MICRO-IRRIGATION-8D174C"
+      ]
+    },
+    {
+      "code": "AGRX-SMAM-SRC",
+      "title": "SMAM Uttarakhand adoption and access",
+      "issuer": "Government of Uttarakhand",
+      "url": "https://agriculture.uk.gov.in/scheme/sub-mission-on-agriculture-mechanization-smam/",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; Hill farm machinery banks/plain custom hiring centres; How To Apply nearby agriculture office; PM-RKVY guideline linked.",
+      "id": "SOURCE-UK-AGRX-SMAM-SRC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R94-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R94-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R94-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R94-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-SUB-MISSION-ON-AGRICULTURAL-MECHANIZATION--F2E432"
+      ]
+    },
+    {
+      "code": "AGRX-AIF-SRC",
+      "title": "AIF Uttarakhand adoption and access",
+      "issuer": "Government of Uttarakhand",
+      "url": "https://agriculture.uk.gov.in/scheme/agriculture-infrastructure-fund-aif/",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; State scheme page; bankable post-harvest/community assets; nearby agriculture office.",
+      "id": "SOURCE-UK-AGRX-AIF-SRC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R89-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R89-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R89-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R89-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-AGRICULTURE-INFRASTRUCTURE-FUND-AIF-D26F78"
+      ]
+    },
+    {
+      "code": "AGRX-NLM-SRC",
+      "title": "NLM entrepreneurship Uttarakhand access",
+      "issuer": "Government of Uttarakhand",
+      "url": "https://ahd.uk.gov.in/scheme/national-livestock-mission-entrepreneurship-development-program/",
+      "classification": "primary-summary",
+      "locator": "Checked 2026-10-02; State scheme page explicitly directs application through udyamimitra.in; departmental guideline linked.",
+      "id": "SOURCE-UK-AGRX-NLM-SRC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R103-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R103-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R103-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R103-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-NATIONAL-LIVESTOCK-MISSION-ENTREPRENEURSHI-72C9C6"
+      ]
+    },
+    {
+      "code": "INDX-SERVICE",
+      "title": "Uttarakhand Service Sector Policy 2024",
+      "issuer": "Planning Department, Government of Uttarakhand",
+      "url": "https://cdnbbsr.s3waas.gov.in/s35074dcf630ca6ff1602cc3ac043b698d/uploads/2025/06/20250826751283515.pdf",
+      "classification": "primary-operative",
+      "locator": "Sections 5–7, PDF pages 8–13: valid till 31 December 2030; focus-sector thresholds; 25% eligible capital assistance; capped investment, annual approvals and disbursement options.",
+      "id": "SOURCE-UK-INDX-SERVICE",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-INDX-SERVICE24-EXISTENCE",
+        "CLAIM-UK-INDX-SERVICE24-KEYBENEFIT",
+        "CLAIM-UK-INDX-SERVICE24-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-SERVICE24-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-INDX-SERVICE24"
+      ]
+    },
+    {
+      "code": "INDX-LOGISTICS",
+      "title": "Logistics Policy 2023 implementation guidelines",
+      "issuer": "Industrial Development Department, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/policy_guideline_eng1713167607.pdf",
+      "classification": "primary-operative",
+      "locator": "English July 2023 operational guidelines, sections 5–8, PDF pages 2–5: component cost rates, project caps, eligibility, CAF and milestone release.",
+      "id": "SOURCE-UK-INDX-LOGISTICS",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-INDX-LOGISTICS-CAPITAL-EXISTENCE",
+        "CLAIM-UK-INDX-LOGISTICS-CAPITAL-KEYBENEFIT",
+        "CLAIM-UK-INDX-LOGISTICS-CAPITAL-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-LOGISTICS-CAPITAL-APPLICATIONROUTE",
+        "CLAIM-UK-INDX-LOGISTICS-FLEET-EXISTENCE",
+        "CLAIM-UK-INDX-LOGISTICS-FLEET-KEYBENEFIT",
+        "CLAIM-UK-INDX-LOGISTICS-FLEET-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-LOGISTICS-FLEET-APPLICATIONROUTE",
+        "CLAIM-UK-INDX-LOGISTICS-SKILL-EXISTENCE",
+        "CLAIM-UK-INDX-LOGISTICS-SKILL-KEYBENEFIT",
+        "CLAIM-UK-INDX-LOGISTICS-SKILL-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-LOGISTICS-SKILL-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-INDX-LOGISTICS-CAPITAL",
+        "STATUS-UK-INDX-LOGISTICS-FLEET",
+        "STATUS-UK-INDX-LOGISTICS-SKILL"
+      ]
+    },
+    {
+      "code": "INDX-MEGA25",
+      "title": "Mega Industrial and Investment Policy 2025 implementation guidelines 2026",
+      "issuer": "Industrial Development Department, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/policy_guideline_eng1779087051.pdf",
+      "classification": "primary-operative",
+      "locator": "21-page implementation guideline; sections 5–11, especially pp 2–5 and 8–20. Establishes policy notification 15 July 2025, capital/hill/stamp components, 70% domicile employment, CAF intent, satisfaction letter and budget-dependent claim process. Policy table in separate scanned notification not yet fully transcribed.",
+      "id": "SOURCE-UK-INDX-MEGA25",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "INDX-POLICYINDEX",
+      "title": "Current Invest Uttarakhand policy catalogue",
+      "issuer": "Directorate of Industries, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/site/Policies",
+      "classification": "primary-summary",
+      "locator": "Current index retrieved 2026-10-02 identifies Mega 2025/implementation 2026, MSME 2023, Private Estates 2023, Logistics 2023, Export 2021, Film 2024, Drone 2023, AYUSH 2023, Startup 2023, Solar 2023 and Tourism 2023/Entrepreneur 2024. Index presence does not establish live allocation.",
+      "id": "SOURCE-UK-INDX-POLICYINDEX",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-INDX-PRIVATE-ESTATE23-EXISTENCE",
+        "CLAIM-UK-INDX-PRIVATE-ESTATE23-KEYBENEFIT",
+        "CLAIM-UK-INDX-PRIVATE-ESTATE23-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-PRIVATE-ESTATE23-APPLICATIONROUTE",
+        "CLAIM-UK-INDX-EXPORT21-EXISTENCE",
+        "CLAIM-UK-INDX-EXPORT21-KEYBENEFIT",
+        "CLAIM-UK-INDX-EXPORT21-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-EXPORT21-APPLICATIONROUTE",
+        "CLAIM-UK-INDX-PUMPED23-EXISTENCE",
+        "CLAIM-UK-INDX-PUMPED23-KEYBENEFIT",
+        "CLAIM-UK-INDX-PUMPED23-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-PUMPED23-APPLICATIONROUTE",
+        "CLAIM-UK-INDX-CUSTOMPACKAGE-EXISTENCE",
+        "CLAIM-UK-INDX-CUSTOMPACKAGE-KEYBENEFIT",
+        "CLAIM-UK-INDX-CUSTOMPACKAGE-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-CUSTOMPACKAGE-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-INDX-PRIVATE-ESTATE23",
+        "STATUS-UK-INDX-EXPORT21",
+        "STATUS-UK-INDX-PUMPED23",
+        "STATUS-UK-INDX-CUSTOMPACKAGE"
+      ]
+    },
+    {
+      "code": "INDX-TOURGUIDE",
+      "title": "Tourism Policy 2023 operational guidelines",
+      "issuer": "Uttarakhand Tourism Development Board",
+      "url": "https://uttarakhandtourism.gov.in/assets/media/UTDB_media_1738567518policy_guideline1712734170.pdf",
+      "classification": "primary-operative",
+      "locator": "Sections 1–7, eligibility-unit table and CAF/claims pp 18–25; operational to 31 March 2030; policy period COD, approvals and prohibition of identical-benefit duplication.",
+      "id": "SOURCE-UK-INDX-TOURGUIDE",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-TOURISM23-EXISTENCE",
+        "CLAIM-UK-TOURISM23-KEYBENEFIT",
+        "CLAIM-UK-TOURISM23-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-TOURISM23-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-TOURISM23"
+      ]
+    },
+    {
+      "code": "INDX-TOURPOLICY",
+      "title": "Tourism Policy 2023–2030",
+      "issuer": "Uttarakhand Tourism Development Board",
+      "url": "https://nivesh.uttarakhandtourism.gov.in/assets/Tourism_Policy_2023-30-CtI_eZd9.pdf",
+      "classification": "primary-operative",
+      "locator": "Official policy PDF linked by Nivesh UTDB portal. Section 16, printed pp 63–70 financial tables; read with November 2023 amendment and operational guidelines; do not treat headline maximum as cash grant.",
+      "id": "SOURCE-UK-INDX-TOURPOLICY",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "INDX-MSSY",
+      "title": "Mukhyamantri Saur Swarojgar Yojana — March 2023 revision",
+      "issuer": "Energy Department / UREDA, Uttarakhand",
+      "url": "https://cdnbbsr.s3waas.gov.in/s373f490f3f868edbcd80b5d3f7cedc403/uploads/2025/01/20250128431463106.pdf",
+      "classification": "primary-operative",
+      "locator": "9-page Hindi March 2023 amendment available through UREDA document-category/solar-energy-scheme; pp 1–4 capacities, resident eligibility, UPCL 25-year PPA, bank route and subsidy link; old tariff illustrative only.",
+      "id": "SOURCE-UK-INDX-MSSY",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-MSSY-EXISTENCE",
+        "CLAIM-UK-MSSY-KEYBENEFIT",
+        "CLAIM-UK-MSSY-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-MSSY-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-MSSY"
+      ]
+    },
+    {
+      "code": "INDX-SOLAR",
+      "title": "Uttarakhand State Solar Policy 2023",
+      "issuer": "Energy Department / UREDA, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/act_english1692357589.pdf",
+      "classification": "primary-operative",
+      "locator": "Section 8.2.3 industrial/commercial captive and rooftop provisions refer to MSME 2015 and subsequent amendments. Apply actual MSME 2023 operative rules rather than duplicate superseded caps.",
+      "id": "SOURCE-UK-INDX-SOLAR",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-INDX-SOLAR-CAPTIVE-EXISTENCE",
+        "CLAIM-UK-INDX-SOLAR-CAPTIVE-KEYBENEFIT",
+        "CLAIM-UK-INDX-SOLAR-CAPTIVE-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-SOLAR-CAPTIVE-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-INDX-SOLAR-CAPTIVE"
+      ]
+    },
+    {
+      "code": "INDX-RAMP",
+      "title": "Uttarakhand RAMP approved Strategic Investment Plan",
+      "issuer": "Ministry of MSME, Government of India",
+      "url": "https://ramp.msme.gov.in/ramp/state-collaboration/uttarakhand",
+      "classification": "primary-summary",
+      "locator": "Uttarakhand Lo U 15 September 2022; SIP 2 February 2024; approved 83.05 crore institutional projects including Avishkaar innovation, quality ecosystem, market access, SME exchange and facilitation; not a direct per-unit grant schedule.",
+      "id": "SOURCE-UK-INDX-RAMP",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "INDX-EXPORT",
+      "title": "Uttarakhand Export Policy 2021",
+      "issuer": "Directorate of Industries, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/act_english1639026865.pdf",
+      "classification": "primary-operative",
+      "locator": "PDF chapter 7.5 explicitly calls export incentives indicative. Separate operative guideline policy_guideline 1712734478. pdf retrieved as 14-page scan but not transcribed. Index title 2021 conflicts with some official summary 2023 wording.",
+      "id": "SOURCE-UK-INDX-EXPORT",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "INDX-FILM",
+      "title": "Film Policy 2024 subsidy implementation guidelines",
+      "issuer": "Uttarakhand Film Development Council",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/policy_guideline_eng1746265479.pdf",
+      "classification": "primary-operative",
+      "locator": "3-page English Guidelines for Subsidies Film/Web Series/TVSerial/Documentary/Short Film, clauses 1–25;75% shooting affidavit, bank payments, censor-certificate deadline, post-release proposal and budget decision.",
+      "id": "SOURCE-UK-INDX-FILM",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-INDX-FILM24-EXISTENCE",
+        "CLAIM-UK-INDX-FILM24-KEYBENEFIT",
+        "CLAIM-UK-INDX-FILM24-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-FILM24-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-INDX-FILM24"
+      ]
+    },
+    {
+      "code": "INDX-MEGAPOLICY",
+      "title": "Mega Industrial and Investment Policy 2025",
+      "issuer": "Industrial Development Department, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/act_english1753438211.pdf",
+      "classification": "primary-operative",
+      "locator": "Scanned official policy verified visually pp 7–9: categories/investment/employment, 50% stamp max₹50 lakh; capital 10/12/15/20%, caps 20/60/150/400 crore, periods 8/10/12/15 years; A/Bhillbonus 2/1% withcaps.",
+      "id": "SOURCE-UK-INDX-MEGAPOLICY",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-INDX-MEGA25-EXISTENCE",
+        "CLAIM-UK-INDX-MEGA25-KEYBENEFIT",
+        "CLAIM-UK-INDX-MEGA25-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-MEGA25-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-INDX-MEGA25"
+      ]
+    },
+    {
+      "code": "INDX-DRONE",
+      "title": "Uttarakhand Drone Promotion and Usage Policy 2023",
+      "issuer": "Information Technology Development Agency, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/act_english1692357272.pdf",
+      "classification": "primary-operative",
+      "locator": "Full Englishtextretrieved; chapter 7 printedpp 24–26: DSDM/De S, DPR 50% max₹5 lakh, lease tables, nonrecreational SGSTlinked support and RPTOequipment 50% max₹1 crore. Corpuscreation future-dependent.",
+      "id": "SOURCE-UK-INDX-DRONE",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-INDX-DRONE23-EXISTENCE",
+        "CLAIM-UK-INDX-DRONE23-KEYBENEFIT",
+        "CLAIM-UK-INDX-DRONE23-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-DRONE23-APPLICATIONROUTE",
+        "CLAIM-UK-INDX-DRONE-SCHOOL-EXISTENCE",
+        "CLAIM-UK-INDX-DRONE-SCHOOL-KEYBENEFIT",
+        "CLAIM-UK-INDX-DRONE-SCHOOL-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-DRONE-SCHOOL-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-INDX-DRONE23",
+        "STATUS-UK-INDX-DRONE-SCHOOL"
+      ]
+    },
+    {
+      "code": "INDX-AYUSH",
+      "title": "Uttarakhand AYUSH Policy 2023",
+      "issuer": "Directorate of AYUSH, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/act_english1554790886.pdf",
+      "classification": "primary-operative",
+      "locator": "Current official index 2023 policy; fulltextcontains 2023 accessdates. Sections 6.2/6.4/6.5 pp 16/18/20 manufacturingextra capital, ratedwellness 5% topup andcollege NAACaward.",
+      "id": "SOURCE-UK-INDX-AYUSH",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-INDX-AYUSH23-EXISTENCE",
+        "CLAIM-UK-INDX-AYUSH23-KEYBENEFIT",
+        "CLAIM-UK-INDX-AYUSH23-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-AYUSH23-APPLICATIONROUTE",
+        "CLAIM-UK-INDX-AYUSH-WELLNESS-EXISTENCE",
+        "CLAIM-UK-INDX-AYUSH-WELLNESS-KEYBENEFIT",
+        "CLAIM-UK-INDX-AYUSH-WELLNESS-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-AYUSH-WELLNESS-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-INDX-AYUSH23",
+        "STATUS-UK-INDX-AYUSH-WELLNESS"
+      ]
+    },
+    {
+      "code": "INDX-HELIPAD-POLICY",
+      "title": "Private Helipad and Heliport Policy 2023",
+      "issuer": "Uttarakhand Civil Aviation Development Authority",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/act_english1721036774.pdf",
+      "classification": "primary-operative",
+      "locator": "Full English PDF sections 3/5/7 pp 2–10: validto 31 March 2028; UCADAEOIselection, land minimum 1000/4000 sqm; Option 2 capital 50% loweractual/approvedestimate, twoinstalments and 10 yearoperation.",
+      "id": "SOURCE-UK-INDX-HELIPAD-POLICY",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-INDX-HELIPAD-EXISTENCE",
+        "CLAIM-UK-INDX-HELIPAD-KEYBENEFIT",
+        "CLAIM-UK-INDX-HELIPAD-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-INDX-HELIPAD-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-INDX-HELIPAD"
+      ]
+    },
+    {
+      "code": "LIVX-UKBVVN",
+      "title": "UKBVVN institutional and state-channelising routes",
+      "issuer": "Uttarakhand Bahuuddeshiya Vitt Evam Vikas Nigam",
+      "url": "https://www.ukbvvn.org.in/",
+      "classification": "primary-summary",
+      "locator": "Institutional description and national corporation list; footer last updated 10 June 2022; does not establish current allocations.",
+      "id": "SOURCE-UK-LIVX-UKBVVN",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-SC-SCA-EXISTENCE",
+        "CLAIM-UK-LIVX-SC-SCA-KEYBENEFIT",
+        "CLAIM-UK-LIVX-SC-SCA-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-SC-SCA-APPLICATIONROUTE",
+        "CLAIM-UK-LIVX-SANITATION-SCA-EXISTENCE",
+        "CLAIM-UK-LIVX-SANITATION-SCA-KEYBENEFIT",
+        "CLAIM-UK-LIVX-SANITATION-SCA-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-SANITATION-SCA-APPLICATIONROUTE",
+        "CLAIM-UK-LIVX-SHILPI-EXISTENCE",
+        "CLAIM-UK-LIVX-SHILPI-KEYBENEFIT",
+        "CLAIM-UK-LIVX-SHILPI-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-SHILPI-APPLICATIONROUTE",
+        "CLAIM-SCHEME-MASTER-R115-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R115-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R115-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R115-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R116-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R116-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R116-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R116-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R117-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R117-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R117-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R117-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-SC-SCA",
+        "STATUS-UK-LIVX-SANITATION-SCA",
+        "STATUS-UK-LIVX-SHILPI",
+        "STATUS-UK-ROUTE-NSTFDC-TERM-LOAN-SCHEME-933EB9",
+        "STATUS-UK-ROUTE-NBCFDC-GENERAL-LOAN-SCHEME-FE8D72",
+        "STATUS-UK-ROUTE-NBCFDC-NEW-SWARNIMA-FOR-WOMEN-A6B4E6"
+      ]
+    },
+    {
+      "code": "LIVX-JEEVIKA",
+      "title": "Jeevika Avsar Protsahan Yojana departmental rules summary",
+      "issuer": "UKBVVN",
+      "url": "https://www.ukbvvn.org.in/frmJeevikaAvsarProtsahanYojna.html",
+      "classification": "primary-summary",
+      "locator": "Loan eligibility and financing headings; legacy income line contains inconsistent monthly/annual wording, so no income threshold asserted.",
+      "id": "SOURCE-UK-LIVX-JEEVIKA",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-JEEVIKA-EXISTENCE",
+        "CLAIM-UK-LIVX-JEEVIKA-KEYBENEFIT",
+        "CLAIM-UK-LIVX-JEEVIKA-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-JEEVIKA-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-JEEVIKA"
+      ]
+    },
+    {
+      "code": "LIVX-PM-AJAY",
+      "title": "PM-AJAY revised guidelines linked by Uttarakhand corporation",
+      "issuer": "Department of Social Justice and Empowerment / UKBVVN",
+      "url": "https://www.ukbvvn.org.in/Documents/Guidelines.pdf",
+      "classification": "primary-operative",
+      "locator": "December 2022 revised guideline; Chapter 3 grants-in-aid comprehensive livelihood projects. State publication establishes access surface, not a sanctioned project list.",
+      "id": "SOURCE-UK-LIVX-PM-AJAY",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "LIVX-DIVYANG",
+      "title": "Uttarakhand Divyang self-employment loan invitation and form",
+      "issuer": "UKBVVN",
+      "url": "https://www.ukbvvn.org.in/News/AppsInvitationFormForDisabled.pdf",
+      "classification": "primary-operative",
+      "locator": "Notice dated December 2025; application deadline 29 December 2025, now past; attached financing application form. Financial OCR unclear, no ceilings asserted.",
+      "id": "SOURCE-UK-LIVX-DIVYANG",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-DIVYANG-EXISTENCE",
+        "CLAIM-UK-LIVX-DIVYANG-KEYBENEFIT",
+        "CLAIM-UK-LIVX-DIVYANG-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-DIVYANG-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-DIVYANG"
+      ]
+    },
+    {
+      "code": "LIVX-SHILPI",
+      "title": "Shilpi Gram SC/ST handicraft development scheme",
+      "issuer": "UKBVVN",
+      "url": "https://www.ukbvvn.org.in/Documents/shilpigram.pdf",
+      "classification": "primary-operative",
+      "locator": "Ten-page Hindi scheme order, scanned; corroborated by UKBVVN scheme heading and description. No financial slabs asserted from unreadable text.",
+      "id": "SOURCE-UK-LIVX-SHILPI",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "LIVX-MINORITY",
+      "title": "Minority self-employment and Hunar programme objectives",
+      "issuer": "Minority Welfare Department, Uttarakhand",
+      "url": "https://minoritywelfare.uk.gov.in/about-department/vision-mission/",
+      "classification": "primary-summary",
+      "locator": "Objectives identify employment-oriented corporation loans and Hunar training linked to business start-up; dated 2 July 2018.",
+      "id": "SOURCE-UK-LIVX-MINORITY",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-HUNAR-EXISTENCE",
+        "CLAIM-UK-LIVX-HUNAR-KEYBENEFIT",
+        "CLAIM-UK-LIVX-HUNAR-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-HUNAR-APPLICATIONROUTE",
+        "CLAIM-SCHEME-MASTER-R118-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R118-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R118-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R118-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-HUNAR",
+        "STATUS-UK-ROUTE-NMDFC-TERM-LOAN-SCHEME-88BCA2"
+      ]
+    },
+    {
+      "code": "LIVX-MINORITY-DASH",
+      "title": "Minority programme beneficiary dashboard",
+      "issuer": "Minority Welfare Department, Uttarakhand",
+      "url": "https://minoritywelfare.uk.gov.in/dashboard/",
+      "classification": "primary-summary",
+      "locator": "Self-employment and Chief Minister Hunar programme rows updated 30 December 2024; historic implementation, not a current call.",
+      "id": "SOURCE-UK-LIVX-MINORITY-DASH",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "LIVX-REAP",
+      "title": "REAP-Gramothan state implementation",
+      "issuer": "Rural Development Department, Uttarakhand",
+      "url": "https://ukrd.uk.gov.in/scheme/rural-enterprise-acceleration-project/",
+      "classification": "primary-summary",
+      "locator": "Project 2 June 2022–31 March 2029; scope, beneficiaries and application headings.",
+      "id": "SOURCE-UK-LIVX-REAP",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-REAP-EXISTENCE",
+        "CLAIM-UK-LIVX-REAP-KEYBENEFIT",
+        "CLAIM-UK-LIVX-REAP-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-REAP-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-REAP"
+      ]
+    },
+    {
+      "code": "LIVX-MUY",
+      "title": "Mukhyamantri Udyamshala Yojana",
+      "issuer": "Rural Development Department, Uttarakhand",
+      "url": "https://ukrd.uk.gov.in/scheme/mukhyamantri-udyamshala-yojana-muy/",
+      "classification": "primary-summary",
+      "locator": "Services, beneficiary and How To Apply headings; official page links ukrbi.in/new/.",
+      "id": "SOURCE-UK-LIVX-MUY",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-MUY-EXISTENCE",
+        "CLAIM-UK-LIVX-MUY-KEYBENEFIT",
+        "CLAIM-UK-LIVX-MUY-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-MUY-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-MUY"
+      ]
+    },
+    {
+      "code": "LIVX-HOH",
+      "title": "House of Himalayas livelihood marketing platform",
+      "issuer": "Rural Development Department, Uttarakhand",
+      "url": "https://ukrd.uk.gov.in/scheme/house-of-himalayas/",
+      "classification": "primary-summary",
+      "locator": "Branding, quality, procurement, SHG product development and market linkage description; application heading blank.",
+      "id": "SOURCE-UK-LIVX-HOH",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-HOH-EXISTENCE",
+        "CLAIM-UK-LIVX-HOH-KEYBENEFIT",
+        "CLAIM-UK-LIVX-HOH-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-HOH-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-HOH"
+      ]
+    },
+    {
+      "code": "LIVX-SHG2025",
+      "title": "March 2025 amendments to CM women SHG strengthening scheme",
+      "issuer": "Government of Uttarakhand, Rural Development Section 2",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3e9412ee564384b987d086df32d4ce6b7/uploads/2025/06/202506031847326564.pdf",
+      "classification": "primary-operative",
+      "locator": "Pages 2–3 CLF enterprise revolving assistance, turnover/profit stages and application; pages 3–5 collective quality/marketing and SARAS provisions.",
+      "id": "SOURCE-UK-LIVX-SHG2025",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-SHG-STRENGTH-EXISTENCE",
+        "CLAIM-UK-LIVX-SHG-STRENGTH-KEYBENEFIT",
+        "CLAIM-UK-LIVX-SHG-STRENGTH-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-SHG-STRENGTH-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-SHG-STRENGTH"
+      ]
+    },
+    {
+      "code": "LIVX-USRLM",
+      "title": "USRLM financial inclusion, livelihoods and bank-linkage surface",
+      "issuer": "Uttarakhand State Rural Livelihoods Mission",
+      "url": "https://usrlm.uk.gov.in/",
+      "classification": "primary-summary",
+      "locator": "Components, impact RF/CIF headings and Bank Linkage links establish local implementation.",
+      "id": "SOURCE-UK-LIVX-USRLM",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R148-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R148-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R148-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R148-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-DAY-NRLM-SHG-REVOLVING-FUND-COMMUNITY-INVE-656F2B"
+      ]
+    },
+    {
+      "code": "LIVX-SVEP",
+      "title": "USRLM state-hosted SVEP livelihood guidelines register",
+      "issuer": "Uttarakhand State Rural Livelihoods Mission",
+      "url": "https://usrlm.uk.gov.in/document-category/livelihoods/",
+      "classification": "primary-summary",
+      "locator": "Four SVEP documents: CEF, CRP-EP, BRC and master guidelines; state-adopted block geography/current intake not established.",
+      "id": "SOURCE-UK-LIVX-SVEP",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R149-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R149-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R149-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R149-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-START-UP-VILLAGE-ENTREPRENEURSHIP-PROGRAMM-A73BF9"
+      ]
+    },
+    {
+      "code": "LIVX-MPRY",
+      "title": "Mukhyamantri Palayan Roktham Yojna",
+      "issuer": "Rural Development Department, Uttarakhand",
+      "url": "https://ukrd.uk.gov.in/scheme/mukhiya-mantri-palayan-roktham-yojnampry/",
+      "classification": "primary-summary",
+      "locator": "Beneficiary and bottom-up BDO/District Screening Committee proposal route; 474 identified villages with possible additions.",
+      "id": "SOURCE-UK-LIVX-MPRY",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-MPRY-EXISTENCE",
+        "CLAIM-UK-LIVX-MPRY-KEYBENEFIT",
+        "CLAIM-UK-LIVX-MPRY-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-MPRY-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-MPRY"
+      ]
+    },
+    {
+      "code": "LIVX-MBADP",
+      "title": "Mukhyamantri Border Area Development Programme",
+      "issuer": "Rural Development Department, Uttarakhand",
+      "url": "https://ukrd.uk.gov.in/scheme/mukhiya-mantri-border-area-development-programmembadp/",
+      "classification": "primary-summary",
+      "locator": "Cluster annual-action-plan convergence, community livelihoods, border tourism and BDO proposal route.",
+      "id": "SOURCE-UK-LIVX-MBADP",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-MBADP-EXISTENCE",
+        "CLAIM-UK-LIVX-MBADP-KEYBENEFIT",
+        "CLAIM-UK-LIVX-MBADP-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-MBADP-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-MBADP"
+      ]
+    },
+    {
+      "code": "LIVX-NULM",
+      "title": "DAY-NULM Uttarakhand enterprise and SHG implementation",
+      "issuer": "Urban Development Department, Uttarakhand",
+      "url": "https://udd.uk.gov.in/deendayal-antyodaya-yojna-national-urban-livelihood-mission-day-nulm/",
+      "classification": "primary-summary",
+      "locator": "SEP and SM&ID components; achievements through FY2024-25. Current programme continuation/intake beyond those years needs city confirmation.",
+      "id": "SOURCE-UK-LIVX-NULM",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "LIVX-NULM-BANK",
+      "title": "Uttarakhand Gramin Bank NULM enterprise product",
+      "issuer": "Uttarakhand Gramin Bank",
+      "url": "https://ukgb.bank.in/agriculture/micro-credit/nulm",
+      "classification": "primary-operative",
+      "locator": "Eligibility, Facilities, Rates & Others: individual/group ceilings, ULB and SHG/ALF forwarding; actual interest field is placeholder, not asserted.",
+      "id": "SOURCE-UK-LIVX-NULM-BANK",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-NULM-EXISTENCE",
+        "CLAIM-UK-LIVX-NULM-KEYBENEFIT",
+        "CLAIM-UK-LIVX-NULM-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-NULM-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-NULM"
+      ]
+    },
+    {
+      "code": "LIVX-WOOL",
+      "title": "Uttarakhand Wool Scheme productive service centres",
+      "issuer": "Uttarakhand Khadi and Village Industries Board",
+      "url": "https://ukvib.org/uttarakhand-wool-plan",
+      "classification": "primary-summary",
+      "locator": "Chamba, Almora, Srinagar production network and carding/finishing centres; no current admission/fee schedule.",
+      "id": "SOURCE-UK-LIVX-WOOL",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-WOOL-EXISTENCE",
+        "CLAIM-UK-LIVX-WOOL-KEYBENEFIT",
+        "CLAIM-UK-LIVX-WOOL-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-WOOL-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-WOOL"
+      ]
+    },
+    {
+      "code": "LIVX-WOOLBANK",
+      "title": "Uttarakhand wool bank procurement route",
+      "issuer": "Uttarakhand Khadi and Village Industries Board",
+      "url": "https://ukvib.org/details.php?pgID=sb_5",
+      "classification": "primary-summary",
+      "locator": "Local sheep wool procurement and regional wool superintendent application; listed Rs106/kg belongs to 2015-16 and is omitted.",
+      "id": "SOURCE-UK-LIVX-WOOLBANK",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-WOOLBANK-EXISTENCE",
+        "CLAIM-UK-LIVX-WOOLBANK-KEYBENEFIT",
+        "CLAIM-UK-LIVX-WOOLBANK-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-WOOLBANK-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-WOOLBANK"
+      ]
+    },
+    {
+      "code": "LIVX-YARN",
+      "title": "Khadi yarn bank cluster development",
+      "issuer": "Uttarakhand Khadi and Village Industries Board",
+      "url": "https://ukvib.org/details.php?pgID=sb_6",
+      "classification": "primary-summary",
+      "locator": "Training and cluster application instructions: minimum 20 local rural poor women/unemployed/traditional artisans; legacy insurance component not republished.",
+      "id": "SOURCE-UK-LIVX-YARN",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-YARN-EXISTENCE",
+        "CLAIM-UK-LIVX-YARN-KEYBENEFIT",
+        "CLAIM-UK-LIVX-YARN-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-YARN-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-YARN"
+      ]
+    },
+    {
+      "code": "LIVX-EXPO",
+      "title": "Khadi and village industry exhibition stall allocation",
+      "issuer": "Uttarakhand Khadi and Village Industries Board",
+      "url": "https://ukvib.org/details.php?pgID=sb_32",
+      "classification": "primary-operative",
+      "locator": "Eligibility, applicant-paid rental/accommodation and district village industry office/headquarters submission instructions; no fresh event date verified.",
+      "id": "SOURCE-UK-LIVX-EXPO",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-EXPO-EXISTENCE",
+        "CLAIM-UK-LIVX-EXPO-KEYBENEFIT",
+        "CLAIM-UK-LIVX-EXPO-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-EXPO-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-EXPO"
+      ]
+    },
+    {
+      "code": "LIVX-PMEGP",
+      "title": "Uttarakhand PMEGP implementing agencies",
+      "issuer": "District Haridwar / Uttarakhand Khadi and Village Industries Board",
+      "url": "https://haridwar.nic.in/hi/खादी-एवं-ग्राम-उद्योग-बोर/",
+      "classification": "primary-summary",
+      "locator": "District board description identifies PMEGP state DIC/KVIC/KVIB delivery; shared national financial rules retained unchanged.",
+      "id": "SOURCE-UK-LIVX-PMEGP",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R40-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R40-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R40-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R40-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-PRIME-MINISTER-S-EMPLOYMENT-GENERATION-PRO-D1FEA0"
+      ]
+    },
+    {
+      "code": "LIVX-WSC",
+      "title": "Weavers Service Centre Chamoli territorial contact",
+      "issuer": "Development Commissioner Handlooms / India Handloom Brand",
+      "url": "https://www.indiahandloombrand.gov.in/pages/contact-details-of-wscs",
+      "classification": "primary-operative",
+      "locator": "WSC Chamoli entry expressly assigns Uttarakhand jurisdiction; enquire about appropriate scheme/service and current sanctioned proposals.",
+      "id": "SOURCE-UK-LIVX-WSC",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R162-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R162-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R162-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R162-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R163-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R163-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R163-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R163-APPLICATION-ROUTE",
+        "CLAIM-SCHEME-MASTER-R164-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R164-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R164-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R164-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-NATIONAL-HANDLOOM-DEVELOPMENT-PROGRAMME-141210",
+        "STATUS-UK-ROUTE-WEAVER-MUDRA-SCHEME-84F249",
+        "STATUS-UK-ROUTE-HANDLOOM-RAW-MATERIAL-SUPPLY-SCHEME-694299"
+      ]
+    },
+    {
+      "code": "LIVX-SKILL",
+      "title": "Uttarakhand Skill Development Mission training",
+      "issuer": "Department of Skill Development and Employment, Uttarakhand",
+      "url": "https://dsde.uk.gov.in/skill-development-mission/",
+      "classification": "primary-summary",
+      "locator": "About paragraph: 3–6 months free short-term training, administered by Uttarakhand Skill Development Committee.",
+      "id": "SOURCE-UK-LIVX-SKILL",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-SKILL-EXISTENCE",
+        "CLAIM-UK-LIVX-SKILL-KEYBENEFIT",
+        "CLAIM-UK-LIVX-SKILL-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-SKILL-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-SKILL"
+      ]
+    },
+    {
+      "code": "LIVX-NAPS",
+      "title": "Uttarakhand apprenticeship and NAPS-2 delivery",
+      "issuer": "Department of Skill Development and Employment, Uttarakhand",
+      "url": "https://dsde.uk.gov.in/apprenticeship-training-scheme/",
+      "classification": "primary-summary",
+      "locator": "State Apprenticeship Advisers and NAPS-2 sections; common national support facts reused unchanged.",
+      "id": "SOURCE-UK-LIVX-NAPS",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R170-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R170-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R170-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R170-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-NATIONAL-APPRENTICESHIP-PROMOTION-SCHEME-2-1018D0"
+      ]
+    },
+    {
+      "code": "LIVX-DDUGKY",
+      "title": "Uttarakhand DDU-GKY training and placement route",
+      "issuer": "Rural Development Department, Uttarakhand",
+      "url": "https://ukrd.uk.gov.in/scheme/pradhan-mantri-jan-dhan-yojana/",
+      "classification": "primary-summary",
+      "locator": "Mismatched URL slug verified against title/body and official scheme index. Candidate registration via Kaushal Panjee; placement-led programme.",
+      "id": "SOURCE-UK-LIVX-DDUGKY",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-UK-LIVX-DDUGKY-EXISTENCE",
+        "CLAIM-UK-LIVX-DDUGKY-KEYBENEFIT",
+        "CLAIM-UK-LIVX-DDUGKY-ELIGIBLEAPPLICANTS",
+        "CLAIM-UK-LIVX-DDUGKY-APPLICATIONROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-LIVX-DDUGKY"
+      ]
+    },
+    {
+      "code": "LIVX-UKWDP",
+      "title": "Uttarakhand Workforce Development Project",
+      "issuer": "Department of Skill Development and Employment, Uttarakhand",
+      "url": "https://dsde.uk.gov.in/ukwdp/",
+      "classification": "primary-summary",
+      "locator": "Institutional project components and selected ITIs; no direct enterprise grant/application established.",
+      "id": "SOURCE-UK-LIVX-UKWDP",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "LIVX-VISHWAKARMA",
+      "title": "PM Vishwakarma guidelines hosted by RDSDE Uttarakhand",
+      "issuer": "Regional Directorate of Skill Development and Entrepreneurship, Uttarakhand",
+      "url": "https://rdsdeuttarakhand.dgt.gov.in/sites/default/files/2024-02/PM%20Vishwakarma-Guidelines%20%282%29.pdf",
+      "classification": "primary-operative",
+      "locator": "State-jurisdiction DGT official repository hosts scheme guidelines; local specific centre or current batch not established. National claims remain unchanged.",
+      "id": "SOURCE-UK-LIVX-VISHWAKARMA",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R44-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R44-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R44-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R44-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-PM-VISHWAKARMA-AD66E3"
+      ]
+    },
+    {
+      "code": "LIVX-SVANIDHI",
+      "title": "PM SVANidhi state implementation and district progress",
+      "issuer": "Urban Development Department, Uttarakhand",
+      "url": "https://udd.uk.gov.in/pm-svanidhi/",
+      "classification": "primary-summary",
+      "locator": "District progress as of 15 June 2026; implementation and interest-support paragraphs. Historical narrative has mixed dates; national monetary facts are reused from common catalogue.",
+      "id": "SOURCE-UK-LIVX-SVANIDHI",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R45-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R45-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R45-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R45-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-PM-SVANIDHI-RESTRUCTURED-FBA69A"
+      ]
+    },
+    {
+      "code": "LIVX-HANDICRAFTS",
+      "title": "District-wise crafts for skill development components FY2026-27",
+      "issuer": "Development Commissioner Handicrafts, Ministry of Textiles",
+      "url": "https://handicrafts.gov.in/cmsUpload/20260102104219New_Annexure-1%28ITDP%29.pdf",
+      "classification": "primary-summary",
+      "locator": "Official indexed annexure entries 76–84 identify Uttarakhand HSC Almora/Dehradun crafts and districts. Direct PDF retrieval failed; only indexed official text used for limited local delivery evidence.",
+      "id": "SOURCE-UK-LIVX-HANDICRAFTS",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R161-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R161-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R161-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R161-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-NATIONAL-HANDICRAFTS-DEVELOPMENT-PROGRAMME-6884FB"
+      ]
+    },
+    {
+      "code": "LIVX-JANAUSHADHI",
+      "title": "Jan Aushadhi Kendras state-wise operation June 2026",
+      "issuer": "Department of Pharmaceuticals / PIB",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2297561&lang=1&reg=48",
+      "classification": "primary-summary",
+      "locator": "11 August 2026 parliamentary reply; annexure Uttarakhand entry establishes operating state network. Common national incentives/eligibility unchanged.",
+      "id": "SOURCE-UK-LIVX-JANAUSHADHI",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [
+        "CLAIM-SCHEME-MASTER-R82-EXISTENCE",
+        "CLAIM-SCHEME-MASTER-R82-ELIGIBILITY",
+        "CLAIM-SCHEME-MASTER-R82-KEY-BENEFIT",
+        "CLAIM-SCHEME-MASTER-R82-APPLICATION-ROUTE"
+      ],
+      "statusIds": [
+        "STATUS-UK-ROUTE-PRADHAN-MANTRI-BHARTIYA-JANAUSHADHI-PARIYO-9AEA2A"
+      ]
+    },
+    {
+      "code": "LIVX-PMBI-PORTAL",
+      "title": "PMBI Jan Aushadhi Kendra application portal",
+      "issuer": "Pharmaceuticals and Medical Devices Bureau of India",
+      "url": "https://www.janaushadhi.gov.in/",
+      "classification": "primary-operative",
+      "locator": "Apply For Kendra and Locate Kendra services; use current online service for site-specific approval, no Uttarakhand exclusive cash entitlement.",
+      "id": "SOURCE-UK-LIVX-PMBI-PORTAL",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "CANDX-1",
+      "title": "Research lead: Older CAP aromatic cultivation and distillation subsidies",
+      "issuer": "Official programme discovery lead",
+      "url": "https://www.capuk.in/index.php/extensions/118-incentives-to-farmers",
+      "classification": "secondary-lead",
+      "locator": "Candidate reference only; no publishable entitlement inferred. 2019 incentive page and older brochure have legacy crop/market/rate differences. Relationship to 2026 Mahak Kranti operative policy not established; do not duplicate or publish old rates as current.",
+      "id": "SOURCE-UK-CANDX-1",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "CANDX-2",
+      "title": "Research lead: Older CAP aromatic cultivation and distillation subsidies",
+      "issuer": "Official programme discovery lead",
+      "url": "https://capuk.in/images/publication/bro.pdf",
+      "classification": "secondary-lead",
+      "locator": "Candidate reference only; no publishable entitlement inferred. 2019 incentive page and older brochure have legacy crop/market/rate differences. Relationship to 2026 Mahak Kranti operative policy not established; do not duplicate or publish old rates as current.",
+      "id": "SOURCE-UK-CANDX-2",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "CANDX-3",
+      "title": "Research lead: Aroma Park Policy",
+      "issuer": "Official programme discovery lead",
+      "url": "https://www.capuk.in/index.php/about-cap/aroma-park-policy",
+      "classification": "secondary-lead",
+      "locator": "Candidate reference only; no publishable entitlement inferred. Official CAP policy page discovered but repeated fetch failure prevented operative eligibility/cost scrutiny; no subsidy entitlement published.",
+      "id": "SOURCE-UK-CANDX-3",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "CANDX-4",
+      "title": "Research lead: NCDC Dairy Development Programme",
+      "issuer": "Official programme discovery lead",
+      "url": "https://dairyvikasuttarakhand.in/ncdc-yojna/",
+      "classification": "secondary-lead",
+      "locator": "Candidate reference only; no publishable entitlement inferred. Department page only yielded title; financing and individual/institution distinction require operative evidence.",
+      "id": "SOURCE-UK-CANDX-4",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "CANDX-5",
+      "title": "Research lead: Walnut development under UFRMP",
+      "issuer": "Official programme discovery lead",
+      "url": "https://jicauttarakhand.org/walnut-development/",
+      "classification": "secondary-lead",
+      "locator": "Candidate reference only; no publishable entitlement inferred. Forest-project plantation component; do not inflate count as independent general orchard subsidy.",
+      "id": "SOURCE-UK-CANDX-5",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    },
+    {
+      "code": "CANDX-6",
+      "title": "Research lead: State sericulture working-capital/reeling/weaving historical budget components",
+      "issuer": "Official programme discovery lead",
+      "url": "https://cdnbbsr.s3waas.gov.in/s32fd0648cde5b736321b544e2d0b11b41/uploads/2025/09/202509011112550460.pdf",
+      "classification": "secondary-lead",
+      "locator": "Candidate reference only; no publishable entitlement inferred. Budget file covers historical years and does not establish current direct assistance; cluster production access published without old money claims.",
+      "id": "SOURCE-UK-CANDX-6",
+      "retrievedAt": "2026-10-02",
+      "publishedAt": null,
+      "claimIds": [],
+      "statusIds": []
+    }
+  ],
+  "agencyInventory": [
+    {
+      "code": "INDUSTRIES",
+      "source": "MSME",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "title": "MSME Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates",
+      "id": "AGENCY-UK-INDUSTRIES",
+      "sourceIds": [
+        "SOURCE-UK-MSME"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "STARTUP",
+      "source": "STARTUP",
+      "macros": [
+        6,
+        7,
+        9,
+        10,
+        12
+      ],
+      "title": "DPIIT / Startup India",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates",
+      "id": "AGENCY-UK-STARTUP",
+      "sourceIds": [
+        "SOURCE-UK-STARTUP"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "TOURISM",
+      "source": "TOURISM",
+      "macros": [
+        11
+      ],
+      "title": "Uttarakhand Tourism Development Board",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates",
+      "id": "AGENCY-UK-TOURISM",
+      "sourceIds": [
+        "SOURCE-UK-TOURISM"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "HORTICULTURE",
+      "source": "HORT",
+      "macros": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "title": "Horticulture and Food Processing Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates",
+      "id": "AGENCY-UK-HORTICULTURE",
+      "sourceIds": [
+        "SOURCE-UK-HORT"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "AGRICULTURE",
+      "source": "AGRI",
+      "macros": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "title": "Agriculture Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates",
+      "id": "AGENCY-UK-AGRICULTURE",
+      "sourceIds": [
+        "SOURCE-UK-AGRI"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "ANIMAL-HUSBANDRY",
+      "source": "AH",
+      "macros": [
+        2
+      ],
+      "title": "Animal Husbandry Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates",
+      "id": "AGENCY-UK-ANIMAL-HUSBANDRY",
+      "sourceIds": [
+        "SOURCE-UK-AH"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "FISHERIES",
+      "source": "FISH",
+      "macros": [
+        3
+      ],
+      "title": "Fisheries Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates",
+      "id": "AGENCY-UK-FISHERIES",
+      "sourceIds": [
+        "SOURCE-UK-FISH"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "COOPERATION",
+      "source": "COOP",
+      "macros": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        14
+      ],
+      "title": "Cooperative Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates",
+      "id": "AGENCY-UK-COOPERATION",
+      "sourceIds": [
+        "SOURCE-UK-COOP"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "DAIRY",
+      "source": "DAIRY",
+      "macros": [
+        2,
+        5
+      ],
+      "title": "Dairy Development Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates",
+      "id": "AGENCY-UK-DAIRY",
+      "sourceIds": [
+        "SOURCE-UK-DAIRY"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "ENERGY",
+      "source": "SOLAR",
+      "macros": [
+        10
+      ],
+      "title": "UREDA, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates",
+      "id": "AGENCY-UK-ENERGY",
+      "sourceIds": [
+        "SOURCE-UK-SOLAR"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "RURAL",
+      "source": "RURAL",
+      "macros": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        11,
+        14
+      ],
+      "title": "Rural Development Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates",
+      "id": "AGENCY-UK-RURAL",
+      "sourceIds": [
+        "SOURCE-UK-RURAL"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "SOCIAL",
+      "source": "SOCIAL",
+      "macros": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "title": "Social Welfare Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates",
+      "id": "AGENCY-UK-SOCIAL",
+      "sourceIds": [
+        "SOURCE-UK-SOCIAL"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "MINORITY",
+      "source": "MINORITY",
+      "macros": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "title": "Minority Welfare Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates",
+      "id": "AGENCY-UK-MINORITY",
+      "sourceIds": [
+        "SOURCE-UK-MINORITY"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "SKILLS",
+      "source": "SKILL",
+      "macros": [
+        13
+      ],
+      "title": "Directorate of Training and Employment, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates",
+      "id": "AGENCY-UK-SKILLS",
+      "sourceIds": [
+        "SOURCE-UK-SKILL"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "FORESTS",
+      "source": "FOREST",
+      "macros": [
+        1,
+        8,
+        10
+      ],
+      "title": "Forest Department, Uttarakhand",
+      "outcome": "official-surface-reviewed; unresolved beneficiary details retained as candidates",
+      "id": "AGENCY-UK-FORESTS",
+      "sourceIds": [
+        "SOURCE-UK-FOREST"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "NATX-MSME",
+      "source": "NATX-MSMEOFFICE",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "title": "MSME Development and Facilitation Office Haldwani",
+      "outcome": "National MSME programme inventory and local facilitation checked",
+      "id": "AGENCY-UK-NATX-MSME",
+      "sourceIds": [
+        "SOURCE-UK-NATX-MSMEOFFICE"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "NATX-FINANCE",
+      "source": "NATX-SIDBI",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "title": "National MSME lenders and NSIC",
+      "outcome": "Branch and national product access checked",
+      "id": "AGENCY-UK-NATX-FINANCE",
+      "sourceIds": [
+        "SOURCE-UK-NATX-SIDBI"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "NATX-SPECIALIST",
+      "source": "NATX-PHARMA",
+      "macros": [
+        7,
+        9,
+        12
+      ],
+      "title": "National specialist technology and pharmaceuticals programmes",
+      "outcome": "Application surfaces checked; calls remain conditional",
+      "id": "AGENCY-UK-NATX-SPECIALIST",
+      "sourceIds": [
+        "SOURCE-UK-NATX-PHARMA"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "NATX-EXPORT",
+      "source": "NATX-AA",
+      "macros": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12
+      ],
+      "title": "DGFT and ECGC export access",
+      "outcome": "National authorisation and insurance route checked",
+      "id": "AGENCY-UK-NATX-EXPORT",
+      "sourceIds": [
+        "SOURCE-UK-NATX-AA"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "AGRX-CAP",
+      "source": "AGRX-CAP-SRC",
+      "macros": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "title": "Centre for Aromatic Plants, Selaqui",
+      "outcome": "Crop/site advisory, planting material, training, distillation/testing, market linkage and Mahak Kranti application clarification; obtain operative sanction rather than rely on older incentive brochure.",
+      "id": "AGENCY-UK-AGRX-CAP",
+      "sourceIds": [
+        "SOURCE-UK-AGRX-CAP-SRC"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "AGRX-TEA-BOARD",
+      "source": "AGRX-TEA-SRC",
+      "macros": [
+        0,
+        5,
+        6
+      ],
+      "title": "Uttarakhand Tea Development Board",
+      "outcome": "Suitable tea-land cluster assessment, lease/project guidance and productive tea establishment/processing route.",
+      "id": "AGENCY-UK-AGRX-TEA-BOARD",
+      "sourceIds": [
+        "SOURCE-UK-AGRX-TEA-SRC"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "AGRX-SERICULTURE-OFFICE",
+      "source": "AGRX-SILK-SRC",
+      "macros": [
+        3,
+        8,
+        6
+      ],
+      "title": "Sericulture centre / range office",
+      "outcome": "Mulberry/rearing site assessment, approved cluster enrolment, training, chawki/input route and current scheme cost verification.",
+      "id": "AGENCY-UK-AGRX-SERICULTURE-OFFICE",
+      "sourceIds": [
+        "SOURCE-UK-AGRX-SILK-SRC"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "INDX-INDUSTRIAL",
+      "source": "INDX-POLICYINDEX",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        14
+      ],
+      "title": "Directorate of Industries / DIC, Uttarakhand",
+      "outcome": "verified-applicable: MSME 2023 components, MSY 2, Logistics 2023 and Mega 2025 guideline; candidate-pending scanned specialist policy tables",
+      "id": "AGENCY-UK-INDX-INDUSTRIAL",
+      "sourceIds": [
+        "SOURCE-UK-INDX-POLICYINDEX"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "INDX-PLANNING",
+      "source": "INDX-SERVICE",
+      "macros": [
+        11,
+        12,
+        13
+      ],
+      "title": "Planning Department / designated service-sector approval authority",
+      "outcome": "verified-applicable: Service Sector 2024 operative policy; intake and budget unconfirmed",
+      "id": "AGENCY-UK-INDX-PLANNING",
+      "sourceIds": [
+        "SOURCE-UK-INDX-SERVICE"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "INDX-UREDA",
+      "source": "INDX-MSSY",
+      "macros": [
+        10
+      ],
+      "title": "UREDA / Energy Department / UPCL",
+      "outcome": "verified-applicable: MSSY 2023 revision and Solar 2023 enterprise route; current tariff/lender terms/allotment pending",
+      "id": "AGENCY-UK-INDX-UREDA",
+      "sourceIds": [
+        "SOURCE-UK-INDX-MSSY"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "INDX-RAMP",
+      "source": "INDX-RAMP",
+      "macros": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        14
+      ],
+      "title": "MSME Department, Uttarakhand RAMP",
+      "outcome": "intermediary-only: approved SIP projects; no automatic individual grant schedule established",
+      "id": "AGENCY-UK-INDX-RAMP",
+      "sourceIds": [
+        "SOURCE-UK-INDX-RAMP"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "LIVX-UKBVVN",
+      "source": "LIVX-UKBVVN",
+      "macros": [
+        5,
+        6,
+        8,
+        9,
+        14
+      ],
+      "title": "UKBVVN / District Social Welfare Officers",
+      "outcome": "official-surface-reviewed; category enterprise finance access established, current product allocations unconfirmed",
+      "id": "AGENCY-UK-LIVX-UKBVVN",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-UKBVVN"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "LIVX-USRLM",
+      "source": "LIVX-USRLM",
+      "macros": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        14
+      ],
+      "title": "Uttarakhand State Rural Livelihoods Mission",
+      "outcome": "official-surface-reviewed; RF/CIF bank linkage and SVEP document channels reviewed; selected SVEP blocks need confirmation",
+      "id": "AGENCY-UK-LIVX-USRLM",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-USRLM"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "LIVX-UKVIB",
+      "source": "LIVX-WOOL",
+      "macros": [
+        2,
+        5,
+        6,
+        8,
+        9
+      ],
+      "title": "Uttarakhand Khadi and Village Industries Board",
+      "outcome": "official-surface-reviewed; wool facilities, procurement, clusters, exhibition and PMEGP delivery mapped; legacy rates excluded",
+      "id": "AGENCY-UK-LIVX-UKVIB",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-WOOL"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "LIVX-URBAN",
+      "source": "LIVX-NULM",
+      "macros": [
+        5,
+        6,
+        8,
+        14
+      ],
+      "title": "Urban Development Directorate / SUDA / ULBs",
+      "outcome": "official-surface-reviewed; urban enterprise and SHG routes established, current city sanction/subsidy availability pending",
+      "id": "AGENCY-UK-LIVX-URBAN",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-NULM"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "LIVX-WSC",
+      "source": "LIVX-WSC",
+      "macros": [
+        6,
+        8
+      ],
+      "title": "Weavers Service Centre Chamoli",
+      "outcome": "official-surface-reviewed; Uttarakhand territorial delivery contact established; scheme and sanction availability to confirm",
+      "id": "AGENCY-UK-LIVX-WSC",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-WSC"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "LIVX-MINORITY",
+      "source": "LIVX-MINORITY",
+      "macros": [
+        5,
+        8,
+        13,
+        14
+      ],
+      "title": "Minority Welfare Department / Minority Welfare and Waqf Development Corporation",
+      "outcome": "official-surface-reviewed; minority loans and Hunar documented; old corporation domain unsafe, district channel retained",
+      "id": "AGENCY-UK-LIVX-MINORITY",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-MINORITY"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    },
+    {
+      "code": "LIVX-DSDE",
+      "source": "LIVX-SKILL",
+      "macros": [
+        13
+      ],
+      "title": "Department of Skill Development and Employment / Skill Development Committee",
+      "outcome": "official-surface-reviewed; training/apprenticeship delivery established; UKWDP institution-only components distinguished",
+      "id": "AGENCY-UK-LIVX-DSDE",
+      "sourceIds": [
+        "SOURCE-UK-LIVX-SKILL"
+      ],
+      "checkedAt": "2026-10-02",
+      "nextCheckAt": "2026-10-16"
+    }
+  ]
+}

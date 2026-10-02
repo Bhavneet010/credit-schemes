@@ -1,0 +1,1272 @@
+{
+  "sources": [
+    {
+      "code": "NATX-MSME",
+      "title": "MSME schemes at a glance, January–March 2026",
+      "issuer": "Ministry of MSME",
+      "url": "https://www.msme.gov.in/static/uploads/2026/05/3040dc36fd7023c4d4d1f647ee816165.pdf",
+      "locator": "National programme inventory; current eligibility and financial evidence are inherited, not refreshed.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-MSMEOFFICE",
+      "title": "MSME development office directory",
+      "issuer": "Development Commissioner MSME",
+      "url": "https://cluster.dcmsme.gov.in/CFCRPT/CFC_DiDirectory.aspx",
+      "locator": "MSME DFO Haldwani, Uttarakhand; local facilitation route.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-RAMP",
+      "title": "RAMP scheme guidelines",
+      "issuer": "Ministry of MSME",
+      "url": "https://ramp.msme.gov.in/ramp/scheme-guidelines",
+      "locator": "TEAM, GIFT, SPICE and ODR programme links.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-SIDBI",
+      "title": "SIDBI branch network and financing menu",
+      "issuer": "SIDBI",
+      "url": "https://www.sidbi.in/en/branch-office",
+      "locator": "Dehradun, Haridwar and Rudrapur branch entries; loan, PRAYAAS and TReDS menus.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-NSIC",
+      "title": "NSIC product and application surfaces",
+      "issuer": "NSIC",
+      "url": "https://www.nsic.co.in/Info/Download?AspxAutoDetectCookieSupport=1",
+      "locator": "Raw material assistance, single point registration and application forms.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-NCGTC",
+      "title": "Mutual Credit Guarantee Scheme member lenders",
+      "issuer": "NCGTC",
+      "url": "https://www.ncgtc.in/hi-IN/product-details/MCGSMSME/Mutual-Credit-Guarantee-Scheme-for-MSMEs-%28MCGS-MSME%29",
+      "locator": "Member-lender route; borrower cannot apply directly for a cash grant.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-MUDRA",
+      "title": "PMMY finance route",
+      "issuer": "Department of Financial Services",
+      "url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+      "locator": "Banks, NBFCs and microfinance institutions; eligibility is lender-appraised.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-CGTMSE",
+      "title": "CGTMSE member lending institutions",
+      "issuer": "CGTMSE",
+      "url": "https://www.cgtmse.in/Home/VS/94",
+      "locator": "Guarantee through an eligible member lender.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-PHARMA",
+      "title": "Department of Pharmaceuticals scheme and application index",
+      "issuer": "Department of Pharmaceuticals",
+      "url": "https://pharma-dept.gov.in/schemes/scheme-promotion-bulk-drug-",
+      "locator": "SPI/RPTUAS and SMDI operational guidelines and application links; project and call conditions apply.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-IDEX",
+      "title": "iDEX application FAQ",
+      "issuer": "Defence Innovation Organisation",
+      "url": "https://idex.gov.in/faq",
+      "locator": "Challenge/rolling Open Challenge application through iDEX; selection required.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-BIRAC",
+      "title": "BIRAC programmes and calls",
+      "issuer": "BIRAC",
+      "url": "https://www.birac.nic.in/",
+      "locator": "BIG programme; latest open call not established.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-GENESIS",
+      "title": "GENESIS programme surface",
+      "issuer": "MeitY Startup Hub",
+      "url": "https://msh.meity.gov.in/schemes/genesis",
+      "locator": "Approved implementing-agency route for tier-II/III ecosystems.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-STPI",
+      "title": "STPI startup incubation locations",
+      "issuer": "STPI",
+      "url": "https://startup.stpi.in/",
+      "locator": "NGIS lists Dehradun; cohort selection and current call must be checked.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-ECGC",
+      "title": "Small Exporters Policy application",
+      "issuer": "ECGC",
+      "url": "https://main.ecgc.in/small-exporters-policy-sep/",
+      "locator": "Proposal and insurance route for eligible exporters; premium and underwriting apply.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-AA",
+      "title": "Advance Authorisation exporter FAQ",
+      "issuer": "DGFT",
+      "url": "https://content.dgft.gov.in/Website/dgftprod/218ff804-081d-425f-95a4-ff4b7c5e3575/DGFT%20FAQs%20-%20Advance%20Authorisation%20v1.0.pdf",
+      "locator": "IEC profile, authorisation application and export obligation; access evidence only.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-EPCG",
+      "title": "EPCG exporter user manual v4.0",
+      "issuer": "DGFT",
+      "url": "https://content.dgft.gov.in/Website/DGFT_EPCG_User_Manual_for_Exporters_v4.0.pdf",
+      "locator": "Online authorisation workflow; current national terms retained from shared catalogue.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-IREDA",
+      "title": "IREDA financing products",
+      "issuer": "IREDA",
+      "url": "https://ireda.in/IredaWebPortal/loan-products/schemes",
+      "locator": "Project financing through IREDA appraisal; debt, not subsidy.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-TDF",
+      "title": "Technology Development Fund portal",
+      "issuer": "DRDO",
+      "url": "https://tdf.drdo.gov.in/",
+      "locator": "Defence technology projects and application process; project invitations govern access.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-DLI",
+      "title": "Design infrastructure support application",
+      "issuer": "MeitY / C-DAC",
+      "url": "https://www.chips-dli.gov.in/DLI/EDANew",
+      "locator": "Domestic startups/MSMEs register and file EDA tool request; semiconductor design activities.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-ECMS",
+      "title": "Electronics Component Manufacturing Scheme portal",
+      "issuer": "MeitY",
+      "url": "https://ecms.meity.gov.in/notification",
+      "locator": "Notification and window amendments; different component segments have different application periods.",
+      "classification": "primary-summary"
+    },
+    {
+      "code": "NATX-PMBJK",
+      "title": "Janaushadhi Kendra opening requirements",
+      "issuer": "PMBI",
+      "url": "https://janaushadhi.gov.in/pdf/English-OpenKendra.pdf",
+      "locator": "Online application, pharmacy requirements and premises conditions.",
+      "classification": "primary-summary"
+    }
+  ],
+  "sharedRoutes": [
+    {
+      "match": "SCH-PMEGP-2ND-LOAN-FOR-UPGRADATION-99CA6F",
+      "source": "NATX-MSME",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-SPECIAL-CREDIT-LINKED-CAPITAL-SUBSIDY-SCHE-BDBAEA",
+      "source": "NATX-MSME",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-MICRO-AND-SMALL-ENTERPRISES-CLUSTER-DEVELO-C4AA57",
+      "source": "NATX-MSME",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        11
+      ],
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-SFURTI-SCHEME-OF-FUND-FOR-REGENERATION-OF--C61C70",
+      "source": "NATX-MSME",
+      "macros": [
+        5,
+        8
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "pattern": "craft|handloom|weav|wool|bamboo|wood|khadi|traditional|honey",
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-MSME-SUSTAINABLE-ZED-CERTIFICATION-9DC992",
+      "source": "NATX-MSME",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-MSME-COMPETITIVE-LEAN-0AFE18",
+      "source": "NATX-MSME",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2
+      ],
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-PUBLIC-PROCUREMENT-POLICY-FOR-MSES-934235",
+      "source": "NATX-MSME",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-NATIONAL-SC-ST-HUB-NSSH-873A63",
+      "source": "NATX-MSME",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-PROCUREMENT-AND-MARKETING-SUPPORT-PMS-708FB2",
+      "source": "NATX-MSME",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-INTERNATIONAL-COOPERATION-SCHEME-DBF1B0",
+      "source": "NATX-MSME",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-ENTREPRENEURSHIP-AND-SKILL-DEVELOPMENT-PRO-8C6AA1",
+      "source": "NATX-MSME",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-ASPIRE-LIVELIHOOD-BUSINESS-INCUBATORS-FUND-B5AD45",
+      "source": "NATX-MSME",
+      "macros": [
+        6,
+        13
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "pattern": "incubat|training|skill|entrepreneur",
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-SELF-RELIANT-INDIA-SRI-FUND-15347E",
+      "source": "NATX-MSME",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-MSME-INNOVATIVE-INCUBATION-DESIGN-AND-IPR-7FB8BA",
+      "source": "NATX-MSME",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        6
+      ],
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-MSE-GIFT-GREEN-INVESTMENT-AND-FINANCING-FO-EE865F",
+      "source": "NATX-RAMP",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-MSE-SPICE-CIRCULAR-ECONOMY-INVESTMENT-0B6A5E",
+      "source": "NATX-RAMP",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        5
+      ],
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-MSME-TEAM-INITIATIVE-E-COMMERCE-ONDC-EC9C01",
+      "source": "NATX-RAMP",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-MSE-ONLINE-DISPUTE-RESOLUTION-ODR-FOR-DELA-C9A3F2",
+      "source": "NATX-RAMP",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "Ministry of MSME",
+      "access": "Use the national programme application channel; Uttarakhand MSME DFO/DIC can facilitate. Programme-specific applicant, project and selection conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-PRADHAN-MANTRI-MUDRA-YOJANA-PMMY-1FCCD7",
+      "source": "NATX-MUDRA",
+      "macros": [
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "Department of Financial Services",
+      "access": "Apply through a participating bank, NBFC or microfinance institution; repayment and lender appraisal are required.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-CGTMSE-CREDIT-GUARANTEE-A17996",
+      "source": "NATX-CGTMSE",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "CGTMSE",
+      "access": "Request eligible guarantee-backed credit from a CGTMSE member lender; the lender applies for guarantee cover.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-SIDBI-SPEED-RATIONALISED-MACHINERY-EQUIPME-F0E9A0",
+      "source": "NATX-SIDBI",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "SIDBI",
+      "access": "Contact SIDBI via its customer portal or Uttarakhand branches; product-specific lending eligibility applies.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-SIDBI-PRAYAAS-BC3E4F",
+      "source": "NATX-SIDBI",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "SIDBI",
+      "access": "Contact SIDBI via its customer portal or Uttarakhand branches; product-specific lending eligibility applies.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-SIDBI-DIGITAL-BUSINESS-LOAN-248602",
+      "source": "NATX-SIDBI",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "SIDBI",
+      "access": "Contact SIDBI via its customer portal or Uttarakhand branches; product-specific lending eligibility applies.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-TREDS-INVOICE-DISCOUNTING-B2B9D2",
+      "source": "NATX-SIDBI",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "SIDBI",
+      "access": "Register with a permitted TReDS platform; accepted buyer invoices and financier bidding are required.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-NSIC-RAW-MATERIAL-ASSISTANCE-AGAINST-BANK--1C87E0",
+      "source": "NATX-NSIC",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "NSIC",
+      "access": "Apply to NSIC through its official forms/registration channel; the Dehradun branch is the local access point.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-NSIC-SINGLE-POINT-REGISTRATION-SCHEME-SPRS-2DAF35",
+      "source": "NATX-NSIC",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agency": "NSIC",
+      "access": "Apply to NSIC through its official forms/registration channel; the Dehradun branch is the local access point.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-MUTUAL-CREDIT-GUARANTEE-SCHEME-FOR-MSMES-M-8AEB3C",
+      "source": "NATX-NCGTC",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stages": [
+        2,
+        5,
+        6
+      ],
+      "agency": "NCGTC",
+      "access": "Approach an eligible member lender for project finance; member lender seeks NCGTC guarantee, subject to current scheme conditions.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-REVAMPED-PHARMACEUTICAL-TECHNOLOGY-UPGRADA-C98303",
+      "source": "NATX-PHARMA",
+      "macros": [
+        7
+      ],
+      "stages": [
+        2,
+        6,
+        11
+      ],
+      "pattern": "pharma|drug|medicine|laborator|cluster",
+      "agency": "Department of Pharmaceuticals",
+      "access": "Use the Department of Pharmaceuticals scheme application/implementing agency channel; current guideline, component and approval conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-ASSISTANCE-TO-PHARMACEUTICAL-INDUSTRY-FOR--188056",
+      "source": "NATX-PHARMA",
+      "macros": [
+        7
+      ],
+      "stages": [
+        2,
+        6,
+        11
+      ],
+      "pattern": "pharma|drug|medicine|laborator|cluster",
+      "agency": "Department of Pharmaceuticals",
+      "access": "Use the Department of Pharmaceuticals scheme application/implementing agency channel; current guideline, component and approval conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-SMDI-MARGINAL-INVESTMENT-SCHEME-FOR-REDUCI-A89898",
+      "source": "NATX-PHARMA",
+      "macros": [
+        7
+      ],
+      "stages": [
+        2,
+        6,
+        11
+      ],
+      "pattern": "medical|device|diagnostic|testing",
+      "agency": "Department of Pharmaceuticals",
+      "access": "Use the SMDI online application route; support depends on component eligibility and the relevant invitation/approval process.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-SMDI-MEDICAL-DEVICE-CLINICAL-STUDIES-SUPPO-E2A6A3",
+      "source": "NATX-PHARMA",
+      "macros": [
+        7
+      ],
+      "stages": [
+        2,
+        6,
+        11
+      ],
+      "pattern": "medical|device|diagnostic|testing",
+      "agency": "Department of Pharmaceuticals",
+      "access": "Use the SMDI online application route; support depends on component eligibility and the relevant invitation/approval process.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-SMDI-COMMON-FACILITIES-FOR-MEDICAL-DEVICE--91ED11",
+      "source": "NATX-PHARMA",
+      "macros": [
+        7
+      ],
+      "stages": [
+        2,
+        6,
+        11
+      ],
+      "pattern": "medical|device|diagnostic|testing",
+      "agency": "Department of Pharmaceuticals",
+      "access": "Use the SMDI online application route; support depends on component eligibility and the relevant invitation/approval process.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-INNOVATIONS-FOR-DEFENCE-EXCELLENCE-IDEX-SP-4F5473",
+      "source": "NATX-IDEX",
+      "macros": [
+        7,
+        9,
+        12
+      ],
+      "stages": [
+        2,
+        6
+      ],
+      "agency": "Defence Innovation Organisation",
+      "access": "Register on iDEX and submit to an eligible challenge or Open Challenge; award requires selection.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-BIOTECHNOLOGY-IGNITION-GRANT-BIG-79D1D8",
+      "source": "NATX-BIRAC",
+      "macros": [
+        6,
+        7,
+        12
+      ],
+      "stages": [
+        6
+      ],
+      "agency": "BIRAC",
+      "access": "Apply through BIRAC BIG calls and approved BIG partners; current call dates require confirmation.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-GENESIS-GEN-NEXT-SUPPORT-FOR-INNOVATIVE-ST-079FC1",
+      "source": "NATX-GENESIS",
+      "macros": [
+        12
+      ],
+      "stages": [
+        3,
+        6
+      ],
+      "agency": "MeitY Startup Hub",
+      "access": "Apply through an approved GENESIS implementing agency and its current startup selection process.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-STPI-NEXT-GENERATION-INCUBATION-SCHEME-5A4B29",
+      "source": "NATX-STPI",
+      "macros": [
+        12
+      ],
+      "stages": [
+        3,
+        6
+      ],
+      "agency": "STPI",
+      "access": "Contact STPI Dehradun/NGIS for current cohort selection and programme terms.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-ECGC-SMALL-EXPORTERS-POLICY-B3B7E2",
+      "source": "NATX-ECGC",
+      "macros": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        8,
+        9,
+        12
+      ],
+      "stages": [
+        10
+      ],
+      "agency": "ECGC",
+      "access": "Submit the policy proposal to ECGC; exporter underwriting, premium and policy terms apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-ADVANCE-AUTHORISATION-8A928E",
+      "source": "NATX-AA",
+      "macros": [
+        5,
+        7,
+        8,
+        9
+      ],
+      "stages": [
+        2,
+        10
+      ],
+      "agency": "DGFT",
+      "access": "Use DGFT IEC-linked Advance Authorisation application; imported-input use and export obligations apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-EPCG-EXPORT-PROMOTION-CAPITAL-GOODS-104345",
+      "source": "NATX-EPCG",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        11,
+        12
+      ],
+      "stages": [
+        2,
+        3,
+        10
+      ],
+      "agency": "DGFT",
+      "access": "Use the DGFT EPCG authorisation workflow; fulfil the prescribed export obligation.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-IREDA-RENEWABLE-ENERGY-FINANCING-7D1131",
+      "source": "NATX-IREDA",
+      "macros": [
+        10
+      ],
+      "stages": [
+        2,
+        3,
+        11
+      ],
+      "pattern": "solar|hydro|energy|biogas|biofuel|charging|renewable",
+      "agency": "IREDA",
+      "access": "Apply to IREDA for project appraisal under the appropriate current financing product.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-DRDO-TECHNOLOGY-DEVELOPMENT-FUND-TDF-F6BBFD",
+      "source": "NATX-TDF",
+      "macros": [
+        7,
+        9,
+        12
+      ],
+      "stages": [
+        2,
+        6
+      ],
+      "agency": "DRDO",
+      "access": "Apply through the TDF portal against eligible defence-technology projects; selection and development milestones apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-DESIGN-LINKED-INCENTIVE-DESIGN-INFRASTRUCT-AF689A",
+      "source": "NATX-DLI",
+      "macros": [
+        9,
+        12
+      ],
+      "stages": [
+        2,
+        6
+      ],
+      "pattern": "electronic|semiconductor|chip|design",
+      "agency": "MeitY / C-DAC",
+      "access": "Register on DLI and submit the EDA tool request for eligible domestic semiconductor-design work.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-ELECTRONICS-COMPONENT-MANUFACTURING-SCHEME-E38CBD",
+      "source": "NATX-ECMS",
+      "macros": [
+        9
+      ],
+      "stages": [
+        2
+      ],
+      "pattern": "electronic|component|battery|semiconductor",
+      "agency": "MeitY",
+      "access": "Apply through ECMS only for a target segment with a valid application window. Earlier A/B/C/E windows closed; verify amendments and the eligible segment before applying.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    },
+    {
+      "match": "SCH-PRADHAN-MANTRI-BHARTIYA-JANAUSHADHI-PARIYO-9AEA2A",
+      "source": "NATX-PMBJK",
+      "macros": [
+        7,
+        14
+      ],
+      "stages": [
+        4
+      ],
+      "pattern": "pharma|medicine|drug|medical|pharmacy",
+      "agency": "PMBI",
+      "access": "Apply online to PMBI for opening a Kendra; premises, pharmacist, drug licence and programme approval conditions apply.",
+      "rationale": "National programme has no other-state geographic restriction; Uttarakhand enterprise access uses the documented national channel. This mapping is conditional on the programme applicant and activity tests."
+    }
+  ],
+  "schemes": [],
+  "candidates": [
+    {
+      "name": "Expired or time-limited shared export/commodity calls",
+      "disposition": "candidate-pending",
+      "reason": "RoDTEP shared evidence ends 30 September 2026; APEDA/Tea 2021–26 periods and SPICED August call need successor/current-window evidence. No active entitlement inferred.",
+      "sources": [
+        "NATX-AA"
+      ]
+    },
+    {
+      "name": "ADEETIE cluster coverage",
+      "disposition": "candidate-pending",
+      "reason": "Official BEE brochure identifies Kashipur, but exact activity/cluster eligibility requires project-level confirmation; not mapped as statewide general energy support.",
+      "sources": [
+        "NATX-MSMEOFFICE"
+      ]
+    },
+    {
+      "name": "Coir Vikas and legacy TIDE 2.0",
+      "disposition": "candidate-pending",
+      "reason": "Current Uttarakhand access/intake was not established; geographical and successor restrictions require verification.",
+      "sources": [
+        "NATX-MSME",
+        "NATX-GENESIS"
+      ]
+    }
+  ],
+  "agencies": [
+    {
+      "code": "NATX-MSME",
+      "source": "NATX-MSMEOFFICE",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "title": "MSME Development and Facilitation Office Haldwani",
+      "outcome": "National MSME programme inventory and local facilitation checked"
+    },
+    {
+      "code": "NATX-FINANCE",
+      "source": "NATX-SIDBI",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "title": "National MSME lenders and NSIC",
+      "outcome": "Branch and national product access checked"
+    },
+    {
+      "code": "NATX-SPECIALIST",
+      "source": "NATX-PHARMA",
+      "macros": [
+        7,
+        9,
+        12
+      ],
+      "title": "National specialist technology and pharmaceuticals programmes",
+      "outcome": "Application surfaces checked; calls remain conditional"
+    },
+    {
+      "code": "NATX-EXPORT",
+      "source": "NATX-AA",
+      "macros": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12
+      ],
+      "title": "DGFT and ECGC export access",
+      "outcome": "National authorisation and insurance route checked"
+    }
+  ],
+  "failedAccess": [],
+  "coverageNotes": [
+    "Direct national access checked separately from state adoption. Financial facts retain shared catalogue dates; no national refresh is claimed."
+  ]
+}

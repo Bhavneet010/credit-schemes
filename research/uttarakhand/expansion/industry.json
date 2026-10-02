@@ -1,0 +1,974 @@
+{
+  "sources": [
+    {
+      "code": "MSY",
+      "title": "MSY 2.0 official notification — full English PDF",
+      "issuer": "MSME Department, Uttarakhand",
+      "url": "https://startuputtarakhand.uk.gov.in/attachments/MSY.pdf",
+      "classification": "primary-operative",
+      "locator": "Full 13-page English notification recovered using direct HTTPS PDF retrieval and pypdf on 2026-10-02; sections 8–12 and 15 establish finance, beneficiaries and portal process. Printed notification date fields partly blank; scheme FY 2025-26–2029-30 explicit."
+    },
+    {
+      "code": "MSME",
+      "title": "MSME Policy 2023 operational guidelines",
+      "issuer": "MSME Department, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/swcsincentive/common/protected/msme_policy/MSMEpolicy.pdf",
+      "classification": "primary-operative",
+      "locator": "Full 31-page English PDF recovered. Sections 7–16, 19, 21–22: eligibility, exact investment subsidy table, interest, electricity, certification, mandi, ZED, cluster and claim procedure."
+    },
+    {
+      "code": "INDX-SERVICE",
+      "title": "Uttarakhand Service Sector Policy 2024",
+      "issuer": "Planning Department, Government of Uttarakhand",
+      "url": "https://cdnbbsr.s3waas.gov.in/s35074dcf630ca6ff1602cc3ac043b698d/uploads/2025/06/20250826751283515.pdf",
+      "classification": "primary-operative",
+      "locator": "Sections 5–7, PDF pages 8–13: valid till 31 December 2030; focus-sector thresholds; 25% eligible capital assistance; capped investment, annual approvals and disbursement options."
+    },
+    {
+      "code": "INDX-LOGISTICS",
+      "title": "Logistics Policy 2023 implementation guidelines",
+      "issuer": "Industrial Development Department, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/policy_guideline_eng1713167607.pdf",
+      "classification": "primary-operative",
+      "locator": "English July 2023 operational guidelines, sections 5–8, PDF pages 2–5: component cost rates, project caps, eligibility, CAF and milestone release."
+    },
+    {
+      "code": "INDX-MEGA25",
+      "title": "Mega Industrial and Investment Policy 2025 implementation guidelines 2026",
+      "issuer": "Industrial Development Department, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/policy_guideline_eng1779087051.pdf",
+      "classification": "primary-operative",
+      "locator": "21-page implementation guideline; sections 5–11, especially pp 2–5 and 8–20. Establishes policy notification 15 July 2025, capital/hill/stamp components, 70% domicile employment, CAF intent, satisfaction letter and budget-dependent claim process. Policy table in separate scanned notification not yet fully transcribed."
+    },
+    {
+      "code": "INDX-POLICYINDEX",
+      "title": "Current Invest Uttarakhand policy catalogue",
+      "issuer": "Directorate of Industries, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/site/Policies",
+      "classification": "primary-summary",
+      "locator": "Current index retrieved 2026-10-02 identifies Mega 2025/implementation 2026, MSME 2023, Private Estates 2023, Logistics 2023, Export 2021, Film 2024, Drone 2023, AYUSH 2023, Startup 2023, Solar 2023 and Tourism 2023/Entrepreneur 2024. Index presence does not establish live allocation."
+    },
+    {
+      "code": "INDX-TOURGUIDE",
+      "title": "Tourism Policy 2023 operational guidelines",
+      "issuer": "Uttarakhand Tourism Development Board",
+      "url": "https://uttarakhandtourism.gov.in/assets/media/UTDB_media_1738567518policy_guideline1712734170.pdf",
+      "classification": "primary-operative",
+      "locator": "Sections 1–7, eligibility-unit table and CAF/claims pp 18–25; operational to 31 March 2030; policy period COD, approvals and prohibition of identical-benefit duplication."
+    },
+    {
+      "code": "INDX-TOURPOLICY",
+      "title": "Tourism Policy 2023–2030",
+      "issuer": "Uttarakhand Tourism Development Board",
+      "url": "https://nivesh.uttarakhandtourism.gov.in/assets/Tourism_Policy_2023-30-CtI_eZd9.pdf",
+      "classification": "primary-operative",
+      "locator": "Official policy PDF linked by Nivesh UTDB portal. Section 16, printed pp 63–70 financial tables; read with November 2023 amendment and operational guidelines; do not treat headline maximum as cash grant."
+    },
+    {
+      "code": "INDX-MSSY",
+      "title": "Mukhyamantri Saur Swarojgar Yojana — March 2023 revision",
+      "issuer": "Energy Department / UREDA, Uttarakhand",
+      "url": "https://cdnbbsr.s3waas.gov.in/s373f490f3f868edbcd80b5d3f7cedc403/uploads/2025/01/20250128431463106.pdf",
+      "classification": "primary-operative",
+      "locator": "9-page Hindi March 2023 amendment available through UREDA document-category/solar-energy-scheme; pp 1–4 capacities, resident eligibility, UPCL 25-year PPA, bank route and subsidy link; old tariff illustrative only."
+    },
+    {
+      "code": "INDX-SOLAR",
+      "title": "Uttarakhand State Solar Policy 2023",
+      "issuer": "Energy Department / UREDA, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/act_english1692357589.pdf",
+      "classification": "primary-operative",
+      "locator": "Section 8.2.3 industrial/commercial captive and rooftop provisions refer to MSME 2015 and subsequent amendments. Apply actual MSME 2023 operative rules rather than duplicate superseded caps."
+    },
+    {
+      "code": "INDX-RAMP",
+      "title": "Uttarakhand RAMP approved Strategic Investment Plan",
+      "issuer": "Ministry of MSME, Government of India",
+      "url": "https://ramp.msme.gov.in/ramp/state-collaboration/uttarakhand",
+      "classification": "primary-summary",
+      "locator": "Uttarakhand Lo U 15 September 2022; SIP 2 February 2024; approved 83.05 crore institutional projects including Avishkaar innovation, quality ecosystem, market access, SME exchange and facilitation; not a direct per-unit grant schedule."
+    },
+    {
+      "code": "INDX-EXPORT",
+      "title": "Uttarakhand Export Policy 2021",
+      "issuer": "Directorate of Industries, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/act_english1639026865.pdf",
+      "classification": "primary-operative",
+      "locator": "PDF chapter 7.5 explicitly calls export incentives indicative. Separate operative guideline policy_guideline 1712734478. pdf retrieved as 14-page scan but not transcribed. Index title 2021 conflicts with some official summary 2023 wording."
+    },
+    {
+      "code": "INDX-FILM",
+      "title": "Film Policy 2024 subsidy implementation guidelines",
+      "issuer": "Uttarakhand Film Development Council",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/policy_guideline_eng1746265479.pdf",
+      "classification": "primary-operative",
+      "locator": "3-page English Guidelines for Subsidies Film/Web Series/TVSerial/Documentary/Short Film, clauses 1–25;75% shooting affidavit, bank payments, censor-certificate deadline, post-release proposal and budget decision."
+    },
+    {
+      "code": "INDX-MEGAPOLICY",
+      "title": "Mega Industrial and Investment Policy 2025",
+      "issuer": "Industrial Development Department, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/act_english1753438211.pdf",
+      "classification": "primary-operative",
+      "locator": "Scanned official policy verified visually pp 7–9: categories/investment/employment, 50% stamp max₹50 lakh; capital 10/12/15/20%, caps 20/60/150/400 crore, periods 8/10/12/15 years; A/Bhillbonus 2/1% withcaps."
+    },
+    {
+      "code": "INDX-DRONE",
+      "title": "Uttarakhand Drone Promotion and Usage Policy 2023",
+      "issuer": "Information Technology Development Agency, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/act_english1692357272.pdf",
+      "classification": "primary-operative",
+      "locator": "Full Englishtextretrieved; chapter 7 printedpp 24–26: DSDM/De S, DPR 50% max₹5 lakh, lease tables, nonrecreational SGSTlinked support and RPTOequipment 50% max₹1 crore. Corpuscreation future-dependent."
+    },
+    {
+      "code": "INDX-AYUSH",
+      "title": "Uttarakhand AYUSH Policy 2023",
+      "issuer": "Directorate of AYUSH, Uttarakhand",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/act_english1554790886.pdf",
+      "classification": "primary-operative",
+      "locator": "Current official index 2023 policy; fulltextcontains 2023 accessdates. Sections 6.2/6.4/6.5 pp 16/18/20 manufacturingextra capital, ratedwellness 5% topup andcollege NAACaward."
+    },
+    {
+      "code": "INDX-HELIPAD-POLICY",
+      "title": "Private Helipad and Heliport Policy 2023",
+      "issuer": "Uttarakhand Civil Aviation Development Authority",
+      "url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/act_english1721036774.pdf",
+      "classification": "primary-operative",
+      "locator": "Full English PDF sections 3/5/7 pp 2–10: validto 31 March 2028; UCADAEOIselection, land minimum 1000/4000 sqm; Option 2 capital 50% loweractual/approvedestimate, twoinstalments and 10 yearoperation."
+    }
+  ],
+  "schemes": [
+    {
+      "code": "MSY-2",
+      "name": "Mukhyamantri Swarojgar Yojana 2.0",
+      "source": "MSY",
+      "family": "Enterprise self-employment",
+      "support": "Credit-linked margin money",
+      "benefit": "Manufacturing project ceiling ₹25 lakh; service/trade ₹10 lakh. Base margin subsidy A/B:30%,25%,20% for project bands ≤₹2 lakh, >₹2–10 lakh, >₹10–25 lakh; C/D:25%,20%,15%. Only one additional 5% booster for rural/notified Nagar Panchayat location, women/disabled applicant, or prescribed district ODOP/ODTP/GI manufacture. Own contribution general 10%, special 5%; bank finances balance.",
+      "eligible": "Permanent/native Uttarakhand resident age 18+, non-defaulter; commercially viable permitted enterprise excluding traditional agriculture/prohibited activities. One beneficiary per defined family, once; no other self-employment scheme benefit in preceding 5 financial years.",
+      "access": "Online application on prescribed MSY portal via DIC/district KVIB; residence certificate, Aadhaar, affidavit, project report (CA-certified above₹10 lakh), category records and later quotations/lease. Bank sanction and joint functional-unit inspection govern adjustment.",
+      "macros": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        9
+      ],
+      "pattern": null,
+      "caution": "Existence verified; current intake and available budget not established as of 2 October 2026. Confirm with implementing office before investment. Excess project cost self-funded and excluded from subsidy. Margin money adjusts after 2 financial years subject to inspection and loan status; geography uses MSME 2023 A–D definitions.",
+      "locator": "Sections 8 III–V,9–12,15; PDFpp 5–8 and 11–12."
+    },
+    {
+      "code": "MSME23-CAPITAL",
+      "name": "Uttarakhand MSME Policy 2023 — capital subsidy",
+      "source": "MSME",
+      "family": "MSME incentives",
+      "support": "capital subsidy",
+      "benefit": "At investment ≤₹1 crore, A/B/C/D:50/40/30/20%, caps₹50/40/30/20 lakh. Higher slab ceilings for >₹1–5 crore:₹1.5/1.2/0.8/0.6 crore; >₹5–10 crore:₹2.5/2/1.2/0.9 crore; >₹10–50 crore:₹4/3/2/1.5 crore. Incremental rates depend on exact slab. New most-priority/priority/anchor/social-category units may receive one permitted additional subsidy.",
+      "eligible": "Eligible new or substantially expanded manufacturing MSMEs and permitted non-conventional energy units; expansion requires prescribed investment/capacity increase. Category and eligible asset tests apply.",
+      "access": "Apply CAF through Invest Uttarakhand and secure in-principle approval before production; after commercial production select MSME Policy 2023 in Incentive Tab, submit documents through DIC and Directorate of Industries.",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stages": [
+        2
+      ],
+      "pattern": null,
+      "caution": "Existence verified; current intake and available budget not established as of 2 October 2026. Confirm with implementing office before investment. No same-component double assistance. Qualifying expansion receives capital assistance only; other components are for new units. Land/working capital excluded. PMEGP/PMFME/MSY margin assistance for corresponding term-loan assets deducted; only balance top-up payable. First claim within 1 year of production; micro 2 annual instalments, small/medium 5.",
+      "locator": "Section 10 table PDFpp 9–12; sections 7 and 19."
+    },
+    {
+      "code": "INDX-MSME-INTEREST",
+      "name": "MSME Policy 2023 — term-loan interest reimbursement",
+      "source": "MSME",
+      "family": "MSME incentives",
+      "support": "interest subsidy",
+      "benefit": "Micro/small/medium 4%/3%/2%; annual caps for A:₹5/6/7 lakh, B:₹4/5/6 lakh, C:₹3/4/5 lakh, D:₹2/3/4 lakh. Up to 3 years from first term-loan instalment disbursement.",
+      "eligible": "New Uttarakhand manufacturing MSMEs in permitted activities; in-principle CAF approval before commercial production, required operating approvals and minimum 70% permanent employment to state permanent residents. Public/PPP enterprises excluded. Term loan for eligible workshop and plant/equipment from approved lender; land, working capital and already subsidised-interest borrowing excluded.",
+      "access": "Apply CAF through Invest Uttarakhand and secure in-principle approval before production; after commercial production select MSME Policy 2023 in Incentive Tab, submit documents through DIC and Directorate of Industries. Claim annually in first quarter of following financial year after commercial production.",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stages": [
+        2
+      ],
+      "pattern": null,
+      "caution": "Existence verified; current intake and available budget not established as of 2 October 2026. Confirm with implementing office before investment. No same-component double assistance. Qualifying expansion receives capital assistance only; other components are for new units. Operative guideline starts 3-year period at loan disbursement; official FAQ wording from production is less precise. Penal interest/charges excluded.",
+      "locator": "Section 11 PDFpp 12–13."
+    },
+    {
+      "code": "INDX-MSME-ELECTRICITY",
+      "name": "MSME Policy 2023 — electricity-duty reimbursement",
+      "source": "MSME",
+      "family": "MSME incentives",
+      "support": "operating-cost reimbursement",
+      "benefit": "Electricity duty reimbursed for 5 years from commercial production for sanctioned total load≤500 k W.",
+      "eligible": "New Uttarakhand manufacturing MSMEs in permitted activities; in-principle CAF approval before commercial production, required operating approvals and minimum 70% permanent employment to state permanent residents. Public/PPP enterprises excluded.",
+      "access": "Apply CAF through Invest Uttarakhand and secure in-principle approval before production; after commercial production select MSME Policy 2023 in Incentive Tab, submit documents through DIC and Directorate of Industries. Pay electricity bills and submit annual claim in first quarter of next financial year.",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stages": [
+        2
+      ],
+      "pattern": null,
+      "caution": "Existence verified; current intake and available budget not established as of 2 October 2026. Confirm with implementing office before investment. No same-component double assistance. Qualifying expansion receives capital assistance only; other components are for new units. This concerns electricity duty, not the full electricity bill.",
+      "locator": "Section 12 PDFpp 13–14."
+    },
+    {
+      "code": "INDX-MSME-QUALITY",
+      "name": "MSME Policy 2023 — quality-certification reimbursement",
+      "source": "MSME",
+      "family": "MSME incentives",
+      "support": "certification reimbursement",
+      "benefit": "75% actual eligible certification expenditure, cumulative ceiling₹1 lakh per unit during policy; includes recognised certificate/registration costs.",
+      "eligible": "New Uttarakhand manufacturing MSMEs in permitted activities; in-principle CAF approval before commercial production, required operating approvals and minimum 70% permanent employment to state permanent residents. Public/PPP enterprises excluded. Recognised national/international certification including ISO/ISI/BIS/FSSAI/ZED or specified IPR registrations.",
+      "access": "Apply CAF through Invest Uttarakhand and secure in-principle approval before production; after commercial production select MSME Policy 2023 in Incentive Tab, submit documents through DIC and Directorate of Industries. Claim within 6 months of certificate; invoices/payment and certification proof required.",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stages": [
+        2,
+        6
+      ],
+      "pattern": null,
+      "caution": "Existence verified; current intake and available budget not established as of 2 October 2026. Confirm with implementing office before investment. No same-component double assistance. Qualifying expansion receives capital assistance only; other components are for new units. Certification-related plant cost eligible only if capital subsidy was not taken for it; travel/hotel and unrelated expenses excluded.",
+      "locator": "Section 13 PDFpp 14–15."
+    },
+    {
+      "code": "INDX-MSME-MANDI",
+      "name": "MSME Policy 2023 — mandi-fee reimbursement",
+      "source": "MSME",
+      "family": "MSME incentives",
+      "support": "raw-material market-fee reimbursement",
+      "benefit": "50% mandi fee paid on agricultural/horticultural raw materials bought from Uttarakhand mandis; annual A ceiling₹5 lakh, B₹3 lakh; up to 5 years from production.",
+      "eligible": "New eligible agriculture/horticulture-based food or fruit/vegetable processors in A/B only; C/D excluded. General MSME conditions apply.",
+      "access": "Apply CAF through Invest Uttarakhand and secure in-principle approval before production; after commercial production select MSME Policy 2023 in Incentive Tab, submit documents through DIC and Directorate of Industries. Submit annual claim in first quarter of following financial year.",
+      "macros": [
+        5
+      ],
+      "stages": [
+        2
+      ],
+      "pattern": null,
+      "caution": "Existence verified; current intake and available budget not established as of 2 October 2026. Confirm with implementing office before investment. No same-component double assistance. Qualifying expansion receives capital assistance only; other components are for new units.",
+      "locator": "Section 14 PDFp 15."
+    },
+    {
+      "code": "INDX-MSME-ZED",
+      "name": "MSME Policy 2023 — state ZED certification award",
+      "source": "MSME",
+      "family": "MSME incentives",
+      "support": "quality award",
+      "benefit": "One state award per new eligible unit: Gold₹75,000, Silver₹50,000, Bronze₹25,000 plus memento and excellence certificate.",
+      "eligible": "New Uttarakhand manufacturing MSMEs in permitted activities; in-principle CAF approval before commercial production, required operating approvals and minimum 70% permanent employment to state permanent residents. Public/PPP enterprises excluded. Obtain specified Ministry of MSME ZED certificate.",
+      "access": "Apply CAF through Invest Uttarakhand and secure in-principle approval before production; after commercial production select MSME Policy 2023 in Incentive Tab, submit documents through DIC and Directorate of Industries. Online claim in first half of financial year following certificate.",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stages": [
+        2,
+        6
+      ],
+      "pattern": null,
+      "caution": "Existence verified; current intake and available budget not established as of 2 October 2026. Confirm with implementing office before investment. No same-component double assistance. Qualifying expansion receives capital assistance only; other components are for new units. Separate state award; national ZED programme benefits remain common records.",
+      "locator": "Section 15 PDFpp 15–16."
+    },
+    {
+      "code": "INDX-MSME-CLUSTER",
+      "name": "MSME Policy 2023 — cluster common-facility and infrastructure development",
+      "source": "MSME",
+      "family": "MSME cluster development",
+      "support": "SPV project grant",
+      "benefit": "70% eligible cluster-project cost, maximum grant₹5 crore; eligible project cost up to₹10 crore; two equal annual instalments after operation.",
+      "eligible": "Cluster of at least 10 geographically contiguous complementary product/service units; registered association/FPO/company/LLP/SHG etc must form Section 8 company SPV. Dispute-free owned/long-lease land;70% state-resident permanent employment in CFC.",
+      "access": "CAF in-principle approval before project; then Incentive Tab/MSME 2023/Cluster Development eligibility certificate with DPR/SPV/member Udyam records; after commissioning obtain SIDA completion certificate and claim.",
+      "macros": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stages": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        11
+      ],
+      "pattern": "cluster|common.facility|common infrastructure|testing|incubat|design|packaging",
+      "caution": "Existence verified; current intake and available budget not established as of 2 October 2026. Confirm with implementing office before investment. Institutional project, not individual grant. Operate within 2 years of approval and remain useful 10 years. CFC building lease≥15 years, land≥30 years; same unit cannot take other policy incentives as cluster project.",
+      "locator": "Section 21 PDFpp 25–28; section 22 xi."
+    },
+    {
+      "code": "INDX-SERVICE24",
+      "name": "Uttarakhand Service Sector Policy 2024 — focus-sector capital support",
+      "source": "INDX-SERVICE",
+      "family": "Large service-sector investment",
+      "support": "capital subsidy",
+      "benefit": "25% investment in eligible capital assets within 5 years; project subsidy cap₹100 crore and eligible investment cap 3×sector minimum. Annual approval limits and aggregate₹2,500 crore policy cap apply.",
+      "eligible": "New threshold projects in healthcare, hospitality, AYUSH/wellness, K 12/college, film/entertainment, sports, IT/GCC, data centres and specified skilling Co Es. E. g. IT/GCC >₹100 crore plains/>₹50 crore hills plus 1000/500 direct jobs; sports >₹25/15 crore. See sector table.",
+      "access": "Single-window application and in-principle approval after notification and within validity till 31 December 2030; choose construction-milestone or completed-project subsidy option through designated department.",
+      "macros": [
+        11,
+        12,
+        13
+      ],
+      "stages": [
+        3,
+        6,
+        11
+      ],
+      "pattern": "hospital|hotel|resort|convention|MICE|wellness|AYUSH|school|college|university|film|animation|entertainment|sport|data.cent(re|er)|IT campus|GCC|centre.of.excellence",
+      "caution": "Existence verified; current intake and available budget not established as of 2 October 2026. Confirm with implementing office before investment. Existing construction/grounded projects at notification excluded. Annual approvals first-come with waitlist. Overlap requires policy choice; hospitality cannot combine this capital subsidy with Tourism 2023 capital subsidy.",
+      "locator": "Sections 5–7 PDFpp 8–13; full sector threshold table section 6."
+    },
+    {
+      "code": "INDX-LOGISTICS-CAPITAL",
+      "name": "Logistics Policy 2023 — warehousing, terminals, cold stores and logistics parks",
+      "source": "INDX-LOGISTICS",
+      "family": "Logistics investment",
+      "support": "capital subsidy",
+      "benefit": "Warehouse/truck-terminal/basic logistics infrastructure 20% project cost; cold storage 15% additional to specified central support. Aggregate caps₹8 crore(≤₹50 crore project),₹24 crore(>₹50–150 crore),₹32 crore(>₹150 crore).",
+      "eligible": "Uttarakhand GSTIN legal entities including PPP; warehouse hills≥5000 sqft/₹2.5 crore, plains≥10000 sqft/₹5 crore; terminal≥45000 sqft/₹5 crore; cold store≥5000 sqft; park>5 acres hills/>10 plains; ICD≥18 acres. Expansion≥25% additional fixed capital.",
+      "access": "Single-window CAF registration, then claim with approved CAFID/DPR/expenditure and inspection records; approval by designated state committee; milestone releases 10/35/35/20%.",
+      "macros": [
+        4,
+        14
+      ],
+      "stages": [
+        7,
+        9,
+        11
+      ],
+      "pattern": null,
+      "caution": "Existence verified; current intake and available budget not established as of 2 October 2026. Confirm with implementing office before investment. Integrated incentive prohibits other policy/department benefits, subject to expressly stated cold-store central convergence. Final 20% after 2 years operation; final cost lower of proposed/appraised/actual. Geography uses policy's A/B/B+/C hills definitions.",
+      "locator": "Guidelines sections 5 a–b,6–8 PDFpp 2–5."
+    },
+    {
+      "code": "INDX-LOGISTICS-FLEET",
+      "name": "Logistics Policy 2023 — truck and reefer fleet investment",
+      "source": "INDX-LOGISTICS",
+      "family": "Logistics investment",
+      "support": "vehicle capital subsidy",
+      "benefit": "Large trucks 10%; small/medium trucks 15% of ex-showroom purchase, maximum₹10 lakh.",
+      "eligible": "Transport/truck owner/fleet operator/aggregator buying at least 3 trucks/small trucks/mini pickup/reefer vans; Uttarakhand GSTIN legal entity and policy conditions.",
+      "access": "Register project through single-window CAF; prescribed incentive claim with purchase/investment evidence and departmental inspection.",
+      "macros": [
+        4,
+        14
+      ],
+      "stages": [
+        9
+      ],
+      "pattern": "truck|reefer|freight|fleet|pickup|logistics",
+      "caution": "Existence verified; current intake and available budget not established as of 2 October 2026. Confirm with implementing office before investment. Aggregate project caps and integrated-assistance prohibition apply; confirm eligible fleet classification and exact cap allocation before purchase.",
+      "locator": "Guidelines section 5 a(iii), sections 6–8 PDFpp 2–5."
+    },
+    {
+      "code": "INDX-LOGISTICS-SKILL",
+      "name": "Logistics Policy 2023 — employee skilling support",
+      "source": "INDX-LOGISTICS",
+      "family": "Logistics investment",
+      "support": "training reimbursement",
+      "benefit": "One-time₹25,000 or actual training cost per employee, whichever lower, up to 100 employees within 2 years from operations; training duration 1–3 months.",
+      "eligible": "New eligible general/specialised logistics provider; training institution recognised by NSDC/UGC/Government/AICTE.",
+      "access": "CAF registration and prescribed incentive claim through Industries single-window process with training evidence.",
+      "macros": [
+        4,
+        14
+      ],
+      "stages": [
+        3,
+        9
+      ],
+      "pattern": "logistics|warehouse|cold.storage|freight|truck|reefer",
+      "caution": "Existence verified; current intake and available budget not established as of 2 October 2026. Confirm with implementing office before investment. Avoid duplicate training-cost support; sanction and budget required.",
+      "locator": "Guidelines section 5 c andsections 6–8 PDFpp 3–5."
+    },
+    {
+      "code": "INDX-MEGA25",
+      "name": "Mega Industrial and Investment Policy 2025 — capital, hill and stamp support",
+      "source": "INDX-MEGAPOLICY",
+      "family": "Large industrial investment",
+      "support": "investment incentives",
+      "benefit": "Capital subsidy Large/Ultra Large/Mega/Ultra Mega: 10/12/15/20% of eligible workshop and plant investment, caps ₹20/60/150/400 crore, annual payments over 8/10/12/15 years. New units in hill category A/B receive 2/1% additional incentive with category-specific caps. Land stamp-duty reimbursement 50%, maximum ₹50 lakh.",
+      "eligible": "Eligible large manufacturing units with plant investment >₹50 crore; investment categories on eligible workshop+plant: >₹50–200 crore with ≥50 permanent jobs; >₹200–500 crore with ≥150 jobs; >₹500–1000 crore with ≥300 jobs; >₹1000 crore with ≥500 jobs. Standard investment periods 3/4/5/7 years; minimum 70% state-resident permanent employment. Qualifying expansion must add the relevant threshold investment/jobs.",
+      "access": "Express policy intent at CAF; get in-principle approval, DIC commercial-production certificate and eligibility/Letter of Satisfaction; Incentive Tab claim within 6 months of satisfaction letter, annual instalments within 6 months of anniversary.",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stages": [
+        2
+      ],
+      "pattern": null,
+      "caution": "Policy notified 15 July 2025; precise clauses, negative list, category and eligible costs govern. Annual budget ceiling ₹1000 crore and first-come rules; no live intake/budget inferred. Stamp applies land, excludes building/acquisition of established units. Hill bonus A caps₹5/10/20/40 crore and B₹2/5/10/20 crore; new units only. Financial incentives not automatically cumulative with customized packages.",
+      "locator": "Policysections 8–10 visually verified pp 7–9; implementation 2026 sections 6–11 for CAF/claims."
+    },
+    {
+      "code": "TOURISM23",
+      "name": "Uttarakhand Tourism Policy 2023 — investment incentives",
+      "source": "INDX-TOURGUIDE",
+      "family": "Tourism incentives",
+      "support": "capital and operating support",
+      "benefit": "Policy capital/reimbursement route for eligible tourism investments; hospitality maximum A/B/C 25/35/50% eligible assets and non-accommodation product/service maximum 100%, but annual cash payout is linked to SGST and permitted additional incentives. Current amendments must be applied.",
+      "eligible": "New or qualifying expanded/diversified listed tourism units meeting investment/amenity/NIC conditions, post-notification CAF approval and commercial operations within policy period through 31 March 2030.",
+      "access": "Register on Invest Uttarakhand CAF choosing Tourism/Tourism Policy 2023; secure in-principle approval then submit incentive documents through UTDB/TIFC and district tourism committee.",
+      "macros": [
+        11
+      ],
+      "stages": [
+        3
+      ],
+      "pattern": null,
+      "caution": "Existence verified; current intake and available budget not established as of 2 October 2026. Confirm with implementing office before investment. Headline 100% is not an upfront grant. Hospitality lower of 10% maximum or 75% net SGST+permittedadditional incentive annually; product/services lower of 20% maximum or 75% net SGST+additional, subject November 2023 amendments. Same benefit cannot be claimed twice.",
+      "locator": "Operational sections 1–7; financial structure in INDX-TOURPOLICYsection 16 pp 63–70; exact amended payout needs final UTDB check."
+    },
+    {
+      "code": "MSSY",
+      "name": "Mukhyamantri Saur Swarojgar Yojana",
+      "source": "INDX-MSSY",
+      "family": "Solar self-employment",
+      "support": "solar project finance and PPA",
+      "benefit": "Revised project capacities include 50/100/200 k W alongside earlier 20/25 k W; UPCLpower purchase agreement for 25 years at UERC-determined applicable rate; cooperative-bank credit route and capital/stamp assistance linked to applicable MSMEpolicy.",
+      "eligible": "Permanent Uttarakhand resident aged 18+; normally one permitted solar project per family; land and UPCLgrid technical feasibility required. No minimum education prerequisite.",
+      "access": "Apply through prescribed MSSY service/UREDA district office; verify UPCLcapacity/TFR and allotment, land documents, lender approval and empanelled installation/PPA process.",
+      "macros": [
+        10
+      ],
+      "stages": [
+        0,
+        3
+      ],
+      "pattern": "solar|photovoltaic",
+      "caution": "Existence verified; current intake and available budget not established as of 2 October 2026. Confirm with implementing office before investment. March 2023 text provides cooperative-bank 8% loan rate/15-year term subject to lender conditions; confirm current bank terms. Historic₹4.49 tariff is not a 2026 guarantee. Do not double-count linked MSMEcapital support.",
+      "locator": "March 2023 revision PDFpp 1–4; UREDAcurrent solar scheme document index."
+    },
+    {
+      "code": "INDX-SOLAR-CAPTIVE",
+      "name": "Solar Policy 2023 — enterprise rooftop and captive solar incentives",
+      "source": "INDX-SOLAR",
+      "family": "Enterprise renewable energy",
+      "support": "policy-linked finance and regulatory facilitation",
+      "benefit": "Industrial/commercial rooftop and captive solar projects (including eligible solar+storage) may access applicable amended MSME/industrial incentives and solar-policy tax/regulatory facilitation; independent subsidy availability requires applicable policy review.",
+      "eligible": "Eligible industrial/commercial consumer with approved rooftop/captive plant; MSMEeligibility and self-use test under MSME 2023 when using that policy.",
+      "access": "UREDA/UPCL approval for grid connectivity/net-metering or captive system; Industries CAF and subsequent relevant incentive claim if eligible.",
+      "macros": [
+        9,
+        10
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "pattern": "solar|photovoltaic|renewable|captive",
+      "caution": "Existence verified; current intake and available budget not established as of 2 October 2026. Confirm with implementing office before investment. Solar 2023 quotes older MSME 2015 caps; use 2023 operative conditions rather than presenting both as cumulative entitlements. Residential rooftop grants excluded.",
+      "locator": "Solar Policy 2023 section 8.2.3, read with MSMEguideline 7 and 10–11."
+    },
+    {
+      "code": "INDX-FILM24",
+      "name": "Uttarakhand Film Policy 2024 — film, OTT and documentary subsidy",
+      "source": "INDX-FILM",
+      "family": "Film and media production",
+      "support": "production subsidy",
+      "benefit": "Post-shooting/post-release film, selected OTTwebseries, TVserial, documentary/short-film subsidy route; rate/cap must be checked against Film Policy 2024 schedule.",
+      "eligible": "Project complying with Film Policy 2024; affidavit 75% or more shot in state, verified geotagged shooting-days evidence,4 K/Dolby Digital record, artist/technician payment NOCs and required credits.",
+      "access": "Submit subsidy proposal to Uttarakhand Film Development Council after release and within 1 year of censor certificate; March 31/October 31 proposals considered July/January meetings respectively; Council approval required.",
+      "macros": [
+        12
+      ],
+      "stages": [
+        3
+      ],
+      "pattern": "film|web series|documentary|video|animation|post.production",
+      "caution": "Precise subsidy entitlement remains indicative pending policy schedule. At least 90% production expenses paid by bank/digital channels; Council may reject subject to quality, compliance and budget. Current intake/budget unconfirmed.",
+      "locator": "Guidelinesclauses 1–18 and 20–25."
+    },
+    {
+      "code": "INDX-PRIVATE-ESTATE23",
+      "name": "Private Industrial Estates/Areas Policy 2023",
+      "source": "INDX-POLICYINDEX",
+      "family": "Industrial estate development",
+      "support": "capital/common infrastructure support",
+      "benefit": "Policy-linked infrastructure and development incentives for private industrial estates; exact grant rates, area thresholds and schedule pending verified transcription.",
+      "eligible": "Private industrial-estate/area developer meeting policy and approvals; individual tenant-unit benefits cannot be assumed.",
+      "access": "Contact Directorate of Industries/DIC and use Invest Uttarakhand CAF; verify policy registration and operative incentive procedure before development.",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stages": [
+        11
+      ],
+      "pattern": "industrial estate|industrial park|industrial area|factory|manufactur",
+      "caution": "Officialpolicyandoperativeguideline are linked in current index; scanned schedule not transcribed. Indicative-only access/eligibility; sanction, land/area conditions and budget require written confirmation.",
+      "locator": "act_english 1713169036. pdf; policy_guideline_eng 1713169122. pdf"
+    },
+    {
+      "code": "INDX-DRONE23",
+      "name": "Uttarakhand Drone Promotion and Usage Policy 2023",
+      "source": "INDX-DRONE",
+      "family": "Drone enterprise development",
+      "support": "policy-linked enterprise support",
+      "benefit": "DPR preparation/technical investment certification reimbursed 50%, cap₹5 lakh post operations. Lease support: DSDM year 1/2/3–5 rates 75/50/25%, annualcaps₹20/15/10 lakh; De S annualcaps₹10/7.5/5 lakh at same rates. ITDA premises 50% notifiedrent discount. Nonrecreational De S support links net SGST plus equivalent cash, subject created corpus availability.",
+      "eligible": "Drone System Design and Manufacturing (DSDM) and Drone Enabled Services (De S) enterprises; DPR/lease incentives for new state operations or expansion≥25% fixedcapital during operativeperiod.",
+      "access": "Online incentive application/approval/disbursement through ITDA prescribed website; State Drone Coordination Cell supports permits and enterprise coordination.",
+      "macros": [
+        6,
+        9,
+        12
+      ],
+      "stages": [
+        2,
+        3,
+        6
+      ],
+      "pattern": "drone|unmanned|UAV",
+      "caution": "No identical benefit from another state/central scheme unless expressly permitted. Leasebase lower actual or land 12% circle-rate/BUA₹40 per sqft limits. Nonrecreational corpus details require notification; policy existence does not establish fundedintake. Confirm applicable validity, claims and budget.",
+      "locator": "Policychapter 7 printedpp 24–26; SDCCchapter 6 printedp 21."
+    },
+    {
+      "code": "INDX-AYUSH23",
+      "name": "Uttarakhand AYUSH Policy 2023 — manufacturing investment support",
+      "source": "INDX-AYUSH",
+      "family": "AYUSH and wellness enterprise",
+      "support": "policy-linked investment support",
+      "benefit": "AYUSH manufacturing policy provides up to 10% extra capital subsidy on building/plant/machinery under applicable MSMEpolicy; latest MSMEand Megaindustrial policies govern by project size.",
+      "eligible": "AYUSH manufacturing units meeting applicable MSME/Mega eligibility and drug/GMP regulations; operative priority-category tests control exact additional rate/cap.",
+      "access": "Directorate of AYUSH/Industries single-window CAF and relevant MSME/Mega incentive claim; confirm identified activity and one bonus-category eligibility.",
+      "macros": [
+        7
+      ],
+      "stages": [
+        2
+      ],
+      "pattern": "AYUSH|Ayurved|Unani|Homeopath|herbal|medicinal|aromatic",
+      "caution": "Apply MSME 2023 most-priority category and one-category bonus restrictions; headline extra 10% cannot be stacked again as independent AYUSH grant. Current intake/budget unconfirmed.",
+      "locator": "AYUSHpolicysection 6.2 printedp 16; MSMEguideline 10 additionalcapitaltable."
+    },
+    {
+      "code": "INDX-EXPORT21",
+      "name": "Uttarakhand Export Policy — exporter assistance",
+      "source": "INDX-POLICYINDEX",
+      "family": "Export development",
+      "support": "policy-linked market and certification support",
+      "benefit": "State exporter-assistance route covering prescribed exportpromotion/market/certification measures; policy chapter 7.5 calls monetary incentives indicative.",
+      "eligible": "Exporters or intending exporters under policy IECdefinition and state eligibility; beneficiary-specific schedule pending operativeguideline transcription.",
+      "access": "Contact Directorate of Industries/DIC export desk through Invest Uttarakhand; confirm current exportpolicyversion and operative claim service.",
+      "macros": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13
+      ],
+      "stages": [
+        10
+      ],
+      "pattern": "export",
+      "caution": "Indicative-only financial/access details; officialindexanddocument say 2021 while some 2023 summaries differ. Five-year validity from notification; current continuation/intake requires confirmation.",
+      "locator": "act_english 1639026865. pdfchapter 4,6,7.5; scannedoperationalpolicy_guideline 1712734478. pdf."
+    },
+    {
+      "code": "INDX-PUMPED23",
+      "name": "Uttarakhand Pumped Storage Policy 2023",
+      "source": "INDX-POLICYINDEX",
+      "family": "Renewable energy storage",
+      "support": "project development/regulatory facilitation",
+      "benefit": "State pumpedstorageproject development policy; financial incentives and allocation terms require operative project-specific review.",
+      "eligible": "Eligible pumpedstorage developer/project under Energy Departmentapproval, site/water/grid and environmental conditions.",
+      "access": "Contact Energy Department and single-windowfacilitation for policy/projectallocation and requisiteapprovals.",
+      "macros": [
+        10
+      ],
+      "stages": [
+        3,
+        11
+      ],
+      "pattern": "pumped.storage",
+      "caution": "Indicative-only policy existence from officialindex; not a small-enterprise automatic capital grant. Financial schedule/intakeunverified.",
+      "locator": "act_english 1708085828. pdf"
+    },
+    {
+      "code": "INDX-HELIPAD",
+      "name": "Private Helipad and Heliport Policy 2023 — private development capital subsidy",
+      "source": "INDX-HELIPAD-POLICY",
+      "family": "Tourism and transport infrastructure",
+      "support": "project development support",
+      "benefit": "Option 2 offers 50% of the lower of actual eligible capital expenditure or UCADA-approved CAPEX estimate, in two equal instalments after 50% of work and three months after commercial operations.",
+      "eligible": "Landowner selected through a UCADA EOI in a notified area. Helipad requires at least 1,000 sqm flat land with 30 m × 30 m dimensions; heliport at least 4,000 sqm with sides at least 50 m. Road access and DGCA requirements apply; EOI may modify norms.",
+      "access": "Participate in UCADA EOI, obtain conditional development licence, finance and build, then seek COD within one year. Obtain DGCA and other approvals; claim through the UCADA procedure.",
+      "macros": [
+        11,
+        14
+      ],
+      "stages": [
+        9,
+        11
+      ],
+      "pattern": "helipad|heliport",
+      "caution": "Valid to 31 March 2028 unless superseded. Current EOI intake and budget unconfirmed. Keep licensed operations for ten years and allow free government emergency access; claim guidelines and sanctions govern payment.",
+      "locator": "Policysections 3,5 Option 2, and 7 PDFpp 2,7–10."
+    },
+    {
+      "code": "INDX-CUSTOMPACKAGE",
+      "name": "Customized Incentive Package — major investment",
+      "source": "INDX-POLICYINDEX",
+      "family": "Large strategic investment",
+      "support": "negotiated investment package",
+      "benefit": "Case-specific customized incentive consideration for qualifyingmajorinvestment; no automatic uniformgrantamount.",
+      "eligible": "Investor/project satisfying customizedpackageguideline thresholds and prescribed strategic criteria.",
+      "access": "Approach Directorateof Industries/Invest Uttarakhand with CAFandprojectproposal; seekwrittencompetentcommitteeapproval and compare Mega 2025 choice.",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "stages": [
+        2,
+        3,
+        11
+      ],
+      "pattern": null,
+      "caution": "Indicative-only scannedguideline; minimum investment/eligible activities and sanction terms must be verified. Mega 2025 guidelines include transitional switchprocess; no doubledpackage assumed.",
+      "locator": "act_english 1708763781. pdf; Mega 2025 guidelines 11."
+    },
+    {
+      "code": "INDX-DRONE-SCHOOL",
+      "name": "Drone Policy 2023 — drone school and RPTO equipment subsidy",
+      "source": "INDX-DRONE",
+      "family": "Drone skilling",
+      "support": "training-infrastructure capital subsidy",
+      "benefit": "50% of drone equipment and drone-related software costs to introduce courses, up to ₹1 crore per institute, in five equal annual instalments after the first student batch.",
+      "eligible": "Drone schools, RPTOs and institutes introducing drone courses and meeting SDCC, DGCA and relevant Sector Skill Council requirements.",
+      "access": "Apply to the State Drone Coordination Cell / ITDA with relevant documents, obtain required permissions and use the prescribed online incentive service.",
+      "macros": [
+        12,
+        13
+      ],
+      "stages": [
+        3,
+        6,
+        11
+      ],
+      "pattern": "drone|RPTO|remote pilot",
+      "caution": "Current intake and budget unconfirmed. CAPEX for private CoE partners is determined by bidding documents; this course-equipment rate is a distinct component.",
+      "locator": "Policychapter 7 printedp 26; Drone Schoolsconditionsp 17."
+    },
+    {
+      "code": "INDX-AYUSH-WELLNESS",
+      "name": "AYUSH Policy 2023 — rated wellness capital top-up",
+      "source": "INDX-AYUSH",
+      "family": "Wellness investment",
+      "support": "tourism-linked capital top-up",
+      "benefit": "Additional 5% capital subsidy on eligible assets for wellness centres, hotels and resorts in Tourism Policy 2023 regions B/C; payout follows Tourism Policy guidelines.",
+      "eligible": "AYUSH Department registered wellness player with at least three stars under the accreditation and rating system; Tourism Policy location and project conditions apply.",
+      "access": "Secure AYUSH registration and rating plus Tourism CAF approval, then claim through the applicable UTDB / TIFC procedure.",
+      "macros": [
+        11,
+        13
+      ],
+      "stages": [
+        3
+      ],
+      "pattern": "wellness|AYUSH|Ayurved|yoga|naturopath",
+      "caution": "Current intake and budget unconfirmed. Tourism B/C geography differs from MSME categories; SGST-linked payout and anti-duplication conditions apply.",
+      "locator": "AYUSHpolicysection 6.4 printedp 18; Tourism Policysection 16."
+    }
+  ],
+  "sharedRoutes": [],
+  "agencies": [
+    {
+      "code": "INDX-INDUSTRIAL",
+      "source": "INDX-POLICYINDEX",
+      "macros": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        14
+      ],
+      "title": "Directorate of Industries / DIC, Uttarakhand",
+      "outcome": "verified-applicable: MSME 2023 components, MSY 2, Logistics 2023 and Mega 2025 guideline; candidate-pending scanned specialist policy tables"
+    },
+    {
+      "code": "INDX-PLANNING",
+      "source": "INDX-SERVICE",
+      "macros": [
+        11,
+        12,
+        13
+      ],
+      "title": "Planning Department / designated service-sector approval authority",
+      "outcome": "verified-applicable: Service Sector 2024 operative policy; intake and budget unconfirmed"
+    },
+    {
+      "code": "INDX-UREDA",
+      "source": "INDX-MSSY",
+      "macros": [
+        10
+      ],
+      "title": "UREDA / Energy Department / UPCL",
+      "outcome": "verified-applicable: MSSY 2023 revision and Solar 2023 enterprise route; current tariff/lender terms/allotment pending"
+    },
+    {
+      "code": "INDX-RAMP",
+      "source": "INDX-RAMP",
+      "macros": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        14
+      ],
+      "title": "MSME Department, Uttarakhand RAMP",
+      "outcome": "intermediary-only: approved SIP projects; no automatic individual grant schedule established"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Uttarakhand RAMP SIP projects",
+      "disposition": "intermediary-only",
+      "reason": "Approved ₹83.05 crore SIP lists Avishkaar, quality champions, market access, SME exchange and facilitation projects. Individual grant terms or active calls were not verified.",
+      "sources": [
+        "INDX-RAMP"
+      ]
+    },
+    {
+      "name": "MSY 2.0 financial slabs",
+      "disposition": "publishable",
+      "reason": "Full official PDF recovered; slabs, contribution, boosters, eligibility and application process verified under stable MSY-2 record.",
+      "sources": [
+        "MSY"
+      ]
+    },
+    {
+      "name": "Earlier MSY and MSY Nano",
+      "disposition": "duplicate/alias",
+      "reason": "Merged into MSY 2.0; not counted as separate current applications.",
+      "sources": [
+        "MSY"
+      ]
+    },
+    {
+      "name": "Mega Industrial Policy 2021 and 2024 draft",
+      "disposition": "closed/superseded",
+      "reason": "Mega Policy 2025 notified on 15 July 2025 and implementation guidelines published in 2026. Legacy claims and transitional rights may remain; fresh 2021 applications are not assumed.",
+      "sources": [
+        "INDX-MEGA25",
+        "INDX-MEGAPOLICY"
+      ]
+    },
+    {
+      "name": "Startup Policy 2023 allowance and incubator schedules",
+      "disposition": "unverified-lead",
+      "reason": "Official policy retrieved as a scan; current report and legacy 2018 allowance figures conflict. Existing startup route retained without unverified monetary figures.",
+      "sources": [
+        "INDX-POLICYINDEX"
+      ]
+    },
+    {
+      "name": "EV Manufacturing Policy 2018 and EV 2019 consumer policy",
+      "disposition": "unverified-lead",
+      "reason": "Older official references located; operative continuation and consumer-subsidy status unresolved. Do not treat a draft policy as a current purchase grant.",
+      "sources": [
+        "INDX-POLICYINDEX"
+      ]
+    },
+    {
+      "name": "ICT/Electronics Policy 2016–2025 and IT 2018",
+      "disposition": "no-current-intake",
+      "reason": "The 2016–2025 horizon has passed and continuation of old incentives was not verified. New large IT/GCC/data-centre access is represented under Service Sector Policy 2024.",
+      "sources": [
+        "INDX-SERVICE"
+      ]
+    },
+    {
+      "name": "Aerospace and Defence Policy 2020",
+      "disposition": "no-current-intake",
+      "reason": "Official summary uses establishment window through 31 March 2025; no extension was verified. Keep as legacy rather than new-unit entitlement.",
+      "sources": [
+        "INDX-POLICYINDEX"
+      ]
+    },
+    {
+      "name": "Paryatan Udyami 2024 and homestay financial schedules",
+      "disposition": "unverified-lead",
+      "reason": "Official policy and updated guidelines retrieved as scans; exact amended financial/registration terms need transcription. Existing stable routes retained without new unverified figures.",
+      "sources": [
+        "INDX-POLICYINDEX"
+      ]
+    },
+    {
+      "name": "Export Policy 2021 versus Export Policy 2023",
+      "disposition": "unverified-lead",
+      "reason": "Current index and policy document say 2021, while some official sector summaries refer to 2023. The policy has a five-year term from notification and indicative financial chapter; operative scan and continuation need verification.",
+      "sources": [
+        "INDX-EXPORT",
+        "INDX-POLICYINDEX"
+      ]
+    },
+    {
+      "name": "Private industrial estate, customized package and pumped storage financial schedules",
+      "disposition": "unverified-lead",
+      "reason": "Official policy existence retained as indicative routes. Exact financial, land and application terms remain pending; no numeric entitlement inferred.",
+      "sources": [
+        "INDX-POLICYINDEX"
+      ]
+    }
+  ],
+  "failedAccess": [],
+  "coverageNotes": [
+    "Research cutoff: 2 October 2026. Enterprise policies examined across manufacturing, pharma, food processing, crafts, renewable energy, logistics, tourism, IT/media, health/education and exports. Policy existence does not establish current intake or available budget.",
+    "MSME component routes have distinct claim bases and deadlines; additional capital categories remain part of the capital route. Service Sector Policy 2024 remains one cross-sector policy with project thresholds.",
+    "Specialist activity records and regex predicates restrict drone, film, AYUSH, pumped storage, helipad, export and industrial-estate mappings. Eligibility and investment thresholds remain conditions on every mapping.",
+    "Scanned specialist policies represented through official index evidence are indicative only where their financial schedule or current approval channel is unresolved.",
+    "MSME Category D micro capital rate is 20%, and the medium ceiling is ₹1.50 crore under the operative guideline; secondary summaries quoting 15% or ₹1 crore were rejected.",
+    "MSME interest support runs for three years from the first term-loan disbursement, despite FAQ wording from production. Rudraprayag is MSME Category A; Tourism Policy uses different A/B/C geography.",
+    "MSY 2.0 full PDF recovered through direct retrieval; operative margin-money slabs, own contribution, boosters and eligibility now replace the earlier partial-index finding.",
+    "RAMP adoption checked through the Ministry of MSME Uttarakhand SIP page. Approved institutional project outlay does not create an automatic per-enterprise grant.",
+    "Mega Policy 2025 financial and eligibility tables verified visually from official scanned PDF pages 7–9, with claim access confirmed in 2026 implementation guidelines."
+  ],
+  "activities": [
+    [
+      "INDX-DRONE-MAKE",
+      "Drone system design and manufacturing",
+      "Drone enterprises",
+      9,
+      2
+    ],
+    [
+      "INDX-DRONE-SERVICE",
+      "Drone enabled agriculture and industrial services",
+      "Drone enterprises",
+      6,
+      3
+    ],
+    [
+      "INDX-DRONE-RPTO",
+      "Drone school and remote pilot training organisation",
+      "Drone skilling",
+      13,
+      3
+    ],
+    [
+      "INDX-FILM",
+      "Film web series and documentary production",
+      "Film and media",
+      12,
+      3
+    ],
+    [
+      "INDX-AYUSH-MAKE",
+      "AYUSH herbal medicine manufacturing",
+      "AYUSH manufacture",
+      7,
+      2
+    ],
+    [
+      "INDX-WELLNESS",
+      "Accredited wellness yoga and Ayurveda resort",
+      "AYUSH wellness tourism",
+      11,
+      3
+    ],
+    [
+      "INDX-PUMPED",
+      "Pumped storage hydropower project development",
+      "Energy storage",
+      10,
+      3
+    ],
+    [
+      "INDX-HELIPAD",
+      "Private helipad and heliport development",
+      "Aviation infrastructure",
+      14,
+      9
+    ],
+    [
+      "INDX-ESTATE",
+      "Private industrial estate and park development",
+      "Industrial common infrastructure",
+      9,
+      11
+    ],
+    [
+      "INDX-CLUSTER",
+      "MSME cluster common facility centre",
+      "Cluster common infrastructure",
+      9,
+      11
+    ],
+    [
+      "INDX-SOLAR",
+      "Industrial rooftop and captive solar plant",
+      "Enterprise renewable energy",
+      10,
+      3
+    ],
+    [
+      "INDX-EXPORT",
+      "Manufactured products export market development",
+      "Export enterprise",
+      9,
+      10
+    ]
+  ]
+}

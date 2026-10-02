@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "state-pack-1",
+  "legacy": [
+    {
+      "name": "MSY 2020 and MSY Nano 2021",
+      "position": "Merged into MSY 2.0",
+      "why": "Official MSY 2.0 notification records the merger.",
+      "alt": "Confirm MSY 2.0 through DIC.",
+      "src": "https://startuputtarakhand.uk.gov.in/attachments/MSY.pdf"
+    },
+    {
+      "name": "Older urban homestay references",
+      "position": "Current registration conditions changed",
+      "why": "June 2026 declaration requires rural location and permanent state residency.",
+      "alt": "Use current UTDB registration rules.",
+      "src": "https://homestay.uttarakhandtourism.gov.in/signup"
+    }
+  ]
+}

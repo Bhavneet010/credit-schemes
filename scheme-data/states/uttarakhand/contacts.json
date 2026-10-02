@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "state-pack-1",
+  "contacts": [
+    {
+      "name": "MSME Department, Uttarakhand",
+      "use": "Food and beverage processing; Pharma medical devices biotechnology and AYUSH; Textiles wool handicrafts forest products and packaging; Engineering electronics defence and general manufacturing; Renewable energy circular economy chemicals and construction materials",
+      "url": "https://investuttarakhand.uk.gov.in/swcsincentive/common/protected/msme_policy/MSMEpolicy.pdf",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "DPIIT / Startup India",
+      "use": "Agri organisations markets and technology; Pharma medical devices biotechnology and AYUSH; Engineering electronics defence and general manufacturing; Renewable energy circular economy chemicals and construction materials; IT digital media and creative services",
+      "url": "https://www.startupindia.gov.in/srf/portal/SRF_2026_Result_page/Uttarakhand_State_Report.pdf",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Uttarakhand Tourism Development Board",
+      "use": "Tourism hospitality wellness and events",
+      "url": "https://nivesh.uttarakhandtourism.gov.in/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Horticulture and Food Processing Department, Uttarakhand",
+      "use": "Horticulture floriculture and specialty crops; Fisheries beekeeping and sericulture; Agri post-harvest infrastructure and logistics; Food and beverage processing",
+      "url": "https://shm.uk.gov.in/dbt-scheme/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Agriculture Department, Uttarakhand",
+      "use": "Field agriculture and crop services; Horticulture floriculture and specialty crops; Agri post-harvest infrastructure and logistics; Agri organisations markets and technology",
+      "url": "https://agriculture.uk.gov.in/schemes-programmes/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Animal Husbandry Department, Uttarakhand",
+      "use": "Livestock dairy poultry and animal enterprises",
+      "url": "https://ahd.uk.gov.in/hi/योजनाएं/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Fisheries Department, Uttarakhand",
+      "use": "Fisheries beekeeping and sericulture",
+      "url": "https://fisheries.uk.gov.in/scheme/mukhyamantri-matsysa-sampada-yojna/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Cooperative Department, Uttarakhand",
+      "use": "Field agriculture and crop services; Horticulture floriculture and specialty crops; Livestock dairy poultry and animal enterprises; Fisheries beekeeping and sericulture; Agri post-harvest infrastructure and logistics; Food and beverage processing; Agri organisations markets and technology; Textiles wool handicrafts forest products and packaging; Transport logistics retail repair and local services",
+      "url": "https://cooperative.uk.gov.in/schemes-programmes/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Dairy Development Department, Uttarakhand",
+      "use": "Livestock dairy poultry and animal enterprises; Food and beverage processing",
+      "url": "https://dairyvikasuttarakhand.in/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "UREDA, Uttarakhand",
+      "use": "Renewable energy circular economy chemicals and construction materials",
+      "url": "https://ureda.uk.gov.in/solar-energy-schemes/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Rural Development Department, Uttarakhand",
+      "use": "Field agriculture and crop services; Horticulture floriculture and specialty crops; Livestock dairy poultry and animal enterprises; Fisheries beekeeping and sericulture; Food and beverage processing; Agri organisations markets and technology; Textiles wool handicrafts forest products and packaging; Tourism hospitality wellness and events; Transport logistics retail repair and local services",
+      "url": "https://ukrd.uk.gov.in/dehradun/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Social Welfare Department, Uttarakhand",
+      "use": "Field agriculture and crop services; Horticulture floriculture and specialty crops; Livestock dairy poultry and animal enterprises; Fisheries beekeeping and sericulture; Agri post-harvest infrastructure and logistics; Food and beverage processing; Agri organisations markets and technology; Pharma medical devices biotechnology and AYUSH; Textiles wool handicrafts forest products and packaging; Engineering electronics defence and general manufacturing; Renewable energy circular economy chemicals and construction materials; Tourism hospitality wellness and events; IT digital media and creative services; Healthcare education skills and professional services; Transport logistics retail repair and local services",
+      "url": "https://socialwelfare.uk.gov.in/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Minority Welfare Department, Uttarakhand",
+      "use": "Field agriculture and crop services; Horticulture floriculture and specialty crops; Livestock dairy poultry and animal enterprises; Fisheries beekeeping and sericulture; Agri post-harvest infrastructure and logistics; Food and beverage processing; Agri organisations markets and technology; Pharma medical devices biotechnology and AYUSH; Textiles wool handicrafts forest products and packaging; Engineering electronics defence and general manufacturing; Renewable energy circular economy chemicals and construction materials; Tourism hospitality wellness and events; IT digital media and creative services; Healthcare education skills and professional services; Transport logistics retail repair and local services",
+      "url": "https://minoritywelfare.uk.gov.in/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Directorate of Training and Employment, Uttarakhand",
+      "use": "Healthcare education skills and professional services",
+      "url": "https://rojgar.uk.gov.in/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Forest Department, Uttarakhand",
+      "use": "Horticulture floriculture and specialty crops; Textiles wool handicrafts forest products and packaging; Renewable energy circular economy chemicals and construction materials",
+      "url": "https://forest.uk.gov.in/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Development Commissioner MSME",
+      "use": "Food and beverage processing; Pharma medical devices biotechnology and AYUSH; Textiles wool handicrafts forest products and packaging; Engineering electronics defence and general manufacturing; Renewable energy circular economy chemicals and construction materials; IT digital media and creative services; Healthcare education skills and professional services; Transport logistics retail repair and local services",
+      "url": "https://cluster.dcmsme.gov.in/CFCRPT/CFC_DiDirectory.aspx",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "SIDBI",
+      "use": "Food and beverage processing; Pharma medical devices biotechnology and AYUSH; Textiles wool handicrafts forest products and packaging; Engineering electronics defence and general manufacturing; Renewable energy circular economy chemicals and construction materials; Tourism hospitality wellness and events; IT digital media and creative services; Healthcare education skills and professional services; Transport logistics retail repair and local services",
+      "url": "https://www.sidbi.in/en/branch-office",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Department of Pharmaceuticals",
+      "use": "Pharma medical devices biotechnology and AYUSH; Engineering electronics defence and general manufacturing; IT digital media and creative services",
+      "url": "https://pharma-dept.gov.in/schemes/scheme-promotion-bulk-drug-",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "DGFT",
+      "use": "Field agriculture and crop services; Horticulture floriculture and specialty crops; Agri post-harvest infrastructure and logistics; Food and beverage processing; Pharma medical devices biotechnology and AYUSH; Textiles wool handicrafts forest products and packaging; Engineering electronics defence and general manufacturing; Tourism hospitality wellness and events; IT digital media and creative services",
+      "url": "https://content.dgft.gov.in/Website/dgftprod/218ff804-081d-425f-95a4-ff4b7c5e3575/DGFT%20FAQs%20-%20Advance%20Authorisation%20v1.0.pdf",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Centre for Aromatic Plants, Uttarakhand",
+      "use": "Field agriculture and crop services; Horticulture floriculture and specialty crops; Agri post-harvest infrastructure and logistics; Agri organisations markets and technology",
+      "url": "https://www.capuk.in/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Uttarakhand Tea Development Board",
+      "use": "Field agriculture and crop services; Food and beverage processing; Agri organisations markets and technology",
+      "url": "https://utdb.uk.gov.in/organization/nauti-tea-garden-factory/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Sericulture Department Uttarakhand",
+      "use": "Fisheries beekeeping and sericulture; Textiles wool handicrafts forest products and packaging; Agri organisations markets and technology",
+      "url": "https://silk.uk.gov.in/about-department/objectives-functions/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Directorate of Industries, Uttarakhand",
+      "use": "Food and beverage processing; Pharma medical devices biotechnology and AYUSH; Textiles wool handicrafts forest products and packaging; Engineering electronics defence and general manufacturing; Renewable energy circular economy chemicals and construction materials; IT digital media and creative services; Transport logistics retail repair and local services",
+      "url": "https://investuttarakhand.uk.gov.in/site/Policies",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Planning Department, Government of Uttarakhand",
+      "use": "Tourism hospitality wellness and events; IT digital media and creative services; Healthcare education skills and professional services",
+      "url": "https://cdnbbsr.s3waas.gov.in/s35074dcf630ca6ff1602cc3ac043b698d/uploads/2025/06/20250826751283515.pdf",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Energy Department / UREDA, Uttarakhand",
+      "use": "Renewable energy circular economy chemicals and construction materials",
+      "url": "https://cdnbbsr.s3waas.gov.in/s373f490f3f868edbcd80b5d3f7cedc403/uploads/2025/01/20250128431463106.pdf",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Ministry of MSME, Government of India",
+      "use": "Food and beverage processing; Agri organisations markets and technology; Pharma medical devices biotechnology and AYUSH; Textiles wool handicrafts forest products and packaging; Engineering electronics defence and general manufacturing; Renewable energy circular economy chemicals and construction materials; IT digital media and creative services; Transport logistics retail repair and local services",
+      "url": "https://ramp.msme.gov.in/ramp/state-collaboration/uttarakhand",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Uttarakhand Bahuuddeshiya Vitt Evam Vikas Nigam",
+      "use": "Food and beverage processing; Agri organisations markets and technology; Textiles wool handicrafts forest products and packaging; Engineering electronics defence and general manufacturing; Transport logistics retail repair and local services",
+      "url": "https://www.ukbvvn.org.in/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Uttarakhand State Rural Livelihoods Mission",
+      "use": "Field agriculture and crop services; Horticulture floriculture and specialty crops; Livestock dairy poultry and animal enterprises; Fisheries beekeeping and sericulture; Food and beverage processing; Agri organisations markets and technology; Textiles wool handicrafts forest products and packaging; Transport logistics retail repair and local services",
+      "url": "https://usrlm.uk.gov.in/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Uttarakhand Khadi and Village Industries Board",
+      "use": "Livestock dairy poultry and animal enterprises; Food and beverage processing; Agri organisations markets and technology; Textiles wool handicrafts forest products and packaging; Engineering electronics defence and general manufacturing",
+      "url": "https://ukvib.org/uttarakhand-wool-plan",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Urban Development Department, Uttarakhand",
+      "use": "Food and beverage processing; Agri organisations markets and technology; Textiles wool handicrafts forest products and packaging; Transport logistics retail repair and local services",
+      "url": "https://udd.uk.gov.in/deendayal-antyodaya-yojna-national-urban-livelihood-mission-day-nulm/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Development Commissioner Handlooms / India Handloom Brand",
+      "use": "Agri organisations markets and technology; Textiles wool handicrafts forest products and packaging",
+      "url": "https://www.indiahandloombrand.gov.in/pages/contact-details-of-wscs",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Minority Welfare Department, Uttarakhand",
+      "use": "Food and beverage processing; Textiles wool handicrafts forest products and packaging; Healthcare education skills and professional services; Transport logistics retail repair and local services",
+      "url": "https://minoritywelfare.uk.gov.in/about-department/vision-mission/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    },
+    {
+      "name": "Department of Skill Development and Employment, Uttarakhand",
+      "use": "Healthcare education skills and professional services",
+      "url": "https://dsde.uk.gov.in/skill-development-mission/",
+      "note": "Official programme page. Confirm the current application channel and sanction conditions with the department."
+    }
+  ]
+}
